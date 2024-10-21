@@ -1,9 +1,6 @@
 const  BitSatExamPage = () => {
-    return 
-    (
-        <div>
-            Welcome to bitsat exam page. 
-        </div>
+    return(
+        <div>Welcome to BITSAT exam page</div>
     )
 }
 
