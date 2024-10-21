@@ -22,7 +22,8 @@ const AppBar = () => {
                         {/* Menu Items */}
                         <div className="md:block">
                             <div className="ml-10 flex items-baseline space-x-4 text-white">
-                                <Link to="/exam" className="hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium">Exam</Link>
+                            
+                                <Link to="/exam" className="hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium" id="dropdownDefaultButton" drop-down-toggle = "dropdownhover" data-dropdown-tigger="hover">Exam</Link>
                                 <Link to="/councelling" className="hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium">Counselling</Link>
                                 <Link to="/mentorship" className="hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium">Mentorship</Link>
 

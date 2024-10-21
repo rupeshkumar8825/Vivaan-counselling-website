@@ -45,7 +45,7 @@ const routes = [
 
     // councelling related routes comes here
     {
-        path : "/councelling", 
+        path : "/counselling", 
         component : <CouncellingHomePage/>
     }
 ]

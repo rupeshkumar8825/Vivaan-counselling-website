@@ -5,3 +5,9 @@ export interface IRoute {
     component : JSX.Element
 }
 
+
+export interface IDropDownMenu {
+    menuName : string, 
+    subMenuList : string[]
+    routesList : string[]
+}
