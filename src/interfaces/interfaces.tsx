@@ -7,6 +7,8 @@ export interface IRoute {
 
 
 export interface IDropDownMenu {
+    buttonId : string, 
+    divId  : string,
     menuName : string, 
     subMenuList : string[]
     routesList : string[]

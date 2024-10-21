@@ -1,4 +1,9 @@
 import { Link } from "react-router-dom"
+import DropDownMenu from "./DropDownMenu"
+import { counsellingRouteList, counsellingSubMenuList, examRouteList, examSubMenuList, mentorshipRouteList, mentorshipSubMenuList } from "../constants/AppBarConstants"
+
+
+
 
 const AppBar = () => {
     
@@ -22,14 +27,15 @@ const AppBar = () => {
                         {/* Menu Items */}
                         <div className="md:block">
                             <div className="ml-10 flex items-baseline space-x-4 text-white">
-                            
-                                <Link to="/exam" className="hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium" id="dropdownDefaultButton" drop-down-toggle = "dropdownhover" data-dropdown-tigger="hover">Exam</Link>
-                                <Link to="/councelling" className="hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium">Counselling</Link>
-                                <Link to="/mentorship" className="hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium">Mentorship</Link>
+                                {/* Drop down menus comes here */}
+                                {/* EXAM menu */}
+                                <DropDownMenu buttonId="ExamButtonId" divId="ExamDivId" menuName="Exams" subMenuList={examSubMenuList} routesList={examRouteList}></DropDownMenu>
 
-                                {/* <a href="/exam" className="hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium">Exam</a>
-                                <a href="/councelling" className="hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium">Counselling</a>
-                                <a href="/mentorship" className="hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium">Mentorship</a> */}
+                                {/* Counselling Menu */}
+                                <DropDownMenu buttonId="CounsellingButtonId" divId="CounsellingDivId" menuName="Counselling" subMenuList={counsellingSubMenuList} routesList={counsellingRouteList}></DropDownMenu>
+
+                                {/* Mentorship Menu */}
+                                <DropDownMenu buttonId="MentorshipButtonId" divId="MentorshipDivId" menuName="Mentorship" subMenuList={mentorshipSubMenuList} routesList={mentorshipRouteList}></DropDownMenu>
                             </div>
                         </div>
 
