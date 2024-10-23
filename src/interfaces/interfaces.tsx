@@ -13,3 +13,18 @@ export interface IDropDownMenu {
     subMenuList : string[]
     routesList : string[]
 }
+
+
+export  interface IButtonComponent {
+    buttonName : string, 
+    buttonWidthInRem : string
+}
+
+
+export interface IBannerComponent {
+    bannerText1 : string, 
+    bannerText2 : string, 
+    bannerImage : string, 
+    bannerButtonWidth : string
+    bannerButtonName : string
+}
