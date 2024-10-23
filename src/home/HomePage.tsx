@@ -1,7 +1,11 @@
+import CarouselComponent from "../components/CarouselComponent"
+import HeadingComponent from "../components/HeadingComponent"
+
 const HomePage = () => {
     return (
         <div>
-            Welcome to home page of the councelling appplication
+            <HeadingComponent></HeadingComponent>
+            <CarouselComponent></CarouselComponent>
         </div>
     )
 }
