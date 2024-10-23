@@ -22,7 +22,6 @@ const BannerComponent = (props : IBannerComponent) => {
                                 <img src={props.bannerImage} className="w-half h-3/4 rounded-xl" alt="Loading" />
                             </div>
                         </div>
-                        
                     </div>
     )
 }

@@ -6,7 +6,7 @@ import routes from './routes/routes'
 function App() {
 
   return (
-    <div className='bg-blue border-4 border-red-500 min-h-screen'>
+    <div className='bg-blue min-h-screen'>
         <Router>
           <AppBarComponent></AppBarComponent>
           <Routes>
