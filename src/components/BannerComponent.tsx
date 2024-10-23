@@ -18,8 +18,8 @@ const BannerComponent = (props : IBannerComponent) => {
                                 {/* button  for going to get the councelling page */}
                                 <ButtonComponent buttonName={props.bannerButtonName} buttonWidthInRem={props.bannerButtonWidth}></ButtonComponent>
                             </div>
-                            <div className="">
-                                <img src={props.bannerImage} className="w-half h-full" alt="Loading" />
+                            <div className="flex justify-center items-center">
+                                <img src={props.bannerImage} className="w-half h-3/4 rounded-xl" alt="Loading" />
                             </div>
                         </div>
                         

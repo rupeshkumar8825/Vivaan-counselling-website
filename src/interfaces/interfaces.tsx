@@ -28,3 +28,8 @@ export interface IBannerComponent {
     bannerButtonWidth : string
     bannerButtonName : string
 }
+
+export interface IHeadingComponent {
+    headingName : string
+    headingSpanName : string
+}
