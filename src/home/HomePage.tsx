@@ -4,6 +4,7 @@ import JeeMainCarouselComponent from "./components/JeeMainCarouselComponent"
 import JeeAdvanceCarouselComponent from "./components/JeeAdvanceCarouselComponent"
 import AdmissionAndCouncellingComponent from "./components/AdmissionAndCouncellingComponent"
 import CollegeReviewCutoffComponent from "./components/CollegeReviewCutoffComponent"
+import TestimonialComponent from "./components/TestimonialComponent"
 
 const HomePage = () => {
     return (
@@ -19,6 +20,7 @@ const HomePage = () => {
 
             <AdmissionAndCouncellingComponent></AdmissionAndCouncellingComponent>
             <CollegeReviewCutoffComponent></CollegeReviewCutoffComponent>
+            <TestimonialComponent></TestimonialComponent>
         </div>
     )
 }
