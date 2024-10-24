@@ -2,6 +2,7 @@ import CouncellingCarouselComponent from "./components/CouncellingCarouselCompon
 import HeadingComponent from "../components/HeadingComponent"
 import JeeMainCarouselComponent from "./components/JeeMainCarouselComponent"
 import JeeAdvanceCarouselComponent from "./components/JeeAdvanceCarouselComponent"
+import AdmissionAndCouncellingComponent from "./components/AdmissionAndCouncellingComponent"
 
 const HomePage = () => {
     return (
@@ -14,6 +15,8 @@ const HomePage = () => {
 
             <HeadingComponent headingName="Jee Advance Latest Update" headingSpanName="2025"></HeadingComponent>
             <JeeAdvanceCarouselComponent></JeeAdvanceCarouselComponent>
+
+            <AdmissionAndCouncellingComponent></AdmissionAndCouncellingComponent>
         </div>
     )
 }
