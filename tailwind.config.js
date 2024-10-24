@@ -11,7 +11,9 @@ export default {
       colors: {
         // Configure your colors here
         blue: {
-          DEFAULT : "#0f1825"
+          DEFAULT : "#0f1825", 
+          forComponentBg : "#1a2438", 
+          
         }
       }
     },
