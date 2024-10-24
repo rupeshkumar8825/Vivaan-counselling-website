@@ -4,11 +4,11 @@ interface IBoxModuleComponent {
 }
 
 
-const AdmissionAndCouncellingComponent = () => {
+const CollegeReviewCutoffComponent = () => {
     return (
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center mt-10">
             <div className=" w-4/5 text-center text-white rounded-lg shadow sm:p-8 bg-gray-800 border-gray-700">
-                <h5 className="mb-10 text-3xl font-bold">Admission and Councelling</h5>
+                <h5 className="mb-10 text-3xl font-bold">College Review and Cutoff</h5>
                 {/* <p className="mb-5 text-base text-gray-500 sm:text-lg dark:text-gray-400">Stay up to date and move work forward with Flowbite on iOS & Android. Download the app today.</p> */}
                 <div className="items-center justify-between space-y-4 sm:flex sm:space-y-0 sm:space-x-4 rtl:space-x-reverse">
                     <BoxModuleComponent boxText="JOSAA"></BoxModuleComponent>
@@ -38,4 +38,4 @@ const BoxModuleComponent = (props : IBoxModuleComponent) => {
         </div>
     )
 }
-export default AdmissionAndCouncellingComponent
+export default CollegeReviewCutoffComponent
