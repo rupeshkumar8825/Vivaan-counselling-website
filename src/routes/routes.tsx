@@ -1,6 +1,7 @@
 // File for storing all the routes 
 
 import HomePage from "../home/HomePage";
+import LoginFormPage from "../pages/authentication/LoginFormPage";
 import ComedkCounsellingPage from "../pages/counselling/ComedkCounsellingPage";
 import CouncellingHomePage from "../pages/counselling/CounsellingHomePage";
 import CsabCounsellingPage from "../pages/counselling/CsabCounsellingPage";
@@ -21,6 +22,18 @@ import MentorShipHomePage from "../pages/mentorship/MentorShipHomePage";
 
 
 const routes = [
+    //authentication related routes
+    {
+        path : "/login",
+        component : <LoginFormPage/>
+    },
+    {
+        path : "/register",
+        component : <HomePage/>
+    },
+
+
+
     // exams related routes comes here
     {
         path : "/",

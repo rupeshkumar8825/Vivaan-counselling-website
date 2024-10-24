@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { Link, useNavigate} from "react-router-dom"
 import DropDownMenuComponent from "./DropDownMenuComponent"
 import { counsellingRouteList, counsellingSubMenuList, examRouteList, examSubMenuList, mentorshipRouteList, mentorshipSubMenuList } from "../constants/AppBarConstants"
 
@@ -6,7 +6,14 @@ import { counsellingRouteList, counsellingSubMenuList, examRouteList, examSubMen
 
 
 const AppBarComponent = () => {
-    
+    const navigate = useNavigate()
+    // defining the handlers for the appbar
+    const handleLoginClickHandler = () => {
+        console.log("the user has clicked on the login button and user wants to login to the website")
+        console.log("hence redirecting the user to the appropriate webpage for  this purpose")
+        navigate("/login")
+    }
+
 
     return (
         <div>
@@ -47,7 +54,7 @@ const AppBarComponent = () => {
 
                         {/* Login button */}
                         <div>
-                            <button type="button" className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Login</button>
+                            <button onClick={handleLoginClickHandler} type="button" className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Login</button>
 
                         </div>
 
