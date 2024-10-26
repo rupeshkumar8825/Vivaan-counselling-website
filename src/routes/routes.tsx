@@ -2,6 +2,7 @@
 
 import HomePage from "../home/HomePage";
 import LoginFormPage from "../pages/authentication/LoginFormPage";
+import RegisterFormPage from "../pages/authentication/RegisterFormPage";
 import ComedkCounsellingPage from "../pages/counselling/ComedkCounsellingPage";
 import CouncellingHomePage from "../pages/counselling/CounsellingHomePage";
 import CsabCounsellingPage from "../pages/counselling/CsabCounsellingPage";
@@ -29,7 +30,7 @@ const routes = [
     },
     {
         path : "/register",
-        component : <HomePage/>
+        component : <RegisterFormPage/>
     },
 
 
