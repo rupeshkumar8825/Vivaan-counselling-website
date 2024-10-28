@@ -33,3 +33,8 @@ export interface IHeadingComponent {
     headingName : string
     headingSpanName : string
 }
+
+
+export interface IOverviewSectionComponent {
+    
+}

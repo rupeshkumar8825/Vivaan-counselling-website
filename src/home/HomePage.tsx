@@ -5,8 +5,15 @@ import JeeAdvanceCarouselComponent from "./components/JeeAdvanceCarouselComponen
 import AdmissionAndCouncellingComponent from "./components/AdmissionAndCouncellingComponent"
 import CollegeReviewCutoffComponent from "./components/CollegeReviewCutoffComponent"
 import TestimonialComponent from "./components/TestimonialComponent"
+import { useEffect } from "react"
 
 const HomePage = () => {
+    console.log("the page has rendered")
+
+    useEffect(() => {
+        console.log("inside home page useeffect. The component has redenred this means")
+    }) 
+    
     return (
         <div>
             <HeadingComponent headingName="Councelling Help" headingSpanName="Desk"></HeadingComponent>

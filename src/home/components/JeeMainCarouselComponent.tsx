@@ -1,10 +1,5 @@
 import BannerComponent from "../../components/BannerComponent"
-import first from "../../assets/images/first.svg"
 import second from "../../assets/images/second.svg"
-import third from "../../assets/images/third.svg"
-import fourth from "../../assets/images/fourth.svg"
-import fifth from "../../assets/images/fifth.svg"
-import sixth from "../../assets/images/sixth.svg"
 // this is carousel component for jee mains banner
 const JeeMainCarouselComponent = () => {
     return (
