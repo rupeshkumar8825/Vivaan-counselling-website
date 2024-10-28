@@ -13,12 +13,12 @@ const BlogComponent = () => {
                 <div className="md:col-span-2">
                     {/* here we have to use the map element to iterate over all the blogs contents  */}
                     {JeeMainContentList.map((_ : string, index : number) => (
-                        <BlogSectionComponent headingName={JeeMainsHeadingList[index]} content={JeeMainContentList[index]} />
+                        <BlogSectionComponent headingName={JeeMainsHeadingList[index]} content={JeeMainContentList[index]} headingId={JeeMainHeadingIdList[index]} />
                     ))}
                 </div>
                 {/* Table of Contents */}
                 <div>
-                    <TableOfContentsComponent/>
+                    <TableOfContentsComponent headingIdList={JeeMainHeadingIdList} headingNameList={JeeMainsHeadingList}/>
                 </div>
             </div>
         </div>

@@ -47,5 +47,12 @@ export interface IBlogHeadingComponent {
 
 export interface IBlogComponent {
     headingName : string, 
-    content : string
+    content : string, 
+    headingId : string
+}
+
+
+export interface ITableOfContent {
+    headingIdList : Array<string>, 
+    headingNameList : Array<string>
 }
