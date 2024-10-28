@@ -40,3 +40,12 @@ export interface IVideoCardComponent {
     title : string, 
     content : string
 }
+
+export interface IBlogHeadingComponent {
+    headingName : string, 
+}
+
+export interface IBlogComponent {
+    headingName : string, 
+    content : string
+}

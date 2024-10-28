@@ -1,6 +1,8 @@
 import HeadingComponent from "../../components/HeadingComponent"
 import OverviewSectionComponent from "../../home/components/OverviewSectionComponent"
 import VideoCard from "../../components/VideoCardComponent"
+import BlogHeadingComponent from "../../components/blog/BlogHeadingComponent"
+import BlogComponent from "../../components/blog/BlogComponent"
 
 const JeeMainExamPage = () => {
     return (
@@ -14,10 +16,11 @@ const JeeMainExamPage = () => {
 
                 <VideoCard videoUrl="https://www.youtube.com/embed/CHmaw6Vu4_I" title="First update" content="An example of a YouTube video embedded in a Tailwind CSS card."></VideoCard>
                 <VideoCard videoUrl="https://www.youtube.com/embed/CHmaw6Vu4_I" title="First update" content="An example of a YouTube video embedded in a Tailwind CSS card."></VideoCard>
-                {/* <VideoCard videoUrl="https://www.youtube.com/embed/CHmaw6Vu4_I" title="First update" content="An example of a YouTube video embedded in a Tailwind CSS card."></VideoCard> */}
-                {/* <VideoCard videoUrl="https://www.youtube.com/watch?v=bWoxG3Q-vr4" title="second udpate"></VideoCard>
-                <VideoCard videoUrl="https://www.youtube.com/watch?v=bWoxG3Q-vr4" title="third udpate"></VideoCard>
-                <VideoCard videoUrl="https://www.youtube.com/watch?v=bWoxG3Q-vr4" title="fourth update"></VideoCard> */}
+            </div>
+            <div className="border-2 border-white">
+                {/* <BlogHeadingComponent headingName="JEE MAINS EXAM"></BlogHeadingComponent> */}
+                <BlogComponent></BlogComponent>
+
             </div>
         </div>
     )
