@@ -35,7 +35,7 @@ export interface IHeadingComponent {
     headingSpanName : string
 }
 
-
-export interface IOverviewSectionComponent {
-
+export interface IVideoCardComponent {
+    videoUrl : string, 
+    title : string
 }
