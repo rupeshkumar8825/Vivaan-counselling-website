@@ -37,5 +37,6 @@ export interface IHeadingComponent {
 
 export interface IVideoCardComponent {
     videoUrl : string, 
-    title : string
+    title : string, 
+    content : string
 }

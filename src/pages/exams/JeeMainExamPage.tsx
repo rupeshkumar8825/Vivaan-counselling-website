@@ -9,8 +9,12 @@ const JeeMainExamPage = () => {
                 <OverviewSectionComponent></OverviewSectionComponent>
             </div>
             <HeadingComponent headingName="Latest Updates" headingSpanName="Jee Mains"></HeadingComponent>
-            <div className="border-2 border-white flex justify-center items-center mt-10 w-full p-10">
-                <VideoCard videoUrl="https://www.youtube.com/embed/CHmaw6Vu4_I" title="First update"></VideoCard>
+            <div className="flex justify-center items-center justify-evenly mt-10 w-full p-10">
+                <VideoCard videoUrl="https://www.youtube.com/embed/CHmaw6Vu4_I" title="First update" content="An example of a YouTube video embedded in a Tailwind CSS card."></VideoCard>
+
+                <VideoCard videoUrl="https://www.youtube.com/embed/CHmaw6Vu4_I" title="First update" content="An example of a YouTube video embedded in a Tailwind CSS card."></VideoCard>
+                <VideoCard videoUrl="https://www.youtube.com/embed/CHmaw6Vu4_I" title="First update" content="An example of a YouTube video embedded in a Tailwind CSS card."></VideoCard>
+                {/* <VideoCard videoUrl="https://www.youtube.com/embed/CHmaw6Vu4_I" title="First update" content="An example of a YouTube video embedded in a Tailwind CSS card."></VideoCard> */}
                 {/* <VideoCard videoUrl="https://www.youtube.com/watch?v=bWoxG3Q-vr4" title="second udpate"></VideoCard>
                 <VideoCard videoUrl="https://www.youtube.com/watch?v=bWoxG3Q-vr4" title="third udpate"></VideoCard>
                 <VideoCard videoUrl="https://www.youtube.com/watch?v=bWoxG3Q-vr4" title="fourth update"></VideoCard> */}
