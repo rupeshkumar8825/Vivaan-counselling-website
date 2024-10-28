@@ -11,10 +11,10 @@ export const JeeMainsExamSubMenuList : Array<string> = [
 
 
 export const JeeMainsExamRoutesList : Array<string> = [
-    "/jeemain-exam", 
-    "/jeemain-syllabus", 
-    "/jeemain-application", 
-    "/jeemain-eligibility", 
-    "/jeemain-dates", 
-    "/jeemain-admitcard", 
+    "/jeemains/exam", 
+    "/jeemains/syllabus", 
+    "/jeemains/application", 
+    "/jeemains/eligibility", 
+    "/jeemains/dates", 
+    "/jeemains/admitcard", 
 ]

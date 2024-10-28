@@ -17,18 +17,18 @@ const AppBarComponent = () => {
 
     return (
         <div>
-            <nav className="bg-blue text-white">
+            <nav className="border-b-2 border-slate-800 bg-blue text-white">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex justify-between items-center h-16">
                         {/* Icon Section */}
                         <div className="flex-shrink-0">
                             {/* You can replace this with your own SVG icon or an <img> tag */}
-                            <Link to="/">
+                            <a href="/">
                                 <svg className="h-8 w-8 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="white">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 11c0 2.21-1.79 4-4 4s-4-1.79-4-4 1.79-4 4-4 4 1.79 4 4z" />
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4v16m8-4H4m12-8h4" />
                                 </svg>
-                            </Link>
+                            </a>
                         </div>
 
                         {/* Menu Items */}

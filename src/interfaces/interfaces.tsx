@@ -17,7 +17,8 @@ export interface IDropDownMenu {
 
 export  interface IButtonComponent {
     buttonName : string, 
-    buttonWidthInRem : string
+    buttonWidthInRem : string, 
+    onButtonComponentClickHandler? () : void
 }
 
 
@@ -36,5 +37,5 @@ export interface IHeadingComponent {
 
 
 export interface IOverviewSectionComponent {
-    
+
 }

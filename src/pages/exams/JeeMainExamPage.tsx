@@ -2,7 +2,7 @@ import OverviewSectionComponent from "../../home/components/OverviewSectionCompo
 
 const JeeMainExamPage = () => {
     return (
-        <div className="border-2 border-white text-white flex justify-center items-center mt-10 w-full">
+        <div className="text-white flex justify-center items-center mt-10 w-full">
             <OverviewSectionComponent></OverviewSectionComponent>
         </div>
     )

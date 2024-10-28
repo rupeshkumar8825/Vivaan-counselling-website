@@ -16,6 +16,12 @@ import ExamHomePage from "../pages/exams/ExamHomePage";
 import JeeAdvancedExamPage from "../pages/exams/JeeAdvancedExamPage";
 import JeeMainExamPage from "../pages/exams/JeeMainExamPage";
 import MhtcetExamPage from "../pages/exams/MhtcetExamPage";
+import JeeMainExamAdmitCardPage from "../pages/exams/subPages/JeeMain/JeeMainExamAdmitCardPage";
+import JeeMainExamApplicationPage from "../pages/exams/subPages/JeeMain/JeeMainExamApplicationPage";
+import JeeMainExamDatesPage from "../pages/exams/subPages/JeeMain/JeeMainExamDatePage";
+import JeeMainExamDetailsPage from "../pages/exams/subPages/JeeMain/JeeMainExamDetailsPage";
+import JeeMainExamEligibilityPage from "../pages/exams/subPages/JeeMain/JeeMainExamEligibilityPage";
+import JeeMainExamSyllabusPage from "../pages/exams/subPages/JeeMain/JeeMainExamSyllabusPage";
 import WebjeeExamPage from "../pages/exams/WebjeeExamPage";
 import JeeAdvancedMentorshipPage from "../pages/mentorship/JeeAdvancedMentorshipPage";
 import JeeMainMentorshipPage from "../pages/mentorship/JeeMainsMentorshipPage";
@@ -66,6 +72,31 @@ const routes = [
     }, 
 
     
+    // exams-child pages related routes here
+    {
+        path : "/exam/jeemains/exam", 
+        component : <JeeMainExamDetailsPage/>
+    }, 
+    {
+        path : "/exam/jeemains/syllabus", 
+        component : <JeeMainExamSyllabusPage/>
+    }, 
+    {
+        path : "/exam/jeemains/application", 
+        component : <JeeMainExamApplicationPage/>
+    }, 
+    {
+        path : "/exam/jeemains/eligibility", 
+        component : <JeeMainExamEligibilityPage/>
+    }, 
+    {
+        path : "/exam/jeemains/dates", 
+        component : <JeeMainExamDatesPage/>
+    }, 
+    {
+        path : "/exam/jeemains/admitcard", 
+        component : <JeeMainExamAdmitCardPage/>
+    }, 
     
     
     // mentoroship related routes comes here 
