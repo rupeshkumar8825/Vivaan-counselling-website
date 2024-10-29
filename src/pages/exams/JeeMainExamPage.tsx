@@ -23,7 +23,7 @@ const JeeMainExamPage = () => {
         }
         else if(buttonCode === "2")
         {
-            navigate("/exam/jeemain")
+            navigate("/exam/jeemains")
         }
         else if (buttonCode === "3")
         {
