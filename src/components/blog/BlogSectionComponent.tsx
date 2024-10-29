@@ -1,10 +1,10 @@
 // this is a blog section
 // this typically consists of the heading of the blog and the content 
 
-import { IBlogComponent } from "../../interfaces/interfaces"
+import { IBlogSectionComponent } from "../../interfaces/interfaces"
 import BlogHeadingComponent from "./BlogHeadingComponent"
 
-const BlogSectionComponent = (props : IBlogComponent) => {
+const BlogSectionComponent = (props : IBlogSectionComponent) => {
     return (
         <div className="p-6 bg-blue rounded-lg shadow-md">
             <div id = {props.headingId}>

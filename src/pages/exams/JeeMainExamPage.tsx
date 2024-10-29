@@ -2,7 +2,7 @@ import HeadingComponent from "../../components/HeadingComponent"
 import OverviewSectionComponent from "../../home/components/OverviewSectionComponent"
 import VideoCard from "../../components/VideoCardComponent"
 import BlogComponent from "../../components/blog/BlogComponent"
-import { JeeMainExamPageButtonCodesList, JeeMainExamPageButtonWidthList, JeeMainExamsButtonNameList, JeeMainsExamRoutesList, JeeMainsExamSubMenuList, JeeMainVideoCardTitleList, JeeMainVideoCardUrlList } from "../../constants/JeeMainsExamPageConstants"
+import { JeeMainContentList, JeeMainExamPageButtonCodesList, JeeMainExamPageButtonWidthList, JeeMainExamsButtonNameList, JeeMainHeadingIdList, JeeMainsExamRoutesList, JeeMainsExamSubMenuList, JeeMainsHeadingList, JeeMainTableOfContentList, JeeMainVideoCardTitleList, JeeMainVideoCardUrlList } from "../../constants/JeeMainsExamPageConstants"
 import { useNavigate } from "react-router-dom"
 
 const JeeMainExamPage = () => {
@@ -53,7 +53,7 @@ const JeeMainExamPage = () => {
             </div>
             <div className="">
                 {/* <BlogHeadingComponent headingName="JEE MAINS EXAM"></BlogHeadingComponent> */}
-                <BlogComponent></BlogComponent>
+                <BlogComponent headingIdList={JeeMainHeadingIdList} headingNameList={JeeMainsHeadingList} tableOfContentsList={JeeMainTableOfContentList} contentList={JeeMainContentList}></BlogComponent>
 
             </div>
         </div>

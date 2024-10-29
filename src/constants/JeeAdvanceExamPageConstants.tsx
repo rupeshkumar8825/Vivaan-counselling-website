@@ -103,7 +103,7 @@ export const JeeAdvanceHeadingList : Array<string> = [
 
 
 // constant for the table of content on the page
-export const JeeAdvanceTableOfContentList : Array<String> = [
+export const JeeAdvanceTableOfContentList : Array<string> = [
     "Jee Advance Exam History", 
     "Who Conducts Jee Advance?", 
     "Jee Advance 2025 Exam Dates", 

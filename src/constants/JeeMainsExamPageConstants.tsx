@@ -86,7 +86,7 @@ export const JeeMainsHeadingList : Array<string> = [
     "Jee Main Counselling Process"
 ]
 
-export const JeeMainTableOfContentList : Array<String> = [
+export const JeeMainTableOfContentList : Array<string> = [
     "Jee Main Exam History", 
     "Who Conducts Jee Mains?", 
     "Jee Main 2025 Exam Dates", 
