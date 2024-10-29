@@ -1,46 +1,26 @@
 // this is overview section which will list the options for navigation
 // This component will be used at multiple places and pages 
 // hence we will be making this particular component very generic
-import { useNavigate } from "react-router-dom"
-import ButtonComponent from "../../components/ButtonComponent"
-import { JeeMainsExamRoutesList, JeeMainsExamSubMenuList } from "../../constants/JeeMainsExamPageConstants"
 import { useState } from "react"
-import { IDropDownMenu } from "../../interfaces/interfaces"
+import { IDropDownMenu, IOverviewComponent } from "../../interfaces/interfaces"
+import ButtonForExamPageComponent from "../../pages/exams/components/ButtonForExamPageComponent"
 
-const OverviewSectionComponent = () => {
-    const navigate = useNavigate()
-    // defining the click handlers for the different buttons for this purpose
-    const handleJeeAdvanceClickHandler = () => {
-        navigate("/exam/jeeadvance")
-    }
-
-    const handleJeeMainClickHandler = () => {
-        navigate("/exam/jeemains")
-    }
-
-    const handleBitSatClickHandler = () => {
-        navigate("/exam/bitsat")
-    }
-
-    const handleWebJeeClickHandler = () => {
-        navigate("/exam/wbjee")
-    }
-
-    const handleMhtCetClickHandler = () => {
-        navigate("/exam/mhtcet")
-    }
-
+const OverviewSectionComponent = (props : IOverviewComponent) => {
     return (
         <div className="flex justify-center flex-wrap items-center justify-evenly w-3/4">
-            <div className="border-2 border-white rounded-lg">
+            <div className="border-2 border-white rounded-lg">  
                 {/* <DropDownMenuComponent buttonId="overview" menuName="Overview" divId="overviewDiv" subMenuList={JeeMainsExamSubMenuList} routesList={JeeMainsExamRoutesList}></DropDownMenuComponent> */}
-                <DropDownMenuNew menuName="Overview" divId="overviewDivId" buttonId="overviewButttonId" subMenuList={JeeMainsExamSubMenuList} routesList={JeeMainsExamRoutesList}></DropDownMenuNew>
+                <DropDownMenuNew menuName={props.dropDownMenuName} divId={props.dropDowndivId} buttonId={props.dropDownButtonId} subMenuList={props.dropDownSubMenuList} routesList={props.dropDownRoutesList}></DropDownMenuNew>
             </div>
-            <ButtonComponent onButtonComponentClickHandler={handleJeeAdvanceClickHandler} buttonName="Jee Advance" buttonWidthInRem="36"></ButtonComponent>
-            <ButtonComponent onButtonComponentClickHandler={handleJeeMainClickHandler} buttonName="Jee Mains" buttonWidthInRem="36"></ButtonComponent>
+
+            {/* using the map function to map all the buttons properly  */}
+            {props.buttonNameList.map((_ : string, index : number) => (
+                <ButtonForExamPageComponent key={index} OnButtonClickHandlerExamPage={props.buttonGenericClickHandler} buttonName={props.buttonNameList[index]} buttonWidthInRem={props.buttonWidthList[index]} buttonCode={props.buttonCodeList[index]}></ButtonForExamPageComponent>
+            ))}
+            {/* <ButtonComponent onButtonComponentClickHandler={handleJeeMainClickHandler} buttonName="Jee Mains" buttonWidthInRem="36"></ButtonComponent>
             <ButtonComponent onButtonComponentClickHandler={handleBitSatClickHandler} buttonName="BITSAT" buttonWidthInRem="36"></ButtonComponent>
             <ButtonComponent onButtonComponentClickHandler={handleWebJeeClickHandler} buttonName="WEBJEE" buttonWidthInRem="36"></ButtonComponent>
-            <ButtonComponent onButtonComponentClickHandler={handleMhtCetClickHandler} buttonName="MHTCET" buttonWidthInRem="36"></ButtonComponent>
+            <ButtonComponent onButtonComponentClickHandler={handleMhtCetClickHandler} buttonName="MHTCET" buttonWidthInRem="36"></ButtonComponent> */}
         </div>
     )
 }
@@ -53,8 +33,6 @@ const DropDownMenuNew = (props : IDropDownMenu) => {
     const [isOpen, setIsOpen] = useState<boolean>(false);
 
     const toggleDropdown = () => {
-        // this is the handler for toggling the dropdown menu
-        // toggle the isopen flag 
         setIsOpen(!isOpen);
     }
     return (
@@ -81,6 +59,7 @@ const DropDownMenuNew = (props : IDropDownMenu) => {
                         {/* using the for loop here for this purpose */}
                         {props.subMenuList.map((currSubDropDownName : string, index : number) => (
                             <a
+                                key={index}
                                 href={props.routesList[index]}
                                 className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                                 role="menuitem"
@@ -89,20 +68,6 @@ const DropDownMenuNew = (props : IDropDownMenu) => {
                             </a>
 
                         ))}
-                        {/* <a
-                            href="#"
-                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                            role="menuitem"
-                        >
-                            Option 2
-                        </a>
-                        <a
-                            href="#"
-                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                            role="menuitem"
-                        >
-                            Option 3
-                        </a> */}
                     </div>
                 </div>
             )}

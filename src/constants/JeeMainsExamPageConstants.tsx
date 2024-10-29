@@ -21,6 +21,52 @@ export const JeeMainsExamRoutesList : Array<string> = [
 
 
 
+//Overview component related constants comes here for jeemain exam home page
+export const JeeMainExamsButtonNameList : Array<string> = [
+    "Jee Advance", 
+    "Jee Mains", 
+    "BITSAT", 
+    "WBJEE", 
+    "MHTCET"
+]
+
+export const JeeMainExamPageButtonWidthList : Array<string> = [
+    "36",
+    "36",
+    "36",
+    "36",
+    "36",
+]
+
+export const JeeMainExamPageButtonCodesList : Array<string> = [
+    "1", 
+    "2", 
+    "3", 
+    "4", 
+    "5"
+]
+
+
+
+
+
+// Video card related constants for the jeemain exam page. 
+// Same constants with different values are required for the other exam home pages(advance, jee main)
+export const JeeMainVideoCardUrlList : Array<string> = [
+    "https://www.youtube.com/embed/CHmaw6Vu4_I", 
+    "https://www.youtube.com/embed/CHmaw6Vu4_I", 
+    "https://www.youtube.com/embed/CHmaw6Vu4_I"
+]
+
+
+export const JeeMainVideoCardTitleList : Array<string> = [
+    "First title", 
+    "Second title", 
+    "Third title"
+]
+
+
+
 // blogs related constants for jee main exam
 
 export const JeeMainsHeadingList : Array<string> = [

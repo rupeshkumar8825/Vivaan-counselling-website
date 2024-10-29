@@ -18,7 +18,7 @@ export interface IDropDownMenu {
 export  interface IButtonComponent {
     buttonName : string, 
     buttonWidthInRem : string, 
-    onButtonComponentClickHandler? () : void
+    onButtonComponentClickHandler? : () => void
 }
 
 
@@ -55,4 +55,25 @@ export interface IBlogComponent {
 export interface ITableOfContent {
     headingIdList : Array<string>, 
     headingNameList : Array<string>
+}
+
+
+export interface IOverviewComponent {
+    dropDownMenuName : string, 
+    dropDowndivId : string, 
+    dropDownButtonId : string, 
+    dropDownSubMenuList : Array<string>, 
+    dropDownRoutesList : Array<string>, 
+    buttonNameList : Array<string>, 
+    buttonWidthList : Array<string>, 
+    buttonCodeList : Array<string>, 
+    buttonGenericClickHandler : (buttonCode : string) => void
+}
+
+
+export interface IButtonExamPageComponent {
+    buttonName : string, 
+    buttonWidthInRem : string, 
+    buttonCode : string,
+    OnButtonClickHandlerExamPage : (buttonCode : string) => void
 }
