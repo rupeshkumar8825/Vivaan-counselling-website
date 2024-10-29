@@ -11,7 +11,7 @@ const BlogSectionComponent = (props : IBlogComponent) => {
                 <BlogHeadingComponent headingName={props.headingName}></BlogHeadingComponent>
             </div>
             {/* <h2 className="text-3xl font-bold mb-4">Blog Post Title</h2> */}
-            <p className="border-2 border-white text-left text-gray-700 mb-4 mt-4">
+            <p className=" text-left text-slate-400 border-2 border-slate-600 shadow-lg p-10 mb-4 mt-4">
                 {props.content}
             </p>
         </div>
