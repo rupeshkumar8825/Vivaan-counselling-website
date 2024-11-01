@@ -14,14 +14,12 @@ export  const examSubMenuList : Array<string> = [
     "MHTCET"
 ]
 
-export  const counsellingSubMenuList : Array<string> = [
-    "JOSAA", 
-    "CSAB", 
-    "JAC DELHI", 
-    "WEBJEE", 
-    "UPTU", 
-    "GGSIPU", 
-    "COMEDK"
+export const examRouteList : Array<string> = [
+    "/exam/jeemains", 
+    "/exam/jeeadvance", 
+    "/exam/bitsat", 
+    "/exam/wbjee", 
+    "/exam/mhtcet"
 ]
 
 export  const mentorshipSubMenuList : Array<string> = [
@@ -30,12 +28,19 @@ export  const mentorshipSubMenuList : Array<string> = [
 ]
 
 
-export const examRouteList : Array<string> = [
-    "/exam/jeemains", 
-    "/exam/jeeadvance", 
-    "/exam/bitsat", 
-    "/exam/wbjee", 
-    "/exam/mhtcet"
+export const mentorshipRouteList : Array<string> = [ 
+    "/mentorship/jeemains",
+    "/mentorship/jeeadvance",
+]
+
+export  const counsellingSubMenuList : Array<string> = [
+    "JOSAA", 
+    "CSAB", 
+    "JAC DELHI", 
+    "WEBJEE", 
+    "UPTU", 
+    "GGSIPU", 
+    "COMEDK"
 ]
 
 export const counsellingRouteList : Array<string> = [
@@ -49,7 +54,16 @@ export const counsellingRouteList : Array<string> = [
 
 ]
 
-export const mentorshipRouteList : Array<string> = [ 
-    "/mentorship/jeemains",
-    "/mentorship/jeeadvance",
+export  const collegeSubMenuList : Array<string> = [
+    "IIT", 
+    "NIT", 
+    "IIIT", 
+    "STATE ENGINEERING COLLEGE"
+]
+
+export const collegeRoutesList : Array<string> = [
+    "/college/iit",
+    "/college/nit",
+    "/college/iiit",
+    "/college/state-engineering-college",
 ]

@@ -1,6 +1,6 @@
 import { Link, useNavigate} from "react-router-dom"
 import DropDownMenuComponent from "./DropDownMenuComponent"
-import { counsellingRouteList, counsellingSubMenuList, examRouteList, examSubMenuList, mentorshipRouteList, mentorshipSubMenuList } from "../constants/AppBarConstants"
+import { collegeRoutesList, collegeSubMenuList, counsellingRouteList, counsellingSubMenuList, examRouteList, examSubMenuList, mentorshipRouteList, mentorshipSubMenuList } from "../constants/AppBarConstants"
 
 
 
@@ -35,13 +35,15 @@ const AppBarComponent = () => {
                         <div className="md:block">
                             <div className="ml-10 flex items-baseline space-x-4 text-white">
                                 {/* Drop down menus comes here */}
+                                {/* here one improvement could be to use the for loop for render each  */}
+                                {/* of the menus of the navbar for this purpose */}
                                 {/* EXAM menu */}
                                 <DropDownMenuComponent buttonId="ExamButtonId" divId="ExamDivId" menuName="Exams" subMenuList={examSubMenuList} routesList={examRouteList}></DropDownMenuComponent>
 
                                 {/* Counselling Menu */}
                                 <DropDownMenuComponent buttonId="CounsellingButtonId" divId="CounsellingDivId" menuName="Counselling" subMenuList={counsellingSubMenuList} routesList={counsellingRouteList}></DropDownMenuComponent>
                                 {/* College Menu */}
-                                <DropDownMenuComponent buttonId="CollegeButtonId" divId="CollegeDivId" menuName="College" subMenuList={counsellingSubMenuList} routesList={counsellingRouteList}></DropDownMenuComponent>
+                                <DropDownMenuComponent buttonId="CollegeButtonId" divId="CollegeDivId" menuName="College" subMenuList={collegeSubMenuList} routesList={collegeRoutesList}></DropDownMenuComponent>
 
                                 {/* Mentorship Menu */}
                                 <DropDownMenuComponent buttonId="MentorshipButtonId" divId="MentorshipDivId" menuName="Mentorship" subMenuList={mentorshipSubMenuList} routesList={mentorshipRouteList}></DropDownMenuComponent>
