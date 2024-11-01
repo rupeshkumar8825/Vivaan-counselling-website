@@ -20,23 +20,31 @@ const JosaaCounsellingPage = () => {
         // using the if else statement for this purpose
         if (buttonCode === "1") 
         {
-            navigate("/exam/jeeadvance")
+            navigate("/counselling/josaa")
         }
         else if(buttonCode === "2")
         {
-            navigate("/exam/jeemains")
+            navigate("/counselling/csab")
         }
         else if (buttonCode === "3")
         {
-            navigate("/exam/bitsat")
+            navigate("/counselling/jacdelhi")
         }
         else if (buttonCode === "4")
         {
-            navigate("/exam/wbjee")
+            navigate("/counselling/wbjee")
         }
         else if (buttonCode === "5")
         {
-            navigate("/exam/mhtcet")
+            navigate("/counselling/uptu")
+        }
+        else if (buttonCode === "6")
+        {
+            navigate("/counselling/ggsipu")
+        }
+        else if (buttonCode === "7")
+        {
+            navigate("/counselling/comedk")
         }
     }
 

@@ -43,6 +43,8 @@ export const JosaaCounsellingPageButtonWidthList : Array<string> = [
     "36",
     "36",
     "36",
+    "36",
+    "36",
 ]
 
 
@@ -51,7 +53,9 @@ export const JosaaCounsellingPageButtonCodeList : Array<string> = [
     "2", 
     "3", 
     "4", 
-    "5"
+    "5",
+    "6",
+    "7"
 ]
 
 
