@@ -2,7 +2,11 @@
 const IITCollegePage = () => {
     return (
         <div>
-            this is IIT Home page
+            {/* section for different IITs  */}
+            {/* we will be making a simple component to show all the IITs  */}
+            {/* in this introduction we will be just writing few things about the IITs  */}
+            {/* and then provide a link to go into the details about the college */}
+            this is IIT college page 
         </div>
     )
 }

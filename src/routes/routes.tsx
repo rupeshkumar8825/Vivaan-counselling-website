@@ -3,6 +3,10 @@
 import HomePage from "../home/HomePage";
 import LoginFormPage from "../pages/authentication/LoginFormPage";
 import RegisterFormPage from "../pages/authentication/RegisterFormPage";
+import IIITCollegePage from "../pages/college/IIITCollegePage";
+import IITCollegePage from "../pages/college/IITCollegePage";
+import NITCollegePage from "../pages/college/NITCollegePage";
+import StateEngineeringCollegePage from "../pages/college/StateEngineeringCollegePage";
 import ComedkCounsellingPage from "../pages/counselling/ComedkCounsellingPage";
 import CouncellingHomePage from "../pages/counselling/CounsellingHomePage";
 import CsabCounsellingPage from "../pages/counselling/CsabCounsellingPage";
@@ -147,8 +151,27 @@ const routes = [
     {
         path : "/counselling/comedk", 
         component : <ComedkCounsellingPage/>
-    }
+    },
 
+
+
+    // routes related to the college 
+    {
+        path : "/college/iit", 
+        component : <IITCollegePage/>
+    },
+    {
+        path : "/college/iiit", 
+        component : <IIITCollegePage/>
+    },
+    {
+        path : "/college/nit", 
+        component : <NITCollegePage/>
+    },
+    {
+        path : "/college/state-engineering-college", 
+        component : <StateEngineeringCollegePage/>
+    }
 
 
 ]
