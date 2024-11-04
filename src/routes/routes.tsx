@@ -3,6 +3,7 @@
 import HomePage from "../home/HomePage";
 import LoginFormPage from "../pages/authentication/LoginFormPage";
 import RegisterFormPage from "../pages/authentication/RegisterFormPage";
+import CollegeHomePage from "../pages/college/CollegeHomePage";
 import IIITCollegePage from "../pages/college/IIITCollegePage";
 import IITCollegePage from "../pages/college/IITCollegePage";
 import NITCollegePage from "../pages/college/NITCollegePage";
@@ -156,6 +157,10 @@ const routes = [
 
 
     // routes related to the college 
+    {
+        path : "/college", 
+        component : <CollegeHomePage/>
+    },
     {
         path : "/college/iit", 
         component : <IITCollegePage/>

@@ -84,3 +84,17 @@ export interface IButtonExamPageComponent {
     buttonCode : string,
     OnButtonClickHandlerExamPage : (buttonCode : string) => void
 }
+
+
+export interface IIITCollegeCard {
+    collegeName : string, 
+    collegeDescription : string, 
+    buttonRoute : string
+}
+
+
+export interface ICollegeIntroCardComponent {
+    title : string, 
+    contentDescription : string, 
+    redirectRoute : string
+}
