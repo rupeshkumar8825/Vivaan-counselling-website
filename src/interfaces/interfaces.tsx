@@ -92,6 +92,11 @@ export interface IIITCollegeCard {
     buttonRoute : string
 }
 
+export interface INITCollegeCard {
+    collegeName : string, 
+    collegeDescription : string, 
+    buttonRoute : string
+}
 
 export interface ICollegeIntroCardComponent {
     title : string, 
