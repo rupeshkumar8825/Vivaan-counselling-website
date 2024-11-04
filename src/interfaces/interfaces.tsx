@@ -92,10 +92,12 @@ export interface IIITCollegeCard {
     buttonRoute : string
 }
 
-export interface INITCollegeCard {
-    collegeName : string, 
-    collegeDescription : string, 
-    buttonRoute : string
+export interface INITCollegeCard extends IIITCollegeCard {
+    
+}
+
+export interface IIIITCollegeCard extends IIITCollegeCard{
+
 }
 
 export interface ICollegeIntroCardComponent {
