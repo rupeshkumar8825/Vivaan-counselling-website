@@ -7,9 +7,12 @@ import CollegeIntroCardComponent from "./components/CollegeIntroCardComponent"
 const IITCollegePage = () => {
     return (
         <div className="flex flex-col">
+            {/* code for search bar  */}
             <div className="mt-10 mb-10">
                 <SearchBarComponent></SearchBarComponent>
             </div>
+
+            {/* code for showing the list of available colleges */}
             <div className="border border-white flex flex-wrap items-center justify-between p-10">
                 {/* search bar option comes here */}
                 {IITCollegeCardConstants.map((currentCollegeIntro : IIITCollegeCard) => (
