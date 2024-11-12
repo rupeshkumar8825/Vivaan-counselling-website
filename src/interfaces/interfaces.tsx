@@ -100,6 +100,10 @@ export interface IIIITCollegeCard extends IIITCollegeCard{
 
 }
 
+export interface IStateCollegeCard extends IIITCollegeCard{
+    
+}
+
 export interface ICollegeIntroCardComponent {
     title : string, 
     contentDescription : string, 

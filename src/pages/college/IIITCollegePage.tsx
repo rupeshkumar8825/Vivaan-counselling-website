@@ -17,7 +17,6 @@ const IIITCollegePage = () => {
                 {/* search bar option comes here */}
                 {IIITCollegeCardConstants.map((currentCollegeIntro : IIITCollegeCard) => (
                     <CollegeIntroCardComponent title={currentCollegeIntro.collegeName} contentDescription={currentCollegeIntro.collegeDescription} redirectRoute={currentCollegeIntro.buttonRoute}></CollegeIntroCardComponent>
-
                 ))}
             </div>
 
