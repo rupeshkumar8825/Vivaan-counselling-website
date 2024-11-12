@@ -8,7 +8,7 @@ import IIITCollegePage from "../pages/college/IIITCollegePage";
 import IITCollegePage from "../pages/college/IITCollegePage";
 import NITCollegePage from "../pages/college/NITCollegePage";
 import StateEngineeringCollegePage from "../pages/college/StateEngineeringCollegePage";
-import IITBombayCollegePage from "../pages/college/subpage/IIT/IITBombayCollegePage";
+import IITGenericCollegePage from "../pages/college/subpage/IIT/IITGenericCollegePage";
 import ComedkCounsellingPage from "../pages/counselling/ComedkCounsellingPage";
 import CouncellingHomePage from "../pages/counselling/CounsellingHomePage";
 import CsabCounsellingPage from "../pages/counselling/CsabCounsellingPage";
@@ -182,7 +182,7 @@ const routes = [
     // subpages for the IIT colleges comes here 
     {
         path : "/college/iit/iit-bombay", 
-        component : <IITBombayCollegePage></IITBombayCollegePage>
+        component : <IITGenericCollegePage></IITGenericCollegePage>
     }
 
 ]
