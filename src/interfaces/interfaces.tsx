@@ -109,3 +109,11 @@ export interface ICollegeIntroCardComponent {
     contentDescription : string, 
     redirectRoute : string
 }
+
+
+
+// INTERFACES RELATED TO IIT COLLEGE PAGES COMES HERE 
+export interface IIITCollegeNavigationConstants {
+    title : string, 
+    headingId : string
+}
