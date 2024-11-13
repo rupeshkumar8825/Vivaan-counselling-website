@@ -123,3 +123,9 @@ export interface IAboutSectionCollegePageComponent {
     headingName : string, 
     content : string
 }
+
+export interface IFeesSectionCollegePageComponent {
+    headingId : string, 
+    headingName : string, 
+    content : string
+}

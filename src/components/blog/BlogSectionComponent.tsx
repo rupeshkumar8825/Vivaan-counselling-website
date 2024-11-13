@@ -11,9 +11,11 @@ const BlogSectionComponent = (props : IBlogSectionComponent) => {
                 <BlogHeadingComponent headingName={props.headingName}></BlogHeadingComponent>
             </div>
             {/* <h2 className="text-3xl font-bold mb-4">Blog Post Title</h2> */}
-            <p className=" text-left text-slate-400 border-2 border-slate-600 shadow-lg p-10 mb-4 mt-4">
+            {/* if the content is not empty then only we will show the paragraph else we will not show anything  */}
+            {props.content !== "" ? <p className=" text-left text-slate-400 border-2 border-slate-600 shadow-lg p-10 mb-4 mt-4">{props.content}</p> : null}
+            {/* <p className=" text-left text-slate-400 border-2 border-slate-600 shadow-lg p-10 mb-4 mt-4">
                 {props.content}
-            </p>
+            </p> */}
         </div>
     )
 }
