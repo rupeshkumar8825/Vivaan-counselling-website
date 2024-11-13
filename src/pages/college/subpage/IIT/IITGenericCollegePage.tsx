@@ -2,6 +2,8 @@
 // mainly for all the IITs college page will be rendered in this component 
 // we will passing some data in the form of props to this component for that particular IIT college 
 import IITBombayCollegeImage  from "../../../../assets/images/iit-bombay-college-pic.jpg"
+import { IITBombayCollegeAboutSectionContent, IITBombayCollegeNavigationConstants } from "../../../../constants/college/IIT/CollegePageNavigationComponentConstants"
+import AboutSectionCollegePageComponent from "../components/AboutSectionCollegePageComponent"
 import CollegePageNavigationComponent from "../components/CollegePageNavigationComponent"
 const IITGenericCollegePage = () => {
     return (
@@ -16,6 +18,7 @@ const IITGenericCollegePage = () => {
                     <div className="text-2xl font-bold mt-5 ">Indian Institute of Technology Bombay</div>
                 </div>
                 <CollegePageNavigationComponent></CollegePageNavigationComponent>
+                <AboutSectionCollegePageComponent headingId={IITBombayCollegeNavigationConstants[0].headingId} headingName={IITBombayCollegeNavigationConstants[0].title} content={IITBombayCollegeAboutSectionContent}></AboutSectionCollegePageComponent>
             </div>
         </div>
     )

@@ -117,3 +117,9 @@ export interface IIITCollegeNavigationConstants {
     title : string, 
     headingId : string
 }
+
+export interface IAboutSectionCollegePageComponent {
+    headingId : string, 
+    headingName : string, 
+    content : string
+}
