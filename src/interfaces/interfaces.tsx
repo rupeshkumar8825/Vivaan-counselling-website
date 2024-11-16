@@ -137,3 +137,17 @@ export interface IFeesSectionCollegePageComponent {
 export interface IAdmissionSectionCollegePageComponent extends IAboutSectionCollegePageComponent {
         
 }
+
+export interface IPlacementSectionCollegePageComponent extends IAboutSectionCollegePageComponent {
+        
+}
+
+export interface IContactSectionCollegePageComponent extends IAboutSectionCollegePageComponent {
+        
+}
+
+export interface ICoursesSectionCollegePageComponent extends IAboutSectionCollegePageComponent {
+
+}
+
+
