@@ -45,6 +45,10 @@ export interface IBlogHeadingComponent {
     headingName : string, 
 }
 
+export interface IBlogSubHeadingComponent extends IBlogHeadingComponent {
+
+}
+
 export interface IBlogSectionComponent {
     headingName : string, 
     content : string, 
@@ -128,4 +132,8 @@ export interface IFeesSectionCollegePageComponent {
     headingId : string, 
     headingName : string, 
     content : string
+}
+
+export interface IAdmissionSectionCollegePageComponent extends IAboutSectionCollegePageComponent {
+        
 }

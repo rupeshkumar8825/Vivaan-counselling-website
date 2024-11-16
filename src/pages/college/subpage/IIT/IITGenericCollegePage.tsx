@@ -2,10 +2,13 @@
 // mainly for all the IITs college page will be rendered in this component 
 // we will passing some data in the form of props to this component for that particular IIT college 
 import IITBombayCollegeImage  from "../../../../assets/images/iit-bombay-college-pic.jpg"
-import { IITBombayCollegeAboutSectionContent, IITBombayCollegeFeeSectionContent, IITBombayCollegeNavigationConstants } from "../../../../constants/college/IIT/CollegePageNavigationComponentConstants"
+import { IITBombayCollegeAboutSectionContent, IITBombayCollegeAdmissionSectionContent, IITBombayCollegeFeeSectionContent, IITBombayCollegeNavigationConstants } from "../../../../constants/college/IIT/CollegePageNavigationComponentConstants"
 import AboutSectionCollegePageComponent from "../components/AboutSectionCollegePageComponent"
+import AdmissionSectionCollegePageComponent from "../components/AdmissionSectionCollegePageComponent"
 import CollegePageNavigationComponent from "../components/CollegePageNavigationComponent"
 import FeesSectionCollegePageComponent from "../components/FeesSectionCollegePageComponent"
+
+
 const IITGenericCollegePage = () => {
     return (
         <div>
@@ -21,6 +24,7 @@ const IITGenericCollegePage = () => {
                 <CollegePageNavigationComponent></CollegePageNavigationComponent>
                 <AboutSectionCollegePageComponent headingId={IITBombayCollegeNavigationConstants[0].headingId} headingName={IITBombayCollegeNavigationConstants[0].title} content={IITBombayCollegeAboutSectionContent}></AboutSectionCollegePageComponent>
                 <FeesSectionCollegePageComponent headingId={IITBombayCollegeNavigationConstants[1].headingId} headingName={IITBombayCollegeNavigationConstants[1].title} content={IITBombayCollegeFeeSectionContent}></FeesSectionCollegePageComponent>
+                <AdmissionSectionCollegePageComponent headingId={IITBombayCollegeNavigationConstants[6].headingId} headingName={IITBombayCollegeNavigationConstants[6].title} content={IITBombayCollegeAdmissionSectionContent}></AdmissionSectionCollegePageComponent>
             </div>
         </div>
     )

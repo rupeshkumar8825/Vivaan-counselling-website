@@ -17,12 +17,6 @@ const TableContentComponent = () => {
                                     {currentHeading}
                                 </th>
                             ))}
-                            {/* <th scope="col" className="px-6 py-3 text-slate-400">
-                                Breakdown
-                            </th>
-                            <th scope="col" className="px-6 py-3 text-slate-400">
-                                Amount
-                            </th> */}
                         </tr>
                     </thead>
                     <tbody>

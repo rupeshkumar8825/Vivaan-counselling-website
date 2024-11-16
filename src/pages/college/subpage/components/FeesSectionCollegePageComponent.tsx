@@ -7,6 +7,7 @@ const FeesSectionCollegePageComponent = (props : IFeesSectionCollegePageComponen
         <div>
             <BlogSectionComponent headingId={props.headingId} headingName={props.headingName} content={props.content}></BlogSectionComponent>
             <TableContentComponent></TableContentComponent>
+            <BlogSectionComponent headingId='' headingName={props.headingName} content={props.content}></BlogSectionComponent>
         </div>
     );
 };
