@@ -5,24 +5,63 @@
 
 export const IITBombayCoursesDetailsConstants = [
     {
-        duration : "4 Year", 
-        courses : [
-            "Aerospace Engineering",
-            "Chemical Engineering",
-            "Civil Engineering",
-            "Computer Science and Engineering",
-            "Electrical Engineering",
-            "Mechanical Engineering",
-            "Metallurgical Engineering and Materials Science"
-        ]
+        duration : "4",
+        graduationType : [
+            {
+                type : "B.Tech",
+                courses : [
+                    "Aerospace Engineering1",
+                    "Chemical Engineering",
+                    "Civil Engineering",
+                    "Computer Science and Engineering",
+                    "Electrical Engineering",
+                    "Mechanical Engineering",
+                    "Metallurgical Engineering and Materials Science"
+                ]
+            },
+            {
+                type : "B.Sc",
+                courses : [
+                    "Aerospace Engineering2",
+                    "Chemical Engineering",
+                    "Civil Engineering",
+                    "Computer Science and Engineering",
+                    "Electrical Engineering",
+                    "Mechanical Engineering",
+                    "Metallurgical Engineering and Materials Science"
+                ]
+            },
+        ] 
+        
     },
     {
-        duration : "5 Year", 
-        courses : [
-            "Chemistry",
-            "Economics",
-            "Mathematics",
-            "Physics"
+        duration : "5", 
+        graduationType : [
+            {
+                type : "B.Tech + M.Tech",
+                courses : [
+                    "Aerospace Engineering3",
+                    "Chemical Engineering",
+                    "Civil Engineering",
+                    "Computer Science and Engineering",
+                    "Electrical Engineering",
+                    "Mechanical Engineering",
+                    "Metallurgical Engineering and Materials Science"
+                ]
+            }, 
+            {
+                type : "B.Sc + M.Sc",
+                courses : [
+                    "Aerospace Engineering4",
+                    "Chemical Engineering",
+                    "Civil Engineering",
+                    "Computer Science and Engineering",
+                    "Electrical Engineering",
+                    "Mechanical Engineering",
+                    "Metallurgical Engineering and Materials Science"
+                ]
+            }
         ]
+        
     }
 ]
