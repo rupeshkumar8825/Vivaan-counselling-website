@@ -1,5 +1,5 @@
 import { Select } from "flowbite-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import BlogSectionComponent from "../../../../components/blog/BlogSectionComponent";
 import { ICoursesSectionCollegePageComponent } from "../../../../interfaces/interfaces";
 import { IITBombayCoursesDetailsConstants } from "../../../../constants/college/IIT/CoursesDataForIITCollegeConstant";
@@ -18,46 +18,38 @@ const CoursesSectionCollegePageComponent = (props : ICoursesSectionCollegePageCo
         console.log("we are inside handleDurationChange function");
         setSelectedDuration(e.target.value);
         console.log("the current value of selected duration is ", e.target.value);
-        // given the selected course duration we have to find the corresponding list of graduationTypes
-        // and set the state accordingly
-        const courseList = IITBombayCoursesDetailsConstants.find((course) => course.duration === e.target.value);
-        if (courseList) {
-            setGraduationTypesList(courseList.graduationType);
-            
-        }
-
-        // now depending on the current value of the graduation year and the current graduationType we have to render the course
-        // list accordingly
-        const currentSelectedGraduationType : string  = selectedGraduationType;
-        if (currentSelectedGraduationType !== "") {
-            // based on current selected graduation type we have to render the course
-            const currentCourseList : Array<string> = graduationTypesList.find((currElement : any) => currElement.type === selectedGraduationType).courses;
-            // assign it to the course
-            setCourses(currentCourseList)
-        }
-
-        console.log("exiting the handleDurationChange function");
-        console.log("the curren value of selected graduation type is ", selectedGraduationType);
-        console.log("the current value of list of course is ", courses);
+        
     }
 
     // handler to handle the graduation type change
     const handleGraduationTypeChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-        console.log("we are inside handleGraduationTypeChange function");
-        console.log("the current value of selected graduation type is ", e.target.value);
         setSelectedGraduationType(e.target.value);
-        console.log("the current value of selected duration is ", selectedDuration);
-        console.log("the current value of graduationtypelist is ", graduationTypesList);
-        // now depending the current value of the graduation year 
-        // find the list of courses being offered
-        const currentCourseList : Array<string> = graduationTypesList.find((currElement : any) => currElement.type === selectedGraduationType).courses;
-        // assign it to the course
-        setCourses(currentCourseList)
-        console.log("exiting the handleGraduationTypeChange function");
-        console.log("the current value of selected duration  is", selectedDuration)
-        console.log("the current value of list of course is ", courses);
-
     };
+
+    // this useeffect will be called only when the component is rendered first time
+    useEffect(() => {
+        // clear the entries of the selected duration and selected gradutation type
+        setSelectedDuration("")
+        setSelectedGraduationType("")
+    }, [])
+
+    // useffect will be called when the selecteDuration is changed 
+    useEffect(() => {
+        // here we have to update the value of the 
+        // find the gradutation type
+        const currSelectedDurationData = IITBombayCoursesDetailsConstants.find((currDuration : any) => currDuration.duration === selectedDuration)
+        const currGraduationTypeList = currSelectedDurationData?.graduationType
+        setGraduationTypesList(currGraduationTypeList)
+    }, [selectedDuration])
+
+    // this useffect will be called only when the selectedGraduationType is changed
+    // and we will update the courses as well
+    useEffect(() => {
+        // we have to find the list of courses now given the graduation type 
+        const currCoursesList = graduationTypesList.find((currElement : any) => currElement.type === selectedGraduationType)?.courses
+        setCourses(currCoursesList? currCoursesList : [])
+    }, [selectedGraduationType])
+
 
     return (
         <div>
@@ -100,7 +92,7 @@ const CoursesSectionCollegePageComponent = (props : ICoursesSectionCollegePageCo
                         className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
                     >
                         {/* using the map function in order to show the list of graduation types based on the course duration selected */}
-                        {graduationTypesList.map((graduationType: any, index: number) => (
+                        {graduationTypesList?.map((graduationType: any, index: number) => (
                             <option key={index} value={graduationType.type}>
                                 {graduationType.type}
                             </option>
