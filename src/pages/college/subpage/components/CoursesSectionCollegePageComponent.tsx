@@ -58,9 +58,9 @@ const CoursesSectionCollegePageComponent = (props : ICoursesSectionCollegePageCo
             <BlogSectionComponent headingId={props.headingId} headingName={props.headingName} content={props.content}/>
             {/* here comes the search section with drop down option */}
             {/* Search section with dropdown option */}
-            <div className="flex justify-evenly items-center  border-2 border-red-500">
+            <div className="flex justify-evenly items-center">
 
-                <div className="border-2 border-white flex justify-center items-center flex-col w-1/3">
+                <div className="flex justify-center items-center flex-col w-1/3">
                     <label htmlFor="duration" className="block text-xl font-medium text-slate-300">
                         Select Course Duration:
                     </label>
@@ -81,7 +81,7 @@ const CoursesSectionCollegePageComponent = (props : ICoursesSectionCollegePageCo
                 </div>
 
                 {/* adding here the second select dropdown option to select graduationType */}
-                <div className="border-2 border-white flex justify-center items-center flex-col w-1/3">
+                <div className=" flex justify-center items-center flex-col w-1/3">
                     <label htmlFor="duration" className="block text-xl font-medium text-slate-300">
                         Select Graduation Type:
                     </label>
@@ -104,11 +104,11 @@ const CoursesSectionCollegePageComponent = (props : ICoursesSectionCollegePageCo
 
             {/* here comes the courses being offered in the college */}
             {/* List of courses */}
-            <div className="border-2 border-white">
-                <h2 className="text-lg font-medium text-slate-300">Courses Being Offered:</h2>
+            <div className="mt-10 flex flex-col items-center justify-center">
+                <h2 className="text-lg font-medium text-slate-300 ">Courses Being Offered:</h2>
                 <ul className="list-disc pl-5">
                     {courses.map((course, index) => (
-                        <li key={index} className="text-gray-700">
+                        <li key={index} className="mt-2 text-slate-400 text-gray-700 border-b  border-gray-700 text-lg">
                             {course}
                         </li>
                     ))}
