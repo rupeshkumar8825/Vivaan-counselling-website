@@ -7,6 +7,7 @@ import AdmissionSectionCollegePageComponent from "../components/AdmissionSection
 import CollegePageNavigationComponent from "../components/CollegePageNavigationComponent"
 import CoursesSectionCollegePageComponent from "../components/CoursesSectionCollegePageComponent"
 import FeesSectionCollegePageComponent from "../components/FeesSectionCollegePageComponent"
+import PlacementSectionCollegePageComponent from "../components/PlacementSectionCollegePageComponent"
 
 
 const IITGenericCollegePage = (props : IIITGenericCollegeComponent) => {
@@ -26,6 +27,7 @@ const IITGenericCollegePage = (props : IIITGenericCollegeComponent) => {
                 <FeesSectionCollegePageComponent headingId={props.feeSectionHeadingId} headingName={props.feeSectionHeadingName} content={props.feeSectionContent}></FeesSectionCollegePageComponent>
                 <AdmissionSectionCollegePageComponent headingId={props.admissionSectionHeadingId} headingName={props.admissionSectionHeadingName} content={props.admissionSectionContent}></AdmissionSectionCollegePageComponent>
                 <CoursesSectionCollegePageComponent headingId={props.coursesSectionHeadingId} headingName={props.coursesSectionHeadingName} content={props.coursesSectionContent}></CoursesSectionCollegePageComponent>
+                <PlacementSectionCollegePageComponent headingId={props.placementSectionHeadingId} headingName={props.placementSectionHeadingName} content={props.placementSectionContent}></PlacementSectionCollegePageComponent>
             </div>
         </div>
     )
