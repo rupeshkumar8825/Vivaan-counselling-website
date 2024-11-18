@@ -34,6 +34,9 @@ import JeeMainMentorshipPage from "../pages/mentorship/JeeMainsMentorshipPage";
 import MentorShipHomePage from "../pages/mentorship/MentorShipHomePage";
 
 
+import IITBombayCollegeImage  from "../assets/images/iit-bombay-college-pic.jpg"
+import { IITBombayCollegeAboutSectionContent, IITBombayCollegeAdmissionSectionContent, IITBombayCollegeCoursesSectionContent, IITBombayCollegeFeeSectionContent, IITBombayCollegeNavigationConstants } from "../constants/college/IIT/CollegePageNavigationComponentConstants";
+
 const routes = [
     //authentication related routes
     {
@@ -182,8 +185,88 @@ const routes = [
     // subpages for the IIT colleges comes here 
     {
         path : "/college/iit/iit-bombay", 
-        component : <IITGenericCollegePage></IITGenericCollegePage>
-    }
+        component : <IITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Technology Bombay" 
+        collegePageNavigationConstants={IITBombayCollegeNavigationConstants} 
+        aboutSectionContent={IITBombayCollegeAboutSectionContent} aboutSectionHeadingId={IITBombayCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IITBombayCollegeNavigationConstants[0].title} 
+        feeSectionContent={IITBombayCollegeFeeSectionContent} feeSectionHeadingId={IITBombayCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IITBombayCollegeNavigationConstants[1].title}
+        coursesSectionContent={IITBombayCollegeCoursesSectionContent} coursesSectionHeadingId={IITBombayCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={IITBombayCollegeNavigationConstants[5].title}
+        admissionSectionContent={IITBombayCollegeAdmissionSectionContent} admissionSectionHeadingId={IITBombayCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={IITBombayCollegeNavigationConstants[6].title}></IITGenericCollegePage>
+    },
+    {
+        path : "/college/iit/iit-delhi", 
+        component : <IITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Technology Bombay" 
+        collegePageNavigationConstants={IITBombayCollegeNavigationConstants} 
+        aboutSectionContent={IITBombayCollegeAboutSectionContent} aboutSectionHeadingId={IITBombayCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IITBombayCollegeNavigationConstants[0].title} 
+        feeSectionContent={IITBombayCollegeFeeSectionContent} feeSectionHeadingId={IITBombayCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IITBombayCollegeNavigationConstants[1].title}
+        coursesSectionContent={IITBombayCollegeCoursesSectionContent} coursesSectionHeadingId={IITBombayCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={IITBombayCollegeNavigationConstants[5].title}
+        admissionSectionContent={IITBombayCollegeAdmissionSectionContent} admissionSectionHeadingId={IITBombayCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={IITBombayCollegeNavigationConstants[6].title}></IITGenericCollegePage>
+    },
+    // {
+    //     path : "/college/iit/iit-kanpur", 
+    //     component : <IITGenericCollegePage></IITGenericCollegePage>
+    // },
+    // {
+    //     path : "/college/iit/iit-kharagpur", 
+    //     component : <IITGenericCollegePage></IITGenericCollegePage>
+    // },
+    // {
+    //     path : "/college/iit/iit-madras", 
+    //     component : <IITGenericCollegePage></IITGenericCollegePage>
+    // },
+    // {
+    //     path : "/college/iit/iit-roorkee", 
+    //     component : <IITGenericCollegePage></IITGenericCollegePage>
+    // },
+    // {
+    //     path : "/college/iit/iit-guwahati", 
+    //     component : <IITGenericCollegePage></IITGenericCollegePage>
+    // },
+    // {
+    //     path : "/college/iit/iit-hyderabad", 
+    //     component : <IITGenericCollegePage></IITGenericCollegePage>
+    // },
+    // {
+    //     path : "/college/iit/iit-jodhpur", 
+    //     component : <IITGenericCollegePage></IITGenericCollegePage>
+    // },
+    // {
+    //     path : "/college/iit/iit-indore", 
+    //     component : <IITGenericCollegePage></IITGenericCollegePage>
+    // },
+    // {
+    //     path : "/college/iit/iit-mandi", 
+    //     component : <IITGenericCollegePage></IITGenericCollegePage>
+    // },
+    // {
+    //     path : "/college/iit/iit-patna", 
+    //     component : <IITGenericCollegePage></IITGenericCollegePage>
+    // },
+    // {
+    //     path : "/college/iit/iit-ropar", 
+    //     component : <IITGenericCollegePage></IITGenericCollegePage>
+    // },
+    // {
+    //     path : "/college/iit/iit-bhubaneswar", 
+    //     component : <IITGenericCollegePage></IITGenericCollegePage>
+    // },
+    // {
+    //     path : "/college/iit/iit-gandhinagar", 
+    //     component : <IITGenericCollegePage></IITGenericCollegePage>
+    // },
+    // {
+    //     path : "/college/iit/iit-jammu", 
+    //     component : <IITGenericCollegePage></IITGenericCollegePage>
+    // },
+    // {
+    //     path : "/college/iit/iit-dharwad", 
+    //     component : <IITGenericCollegePage></IITGenericCollegePage>
+    // },
+    // {
+    //     path : "/college/iit/iit-tirupati", 
+    //     component : <IITGenericCollegePage></IITGenericCollegePage>
+    // },
+
+
 
 ]
 

@@ -1,8 +1,7 @@
 // this is the generic college page for IIT
 // mainly for all the IITs college page will be rendered in this component 
 // we will passing some data in the form of props to this component for that particular IIT college 
-import IITBombayCollegeImage  from "../../../../assets/images/iit-bombay-college-pic.jpg"
-import { IITBombarCollegeCoursesSectionContent, IITBombayCollegeAboutSectionContent, IITBombayCollegeAdmissionSectionContent, IITBombayCollegeFeeSectionContent, IITBombayCollegeNavigationConstants } from "../../../../constants/college/IIT/CollegePageNavigationComponentConstants"
+import { IIITGenericCollegeComponent } from "../../../../interfaces/interfaces"
 import AboutSectionCollegePageComponent from "../components/AboutSectionCollegePageComponent"
 import AdmissionSectionCollegePageComponent from "../components/AdmissionSectionCollegePageComponent"
 import CollegePageNavigationComponent from "../components/CollegePageNavigationComponent"
@@ -10,23 +9,23 @@ import CoursesSectionCollegePageComponent from "../components/CoursesSectionColl
 import FeesSectionCollegePageComponent from "../components/FeesSectionCollegePageComponent"
 
 
-const IITGenericCollegePage = () => {
+const IITGenericCollegePage = (props : IIITGenericCollegeComponent) => {
     return (
         <div>
             <div className="flex flex-col  text-white">
                 {/* here comes the IIT bombay image  */}
                 <div className="flex flex-col items-center justify-center p-10 rounded w-full">
                     <div className="relative w-full flex justify-center items-center">
-                        <img src={IITBombayCollegeImage} alt="IIT Bombay" className=" rounded w-3/4 h-80 "></img>
+                        <img src={props.collegeImage} alt="IIT Bombay" className=" rounded w-3/4 h-80 "></img>
                         <div className="absolute inset-0 bg-blue opacity-50 rounded"></div>
                     </div>
-                    <div className="text-2xl font-bold mt-5 ">Indian Institute of Technology Bombay</div>
+                    <div className="text-2xl font-bold mt-5 ">{props.collegeName}</div>
                 </div>
-                <CollegePageNavigationComponent></CollegePageNavigationComponent>
-                <AboutSectionCollegePageComponent headingId={IITBombayCollegeNavigationConstants[0].headingId} headingName={IITBombayCollegeNavigationConstants[0].title} content={IITBombayCollegeAboutSectionContent}></AboutSectionCollegePageComponent>
-                <FeesSectionCollegePageComponent headingId={IITBombayCollegeNavigationConstants[1].headingId} headingName={IITBombayCollegeNavigationConstants[1].title} content={IITBombayCollegeFeeSectionContent}></FeesSectionCollegePageComponent>
-                <AdmissionSectionCollegePageComponent headingId={IITBombayCollegeNavigationConstants[6].headingId} headingName={IITBombayCollegeNavigationConstants[6].title} content={IITBombayCollegeAdmissionSectionContent}></AdmissionSectionCollegePageComponent>
-                <CoursesSectionCollegePageComponent headingId={IITBombayCollegeNavigationConstants[5].headingId} headingName={IITBombayCollegeNavigationConstants[5].title} content={IITBombarCollegeCoursesSectionContent}></CoursesSectionCollegePageComponent>
+                <CollegePageNavigationComponent collegePageNavigationConstants={props.collegePageNavigationConstants}></CollegePageNavigationComponent>
+                <AboutSectionCollegePageComponent headingId={props.aboutSectionHeadingId} headingName={props.aboutSectionHeadingName} content={props.aboutSectionContent}></AboutSectionCollegePageComponent>
+                <FeesSectionCollegePageComponent headingId={props.feeSectionHeadingId} headingName={props.feeSectionHeadingName} content={props.feeSectionContent}></FeesSectionCollegePageComponent>
+                <AdmissionSectionCollegePageComponent headingId={props.admissionSectionHeadingId} headingName={props.admissionSectionHeadingName} content={props.admissionSectionContent}></AdmissionSectionCollegePageComponent>
+                <CoursesSectionCollegePageComponent headingId={props.coursesSectionHeadingId} headingName={props.coursesSectionHeadingName} content={props.coursesSectionContent}></CoursesSectionCollegePageComponent>
             </div>
         </div>
     )

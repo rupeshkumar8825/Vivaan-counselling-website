@@ -117,6 +117,11 @@ export interface ICollegeIntroCardComponent {
 
 
 // INTERFACES RELATED TO IIT COLLEGE PAGES COMES HERE 
+
+export interface ICollegePageNavigationComponent {
+    collegePageNavigationConstants : Array<IIITCollegeNavigationConstants>
+}
+
 export interface IIITCollegeNavigationConstants {
     title : string, 
     headingId : string
@@ -150,4 +155,28 @@ export interface ICoursesSectionCollegePageComponent extends IAboutSectionColleg
 
 }
 
+
+export interface IIITGenericCollegeComponent {
+    collegeImage : string, 
+    collegeName : string, 
+    collegePageNavigationConstants : Array<IIITCollegeNavigationConstants>, 
+    aboutSectionContent : string, 
+    aboutSectionHeadingId : string,
+    aboutSectionHeadingName : string
+    feeSectionContent : string, 
+    feeSectionHeadingId : string, 
+    feeSectionHeadingName : string, 
+    admissionSectionContent : string,
+    admissionSectionHeadingId : string,
+    admissionSectionHeadingName : string, 
+    // placementSectionContent : string, 
+    // placementSectionHeadingId : string,
+    // placementSectionHeadingName : string,
+    // contactSectionContent : string, 
+    // contactSectionHeadingId : string,
+    // contactSectionHeadingName : string,
+    coursesSectionContent : string,
+    coursesSectionHeadingId : string,
+    coursesSectionHeadingName : string
+}
 
