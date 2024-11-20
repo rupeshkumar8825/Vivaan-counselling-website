@@ -144,7 +144,7 @@ export interface IAdmissionSectionCollegePageComponent extends IAboutSectionColl
 }
 
 export interface IPlacementSectionCollegePageComponent extends IAboutSectionCollegePageComponent {
-        
+        collegePlacementDataConstant : Array<any>
 }
 
 export interface IContactSectionCollegePageComponent extends IAboutSectionCollegePageComponent {
@@ -172,6 +172,7 @@ export interface IIITGenericCollegeComponent {
     placementSectionContent : string, 
     placementSectionHeadingId : string,
     placementSectionHeadingName : string,
+    collegePlacementDataConstant : Array<any>,
     // contactSectionContent : string, 
     // contactSectionHeadingId : string,
     // contactSectionHeadingName : string,
