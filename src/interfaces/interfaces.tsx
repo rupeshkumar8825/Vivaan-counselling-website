@@ -152,7 +152,7 @@ export interface IContactSectionCollegePageComponent extends IAboutSectionColleg
 }
 
 export interface ICoursesSectionCollegePageComponent extends IAboutSectionCollegePageComponent {
-
+    collegeCourseDetailConstant : Array<any>
 }
 
 
@@ -177,7 +177,8 @@ export interface IIITGenericCollegeComponent {
     // contactSectionHeadingName : string,
     coursesSectionContent : string,
     coursesSectionHeadingId : string,
-    coursesSectionHeadingName : string
+    coursesSectionHeadingName : string, 
+    collegeCourseDetailConstant : Array<any>
 }
 
 

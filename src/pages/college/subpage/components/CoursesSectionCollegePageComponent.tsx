@@ -36,7 +36,7 @@ const CoursesSectionCollegePageComponent = (props : ICoursesSectionCollegePageCo
         // 2. Make a separate array for the course duration from the IITBombayCoursesDetailsConstants
         setSelectedDuration("")
         setSelectedGraduationType("")
-        const listConsistingOnlyDuration = IITBombayCoursesDetailsConstants.map((currObject : any) => currObject.duration)
+        const listConsistingOnlyDuration = props.collegeCourseDetailConstant.map((currObject : any) => currObject.duration)
         setListConsistingOnlyDuration(listConsistingOnlyDuration? listConsistingOnlyDuration : [])  
     }, [])
 
@@ -44,7 +44,7 @@ const CoursesSectionCollegePageComponent = (props : ICoursesSectionCollegePageCo
     useEffect(() => {
         // here we have to update the value of the 
         // find the gradutation type
-        const currSelectedDurationData = IITBombayCoursesDetailsConstants.find((currDuration : any) => currDuration.duration === selectedDuration)
+        const currSelectedDurationData = props.collegeCourseDetailConstant.find((currDuration : any) => currDuration.duration === selectedDuration)
         const currGraduationTypeList = currSelectedDurationData?.graduationType
         // we can get the array of only types from graduationTypesList using the map function 
         const listConsistingOnlyTypes = currGraduationTypeList?.map((currObject : any) => currObject.type)

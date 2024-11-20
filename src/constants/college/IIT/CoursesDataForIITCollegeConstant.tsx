@@ -3,6 +3,7 @@
 // 1. Duration for which it is being offered (4 year or 5 year)
 // 2. List of courses being offered for each of the duration
 
+
 export const IITBombayCoursesDetailsConstants = [
     {
         duration : "4",
