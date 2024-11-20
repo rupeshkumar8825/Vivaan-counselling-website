@@ -155,6 +155,9 @@ export interface ICoursesSectionCollegePageComponent extends IAboutSectionColleg
     collegeCourseDetailConstant : Array<any>
 }
 
+export interface ICutoffSectionCollegePageComponent extends IAboutSectionCollegePageComponent { 
+}
+
 
 export interface IIITGenericCollegeComponent {
     collegeImage : string, 
@@ -180,6 +183,10 @@ export interface IIITGenericCollegeComponent {
     coursesSectionHeadingId : string,
     coursesSectionHeadingName : string, 
     collegeCourseDetailConstant : Array<any>
+
+    cutoffSectionContent : string, 
+    cutoffSectionHeadingId : string,
+    cutoffSectionHeadingName : string, 
 }
 
 
@@ -191,3 +198,6 @@ export interface ISelectComponent {
     selectId : string, 
     selectLabelName : string
 }
+
+
+

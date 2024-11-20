@@ -35,9 +35,10 @@ import MentorShipHomePage from "../pages/mentorship/MentorShipHomePage";
 
 
 import IITBombayCollegeImage  from "../assets/images/iit-bombay-college-pic.jpg"
-import { IITBombayCollegeAboutSectionContent, IITBombayCollegeAdmissionSectionContent, IITBombayCollegeCoursesSectionContent, IITBombayCollegeFeeSectionContent, IITBombayCollegeNavigationConstants, IITBombayCollegePlacementSectionContent } from "../constants/college/IIT/CollegePageNavigationComponentConstants";
+import { IITBombayCollegeAboutSectionContent, IITBombayCollegeAdmissionSectionContent, IITBombayCollegeCoursesSectionContent, IITBombayCollegeCutOffSectionContent, IITBombayCollegeFeeSectionContent, IITBombayCollegeNavigationConstants, IITBombayCollegePlacementSectionContent } from "../constants/college/IIT/CollegePageNavigationComponentConstants";
 import { IITBombayCoursesDetailsConstants } from "../constants/college/IIT/CoursesDataForIITCollegeConstant";
 import { IITBombayPlacementDataConstant } from "../constants/college/IIT/PlacementDataForIITCollegeConstant";
+import IITGenericCutOffPage from "../pages/college/subpage/IIT/IITGenericCutOffPage";
 
 const routes = [
     //authentication related routes
@@ -193,7 +194,8 @@ const routes = [
         feeSectionContent={IITBombayCollegeFeeSectionContent} feeSectionHeadingId={IITBombayCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IITBombayCollegeNavigationConstants[1].title}
         coursesSectionContent={IITBombayCollegeCoursesSectionContent} coursesSectionHeadingId={IITBombayCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={IITBombayCollegeNavigationConstants[5].title} collegeCourseDetailConstant={IITBombayCoursesDetailsConstants}
         admissionSectionContent={IITBombayCollegeAdmissionSectionContent} admissionSectionHeadingId={IITBombayCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={IITBombayCollegeNavigationConstants[6].title}
-        placementSectionContent={IITBombayCollegePlacementSectionContent} placementSectionHeadingId={IITBombayCollegeNavigationConstants[2].headingId} placementSectionHeadingName={IITBombayCollegeNavigationConstants[2].title} collegePlacementDataConstant={IITBombayPlacementDataConstant}></IITGenericCollegePage>
+        placementSectionContent={IITBombayCollegePlacementSectionContent} placementSectionHeadingId={IITBombayCollegeNavigationConstants[2].headingId} placementSectionHeadingName={IITBombayCollegeNavigationConstants[2].title} collegePlacementDataConstant={IITBombayPlacementDataConstant}
+        cutoffSectionContent={IITBombayCollegeCutOffSectionContent} cutoffSectionHeadingId={IITBombayCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IITBombayCollegeNavigationConstants[7].title}></IITGenericCollegePage>
     },
     {
         path : "/college/iit/iit-delhi", 
@@ -203,7 +205,8 @@ const routes = [
         feeSectionContent={IITBombayCollegeFeeSectionContent} feeSectionHeadingId={IITBombayCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IITBombayCollegeNavigationConstants[1].title}
         coursesSectionContent={IITBombayCollegeCoursesSectionContent} coursesSectionHeadingId={IITBombayCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={IITBombayCollegeNavigationConstants[5].title} collegeCourseDetailConstant={[]}
         admissionSectionContent={IITBombayCollegeAdmissionSectionContent} admissionSectionHeadingId={IITBombayCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={IITBombayCollegeNavigationConstants[6].title}
-        placementSectionContent={IITBombayCollegePlacementSectionContent} placementSectionHeadingId={IITBombayCollegeNavigationConstants[2].headingId} placementSectionHeadingName={IITBombayCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}></IITGenericCollegePage>
+        placementSectionContent={IITBombayCollegePlacementSectionContent} placementSectionHeadingId={IITBombayCollegeNavigationConstants[2].headingId} placementSectionHeadingName={IITBombayCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
+        cutoffSectionContent={IITBombayCollegeCutOffSectionContent} cutoffSectionHeadingId={IITBombayCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IITBombayCollegeNavigationConstants[7].title}></IITGenericCollegePage>
 
     },
     // {
@@ -272,6 +275,16 @@ const routes = [
     // },
 
 
+
+    // cut off related routes for the colleges comes here
+    {
+        path : "/college/iit/iit-bombay/cutoff", 
+        component : <IITGenericCutOffPage/>
+    },
+    {
+        path : "/college/iit/iit-delhi/cutoff", 
+        component : <IITGenericCutOffPage/>
+    },
 
 ]
 
