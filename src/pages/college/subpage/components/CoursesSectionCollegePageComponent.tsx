@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import BlogSectionComponent from "../../../../components/blog/BlogSectionComponent";
 import { ICoursesSectionCollegePageComponent } from "../../../../interfaces/interfaces";
 import { IITBombayCoursesDetailsConstants } from "../../../../constants/college/IIT/CoursesDataForIITCollegeConstant";
+import SelectComponent from "../../../../components/common/SelectComponent";
 
 // Component for course section for colleges 
 const CoursesSectionCollegePageComponent = (props : ICoursesSectionCollegePageComponent) => {
@@ -12,6 +13,8 @@ const CoursesSectionCollegePageComponent = (props : ICoursesSectionCollegePageCo
     const [courses, setCourses] = useState<Array<string>>([]);
     const [selectedGraduationType, setSelectedGraduationType] = useState<string>("");
     const [graduationTypesList, setGraduationTypesList] = useState<any>([]);
+    const [listConsistingOnlyTypes, setListConsistingOnlyTypes] = useState<Array<string>>([]);
+    const [listConsistingOnlyDuration, setListConsistingOnlyDuration] = useState<Array<string>>([]);
 
     // handler functions comes here for the components
     const handleDurationChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
@@ -28,9 +31,13 @@ const CoursesSectionCollegePageComponent = (props : ICoursesSectionCollegePageCo
 
     // this useeffect will be called only when the component is rendered first time
     useEffect(() => {
-        // clear the entries of the selected duration and selected gradutation type
+        // when the component renders for the first time do the following actions
+        // 1. clear the selected duration and selected graduation type
+        // 2. Make a separate array for the course duration from the IITBombayCoursesDetailsConstants
         setSelectedDuration("")
         setSelectedGraduationType("")
+        const listConsistingOnlyDuration = IITBombayCoursesDetailsConstants.map((currObject : any) => currObject.duration)
+        setListConsistingOnlyDuration(listConsistingOnlyDuration? listConsistingOnlyDuration : [])  
     }, [])
 
     // useffect will be called when the selecteDuration is changed 
@@ -39,6 +46,9 @@ const CoursesSectionCollegePageComponent = (props : ICoursesSectionCollegePageCo
         // find the gradutation type
         const currSelectedDurationData = IITBombayCoursesDetailsConstants.find((currDuration : any) => currDuration.duration === selectedDuration)
         const currGraduationTypeList = currSelectedDurationData?.graduationType
+        // we can get the array of only types from graduationTypesList using the map function 
+        const listConsistingOnlyTypes = currGraduationTypeList?.map((currObject : any) => currObject.type)
+        setListConsistingOnlyTypes(listConsistingOnlyTypes? listConsistingOnlyTypes : [])
         setGraduationTypesList(currGraduationTypeList)
     }, [selectedDuration])
 
@@ -56,52 +66,28 @@ const CoursesSectionCollegePageComponent = (props : ICoursesSectionCollegePageCo
             {/* here comes the blog component specific for the courses being offered in the colleges */}
             {/* Blog component for the courses section */}
             <BlogSectionComponent headingId={props.headingId} headingName={props.headingName} content={props.content}/>
-            {/* here comes the search section with drop down option */}
-            {/* Search section with dropdown option */}
             <div className="flex justify-evenly items-center">
 
-                <div className="flex justify-center items-center flex-col w-1/3">
-                    <label htmlFor="duration" className="block text-xl font-medium text-slate-300">
-                        Select Course Duration:
-                    </label>
-                    <Select
-                        id="duration"
-                        value={selectedDuration}
-                        onChange={handleDurationChange}
-                        className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
-                    >
-                        {/* mapping the durations here using the map function */}
-                        {IITBombayCoursesDetailsConstants.map((course, index) => (
-                            <option key={index} value={course.duration}>
-                                {course.duration}
-                            </option>
-                        ))}
-                        
-                    </Select>
-                </div>
+                {/* /* here comes the search section with drop down option */ }
+                <SelectComponent
+                    selectId="duration"
+                    selectLabelName="Select Course Duration:"
+                    selectedValue={selectedDuration}
+                    selectOnChangeHandler={handleDurationChange}
+                    selectValuesList={listConsistingOnlyDuration}
+                    selectHtmlFor="duration"
+                />
 
-                {/* adding here the second select dropdown option to select graduationType */}
-                <div className=" flex justify-center items-center flex-col w-1/3">
-                    <label htmlFor="duration" className="block text-xl font-medium text-slate-300">
-                        Select Graduation Type:
-                    </label>
-                    <Select
-                        id="duration"
-                        value={selectedGraduationType}
-                        onChange={handleGraduationTypeChange}
-                        className="mt-1 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm rounded-md"
-                    >
-                        {/* using the map function in order to show the list of graduation types based on the course duration selected */}
-                        {graduationTypesList?.map((graduationType: any, index: number) => (
-                            <option key={index} value={graduationType.type}>
-                                {graduationType.type}
-                            </option>
-                        ))}
-                        
-                    </Select>
-                </div>
+                <SelectComponent
+                    selectId="graduationType"
+                    selectLabelName="Select Course Graduation Type:"
+                    selectedValue={selectedGraduationType}
+                    selectOnChangeHandler={handleGraduationTypeChange}
+                    selectValuesList={listConsistingOnlyTypes}
+                    selectHtmlFor="graduationType"
+                />
+                
             </div>
-
             {/* here comes the courses being offered in the college */}
             {/* List of courses */}
             <div className="mt-10 flex flex-col items-center justify-center">

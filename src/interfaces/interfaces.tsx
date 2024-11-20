@@ -180,3 +180,12 @@ export interface IIITGenericCollegeComponent {
     coursesSectionHeadingName : string
 }
 
+
+export interface ISelectComponent {
+    selectedValue : string, 
+    selectOnChangeHandler : (event : React.ChangeEvent<HTMLSelectElement>) => void,
+    selectValuesList : Array<string>
+    selectHtmlFor : string, 
+    selectId : string, 
+    selectLabelName : string
+}
