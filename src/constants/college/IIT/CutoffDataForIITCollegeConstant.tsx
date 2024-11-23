@@ -46,3 +46,8 @@ export const IITBombayCutOffDataConstant = [
         ]
     }
 ]
+
+
+export const IITBombayCutOffContentConstant : string = "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint praesentium, modi voluptatem a iusto consequuntur eligendi quibusdam impedit at cupiditate, culpa accusamus labore et. Perferendis numquam blanditiis eum est necessitatibus Officiis provident hic ipsam deserunt minus, tenetur delectus iste harum neque asperiores id commodi ipsum eligendi inventore perferendis quam molestiae, nesciunt rerum aliquid tempore magni recusandae amet explicabo! Ex, animi!"
+export const IITBombayCutOffHeadingIdConstant : string = "iit-bombay-cut-off-page-heading"
+export const IITBombayCutOffHeadingName : string = "IIT Bombay Cut Off Details"

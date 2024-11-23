@@ -39,6 +39,7 @@ import { IITBombayCollegeAboutSectionContent, IITBombayCollegeAdmissionSectionCo
 import { IITBombayCoursesDetailsConstants } from "../constants/college/IIT/CoursesDataForIITCollegeConstant";
 import { IITBombayPlacementDataConstant } from "../constants/college/IIT/PlacementDataForIITCollegeConstant";
 import IITGenericCutOffPage from "../pages/college/subpage/IIT/IITGenericCutOffPage";
+import { IITBombayCutOffContentConstant, IITBombayCutOffHeadingIdConstant, IITBombayCutOffHeadingName } from "../constants/college/IIT/CutoffDataForIITCollegeConstant";
 
 const routes = [
     //authentication related routes
@@ -279,11 +280,11 @@ const routes = [
     // cut off related routes for the colleges comes here
     {
         path : "/college/iit/iit-bombay/cutoff", 
-        component : <IITGenericCutOffPage/>
+        component : <IITGenericCutOffPage blogSectionHeadingId={IITBombayCutOffHeadingIdConstant} blogSectionHeadingName={IITBombayCutOffHeadingName} blogSectionContent={IITBombayCutOffContentConstant}/>
     },
     {
         path : "/college/iit/iit-delhi/cutoff", 
-        component : <IITGenericCutOffPage/>
+        component : <IITGenericCutOffPage blogSectionHeadingId={IITBombayCutOffHeadingIdConstant} blogSectionHeadingName={IITBombayCutOffHeadingName} blogSectionContent={IITBombayCutOffContentConstant}/>
     },
 
 ]

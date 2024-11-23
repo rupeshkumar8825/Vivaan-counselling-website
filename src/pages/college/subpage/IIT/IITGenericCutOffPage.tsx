@@ -5,13 +5,15 @@
 import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom"
 import SelectComponent from "../../../../components/common/SelectComponent";
+import BlogSectionComponent from "../../../../components/blog/BlogSectionComponent";
+import { IIITGenericCutOffPage } from "../../../../interfaces/interfaces";
 
-const IITGenericCutOffPage = () => {
+const IITGenericCutOffPage = (props : IIITGenericCutOffPage) => {
     
     // here we have to find the route for the cutoff page
     // we can use the route to find the college name
     // and then we can use the college name to find the cutoff details
-    const location = useLocation();
+    const location = useLocation(); 
     const url = location.pathname;
 
 
@@ -43,10 +45,8 @@ const IITGenericCutOffPage = () => {
 
     return (
         <div>
-            <div className="text-white">
-                IIT BOMBAY CUTOFF DETAILS
-            </div>
-            <div className="border-2 border-white flex flex-col justify-center items-center">
+            <BlogSectionComponent headingId={props.blogSectionHeadingId} headingName={props.blogSectionHeadingName} content={props.blogSectionContent}></BlogSectionComponent>
+            <div className=" flex flex-col justify-center items-center">
 
                 {/* here we have to show the following things */}
                 {/* 1. select dropodown option to select the year

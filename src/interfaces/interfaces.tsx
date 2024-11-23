@@ -199,5 +199,9 @@ export interface ISelectComponent {
     selectLabelName : string
 }
 
-
+export interface IIITGenericCutOffPage {
+    blogSectionHeadingId : string, 
+    blogSectionHeadingName : string,
+    blogSectionContent : string
+}
 
