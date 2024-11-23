@@ -2,9 +2,8 @@ import HeadingComponent from "../../components/HeadingComponent"
 import OverviewSectionComponent from "../../home/components/OverviewSectionComponent"
 import VideoCard from "../../components/VideoCardComponent"
 import BlogComponent from "../../components/blog/BlogComponent"
-import { JeeMainExamPageButtonCodesList} from "../../constants/JeeMainsExamPageConstants"
 import { useNavigate } from "react-router-dom"
-import { JeeAdvanceContentList, JeeAdvanceExamPageButtonCodesList, JeeAdvanceExamPageButtonWidthList, JeeAdvanceExamRoutesList, JeeAdvanceExamsButtonNameList, JeeAdvanceExamSubMenuList, JeeAdvanceHeadingIdList, JeeAdvanceHeadingList, JeeAdvanceTableOfContentList, JeeAdvanceVideoCardTitleList, JeeAdvanceVideoCardUrlList } from "../../constants/JeeAdvanceExamPageConstants"
+import { JeeAdvanceContentList, JeeAdvanceExamPageButtonCodesList, JeeAdvanceExamPageButtonWidthList, JeeAdvanceExamRoutesList, JeeAdvanceExamsButtonNameList, JeeAdvanceExamSubMenuList, JeeAdvanceHeadingIdList, JeeAdvanceHeadingList, JeeAdvanceTableOfContentList, JeeAdvanceVideoCardTitleList, JeeAdvanceVideoCardUrlList } from "../../constants/exam/JeeAdvanceExamPageConstants"
 
 
 // this component for the jee advance exam page 

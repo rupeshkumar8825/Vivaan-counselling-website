@@ -2,7 +2,7 @@ import HeadingComponent from "../../components/HeadingComponent"
 import OverviewSectionComponent from "../../home/components/OverviewSectionComponent"
 import VideoCard from "../../components/VideoCardComponent"
 import BlogComponent from "../../components/blog/BlogComponent"
-import { JeeMainContentList, JeeMainExamPageButtonCodesList, JeeMainExamsButtonNameList, JeeMainHeadingIdList, JeeMainsExamRoutesList, JeeMainsExamSubMenuList, JeeMainsHeadingList, JeeMainTableOfContentList, JeeMainVideoCardTitleList, JeeMainVideoCardUrlList } from "../../constants/JeeMainsExamPageConstants"
+import { JeeMainContentList, JeeMainExamPageButtonCodesList, JeeMainExamsButtonNameList, JeeMainHeadingIdList, JeeMainsExamRoutesList, JeeMainsExamSubMenuList, JeeMainsHeadingList, JeeMainTableOfContentList, JeeMainVideoCardTitleList, JeeMainVideoCardUrlList } from "../../constants/exam/JeeMainsExamPageConstants"
 import { useNavigate } from "react-router-dom"
 import { JosaaCounsellingPageButtonCodeList, JosaaCounsellingPageButtonNameList, JosaaCounsellingPageButtonWidthList, JosaaCounsellingPageContentList, JosaaCounsellingPageHeadingIdList, JosaaCounsellingPageHeadingList, JosaaCounsellingPageRoutesList, JosaaCounsellingPageSubMenuList, JosaaCounsellingPageTableOfContentList, JosaaCounsellingPageVideoCardTitleList, JosaaCounsellingPageVideoCardUrlList } from "../../constants/JosaaCounsellingPageConstants"
 
