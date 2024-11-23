@@ -42,7 +42,7 @@ const WebJeeExamPage = () => {
             <div className="flex items-center justify-center">
                 <OverviewSectionComponent dropDownMenuName="Overview" dropDownButtonId="WbJeeOverviewButtonId" dropDowndivId="WbJeeOverviewDivId" dropDownSubMenuList={WBJeeExamSubMenuList} dropDownRoutesList={WBJeeExamRoutesList} buttonNameList={WBJeeExamsButtonNameList} buttonWidthList={WbJeeExamPageButtonWidthList} buttonCodeList={WbJeeExamPageButtonCodesList} buttonGenericClickHandler={OnOverviewSectionButtonClickHandlerGeneric}></OverviewSectionComponent>
             </div>
-            <HeadingComponent headingName="Latest Updates" headingSpanName="BITSAT"></HeadingComponent>
+            <HeadingComponent headingName="Latest Updates" headingSpanName="WBJEE"></HeadingComponent>
             <div className="flex justify-center items-center justify-evenly mt-10 w-full p-10">
                 {/* here we will be using the map function to render all the available video card  component */}
                 {WbJEEVideoCardUrlList.map((_ : string, index : number) => (
