@@ -2,9 +2,8 @@ import HeadingComponent from "../../components/HeadingComponent"
 import OverviewSectionComponent from "../../home/components/OverviewSectionComponent"
 import VideoCard from "../../components/VideoCardComponent"
 import BlogComponent from "../../components/blog/BlogComponent"
-import { JeeMainContentList, JeeMainExamPageButtonCodesList, JeeMainExamsButtonNameList, JeeMainHeadingIdList, JeeMainsExamRoutesList, JeeMainsExamSubMenuList, JeeMainsHeadingList, JeeMainTableOfContentList, JeeMainVideoCardTitleList, JeeMainVideoCardUrlList } from "../../constants/exam/JeeMainsExamPageConstants"
 import { useNavigate } from "react-router-dom"
-import { JosaaCounsellingPageButtonCodeList, JosaaCounsellingPageButtonNameList, JosaaCounsellingPageButtonWidthList, JosaaCounsellingPageContentList, JosaaCounsellingPageHeadingIdList, JosaaCounsellingPageHeadingList, JosaaCounsellingPageRoutesList, JosaaCounsellingPageSubMenuList, JosaaCounsellingPageTableOfContentList, JosaaCounsellingPageVideoCardTitleList, JosaaCounsellingPageVideoCardUrlList } from "../../constants/JosaaCounsellingPageConstants"
+import { JosaaCounsellingPageButtonCodeList, JosaaCounsellingPageButtonNameList, JosaaCounsellingPageButtonWidthList, JosaaCounsellingPageContentList, JosaaCounsellingPageHeadingIdList, JosaaCounsellingPageHeadingList, JosaaCounsellingPageRoutesList, JosaaCounsellingPageSubMenuList, JosaaCounsellingPageTableOfContentList, JosaaCounsellingPageVideoCardTitleList, JosaaCounsellingPageVideoCardUrlList } from "../../constants/councelling/JosaaCounsellingPageConstants"
 
 const JosaaCounsellingPage = () => {
     const navigate = useNavigate()
@@ -51,7 +50,7 @@ const JosaaCounsellingPage = () => {
     return (
         <div className="text-white  mt-10 w-full">
             <div className="flex items-center justify-center">
-                <OverviewSectionComponent dropDownMenuName="Overview" dropDownButtonId="JeeMainOverviewButtonId" dropDowndivId="JeeMainOverviewDivId" dropDownSubMenuList={JosaaCounsellingPageSubMenuList} dropDownRoutesList={JosaaCounsellingPageRoutesList} buttonNameList={JosaaCounsellingPageButtonNameList} buttonWidthList={JosaaCounsellingPageButtonWidthList} buttonCodeList={JosaaCounsellingPageButtonCodeList} buttonGenericClickHandler={OnOverviewSectionButtonClickHandlerGeneric}></OverviewSectionComponent>
+                <OverviewSectionComponent dropDownMenuName="Overview" dropDownButtonId="JosaaOverviewButtonId" dropDowndivId="JosaaOverviewDivId" dropDownSubMenuList={JosaaCounsellingPageSubMenuList} dropDownRoutesList={JosaaCounsellingPageRoutesList} buttonNameList={JosaaCounsellingPageButtonNameList} buttonWidthList={JosaaCounsellingPageButtonWidthList} buttonCodeList={JosaaCounsellingPageButtonCodeList} buttonGenericClickHandler={OnOverviewSectionButtonClickHandlerGeneric}></OverviewSectionComponent>
             </div>
             <HeadingComponent headingName="Latest Updates" headingSpanName="Josaa Counselling"></HeadingComponent>
             <div className="flex justify-center items-center justify-evenly mt-10 w-full p-10">
