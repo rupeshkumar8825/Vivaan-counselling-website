@@ -35,11 +35,11 @@ import MentorShipHomePage from "../pages/mentorship/MentorShipHomePage";
 
 
 import IITBombayCollegeImage  from "../assets/images/iit-bombay-college-pic.jpg"
-import { IITBombayCollegeAboutSectionContent, IITBombayCollegeAdmissionSectionContent, IITBombayCollegeCoursesSectionContent, IITBombayCollegeCutOffSectionContent, IITBombayCollegeFeeSectionContent, IITBombayCollegeNavigationConstants, IITBombayCollegePlacementSectionContent } from "../constants/college/IIT/CollegePageNavigationComponentConstants";
+import { IITBombayCollegeAboutSectionContent, IITBombayCollegeAdmissionSectionContent, IITBombayCollegeCoursesSectionContent, IITBombayCollegeCutOffSectionContent, IITBombayCollegeFeeSectionContent, IITBombayCollegeNavigationConstants, IITBombayCollegePlacementSectionContent, IITDelhiCollegeAboutSectionContent, IITDelhiCollegeAdmissionSectionContent, IITDelhiCollegeCoursesSectionContent, IITDelhiCollegeCutOffSectionContent, IITDelhiCollegeFeeSectionContent, IITDelhiCollegeNavigationConstants, IITDelhiCollegePlacementSectionContent } from "../constants/college/IIT/CollegePageNavigationComponentConstants";
 import { IITBombayCoursesDetailsConstants } from "../constants/college/IIT/CoursesDataForIITCollegeConstant";
 import { IITBombayPlacementDataConstant } from "../constants/college/IIT/PlacementDataForIITCollegeConstant";
 import IITGenericCutOffPage from "../pages/college/subpage/IIT/IITGenericCutOffPage";
-import { IITBombayCutOffContentConstant, IITBombayCutOffHeadingIdConstant, IITBombayCutOffHeadingName } from "../constants/college/IIT/CutoffDataForIITCollegeConstant";
+import { IITBombayCutOffContentConstant, IITBombayCutOffHeadingIdConstant, IITBombayCutOffHeadingName, IITDelhiCutOffContentConstant, IITDelhiCutOffHeadingIdConstant, IITDelhiCutOffHeadingName } from "../constants/college/IIT/CutoffDataForIITCollegeConstant";
 
 const routes = [
     //authentication related routes
@@ -201,81 +201,16 @@ const routes = [
     {
         path : "/college/iit/iit-delhi", 
         component : <IITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Technology Delhi" 
-        collegePageNavigationConstants={IITBombayCollegeNavigationConstants} 
-        aboutSectionContent={IITBombayCollegeAboutSectionContent} aboutSectionHeadingId={IITBombayCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IITBombayCollegeNavigationConstants[0].title} 
-        feeSectionContent={IITBombayCollegeFeeSectionContent} feeSectionHeadingId={IITBombayCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IITBombayCollegeNavigationConstants[1].title}
-        coursesSectionContent={IITBombayCollegeCoursesSectionContent} coursesSectionHeadingId={IITBombayCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={IITBombayCollegeNavigationConstants[5].title} collegeCourseDetailConstant={[]}
-        admissionSectionContent={IITBombayCollegeAdmissionSectionContent} admissionSectionHeadingId={IITBombayCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={IITBombayCollegeNavigationConstants[6].title}
-        placementSectionContent={IITBombayCollegePlacementSectionContent} placementSectionHeadingId={IITBombayCollegeNavigationConstants[2].headingId} placementSectionHeadingName={IITBombayCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-        cutoffSectionContent={IITBombayCollegeCutOffSectionContent} cutoffSectionHeadingId={IITBombayCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IITBombayCollegeNavigationConstants[7].title}></IITGenericCollegePage>
+        collegePageNavigationConstants={IITDelhiCollegeNavigationConstants} 
+        aboutSectionContent={IITDelhiCollegeAboutSectionContent} aboutSectionHeadingId={IITDelhiCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IITDelhiCollegeNavigationConstants[0].title} 
+        feeSectionContent={IITDelhiCollegeFeeSectionContent} feeSectionHeadingId={IITDelhiCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IITDelhiCollegeNavigationConstants[1].title}
+        coursesSectionContent={IITDelhiCollegeCoursesSectionContent} coursesSectionHeadingId={IITDelhiCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={IITDelhiCollegeNavigationConstants[5].title} collegeCourseDetailConstant={[]}
+        admissionSectionContent={IITDelhiCollegeAdmissionSectionContent} admissionSectionHeadingId={IITDelhiCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={IITDelhiCollegeNavigationConstants[6].title}
+        placementSectionContent={IITDelhiCollegePlacementSectionContent} placementSectionHeadingId={IITDelhiCollegeNavigationConstants[2].headingId} placementSectionHeadingName={IITDelhiCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
+        cutoffSectionContent={IITDelhiCollegeCutOffSectionContent} cutoffSectionHeadingId={IITDelhiCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IITDelhiCollegeNavigationConstants[7].title}></IITGenericCollegePage>
 
     },
-    // {
-    //     path : "/college/iit/iit-kanpur", 
-    //     component : <IITGenericCollegePage></IITGenericCollegePage>
-    // },
-    // {
-    //     path : "/college/iit/iit-kharagpur", 
-    //     component : <IITGenericCollegePage></IITGenericCollegePage>
-    // },
-    // {
-    //     path : "/college/iit/iit-madras", 
-    //     component : <IITGenericCollegePage></IITGenericCollegePage>
-    // },
-    // {
-    //     path : "/college/iit/iit-roorkee", 
-    //     component : <IITGenericCollegePage></IITGenericCollegePage>
-    // },
-    // {
-    //     path : "/college/iit/iit-guwahati", 
-    //     component : <IITGenericCollegePage></IITGenericCollegePage>
-    // },
-    // {
-    //     path : "/college/iit/iit-hyderabad", 
-    //     component : <IITGenericCollegePage></IITGenericCollegePage>
-    // },
-    // {
-    //     path : "/college/iit/iit-jodhpur", 
-    //     component : <IITGenericCollegePage></IITGenericCollegePage>
-    // },
-    // {
-    //     path : "/college/iit/iit-indore", 
-    //     component : <IITGenericCollegePage></IITGenericCollegePage>
-    // },
-    // {
-    //     path : "/college/iit/iit-mandi", 
-    //     component : <IITGenericCollegePage></IITGenericCollegePage>
-    // },
-    // {
-    //     path : "/college/iit/iit-patna", 
-    //     component : <IITGenericCollegePage></IITGenericCollegePage>
-    // },
-    // {
-    //     path : "/college/iit/iit-ropar", 
-    //     component : <IITGenericCollegePage></IITGenericCollegePage>
-    // },
-    // {
-    //     path : "/college/iit/iit-bhubaneswar", 
-    //     component : <IITGenericCollegePage></IITGenericCollegePage>
-    // },
-    // {
-    //     path : "/college/iit/iit-gandhinagar", 
-    //     component : <IITGenericCollegePage></IITGenericCollegePage>
-    // },
-    // {
-    //     path : "/college/iit/iit-jammu", 
-    //     component : <IITGenericCollegePage></IITGenericCollegePage>
-    // },
-    // {
-    //     path : "/college/iit/iit-dharwad", 
-    //     component : <IITGenericCollegePage></IITGenericCollegePage>
-    // },
-    // {
-    //     path : "/college/iit/iit-tirupati", 
-    //     component : <IITGenericCollegePage></IITGenericCollegePage>
-    // },
-
-
+    
 
     // cut off related routes for the colleges comes here
     {
@@ -284,7 +219,7 @@ const routes = [
     },
     {
         path : "/college/iit/iit-delhi/cutoff", 
-        component : <IITGenericCutOffPage blogSectionHeadingId={IITBombayCutOffHeadingIdConstant} blogSectionHeadingName={IITBombayCutOffHeadingName} blogSectionContent={IITBombayCutOffContentConstant}/>
+        component : <IITGenericCutOffPage blogSectionHeadingId={IITDelhiCutOffHeadingIdConstant} blogSectionHeadingName={IITDelhiCutOffHeadingName} blogSectionContent={IITDelhiCutOffContentConstant}/>
     },
 
 ]
