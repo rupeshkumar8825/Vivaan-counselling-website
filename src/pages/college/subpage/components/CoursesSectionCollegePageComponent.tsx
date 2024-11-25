@@ -1,8 +1,6 @@
-import { Select } from "flowbite-react";
 import { useEffect, useState } from "react";
 import BlogSectionComponent from "../../../../components/blog/BlogSectionComponent";
 import { ICoursesSectionCollegePageComponent } from "../../../../interfaces/interfaces";
-import { IITBombayCoursesDetailsConstants } from "../../../../constants/college/IIT/CoursesDataForIITCollegeConstant";
 import SelectComponent from "../../../../components/common/SelectComponent";
 
 // Component for course section for colleges 
