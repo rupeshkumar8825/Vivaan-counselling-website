@@ -209,6 +209,13 @@ import { IITBhubaneshwarPlacementDataConstant, IITBombayPlacementDataConstant, I
 import IITGenericCutOffPage from "../pages/college/subpage/IIT/IITGenericCutOffPage";
 import { IITBombayCutOffContentConstant, IITBombayCutOffHeadingIdConstant, IITBombayCutOffHeadingName, IITDelhiCutOffContentConstant, IITDelhiCutOffHeadingIdConstant, IITDelhiCutOffHeadingName } from "../constants/college/IIT/CutoffDataForIITCollegeConstant";
 
+import JeeAdvanceExamAdmitCardPage from "../pages/exams/subPages/JeeAdvance/JeeAdvanceExamAdmitCardPage";
+import JeeAdvanceExamApplicationPage from "../pages/exams/subPages/JeeAdvance/JeeAdvanceExamApplicationPage";
+import JeeAdvanceExamDatesPage from "../pages/exams/subPages/JeeAdvance/JeeAdvanceExamDatePage";
+import JeeAdvanceExamDetailsPage from "../pages/exams/subPages/JeeAdvance/JeeAdvanceExamDetailsPage";
+import JeeAdvanceExamEligibilityPage from "../pages/exams/subPages/JeeAdvance/JeeAdvanceExamEligiblityPage";
+import JeeAdvanceExamSyllabusPage from "../pages/exams/subPages/JeeAdvance/JeeAdvanceExamSyllabusPage";
+
 const routes = [
     //authentication related routes
     {
@@ -253,7 +260,7 @@ const routes = [
     }, 
 
     
-    // exams-child pages related routes here
+    // exams-child pages for jeemains related routes here
     {
         path : "/exam/jeemains/exam", 
         component : <JeeMainExamDetailsPage/>
@@ -279,6 +286,36 @@ const routes = [
         component : <JeeMainExamAdmitCardPage/>
     }, 
     
+
+    // exams-child pages for jeeadvance comes here
+    
+    {
+        path : "/exam/jeeadvance/exam", 
+        component : <JeeAdvanceExamDetailsPage/>
+    }, 
+    {
+        path : "/exam/jeeadvance/syllabus", 
+        component : <JeeAdvanceExamSyllabusPage/>
+    }, 
+    {
+        path : "/exam/jeeadvance/application", 
+        component : <JeeAdvanceExamApplicationPage/>
+    }, 
+    {
+        path : "/exam/jeeadvance/eligibility", 
+        component : <JeeAdvanceExamEligibilityPage/>
+    }, 
+    {
+        path : "/exam/jeeadvance/dates", 
+        component : <JeeAdvanceExamDatesPage/>
+    }, 
+    {
+        path : "/exam/jeeadvance/admitcard", 
+        component : <JeeAdvanceExamAdmitCardPage/>
+    }, 
+
+
+
     
     // mentoroship related routes comes here 
     {
