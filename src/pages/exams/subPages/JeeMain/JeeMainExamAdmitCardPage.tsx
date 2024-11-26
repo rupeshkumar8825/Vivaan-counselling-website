@@ -1,10 +1,9 @@
 // this is the sub page exam -> jee mains 
 
 import BlogComponent from "../../../../components/blog/BlogComponent"
-import HeadingComponent from "../../../../components/HeadingComponent"
 import { JeeMainAdmitCardSubPageContentList, JeeMainAdmitCardSubPageHeadingIdList, JeeMainAdmitCardSubPageHeadingList, JeeMainAdmitCardSubPageTableOfContentList } from "../../../../constants/exam/JeeMainsExamPageConstants"
 
-const JeeMainExamAdmitCardPage = () => {
+const JeeMainExamAdmitPage = () => {
     return (
         <div className="text-white  mt-10 w-full">
             {/* <div className="flex items-center justify-center">
@@ -28,4 +27,4 @@ const JeeMainExamAdmitCardPage = () => {
 
 
 // say everything went fine 
-export default JeeMainExamAdmitCardPage
+export default JeeMainExamAdmitPage
