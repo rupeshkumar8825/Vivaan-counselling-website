@@ -3,7 +3,7 @@
 import BlogComponent from "../../../../components/blog/BlogComponent"
 import { JeeMainAdmitCardSubPageContentList, JeeMainAdmitCardSubPageHeadingIdList, JeeMainAdmitCardSubPageHeadingList, JeeMainAdmitCardSubPageTableOfContentList } from "../../../../constants/exam/JeeMainsExamPageConstants"
 
-const JeeMainExamAdmitPage = () => {
+const JeeMainExamAdmitCardPage = () => {
     return (
         <div className="text-white  mt-10 w-full">
             {/* <div className="flex items-center justify-center">
@@ -27,4 +27,4 @@ const JeeMainExamAdmitPage = () => {
 
 
 // say everything went fine 
-export default JeeMainExamAdmitPage
+export default JeeMainExamAdmitCardPage
