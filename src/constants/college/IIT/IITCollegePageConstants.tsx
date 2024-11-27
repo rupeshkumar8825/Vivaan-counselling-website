@@ -1,6 +1,6 @@
 // this is constants related page for the IIT college page
 
-import { IIITCollegeCard } from "../interfaces/interfaces";
+import { IIITCollegeCard } from "../../../interfaces/interfaces";
 
 export const IITCollegeCardConstants : Array<IIITCollegeCard> = [
     {
