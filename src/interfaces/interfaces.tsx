@@ -127,6 +127,12 @@ export interface IIITCollegeNavigationConstants {
     headingId : string
 }
 
+
+export interface INITCollegeNavigationConstants {
+    title : string, 
+    headingId : string
+}
+
 export interface IAboutSectionCollegePageComponent {
     headingId : string, 
     headingName : string, 
@@ -205,3 +211,33 @@ export interface IIITGenericCutOffPage {
     blogSectionContent : string
 }
 
+
+export interface INITGenericCollegeComponent {
+    collegeImage : string, 
+    collegeName : string, 
+    collegePageNavigationConstants : Array<INITCollegeNavigationConstants>, 
+    aboutSectionContent : string, 
+    aboutSectionHeadingId : string,
+    aboutSectionHeadingName : string
+    feeSectionContent : string, 
+    feeSectionHeadingId : string, 
+    feeSectionHeadingName : string, 
+    admissionSectionContent : string,
+    admissionSectionHeadingId : string,
+    admissionSectionHeadingName : string, 
+    placementSectionContent : string, 
+    placementSectionHeadingId : string,
+    placementSectionHeadingName : string,
+    collegePlacementDataConstant : Array<any>,
+    // contactSectionContent : string, 
+    // contactSectionHeadingId : string,
+    // contactSectionHeadingName : string,
+    coursesSectionContent : string,
+    coursesSectionHeadingId : string,
+    coursesSectionHeadingName : string, 
+    collegeCourseDetailConstant : Array<any>
+
+    cutoffSectionContent : string, 
+    cutoffSectionHeadingId : string,
+    cutoffSectionHeadingName : string, 
+}
