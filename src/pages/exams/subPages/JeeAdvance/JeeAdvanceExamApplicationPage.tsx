@@ -1,13 +1,30 @@
-// this is jee advanced application page for this purpose
-import React from 'react';
+// this is the sub page exam -> jee mains 
 
-const JeeAdvanceExamApplicationPage: React.FC = () => {
+import BlogComponent from "../../../../components/blog/BlogComponent"
+import { JeeAdvanceApplicationContentList, JeeAdvanceApplicationHeadingIdList, JeeAdvanceApplicationHeadingList, JeeAdvanceApplicationTableOfContentList } from "../../../../constants/exam/JeeAdvanceExamPageConstants"
+
+const JeeAdvanceExamApplicationPage = () => {
     return (
-        <div>
-            <h1>JEE Advanced Exam Application Page</h1>
-            <p>This is the JEE Advanced Exam Application Page.</p>
-        </div>
-    );
-};
+        <div className="text-white  mt-10 w-full">
+            {/* <div className="flex items-center justify-center">
+                <OverviewSectionComponent dropDownMenuName="Overview" dropDownButtonId="JeeMainOverviewButtonId" dropDowndivId="JeeMainOverviewDivId" dropDownSubMenuList={JeeMainsExamSubMenuList} dropDownRoutesList={JeeMainsExamRoutesList} buttonNameList={JeeMainExamsButtonNameList} buttonWidthList={JeeMainExamPageButtonWidthList} buttonCodeList={JeeMainExamPageButtonCodesList} buttonGenericClickHandler={OnOverviewSectionButtonClickHandlerGeneric}></OverviewSectionComponent>
+            </div> */}
+            {/* <HeadingComponent headingName="Latest Updates" headingSpanName="Jee Mains"></HeadingComponent> */}
+            {/* <div className="flex justify-center items-center justify-evenly mt-10 w-full p-10"> */}
+                {/* here we will be using the map function to render all the available video card  component */}
+                {/* {JeeMainVideoCardTitleList.map((_ : string, index : number) => ( */}
+                    {/* <VideoCard key={index} videoUrl={JeeMainVideoCardUrlList[index]} title={JeeMainVideoCardTitleList[index]} content="An example of a YouTube video embedded in a Tailwind CSS card."></VideoCard> */}
+                {/* ))} */}
+            {/* </div> */}
+            <div className="">
+                {/* <BlogHeadingComponent headingName="JEE MAINS EXAM"></BlogHeadingComponent> */}
+                <BlogComponent headingIdList={JeeAdvanceApplicationHeadingIdList} headingNameList={JeeAdvanceApplicationHeadingList} tableOfContentsList={JeeAdvanceApplicationTableOfContentList} contentList={JeeAdvanceApplicationContentList}></BlogComponent>
 
-export default JeeAdvanceExamApplicationPage;
+            </div>
+        </div>
+    )
+}
+
+
+// say everything went fine 
+export default JeeAdvanceExamApplicationPage
