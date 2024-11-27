@@ -4,178 +4,160 @@ import { INITCollegeCard } from "../../../interfaces/interfaces";
 
 export const NITCollegeCardConstants : Array<INITCollegeCard> = [
     {
-        collegeName : "IIT BOMBAY", 
+        collegeName : "NIT Warangal", 
         collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
-        buttonRoute : "/college/iit/iit-bombay"
+        buttonRoute : "/college/nit/nit-waranagal"
     },
     {
-        collegeName : "IIT BOMBAY", 
-        collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
-        buttonRoute : "/college/iit/iit-bombay"
+        collegeName: "NIT Bhopal",
+        collegeDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
+        buttonRoute: "/college/nit/nit-bhopal"
     },
     {
-        collegeName : "IIT BOMBAY", 
-        collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
-        buttonRoute : "/college/iit/iit-bombay"
+        collegeName: "NIT Nagpur",
+        collegeDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
+        buttonRoute: "/college/nit/nit-nagpur"
     },
     {
-        collegeName : "IIT BOMBAY", 
-        collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
-        buttonRoute : "/college/iit/iit-bombay"
+        collegeName: "NIT Durgapur",
+        collegeDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
+        buttonRoute: "/college/nit/nit-durgapur"
     },
     {
-        collegeName : "IIT BOMBAY", 
-        collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
-        buttonRoute : "/college/iit/iit-bombay"
+        collegeName: "NIT Jamshedpur",
+        collegeDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
+        buttonRoute: "/college/nit/nit-jamshedpur"
     },
     {
-        collegeName : "IIT BOMBAY", 
-        collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
-        buttonRoute : "/college/iit/iit-bombay"
+        collegeName: "NIT Karnataka",
+        collegeDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
+        buttonRoute: "/college/nit/nit-karnataka"
     },
     {
-        collegeName : "IIT BOMBAY", 
-        collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
-        buttonRoute : "/college/iit/iit-bombay"
+        collegeName: "NIT Srinagar",
+        collegeDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
+        buttonRoute: "/college/nit/nit-srinagar"
     },
     {
-        collegeName : "IIT BOMBAY", 
-        collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
-        buttonRoute : "/college/iit/iit-bombay"
+        collegeName: "NIT Allahabad",
+        collegeDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
+        buttonRoute: "/college/nit/nit-allahabad"
     },
     {
-        collegeName : "IIT BOMBAY", 
-        collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
-        buttonRoute : "/college/iit/iit-bombay"
+        collegeName: "NIT Surat",
+        collegeDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
+        buttonRoute: "/college/nit/nit-surat"
     },
     {
-        collegeName : "IIT BOMBAY", 
-        collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
-        buttonRoute : "/college/iit/iit-bombay"
+        collegeName: "NIT Calicut",
+        collegeDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
+        buttonRoute: "/college/nit/nit-calicut"
     },
     {
-        collegeName : "IIT BOMBAY", 
-        collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
-        buttonRoute : "/college/iit/iit-bombay"
+        collegeName: "NIT Rourkela",
+        collegeDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
+        buttonRoute: "/college/nit/nit-rourkela"
     },
     {
-        collegeName : "IIT BOMBAY", 
-        collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
-        buttonRoute : "/college/iit/iit-bombay"
+        collegeName: "NIT Jaipur",
+        collegeDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
+        buttonRoute: "/college/nit/nit-jaipur"
     },
     {
-        collegeName : "IIT BOMBAY", 
-        collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
-        buttonRoute : "/college/iit/iit-bombay"
+        collegeName: "NIT Kurukshetra",
+        collegeDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
+        buttonRoute: "/college/nit/nit-kurukshetra"
+    }, 
+    {
+        collegeName: "NIT Tiruchirappalli",
+        collegeDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
+        buttonRoute: "/college/nit/nit-tiruchirappalli"
     },
     {
-        collegeName : "IIT BOMBAY", 
-        collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
-        buttonRoute : "/college/iit/iit-bombay"
+        collegeName: "NIT Silchar",
+        collegeDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
+        buttonRoute: "/college/nit/nit-silchar"
     },
     {
-        collegeName : "IIT BOMBAY", 
-        collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
-        buttonRoute : "/college/iit/iit-bombay"
+        collegeName: "NIT Hamirpur",
+        collegeDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
+        buttonRoute: "/college/nit/nit-hamirpur"
     },
     {
-        collegeName : "IIT BOMBAY", 
-        collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
-        buttonRoute : "/college/iit/iit-bombay"
+        collegeName: "NIT Jalandhar",
+        collegeDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
+        buttonRoute: "/college/nit/nit-jalandhar"
     },
     {
-        collegeName : "IIT BOMBAY", 
-        collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
-        buttonRoute : "/college/iit/iit-bombay"
+        collegeName: "NIT Patna",
+        collegeDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
+        buttonRoute: "/college/nit/nit-patna"
     },
     {
-        collegeName : "IIT BOMBAY", 
-        collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
-        buttonRoute : "/college/iit/iit-bombay"
+        collegeName: "NIT Raipur",
+        collegeDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
+        buttonRoute: "/college/nit/nit-raipur"
     },
     {
-        collegeName : "IIT BOMBAY", 
-        collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
-        buttonRoute : "/college/iit/iit-bombay"
+        collegeName: "NIT Agartala",
+        collegeDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
+        buttonRoute: "/college/nit/nit-agartala"
     },
     {
-        collegeName : "IIT BOMBAY", 
-        collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
-        buttonRoute : "/college/iit/iit-bombay"
+        collegeName: "NIT Arunachal Pradesh",
+        collegeDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
+        buttonRoute: "/college/nit/nit-arunachal-pradesh"
     },
     {
-        collegeName : "IIT BOMBAY", 
-        collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
-        buttonRoute : "/college/iit/iit-bombay"
+        collegeName: "NIT Delhi",
+        collegeDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
+        buttonRoute: "/college/nit/nit-delhi"
     },
     {
-        collegeName : "IIT BOMBAY", 
-        collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
-        buttonRoute : "/college/iit/iit-bombay"
+        collegeName: "NIT Goa",
+        collegeDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
+        buttonRoute: "/college/nit/nit-goa"
     },
     {
-        collegeName : "IIT BOMBAY", 
-        collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
-        buttonRoute : "/college/iit/iit-bombay"
+        collegeName: "NIT Manipur",
+        collegeDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
+        buttonRoute: "/college/nit/nit-manipur"
+    }, 
+    {
+        collegeName: "NIT Meghalaya",
+        collegeDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corrupti. Harum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
+        buttonRoute: "/college/nit/nit-meghalaya"
     },
     {
-        collegeName : "IIT BOMBAY", 
-        collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
-        buttonRoute : "/college/iit/iit-bombay"
+        collegeName: "NIT Mizoram",
+        collegeDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corrupti. Harum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
+        buttonRoute: "/college/nit/nit-mizoram"
     },
     {
-        collegeName : "IIT BOMBAY", 
-        collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
-        buttonRoute : "/college/iit/iit-bombay"
+        collegeName: "NIT Nagaland",
+        collegeDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corrupti. Harum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
+        buttonRoute: "/college/nit/nit-nagaland"
     },
     {
-        collegeName : "IIT BOMBAY", 
-        collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
-        buttonRoute : "/college/iit/iit-bombay"
+        collegeName: "NIT Puducherry",
+        collegeDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corrupti. Harum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
+        buttonRoute: "/college/nit/nit-puducherry"
     },
     {
-        collegeName : "IIT BOMBAY", 
-        collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
-        buttonRoute : "/college/iit/iit-bombay"
+        collegeName: "NIT Sikkim",
+        collegeDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corrupti. Harum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
+        buttonRoute: "/college/nit/nit-sikkim"
     },
     {
-        collegeName : "IIT BOMBAY", 
-        collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
-        buttonRoute : "/college/iit/iit-bombay"
+        collegeName: "NIT Uttarakhand",
+        collegeDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corrupti. Harum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
+        buttonRoute: "/college/nit/nit-uttarakhand"
     },
     {
-        collegeName : "IIT BOMBAY", 
-        collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
-        buttonRoute : "/college/iit/iit-bombay"
-    },
-    {
-        collegeName : "IIT BOMBAY", 
-        collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
-        buttonRoute : "/college/iit/iit-bombay"
-    },
-    {
-        collegeName : "IIT BOMBAY", 
-        collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
-        buttonRoute : "/college/iit/iit-bombay"
-    },
-    {
-        collegeName : "IIT BOMBAY", 
-        collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
-        buttonRoute : "/college/iit/iit-bombay"
-    },
-    {
-        collegeName : "IIT BOMBAY", 
-        collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
-        buttonRoute : "/college/iit/iit-bombay"
-    },
-    {
-        collegeName : "IIT BOMBAY", 
-        collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
-        buttonRoute : "/college/iit/iit-bombay"
-    },
-    {
-        collegeName : "IIT BOMBAY", 
-        collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
-        buttonRoute : "/college/iit/iit-bombay"
-    },
+        collegeName: "NIT Andhra Pradesh",
+        collegeDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corrupti. Harum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
+        buttonRoute: "/college/nit/nit-andhra-pradesh"
+    }
+
+    
 ]
