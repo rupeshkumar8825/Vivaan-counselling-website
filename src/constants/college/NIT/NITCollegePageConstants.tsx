@@ -6,7 +6,7 @@ export const NITCollegeCardConstants : Array<INITCollegeCard> = [
     {
         collegeName : "NIT Warangal", 
         collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
-        buttonRoute : "/college/nit/nit-waranagal"
+        buttonRoute : "/college/nit/nit-warangal"
     },
     {
         collegeName: "NIT Bhopal",

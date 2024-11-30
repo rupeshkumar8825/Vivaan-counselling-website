@@ -1,5 +1,5 @@
 import SearchBarComponent from "../../components/SearchBarComponent"
-import { IIITCollegeCardConstants } from "../../constants/IIITCollegeConstants"
+import { IIITCollegeCardConstants } from "../../constants/college/IIIT/IIITCollegeConstants"
 import { IIITCollegeCard } from "../../interfaces/interfaces"
 import CollegeIntroCardComponent from "./components/CollegeIntroCardComponent"
 

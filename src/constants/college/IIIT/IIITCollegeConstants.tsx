@@ -2,7 +2,7 @@
 
 // this is NIT college page related constants comes here 
 
-import { IIIITCollegeCard } from "../interfaces/interfaces";
+import { IIIITCollegeCard } from "../../../interfaces/interfaces";
 
 export const IIITCollegeCardConstants : Array<IIIITCollegeCard> = [
     {
