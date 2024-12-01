@@ -133,6 +133,11 @@ export interface INITCollegeNavigationConstants {
     headingId : string
 }
 
+export interface IIIITCollegeNavigationConstants {
+    title : string, 
+    headingId : string
+}
+
 export interface IAboutSectionCollegePageComponent {
     headingId : string, 
     headingName : string, 
