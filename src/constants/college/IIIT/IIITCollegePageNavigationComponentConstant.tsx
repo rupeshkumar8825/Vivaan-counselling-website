@@ -102,7 +102,7 @@ export const IIITJabalpurCollegePlacementSectionContent : string = "IIIT Jabalpu
 export const IIITJabalpurCollegeCutOffSectionContent : string = "The cutoff for admission to IIIT Jabalpur varies each year based on the number of applicants and the difficulty level of the entrance exams. The cutoff is released after the declaration of the entrance exam results.";
 
 
-export const IIITAllahabadNavigationConstants : Array<IIIITCollegeNavigationConstants> = [
+export const IIITAllahabadCollegeNavigationConstants : Array<IIIITCollegeNavigationConstants> = [
     { title: "About", headingId: "#iiit-allahabad-about" },
     { title: "Fees", headingId: "#iiit-allahabad-fees" },
     { title: "Placements", headingId: "#iiit-allahabad-placements" },
@@ -114,16 +114,16 @@ export const IIITAllahabadNavigationConstants : Array<IIIITCollegeNavigationCons
     { title: "Seats", headingId: "#iiit-allahabad-seats" }
 ];
 
-export const IIITAllahabadAboutSectionContent : string = "IIIT Allahabad, also known as Indian Institute of Information Technology, Design and Manufacturing, Jabalpur, is a premier engineering institution in India. Established in 2005, it is located in Jabalpur, Madhya Pradesh. IIIT Allahabad is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const IIITAllahabadFeeSectionContent : string = "The fee structure at IIIT Allahabad is designed to be affordable while providing quality education. The fees vary depending on the program and category of the student. Scholarships and financial aid are available for eligible students.";
-export const IIITAllahabadAdmissionSectionContent : string = "Admissions to IIIT Allahabad are based on national level entrance exams such as JEE Main for undergraduate programs and GATE for postgraduate programs. The institute follows a merit-based selection process.";
-export const IIITAllahabadCoursesSectionContent : string = "IIIT Allahabad offers a wide range of courses in engineering, science, and management. The programs are designed to provide students with a strong foundation in their chosen fields and prepare them for successful careers.";
-export const IIITAllahabadPlacementSectionContent : string = "IIIT Allahabad has a strong placement record with top companies visiting the campus for recruitment. The institute's placement cell provides training and support to students to help them secure job offers.";
-export const IIITAllahabadCutOffSectionContent : string = "The cutoff for admission to IIIT Allahabad varies each year based on the number of applicants and the difficulty level of the entrance exams. The cutoff is released after the declaration of the entrance exam results.";
+export const IIITAllahabadCollegeAboutSectionContent : string = "IIIT Allahabad, also known as Indian Institute of Information Technology, Design and Manufacturing, Jabalpur, is a premier engineering institution in India. Established in 2005, it is located in Jabalpur, Madhya Pradesh. IIIT Allahabad is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
+export const IIITAllahabadCollegeFeeSectionContent : string = "The fee structure at IIIT Allahabad is designed to be affordable while providing quality education. The fees vary depending on the program and category of the student. Scholarships and financial aid are available for eligible students.";
+export const IIITAllahabadCollegeAdmissionSectionContent : string = "Admissions to IIIT Allahabad are based on national level entrance exams such as JEE Main for undergraduate programs and GATE for postgraduate programs. The institute follows a merit-based selection process.";
+export const IIITAllahabadCollegeCoursesSectionContent : string = "IIIT Allahabad offers a wide range of courses in engineering, science, and management. The programs are designed to provide students with a strong foundation in their chosen fields and prepare them for successful careers.";
+export const IIITAllahabadCollegePlacementSectionContent : string = "IIIT Allahabad has a strong placement record with top companies visiting the campus for recruitment. The institute's placement cell provides training and support to students to help them secure job offers.";
+export const IIITAllahabadCollegeCutOffSectionContent : string = "The cutoff for admission to IIIT Allahabad varies each year based on the number of applicants and the difficulty level of the entrance exams. The cutoff is released after the declaration of the entrance exam results.";
 
 
 
-export const IIITKanchipuramNavigationConstants : Array<IIIITCollegeNavigationConstants> = [
+export const IIITKanchipuramCollegeNavigationConstants : Array<IIIITCollegeNavigationConstants> = [
     { title: "About", headingId: "#iiit-kanchipuram-about" },
     { title: "Fees", headingId: "#iiit-kanchipuram-fees" },
     { title: "Placements", headingId: "#iiit-kanchipuram-placements" },
@@ -135,12 +135,12 @@ export const IIITKanchipuramNavigationConstants : Array<IIIITCollegeNavigationCo
     { title: "Seats", headingId: "#iiit-kanchipuram-seats" }
 ];
 
-export const IIITKanchipuramAboutSectionContent : string = "IIIT Kanchipuram, also known as Indian Institute of Information Technology, Design and Manufacturing, Jabalpur, is a premier engineering institution in India. Established in 2005, it is located in Jabalpur, Madhya Pradesh. IIIT Kanchipuram is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const IIITKanchipuramFeeSectionContent : string = "The fee structure at IIIT Kanchipuram is designed to be affordable while providing quality education. The fees vary depending on the program and category of the student. Scholarships and financial aid are available for eligible students.";
-export const IIITKanchipuramAdmissionSectionContent : string = "Admissions to IIIT Kanchipuram are based on national level entrance exams such as JEE Main for undergraduate programs and GATE for postgraduate programs. The institute follows a merit-based selection process.";
-export const IIITKanchipuramCoursesSectionContent : string = "IIIT Kanchipuram offers a wide range of courses in engineering, science, and management. The programs are designed to provide students with a strong foundation in their chosen fields and prepare them for successful careers.";
-export const IIITKanchipuramPlacementSectionContent : string = "IIIT Kanchipuram has a strong placement record with top companies visiting the campus for recruitment. The institute's placement cell provides training and support to students to help them secure job offers.";
-export const IIITKanchipuramCutOffSectionContent : string = "The cutoff for admission to IIIT Kanchipuram varies each year based on the number of applicants and the difficulty level of the entrance exams. The cutoff is released after the declaration of the entrance exam results.";
+export const IIITKanchipuramCollegeAboutSectionContent : string = "IIIT Kanchipuram, also known as Indian Institute of Information Technology, Design and Manufacturing, Jabalpur, is a premier engineering institution in India. Established in 2005, it is located in Jabalpur, Madhya Pradesh. IIIT Kanchipuram is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
+export const IIITKanchipuramCollegeFeeSectionContent : string = "The fee structure at IIIT Kanchipuram is designed to be affordable while providing quality education. The fees vary depending on the program and category of the student. Scholarships and financial aid are available for eligible students.";
+export const IIITKanchipuramCollegeAdmissionSectionContent : string = "Admissions to IIIT Kanchipuram are based on national level entrance exams such as JEE Main for undergraduate programs and GATE for postgraduate programs. The institute follows a merit-based selection process.";
+export const IIITKanchipuramCollegeCoursesSectionContent : string = "IIIT Kanchipuram offers a wide range of courses in engineering, science, and management. The programs are designed to provide students with a strong foundation in their chosen fields and prepare them for successful careers.";
+export const IIITKanchipuramCollegePlacementSectionContent : string = "IIIT Kanchipuram has a strong placement record with top companies visiting the campus for recruitment. The institute's placement cell provides training and support to students to help them secure job offers.";
+export const IIITKanchipuramCollegeCutOffSectionContent : string = "The cutoff for admission to IIIT Kanchipuram varies each year based on the number of applicants and the difficulty level of the entrance exams. The cutoff is released after the declaration of the entrance exam results.";
 
 
 
@@ -296,7 +296,7 @@ export const IIITLucknowCollegeCoursesSectionContent: string = "IIIT Lucknow off
 export const IIITLucknowCollegePlacementSectionContent: string = "IIIT Lucknow has a strong placement record with top companies visiting the campus for recruitment. The institute's placement cell provides training and support to students to help them secure job offers.";
 export const IIITLucknowCollegeCutOffSectionContent: string = "The cutoff for admission to IIIT Lucknow varies each year based on the number of applicants and the difficulty level of the entrance exams. The cutoff is released after the declaration of the entrance exam results.";
 
-export const IIITDharwardCollegeNavigationConstants: Array<IIIITCollegeNavigationConstants> = [
+export const IIITDharwadCollegeNavigationConstants: Array<IIIITCollegeNavigationConstants> = [
     { title: "About", headingId: "#iiit-dharward-about" },
     { title: "Fees", headingId: "#iiit-dharward-fees" },
     { title: "Placements", headingId: "#iiit-dharward-placements" },
@@ -308,12 +308,12 @@ export const IIITDharwardCollegeNavigationConstants: Array<IIIITCollegeNavigatio
     { title: "Seats", headingId: "#iiit-dharward-seats" }
 ];
 
-export const IIITDharwardCollegeAboutSectionContent: string = "IIIT Dharward, also known as Indian Institute of Information Technology, Dharward, is a premier engineering institution in India. Established in 2015, it is located in Dharward, Karnataka. IIIT Dharward is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const IIITDharwardCollegeFeeSectionContent: string = "The fee structure at IIIT Dharward is designed to be affordable while providing quality education. The fees vary depending on the program and category of the student. Scholarships and financial aid are available for eligible students.";
-export const IIITDharwardCollegeAdmissionSectionContent: string = "Admissions to IIIT Dharward are based on national level entrance exams such as JEE Main for undergraduate programs and GATE for postgraduate programs. The institute follows a merit-based selection process.";
-export const IIITDharwardCollegeCoursesSectionContent: string = "IIIT Dharward offers a wide range of courses in engineering, science, and management. The programs are designed to provide students with a strong foundation in their chosen fields and prepare them for successful careers.";
-export const IIITDharwardCollegePlacementSectionContent: string = "IIIT Dharward has a strong placement record with top companies visiting the campus for recruitment. The institute's placement cell provides training and support to students to help them secure job offers.";
-export const IIITDharwardCollegeCutOffSectionContent: string = "The cutoff for admission to IIIT Dharward varies each year based on the number of applicants and the difficulty level of the entrance exams. The cutoff is released after the declaration of the entrance exam results.";
+export const IIITDharwadCollegeAboutSectionContent: string = "IIIT Dharward, also known as Indian Institute of Information Technology, Dharward, is a premier engineering institution in India. Established in 2015, it is located in Dharward, Karnataka. IIIT Dharward is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
+export const IIITDharwadCollegeFeeSectionContent: string = "The fee structure at IIIT Dharward is designed to be affordable while providing quality education. The fees vary depending on the program and category of the student. Scholarships and financial aid are available for eligible students.";
+export const IIITDharwadCollegeAdmissionSectionContent: string = "Admissions to IIIT Dharward are based on national level entrance exams such as JEE Main for undergraduate programs and GATE for postgraduate programs. The institute follows a merit-based selection process.";
+export const IIITDharwadCollegeCoursesSectionContent: string = "IIIT Dharward offers a wide range of courses in engineering, science, and management. The programs are designed to provide students with a strong foundation in their chosen fields and prepare them for successful careers.";
+export const IIITDharwadCollegePlacementSectionContent: string = "IIIT Dharward has a strong placement record with top companies visiting the campus for recruitment. The institute's placement cell provides training and support to students to help them secure job offers.";
+export const IIITDharwadCollegeCutOffSectionContent: string = "The cutoff for admission to IIIT Dharward varies each year based on the number of applicants and the difficulty level of the entrance exams. The cutoff is released after the declaration of the entrance exam results.";
 
 export const IIITBhagalpurCollegeNavigationConstants: Array<IIIITCollegeNavigationConstants> = [
     { title: "About", headingId: "#iiit-bhagalpur-about" },

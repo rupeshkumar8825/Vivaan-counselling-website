@@ -1019,7 +1019,7 @@ export const IIITKurnoolCoursesDetailsConstants = [
     }
 ];
 
-export const IIITTiruchirappalliCoursesDetailsConstants = [
+export const IIITTiruchirapalliCoursesDetailsConstants = [
     {
         duration: "4",
         graduationType: [
