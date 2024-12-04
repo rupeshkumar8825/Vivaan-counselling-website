@@ -1,4 +1,4 @@
-import { Link, useNavigate} from "react-router-dom"
+import { useNavigate} from "react-router-dom"
 import DropDownMenuComponent from "./DropDownMenuComponent"
 import { collegeRoutesList, collegeSubMenuList, counsellingRouteList, counsellingSubMenuList, examRouteList, examSubMenuList, mentorshipRouteList, mentorshipSubMenuList } from "../constants/AppBarConstants"
 

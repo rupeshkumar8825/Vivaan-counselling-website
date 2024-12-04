@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom"
 import { IDropDownMenu } from "../interfaces/interfaces"
 
 const DropDownMenuComponent = (props: IDropDownMenu) => {
