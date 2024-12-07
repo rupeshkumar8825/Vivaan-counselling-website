@@ -3,6 +3,7 @@
 // we have made a generic page such that it will be applicable to all colleges 
 // and the variation will be in the props that we pass to this component
 
+import { CollegePageNavigationSvgPathConstants } from "../../../../constants/college/IIT/CollegePageNavigationComponentConstants"
 import { INITGenericCollegeComponent } from "../../../../interfaces/interfaces"
 import AboutSectionCollegePageComponent from "../components/AboutSectionCollegePageComponent"
 import AdmissionSectionCollegePageComponent from "../components/AdmissionSectionCollegePageComponent"
@@ -25,7 +26,7 @@ const NITGenericCollegePage = (props : INITGenericCollegeComponent) => {
                     </div>
                     <div className="text-2xl font-bold mt-5 ">{props.collegeName}</div>
                 </div>
-                <CollegePageNavigationComponent collegePageNavigationConstants={props.collegePageNavigationConstants}></CollegePageNavigationComponent>
+                <CollegePageNavigationComponent collegePageNavigationSvgPathConstants={CollegePageNavigationSvgPathConstants} collegePageNavigationConstants={props.collegePageNavigationConstants}></CollegePageNavigationComponent>
                 <AboutSectionCollegePageComponent headingId={props.aboutSectionHeadingId} headingName={props.aboutSectionHeadingName} content={props.aboutSectionContent}></AboutSectionCollegePageComponent>
                 <FeesSectionCollegePageComponent headingId={props.feeSectionHeadingId} headingName={props.feeSectionHeadingName} content={props.feeSectionContent}></FeesSectionCollegePageComponent>
                 <AdmissionSectionCollegePageComponent headingId={props.admissionSectionHeadingId} headingName={props.admissionSectionHeadingName} content={props.admissionSectionContent}></AdmissionSectionCollegePageComponent>

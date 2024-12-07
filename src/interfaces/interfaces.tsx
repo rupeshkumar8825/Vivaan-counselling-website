@@ -120,11 +120,13 @@ export interface ICollegeIntroCardComponent {
 
 export interface ICollegePageNavigationComponent {
     collegePageNavigationConstants : Array<IIITCollegeNavigationConstants>
+    collegePageNavigationSvgPathConstants : Array<string>
 }
 
 export interface IIITCollegeNavigationConstants {
     title : string, 
-    headingId : string
+    headingId : string, 
+    // svgPath : string
 }
 
 

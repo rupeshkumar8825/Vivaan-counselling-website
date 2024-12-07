@@ -9,7 +9,7 @@ import CoursesSectionCollegePageComponent from "../components/CoursesSectionColl
 import CutoffSectionCollegePageComponent from "../components/CutoffSectionCollegePageComponent"
 import FeesSectionCollegePageComponent from "../components/FeesSectionCollegePageComponent"
 import PlacementSectionCollegePageComponent from "../components/PlacementSectionCollegePageComponent"
-
+import { CollegePageNavigationSvgPathConstants } from "../../../../constants/college/IIT/CollegePageNavigationComponentConstants"
 
 const IITGenericCollegePage = (props : IIITGenericCollegeComponent) => {
     return (
@@ -23,7 +23,7 @@ const IITGenericCollegePage = (props : IIITGenericCollegeComponent) => {
                     </div>
                     <div className="text-2xl font-bold mt-5 ">{props.collegeName}</div>
                 </div>
-                <CollegePageNavigationComponent collegePageNavigationConstants={props.collegePageNavigationConstants}></CollegePageNavigationComponent>
+                <CollegePageNavigationComponent collegePageNavigationSvgPathConstants={CollegePageNavigationSvgPathConstants} collegePageNavigationConstants={props.collegePageNavigationConstants}></CollegePageNavigationComponent>
                 <AboutSectionCollegePageComponent headingId={props.aboutSectionHeadingId} headingName={props.aboutSectionHeadingName} content={props.aboutSectionContent}></AboutSectionCollegePageComponent>
                 <FeesSectionCollegePageComponent headingId={props.feeSectionHeadingId} headingName={props.feeSectionHeadingName} content={props.feeSectionContent}></FeesSectionCollegePageComponent>
                 <AdmissionSectionCollegePageComponent headingId={props.admissionSectionHeadingId} headingName={props.admissionSectionHeadingName} content={props.admissionSectionContent}></AdmissionSectionCollegePageComponent>

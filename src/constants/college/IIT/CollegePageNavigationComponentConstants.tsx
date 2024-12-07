@@ -2,6 +2,28 @@
 // we will store the navigation links for all the IITs for this purpose
 
 import { IIITCollegeNavigationConstants } from "../../../interfaces/interfaces";
+import aboutSvg from "../../../assets/images/collegeNavigation/about.svg"
+import feesSvg from "../../../assets/images/collegeNavigation/fee.svg"
+import placementsSvg from "../../../assets/images/collegeNavigation/placement.svg"
+import locationSvg from "../../../assets/images/collegeNavigation/location.svg"
+import rankingSvg from "../../../assets/images/collegeNavigation/ranking.svg"
+import coursesSvg from "../../../assets/images/collegeNavigation/course.svg"
+import admissionsSvg from "../../../assets/images/collegeNavigation/admissoon.svg"
+import cutoffSvg from "../../../assets/images/collegeNavigation/cutoff.svg"
+import seatsSvg from "../../../assets/images/collegeNavigation/seat.svg"
+
+
+export const CollegePageNavigationSvgPathConstants : Array<string> = [
+    aboutSvg,
+    feesSvg,
+    placementsSvg,
+    locationSvg,
+    rankingSvg,
+    coursesSvg,
+    admissionsSvg,
+    cutoffSvg,
+    seatsSvg
+]
 
 export const IITBombayCollegeNavigationConstants : Array<IIITCollegeNavigationConstants> = [
     {
