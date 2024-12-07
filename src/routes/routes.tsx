@@ -34,7 +34,27 @@ import JeeMainMentorshipPage from "../pages/mentorship/JeeMainsMentorshipPage";
 import MentorShipHomePage from "../pages/mentorship/MentorShipHomePage";
 
 
-import IITBombayCollegeImage  from "../assets/images/iit-bombay-college-pic.jpg"
+// import IITBombayCollegeImage  from "../assets/images/iit-bombay-college-pic.jpg"
+import IITBombayCollegeImage from "../assets/images/IIT/iit-bombay.png"
+import IITBHUCollegeImage from "../assets/images/IIT/iit-bhu.png";
+import IITDelhiCollegeImage from "../assets/images/IIT/iit-delhi.png";
+import IITDhanbadCollegeImage from "../assets/images/IIT/iit-dhanbad.png";
+import IITGandhinagarCollegeImage from "../assets/images/IIT/iit-gandhinagar.png";
+import IITGoaCollegeImage from "../assets/images/IIT/iit-goa.png";
+import IITHyderabadCollegeImage from "../assets/images/IIT/iit-hyderabad.png";
+import IITIndoreCollegeImage from "../assets/images/IIT/iit-indore.png";
+import IITJammuCollegeImage from "../assets/images/IIT/iit-jammu.png";
+import IITJodhpurCollegeImage from "../assets/images/IIT/iit-jodhpur.png";
+import IITKanpurCollegeImage from "../assets/images/IIT/iit-kanpur.png";
+import IITKharagpurCollegeImage from "../assets/images/IIT/iit-kharagpur.png";
+import IITMadrasCollegeImage from "../assets/images/IIT/iit-madras.png";
+import IITMandiCollegeImage from "../assets/images/IIT/iit-mandi.png";
+import IITPalakkadCollegeImage from "../assets/images/IIT/iit-palakkad.png";
+import IITPatnaCollegeImage from "../assets/images/IIT/iit-patna.png";
+import IITRoorkeeCollegeImage from "../assets/images/IIT/iit-roorkie.png";
+import IITTirupatiCollegeImage from "../assets/images/IIT/iit-tirupati.png";
+
+
 import { 
     IITMandiCollegeNavigationConstants,
     IITMandiCollegeAboutSectionContent,
@@ -835,7 +855,7 @@ const routes = [
     },
     {
         path : "/college/iit/iit-delhi", 
-        component : <IITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Technology Delhi" 
+        component : <IITGenericCollegePage collegeImage={IITDelhiCollegeImage} collegeName="Indian Institute of Technology Delhi" 
         collegePageNavigationConstants={IITDelhiCollegeNavigationConstants} 
         aboutSectionContent={IITDelhiCollegeAboutSectionContent} aboutSectionHeadingId={IITDelhiCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IITDelhiCollegeNavigationConstants[0].title} 
         feeSectionContent={IITDelhiCollegeFeeSectionContent} feeSectionHeadingId={IITDelhiCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IITDelhiCollegeNavigationConstants[1].title}
@@ -847,7 +867,7 @@ const routes = [
     },
     {
         path : "/college/iit/iit-gandhinagar", 
-        component : <IITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Technology Gandhinagar" 
+        component : <IITGenericCollegePage collegeImage={IITGandhinagarCollegeImage} collegeName="Indian Institute of Technology Gandhinagar" 
         collegePageNavigationConstants={IITGandhinagarCollegeNavigationConstants} 
         aboutSectionContent={IITGandhinagarCollegeAboutSectionContent} aboutSectionHeadingId={IITGandhinagarCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IITGandhinagarCollegeNavigationConstants[0].title} 
         feeSectionContent={IITGandhinagarCollegeFeeSectionContent} feeSectionHeadingId={IITGandhinagarCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IITGandhinagarCollegeNavigationConstants[1].title}
@@ -882,7 +902,7 @@ const routes = [
     },
     {
         path : "/college/iit/iit-indore", 
-        component : <IITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Technology Indore" 
+        component : <IITGenericCollegePage collegeImage={IITIndoreCollegeImage} collegeName="Indian Institute of Technology Indore" 
         collegePageNavigationConstants={IITIndoreCollegeNavigationConstants} 
         aboutSectionContent={IITIndoreCollegeAboutSectionContent} aboutSectionHeadingId={IITIndoreCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IITIndoreCollegeNavigationConstants[0].title} 
         feeSectionContent={IITIndoreCollegeFeeSectionContent} feeSectionHeadingId={IITIndoreCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IITIndoreCollegeNavigationConstants[1].title}
@@ -893,7 +913,7 @@ const routes = [
     },
     {
         path : "/college/iit/iit-kanpur", 
-        component : <IITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Technology Kanpur" 
+        component : <IITGenericCollegePage collegeImage={IITKanpurCollegeImage} collegeName="Indian Institute of Technology Kanpur" 
         collegePageNavigationConstants={IITKanpurCollegeNavigationConstants} 
         aboutSectionContent={IITKanpurCollegeAboutSectionContent} aboutSectionHeadingId={IITKanpurCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IITKanpurCollegeNavigationConstants[0].title} 
         feeSectionContent={IITKanpurCollegeFeeSectionContent} feeSectionHeadingId={IITKanpurCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IITKanpurCollegeNavigationConstants[1].title}
@@ -905,7 +925,7 @@ const routes = [
 
     {
         path : "/college/iit/iit-jodhpur", 
-        component : <IITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Technology Jodhpur" 
+        component : <IITGenericCollegePage collegeImage={IITJodhpurCollegeImage} collegeName="Indian Institute of Technology Jodhpur" 
         collegePageNavigationConstants={IITJodhpurCollegeNavigationConstants} 
         aboutSectionContent={IITJodhpurCollegeAboutSectionContent} aboutSectionHeadingId={IITJodhpurCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IITJodhpurCollegeNavigationConstants[0].title} 
         feeSectionContent={IITJodhpurCollegeFeeSectionContent} feeSectionHeadingId={IITJodhpurCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IITJodhpurCollegeNavigationConstants[1].title}
@@ -916,7 +936,7 @@ const routes = [
     },
     {
         path : "/college/iit/iit-kharagpur", 
-        component : <IITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Technology Kharagpur" 
+        component : <IITGenericCollegePage collegeImage={IITKharagpurCollegeImage} collegeName="Indian Institute of Technology Kharagpur" 
         collegePageNavigationConstants={IITKharagpurCollegeNavigationConstants} 
         aboutSectionContent={IITKharagpurCollegeAboutSectionContent} aboutSectionHeadingId={IITKharagpurCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IITKharagpurCollegeNavigationConstants[0].title} 
         feeSectionContent={IITKharagpurCollegeFeeSectionContent} feeSectionHeadingId={IITKharagpurCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IITKharagpurCollegeNavigationConstants[1].title}
@@ -927,7 +947,7 @@ const routes = [
     },
     {
         path : "/college/iit/iit-hyderabad", 
-        component : <IITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Technology Hyderabad" 
+        component : <IITGenericCollegePage collegeImage={IITHyderabadCollegeImage} collegeName="Indian Institute of Technology Hyderabad" 
         collegePageNavigationConstants={IITHyderabadCollegeNavigationConstants} 
         aboutSectionContent={IITHyderabadCollegeAboutSectionContent} aboutSectionHeadingId={IITHyderabadCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IITHyderabadCollegeNavigationConstants[0].title} 
         feeSectionContent={IITHyderabadCollegeFeeSectionContent} feeSectionHeadingId={IITHyderabadCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IITHyderabadCollegeNavigationConstants[1].title}
@@ -938,7 +958,7 @@ const routes = [
     },
     {
         path : "/college/iit/iit-patna", 
-        component : <IITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Technology Patna" 
+        component : <IITGenericCollegePage collegeImage={IITPatnaCollegeImage} collegeName="Indian Institute of Technology Patna" 
         collegePageNavigationConstants={IITPatnaCollegeNavigationConstants} 
         aboutSectionContent={IITPatnaCollegeAboutSectionContent} aboutSectionHeadingId={IITPatnaCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IITPatnaCollegeNavigationConstants[0].title} 
         feeSectionContent={IITPatnaCollegeFeeSectionContent} feeSectionHeadingId={IITPatnaCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IITPatnaCollegeNavigationConstants[1].title}
@@ -960,7 +980,7 @@ const routes = [
     },
     {
         path : "/college/iit/iit-mandi", 
-        component : <IITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Technology Mandi" 
+        component : <IITGenericCollegePage collegeImage={IITMandiCollegeImage} collegeName="Indian Institute of Technology Mandi" 
         collegePageNavigationConstants={IITMandiCollegeNavigationConstants} 
         aboutSectionContent={IITMandiCollegeAboutSectionContent} aboutSectionHeadingId={IITMandiCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IITMandiCollegeNavigationConstants[0].title} 
         feeSectionContent={IITMandiCollegeFeeSectionContent} feeSectionHeadingId={IITMandiCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IITMandiCollegeNavigationConstants[1].title}
@@ -972,7 +992,7 @@ const routes = [
     
     {
         path : "/college/iit/iit-roorkee", 
-        component : <IITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Technology Roorkee" 
+        component : <IITGenericCollegePage collegeImage={IITRoorkeeCollegeImage} collegeName="Indian Institute of Technology Roorkee" 
         collegePageNavigationConstants={IITRoorkeeCollegeNavigationConstants} 
         aboutSectionContent={IITRoorkeeCollegeAboutSectionContent} aboutSectionHeadingId={IITRoorkeeCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IITRoorkeeCollegeNavigationConstants[0].title} 
         feeSectionContent={IITRoorkeeCollegeFeeSectionContent} feeSectionHeadingId={IITRoorkeeCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IITRoorkeeCollegeNavigationConstants[1].title}
@@ -983,7 +1003,7 @@ const routes = [
     },
     {
         path : "/college/iit/iit-bhu", 
-        component : <IITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Technology BHU" 
+        component : <IITGenericCollegePage collegeImage={IITBHUCollegeImage} collegeName="Indian Institute of Technology BHU" 
         collegePageNavigationConstants={IITBHUCollegeNavigationConstants} 
         aboutSectionContent={IITBHUCollegeAboutSectionContent} aboutSectionHeadingId={IITBHUCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IITBHUCollegeNavigationConstants[0].title} 
         feeSectionContent={IITBHUCollegeFeeSectionContent} feeSectionHeadingId={IITBHUCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IITBHUCollegeNavigationConstants[1].title}
@@ -994,7 +1014,7 @@ const routes = [
     },
     {
         path : "/college/iit/iit-jammu", 
-        component : <IITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Technology Jammu" 
+        component : <IITGenericCollegePage collegeImage={IITJammuCollegeImage} collegeName="Indian Institute of Technology Jammu" 
         collegePageNavigationConstants={IITJammuCollegeNavigationConstants} 
         aboutSectionContent={IITJammuCollegeAboutSectionContent} aboutSectionHeadingId={IITJammuCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IITJammuCollegeNavigationConstants[0].title} 
         feeSectionContent={IITJammuCollegeFeeSectionContent} feeSectionHeadingId={IITJammuCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IITJammuCollegeNavigationConstants[1].title}
@@ -1005,7 +1025,7 @@ const routes = [
     },
     {
         path : "/college/iit/iit-palakkad", 
-        component : <IITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Technology Palakkad" 
+        component : <IITGenericCollegePage collegeImage={IITPalakkadCollegeImage} collegeName="Indian Institute of Technology Palakkad" 
         collegePageNavigationConstants={IITPalakkadCollegeNavigationConstants} 
         aboutSectionContent={IITPalakkadCollegeAboutSectionContent} aboutSectionHeadingId={IITPalakkadCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IITPalakkadCollegeNavigationConstants[0].title} 
         feeSectionContent={IITPalakkadCollegeFeeSectionContent} feeSectionHeadingId={IITPalakkadCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IITPalakkadCollegeNavigationConstants[1].title}
@@ -1016,7 +1036,7 @@ const routes = [
     },
     {
         path : "/college/iit/iit-tirupati", 
-        component : <IITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Technology Tirupati" 
+        component : <IITGenericCollegePage collegeImage={IITTirupatiCollegeImage} collegeName="Indian Institute of Technology Tirupati" 
         collegePageNavigationConstants={IITTirupatiCollegeNavigationConstants} 
         aboutSectionContent={IITTirupatiCollegeAboutSectionContent} aboutSectionHeadingId={IITTirupatiCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IITTirupatiCollegeNavigationConstants[0].title} 
         feeSectionContent={IITTirupatiCollegeFeeSectionContent} feeSectionHeadingId={IITTirupatiCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IITTirupatiCollegeNavigationConstants[1].title}
@@ -1027,7 +1047,7 @@ const routes = [
     },
     {
         path : "/college/iit/iit-goa", 
-        component : <IITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Technology Goa" 
+        component : <IITGenericCollegePage collegeImage={IITGoaCollegeImage} collegeName="Indian Institute of Technology Goa" 
         collegePageNavigationConstants={IITGoaCollegeNavigationConstants} 
         aboutSectionContent={IITGoaCollegeAboutSectionContent} aboutSectionHeadingId={IITGoaCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IITGoaCollegeNavigationConstants[0].title} 
         feeSectionContent={IITGoaCollegeFeeSectionContent} feeSectionHeadingId={IITGoaCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IITGoaCollegeNavigationConstants[1].title}
@@ -1049,7 +1069,7 @@ const routes = [
     },
     {
         path : "/college/iit/iit-dharwad", 
-        component : <IITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Technology Dharwad" 
+        component : <IITGenericCollegePage collegeImage={IITGandhinagarCollegeImage} collegeName="Indian Institute of Technology Dharwad" 
         collegePageNavigationConstants={IITDharwadCollegeNavigationConstants} 
         aboutSectionContent={IITDharwadCollegeAboutSectionContent} aboutSectionHeadingId={IITDharwadCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IITDharwadCollegeNavigationConstants[0].title} 
         feeSectionContent={IITDharwadCollegeFeeSectionContent} feeSectionHeadingId={IITDharwadCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IITDharwadCollegeNavigationConstants[1].title}
@@ -1060,7 +1080,7 @@ const routes = [
     },
     {
         path : "/college/iit/iit-dhanbad", 
-        component : <IITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Technology Dhanbad" 
+        component : <IITGenericCollegePage collegeImage={IITDhanbadCollegeImage} collegeName="Indian Institute of Technology Dhanbad" 
         collegePageNavigationConstants={IITDhanbadCollegeNavigationConstants} 
         aboutSectionContent={IITDhanbadCollegeAboutSectionContent} aboutSectionHeadingId={IITDhanbadCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IITDhanbadCollegeNavigationConstants[0].title} 
         feeSectionContent={IITDhanbadCollegeFeeSectionContent} feeSectionHeadingId={IITDhanbadCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IITDhanbadCollegeNavigationConstants[1].title}
@@ -1072,7 +1092,7 @@ const routes = [
 
     {
         path : "/college/iit/iit-madras", 
-        component : <IITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Technology Madras" 
+        component : <IITGenericCollegePage collegeImage={IITMadrasCollegeImage} collegeName="Indian Institute of Technology Madras" 
         collegePageNavigationConstants={IITMadrasCollegeNavigationConstants} 
         aboutSectionContent={IITMadrasCollegeAboutSectionContent} aboutSectionHeadingId={IITMadrasCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IITMadrasCollegeNavigationConstants[0].title} 
         feeSectionContent={IITMadrasCollegeFeeSectionContent} feeSectionHeadingId={IITMadrasCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IITMadrasCollegeNavigationConstants[1].title}
