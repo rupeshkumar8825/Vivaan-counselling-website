@@ -15,7 +15,7 @@ const BlogSectionComponent = (props : IBlogSectionComponent) => {
                 <BlogHeadingComponent headingName={props.headingName}></BlogHeadingComponent>
             </div> : null}
             {/* if the content is not empty then only we will show the paragraph else we will not show anything  */}
-            {props.content !== "" ? <p className="whitespace-pre-line text-left text-slate-400 border-1 border-slate-600 shadow-lg p-10 mb-4 mt-4">{props.content}</p> : null}
+            {props.content !== "" ? <p className="whitespace-pre-line text-left text-slate-400 border-1 border-slate-600 shadow-lg p-10 mb-4 mt-4" dangerouslySetInnerHTML={{__html : props.content}}></p> : null}
         </div>
     )
 }

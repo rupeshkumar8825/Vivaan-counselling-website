@@ -4,7 +4,7 @@ import { ITableOfContent } from "../../interfaces/interfaces"
 
 const TableOfContentsComponent = (props : ITableOfContent) => {
     return (
-        <div className="p-6 bg-blue border-2 border-slate-700 rounded-lg shadow-md">
+        <div className="p-6 bg-blue border-2 border-slate-700 rounded-lg shadow-md sticky top-5 mr-5 max-h-96 overflow-y-auto">
             <h2 className="text-xl font-bold mb-4">Table of Contents</h2>
             <ul className="space-y-2">
 
