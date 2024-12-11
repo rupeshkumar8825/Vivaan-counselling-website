@@ -3,7 +3,7 @@ import OverviewSectionComponent from "../../home/components/OverviewSectionCompo
 import VideoCard from "../../components/VideoCardComponent"
 import BlogComponent from "../../components/blog/BlogComponent"
 import { useNavigate } from "react-router-dom"
-import { JosaaCounsellingPageButtonCodeList, JosaaCounsellingPageButtonNameList, JosaaCounsellingPageButtonWidthList, JosaaCounsellingPageContentList, JosaaCounsellingPageHeadingIdList, JosaaCounsellingPageHeadingList, JosaaCounsellingPageRoutesList, JosaaCounsellingPageSubMenuList, JosaaCounsellingPageTableOfContentList, JosaaCounsellingPageVideoCardTitleList, JosaaCounsellingPageVideoCardUrlList } from "../../constants/councelling/JosaaCounsellingPageConstants"
+import { JosaaCounsellingPageButtonCodeList, JosaaCounsellingPageButtonNameList, JosaaCounsellingPageButtonWidthList, JosaaCounsellingPageContentList, JosaaCounsellingPageHeadingIdList, JosaaCounsellingPageHeadingList, JosaaCounsellingPageRoutesList, JosaaCounsellingPageSubMenuList, JosaaCounsellingPageTableOfContentList, JosaaCounsellingPageVideoCardTitleList, JosaaCounsellingPageVideoCardUrlList, JosaaCounsellingPageImageList } from "../../constants/councelling/JosaaCounsellingPageConstants"
 
 const JosaaCounsellingPage = () => {
     const navigate = useNavigate()
@@ -61,7 +61,7 @@ const JosaaCounsellingPage = () => {
             </div>
             <div className="">
                 {/* <BlogHeadingComponent headingName="JEE MAINS EXAM"></BlogHeadingComponent> */}
-                <BlogComponent headingIdList={JosaaCounsellingPageHeadingIdList} headingNameList={JosaaCounsellingPageHeadingList} tableOfContentsList={JosaaCounsellingPageTableOfContentList} contentList={JosaaCounsellingPageContentList}></BlogComponent>
+                <BlogComponent headingIdList={JosaaCounsellingPageHeadingIdList} headingNameList={JosaaCounsellingPageHeadingList} tableOfContentsList={JosaaCounsellingPageTableOfContentList} contentList={JosaaCounsellingPageContentList} imageList = {JosaaCounsellingPageImageList}></BlogComponent>
 
             </div>
         </div>

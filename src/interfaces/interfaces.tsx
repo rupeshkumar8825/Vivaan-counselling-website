@@ -52,7 +52,8 @@ export interface IBlogSubHeadingComponent extends IBlogHeadingComponent {
 export interface IBlogSectionComponent {
     headingName : string, 
     content : string, 
-    headingId : string
+    headingId : string, 
+    image? : string
 }
 
 
@@ -61,6 +62,7 @@ export interface IBlogComponent {
     headingNameList : Array<string>, 
     tableOfContentsList : Array<string>, 
     contentList : Array<string>, 
+    imageList? : Array<string | null>
 }
 
 export interface ITableOfContent {

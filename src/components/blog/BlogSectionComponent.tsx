@@ -4,6 +4,16 @@
 import { IBlogSectionComponent } from "../../interfaces/interfaces"
 import BlogHeadingComponent from "./BlogHeadingComponent"
 
+
+/**
+ * The architecture of every blog component will be as follows: 
+ *  1. Heading of the blog : This will first consists of the heading of the blog component. This is compulsory field
+ *  2. Content of the blog : This will consists of the content of the blog. This is compulsory field
+ *  3. Image of the blog : This will consists of the image of the blog. This is optional field
+ * 
+ * Do note that there is no support for sub heading in this. May be in future we may add this support
+ * according to the requirements of the clients. 
+ */
 const BlogSectionComponent = (props : IBlogSectionComponent) => {
     return (
         <div className="p-6 bg-blue rounded-lg shadow-md">
@@ -16,6 +26,11 @@ const BlogSectionComponent = (props : IBlogSectionComponent) => {
             </div> : null}
             {/* if the content is not empty then only we will show the paragraph else we will not show anything  */}
             {props.content !== "" ? <p className="whitespace-pre-line text-left text-slate-400 border-1 border-slate-600 shadow-lg p-10 mb-4 mt-4" dangerouslySetInnerHTML={{__html : props.content}}></p> : null}
+            {/* we have to add support for the image as well here. In order to add support we will have to 
+            update the constants as well whereever we will have the image for this purpose*/}
+            {props.image ? (
+                <img src={props.image} alt="Blog Image" className=" border-2 border-white p-10 w-full h-auto mt-4 rounded-lg shadow-md" />
+            ) : null}
         </div>
     )
 }

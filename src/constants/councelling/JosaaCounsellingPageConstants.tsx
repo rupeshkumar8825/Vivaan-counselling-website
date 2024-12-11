@@ -1,5 +1,5 @@
 // here we will store the constants related to the josaa counselling page 
-
+import IITBombayCollegeImage from "../../assets/images/IIT/iit-bombay.png"
 
 // OVERVIEW  COMPONENT FOR JOSAA COUNsELLING PAGE 
 // constant for storing the submenu names which we have to show in dropdown
@@ -126,6 +126,25 @@ export const JosaaCounsellingPageHeadingIdList : Array<string> = [
     "counselling-josaa-h12",
     "counselling-josaa-h13",
     "counselling-josaa-h14",
+]
+
+
+export const JosaaCounsellingPageImageList : Array<string | null> = [
+    null,
+    null,
+    null,
+    null,
+    IITBombayCollegeImage,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+
 ]
 
 export const JosaaCounsellingPageContentList : Array<string> = [

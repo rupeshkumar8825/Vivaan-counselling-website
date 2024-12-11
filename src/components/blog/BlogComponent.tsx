@@ -13,7 +13,7 @@ const BlogComponent = (props : IBlogComponent) => {
                 <div className="md:col-span-2">
                     {/* here we have to use the map element to iterate over all the blogs contents  */}
                     {props.contentList.map((_ : string, index : number) => (
-                        <BlogSectionComponent headingName={props.headingNameList[index]} content={props.contentList[index]} headingId={props.headingIdList[index]} />
+                        <BlogSectionComponent headingName={props.headingNameList[index]} content={props.contentList[index]} headingId={props.headingIdList[index]} image={props.imageList? (props.imageList[index]? props.imageList[index] : undefined) : undefined}/>
                     ))}
                 </div>
                 {/* Table of Contents */}
