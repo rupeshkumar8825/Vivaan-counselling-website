@@ -129,15 +129,91 @@ export const JosaaCounsellingPageHeadingIdList : Array<string> = [
 ]
 
 export const JosaaCounsellingPageContentList : Array<string> = [
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint ipsam eos ratione. Labore dolorum accusantium suscipit? Autem numquam ducimus dolores doloremque illum, possimus porro quisquam, suscipit, nobis voluptas laboriosam dicta Quibusdam ad aperiam veritatis, aut nemo magnam incidunt, adipisci quaerat optio, necessitatibus ullam esse enim suscipit veniam debitis. Placeat accusamus ratione incidunt cupiditate iure. Vitae recusandae culpa temporibus quae minima? Error provident aliquid soluta, expedita perferendis eaque quasi aperiam debitis quam unde, sequi placeat cumque quisquam quia consequuntur dolorum, ipsam rerum nostrum iure asperiores deleniti eos. Modi perferendis recusandae asperiores?", 
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt eaque esse debitis labore, sapiente eum nobis, quasi atque modi sequi facere corporis, iure optio officia praesentium veritatis minus mollitia officiis.Officia sequi, dolorum voluptatum consectetur beatae dolore iure adipisci exercitationem aspernatur accusantium aperiam ipsam tempore molestias odit quam libero ad? Fugiat, expedita cupiditate. Aut corrupti animi error architecto maxime iure?",
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt eaque esse debitis labore, sapiente eum nobis, quasi atque modi sequi facere corporis, iure optio officia praesentium veritatis minus mollitia officiis.Officia sequi, dolorum voluptatum consectetur beatae dolore iure adipisci exercitationem aspernatur accusantium aperiam ipsam tempore molestias odit quam libero ad? Fugiat, expedita cupiditate. Aut corrupti animi error architecto maxime iure?",
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt eaque esse debitis labore, sapiente eum nobis, quasi atque modi sequi facere corporis, iure optio officia praesentium veritatis minus mollitia officiis.Officia sequi, dolorum voluptatum consectetur beatae dolore iure adipisci exercitationem aspernatur accusantium aperiam ipsam tempore molestias odit quam libero ad? Fugiat, expedita cupiditate. Aut corrupti animi error architecto maxime iure?",
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt eaque esse debitis labore, sapiente eum nobis, quasi atque modi sequi facere corporis, iure optio officia praesentium veritatis minus mollitia officiis.Officia sequi, dolorum voluptatum consectetur beatae dolore iure adipisci exercitationem aspernatur accusantium aperiam ipsam tempore molestias odit quam libero ad? Fugiat, expedita cupiditate. Aut corrupti animi error architecto maxime iure?",
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt eaque esse debitis labore, sapiente eum nobis, quasi atque modi sequi facere corporis, iure optio officia praesentium veritatis minus mollitia officiis.Officia sequi, dolorum voluptatum consectetur beatae dolore iure adipisci exercitationem aspernatur accusantium aperiam ipsam tempore molestias odit quam libero ad? Fugiat, expedita cupiditate. Aut corrupti animi error architecto maxime iure?",
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt eaque esse debitis labore, sapiente eum nobis, quasi atque modi sequi facere corporis, iure optio officia praesentium veritatis minus mollitia officiis.Officia sequi, dolorum voluptatum consectetur beatae dolore iure adipisci exercitationem aspernatur accusantium aperiam ipsam tempore molestias odit quam libero ad? Fugiat, expedita cupiditate. Aut corrupti animi error architecto maxime iure?",
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt eaque esse debitis labore, sapiente eum nobis, quasi atque modi sequi facere corporis, iure optio officia praesentium veritatis minus mollitia officiis.Officia sequi, dolorum voluptatum consectetur beatae dolore iure adipisci exercitationem aspernatur accusantium aperiam ipsam tempore molestias odit quam libero ad? Fugiat, expedita cupiditate. Aut corrupti animi error architecto maxime iure?",
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt eaque esse debitis labore, sapiente eum nobis, quasi atque modi sequi facere corporis, iure optio officia praesentium veritatis minus mollitia officiis.Officia sequi, dolorum voluptatum consectetur beatae dolore iure adipisci exercitationem aspernatur accusantium aperiam ipsam tempore molestias odit quam libero ad? Fugiat, expedita cupiditate. Aut corrupti animi error architecto maxime iure?",
+    `The Joint Seat Allocation Authority (JoSAA) 2024 has been set up by the Ministry of Education [erstwhile Ministry of Human Resources Development (MHRD)] to manage and regulate the joint seat allocation for admissions to 121 institutes for the academic year 2024-25. This includes 23 IITs, 31 NITs, IIEST Shibpur, 26 IIITs and 40 Other-Government Funded Technical Institutes (Other-GFTIs). Admission to all the academic programs offered by these Institutes will be made through a single platform.`, 
+    `To be notified soon ,expected to be released in after jee advance result 2025`,
+    `Each and every candidate who satisfies one or more of the following criteria is eligible for participation in joint seat allocation:\n
+    • Criteria 1 - Qualified in JEE (Advanced) 2024 for academic programs [excluding the preparatory courses] at IITs. AND satisfies the “Performance in Class XII (or equivalent) examination*” criteria as given in Annexure 2(a).\n
+    • Criteria 2 - Qualified in JEE (Advanced) 2024 for preparatory courses at IITs AND satisfies the “Performance in Class XII (or equivalent) examination*” criteria as given in Annexure 2(a).\n
+    • Criteria 3 - Secured a rank in JEE (Main) 2024 B.E./B.Tech. paper for B.E./B.Tech. programs at NITs, IIEST, IIITs and Other-GFTIs AND satisfies the “Performance in Class XII (or equivalent) examination*” criteria as given in Annexure 2(b)\n
+    • Criteria 4 - Secured a rank in JEE (Main) 2024 B.Arch. Paper for B.Arch. programs at NITs, IIEST, IIITs and Other-GFTIs. AND satisfies the “Performance in Class XII (or equivalent) examination*” criteria as given in Annexure 2(b).\n
+    • Criteria 5 - Secured a rank in JEE (Main) 2024 B.Plan. Paper for B.Plan. program at NITs, IIEST, IIITs and Other-GFTIs. AND satisfies the “Performance in Class XII (or equivalent) examination*” criteria as given in Annexure 2(b).`,
+    `Josaa counselling takes place in 5 round as per last year 2024 ,this involve : \n
+    a: Registration of Candidate at JOSAA Counselling: \n
+        For registration and filling-in of choices of academic programs in various
+        Institutes, candidates should login to the https://josaa.nic.in using the
+        following process. The candidate has to sign up as a new user in the portal
+        where he/she needs to authenticate by entering the JEE (Main) 2024
+        Application Number or JEE (Advanced) 2025 login ID. A One Time
+        Password (OTP) will be sent to the registered mobile number and email
+        address of the candidate. Upon entering the OTP, the system will prompt the
+        candidate to set a password. After this step, the candidate must login with the
+        newly set password, and proceed to future steps such as registration, choice
+        filling, choice freezing etc.
+        The detailed instructions will be provided on JoSAA 2025 portal.\n
+    b: Choice Filling: \n
+        Once you have completed the registration process ,u have to fill the available choices .All the college NIT,IIT IIIT GFTI and their available branch will be shown in available choices section and now u have to fill acording to your priorities
+        click here to watch the complete process of chocie filling\n
+    c: Mock allocation of saved choices: \n
+        After succesfull choice filling ,josaa will show you mock allocation based on your choices filled.
+        You can update your choices after mock allocation\n
+    d: Choices Locking or Automatically locked: \n
+        Your saved choices will automatically locked once deadline end.You can manuualy lock your choices also.\n
+    e: Allocation of Round1: \n
+        Now this will be the real allocation of your saved choices in round 1.
+        Once you will allocate a seat in any of the round for the first time ,you will have to do online verification on josaa portal 
+        click here to know the complete process ,how to do online reporting\n`,
+    `To be released after JEE Advance 2025 result`,
+
+
+    `Click here to know the complete detail of document required for josaa counselling process`,
+
+
+    `Click here to know how to fill choice filling for josaa counselling 2025`,
+
+
+    `At the time of accepting the seat online, a candidate has to opt for any one of
+    the options i.e. ‘Freeze’, ‘Float’ or ‘Slide’ for the choice of academic
+    program for subsequent round(s), if any, of joint seat allocation. In case the
+    candidate has been allocated seat as per the candidate’s first choice, the
+    candidate will not be given any of the above options other than Freeze. In
+    such a situation, the candidate may either accept, and Freeze the offered seat,
+    or may reject the offered seat. Non choosing of Freeze option in this case
+    will be considered as rejection of the offered seat and the candidate will
+    not be considered for seat allocation in the further rounds (if any).\n
+    <strong>(A) FREEZE: </strong>\n
+        Choosing the option “Freeze” means that the candidate accepts the offered
+        seat and indicates that the candidate is content with the allocated academic
+        program and that the candidate does not want to participate in further
+        rounds of seat allocation while retaining the same seat. Such candidates
+        will NOT be considered in subsequent rounds of JoSAA 2024 (if any). Their
+        chosen seat shall remain allocated to them and shall be provisionally
+        confirmed, subject to successful completion of the steps mentioned in
+        Section XVIII above\n
+    <strong> FLOAT: </strong>\n
+        Choosing the option “Float” means that the candidate accepts the offered
+        seat and indicates that, if admission to an academic program of higher
+        46
+        preference in any Institute is offered in subsequent rounds of seat allocation,
+        the candidate will accept it. Else, the candidate will continue with the
+        currently accepted academic program. Such candidates will be considered in
+        subsequent rounds of JoSAA 2024 (if any).\n
+    <strong> SLIDE: </strong>\n
+        Choosing the option “Slide” means that the candidate accepts the offered
+        seat and indicates that, if admission to an academic program of higher
+        preference is offered within the same Institute in subsequent rounds of seat
+        allocation, the candidate will accept it. Such candidates will be considered in
+        subsequent rounds of JoSAA 2024 (if any).
+        For candidates who choose the float or slide option, allocation of a seat
+        in an academic program of the candidate’s higher preference would
+        automatically result in the replacement of the seat accepted by the candidate
+        in the earlier round. Such candidates are only required to accept or reject the
+        academic program of higher preference offered as a result of the float or
+        slide option. In case such candidate rejects or cancels the seat of higher
+        preference, offered as a result of float or slide, then the candidate would no
+        longer be entitled to any seat and would not be permitted to participate any
+        further in JoSAA 2024\n
+        `,
+    `Some content will come here. Work is in progress right now for this purpose`,
     "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt eaque esse debitis labore, sapiente eum nobis, quasi atque modi sequi facere corporis, iure optio officia praesentium veritatis minus mollitia officiis.Officia sequi, dolorum voluptatum consectetur beatae dolore iure adipisci exercitationem aspernatur accusantium aperiam ipsam tempore molestias odit quam libero ad? Fugiat, expedita cupiditate. Aut corrupti animi error architecto maxime iure?",
     "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt eaque esse debitis labore, sapiente eum nobis, quasi atque modi sequi facere corporis, iure optio officia praesentium veritatis minus mollitia officiis.Officia sequi, dolorum voluptatum consectetur beatae dolore iure adipisci exercitationem aspernatur accusantium aperiam ipsam tempore molestias odit quam libero ad? Fugiat, expedita cupiditate. Aut corrupti animi error architecto maxime iure?",
     "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt eaque esse debitis labore, sapiente eum nobis, quasi atque modi sequi facere corporis, iure optio officia praesentium veritatis minus mollitia officiis.Officia sequi, dolorum voluptatum consectetur beatae dolore iure adipisci exercitationem aspernatur accusantium aperiam ipsam tempore molestias odit quam libero ad? Fugiat, expedita cupiditate. Aut corrupti animi error architecto maxime iure?",
