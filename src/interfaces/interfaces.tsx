@@ -53,7 +53,23 @@ export interface IBlogSectionComponent {
     headingName : string, 
     content : string, 
     headingId : string, 
-    image? : string
+    image? : string, 
+
+    /**
+     * Following parameter was added for the following purpose: 
+     *  1. Since we are adding the above mentioned support 
+     *  2. Hence for this we need to know whether they belong to same heading or not
+     *  3. isSameHeading is true then we will say that this content/image belongs to the same previous heading itself
+     *  4. If isSameHeading is false then we will say that this content/image belongs to the new heading
+     *  5. This is important because we want to show the border properly. Meaning:
+     *      For each of the heading all the contents/image and its combination should come under the same border. 
+     * this field is optional if its necessary then we will pass
+     * For example currently we have added this support only in the counselling pages. We might need to extend this to 
+     * other pages like college pages and so on.
+     */
+    isCurrentHeadingEmpty? : boolean, // this means that for this blog section we will have to keep the top border anyways. 
+    isNextHeadingEmpty? : boolean // this means that for this blog section the bottom border we will not give
+    isPreviousHeadingEmpty? : boolean // this means that for this blog section the top border we will not give
 }
 
 
@@ -62,6 +78,13 @@ export interface IBlogComponent {
     headingNameList : Array<string>, 
     tableOfContentsList : Array<string>, 
     contentList : Array<string>, 
+    /**
+     * The following optional parameters were added in order to support the following features: 
+     *  1. Image support for the blog section component
+     *  2. Multiple images support for the blog section component
+     *  3. Image + Content and other possible component support for the blog section component
+     * 
+     */
     imageList? : Array<string | null>
 }
 

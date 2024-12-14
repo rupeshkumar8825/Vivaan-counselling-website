@@ -82,6 +82,8 @@ export const JosaaCounsellingPageHeadingList : Array<string> = [
     "What is Josaa Counselling?", 
     "Josaa Counselling dates 2025", 
     "Josaa Counselling Eligibility Criteria", 
+    "",
+    "",
     "Josaa Counselling process 2025",
     "Josaa Counselling counselling application form",
     "Document required for Josaa Counselling",
@@ -99,6 +101,12 @@ export const JosaaCounsellingPageTableOfContentList : Array<string> = [
     "What is Josaa Counselling?", 
     "Josaa Counselling dates 2025", 
     "Josaa Counselling Eligibility Criteria", 
+    // the following section lets make it "" this was done in order to support the following: 
+    //1. To be able to add an multiple pair of content and image. 
+    //  2. For example : 
+    //      to be able to add a content, image , content, image in the same section
+    "",
+    "",
     "Josaa Counselling process 2025",
     "Josaa Counselling counselling application form",
     "Document required for Josaa Counselling",
@@ -116,6 +124,8 @@ export const JosaaCounsellingPageHeadingIdList : Array<string> = [
     "counselling-josaa-h1",
     "counselling-josaa-h2",
     "counselling-josaa-h3",
+    "",
+    "",
     "counselling-josaa-h4",
     "counselling-josaa-h5",
     "counselling-josaa-h6",
@@ -138,6 +148,8 @@ export const JosaaCounsellingPageHeadingIdList : Array<string> = [
 export const JosaaCounsellingPageImageList : Array<string | null> = [
     null,
     null,
+    JosaaEligibilityCriteriaImage,
+    JosaaEligibilityCriteriaImage,
     JosaaEligibilityCriteriaImage,
     null,
     null,
@@ -164,6 +176,11 @@ export const JosaaCounsellingPageContentList : Array<string> = [
     `Each and every candidate who satisfies one or more of the following
      criteria is eligible for participation in joint seat allocation:`,
     
+    `Some texts are coming here just for testing purpose to test the functionality 
+    of the content + image + content + image format`,   
+
+    
+    `another test for the code that we have written `,      
 // 4    
     `Josaa counselling takes place in 5 round as per last year 2024 ,this involve : \n
     a: Registration of Candidate at JOSAA Counselling: \n
