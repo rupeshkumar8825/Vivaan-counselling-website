@@ -1,5 +1,6 @@
 // here we will store the constants related to the josaa counselling page 
 import IITBombayCollegeImage from "../../assets/images/IIT/iit-bombay.png"
+import JosaaEligibilityCriteriaImage from "../../assets/images/counselling/josaa/josaa-eligibility-criteria.png"
 
 // OVERVIEW  COMPONENT FOR JOSAA COUNsELLING PAGE 
 // constant for storing the submenu names which we have to show in dropdown
@@ -129,12 +130,17 @@ export const JosaaCounsellingPageHeadingIdList : Array<string> = [
 ]
 
 
+// This is the array which stores the images to be shown on the blog section
+// currently each of the heading we are assuming that it will have an single image according to the implementation
+// do note that there can be requirement of multiple images for a single heading from the client side
+// in that case we have to make the changes accordingly
+// The logic will be document on the notion page for this purpose. 
 export const JosaaCounsellingPageImageList : Array<string | null> = [
     null,
     null,
+    JosaaEligibilityCriteriaImage,
     null,
     null,
-    IITBombayCollegeImage,
     null,
     null,
     null,
@@ -148,14 +154,17 @@ export const JosaaCounsellingPageImageList : Array<string | null> = [
 ]
 
 export const JosaaCounsellingPageContentList : Array<string> = [
-    `The Joint Seat Allocation Authority (JoSAA) 2024 has been set up by the Ministry of Education [erstwhile Ministry of Human Resources Development (MHRD)] to manage and regulate the joint seat allocation for admissions to 121 institutes for the academic year 2024-25. This includes 23 IITs, 31 NITs, IIEST Shibpur, 26 IIITs and 40 Other-Government Funded Technical Institutes (Other-GFTIs). Admission to all the academic programs offered by these Institutes will be made through a single platform.`, 
+    // 1
+    `The Joint Seat Allocation Authority (JoSAA) 2024 has been set up by the Ministry of Education [erstwhile Ministry of Human Resources Development (MHRD)] to manage and regulate the joint seat allocation for admissions to 121 institutes for the academic year 2024-25. This includes 23 IITs, 31 NITs, IIEST Shibpur, 26 IIITs and 40 Other-Government Funded Technical Institutes (Other-GFTIs). Admission to all the academic programs offered by these Institutes will be made through a single platform.`,
+
+// 2
     `To be notified soon ,expected to be released in after jee advance result 2025`,
-    `Each and every candidate who satisfies one or more of the following criteria is eligible for participation in joint seat allocation:\n
-    • Criteria 1 - Qualified in JEE (Advanced) 2024 for academic programs [excluding the preparatory courses] at IITs. AND satisfies the “Performance in Class XII (or equivalent) examination*” criteria as given in Annexure 2(a).\n
-    • Criteria 2 - Qualified in JEE (Advanced) 2024 for preparatory courses at IITs AND satisfies the “Performance in Class XII (or equivalent) examination*” criteria as given in Annexure 2(a).\n
-    • Criteria 3 - Secured a rank in JEE (Main) 2024 B.E./B.Tech. paper for B.E./B.Tech. programs at NITs, IIEST, IIITs and Other-GFTIs AND satisfies the “Performance in Class XII (or equivalent) examination*” criteria as given in Annexure 2(b)\n
-    • Criteria 4 - Secured a rank in JEE (Main) 2024 B.Arch. Paper for B.Arch. programs at NITs, IIEST, IIITs and Other-GFTIs. AND satisfies the “Performance in Class XII (or equivalent) examination*” criteria as given in Annexure 2(b).\n
-    • Criteria 5 - Secured a rank in JEE (Main) 2024 B.Plan. Paper for B.Plan. program at NITs, IIEST, IIITs and Other-GFTIs. AND satisfies the “Performance in Class XII (or equivalent) examination*” criteria as given in Annexure 2(b).`,
+
+// 3
+    `Each and every candidate who satisfies one or more of the following
+     criteria is eligible for participation in joint seat allocation:`,
+    
+// 4    
     `Josaa counselling takes place in 5 round as per last year 2024 ,this involve : \n
     a: Registration of Candidate at JOSAA Counselling: \n
         For registration and filling-in of choices of academic programs in various
@@ -181,15 +190,23 @@ export const JosaaCounsellingPageContentList : Array<string> = [
         Now this will be the real allocation of your saved choices in round 1.
         Once you will allocate a seat in any of the round for the first time ,you will have to do online verification on josaa portal 
         click here to know the complete process ,how to do online reporting\n`,
+    
+    // 5
     `To be released after JEE Advance 2025 result`,
 
 
+    
+    // 6
     `Click here to know the complete detail of document required for josaa counselling process`,
 
 
+    
+    // 7
     `Click here to know how to fill choice filling for josaa counselling 2025`,
 
 
+    
+    // 8
     `At the time of accepting the seat online, a candidate has to opt for any one of
     the options i.e. ‘Freeze’, ‘Float’ or ‘Slide’ for the choice of academic
     program for subsequent round(s), if any, of joint seat allocation. In case the
@@ -232,11 +249,31 @@ export const JosaaCounsellingPageContentList : Array<string> = [
         longer be entitled to any seat and would not be permitted to participate any
         further in JoSAA 2024\n
         `,
+    
+    
+    // 9
     `Some content will come here. Work is in progress right now for this purpose`,
+    
+    
+
+    // 10
     "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt eaque esse debitis labore, sapiente eum nobis, quasi atque modi sequi facere corporis, iure optio officia praesentium veritatis minus mollitia officiis.Officia sequi, dolorum voluptatum consectetur beatae dolore iure adipisci exercitationem aspernatur accusantium aperiam ipsam tempore molestias odit quam libero ad? Fugiat, expedita cupiditate. Aut corrupti animi error architecto maxime iure?",
+    
+    
+
+    // 11
     "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt eaque esse debitis labore, sapiente eum nobis, quasi atque modi sequi facere corporis, iure optio officia praesentium veritatis minus mollitia officiis.Officia sequi, dolorum voluptatum consectetur beatae dolore iure adipisci exercitationem aspernatur accusantium aperiam ipsam tempore molestias odit quam libero ad? Fugiat, expedita cupiditate. Aut corrupti animi error architecto maxime iure?",
+    
+    
+    // 12
     "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt eaque esse debitis labore, sapiente eum nobis, quasi atque modi sequi facere corporis, iure optio officia praesentium veritatis minus mollitia officiis.Officia sequi, dolorum voluptatum consectetur beatae dolore iure adipisci exercitationem aspernatur accusantium aperiam ipsam tempore molestias odit quam libero ad? Fugiat, expedita cupiditate. Aut corrupti animi error architecto maxime iure?",
+    
+    
+    // 13
     "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt eaque esse debitis labore, sapiente eum nobis, quasi atque modi sequi facere corporis, iure optio officia praesentium veritatis minus mollitia officiis.Officia sequi, dolorum voluptatum consectetur beatae dolore iure adipisci exercitationem aspernatur accusantium aperiam ipsam tempore molestias odit quam libero ad? Fugiat, expedita cupiditate. Aut corrupti animi error architecto maxime iure?",
+    
+    
+    // 14
     "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt eaque esse debitis labore, sapiente eum nobis, quasi atque modi sequi facere corporis, iure optio officia praesentium veritatis minus mollitia officiis.Officia sequi, dolorum voluptatum consectetur beatae dolore iure adipisci exercitationem aspernatur accusantium aperiam ipsam tempore molestias odit quam libero ad? Fugiat, expedita cupiditate. Aut corrupti animi error architecto maxime iure?",
     
 ]
