@@ -1,4 +1,10 @@
 // here comes the constants related to the jee advanced exam page
+import JeeAdvanceExamPatternImage from "../../assets/images/exam/JeeAdvance/Jee-Advance-Exam-Pattern.png"
+import JeeAdvanceExamDatesImage from "../../assets/images/exam/JeeAdvance/Jee-Advance-Exam-Dates.png"
+import JeeAdvanceExamCutoffImage from "../../assets/images/exam/JeeAdvance/Jee-Advance-Cutoff.png"
+import JeeAdvanceCategoryWiseImage from "../../assets/images/exam/JeeAdvance/Jee-Advance-Category-Wise.png"
+import JeeAdvanceQualifyingMarksImage from "../../assets/images/exam/JeeAdvance/Jee-Advance-Qualifying-Marks.png"
+
 
 //OVERVIEW COMPONENT 
 // constant for showing the various options related to jee advance in dropdown button
@@ -90,6 +96,8 @@ export const JeeAdvanceHeadingList : Array<string> = [
     "Jee Advance 2025 Exam Dates", 
     "JEE Advanced 2025 Exam Patten",
     "Jee Advance 2025 Cutoff ",
+    // Below is for adding image in cutoff field
+    "",
     "Jee Advance 2025 Eligibility ",
     "Jee Advance 2025 Age Limit", 
     "Jee Advance 2025 State of eligibility ",
@@ -107,6 +115,8 @@ export const JeeAdvanceTableOfContentList : Array<string> = [
     "Jee Advance 2025 Exam Dates", 
     "JEE Advanced 2025 Exam Patten",
     "Jee Advance 2025 Cutoff ",
+    // Below is for adding image in cutoff field
+    "",
     "Jee Advance 2025 Eligibility ",
     "Jee Advance 2025 Age Limit", 
     "Jee Advance 2025 State of eligibility ",
@@ -126,6 +136,8 @@ export const JeeAdvanceHeadingIdList : Array<string> = [
     "exam-jeeadvance-h3",
     "exam-jeeadvance-h4",
     "exam-jeeadvance-h5",
+    // for cutoff blog we have added an extra image field hence below heading id comes
+    "",
     "exam-jeeadvance-h6",
     "exam-jeeadvance-h7",
     "exam-jeeadvance-h8",
@@ -135,22 +147,72 @@ export const JeeAdvanceHeadingIdList : Array<string> = [
     "exam-jeeadvance-h12",
 ]
 
-
+export const JeeAdvanceImageList : Array<string | null> = [
+    null,
+    null,
+    JeeAdvanceExamDatesImage,
+    JeeAdvanceExamPatternImage,
+    JeeAdvanceExamCutoffImage,
+    // Adding the extra image field for cutoff section itself. 
+    JeeAdvanceCategoryWiseImage,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+]
 
 // finally the constant for the content that will be present on the page
 export const JeeAdvanceContentList : Array<string> = [
-    
+    // Jee Advance Exam History
+`The Joint Entrance Examination - Advanced (JEE-Advanced) (formerly the Indian Institute of Technology Joint Entrance Examination (IIT-JEE)) is an academic examination held annually in India that tests the skills and knowledge of the applicants in physics,  chemistry and mathematics. It is organised by one of the seven zonal Indian Institutes of Technology (IITs): IIT Roorkee, IIT Kharagpur, IIT Delhi, IIT Kanpur, IIT Bombay, IIT Madras, and IIT Guwahati, under the guidance of the Joint Admission Board (JAB) on a round-robin rotation pattern for the qualifying candidates of the Joint Entrance Examination - Main(exempted for foreign nationals and candidates who have secured OCI/PIO cards on or after 04-03-2021).
+`,
+
+
+// Who Conducts Jee Advance?
+`It is organised by one of the seven zonal Indian Institutes of Technology (IITs): IIT Roorkee, IIT Kharagpur, IIT Delhi, IIT Kanpur, IIT Bombay, IIT Madras, and IIT Guwahati, under the guidance of the Joint Admission Board (JAB) on a round-robin rotation pattern for the qualifying candidates of the Joint Entrance Examination\n
+
+
+<span style = "color : white; font-weight: bold; font-size: larger;"> JEE Advance 2025 exam is being conducting by IIT KANPUR </span>`,
+
+    // Jee Advance 2025 Exam Dates
     ``,
+
+    // JEE Advanced 2025 Exam Patten
+    `IIT Kanpur will soon publish the JEE Advanced Exam Pattern 2025 on its official website @jeeadv.nic.in, along with the information brochure`,
+
+    // Jee Advance 2025 Cutoff
+`IIT Madras has released JEE Advanced Cutoff 2024. The minimum marks for inclusion in JEE Advanced 2024 Rank List is 30.34% for CRL, 27.30% for OBC-NCL, 15.17% for SC/ST candidates.
+
+<span style = "color : white; font-weight: bold; font-size: larger;"> JEE Advanced 2024 Cutoff for inclusion in the Rank List
+</span>
+
+`,
+
+// For cutoff extra image field we have added this content
+`<span style = "color : white; font-weight: bold; font-size: larger;"> JEE Advanced 2024 Qualifying Marks
+</span>`,
+    // Jee Advance 2025 Eligibility
     ``,
+
+    // Jee Advance 2025 Age Limit
     ``,
+
+    // Jee Advance 2025 State of eligibility
     ``,
+
+    // Jee Advance 2025 Syllabus
     ``,
+
+    // Jee Advance 2025 Results
     ``,
+
+    // Jee Advance Marks vs Rank
     ``,
-    ``,
-    ``,
-    ``,
-    ``,
+
+    // Jee Advance Counselling Process
     ``,
 ]
 

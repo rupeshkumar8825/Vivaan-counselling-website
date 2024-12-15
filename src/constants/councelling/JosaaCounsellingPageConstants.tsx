@@ -105,7 +105,7 @@ export const JosaaCounsellingPageTableOfContentList : Array<string> = [
     //1. To be able to add an multiple pair of content and image. 
     //  2. For example : 
     //      to be able to add a content, image , content, image in the same section
-    "",
+    // "",
     "",
     "Josaa Counselling process 2025",
     "Josaa Counselling counselling application form",
