@@ -125,7 +125,7 @@ const BlogSectionComponent = (props : IBlogSectionComponent) => {
              *  3. Hence no need to give heading here
 
              */}
-            {props.content !== "" ? <p className="  whitespace-pre-line text-left text-slate-400  p-5  mt-4" dangerouslySetInnerHTML={{__html : props.content}}></p> : null}
+            {props.content !== "" ? <p className=" whitespace-pre-wrap text-left text-slate-300  p-5  mt-4" dangerouslySetInnerHTML={{__html : props.content}}></p> : null}
             {/* we have to add support for the image as well here. In order to add support we will have to 
             update the constants as well whereever we will have the image for this purpose*/}
             {props.image ? (

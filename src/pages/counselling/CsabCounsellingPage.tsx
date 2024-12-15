@@ -3,7 +3,7 @@ import OverviewSectionComponent from "../../home/components/OverviewSectionCompo
 import VideoCard from "../../components/VideoCardComponent"
 import BlogComponent from "../../components/blog/BlogComponent"
 import { useNavigate } from "react-router-dom"
-import { CsabCounsellingPageButtonCodeList, CsabCounsellingPageButtonNameList, CsabCounsellingPageButtonWidthList, CsabCounsellingPageContentList, CsabCounsellingPageHeadingIdList, CsabCounsellingPageHeadingList, CsabCounsellingPageRoutesList, CsabCounsellingPageSubMenuList, CsabCounsellingPageTableOfContentList, CsabCounsellingPageVideoCardTitleList, CsabCounsellingPageVideoCardUrlList } from "../../constants/councelling/CsabCouncellingPageConstants"
+import { CsabCounsellingPageButtonCodeList, CsabCounsellingPageButtonNameList, CsabCounsellingPageButtonWidthList, CsabCounsellingPageContentList, CsabCounsellingPageHeadingIdList, CsabCounsellingPageHeadingList, CsabCounsellingPageImageList, CsabCounsellingPageRoutesList, CsabCounsellingPageSubMenuList, CsabCounsellingPageTableOfContentList, CsabCounsellingPageVideoCardTitleList, CsabCounsellingPageVideoCardUrlList } from "../../constants/councelling/CsabCouncellingPageConstants"
 
 const CsabCounsellingPage = () => {
     const navigate = useNavigate()
@@ -61,7 +61,7 @@ const CsabCounsellingPage = () => {
             </div>
             <div className="">
                 {/* <BlogHeadingComponent headingName="JEE MAINS EXAM"></BlogHeadingComponent> */}
-                <BlogComponent headingIdList={CsabCounsellingPageHeadingIdList} headingNameList={CsabCounsellingPageHeadingList} tableOfContentsList={CsabCounsellingPageTableOfContentList} contentList={CsabCounsellingPageContentList}></BlogComponent>
+                <BlogComponent headingIdList={CsabCounsellingPageHeadingIdList} headingNameList={CsabCounsellingPageHeadingList} tableOfContentsList={CsabCounsellingPageTableOfContentList} contentList={CsabCounsellingPageContentList} imageList={CsabCounsellingPageImageList}></BlogComponent>
 
             </div>
         </div>

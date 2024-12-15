@@ -1,6 +1,7 @@
 // here we will store the constants related to the josaa counselling page 
 import IITBombayCollegeImage from "../../assets/images/IIT/iit-bombay.png"
-import JosaaEligibilityCriteriaImage from "../../assets/images/counselling/josaa/josaa-eligibility-criteria.png"
+import JosaaEligibilityCriteriaImage1 from "../../assets/images/counselling/josaa/josaa-eligibility-criteria-1.png"
+import JosaaEligibilityCriteriaImage2 from "../../assets/images/counselling/josaa/josaa-eiligibility-criteria-2.png"
 
 // OVERVIEW  COMPONENT FOR JOSAA COUNsELLING PAGE 
 // constant for storing the submenu names which we have to show in dropdown
@@ -83,7 +84,6 @@ export const JosaaCounsellingPageHeadingList : Array<string> = [
     "Josaa Counselling dates 2025", 
     "Josaa Counselling Eligibility Criteria", 
     "",
-    "",
     "Josaa Counselling process 2025",
     "Josaa Counselling counselling application form",
     "Document required for Josaa Counselling",
@@ -125,7 +125,6 @@ export const JosaaCounsellingPageHeadingIdList : Array<string> = [
     "counselling-josaa-h2",
     "counselling-josaa-h3",
     "",
-    "",
     "counselling-josaa-h4",
     "counselling-josaa-h5",
     "counselling-josaa-h6",
@@ -148,9 +147,8 @@ export const JosaaCounsellingPageHeadingIdList : Array<string> = [
 export const JosaaCounsellingPageImageList : Array<string | null> = [
     null,
     null,
-    JosaaEligibilityCriteriaImage,
-    JosaaEligibilityCriteriaImage,
-    JosaaEligibilityCriteriaImage,
+    JosaaEligibilityCriteriaImage1,
+    JosaaEligibilityCriteriaImage2,
     null,
     null,
     null,
@@ -176,11 +174,9 @@ export const JosaaCounsellingPageContentList : Array<string> = [
     `Each and every candidate who satisfies one or more of the following
      criteria is eligible for participation in joint seat allocation:`,
     
-    `Some texts are coming here just for testing purpose to test the functionality 
-    of the content + image + content + image format`,   
-
-    
-    `another test for the code that we have written `,      
+// 4 a
+    `The rest of the crieteria are as follows: `,   
+      
 // 4    
     `Josaa counselling takes place in 5 round as per last year 2024 ,this involve : \n
     a: Registration of Candidate at JOSAA Counselling: \n
