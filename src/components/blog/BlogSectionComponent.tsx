@@ -129,7 +129,7 @@ const BlogSectionComponent = (props : IBlogSectionComponent) => {
             {/* we have to add support for the image as well here. In order to add support we will have to 
             update the constants as well whereever we will have the image for this purpose*/}
             {props.image ? (
-                <img src={props.image} alt="Blog Image" className=" p-10 w-full h-auto mt-0 rounded-lg border-1 border-slate-600 shadow-lg" />
+                    <img src={props.image} alt="Blog Image" className=" w-full h-auto mt-0 rounded-lg border-2 border-slate-600 shadow-lg" />
             ) : null}
         </div>
     )

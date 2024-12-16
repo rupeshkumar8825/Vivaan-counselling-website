@@ -99,6 +99,9 @@ export const JeeAdvanceHeadingList : Array<string> = [
     // Below is for adding image in cutoff field
     "",
     "Jee Advance 2025 Eligibility ",
+    // Below we need to add a separate content for below image for
+    // eligibility blog component
+    "",
     "Jee Advance 2025 Age Limit", 
     "Jee Advance 2025 State of eligibility ",
     "Jee Advance 2025 Syllabus ",
@@ -118,6 +121,7 @@ export const JeeAdvanceTableOfContentList : Array<string> = [
     // Below is for adding image in cutoff field
     "",
     "Jee Advance 2025 Eligibility ",
+    "",
     "Jee Advance 2025 Age Limit", 
     "Jee Advance 2025 State of eligibility ",
     "Jee Advance 2025 Syllabus ",
@@ -139,6 +143,7 @@ export const JeeAdvanceHeadingIdList : Array<string> = [
     // for cutoff blog we have added an extra image field hence below heading id comes
     "",
     "exam-jeeadvance-h6",
+    "",
     "exam-jeeadvance-h7",
     "exam-jeeadvance-h8",
     "exam-jeeadvance-h9",
@@ -154,6 +159,7 @@ export const JeeAdvanceImageList : Array<string | null> = [
     JeeAdvanceExamPatternImage,
     JeeAdvanceExamCutoffImage,
     // Adding the extra image field for cutoff section itself. 
+    JeeAdvanceQualifyingMarksImage,
     JeeAdvanceCategoryWiseImage,
     null,
     null,
@@ -187,15 +193,61 @@ export const JeeAdvanceContentList : Array<string> = [
 `IIT Madras has released JEE Advanced Cutoff 2024. The minimum marks for inclusion in JEE Advanced 2024 Rank List is 30.34% for CRL, 27.30% for OBC-NCL, 15.17% for SC/ST candidates.
 
 <span style = "color : white; font-weight: bold; font-size: larger;"> JEE Advanced 2024 Cutoff for inclusion in the Rank List
-</span>
-
-`,
+</span>`,
 
 // For cutoff extra image field we have added this content
 `<span style = "color : white; font-weight: bold; font-size: larger;"> JEE Advanced 2024 Qualifying Marks
 </span>`,
     // Jee Advance 2025 Eligibility
-    ``,
+`Eligibility criteria for Indian Nationals and OCI/PIO candidates who have secured OCI/PIO Card before 04.03.2021 for appearing for JEE (Advanced) 2025
+
+All the candidates must simultaneously fulfil each and every one of the following five criteria.
+\n
+
+<span style = "color : white; font-weight: bold; font-size: larger;"> CRITERIA A1:PERFORMANCE IN JEE MAIN 2025
+</span>
+Candidates should be among the top 2,50,000 successful candidates (including all categories) in B.E./B.Tech. paper (Paper I) of JEE (Main) 2025.
+The percentages of various categories of candidates to be shortlisted are as follows: 10% for GEN-EWS, 27% for OBC-NCL, 15% for SC, 7.5% for ST, and the remaining 40.5% is OPEN for all. Within each of these five categories, 5% horizontal reservation is available for PwD candidates.
+The following table shows the order to be followed while choosing the top 2,50,000 candidates in various categories based on the performance in the B.E./B.Tech. paper of JEE (Main) 2025.
+\n
+<span><em>Category-wise distribution of top 2,50,000 candidates (Criterion A1)*</em></span>
+\n
+`,
+    // For sub section of Eligiblity criteria for this purpose
+`<span style = "color : white; font-weight: bold;"> • The total number of candidates may be slightly greater than 2,50,000 in the presence of “tied” ranks / scores in any category.
+</span>
+As per the decision dated February 03, 2023 passed by the Hon'ble Supreme Court of India in Writ Petition (Civil) 891 / 2021, the OCI/PIO candidates who have secured OCI/PIO card before 04.03.2021 shall be considered as Indian nationals for the purpose of seat allocation to IITs. However, these candidates are not eligible for benefits of any kind of reservation (e.g., GEN-EWS, OBC-NCL, SC, ST) with the exception of OPEN-PwD. That is, Sl No. (3) to (10) in the above table are not applicable for such OCI/PIO card holders and these candidates are required to be in the rank list in Sl. No. 1 and / or 2 in the above table.\n
+
+<span style = "color : white; font-weight: bold; font-size: larger;"> CRITERIA A2: AGE LIMIT:
+</span>
+Candidates should have been born on or after October 1, 2000. Five years age relaxation is given to SC, ST, and PwD candidates, i.e. these candidates should have been born on or after October 1, 1995.
+\n
+<span style = "color : white; font-weight: bold; font-size: larger;">CRITERIA A3: NUMBER OF ATTEMPT:
+</span>
+A candidate can attempt JEE (Advanced) maximum of two times in two consecutive years.
+\n
+
+<span style = "color : white; font-weight: bold; font-size: larger;"> CRITERIA A4:APPEARANCE IN CLASS 12TH EXAMINATION
+</span>
+A candidate should have appeared for the Class XII (or equivalent) examination for the first time in either 2024 or 2025 with Physics, Chemistry, and Mathematics as compulsory subjects.
+Candidates who had appeared in Class XII (or equivalent) examination for the first time in 2023 or earlier, are NOT eligible to appear in JEE (Advanced) 2025, irrespective of the combination or number of subjects attempted/offered.\n
+By appearance in Class XII (or equivalent) examination, it is meant that the Board concerned declared the result for that year irrespective of whether or not examination was conducted. 
+
+It will be considered as an appearance even if the result of a particular candidate got withheld.However, if the examination Board of Class XII (or equivalent) declared the results for the academic year 2022-23 on or after June 28, 2023, then the candidates of that Board who appeared for their Class XII (or equivalent) examination in 2023 are also eligible to appear in JEE (Advanced) 2025, provided they meet all the other eligibility criteria. 
+
+In case the examination Board of Class XII (or equivalent) declared the results for the academic year 2022-23 before June 28, 2023 but the result of a particular candidate was withheld for whatever reason, then the candidate will not be eligible to appear in JEE (Advanced) 2025.
+
+
+<span style = "color : white; font-weight: bold; font-size: larger;"> CRITERIA A5: EARLIER ADMISSION AT IITs
+</span>
+A candidate should NOT have been admitted to an IIT under any academic program that is listed in JoSAA Business Rules of 2024, irrespective of whether or not the candidate continued in the program OR accepted an IIT seat by reporting “online” / at a “reporting centre” in the past. Candidates whose admission to IITs was cancelled (for whatever reason) after joining any IIT are also NOT eligible to appear for JEE (Advanced) 2025.
+
+Candidates who have been admitted to a preparatory course in any of the IITs for the first time in 2024 can appear in JEE (Advanced) 2025.
+
+The candidates who were allocated a seat in an IIT through JoSAA but (i) did not report “online” OR, (ii) withdrew before the last round of seat allotment, OR, (iii) had their seat cancelled (for whatever reason) before the last round of seat allotment for IITs, are eligible to appear for JEE (Advanced) 2025.
+However, in all of the above cases, the candidate is also required to fulfil the conditions mentioned from Criterion A1 to Criterion A4
+
+`,
 
     // Jee Advance 2025 Age Limit
     ``,

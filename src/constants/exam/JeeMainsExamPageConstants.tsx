@@ -1,7 +1,11 @@
 // this file will store the constants related to the jeemain exams page
-import JeeMainExamPatternImage from "../../assets/images/exam/JeeMains/Jee-Mains-Exam-Pattern.png"
-import JeeMainExamDatesImage from "../../assets/images/exam/JeeMains/Jee-Mains-Exam-Dates.png"
-import JeeMainQualifyingCriteriaImage from "../../assets/images/exam/JeeMains/Jee-Mains-Qualification-Criteria.png"
+
+// importing the images to keep for this purpose
+import JeeMainsCutoffImage  from "../../assets/images/exam/JeeMains/Jee-Mains-Cutoff.png"
+import JeeMainsExamDateImage from "../../assets/images/exam/JeeMains/Jee-Mains-Exam-Date.png"
+import JeeMainsExamPatternImage from "../../assets/images/exam/JeeMains/Jee-Mains-Exam-Pattern.png"
+import JeeMainsQualifyingCriteriaImage from "../../assets/images/exam/JeeMains/Jee-Mains-Qualification-criteria.png"
+
 
 export const JeeMainsExamSubMenuList : Array<string> = [
     "JEE Main Exam",
@@ -134,12 +138,12 @@ export const JeeMainHeadingIdList : Array<string> = [
 export const JeeMainImageList : Array<string | null> = [
     null,
     null,
-    JeeMainExamDatesImage,
+    JeeMainsExamDateImage,
     null,
-    JeeMainExamPatternImage,
+    JeeMainsExamPatternImage,
+    JeeMainsCutoffImage,
     null,
-    null,
-    JeeMainQualifyingCriteriaImage,
+    JeeMainsQualifyingCriteriaImage,
     null,
     null,
     null,
@@ -170,7 +174,7 @@ NTA is conducting JEE main exam since 2019 onwards
     
     
     
-`<span style = "color : white; font-weight: bold; font-size: larger;" class="underline"> 1. Latest Announcement: </span>\n
+`<span style = "color : black; padding:1px; background-color : white; border-radius : 5px; font-weight: bold; font-size: larger;" class=""> 1. Latest Announcement: </span>\n
 The National Testing Agency (NTA) will announce the JEE Main 2025 exam dates in october 28th 2024. JEE main 2025 exam to be held in two sessions, with Session 1 in January 2025 and Session 2 in April 2025. \n
 <span style = "color : white; font-weight: bold; font-size: larger;" class="underline"> 2. Organizer: </span>\n
 Since 2019, National Testing Agency (NTA)\n

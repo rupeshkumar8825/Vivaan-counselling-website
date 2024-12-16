@@ -9,7 +9,7 @@ const TableContentComponent = () => {
     return (
         <div className="relative overflow-x-auto  flex items-center justify-center p-10">
                 <table className="w-3/4 text-sm text-left rtl:text-right text-gray-400">
-                    <thead className="text-xs text-gray-700 uppercase bg-gray-700 text-gray-400">
+                    <thead className="text-xs  uppercase bg-gray-700 text-gray-400">
                         <tr>
                             {/* using the for loop to show the headings of the table */}
                             {IITBombayFeesDataTableHeading.map((currentHeading: string) => (
