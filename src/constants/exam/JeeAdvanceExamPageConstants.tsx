@@ -9,12 +9,12 @@ import JeeAdvanceQualifyingMarksImage from "../../assets/images/exam/JeeAdvance/
 //OVERVIEW COMPONENT 
 // constant for showing the various options related to jee advance in dropdown button
 export const JeeAdvanceExamSubMenuList : Array<string> = [
-    "Jee Advance Exam",
-    "Jee Advance Syllabus",
-    "Jee Advance Application",
-    "Jee Advance Eligibility",
-    "Jee Advance Dates",
-    "Jee Advance Admit Card",
+    "JEE Advanced Exam",
+    "JEE Advanced Syllabus",
+    "JEE Advanced Application",
+    "JEE Advanced Eligibility",
+    "JEE Advanced Dates",
+    "JEE Advanced Admit Card",
 ]
 
 
@@ -33,8 +33,8 @@ export const JeeAdvanceExamRoutesList : Array<string> = [
 
 // constants for the names of the buttons that are present in the OVERVIEW section of the page
 export const JeeAdvanceExamsButtonNameList : Array<string> = [
-    "Jee Advance", 
-    "Jee Mains", 
+    "JEE Advanced", 
+    "JEE Mains", 
     "BITSAT", 
     "WBJEE", 
     "MHTCET"
@@ -91,43 +91,43 @@ export const JeeAdvanceVideoCardTitleList : Array<string> = [
 
 // constants for the heading of the jee advance exam page 
 export const JeeAdvanceHeadingList : Array<string> = [
-    "Jee Advance Exam History", 
-    "Who Conducts Jee Advance?", 
-    "Jee Advance 2025 Exam Dates", 
+    "JEE Advanced Exam History", 
+    "Who Conducts JEE Advanced?", 
+    "JEE Advanced 2025 Exam Dates", 
     "JEE Advanced 2025 Exam Patten",
-    "Jee Advance 2025 Cutoff ",
+    "JEE Advanced 2025 Cutoff ",
     // Below is for adding image in cutoff field
     "",
-    "Jee Advance 2025 Eligibility ",
+    "JEE Advanced 2025 Eligibility ",
     // Below we need to add a separate content for below image for
     // eligibility blog component
     "",
-    "Jee Advance 2025 Age Limit", 
-    "Jee Advance 2025 State of eligibility ",
-    "Jee Advance 2025 Syllabus ",
-    "Jee Advance 2025 Results", 
-    "Jee Advance Marks vs Rank", 
-    "Jee Advance Counselling Process"
+    "JEE Advanced 2025 Age Limit", 
+    "JEE Advanced 2025 State of Eligibility ",
+    "JEE Advanced 2025 Syllabus ",
+    "JEE Advanced 2025 Results", 
+    "JEE Advanced Marks vs Rank", 
+    "JEE Advanced Counselling Process"
 ]
 
 
 // constant for the table of content on the page
 export const JeeAdvanceTableOfContentList : Array<string> = [
-    "Jee Advance Exam History", 
-    "Who Conducts Jee Advance?", 
-    "Jee Advance 2025 Exam Dates", 
+    "JEE Advanced Exam History", 
+    "Who Conducts JEE Advanced?", 
+    "JEE Advanced 2025 Exam Dates", 
     "JEE Advanced 2025 Exam Patten",
-    "Jee Advance 2025 Cutoff ",
+    "JEE Advanced 2025 Cutoff ",
     // Below is for adding image in cutoff field
     "",
-    "Jee Advance 2025 Eligibility ",
+    "JEE Advanced 2025 Eligibility ",
     "",
-    "Jee Advance 2025 Age Limit", 
-    "Jee Advance 2025 State of eligibility ",
-    "Jee Advance 2025 Syllabus ",
-    "Jee Advance 2025 Results", 
-    "Jee Advance Marks vs Rank", 
-    "Jee Advance Counselling Process"
+    "JEE Advanced 2025 Age Limit", 
+    "JEE Advanced 2025 State of eligibility ",
+    "JEE Advanced 2025 Syllabus ",
+    "JEE Advanced 2025 Results", 
+    "JEE Advanced Marks vs Rank", 
+    "JEE Advanced Counselling Process"
 ]
 
 
