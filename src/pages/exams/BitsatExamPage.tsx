@@ -3,7 +3,7 @@ import OverviewSectionComponent from "../../home/components/OverviewSectionCompo
 import VideoCard from "../../components/VideoCardComponent"
 import BlogComponent from "../../components/blog/BlogComponent"
 import { useNavigate } from "react-router-dom"
-import { BitSatContentList, BitSatExamPageButtonCodesList, BitSatExamPageButtonWidthList, BitSatExamRoutesList, BitSatExamsButtonNameList, BitSatExamSubMenuList, BitSatHeadingIdList, BitSatHeadingList, BitSatTableOfContentList, BitSatVideoCardTitleList, BitSatVideoCardUrlList } from "../../constants/exam/BitSatExamPageConstants"
+import { BitSatContentList, BitSatExamPageButtonCodesList, BitSatExamPageButtonWidthList, BitSatExamRoutesList, BitSatExamsButtonNameList, BitSatExamSubMenuList, BitSatHeadingIdList, BitSatHeadingList, BitSatImageList, BitSatTableOfContentList, BitSatVideoCardTitleList, BitSatVideoCardUrlList } from "../../constants/exam/BitSatExamPageConstants"
 
 
 // this component for the jee advance exam page 
@@ -51,7 +51,7 @@ const BitSatExamPage = () => {
             </div>
             <div className="">
                 {/* <BlogHeadingComponent headingName="JEE MAINS EXAM"></BlogHeadingComponent> */}
-                <BlogComponent headingIdList={BitSatHeadingIdList} headingNameList={BitSatHeadingList} tableOfContentsList={BitSatTableOfContentList} contentList={BitSatContentList}></BlogComponent>
+                <BlogComponent headingIdList={BitSatHeadingIdList} headingNameList={BitSatHeadingList} tableOfContentsList={BitSatTableOfContentList} contentList={BitSatContentList} imageList={BitSatImageList}></BlogComponent>
 
             </div>
         </div>
