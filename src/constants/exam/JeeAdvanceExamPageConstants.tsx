@@ -2,7 +2,7 @@
 import JeeAdvanceExamPatternImage from "../../assets/images/exam/JeeAdvance/Jee-Advance-Exam-Pattern.png"
 import JeeAdvanceExamDatesImage from "../../assets/images/exam/JeeAdvance/Jee-Advance-Exam-Dates.png"
 import JeeAdvanceExamCutoffImage from "../../assets/images/exam/JeeAdvance/Jee-Advance-Cutoff.png"
-import JeeAdvanceCategoryWiseImage from "../../assets/images/exam/JeeAdvance/Jee-Advance-Category-Wise.png"
+import JeeAdvanceCategoryWiseImage from "../../assets/images/exam/JeeAdvance/Jee-Adance-Category-Wise-Distribution.png"
 import JeeAdvanceQualifyingMarksImage from "../../assets/images/exam/JeeAdvance/Jee-Advance-Qualifying-Marks.png"
 
 
@@ -173,30 +173,31 @@ export const JeeAdvanceImageList : Array<string | null> = [
 // finally the constant for the content that will be present on the page
 export const JeeAdvanceContentList : Array<string> = [
     // Jee Advance Exam History
-`The Joint Entrance Examination - Advanced (JEE-Advanced) (formerly the Indian Institute of Technology Joint Entrance Examination (IIT-JEE)) is an academic examination held annually in India that tests the skills and knowledge of the applicants in physics,  chemistry and mathematics. It is organised by one of the seven zonal Indian Institutes of Technology (IITs): IIT Roorkee, IIT Kharagpur, IIT Delhi, IIT Kanpur, IIT Bombay, IIT Madras, and IIT Guwahati, under the guidance of the Joint Admission Board (JAB) on a round-robin rotation pattern for the qualifying candidates of the Joint Entrance Examination - Main(exempted for foreign nationals and candidates who have secured OCI/PIO cards on or after 04-03-2021).
+`The Joint Entrance Examination - Advanced (JEE-Advanced) (formerly the Indian Institute of Technology Joint Entrance Examination (IIT-JEE)) is an academic examination held annually in India that tests the skills and knowledge of the applicants in physics,  chemistry and mathematics. 
+
+It is organised by one of the seven zonal Indian Institutes of Technology (IITs): IIT Roorkee, IIT Kharagpur, IIT Delhi, IIT Kanpur, IIT Bombay, IIT Madras, and IIT Guwahati, under the guidance of the Joint Admission Board (JAB) on a round-robin rotation pattern for the qualifying candidates of the Joint Entrance Examination - Main(exempted for foreign nationals and candidates who have secured OCI/PIO cards on or after 04-03-2021).
 `,
 
 
 // Who Conducts Jee Advance?
 `It is organised by one of the seven zonal Indian Institutes of Technology (IITs): IIT Roorkee, IIT Kharagpur, IIT Delhi, IIT Kanpur, IIT Bombay, IIT Madras, and IIT Guwahati, under the guidance of the Joint Admission Board (JAB) on a round-robin rotation pattern for the qualifying candidates of the Joint Entrance Examination\n
 
+<span style = "color : white; font-weight: bold; font-size: medium;"> JEE Advance 2025 exam is being conducting by IIT KANPUR </span>`,
 
-<span style = "color : white; font-weight: bold; font-size: larger;"> JEE Advance 2025 exam is being conducting by IIT KANPUR </span>`,
+// Jee Advance 2025 Exam Dates
+``,
 
-    // Jee Advance 2025 Exam Dates
-    ``,
+// JEE Advanced 2025 Exam Patten
+`IIT Kanpur will soon publish the JEE Advanced Exam Pattern 2025 on its official website @jeeadv.nic.in, along with the information brochure`,
 
-    // JEE Advanced 2025 Exam Patten
-    `IIT Kanpur will soon publish the JEE Advanced Exam Pattern 2025 on its official website @jeeadv.nic.in, along with the information brochure`,
-
-    // Jee Advance 2025 Cutoff
+// Jee Advance 2025 Cutoff
 `IIT Madras has released JEE Advanced Cutoff 2024. The minimum marks for inclusion in JEE Advanced 2024 Rank List is 30.34% for CRL, 27.30% for OBC-NCL, 15.17% for SC/ST candidates.
 
-<span style = "color : white; font-weight: bold; font-size: larger;"> JEE Advanced 2024 Cutoff for inclusion in the Rank List
+<span style = "color : white; font-weight: bold; font-size: medium;"> JEE Advanced 2024 Cutoff for inclusion in the Rank List: 
 </span>`,
 
 // For cutoff extra image field we have added this content
-`<span style = "color : white; font-weight: bold; font-size: larger;"> JEE Advanced 2024 Qualifying Marks
+`<span style = "color : white; font-weight: bold; font-size: medium;"> JEE Advanced 2024 Qualifying Marks:
 </span>`,
     // Jee Advance 2025 Eligibility
 `Eligibility criteria for Indian Nationals and OCI/PIO candidates who have secured OCI/PIO Card before 04.03.2021 for appearing for JEE (Advanced) 2025
@@ -207,16 +208,20 @@ All the candidates must simultaneously fulfil each and every one of the followin
 <span style = "color : white; font-weight: bold; font-size: larger;"> CRITERIA A1:PERFORMANCE IN JEE MAIN 2025
 </span>
 Candidates should be among the top 2,50,000 successful candidates (including all categories) in B.E./B.Tech. paper (Paper I) of JEE (Main) 2025.
+
 The percentages of various categories of candidates to be shortlisted are as follows: 10% for GEN-EWS, 27% for OBC-NCL, 15% for SC, 7.5% for ST, and the remaining 40.5% is OPEN for all. Within each of these five categories, 5% horizontal reservation is available for PwD candidates.
+
 The following table shows the order to be followed while choosing the top 2,50,000 candidates in various categories based on the performance in the B.E./B.Tech. paper of JEE (Main) 2025.
-\n
-<span><em>Category-wise distribution of top 2,50,000 candidates (Criterion A1)*</em></span>
+
+<span style = "color: white; font-weight: bold; font-size : medium;"><em>Category-wise distribution of top 2,50,000 candidates (Criterion A1)*</em></span>
 \n
 `,
     // For sub section of Eligiblity criteria for this purpose
-`<span style = "color : white; font-weight: bold;"> • The total number of candidates may be slightly greater than 2,50,000 in the presence of “tied” ranks / scores in any category.
+`<span style = "color : white; font-weight: bold;">The total number of candidates may be slightly greater than 2,50,000 in the presence of “tied” ranks / scores in any category.
 </span>
-As per the decision dated February 03, 2023 passed by the Hon'ble Supreme Court of India in Writ Petition (Civil) 891 / 2021, the OCI/PIO candidates who have secured OCI/PIO card before 04.03.2021 shall be considered as Indian nationals for the purpose of seat allocation to IITs. However, these candidates are not eligible for benefits of any kind of reservation (e.g., GEN-EWS, OBC-NCL, SC, ST) with the exception of OPEN-PwD. That is, Sl No. (3) to (10) in the above table are not applicable for such OCI/PIO card holders and these candidates are required to be in the rank list in Sl. No. 1 and / or 2 in the above table.\n
+As per the decision dated February 03, 2023 passed by the Hon'ble Supreme Court of India in Writ Petition (Civil) 891 / 2021, the OCI/PIO candidates who have secured OCI/PIO card before 04.03.2021 shall be considered as Indian nationals for the purpose of seat allocation to IITs. 
+
+However, these candidates are not eligible for benefits of any kind of reservation (e.g., GEN-EWS, OBC-NCL, SC, ST) with the exception of OPEN-PwD. That is, Sl No. (3) to (10) in the above table are not applicable for such OCI/PIO card holders and these candidates are required to be in the rank list in Sl. No. 1 and / or 2 in the above table.\n
 
 <span style = "color : white; font-weight: bold; font-size: larger;"> CRITERIA A2: AGE LIMIT:
 </span>
@@ -227,7 +232,7 @@ Candidates should have been born on or after October 1, 2000. Five years age rel
 A candidate can attempt JEE (Advanced) maximum of two times in two consecutive years.
 \n
 
-<span style = "color : white; font-weight: bold; font-size: larger;"> CRITERIA A4:APPEARANCE IN CLASS 12TH EXAMINATION
+<span style = "color : white; font-weight: bold; font-size: larger;"> CRITERIA A4: APPEARANCE IN CLASS 12TH EXAMINATION
 </span>
 A candidate should have appeared for the Class XII (or equivalent) examination for the first time in either 2024 or 2025 with Physics, Chemistry, and Mathematics as compulsory subjects.
 Candidates who had appeared in Class XII (or equivalent) examination for the first time in 2023 or earlier, are NOT eligible to appear in JEE (Advanced) 2025, irrespective of the combination or number of subjects attempted/offered.\n
@@ -249,23 +254,29 @@ However, in all of the above cases, the candidate is also required to fulfil the
 
 `,
 
-    // Jee Advance 2025 Age Limit
-    ``,
+// Jee Advance 2025 Age Limit
+`Candidates should have been born on or after October 1, 2000. Five years age relaxation is given to SC, ST, and PwD candidates, i.e. these candidates should have been born on or after October 1, 1995.
+`,
 
-    // Jee Advance 2025 State of eligibility
-    ``,
+// Jee Advance 2025 State of eligibility
+`For JEE Advance state of eligibility is that state from where student has completed their 12th examination
+`,
 
-    // Jee Advance 2025 Syllabus
-    ``,
+// Jee Advance 2025 Syllabus
+`<span style ="color : white;" class="underline""><a href="https://jeeadv.ac.in/documents/jee-advanced-2025-syllabus.pdf " target="_blank" rel="noopener noreferrer">Click here</a> </span> to download JEE Advanced 2025 Syllabus.`,
 
-    // Jee Advance 2025 Results
-    ``,
+// Jee Advance 2025 Results
+`JEE Advance result will be declared soon on jee advance website
+<span style ="color : white;" class="underline""><a href="(https://cportal.jeeadv.ac.in/applicant24/ " target="_blank" rel="noopener noreferrer">Click here</a> </span> to download JEE Advanced 2024 score.`,
 
-    // Jee Advance Marks vs Rank
-    ``,
+// Jee Advance Marks vs Rank
+`<span style ="color : white;" class="underline""><a href="(https://cportal.jeeadv.ac.in/applicant24/ " target="_blank" rel="noopener noreferrer">Click here</a> </span> to watch marks vs rank video in detail.`,
 
-    // Jee Advance Counselling Process
-    ``,
+// Jee Advance Counselling Process
+`Jee advance Counselling process will consist of two step
+a):JOSAA 
+B:)CSAB
+`,
 ]
 
 
