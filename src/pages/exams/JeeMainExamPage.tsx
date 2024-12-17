@@ -44,7 +44,7 @@ const JeeMainExamPage = () => {
             <div className="flex items-center justify-center">
                 <OverviewSectionComponent dropDownMenuName="Overview" dropDownButtonId="JeeMainOverviewButtonId" dropDowndivId="JeeMainOverviewDivId" dropDownSubMenuList={JeeMainsExamSubMenuList} dropDownRoutesList={JeeMainsExamRoutesList} buttonNameList={JeeMainExamsButtonNameList} buttonWidthList={JeeMainExamPageButtonWidthList} buttonCodeList={JeeMainExamPageButtonCodesList} buttonGenericClickHandler={OnOverviewSectionButtonClickHandlerGeneric}></OverviewSectionComponent>
             </div>
-            <HeadingComponent headingName="Latest Updates" headingSpanName="Jee Mains"></HeadingComponent>
+            <HeadingComponent headingName="Latest Updates on" headingSpanName="Jee Main 2025"></HeadingComponent>
             <div className="flex justify-center items-center justify-evenly mt-10 w-full p-10">
                 {/* here we will be using the map function to render all the available video card  component */}
                 {JeeMainVideoCardTitleList.map((_ : string, index : number) => (
