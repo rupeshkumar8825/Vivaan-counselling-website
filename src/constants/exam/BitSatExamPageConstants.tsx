@@ -99,12 +99,15 @@ export const BitSatHeadingList : Array<string> = [
     "BITSAT 2025 Exam pattern",
     "",
     "BITSAT 2025 Cutoff ",
+    "",
+    "",
     "BITSAT Offered Courses",
     "BITSAT 2025 Eligibility ",
     "BITSAT Exam 2025 Syllabus",
     "BITSAT Results",
     "BITSAT Marks vs Rank",
     "BITSAT 2025 Scholarship",
+    ""
 ]
 
 
@@ -117,12 +120,15 @@ export const BitSatTableOfContentList : Array<string> = [
     "BITSAT 2025 Exam pattern",
     "",
     "BITSAT 2025 Cutoff ",
+    "",
+    "",
     "BITSAT Offered Courses",
     "BITSAT 2025 Eligibility ",
     "BITSAT Exam 2025 Syllabus",
     "BITSAT Results",
     "BITSAT Marks vs Rank",
     "BITSAT 2025 Scholarship",
+    ""
 ]
 
 
@@ -137,12 +143,15 @@ export const BitSatHeadingIdList : Array<string> = [
     "exam-bitsat-h5",
     "",
     "exam-bitsat-h6",
+    "",
+    "",
     "exam-bitsat-h7",
     "exam-bitsat-h8",
     "exam-bitsat-h9",
     "exam-bitsat-h10",
     "exam-bitsat-h11",
-    "exam-bitsat-h12"
+    "exam-bitsat-h12",
+    ""
 ]
 
 
@@ -163,7 +172,11 @@ export const BitSatImageList : Array<string | null> = [
     // "",
     BitSatNumberOfQuestionImage,
     // "BITSAT 2025 Cutoff ",
-    null,
+    BitSatCutoffPilaniCampusImage,
+    //"",
+    BitSatCutoffHyderabadCampusImage,
+    //"",
+    BitsatCutoffGoaCampusImage,
     // "BITSAT Offered Courses",
     null,
     // "BITSAT 2025 Eligibility ",
@@ -175,7 +188,9 @@ export const BitSatImageList : Array<string | null> = [
     // "BITSAT Marks vs Rank",
     null,
     // "BITSAT 2025 Scholarship",
-    null,
+    BitSatScholarshipImage,
+    // ""
+    null
 ]
 // finally the constant for the content that will be present on the page
 export const BitSatContentList : Array<string> = [
@@ -241,31 +256,97 @@ Each correction answer fetch 3 marks,while each incorrect answer has a penalty o
 `,
 
 // "BITSAT 2025 Cutoff ",
-``,
+`Cutoff will be released soon on official website,Below are the official cutoff for BITSAT 2024 
 
+<span style = "color : white; font-weight: bold; font-size: larger;">For Pilani Campus:
+</span>`,
+
+// BITSAT 2025 Cutoff blog section 2
+`<span style = "color : white; font-weight: bold; font-size: larger;">For Hyderabad Campus:
+</span>`,
+// BITSAT 2025 Cutoff blog section 3
+`<span style = "color : white; font-weight: bold; font-size: larger;">For Goa Campus:
+</span>`,
 
 // "BITSAT Offered Courses",
-``,
+`(i) at BITS Pilani – Pilani Campus:
+
+B.E.: Chemical, Civil, Computer Science, Electrical and Electronics, Electronics & Instrumentation, Electronics & Communication, Mathematics and Computing, Mechanical, and Manufacturing. B. Pharm.
+
+ M.Sc.: Biological Sciences, Chemistry, Economics, Mathematics, Physics and
+ M.Sc.: General Studies. 
+
+(ii) at BITS Pilani – K. K. Birla Goa Campus: B.E.: Chemical, Computer Science, Electronics & Communication, Electrical and Electronics, Electronics & Instrumentation, Mathematics and Computing, and Mechanical. 
+
+M.Sc.: Biological Sciences, Chemistry, Economics, Mathematics, and Physics. 
+
+(iii) at BITS Pilani – Hyderabad Campus: B.E.: Chemical, Civil, Computer Science, Electronics & Communication, Electrical and Electronics, Electronics & Instrumentation, Mathematics and Computing, and Mechanical. B. Pharm.
+
+ M.Sc.: Biological Sciences, Chemistry, Economics, Mathematics, and Physics.
+
+The candidates who join in M.Sc. programme are eligible to apply for dual degree in Engineering at BITS Pilani after completion of first year. This assignment is made by competition on their performance at BITS at the end of the first year. 
+
+(For more details refer to Admissions Modality available on the BITS admissions website: www.bitsadmission.com)
+
+Candidates appearing for the BITSAT-2025, based on their BITSAT score, will not only have the opportunity to apply for Admissions in First Degree (e.g., B.E. M.Sc., B. Pharm.) 
+
+Programmes offered for the entire duration of the programmes exclusively by the Indian Campuses of BITS Pilani but also will have the opportunity to apply for a few selected Joint-Collaborative Programmes offered by BITS Pilani and a few reputed International Universities in Australia and USA (e.g., RMIT University Melbourne, Iowa State University, Ames, USA, and University at Buffalo, New York, USA). 
+
+These Joint-Collaborative Programmes initiatives will allow students to spend their initial two years at the BITS Pilani campus in India, benefiting from cutting-edge facilities and esteemed faculty resources of BITS Pilani. 
+
+Subsequently, students admitted under Joint-Collaborative Programmes will spend the remaining two years at their chosen foreign university, providing access to a world-class international education. More details about the JointCollaborative Programmes initiatives shall be available on the website in due course of time.
+
+`,
 
 
 // "BITSAT 2025 Eligibility ",
-``,
+`
+Admissions to all the programmes are subject to the conditions given below: The candidate should have obtained a minimum of aggregate 75% marks in Physics, Chemistry and Mathematics subjects (if he/she has taken Mathematics in BITSAT) or a minimum of aggregate 75% marks in Physics, Chemistry and Biology subjects (if he/she has taken Biology in BITSAT) in the 12th examination, with at least 60% marks in each of the Physics, Chemistry, and Mathematics/ Biology subjects. 
+
+Only Students who are appearing for the 12th examination in 2025 or who have passed the 12th Examination in 2024 are eligible to appear in the BITSAT-2025 test. 
+
+If a candidate has taken more than one attempt in the 12th class or its equivalent, only his latest performance is considered, provided this attempt has been for the full component of subjects/courses prescribed. 
+
+Students who have passed the 12th examination in 2023 or earlier are NOT eligible to appear in BITSAT-2025. Students who are presently studying in BITS at any of its campuses are not eligible to appear in BITSAT-2025. 
+
+Admissions will be made purely on merit. The merit position of the candidate for admission will be based on the score obtained by the candidate in the BITSAT-2025. 
+
+However, their eligibility for admission is subject to fulfilling the requirement of minimum marks in the 12th examination, as mentioned above. 
+
+Direct Admission to Board Toppers: In the past, the admission process of the Institute always ensured guaranteed admission to all the students who obtained first ranks in their respective board examinations. This has given a very vital input of highly meritorious students from all over India. 
+
+First rank students of State and Central boards in India for the year 2025 will be given direct admission to the programme of their choice, irrespective of their BITSAT-2025 score as per the eligibility criteria. The detailed eligibility criteria, application procedure, and prescribed application form will be available tentatively by third week of June, 2025 at www.bitsadmission.com `,
 
 
 // "BITSAT Exam 2025 Syllabus",
-``,
+`Click here to download the syllabus of bitsat exam 2025
+`,
 
 
 // "BITSAT Results",
-``,
+`At the completion of the test, the computer will announce the result to the candidate in terms of the number of total correct answers and wrong answers, with the score. 
+
+After completion of the test, the candidate will logout of the test only after entering the scored marks in the test window. The candidate cannot logout without entering the correct scored marks in the test window. 
+
+This activity confirms that the student has checked his/her marks before logging out of the test window. The candidate can also check his or her score report at the BITS admission website on the next day of his or her test date. The candidate can also take a printout of his or her score report for any further usage.
+`,
 
 
 // "BITSAT Marks vs Rank",
-``,
+`Click here to watch complete detail of marks vs rank in bitsat 2025
+`,
 
 
 // "BITSAT 2025 Scholarship",
-``,
-    
+`A large number of scholarship and fellowship and other financial assistance are available to the students of the institute such as institute of own merit or merit-cum need award for students.About 30% of the student receive some form of financial assistance or other even before admission.For continuances of scholarship, scholarship holders need to maintain good scholastic and maintain good conduct.
+
+1. For FD students:For every year about 30% of students admitted to first degree programm get semester tuition fee waiver in the range between 15-100% in the form of either merit or merit-cum need scholarship as tabulated below:
+`,
+
+// BITSAT 2025 Scholarship blog section 2
+`Note:There will no waiver on admission fee
+
+(b)All awards are made for one semester only and their continuance in subsequent semester will depend on candidate performance in the institute and his/her need 
+`,
 ]
 
