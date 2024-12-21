@@ -10,6 +10,7 @@ import {
     ComedkCounsellingPageContentList, 
     ComedkCounsellingPageHeadingIdList, 
     ComedkCounsellingPageHeadingList, 
+    ComedkCounsellingPageImageList, 
     ComedkCounsellingPageRoutesList, 
     ComedkCounsellingPageSubMenuList, 
     ComedkCounsellingPageTableOfContentList, 
@@ -73,7 +74,7 @@ const ComedkCounsellingPage = () => {
             </div>
             <div className="">
                 {/* <BlogHeadingComponent headingName="JEE MAINS EXAM"></BlogHeadingComponent> */}
-                <BlogComponent headingIdList={ComedkCounsellingPageHeadingIdList} headingNameList={ComedkCounsellingPageHeadingList} tableOfContentsList={ComedkCounsellingPageTableOfContentList} contentList={ComedkCounsellingPageContentList}></BlogComponent>
+                <BlogComponent headingIdList={ComedkCounsellingPageHeadingIdList} headingNameList={ComedkCounsellingPageHeadingList} tableOfContentsList={ComedkCounsellingPageTableOfContentList} contentList={ComedkCounsellingPageContentList} imageList={ComedkCounsellingPageImageList}></BlogComponent>
 
             </div>
         </div>
