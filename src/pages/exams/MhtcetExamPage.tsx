@@ -3,7 +3,7 @@ import OverviewSectionComponent from "../../home/components/OverviewSectionCompo
 import VideoCard from "../../components/VideoCardComponent"
 import BlogComponent from "../../components/blog/BlogComponent"
 import { useNavigate } from "react-router-dom"
-import { MhtCetContentList, MhtCetExamPageButtonCodesList, MhtCetExamPageButtonWidthList, MhtCetExamRoutesList, MhtCetExamsButtonNameList, MhtCetExamSubMenuList, MhtCetHeadingIdList, MhtCetHeadingList, MhtCetTableOfContentList, MhtCetVideoCardTitleList, MhtCetVideoCardUrlList } from "../../constants/exam/MhtCetExamPageConstants"
+import { MhCetExamPageImageList, MhtCetContentList, MhtCetExamPageButtonCodesList, MhtCetExamPageButtonWidthList, MhtCetExamRoutesList, MhtCetExamsButtonNameList, MhtCetExamSubMenuList, MhtCetHeadingIdList, MhtCetHeadingList, MhtCetTableOfContentList, MhtCetVideoCardTitleList, MhtCetVideoCardUrlList } from "../../constants/exam/MhtCetExamPageConstants"
 
 
 // this component for the jee advance exam page 
@@ -51,7 +51,7 @@ const MhtCetExamPage = () => {
             </div>
             <div className="">
                 {/* <BlogHeadingComponent headingName="JEE MAINS EXAM"></BlogHeadingComponent> */}
-                <BlogComponent headingIdList={MhtCetHeadingIdList} headingNameList={MhtCetHeadingList} tableOfContentsList={MhtCetTableOfContentList} contentList={MhtCetContentList}></BlogComponent>
+                <BlogComponent headingIdList={MhtCetHeadingIdList} headingNameList={MhtCetHeadingList} tableOfContentsList={MhtCetTableOfContentList} contentList={MhtCetContentList} imageList={MhCetExamPageImageList}></BlogComponent>
 
             </div>
         </div>
