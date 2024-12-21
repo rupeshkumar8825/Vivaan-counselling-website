@@ -3,7 +3,7 @@ import OverviewSectionComponent from "../../home/components/OverviewSectionCompo
 import VideoCard from "../../components/VideoCardComponent"
 import BlogComponent from "../../components/blog/BlogComponent"
 import { useNavigate } from "react-router-dom"
-import { JacDelhiCounsellingPageButtonCodeList, JacDelhiCounsellingPageButtonNameList, JacDelhiCounsellingPageButtonWidthList, JacDelhiCounsellingPageContentList, JacDelhiCounsellingPageHeadingIdList, JacDelhiCounsellingPageHeadingList, JacDelhiCounsellingPageRoutesList, JacDelhiCounsellingPageSubMenuList, JacDelhiCounsellingPageTableOfContentList, JacDelhiCounsellingPageVideoCardTitleList, JacDelhiCounsellingPageVideoCardUrlList } from "../../constants/councelling/JacDelhiCouncellingPageConstants"
+import { JacDelhiCounsellingPageButtonCodeList, JacDelhiCounsellingPageButtonNameList, JacDelhiCounsellingPageButtonWidthList, JacDelhiCounsellingPageContentList, JacDelhiCounsellingPageHeadingIdList, JacDelhiCounsellingPageHeadingList, JACDelhiCounsellingPageImageList, JacDelhiCounsellingPageRoutesList, JacDelhiCounsellingPageSubMenuList, JacDelhiCounsellingPageTableOfContentList, JacDelhiCounsellingPageVideoCardTitleList, JacDelhiCounsellingPageVideoCardUrlList } from "../../constants/councelling/JacDelhiCouncellingPageConstants"
 
 const JacDelhiCounsellingPage = () => {
     const navigate = useNavigate()
@@ -60,7 +60,7 @@ const JacDelhiCounsellingPage = () => {
             </div>
             <div className="">
                 {/* <BlogHeadingComponent headingName="JEE MAINS EXAM"></BlogHeadingComponent> */}
-                <BlogComponent headingIdList={JacDelhiCounsellingPageHeadingIdList} headingNameList={JacDelhiCounsellingPageHeadingList} tableOfContentsList={JacDelhiCounsellingPageTableOfContentList} contentList={JacDelhiCounsellingPageContentList}></BlogComponent>
+                <BlogComponent headingIdList={JacDelhiCounsellingPageHeadingIdList} headingNameList={JacDelhiCounsellingPageHeadingList} tableOfContentsList={JacDelhiCounsellingPageTableOfContentList} contentList={JacDelhiCounsellingPageContentList} imageList={JACDelhiCounsellingPageImageList}></BlogComponent>
 
             </div>
         </div>
