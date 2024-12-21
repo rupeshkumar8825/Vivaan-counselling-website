@@ -3,7 +3,7 @@ import OverviewSectionComponent from "../../home/components/OverviewSectionCompo
 import VideoCard from "../../components/VideoCardComponent"
 import BlogComponent from "../../components/blog/BlogComponent"
 import { useNavigate } from "react-router-dom"
-import { WbJeeContentList, WbJeeExamPageButtonCodesList, WbJeeExamPageButtonWidthList, WBJeeExamRoutesList, WBJeeExamsButtonNameList, WBJeeExamSubMenuList, WbJeeHeadingIdList, WbJeeHeadingList, WbJeeTableOfContentList, WbJeeVideoCardTitleList, WbJEEVideoCardUrlList } from "../../constants/exam/WbJeeExamPageConstants"
+import { WbJeeContentList, WbJeeExamPageButtonCodesList, WbJeeExamPageButtonWidthList, WBJeeExamRoutesList, WBJeeExamsButtonNameList, WBJeeExamSubMenuList, WbJeeHeadingIdList, WbJeeHeadingList, WbJeeImageList, WbJeeTableOfContentList, WbJeeVideoCardTitleList, WbJEEVideoCardUrlList } from "../../constants/exam/WbJeeExamPageConstants"
 
 
 // this component for the jee advance exam page 
@@ -51,7 +51,7 @@ const WebJeeExamPage = () => {
             </div>
             <div className="">
                 {/* <BlogHeadingComponent headingName="JEE MAINS EXAM"></BlogHeadingComponent> */}
-                <BlogComponent headingIdList={WbJeeHeadingIdList} headingNameList={WbJeeHeadingList} tableOfContentsList={WbJeeTableOfContentList} contentList={WbJeeContentList}></BlogComponent>
+                <BlogComponent headingIdList={WbJeeHeadingIdList} headingNameList={WbJeeHeadingList} tableOfContentsList={WbJeeTableOfContentList} contentList={WbJeeContentList} imageList={WbJeeImageList}></BlogComponent>
 
             </div>
         </div>
