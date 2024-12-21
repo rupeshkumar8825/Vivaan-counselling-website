@@ -85,39 +85,29 @@ export const WbJeeVideoCardTitleList : Array<string> = [
 
 // constants for the heading of the jee advance exam page 
 export const WbJeeHeadingList : Array<string> = [
-    "WBJee Exam History", 
-    "Who Conducts WBJee?", 
-    "WBJee 2025 Exam Dates", 
-    "WBJee Overview",
-    "WBJee Exam pattern",
-    "WBJee Cutoff ",
-    "WBJee Eligibility ",
-    "WBJee Qualifications criteria", 
-    "WBJee Age criteria ",
-    "WBJee State of eligibility ",
-    "WBJee Syllabus ",
-    "WBJee Results", 
-    "WBJee Marks vs Percentile", 
-    "WBJee Counselling Process"
+    "What is WBJEE Counselling", 
+    "WBJEE Counselling Application Form", 
+    "WBJEE Counselling Dates 2025", 
+    "WBJEE Counselling 2025 Process", 
+    "Document Required for WBJEE Counselling",
+    "WBJEE Counselling 2025 Opening and Closing Rank", 
+    "Refund and Withdrawal", 
+    "WBJEE Counselling 2025 Certificate Format", 
+    "WBJEE Counselling 2025 FAQ"
 ]
 
 
 // constant for the table of content on the page
 export const WbJeeTableOfContentList : Array<string> = [
-    "WbJee Exam History", 
-    "Who Conducts WbJee?", 
-    "WbJee 2025 Exam Dates", 
-    "WbJee Overview",
-    "WbJee Exam pattern",
-    "WbJee Cutoff ",
-    "WbJee Eligibility ",
-    "WbJee Qualifications criteria", 
-    "WbJee Age criteria ",
-    "WbJee State of eligibility ",
-    "WbJee Syllabus ",
-    "WbJee Results", 
-    "WbJee Marks vs Percentile", 
-    "WbJee Counselling Process"
+    "What is WBJEE Counselling", 
+    "WBJEE Counselling Application Form", 
+    "WBJEE Counselling Dates 2025", 
+    "WBJEE Counselling 2025 Process", 
+    "Document Required for WBJEE Counselling",
+    "WBJEE Counselling 2025 Opening and Closing Rank", 
+    "Refund and Withdrawal", 
+    "WBJEE Counselling 2025 Certificate Format", 
+    "WBJEE Counselling 2025 FAQ"
 ]
 
 
@@ -133,32 +123,61 @@ export const WbJeeHeadingIdList : Array<string> = [
     "exam-wbjee-h6",
     "exam-wbjee-h7",
     "exam-wbjee-h8",
-    "exam-wbjee-h9",
-    "exam-wbjee-h10",
-    "exam-wbjee-h11",
-    "exam-wbjee-h12",
-    "exam-wbjee-h13",
-    "exam-wbjee-h14",
+    "exam-wbjee-h9"
 ]
 
 
 
+// adding the constants for image list for the webjee for this purpose
+export const WbJeeImageList : Array<string | null> = [
+    // "What is WBJEE Counselling", 
+    null,
+    // "WBJEE Counselling Application Form", 
+    null,
+    // "WBJEE Counselling Dates 2025", 
+    null,
+    // "WBJEE Counselling 2025 Process", 
+    null,
+    // "Document Required for WBJEE Counselling",
+    null,
+    // "WBJEE Counselling 2025 Opening and Closing Rank", 
+    null,
+    // "Refund and Withdrawal", 
+    null,
+    // "WBJEE Counselling 2025 Certificate Format", 
+    null,
+    // "WBJEE Counselling 2025 FAQ"
+    null,
+]
+
 // finally the constant for the content that will be present on the page
 export const WbJeeContentList : Array<string> = [
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint ipsam eos ratione. Labore dolorum accusantium suscipit? Autem numquam ducimus dolores doloremque illum, possimus porro quisquam, suscipit, nobis voluptas laboriosam dicta Quibusdam ad aperiam veritatis, aut nemo magnam incidunt, adipisci quaerat optio, necessitatibus ullam esse enim suscipit veniam debitis. Placeat accusamus ratione incidunt cupiditate iure. Vitae recusandae culpa temporibus quae minima? Error provident aliquid soluta, expedita perferendis eaque quasi aperiam debitis quam unde, sequi placeat cumque quisquam quia consequuntur dolorum, ipsam rerum nostrum iure asperiores deleniti eos. Modi perferendis recusandae asperiores?", 
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt eaque esse debitis labore, sapiente eum nobis, quasi atque modi sequi facere corporis, iure optio officia praesentium veritatis minus mollitia officiis.Officia sequi, dolorum voluptatum consectetur beatae dolore iure adipisci exercitationem aspernatur accusantium aperiam ipsam tempore molestias odit quam libero ad? Fugiat, expedita cupiditate. Aut corrupti animi error architecto maxime iure?",
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt eaque esse debitis labore, sapiente eum nobis, quasi atque modi sequi facere corporis, iure optio officia praesentium veritatis minus mollitia officiis.Officia sequi, dolorum voluptatum consectetur beatae dolore iure adipisci exercitationem aspernatur accusantium aperiam ipsam tempore molestias odit quam libero ad? Fugiat, expedita cupiditate. Aut corrupti animi error architecto maxime iure?",
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt eaque esse debitis labore, sapiente eum nobis, quasi atque modi sequi facere corporis, iure optio officia praesentium veritatis minus mollitia officiis.Officia sequi, dolorum voluptatum consectetur beatae dolore iure adipisci exercitationem aspernatur accusantium aperiam ipsam tempore molestias odit quam libero ad? Fugiat, expedita cupiditate. Aut corrupti animi error architecto maxime iure?",
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt eaque esse debitis labore, sapiente eum nobis, quasi atque modi sequi facere corporis, iure optio officia praesentium veritatis minus mollitia officiis.Officia sequi, dolorum voluptatum consectetur beatae dolore iure adipisci exercitationem aspernatur accusantium aperiam ipsam tempore molestias odit quam libero ad? Fugiat, expedita cupiditate. Aut corrupti animi error architecto maxime iure?",
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt eaque esse debitis labore, sapiente eum nobis, quasi atque modi sequi facere corporis, iure optio officia praesentium veritatis minus mollitia officiis.Officia sequi, dolorum voluptatum consectetur beatae dolore iure adipisci exercitationem aspernatur accusantium aperiam ipsam tempore molestias odit quam libero ad? Fugiat, expedita cupiditate. Aut corrupti animi error architecto maxime iure?",
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt eaque esse debitis labore, sapiente eum nobis, quasi atque modi sequi facere corporis, iure optio officia praesentium veritatis minus mollitia officiis.Officia sequi, dolorum voluptatum consectetur beatae dolore iure adipisci exercitationem aspernatur accusantium aperiam ipsam tempore molestias odit quam libero ad? Fugiat, expedita cupiditate. Aut corrupti animi error architecto maxime iure?",
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt eaque esse debitis labore, sapiente eum nobis, quasi atque modi sequi facere corporis, iure optio officia praesentium veritatis minus mollitia officiis.Officia sequi, dolorum voluptatum consectetur beatae dolore iure adipisci exercitationem aspernatur accusantium aperiam ipsam tempore molestias odit quam libero ad? Fugiat, expedita cupiditate. Aut corrupti animi error architecto maxime iure?",
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt eaque esse debitis labore, sapiente eum nobis, quasi atque modi sequi facere corporis, iure optio officia praesentium veritatis minus mollitia officiis.Officia sequi, dolorum voluptatum consectetur beatae dolore iure adipisci exercitationem aspernatur accusantium aperiam ipsam tempore molestias odit quam libero ad? Fugiat, expedita cupiditate. Aut corrupti animi error architecto maxime iure?",
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt eaque esse debitis labore, sapiente eum nobis, quasi atque modi sequi facere corporis, iure optio officia praesentium veritatis minus mollitia officiis.Officia sequi, dolorum voluptatum consectetur beatae dolore iure adipisci exercitationem aspernatur accusantium aperiam ipsam tempore molestias odit quam libero ad? Fugiat, expedita cupiditate. Aut corrupti animi error architecto maxime iure?",
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt eaque esse debitis labore, sapiente eum nobis, quasi atque modi sequi facere corporis, iure optio officia praesentium veritatis minus mollitia officiis.Officia sequi, dolorum voluptatum consectetur beatae dolore iure adipisci exercitationem aspernatur accusantium aperiam ipsam tempore molestias odit quam libero ad? Fugiat, expedita cupiditate. Aut corrupti animi error architecto maxime iure?",
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt eaque esse debitis labore, sapiente eum nobis, quasi atque modi sequi facere corporis, iure optio officia praesentium veritatis minus mollitia officiis.Officia sequi, dolorum voluptatum consectetur beatae dolore iure adipisci exercitationem aspernatur accusantium aperiam ipsam tempore molestias odit quam libero ad? Fugiat, expedita cupiditate. Aut corrupti animi error architecto maxime iure?",
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt eaque esse debitis labore, sapiente eum nobis, quasi atque modi sequi facere corporis, iure optio officia praesentium veritatis minus mollitia officiis.Officia sequi, dolorum voluptatum consectetur beatae dolore iure adipisci exercitationem aspernatur accusantium aperiam ipsam tempore molestias odit quam libero ad? Fugiat, expedita cupiditate. Aut corrupti animi error architecto maxime iure?",
-    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt eaque esse debitis labore, sapiente eum nobis, quasi atque modi sequi facere corporis, iure optio officia praesentium veritatis minus mollitia officiis.Officia sequi, dolorum voluptatum consectetur beatae dolore iure adipisci exercitationem aspernatur accusantium aperiam ipsam tempore molestias odit quam libero ad? Fugiat, expedita cupiditate. Aut corrupti animi error architecto maxime iure?",
-    
+    // "What is WBJEE Counselling", 
+    `The Government of West Bengal formed the West Bengal Joint Entrance Examinations Board (WBJEEB) to conduct entrance exams for allotment of candidates and subsequent admission through counselling into the undergraduate (UG) courses in Engineering, Technology and Architecture in various colleges, institutions/Universities across West Bengal. For the academic year 2025-26, the process includes a streamlined online counselling system and the students who want to join these courses must have appeared in the WBJEE-2025 exam or the JEE-Main-2025 exam and obtained a valid rank (GMR etc.)`,
+    // "WBJEE Counselling Application Form", 
+    `WBJEE counselling form will be released soon,Join counselling group to get update,once released,<span style = "color : white; font-weight: bold; padding:1px; border-radius : 5px; font-size: larger;" class="">Click here to Join </span> `,
+    // "WBJEE Counselling Dates 2025", 
+    `WBJEE counselling date will be released soon,Join counselling group to get update,once released,<span style = "color : white; font-weight: bold; padding:1px; border-radius : 5px; font-size: larger;" class="">Click here to Join</span> `,
+    // "WBJEE Counselling 2025 Process", 
+    `WBJEE Counselling process includes following steps:
+          1. Registration
+          2. Choice Filling
+          3. Choices Locking
+          4. Round 1 Allotment
+          5. Document Verification
+          6. Round 2 Upgradation
+          7. Mop-up Round
+          8. Mop-up Round Process
+`,
+    // "Document Required for WBJEE Counselling",
+    ``,
+    // "WBJEE Counselling 2025 Opening and Closing Rank", 
+    ``,
+    // "Refund and Withdrawal", 
+    ``,
+    // "WBJEE Counselling 2025 Certificate Format", 
+    ``,
+    // "WBJEE Counselling 2025 FAQ"
+    ``,
 ]
 
