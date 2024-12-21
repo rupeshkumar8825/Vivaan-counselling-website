@@ -94,8 +94,8 @@ export const JeeAdvanceHeadingList : Array<string> = [
     "JEE Advanced Exam History", 
     "Who Conducts JEE Advanced?", 
     "JEE Advanced 2025 Exam Dates", 
-    "JEE Advanced 2025 Exam Patten",
-    "JEE Advanced 2025 Cutoff ",
+    "JEE Advanced 2025 Exam Pattern",
+    "JEE Advanced 2025 Cut-off ",
     // Below is for adding image in cutoff field
     "",
     "JEE Advanced 2025 Eligibility ",
@@ -117,7 +117,7 @@ export const JeeAdvanceTableOfContentList : Array<string> = [
     "Who Conducts JEE Advanced?", 
     "JEE Advanced 2025 Exam Dates", 
     "JEE Advanced 2025 Exam Patten",
-    "JEE Advanced 2025 Cutoff ",
+    "JEE Advanced 2025 Cut-off ",
     // Below is for adding image in cutoff field
     "",
     "JEE Advanced 2025 Eligibility ",
@@ -191,9 +191,9 @@ It is organised by one of the seven zonal Indian Institutes of Technology (IITs)
 `IIT Kanpur will soon publish the JEE Advanced Exam Pattern 2025 on its official website @jeeadv.nic.in, along with the information brochure`,
 
 // Jee Advance 2025 Cutoff
-`IIT Madras has released JEE Advanced Cutoff 2024. The minimum marks for inclusion in JEE Advanced 2024 Rank List is 30.34% for CRL, 27.30% for OBC-NCL, 15.17% for SC/ST candidates.
+`IIT Madras has released JEE Advanced Cut-off 2024. The minimum marks for inclusion in JEE Advanced 2024 Rank List is 30.34% for CRL, 27.30% for OBC-NCL, 15.17% for SC/ST candidates.
 
-<span style = "color : white; font-weight: bold; font-size: medium;"> JEE Advanced 2024 Cutoff for inclusion in the Rank List: 
+<span style = "color : white; font-weight: bold; font-size: medium;"> JEE Advanced 2024 Cut-off for inclusion in the Rank List: 
 </span>`,
 
 // For cutoff extra image field we have added this content
@@ -205,7 +205,7 @@ It is organised by one of the seven zonal Indian Institutes of Technology (IITs)
 All the candidates must simultaneously fulfil each and every one of the following five criteria.
 \n
 
-<span style = "color : white; font-weight: bold; font-size: larger;"> CRITERIA A1:PERFORMANCE IN JEE MAIN 2025
+<span style = "color : white; font-weight: bold; font-size: larger;"> CRITERIA A1: PERFORMANCE IN JEE MAIN 2025
 </span>
 Candidates should be among the top 2,50,000 successful candidates (including all categories) in B.E./B.Tech. paper (Paper I) of JEE (Main) 2025.
 
@@ -213,7 +213,7 @@ The percentages of various categories of candidates to be shortlisted are as fol
 
 The following table shows the order to be followed while choosing the top 2,50,000 candidates in various categories based on the performance in the B.E./B.Tech. paper of JEE (Main) 2025.
 
-<span style = "color: white; font-weight: bold; font-size : medium;"><em>Category-wise distribution of top 2,50,000 candidates (Criterion A1)*</em></span>
+<span style = "color: white; border-color: white; border-width:2px; font-weight: bold; font-size : medium;"><em>Category-wise distribution of top 2,50,000 candidates (Criterion A1)*</em></span>
 \n
 `,
     // For sub section of Eligiblity criteria for this purpose
@@ -273,9 +273,9 @@ However, in all of the above cases, the candidate is also required to fulfil the
 `<span style ="color : white;" class="underline""><a href="(https://cportal.jeeadv.ac.in/applicant24/ " target="_blank" rel="noopener noreferrer">Click here</a> </span> to watch marks vs rank video in detail.`,
 
 // Jee Advance Counselling Process
-`Jee advance Counselling process will consist of two step
-a):JOSAA 
-B:)CSAB
+`Jee advanced Counselling process will consist of two step\n
+a):JOSAA (Click here to know the complete counselling process of JEE Advanced 2025)\n
+B:)CSAB (Click here to know the complete counselling process of JEE Advanced 2025)
 `,
 ]
 

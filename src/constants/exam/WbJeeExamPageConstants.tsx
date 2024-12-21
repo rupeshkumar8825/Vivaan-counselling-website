@@ -3,12 +3,12 @@
 //OVERVIEW COMPONENT 
 // constant for showing the various options related to jee advance in dropdown button
 export const WBJeeExamSubMenuList : Array<string> = [
-    "WBJee Exam",
-    "WBJee Syllabus",
-    "WBJee Application",
-    "WBJee Eligibility",
-    "WBJee Dates",
-    "WBJee Admit Card",
+    "WBJEE Exam",
+    "WBJEE Syllabus",
+    "WBJEE Application",
+    "WBJEE Eligibility",
+    "WBJEE Dates",
+    "WBJEE Admit Card",
 ]
 
 

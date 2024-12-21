@@ -101,11 +101,11 @@ export const BitSatHeadingList : Array<string> = [
     "BITSAT 2025 Cutoff ",
     "",
     "",
-    "BITSAT Offered Courses",
+    "BITSAT 2025 Offered Courses",
     "BITSAT 2025 Eligibility ",
     "BITSAT Exam 2025 Syllabus",
-    "BITSAT Results",
-    "BITSAT Marks vs Rank",
+    "BITSAT 2025 Results",
+    "BITSAT 2025 Marks vs Rank",
     "BITSAT 2025 Scholarship",
     ""
 ]
@@ -122,11 +122,11 @@ export const BitSatTableOfContentList : Array<string> = [
     "BITSAT 2025 Cutoff ",
     "",
     "",
-    "BITSAT Offered Courses",
+    "BITSAT 2025 Offered Courses",
     "BITSAT 2025 Eligibility ",
     "BITSAT Exam 2025 Syllabus",
-    "BITSAT Results",
-    "BITSAT Marks vs Rank",
+    "BITSAT 2025 Results",
+    "BITSAT 2025 Marks vs Rank",
     "BITSAT 2025 Scholarship",
     ""
 ]
@@ -213,7 +213,7 @@ export const BitSatContentList : Array<string> = [
 
 Each computer is connected to a server, which prepares the question set and delivers it to the candidate on the computer. This is unlike the traditional paper-pencil based test, which is generally offered on a single day to all candidates
 
-<span style = "color : white; font-weight: bold; font-size: larger;">Salient features of BITSAT-2024 are given below:
+<span style = "color : white; font-weight: bold; font-size: larger;">Salient features of BITSAT-2025 are given below:
 </span>
 1. A candidate may appear a maximum of two times in BITSAT-2025 
 
@@ -256,7 +256,7 @@ Each correction answer fetch 3 marks,while each incorrect answer has a penalty o
 `,
 
 // "BITSAT 2025 Cutoff ",
-`Cutoff will be released soon on official website,Below are the official cutoff for BITSAT 2024 
+`Cutoff will be released soon on official website. Below are the official cutoff for BITSAT 2024 : 
 
 <span style = "color : white; font-weight: bold; font-size: larger;">For Pilani Campus:
 </span>`,
@@ -269,18 +269,18 @@ Each correction answer fetch 3 marks,while each incorrect answer has a penalty o
 </span>`,
 
 // "BITSAT Offered Courses",
-`(i) at BITS Pilani – Pilani Campus:
+`1. At BITS Pilani – Pilani Campus:
 
 B.E.: Chemical, Civil, Computer Science, Electrical and Electronics, Electronics & Instrumentation, Electronics & Communication, Mathematics and Computing, Mechanical, and Manufacturing. B. Pharm.
 
  M.Sc.: Biological Sciences, Chemistry, Economics, Mathematics, Physics and
  M.Sc.: General Studies. 
 
-(ii) at BITS Pilani – K. K. Birla Goa Campus: B.E.: Chemical, Computer Science, Electronics & Communication, Electrical and Electronics, Electronics & Instrumentation, Mathematics and Computing, and Mechanical. 
+2. At BITS Pilani – K. K. Birla Goa Campus: B.E.: Chemical, Computer Science, Electronics & Communication, Electrical and Electronics, Electronics & Instrumentation, Mathematics and Computing, and Mechanical. 
 
 M.Sc.: Biological Sciences, Chemistry, Economics, Mathematics, and Physics. 
 
-(iii) at BITS Pilani – Hyderabad Campus: B.E.: Chemical, Civil, Computer Science, Electronics & Communication, Electrical and Electronics, Electronics & Instrumentation, Mathematics and Computing, and Mechanical. B. Pharm.
+3. At BITS Pilani – Hyderabad Campus: B.E.: Chemical, Civil, Computer Science, Electronics & Communication, Electrical and Electronics, Electronics & Instrumentation, Mathematics and Computing, and Mechanical. B. Pharm.
 
  M.Sc.: Biological Sciences, Chemistry, Economics, Mathematics, and Physics.
 
