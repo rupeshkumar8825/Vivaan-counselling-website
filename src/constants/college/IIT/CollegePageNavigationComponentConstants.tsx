@@ -33,36 +33,36 @@ export const IITBombayCollegeNavigationConstants : Array<IIITCollegeNavigationCo
         headingId : "#iit-bombay-about"
     },
     {
+        title : "Location",
+        headingId : "#iit-bombay-location"
+    },
+    {
+        title : "Ranking",
+        headingId : "#iit-bombay-ranking"
+    },
+    {
+        title : "Admissions",
+        headingId : "#iit-bombay-admissions"
+    },
+    {
+        title : "Courses",
+        headingId : "#iit-bombay-courses"
+    },
+    {
         title : "Fees",
         headingId : "#iit-bombay-fees"
     },
     {
-        title : "Placements",
-        headingId : "#iit-bombay-placements"
+        title : "Seats",
+        headingId : "#iit-bombay-seats"
     },
-    {
-        title : "Location",
-        headingId : "#iit-bombay-location"
-    }, 
-    {
-        title : "Ranking",
-        headingId : "#iit-bombay-ranking"
-    }, 
-    {
-        title : "Courses",
-        headingId : "#iit-bombay-courses"
-    }, 
-    {
-        title : "Admissions",
-        headingId : "#iit-bombay-admissions"
-    }, 
     {
         title : "Cutoff",
         headingId : "#iit-bombay-cutoff"
-    }, 
+    },
     {
-        title : "Seats",
-        headingId : "#iit-bombay-seats"
+        title : "Placements",
+        headingId : "#iit-bombay-placements"
     }
 ]
 
@@ -82,36 +82,36 @@ export const IITDelhiCollegeNavigationConstants : Array<IIITCollegeNavigationCon
         headingId : "#iit-delhi-about"
     },
     {
+        title : "Location",
+        headingId : "#iit-delhi-location"
+    },
+    {
+        title : "Ranking",
+        headingId : "#iit-delhi-ranking"
+    },
+    {
+        title : "Admissions",
+        headingId : "#iit-delhi-admissions"
+    },
+    {
+        title : "Courses",
+        headingId : "#iit-delhi-courses"
+    },
+    {
         title : "Fees",
         headingId : "#iit-delhi-fees"
     },
     {
-        title : "Placements",
-        headingId : "#iit-delhi-placements"
+        title : "Seats",
+        headingId : "#iit-delhi-seats"
     },
-    {
-        title : "Location",
-        headingId : "#iit-delhi-location"
-    }, 
-    {
-        title : "Ranking",
-        headingId : "#iit-delhi-ranking"
-    }, 
-    {
-        title : "Courses",
-        headingId : "#iit-delhi-courses"
-    }, 
-    {
-        title : "Admissions",
-        headingId : "#iit-delhi-admissions"
-    }, 
     {
         title : "Cutoff",
         headingId : "#iit-delhi-cutoff"
-    }, 
+    },
     {
-        title : "Seats",
-        headingId : "#iit-delhi-seats"
+        title : "Placements",
+        headingId : "#iit-delhi-placements"
     }
 ]
 
@@ -129,36 +129,36 @@ export const IITKanpurCollegeNavigationConstants : Array<IIITCollegeNavigationCo
         headingId : "#iit-kanpur-about"
     },
     {
+        title : "Location",
+        headingId : "#iit-kanpur-location"
+    },
+    {
+        title : "Ranking",
+        headingId : "#iit-kanpur-ranking"
+    },
+    {
+        title : "Admissions",
+        headingId : "#iit-kanpur-admissions"
+    },
+    {
+        title : "Courses",
+        headingId : "#iit-kanpur-courses"
+    },
+    {
         title : "Fees",
         headingId : "#iit-kanpur-fees"
     },
     {
-        title : "Placements",
-        headingId : "#iit-kanpur-placements"
+        title : "Seats",
+        headingId : "#iit-kanpur-seats"
     },
-    {
-        title : "Location",
-        headingId : "#iit-kanpur-location"
-    }, 
-    {
-        title : "Ranking",
-        headingId : "#iit-kanpur-ranking"
-    }, 
-    {
-        title : "Courses",
-        headingId : "#iit-kanpur-courses"
-    }, 
-    {
-        title : "Admissions",
-        headingId : "#iit-kanpur-admissions"
-    }, 
     {
         title : "Cutoff",
         headingId : "#iit-kanpur-cutoff"
-    }, 
+    },
     {
-        title : "Seats",
-        headingId : "#iit-kanpur-seats"
+        title : "Placements",
+        headingId : "#iit-kanpur-placements"
     }
 ]
 
@@ -223,36 +223,36 @@ export const IITKharagpurCollegeNavigationConstants : Array<IIITCollegeNavigatio
         headingId : "#iit-kharagpur-about"
     },
     {
+        title : "Location",
+        headingId : "#iit-kharagpur-location"
+    },
+    {
+        title : "Ranking",
+        headingId : "#iit-kharagpur-ranking"
+    },
+    {
+        title : "Admissions",
+        headingId : "#iit-kharagpur-admissions"
+    },
+    {
+        title : "Courses",
+        headingId : "#iit-kharagpur-courses"
+    },
+    {
         title : "Fees",
         headingId : "#iit-kharagpur-fees"
     },
     {
-        title : "Placements",
-        headingId : "#iit-kharagpur-placements"
+        title : "Seats",
+        headingId : "#iit-kharagpur-seats"
     },
-    {
-        title : "Location",
-        headingId : "#iit-kharagpur-location"
-    }, 
-    {
-        title : "Ranking",
-        headingId : "#iit-kharagpur-ranking"
-    }, 
-    {
-        title : "Courses",
-        headingId : "#iit-kharagpur-courses"
-    }, 
-    {
-        title : "Admissions",
-        headingId : "#iit-kharagpur-admissions"
-    }, 
     {
         title : "Cutoff",
         headingId : "#iit-kharagpur-cutoff"
-    }, 
+    },
     {
-        title : "Seats",
-        headingId : "#iit-kharagpur-seats"
+        title : "Placements",
+        headingId : "#iit-kharagpur-placements"
     }
 ]
 
@@ -271,36 +271,36 @@ export const IITRoorkeeCollegeNavigationConstants : Array<IIITCollegeNavigationC
         headingId : "#iit-roorkee-about"
     },
     {
+        title : "Location",
+        headingId : "#iit-roorkee-location"
+    },
+    {
+        title : "Ranking",
+        headingId : "#iit-roorkee-ranking"
+    },
+    {
+        title : "Admissions",
+        headingId : "#iit-roorkee-admissions"
+    },
+    {
+        title : "Courses",
+        headingId : "#iit-roorkee-courses"
+    },
+    {
         title : "Fees",
         headingId : "#iit-roorkee-fees"
     },
     {
-        title : "Placements",
-        headingId : "#iit-roorkee-placements"
+        title : "Seats",
+        headingId : "#iit-roorkee-seats"
     },
-    {
-        title : "Location",
-        headingId : "#iit-roorkee-location"
-    }, 
-    {
-        title : "Ranking",
-        headingId : "#iit-roorkee-ranking"
-    }, 
-    {
-        title : "Courses",
-        headingId : "#iit-roorkee-courses"
-    }, 
-    {
-        title : "Admissions",
-        headingId : "#iit-roorkee-admissions"
-    }, 
     {
         title : "Cutoff",
         headingId : "#iit-roorkee-cutoff"
-    }, 
+    },
     {
-        title : "Seats",
-        headingId : "#iit-roorkee-seats"
+        title : "Placements",
+        headingId : "#iit-roorkee-placements"
     }
 ]
 
@@ -319,36 +319,36 @@ export const IITGuwahatiCollegeNavigationConstants : Array<IIITCollegeNavigation
         headingId : "#iit-guwahati-about"
     },
     {
+        title : "Location",
+        headingId : "#iit-guwahati-location"
+    },
+    {
+        title : "Ranking",
+        headingId : "#iit-guwahati-ranking"
+    },
+    {
+        title : "Admissions",
+        headingId : "#iit-guwahati-admissions"
+    },
+    {
+        title : "Courses",
+        headingId : "#iit-guwahati-courses"
+    },
+    {
         title : "Fees",
         headingId : "#iit-guwahati-fees"
     },
     {
-        title : "Placements",
-        headingId : "#iit-guwahati-placements"
+        title : "Seats",
+        headingId : "#iit-guwahati-seats"
     },
-    {
-        title : "Location",
-        headingId : "#iit-guwahati-location"
-    }, 
-    {
-        title : "Ranking",
-        headingId : "#iit-guwahati-ranking"
-    }, 
-    {
-        title : "Courses",
-        headingId : "#iit-guwahati-courses"
-    }, 
-    {
-        title : "Admissions",
-        headingId : "#iit-guwahati-admissions"
-    }, 
     {
         title : "Cutoff",
         headingId : "#iit-guwahati-cutoff"
-    }, 
+    },
     {
-        title : "Seats",
-        headingId : "#iit-guwahati-seats"
+        title : "Placements",
+        headingId : "#iit-guwahati-placements"
     }
 ]
 
@@ -369,36 +369,36 @@ export const IITRoparCollegeNavigationConstants : Array<IIITCollegeNavigationCon
         headingId : "#iit-ropar-about"
     },
     {
+        title : "Location",
+        headingId : "#iit-ropar-location"
+    },
+    {
+        title : "Ranking",
+        headingId : "#iit-ropar-ranking"
+    },
+    {
+        title : "Admissions",
+        headingId : "#iit-ropar-admissions"
+    },
+    {
+        title : "Courses",
+        headingId : "#iit-ropar-courses"
+    },
+    {
         title : "Fees",
         headingId : "#iit-ropar-fees"
     },
     {
-        title : "Placements",
-        headingId : "#iit-ropar-placements"
+        title : "Seats",
+        headingId : "#iit-ropar-seats"
     },
-    {
-        title : "Location",
-        headingId : "#iit-ropar-location"
-    }, 
-    {
-        title : "Ranking",
-        headingId : "#iit-ropar-ranking"
-    }, 
-    {
-        title : "Courses",
-        headingId : "#iit-ropar-courses"
-    }, 
-    {
-        title : "Admissions",
-        headingId : "#iit-ropar-admissions"
-    }, 
     {
         title : "Cutoff",
         headingId : "#iit-ropar-cutoff"
-    }, 
+    },
     {
-        title : "Seats",
-        headingId : "#iit-ropar-seats"
+        title : "Placements",
+        headingId : "#iit-ropar-placements"
     }
 ]
 
@@ -418,36 +418,36 @@ export const IITBhubaneshwarCollegeNavigationConstants : Array<IIITCollegeNaviga
         headingId : "#iit-bhubaneswar-about"
     },
     {
-        title : "Fees",
-        headingId : "#iit-bhubaneswar-fees"
-    },
-    {
-        title : "Placements",
-        headingId : "#iit-bhubaneswar-placements"
-    },
-    {
         title : "Location",
         headingId : "#iit-bhubaneswar-location"
-    }, 
+    },
     {
         title : "Ranking",
         headingId : "#iit-bhubaneswar-ranking"
-    }, 
-    {
-        title : "Courses",
-        headingId : "#iit-bhubaneswar-courses"
     }, 
     {
         title : "Admissions",
         headingId : "#iit-bhubaneswar-admissions"
     }, 
     {
+        title : "Courses",
+        headingId : "#iit-bhubaneswar-courses"
+    }, 
+    {
+        title : "Fees",
+        headingId : "#iit-bhubaneswar-fees"
+    },
+    {
+        title : "Seats",
+        headingId : "#iit-bhubaneswar-seats"
+    },
+    {
         title : "Cutoff",
         headingId : "#iit-bhubaneswar-cutoff"
     }, 
     {
-        title : "Seats",
-        headingId : "#iit-bhubaneswar-seats"
+        title : "Placements",
+        headingId : "#iit-bhubaneswar-placements"
     }
 ]
 
@@ -468,36 +468,36 @@ export const IITIndoreCollegeNavigationConstants : Array<IIITCollegeNavigationCo
         headingId : "#iit-indore-about"
     },
     {
+        title : "Location",
+        headingId : "#iit-indore-location"
+    },
+    {
+        title : "Ranking",
+        headingId : "#iit-indore-ranking"
+    },
+    {
+        title : "Admissions",
+        headingId : "#iit-indore-admissions"
+    },
+    {
+        title : "Courses",
+        headingId : "#iit-indore-courses"
+    },
+    {
         title : "Fees",
         headingId : "#iit-indore-fees"
     },
     {
-        title : "Placements",
-        headingId : "#iit-indore-placements"
+        title : "Seats",
+        headingId : "#iit-indore-seats"
     },
-    {
-        title : "Location",
-        headingId : "#iit-indore-location"
-    }, 
-    {
-        title : "Ranking",
-        headingId : "#iit-indore-ranking"
-    }, 
-    {
-        title : "Courses",
-        headingId : "#iit-indore-courses"
-    }, 
-    {
-        title : "Admissions",
-        headingId : "#iit-indore-admissions"
-    }, 
     {
         title : "Cutoff",
         headingId : "#iit-indore-cutoff"
-    }, 
+    },
     {
-        title : "Seats",
-        headingId : "#iit-indore-seats"
+        title : "Placements",
+        headingId : "#iit-indore-placements"
     }
 ]
 
@@ -518,36 +518,36 @@ export const IITJodhpurCollegeNavigationConstants : Array<IIITCollegeNavigationC
         headingId : "#iit-jodhpur-about"
     },
     {
+        title : "Location",
+        headingId : "#iit-jodhpur-location"
+    },
+    {
+        title : "Ranking",
+        headingId : "#iit-jodhpur-ranking"
+    },
+    {
+        title : "Admissions",
+        headingId : "#iit-jodhpur-admissions"
+    },
+    {
+        title : "Courses",
+        headingId : "#iit-jodhpur-courses"
+    },
+    {
         title : "Fees",
         headingId : "#iit-jodhpur-fees"
     },
     {
-        title : "Placements",
-        headingId : "#iit-jodhpur-placements"
+        title : "Seats",
+        headingId : "#iit-jodhpur-seats"
     },
-    {
-        title : "Location",
-        headingId : "#iit-jodhpur-location"
-    }, 
-    {
-        title : "Ranking",
-        headingId : "#iit-jodhpur-ranking"
-    }, 
-    {
-        title : "Courses",
-        headingId : "#iit-jodhpur-courses"
-    }, 
-    {
-        title : "Admissions",
-        headingId : "#iit-jodhpur-admissions"
-    }, 
     {
         title : "Cutoff",
         headingId : "#iit-jodhpur-cutoff"
-    }, 
+    },
     {
-        title : "Seats",
-        headingId : "#iit-jodhpur-seats"
+        title : "Placements",
+        headingId : "#iit-jodhpur-placements"
     }
 ]
 
@@ -567,36 +567,36 @@ export const IITPatnaCollegeNavigationConstants : Array<IIITCollegeNavigationCon
         headingId : "#iit-patna-about"
     },
     {
+        title : "Location",
+        headingId : "#iit-patna-location"
+    },
+    {
+        title : "Ranking",
+        headingId : "#iit-patna-ranking"
+    },
+    {
+        title : "Admissions",
+        headingId : "#iit-patna-admissions"
+    },
+    {
+        title : "Courses",
+        headingId : "#iit-patna-courses"
+    },
+    {
         title : "Fees",
         headingId : "#iit-patna-fees"
     },
     {
-        title : "Placements",
-        headingId : "#iit-patna-placements"
+        title : "Seats",
+        headingId : "#iit-patna-seats"
     },
-    {
-        title : "Location",
-        headingId : "#iit-patna-location"
-    }, 
-    {
-        title : "Ranking",
-        headingId : "#iit-patna-ranking"
-    }, 
-    {
-        title : "Courses",
-        headingId : "#iit-patna-courses"
-    }, 
-    {
-        title : "Admissions",
-        headingId : "#iit-patna-admissions"
-    }, 
     {
         title : "Cutoff",
         headingId : "#iit-patna-cutoff"
-    }, 
+    },
     {
-        title : "Seats",
-        headingId : "#iit-patna-seats"
+        title : "Placements",
+        headingId : "#iit-patna-placements"
     }
 ]
 
@@ -616,36 +616,36 @@ export const IITGandhinagarCollegeNavigationConstants : Array<IIITCollegeNavigat
         headingId : "#iit-gandhinagar-about"
     },
     {
-        title : "Fees",
-        headingId : "#iit-gandhinagar-fees"
-    },
-    {
-        title : "Placements",
-        headingId : "#iit-gandhinagar-placements"
-    },
-    {
         title : "Location",
         headingId : "#iit-gandhinagar-location"
-    }, 
+    },
     {
         title : "Ranking",
         headingId : "#iit-gandhinagar-ranking"
-    }, 
-    {
-        title : "Courses",
-        headingId : "#iit-gandhinagar-courses"
     }, 
     {
         title : "Admissions",
         headingId : "#iit-gandhinagar-admissions"
     }, 
     {
-        title : "Cutoff",
-        headingId : "#iit-gandhinagar-cutoff"
+        title : "Courses",
+        headingId : "#iit-gandhinagar-courses"
+    }, 
+    {
+        title : "Fees",
+        headingId : "#iit-gandhinagar-fees"
     }, 
     {
         title : "Seats",
         headingId : "#iit-gandhinagar-seats"
+    }, 
+    {
+        title : "Cutoff",
+        headingId : "#iit-gandhinagar-cutoff"
+    }, 
+    {
+        title : "Placements",
+        headingId : "#iit-gandhinagar-placements"
     }
 ]
 
@@ -665,36 +665,36 @@ export const IITJammuCollegeNavigationConstants : Array<IIITCollegeNavigationCon
         headingId : "#iit-jammu-about"
     },
     {
+        title : "Location",
+        headingId : "#iit-jammu-location"
+    },
+    {
+        title : "Ranking",
+        headingId : "#iit-jammu-ranking"
+    },
+    {
+        title : "Admissions",
+        headingId : "#iit-jammu-admissions"
+    },
+    {
+        title : "Courses",
+        headingId : "#iit-jammu-courses"
+    },
+    {
         title : "Fees",
         headingId : "#iit-jammu-fees"
     },
     {
-        title : "Placements",
-        headingId : "#iit-jammu-placements"
+        title : "Seats",
+        headingId : "#iit-jammu-seats"
     },
-    {
-        title : "Location",
-        headingId : "#iit-jammu-location"
-    }, 
-    {
-        title : "Ranking",
-        headingId : "#iit-jammu-ranking"
-    }, 
-    {
-        title : "Courses",
-        headingId : "#iit-jammu-courses"
-    }, 
-    {
-        title : "Admissions",
-        headingId : "#iit-jammu-admissions"
-    }, 
     {
         title : "Cutoff",
         headingId : "#iit-jammu-cutoff"
-    }, 
+    },
     {
-        title : "Seats",
-        headingId : "#iit-jammu-seats"
+        title : "Placements",
+        headingId : "#iit-jammu-placements"
     }
 ]
 
@@ -713,36 +713,36 @@ export const IITHyderabadCollegeNavigationConstants : Array<IIITCollegeNavigatio
         headingId : "#iit-hyderabad-about"
     },
     {
+        title : "Location",
+        headingId : "#iit-hyderabad-location"
+    },
+    {
+        title : "Ranking",
+        headingId : "#iit-hyderabad-ranking"
+    },
+    {
+        title : "Admissions",
+        headingId : "#iit-hyderabad-admissions"
+    },
+    {
+        title : "Courses",
+        headingId : "#iit-hyderabad-courses"
+    },
+    {
         title : "Fees",
         headingId : "#iit-hyderabad-fees"
     },
     {
-        title : "Placements",
-        headingId : "#iit-hyderabad-placements"
+        title : "Seats",
+        headingId : "#iit-hyderabad-seats"
     },
-    {
-        title : "Location",
-        headingId : "#iit-hyderabad-location"
-    }, 
-    {
-        title : "Ranking",
-        headingId : "#iit-hyderabad-ranking"
-    }, 
-    {
-        title : "Courses",
-        headingId : "#iit-hyderabad-courses"
-    }, 
-    {
-        title : "Admissions",
-        headingId : "#iit-hyderabad-admissions"
-    }, 
     {
         title : "Cutoff",
         headingId : "#iit-hyderabad-cutoff"
-    }, 
+    },
     {
-        title : "Seats",
-        headingId : "#iit-hyderabad-seats"
+        title : "Placements",
+        headingId : "#iit-hyderabad-placements"
     }
 ]
 
@@ -761,36 +761,36 @@ export const IITBHUCollegeNavigationConstants : Array<IIITCollegeNavigationConst
         headingId : "#iit-bhu-about"
     },
     {
+        title : "Location",
+        headingId : "#iit-bhu-location"
+    },
+    {
+        title : "Ranking",
+        headingId : "#iit-bhu-ranking"
+    },
+    {
+        title : "Admissions",
+        headingId : "#iit-bhu-admissions"
+    },
+    {
+        title : "Courses",
+        headingId : "#iit-bhu-courses"
+    },
+    {
         title : "Fees",
         headingId : "#iit-bhu-fees"
     },
     {
-        title : "Placements",
-        headingId : "#iit-bhu-placements"
+        title : "Seats",
+        headingId : "#iit-bhu-seats"
     },
-    {
-        title : "Location",
-        headingId : "#iit-bhu-location"
-    }, 
-    {
-        title : "Ranking",
-        headingId : "#iit-bhu-ranking"
-    }, 
-    {
-        title : "Courses",
-        headingId : "#iit-bhu-courses"
-    }, 
-    {
-        title : "Admissions",
-        headingId : "#iit-bhu-admissions"
-    }, 
     {
         title : "Cutoff",
         headingId : "#iit-bhu-cutoff"
-    }, 
+    },
     {
-        title : "Seats",
-        headingId : "#iit-bhu-seats"
+        title : "Placements",
+        headingId : "#iit-bhu-placements"
     }
 ]
 
@@ -808,14 +808,6 @@ export const IITBhilaiCollegeNavigationConstants: Array<IIITCollegeNavigationCon
         headingId: "#iit-bhilai-about"
     },
     {
-        title: "Fees",
-        headingId: "#iit-bhilai-fees"
-    },
-    {
-        title: "Placements",
-        headingId: "#iit-bhilai-placements"
-    },
-    {
         title: "Location",
         headingId: "#iit-bhilai-location"
     },
@@ -824,20 +816,28 @@ export const IITBhilaiCollegeNavigationConstants: Array<IIITCollegeNavigationCon
         headingId: "#iit-bhilai-ranking"
     },
     {
+        title: "Admissions",
+        headingId: "#iit-bhilai-admissions"
+    },
+    {
         title: "Courses",
         headingId: "#iit-bhilai-courses"
     },
     {
-        title: "Admissions",
-        headingId: "#iit-bhilai-admissions"
+        title: "Fees",
+        headingId: "#iit-bhilai-fees"
+    },
+    {
+        title: "Seats",
+        headingId: "#iit-bhilai-seats"
     },
     {
         title: "Cutoff",
         headingId: "#iit-bhilai-cutoff"
     },
     {
-        title: "Seats",
-        headingId: "#iit-bhilai-seats"
+        title: "Placements",
+        headingId: "#iit-bhilai-placements"
     }
 ];
 
@@ -859,14 +859,6 @@ export const IITPalakkadCollegeNavigationConstants: Array<IIITCollegeNavigationC
         headingId: "#iit-palakkad-about"
     },
     {
-        title: "Fees",
-        headingId: "#iit-palakkad-fees"
-    },
-    {
-        title: "Placements",
-        headingId: "#iit-palakkad-placements"
-    },
-    {
         title: "Location",
         headingId: "#iit-palakkad-location"
     },
@@ -875,20 +867,28 @@ export const IITPalakkadCollegeNavigationConstants: Array<IIITCollegeNavigationC
         headingId: "#iit-palakkad-ranking"
     },
     {
+        title: "Admissions",
+        headingId: "#iit-palakkad-admissions"
+    },
+    {
         title: "Courses",
         headingId: "#iit-palakkad-courses"
     },
     {
-        title: "Admissions",
-        headingId: "#iit-palakkad-admissions"
+        title: "Fees",
+        headingId: "#iit-palakkad-fees"
+    },
+    {
+        title: "Seats",
+        headingId: "#iit-palakkad-seats"
     },
     {
         title: "Cutoff",
         headingId: "#iit-palakkad-cutoff"
     },
     {
-        title: "Seats",
-        headingId: "#iit-palakkad-seats"
+        title: "Placements",
+        headingId: "#iit-palakkad-placements"
     }
 ];
 
@@ -911,14 +911,6 @@ export const IITGoaCollegeNavigationConstants: Array<IIITCollegeNavigationConsta
         headingId: "#iit-goa-about"
     },
     {
-        title: "Fees",
-        headingId: "#iit-goa-fees"
-    },
-    {
-        title: "Placements",
-        headingId: "#iit-goa-placements"
-    },
-    {
         title: "Location",
         headingId: "#iit-goa-location"
     },
@@ -927,20 +919,28 @@ export const IITGoaCollegeNavigationConstants: Array<IIITCollegeNavigationConsta
         headingId: "#iit-goa-ranking"
     },
     {
+        title: "Admissions",
+        headingId: "#iit-goa-admissions"
+    },
+    {
         title: "Courses",
         headingId: "#iit-goa-courses"
     },
     {
-        title: "Admissions",
-        headingId: "#iit-goa-admissions"
+        title: "Fees",
+        headingId: "#iit-goa-fees"
+    },
+    {
+        title: "Seats",
+        headingId: "#iit-goa-seats"
     },
     {
         title: "Cutoff",
         headingId: "#iit-goa-cutoff"
     },
     {
-        title: "Seats",
-        headingId: "#iit-goa-seats"
+        title: "Placements",
+        headingId: "#iit-goa-placements"
     }
 ];
 
@@ -962,14 +962,6 @@ export const IITDharwadCollegeNavigationConstants: Array<IIITCollegeNavigationCo
         headingId: "#iit-dharwad-about"
     },
     {
-        title: "Fees",
-        headingId: "#iit-dharwad-fees"
-    },
-    {
-        title: "Placements",
-        headingId: "#iit-dharwad-placements"
-    },
-    {
         title: "Location",
         headingId: "#iit-dharwad-location"
     },
@@ -978,20 +970,28 @@ export const IITDharwadCollegeNavigationConstants: Array<IIITCollegeNavigationCo
         headingId: "#iit-dharwad-ranking"
     },
     {
+        title: "Admissions",
+        headingId: "#iit-dharwad-admissions"
+    },
+    {
         title: "Courses",
         headingId: "#iit-dharwad-courses"
     },
     {
-        title: "Admissions",
-        headingId: "#iit-dharwad-admissions"
+        title: "Fees",
+        headingId: "#iit-dharwad-fees"
+    },
+    {
+        title: "Seats",
+        headingId: "#iit-dharwad-seats"
     },
     {
         title: "Cutoff",
         headingId: "#iit-dharwad-cutoff"
     },
     {
-        title: "Seats",
-        headingId: "#iit-dharwad-seats"
+        title: "Placements",
+        headingId: "#iit-dharwad-placements"
     }
 ];
 
@@ -1013,14 +1013,6 @@ export const IITMandiCollegeNavigationConstants: Array<IIITCollegeNavigationCons
         headingId: "#iit-mandi-about"
     },
     {
-        title: "Fees",
-        headingId: "#iit-mandi-fees"
-    },
-    {
-        title: "Placements",
-        headingId: "#iit-mandi-placements"
-    },
-    {
         title: "Location",
         headingId: "#iit-mandi-location"
     },
@@ -1029,20 +1021,28 @@ export const IITMandiCollegeNavigationConstants: Array<IIITCollegeNavigationCons
         headingId: "#iit-mandi-ranking"
     },
     {
+        title: "Admissions",
+        headingId: "#iit-mandi-admissions"
+    },
+    {
         title: "Courses",
         headingId: "#iit-mandi-courses"
     },
     {
-        title: "Admissions",
-        headingId: "#iit-mandi-admissions"
+        title: "Fees",
+        headingId: "#iit-mandi-fees"
+    },
+    {
+        title: "Seats",
+        headingId: "#iit-mandi-seats"
     },
     {
         title: "Cutoff",
         headingId: "#iit-mandi-cutoff"
     },
     {
-        title: "Seats",
-        headingId: "#iit-mandi-seats"
+        title: "Placements",
+        headingId: "#iit-mandi-placements"
     }
 ];
 
@@ -1065,14 +1065,6 @@ export const IITTirupatiCollegeNavigationConstants: Array<IIITCollegeNavigationC
         headingId: "#iit-tirupati-about"
     },
     {
-        title: "Fees",
-        headingId: "#iit-tirupati-fees"
-    },
-    {
-        title: "Placements",
-        headingId: "#iit-tirupati-placements"
-    },
-    {
         title: "Location",
         headingId: "#iit-tirupati-location"
     },
@@ -1081,20 +1073,28 @@ export const IITTirupatiCollegeNavigationConstants: Array<IIITCollegeNavigationC
         headingId: "#iit-tirupati-ranking"
     },
     {
+        title: "Admissions",
+        headingId: "#iit-tirupati-admissions"
+    },
+    {
         title: "Courses",
         headingId: "#iit-tirupati-courses"
     },
     {
-        title: "Admissions",
-        headingId: "#iit-tirupati-admissions"
+        title: "Fees",
+        headingId: "#iit-tirupati-fees"
+    },
+    {
+        title: "Seats",
+        headingId: "#iit-tirupati-seats"
     },
     {
         title: "Cutoff",
         headingId: "#iit-tirupati-cutoff"
     },
     {
-        title: "Seats",
-        headingId: "#iit-tirupati-seats"
+        title: "Placements",
+        headingId: "#iit-tirupati-placements"
     }
 ];
 
@@ -1117,14 +1117,6 @@ export const IITDhanbadCollegeNavigationConstants: Array<IIITCollegeNavigationCo
         headingId: "#iit-dhanbad-about"
     },
     {
-        title: "Fees",
-        headingId: "#iit-dhanbad-fees"
-    },
-    {
-        title: "Placements",
-        headingId: "#iit-dhanbad-placements"
-    },
-    {
         title: "Location",
         headingId: "#iit-dhanbad-location"
     },
@@ -1133,20 +1125,28 @@ export const IITDhanbadCollegeNavigationConstants: Array<IIITCollegeNavigationCo
         headingId: "#iit-dhanbad-ranking"
     },
     {
+        title: "Admissions",
+        headingId: "#iit-dhanbad-admissions"
+    },
+    {
         title: "Courses",
         headingId: "#iit-dhanbad-courses"
     },
     {
-        title: "Admissions",
-        headingId: "#iit-dhanbad-admissions"
+        title: "Fees",
+        headingId: "#iit-dhanbad-fees"
+    },
+    {
+        title: "Seats",
+        headingId: "#iit-dhanbad-seats"
     },
     {
         title: "Cutoff",
         headingId: "#iit-dhanbad-cutoff"
     },
     {
-        title: "Seats",
-        headingId: "#iit-dhanbad-seats"
+        title: "Placements",
+        headingId: "#iit-dhanbad-placements"
     }
 ];
 
