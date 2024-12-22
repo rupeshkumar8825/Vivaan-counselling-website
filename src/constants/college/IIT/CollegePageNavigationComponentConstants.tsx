@@ -11,13 +11,15 @@ import coursesSvg from "../../../assets/images/collegeNavigation/course.svg"
 import admissionsSvg from "../../../assets/images/collegeNavigation/admissoon.svg"
 import cutoffSvg from "../../../assets/images/collegeNavigation/cutoff.svg"
 import seatsSvg from "../../../assets/images/collegeNavigation/seat.svg"
+import locationNewSvg from "../../../assets/images/collegeNavigation/location_new.svg"
+import locationNew2Svg from "../../../assets/images/collegeNavigation/location_new2.svg"
 
 
 export const CollegePageNavigationSvgPathConstants : Array<string> = [
     aboutSvg,
     feesSvg,
     placementsSvg,
-    locationSvg,
+    locationNew2Svg,
     rankingSvg,
     coursesSvg,
     admissionsSvg,
