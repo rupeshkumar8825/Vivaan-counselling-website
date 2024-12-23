@@ -6,13 +6,13 @@ import JosaaCounsellingDatesImage from "../../assets/images/counselling/josaa/Jo
 // OVERVIEW  COMPONENT FOR JOSAA COUNsELLING PAGE 
 // constant for storing the submenu names which we have to show in dropdown
 export const JosaaCounsellingPageSubMenuList : Array<string> = [
-    "What is JOSAA Counselling?",
-    "JOSAA Counselling Documents",
-    "JOSAA Counselling Application Process",
-    "JOSAA Counselling Fee",
-    "JOSAA Counselling Cutoff",
-    "JOSAA Counselling Online Reporting",
-    "JOSAA Counselling Physical Reporting",
+    "What is JoSAA Counselling?",
+    "JoSAA Counselling Documents",
+    "JoSAA Counselling Application Process",
+    "JoSAA Counselling Fee",
+    "JoSAA Counselling Cutoff",
+    "JoSAA Counselling Online Reporting",
+    "JoSAA Counselling Physical Reporting",
 ]
 
 
@@ -80,33 +80,33 @@ export const JosaaCounsellingPageVideoCardTitleList : Array<string> = [
 // this consists of the constants related to the heading name, headingID 
 // content that we have to put in each of the headings
 export const JosaaCounsellingPageHeadingList : Array<string> = [
-    "What is Josaa Counselling?", 
-    "Josaa Counselling Dates 2025", 
-    "Josaa Counselling Eligibility Criteria", 
-    "Josaa Counselling Application Form",
-    "Josaa Counselling 2025 Process",
-    "JOSAA Counselling Seat Allotment Letter", 
-    "JOSAA Counselling Online Reporting", 
-    "Partial Admission Fee Payment at JOSAA Portal After Last Round", 
+    "What is JoSAA Counselling?", 
+    "JoSAA Counselling 2025 Dates", 
+    "JoSAA Counselling 2025 Eligibility Criteria", 
+    "JoSAA Counselling 2025 Application Form",
+    "JoSAA Counselling 2025 Process",
+    "JoSAA Counselling 2025 Seat Allotment Letter", 
+    "JoSAA Counselling 2025 Online Reporting", 
+    "Partial Admission Fee Payment at JoSAA Portal After Last Round", 
     "Physical Reporting  At Allotted Institute", 
-    "JOSAA Counselling  Certificate Format", 
-    "JOSAA Counselling 2024 OR-CR", 
-    "JOSAA Counselling 2025 FAQ"
+    "JoSAA Counselling 2025  Certificate Format", 
+    "JoSAA Counselling 2024 OR-CR", 
+    "JoSAA Counselling 2025 FAQ"
 ]
 
 export const JosaaCounsellingPageTableOfContentList : Array<string> = [
-    "What is Josaa Counselling?", 
-    "Josaa Counselling Dates 2025", 
-    "Josaa Counselling Eligibility Criteria", 
-    "Josaa Counselling Application Form",
-    "Josaa Counselling 2025 Process",
-    "JOSAA Counselling Seat Allotment Letter", 
-    "JOSAA Counselling Online Reporting", 
-    "Partial Admission Fee Payment at JOSAA Portal After Last Round", 
+    "What is JoSAA Counselling?", 
+    "JoSAA Counselling 2025 Dates", 
+    "JoSAA Counselling 2025 Eligibility Criteria", 
+    "JoSAA Counselling 2025 Application Form",
+    "JoSAA Counselling 2025 Process",
+    "JoSAA Counselling 2025 Seat Allotment Letter", 
+    "JoSAA Counselling 2025 Online Reporting", 
+    "Partial Admission Fee Payment at JoSAA Portal After Last Round", 
     "Physical Reporting  At Allotted Institute", 
-    "JOSAA Counselling  Certificate Format", 
-    "JOSAA Counselling 2024 OR-CR", 
-    "JOSAA Counselling 2025 FAQ"
+    "JoSAA Counselling  2025 Certificate Format", 
+    "JoSAA Counselling 2024 OR-CR", 
+    "JoSAA Counselling 2025 FAQ"
 ]
 
 export const JosaaCounsellingPageHeadingIdList : Array<string> = [
@@ -163,28 +163,27 @@ export const JosaaCounsellingPageContentList : Array<string> = [
     `The Joint Seat Allocation Authority (JoSAA) 2024 has been set up by the Ministry of Education [erstwhile Ministry of Human Resources Development (MHRD)] to manage and regulate the joint seat allocation for admissions to 121 institutes for the academic year 2024-25. This includes 23 IITs, 31 NITs, IIEST Shibpur, 26 IIITs and 40 Other-Government Funded Technical Institutes (Other-GFTIs). Admission to all the academic programs offered by these Institutes will be made through a single platform.`,
 
 // 2 counselling dates
-    `To be notified soon ,expected to be released in after jee advance result 2025.
-    Following are the last year scheduled for Josaa counselling 2024:
+`To be notified soon ,expected to be released in after JEE Advanced result 2025.
+Following are the last year scheduled for JoSAA counselling 2024:
 `,
 
 // 3 Eligibility Criteria
-    `Each and every candidate who satisfies one or more of the following
-     criteria is eligible for participation in joint seat allocation:`,
+`Each and every candidate who satisfies one or more of the following criteria is eligible for participation in joint seat allocation:`,
     
 // 4 Counselling Application Form
-    `To be released after jee advance 2025 result,Click here to get notification.
+    `To be released after JEE Advanced 2025 result,Click here to get notification.
  `,   
       
 // 5 Counselling 2025 process
-`Josaa counselling takes place in 5 round as per last year 2024,
+`JoSAA counselling takes place in 5 round as per last year 2024,
 <span style = "color : white; font-weight: bold; font-size: medium;"> The counselling process involves the following stages:
 </span>
 
-    (i) Online Registration at Josaa portal 2025 
+    (i) Online Registration at JoSAA portal 2025 
     (ii) Online Choice Filling and Locking 
-    (iii) Josaa counselling round-1
+    (iii) JoSAA counselling round-1
 
-<span style = "color : white; font-weight: bold; font-size: medium;"> (*** IF ANY OF THE FILLED CHOICES ALLOTTED IN ROUND 1) 
+<span style = "color : white; font-weight: bold; font-size: medium;"> (Condition 1 : IF ANY OF THE FILLED CHOICES ALLOTTED IN ROUND 1) 
 THEN FOLLOWING STEP HAVE TO COMPLETED)
 </span>
     a. Seat Allotment
@@ -193,22 +192,24 @@ THEN FOLLOWING STEP HAVE TO COMPLETED)
     d. Payment of seat acceptance fee
     e. Online Reporting and Document Verification
 
-<span style = "color : white; font-weight: bold; font-size: medium;"> (*** IF NONE OF THE FILLED CHOICES ALLOTTED IN ROUND 1) THEN FOLLOWING STEP HAVE TO COMPLETED)
-</span>
+<span style = "color : white; font-weight: bold; font-size: medium;"> (Condition 2 : IF NONE OF THE FILLED CHOICES ALLOTTED IN ROUND 1) THEN FOLLOWING STEP HAVE TO COMPLETED)</span>
+ a. Nothing to do ,you will be automatically went to round 2 
 
- (a)Nothing to do ,you will be automatically went to round 2 
-(iv) Josaa counselling round-2 (If same choices allotted) 
-       (a). Choose Willingness Option
+
+(iv) JoSAA counselling round-2 (If same choices allotted) 
+       a. Choose Willingness Option
                      or 
-Josaa counselling round-2 (If choices upgraded)
-       (a)Choose Willingness Option
+JoSAA counselling round-2 (If choices upgraded)
+       a. Choose Willingness Option
 
                    or 
-Josaa counselling round-2 (If no choices allotted)
+JoSAA counselling round-2 (If no choices allotted)
       (a)Nothing to do ,just wait for the next round.
 
 AND SO ON FOR THE NEXT ROUND 3,4,5
+
 (v)Payment of partial admission fee at josaa 2025 portal 
+
 (vi) Physical Reporting at the Allotted Institute
 `,
 
@@ -236,7 +237,7 @@ The candidate needs to accept the seat allocated and opt for any one of the opti
 
 
 
-<span style = "color : white; font-weight: bold; font-size: larger;">STEP 2:CHOOSE WILLINGNESS:</span>
+<span style = "color : white; font-weight: bold; font-size: larger;">STEP 2:Choose Willingness:</span>
 
 FREEZE, FLOAT, AND SLIDE OPTIONS At the time of accepting the seat online, a candidate has to opt for any one of the options i.e. ‘Freeze’, ‘Float’ or ‘Slide’ for the choice of academic program for subsequent round(s), if any, of joint seat allocation. In case the candidate has been allocated a seat as per the candidate’s first choice, the candidate will not be given any of the above options other than Freeze. In such a situation, the candidate may either accept, and Freeze the offered seat, or may reject the offered seat. Non choosing of Freeze option in this case will be considered as rejection of the offered seat and the candidate will not be considered for seat allocation in the further rounds (if any).
 
@@ -246,7 +247,8 @@ Choosing the option “Freeze” means that the candidate accepts the offered se
 
 
 
-<span style = "color : white; font-weight: bold; font-size: medium;">(B) Float: </span> Choosing the option “Float” means that the candidate accepts the offered seat and indicates that, if admission to an academic program of higher 46 preference in any Institute is offered in subsequent rounds of seat allocation, the candidate will accept it. Else, the candidate will continue with the currently accepted academic program. Such candidates will be considered in subsequent rounds of JoSAA 2025 (if any).
+<span style = "color : white; font-weight: bold; font-size: medium;">(B) Float: </span> 
+Choosing the option “Float” means that the candidate accepts the offered seat and indicates that, if admission to an academic program of higher 46 preference in any Institute is offered in subsequent rounds of seat allocation, the candidate will accept it. Else, the candidate will continue with the currently accepted academic program. Such candidates will be considered in subsequent rounds of JoSAA 2025 (if any).
 
 <span style = "color : white; font-weight: bold; font-size: medium;">(C) Slide:  </span>
 Choosing the option “Slide” means that the candidate accepts the offered seat and indicates that, if admission to an academic program of higher preference is offered within the same Institute in subsequent rounds of seat allocation, the candidate will accept it. Such candidates will be considered in subsequent rounds of JoSAA 2024 (if any). For candidates who choose the float or slide option, allocation of a seat in an academic program of the candidate’s higher preference would automatically result in the replacement of the seat accepted by the candidate in the earlier round. Such candidates are only required to accept or reject the academic program of higher preference offered as a result of the float or slide option. In case such candidate rejects or cancels the seat of higher preference, offered as a result of float or slide, then the candidate would no longer be entitled to any seat and would not be permitted to participate any further in JoSAA 2025
@@ -297,10 +299,10 @@ Click here to know the complete process of physical reporting after successful p
 
 
 // 10 JOSAA Counselling Certificate Format
-`1. Certificate format of OBC - NCL Click here to download
+`1. Certificate format of OBC - NCL : Click here to download
 2. Certificate format of EWS : Click here to download
-3. Certificate format of SC - NCL Click here to download
-4. Certificate format of ST- NCL Click here to download
+3. Certificate format of SC : Click here to download
+4. Certificate format of ST : Click here to download
 5. Certificate format of PWD: Click here to download
 6. Certificate format to change category : Click here to download
 `,

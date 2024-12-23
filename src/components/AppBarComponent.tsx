@@ -1,7 +1,7 @@
 import { useNavigate} from "react-router-dom"
 import DropDownMenuComponent from "./DropDownMenuComponent"
 import { collegeRoutesList, collegeSubMenuList, counsellingRouteList, counsellingSubMenuList, examRouteList, examSubMenuList, mentorshipRouteList, mentorshipSubMenuList } from "../constants/AppBarConstants"
-
+import appLogo from "../assets/Logo.jpg"
 
 
 
@@ -21,14 +21,19 @@ const AppBarComponent = () => {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex justify-between items-center h-16">
                         {/* Icon Section */}
-                        <div className="flex-shrink-0">
+                        <div className="  flex justify-center items-center ">
                             {/* You can replace this with your own SVG icon or an <img> tag */}
                             <a href="/">
-                                <svg className="h-8 w-8 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="white">
+                                <img src={appLogo} className='w-11 h-11 mb-2 text-gray-400 group:hover:text-red-500 rounded-full' aria-hidden="true" alt="" />
+
+                                {/* <svg className="h-8 w-8 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="white">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 11c0 2.21-1.79 4-4 4s-4-1.79-4-4 1.79-4 4-4 4 1.79 4 4z" />
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4v16m8-4H4m12-8h4" />
-                                </svg>
+                                </svg> */}
                             </a>
+                            <div className="text-white text-lg flex justify-center align-center ml-5">
+                                CollegeKendra.com
+                            </div>
                         </div>
 
                         {/* Menu Items */}

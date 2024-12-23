@@ -17,14 +17,14 @@ import locationNew2Svg from "../../../assets/images/collegeNavigation/location_n
 
 export const CollegePageNavigationSvgPathConstants : Array<string> = [
     aboutSvg,
-    feesSvg,
-    placementsSvg,
     locationNew2Svg,
     rankingSvg,
-    coursesSvg,
     admissionsSvg,
+    coursesSvg,
+    feesSvg,
+    seatsSvg,
     cutoffSvg,
-    seatsSvg
+    placementsSvg,
 ]
 
 export const IITBombayCollegeNavigationConstants : Array<IIITCollegeNavigationConstants> = [

@@ -64,11 +64,6 @@ export const IITCollegeCardConstants : Array<IIITCollegeCard> = [
         buttonRoute : "/college/iit/iit-gandhinagar"
     },
     {
-        collegeName : "IIT JODHPUR",
-        collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
-        buttonRoute : "/college/iit/iit-jodhpur"
-    },
-    {
         collegeName : "IIT MANDI",
         collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
         buttonRoute : "/college/iit/iit-mandi"
@@ -97,6 +92,31 @@ export const IITCollegeCardConstants : Array<IIITCollegeCard> = [
         collegeName : "IIT JODHPUR",
         collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
         buttonRoute : "/college/iit/iit-jodhpur"
+    }, 
+    {
+        collegeName : "IIT DHANBAD",
+        collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
+        buttonRoute : "/college/iit/iit-dhanbad"
+    },
+    {
+        collegeName : "IIT BHILAI",
+        collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
+        buttonRoute : "/college/iit/iit-bhilai"
+    }, 
+    {
+        collegeName : "IIT GOA",
+        collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
+        buttonRoute : "/college/iit/iit-goa"
+    }, 
+    {
+        collegeName : "IIT PALAKKAD",
+        collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
+        buttonRoute : "/college/iit/iit-palakkad"
+    },
+    {
+        collegeName : "IIT TIRUPATI",
+        collegeDescription : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga necessitatibus maxime hic nihil tenetur nesciunt officiis magnam ut unde qui a quis iure, soluta adipisci praesentium veritatis voluptas neque corruptiHarum dolore nesciunt rerum dolorum fuga repellendus, dicta, eum necessitatibus, velit quibusdam quos ad voluptatem ratione repudiandae. Reprehenderit saepe architecto doloremque, adipisci delectus fugiat distinctio qui ipsum eaque? Aperiam, pariatur.",
+        buttonRoute : "/college/iit/iit-tirupati"
     }
     
 

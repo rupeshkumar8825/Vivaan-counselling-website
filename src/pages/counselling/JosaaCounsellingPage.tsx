@@ -52,7 +52,7 @@ const JosaaCounsellingPage = () => {
             <div className="flex items-center justify-center">
                 <OverviewSectionComponent dropDownMenuName="Overview" dropDownButtonId="JosaaOverviewButtonId" dropDowndivId="JosaaOverviewDivId" dropDownSubMenuList={JosaaCounsellingPageSubMenuList} dropDownRoutesList={JosaaCounsellingPageRoutesList} buttonNameList={JosaaCounsellingPageButtonNameList} buttonWidthList={JosaaCounsellingPageButtonWidthList} buttonCodeList={JosaaCounsellingPageButtonCodeList} buttonGenericClickHandler={OnOverviewSectionButtonClickHandlerGeneric}></OverviewSectionComponent>
             </div>
-            <HeadingComponent headingName="Latest Updates" headingSpanName="Josaa Counselling"></HeadingComponent>
+            <HeadingComponent headingName="Latest Updates" headingSpanName="JoSAA Counselling"></HeadingComponent>
             <div className="flex justify-center items-center justify-evenly mt-10 w-full p-10">
                 {/* here we will be using the map function to render all the available video card  component */}
                 {JosaaCounsellingPageVideoCardUrlList.map((_ : string, index : number) => (
