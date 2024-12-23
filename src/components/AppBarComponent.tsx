@@ -3,6 +3,8 @@ import DropDownMenuComponent from "./DropDownMenuComponent"
 import { collegeRoutesList, collegeSubMenuList, counsellingRouteList, counsellingSubMenuList, examRouteList, examSubMenuList, mentorshipRouteList, mentorshipSubMenuList } from "../constants/AppBarConstants"
 import appLogo from "../assets/Logo.jpg"
 import whatsAppLogo from "../assets/images/WhatsApp.png"
+import instagramLogo from "../assets/images/instagramLogo.png"
+import youtubeLogo from "../assets/images/youtubeLogo.png"
 
 
 const AppBarComponent = () => {
@@ -66,10 +68,21 @@ const AppBarComponent = () => {
 
                         </button>
 
-                        {/* Login button */}
-                        <div>
-                            <button onClick={handleLoginClickHandler} type="button" className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Login</button>
+
+                        {/* Social Media Icons */}
+                        <div className="flex space-x-4">
+                            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                                <img src={instagramLogo} className='w-8 h-8 text-gray-400 group:hover:text-red-500 rounded-full' aria-hidden="true" alt="Instagram Logo" />
+                            </a>
+                            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
+                                <img src={youtubeLogo} className='w-8 h-8 text-gray-400 group:hover:text-red-500 rounded' aria-hidden="true" alt="YouTube Logo" />
+                            </a>
                         </div>
+
+                        {/* Login button */}
+                        {/* <div>
+                            <button onClick={handleLoginClickHandler} type="button" className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Login</button>
+                        </div> */}
 
 
                     </div>
