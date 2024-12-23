@@ -2,7 +2,7 @@ import { useNavigate} from "react-router-dom"
 import DropDownMenuComponent from "./DropDownMenuComponent"
 import { collegeRoutesList, collegeSubMenuList, counsellingRouteList, counsellingSubMenuList, examRouteList, examSubMenuList, mentorshipRouteList, mentorshipSubMenuList } from "../constants/AppBarConstants"
 import appLogo from "../assets/Logo.jpg"
-
+import whatsAppLogo from "../assets/images/WhatsApp.png"
 
 
 const AppBarComponent = () => {
@@ -57,9 +57,14 @@ const AppBarComponent = () => {
 
 
                         {/* Ask doubt button for the website */}
-                        <div className="">
-                            <button type="button" className="text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Ask Doubt</button>
-                        </div>
+                        <button className=" flex justify-around items-center text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-xs px-2 py-1.5 text-center">
+                            {/* <img src="" alt="" /> */}
+                            <img src={whatsAppLogo} className='w-8 h-8 text-gray-400 group:hover:text-red-500 rounded-full' aria-hidden="true" alt="" />
+                            <div className=" ml-2">+91 8825220213</div>
+
+                            {/* <button type="button" className="text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Ask Doubt</button> */}
+
+                        </button>
 
                         {/* Login button */}
                         <div>
