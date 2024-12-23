@@ -1,7 +1,8 @@
+// this is the component to show the latest updates about the counselling page
 import BannerComponent from "../../components/BannerComponent"
 import second from "../../assets/images/second.svg"
 // this is carousel component for jee mains banner
-const JeeMainCarouselComponent = () => {
+const CounsellingLatestUpdatesCarouselComponent = () => {
     return (
         <div className="m-10 bg-blue-forComponentBg rounded-xl">
         <div id="default-carousel" className="relative w-full" data-carousel="slide">
@@ -44,4 +45,4 @@ const JeeMainCarouselComponent = () => {
 }
 
 // say everything went fine 
-export default JeeMainCarouselComponent
+export default CounsellingLatestUpdatesCarouselComponent

@@ -4,7 +4,7 @@ import third from "../../assets/images/third.svg"
 
 const JeeAdvanceCarouselComponent = () => {
     return (
-        <div>
+        <div className="m-10 rounded-xl bg-blue-forComponentBg">
         <div id="default-carousel" className="relative w-full" data-carousel="slide">
             <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
                 {/* <BannerComponent bannerText1="Your Dreams" bannerText2="Our Expertize" bannerImage={first} bannerButtonWidth="44" bannerButtonName="See More"></BannerComponent>

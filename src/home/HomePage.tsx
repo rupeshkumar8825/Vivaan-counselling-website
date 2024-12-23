@@ -24,6 +24,10 @@ const HomePage = () => {
 
             <HeadingComponent headingName="Jee Advance Latest Update" headingSpanName="2025"></HeadingComponent>
             <JeeAdvanceCarouselComponent></JeeAdvanceCarouselComponent>
+            
+
+            <HeadingComponent headingName="Counselling Latest Update" headingSpanName="2025"></HeadingComponent>
+            <JeeAdvanceCarouselComponent></JeeAdvanceCarouselComponent>
 
             <AdmissionAndCouncellingComponent></AdmissionAndCouncellingComponent>
             <CollegeReviewCutoffComponent></CollegeReviewCutoffComponent>

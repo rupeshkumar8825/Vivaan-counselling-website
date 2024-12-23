@@ -7,11 +7,11 @@ import fifth from "../../assets/images/fifth.svg"
 import sixth from "../../assets/images/sixth.svg"
 import BannerComponent from "../../components/BannerComponent"
 
-const CarouselComponent = () => {
+const CounsellingCarouselComponent = () => {
     return (
-        <div>
+        <div className="m-10 rounded-xl bg-blue-forComponentBg ">
             <div id="default-carousel" className="relative w-full" data-carousel="slide">
-                <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
+                <div className="relative h-56 overflow-hidden rounded-lg md:h-96 ">
                     <BannerComponent bannerText1="Your Dreams" bannerText2="Our Expertize" bannerImage={first} bannerButtonWidth="44" bannerButtonName="Get Councelling"></BannerComponent>
                     <BannerComponent bannerText1="Your Dreams2" bannerText2="Our Expertize2" bannerImage={second} bannerButtonWidth="44" bannerButtonName="Get Councelling"></BannerComponent>
                     <BannerComponent bannerText1="Your Dreams3" bannerText2="Our Expertize3" bannerImage={third} bannerButtonWidth="44" bannerButtonName="Get Councelling"></BannerComponent>
@@ -50,4 +50,4 @@ const CarouselComponent = () => {
 
 
 // say everything went fine 
-export default CarouselComponent
+export default CounsellingCarouselComponent
