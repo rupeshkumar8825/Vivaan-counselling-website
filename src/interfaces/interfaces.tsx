@@ -118,7 +118,8 @@ export interface IButtonExamPageComponent {
 export interface IIITCollegeCard {
     collegeName : string, 
     collegeDescription : string, 
-    buttonRoute : string
+    buttonRoute : string, 
+    imageLink : string
 }
 
 export interface INITCollegeCard extends IIITCollegeCard {
@@ -137,7 +138,7 @@ export interface ICollegeIntroCardComponent {
     title : string, 
     contentDescription : string, 
     redirectRoute : string
-    // imagePath : string
+    imageLink : string
 }
 
 

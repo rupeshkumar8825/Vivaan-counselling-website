@@ -16,7 +16,7 @@ const IITCollegePage = () => {
             <div className="border border-white flex flex-wrap items-center justify-between p-10">
                 {/* search bar option comes here */}
                 {IITCollegeCardConstants.map((currentCollegeIntro : IIITCollegeCard) => (
-                    <CollegeIntroCardComponent title={currentCollegeIntro.collegeName} contentDescription={currentCollegeIntro.collegeDescription} redirectRoute={currentCollegeIntro.buttonRoute}></CollegeIntroCardComponent>
+                    <CollegeIntroCardComponent title={currentCollegeIntro.collegeName} contentDescription={currentCollegeIntro.collegeDescription} redirectRoute={currentCollegeIntro.buttonRoute} imageLink={currentCollegeIntro.imageLink}></CollegeIntroCardComponent>
 
                 ))}
             </div>
