@@ -137,6 +137,7 @@ export interface ICollegeIntroCardComponent {
     title : string, 
     contentDescription : string, 
     redirectRoute : string
+    // imagePath : string
 }
 
 
