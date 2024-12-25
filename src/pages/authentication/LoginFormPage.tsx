@@ -8,10 +8,10 @@ interface ILoginFormPage {
 
 const LoginFormPage = (props : ILoginFormPage) => {
     return (
-        <div className=" border-2 border-white w-full flex items-center justify-center pt-10">
+        <div className=" w-full flex items-center justify-center pt-10">
             <button
                     onClick={props.buttonHandler}
-                    className=" border-2 border-white absolute top-2 right-2 text-gray-400 hover:text-gray-600"
+                    className=" absolute top-2 right-2 text-gray-400 hover:text-gray-600"
                     style={{ position: 'absolute', top: '10px', right: '10px' }}
                 >
                     <svg

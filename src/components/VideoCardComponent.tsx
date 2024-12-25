@@ -29,16 +29,4 @@ const VideoCard = (props : IVideoCardComponent) => {
   );
 };
 
-// Usage example in App component
-// const App = () => {
-//   return (
-//     <div className="flex justify-center items-center min-h-screen bg-gray-100">
-//       <VideoCard
-//         videoUrl="https://www.youtube.com/embed/dQw4w9WgXcQ"
-//         title="Embedded YouTube Video"
-//       />
-//     </div>
-//   );
-// };
-
 export default VideoCard;

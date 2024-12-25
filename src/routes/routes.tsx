@@ -667,11 +667,11 @@ import {
 
 const routes = [
     //authentication related routes
-    {
-        path : "/login"
-        ,
-        component : <LoginFormPage/>
-    },
+    // {
+    //     path : "/login"
+    //     ,
+    //     component : <LoginFormPage/>
+    // },
     {
         path : "/register",
         component : <RegisterFormPage/>

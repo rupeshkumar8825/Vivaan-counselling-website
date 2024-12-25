@@ -9,6 +9,7 @@ import completeGuidanceTillAdmission from "../../assets/images/sixth.svg"
 import BannerComponent from "../../components/BannerComponent"
 import LoginFormPage from "../../pages/authentication/LoginFormPage"
 import { useState } from "react"
+import EnrollCounsellingBannerComponent from "./EnrollCounsellingBannerComponent"
 
 const CounsellingCarouselComponent = () => {
 
@@ -29,7 +30,7 @@ const CounsellingCarouselComponent = () => {
 
     return (
         <>
-            <div className="m-10 rounded-xl  ">
+            <div className="m-10 rounded-xl w-full  ">
                 <div id="default-carousel" className="relative w-full" data-carousel="slide">
                     <div className="relative h-56 overflow-hidden rounded-lg md:h-96 ">
                         <BannerComponent bannerText1="Personalised Choice Filling Pdf" bannerText2="According to your rank" bannerImage={personalizedChoiceFilling} bannerButtonWidth="44" bannerButtonName="Get Councelling" bannerButttonEventHandler={getCounsellingEventHandler}></BannerComponent>
@@ -64,20 +65,21 @@ const CounsellingCarouselComponent = () => {
                         </span>
                     </button>
                 </div>
+                {/* here we will add a login page form which will shown as pop window when the user clicks on the button  */}
+                {
+                    windowActive ? (<div className=" z-40 fixed inset-0  bg-black bg-opacity-80">
+                    <div className=" w-[100%] h-[100%]  rounded-lg shadow-lg">
+                        {/* <LoginFormPage buttonHandler={closeLoginFormPagePopUpHandler}/> */}
+                        <EnrollCounsellingBannerComponent></EnrollCounsellingBannerComponent>
+                    </div>) </div> ): null
+                }
+                {/* <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
+                    <div className="bg-white rounded-lg p-6 shadow-lg">
+                        <LoginFormPage buttonHandler={closeLoginFormPagePopUpHandler}/>
+                    </div>
+                </div> */}
+                {/* <LoginFormPage></LoginFormPage> */}
             </div>
-            {/* here we will add a login page form which will shown as pop window when the user clicks on the button  */}
-            {
-                windowActive ? (<div className=" z-40 fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
-                <div className=" rounded-lg shadow-lg">
-                    <LoginFormPage buttonHandler={closeLoginFormPagePopUpHandler}/>
-                </div>) </div> ): null
-            }
-            {/* <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
-                <div className="bg-white rounded-lg p-6 shadow-lg">
-                    <LoginFormPage buttonHandler={closeLoginFormPagePopUpHandler}/>
-                </div>
-            </div> */}
-            {/* <LoginFormPage></LoginFormPage> */}
         </>
 
 
