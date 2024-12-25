@@ -1,15 +1,27 @@
 import BannerComponent from "../../components/BannerComponent"
 import third from "../../assets/images/third.svg"
+import BannerVideoComponent from "../../components/BannerVideoComponent"
 
 
 const JeeAdvanceCarouselComponent = () => {
+    const videoUrl = "https://www.youtube.com/embed/AJX1ZQaPiTg"
+
+    const JEEAdvanceCarouselSeeMoreButtonHandler = () => {
+        // here we will redirect to the youtube video itself 
+        window.location.href = "https://www.youtube.com/embed/AJX1ZQaPiTg"
+        // say everything went fine 
+        return
+    }
+
+
     return (
         <div className="m-10 rounded-xl bg-blue-forComponentBg">
         <div id="default-carousel" className="relative w-full" data-carousel="slide">
             <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
                 {/* <BannerComponent bannerText1="Your Dreams" bannerText2="Our Expertize" bannerImage={first} bannerButtonWidth="44" bannerButtonName="See More"></BannerComponent>
                 <BannerComponent bannerText1="Your Dreams2" bannerText2="Our Expertize2" bannerImage={second} bannerButtonWidth="44" bannerButtonName="See More"></BannerComponent> */}
-                <BannerComponent bannerText1="Your Dreams3" bannerText2="Our Expertize3" bannerImage={third} bannerButtonWidth="44" bannerButtonName="See More"></BannerComponent>
+                {/* <BannerComponent bannerText1="Your Dreams3" bannerText2="Our Expertize3" bannerImage={third} bannerButtonWidth="44" bannerButtonName="See More"></BannerComponent> */}
+                <BannerVideoComponent bannerText1="NTA Update" bannerText2="Category Certificate Issue Authority In Jee Main 2025" bannerImage={videoUrl} bannerButtonWidth="44" bannerButtonName="See More" seeMoreEventHandler={JEEAdvanceCarouselSeeMoreButtonHandler} ></BannerVideoComponent>
                 {/* <BannerComponent bannerText1="Your Dreams4" bannerText2="Our Expertize4" bannerImage={fourth} bannerButtonWidth="44" bannerButtonName="See More"></BannerComponent>
                 <BannerComponent bannerText1="Your Dreams5" bannerText2="Our Expertize5" bannerImage={fifth} bannerButtonWidth="44" bannerButtonName="See More"></BannerComponent>
                 <BannerComponent bannerText1="Your Dreams6" bannerText2="Our Expertize6" bannerImage={sixth} bannerButtonWidth="44" bannerButtonName="See More"></BannerComponent> */}

@@ -8,12 +8,12 @@ const BannerVideoComponent = (props: IBannerVideoComponent) => {
     return (
         <div className="hidden duration-700 ease-in-out " data-carousel-item>
             <div className="absolute block w-full  h-full rounded -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 flex justify-evenly pl-16 pr-16">
-                <div className="flex flex-col justify-evenly items-center text-white">
+                <div className="flex flex-col justify-evenly items-center text-white w-1/2">
                     <div className="flex flex-col justify-center items-center">
-                        <p className="text-3xl">
+                        <p className="text-2xl">
                             {props.bannerText1}
                         </p>
-                        <p className="text-3xl">
+                        <p className="  text-2xl text-center">
                             {props.bannerText2}
                         </p>
                     </div>
@@ -21,7 +21,7 @@ const BannerVideoComponent = (props: IBannerVideoComponent) => {
                     {/* button  for going to get the councelling page */}
                     <ButtonComponent buttonName={props.bannerButtonName} buttonWidthInRem={props.bannerButtonWidth} onButtonComponentClickHandler={props.seeMoreEventHandler}></ButtonComponent>
                 </div>
-                <div className=" flex justify-center items-center w-1/2 h-full">
+                <div className="flex justify-center items-center w-1/2 h-full">
                     {/* instead of using the image in the banner component we will add the youtube video here. I have the link. This requirement came from 
                     client side itself */}
                     {/* <img src={props.bannerImage} className="w-half h-3/4 rounded-xl" alt="Loading" /> */}

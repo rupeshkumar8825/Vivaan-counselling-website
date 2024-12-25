@@ -1,10 +1,11 @@
 // this is carousel component
-import first from "../../assets/images/first.svg"
-import second from "../../assets/images/second.svg"
-import third from "../../assets/images/third.svg"
-import fourth from "../../assets/images/fourth.svg"
-import fifth from "../../assets/images/fifth.svg"
-import sixth from "../../assets/images/sixth.svg"
+import callSupport from "../../assets/images/first.svg"
+import personalizedChoiceFilling from "../../assets/images/second.svg"
+import dailyGoogleMeet from "../../assets/images/third.svg"
+import whatsAppGroupChat from "../../assets/images/fourth.svg"
+import dailyDoubtSolvingSession from "../../assets/images/fifth.svg"
+import completeGuidanceTillAdmission from "../../assets/images/sixth.svg"
+
 import BannerComponent from "../../components/BannerComponent"
 
 const CounsellingCarouselComponent = () => {
@@ -12,12 +13,12 @@ const CounsellingCarouselComponent = () => {
         <div className="m-10 rounded-xl  ">
             <div id="default-carousel" className="relative w-full" data-carousel="slide">
                 <div className="relative h-56 overflow-hidden rounded-lg md:h-96 ">
-                    <BannerComponent bannerText1="Your Dreams" bannerText2="Our Expertize" bannerImage={first} bannerButtonWidth="44" bannerButtonName="Get Councelling"></BannerComponent>
-                    <BannerComponent bannerText1="Your Dreams2" bannerText2="Our Expertize2" bannerImage={second} bannerButtonWidth="44" bannerButtonName="Get Councelling"></BannerComponent>
-                    <BannerComponent bannerText1="Your Dreams3" bannerText2="Our Expertize3" bannerImage={third} bannerButtonWidth="44" bannerButtonName="Get Councelling"></BannerComponent>
-                    <BannerComponent bannerText1="Your Dreams4" bannerText2="Our Expertize4" bannerImage={fourth} bannerButtonWidth="44" bannerButtonName="Get Councelling"></BannerComponent>
-                    <BannerComponent bannerText1="Your Dreams5" bannerText2="Our Expertize5" bannerImage={fifth} bannerButtonWidth="44" bannerButtonName="Get Councelling"></BannerComponent>
-                    <BannerComponent bannerText1="Your Dreams6" bannerText2="Our Expertize6" bannerImage={sixth} bannerButtonWidth="44" bannerButtonName="Get Councelling"></BannerComponent>
+                    <BannerComponent bannerText1="Personalised Choice Filling Pdf" bannerText2="According to your rank" bannerImage={personalizedChoiceFilling} bannerButtonWidth="44" bannerButtonName="Get Councelling"></BannerComponent>
+                    <BannerComponent bannerText1="Daily Google Meet" bannerText2="For Doubt Session" bannerImage={dailyGoogleMeet} bannerButtonWidth="44" bannerButtonName="Get Councelling"></BannerComponent>
+                    <BannerComponent bannerText1="Call Support " bannerText2="Ask Unlimited Queries" bannerImage={callSupport} bannerButtonWidth="44" bannerButtonName="Get Councelling"></BannerComponent>
+                    <BannerComponent bannerText1="Message Support" bannerText2="Through Dedicated Whatsapp Group" bannerImage={whatsAppGroupChat} bannerButtonWidth="44" bannerButtonName="Get Councelling"></BannerComponent>
+                    <BannerComponent bannerText1="Daily Doubt Solving Session" bannerText2="Some text to add" bannerImage={dailyDoubtSolvingSession} bannerButtonWidth="44" bannerButtonName="Get Councelling"></BannerComponent>
+                    <BannerComponent bannerText1="Complete Guidance" bannerText2="Till Your Admission" bannerImage={completeGuidanceTillAdmission} bannerButtonWidth="44" bannerButtonName="Get Councelling"></BannerComponent>
                 </div>
                 <div className="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
                     <button type="button" className="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
