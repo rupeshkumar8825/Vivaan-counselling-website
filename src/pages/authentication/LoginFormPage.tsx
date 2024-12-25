@@ -1,9 +1,34 @@
 // this is the login form for the users 
 // this page will only be rendered when the user has not logged in and want to login
 
-const LoginFormPage = () => {
+interface ILoginFormPage {
+    buttonHandler : () => void
+}
+
+
+const LoginFormPage = (props : ILoginFormPage) => {
     return (
-        <div className="w-full flex items-center justify-center pt-10">
+        <div className=" border-2 border-white w-full flex items-center justify-center pt-10">
+            <button
+                    onClick={props.buttonHandler}
+                    className=" border-2 border-white absolute top-2 right-2 text-gray-400 hover:text-gray-600"
+                    style={{ position: 'absolute', top: '10px', right: '10px' }}
+                >
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        className="w-6 h-6"
+                    >
+                        <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M6 18L18 6M6 6l12 12"
+                        />
+                    </svg>
+                </button>
             <div className="w-full max-w-sm p-4  rounded-lg shadow sm:p-6 md:p-8 bg-blue-forComponentBg border-gray-700">
                 <form className="space-y-6" action="#">
                     <h5 className="text-xl font-medium text-white">Sign in to our platform</h5>

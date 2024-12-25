@@ -28,6 +28,7 @@ export interface IBannerComponent {
     bannerImage : string, 
     bannerButtonWidth : string
     bannerButtonName : string
+    bannerButttonEventHandler? : () => void
 }
 
 

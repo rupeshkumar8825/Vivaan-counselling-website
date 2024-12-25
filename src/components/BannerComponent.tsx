@@ -16,7 +16,7 @@ const BannerComponent = (props: IBannerComponent) => {
                     </div>
 
                     {/* button  for going to get the councelling page */}
-                    <ButtonComponent buttonName={props.bannerButtonName} buttonWidthInRem={props.bannerButtonWidth}></ButtonComponent>
+                    <ButtonComponent buttonName={props.bannerButtonName} buttonWidthInRem={props.bannerButtonWidth} onButtonComponentClickHandler={props.bannerButttonEventHandler? props.bannerButttonEventHandler : undefined}></ButtonComponent>
                 </div>
                 <div className="flex justify-center items-center">
                     <img src={props.bannerImage} className="w-half h-3/4 rounded-xl" alt="Loading" />

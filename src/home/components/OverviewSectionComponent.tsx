@@ -36,7 +36,7 @@ const DropDownMenuNew = (props : IDropDownMenu) => {
         setIsOpen(!isOpen);
     }
     return (
-        <div className="relative inline-block text-left">
+        <div className="relative inline-block text-left z-50">
             <button
                 id={props.buttonId}
                 onClick={toggleDropdown}
