@@ -6,7 +6,7 @@ import ButtonComponent from "./ButtonComponent";
 // Define the VideoCard component
 const VideoCard = (props : IVideoCardComponent) => {
   return (
-    <div className="border-2 border-slate-700 w-1/4 flex items-center justify-center flex-col justify-evenly bg-blue-forComponentBg rounded-lg shadow-md">
+    <div className={`border-2 border-slate-700 w-${props.videoCardWidth? props.videoCardWidth : "1/4"} ${props.videoCardHeight? props.videoCardHeight : null} flex items-center justify-center flex-col justify-evenly bg-blue-forComponentBg rounded-lg shadow-md`}>
       <div className=" bg-blue-forComponentBg rounded-lg overflow-hidden">
         <div className="relative pt-[56.25%]">
           <iframe

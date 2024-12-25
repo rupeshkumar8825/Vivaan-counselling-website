@@ -30,6 +30,11 @@ export interface IBannerComponent {
     bannerButtonName : string
 }
 
+
+export interface IBannerVideoComponent extends IBannerComponent {
+    seeMoreEventHandler : () => void
+}
+
 export interface IHeadingComponent {
     headingName : string
     headingSpanName : string
@@ -38,7 +43,9 @@ export interface IHeadingComponent {
 export interface IVideoCardComponent {
     videoUrl : string, 
     title : string, 
-    content : string
+    content : string,
+    videoCardWidth? : string, 
+    videoCardHeight? : string
 }
 
 export interface IBlogHeadingComponent {
