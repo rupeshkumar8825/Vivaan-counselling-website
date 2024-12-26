@@ -28,12 +28,12 @@ const EnrollCounsellingBannerComponent = (props : any) => {
                         />
                     </svg>
                 </button>
-            <div className=" w-[50%] p-4  rounded-lg shadow sm:p-6 md:p-8 bg-blue-forComponentBg border-gray-700 flex justify-center items-center flex-col">
+            <div className="  w-[50%] h-[90%] p-4  rounded-lg shadow sm:p-6 md:p-8 bg-transparent border-gray-700 flex justify-between items-center flex-col">
                 {/* <form className="space-y-6" action="#"> */}
-                    <h5 className="text-xl text-center font-medium text-white">Join Counselling</h5>
+                    <p className="text-3xl text-center text-white">Join <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">Counselling</span></p>
                     {/* here we have to embed the already downloaded video in this code for this purpose */}
                     <CounsellingVideoComponent/>
-                    <button type="submit" className="w-1/2 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Join Now</button>
+                    <button type="submit" className="border-2 border-gray-500  w-1/4 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center bg-transparent  dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Join Now</button>
                     {/* <div className="text-sm font-medium text-gray-500 dark:text-gray-300">
                         Not registered? <a href="/register" className="text-blue-700 hover:underline dark:text-blue-500">Create account</a>
                     </div> */}
@@ -49,7 +49,7 @@ const EnrollCounsellingBannerComponent = (props : any) => {
 const CounsellingVideoComponent = () => {
     return (
         <>
-        <video width="600" controls>
+        <video className="border-2 border-slate-500 bg-shadow rounded-lg " width="600" controls>
             <source src={EnrollCounsellingHelpDeskVideo} type="video/mp4" />
             Your browser does not support the video tag.
         </video>

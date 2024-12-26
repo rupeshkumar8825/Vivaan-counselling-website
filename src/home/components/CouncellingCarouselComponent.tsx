@@ -67,7 +67,7 @@ const CounsellingCarouselComponent = () => {
                 </div>
                 {/* here we will add a login page form which will shown as pop window when the user clicks on the button  */}
                 {
-                    windowActive ? (<div className=" z-40 fixed inset-0  bg-black bg-opacity-80">
+                    windowActive ? (<div className=" z-40 fixed inset-0  bg-black bg-opacity-90">
                     <div className=" w-[100%] h-[100%]  rounded-lg shadow-lg">
                         {/* <LoginFormPage buttonHandler={closeLoginFormPagePopUpHandler}/> */}
                         <EnrollCounsellingBannerComponent></EnrollCounsellingBannerComponent>
