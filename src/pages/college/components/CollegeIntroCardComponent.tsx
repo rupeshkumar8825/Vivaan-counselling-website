@@ -13,7 +13,7 @@ const CollegeIntroCardComponent = (props : ICollegeIntroCardComponent) => {
 
             {/* <p className="mb-3 font-normal text-slate-300">{props.contentDescription}</p> */}
             {/* here according to the client's requirement we want to show the logo here instead of descriptoion of the colleges for this purpose */}
-            <img className=" border-2 border-white bg-white rounded-full w-24 h-24 mb-3" src={props.imageLink} alt="college logo" />
+            <img className=" border-2 border-white bg-white rounded-full w-30 h-30 mb-3" src={props.imageLink} alt="college logo" />
 
             <a href={props.redirectRoute} className="inline-flex items-center px-3 py-2 text-xs font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 bg-blue-600 hover:bg-blue-700 focus:ring-blue-800">
                 Read more
