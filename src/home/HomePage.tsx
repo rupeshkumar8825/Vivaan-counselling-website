@@ -15,7 +15,7 @@ const HomePage = () => {
     }) 
     
     return (
-        <div className="border-2 border-white">
+        <div className="">
             <HeadingComponent headingName="Councelling Help" headingSpanName="Desk"></HeadingComponent>
             <CouncellingCarouselComponent></CouncellingCarouselComponent>
 

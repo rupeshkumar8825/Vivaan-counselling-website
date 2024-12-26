@@ -4,7 +4,11 @@
 import VideoCard from "../../components/VideoCardComponent"
 import EnrollCounsellingHelpDeskVideo from "../../assets/videos/EnrollCounsellingHelpDeskVideo.mp4"
 
-const EnrollCounsellingBannerComponent = (props : any) => {
+export interface IEnrollCounsellingBannerComponent{
+    buttonHandler : () => void
+}
+
+const EnrollCounsellingBannerComponent = (props : IEnrollCounsellingBannerComponent) => {
     return (
         <>
         <div className="w-[100%] h-[100%] flex items-center justify-center pt-10">
@@ -49,7 +53,7 @@ const EnrollCounsellingBannerComponent = (props : any) => {
 const CounsellingVideoComponent = () => {
     return (
         <>
-        <video className="border-2 border-slate-500 bg-shadow rounded-lg " width="600" controls>
+        <video className="border-2 border-slate-500 bg-shadow rounded-lg " width="600" autoPlay ={true} controls>
             <source src={EnrollCounsellingHelpDeskVideo} type="video/mp4" />
             Your browser does not support the video tag.
         </video>

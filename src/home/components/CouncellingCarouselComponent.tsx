@@ -70,7 +70,7 @@ const CounsellingCarouselComponent = () => {
                     windowActive ? (<div className=" z-40 fixed inset-0  bg-black bg-opacity-90">
                     <div className=" w-[100%] h-[100%]  rounded-lg shadow-lg">
                         {/* <LoginFormPage buttonHandler={closeLoginFormPagePopUpHandler}/> */}
-                        <EnrollCounsellingBannerComponent></EnrollCounsellingBannerComponent>
+                        <EnrollCounsellingBannerComponent buttonHandler={closeLoginFormPagePopUpHandler}></EnrollCounsellingBannerComponent>
                     </div>) </div> ): null
                 }
                 {/* <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
