@@ -4,6 +4,7 @@ import VideoCard from "../../components/VideoCardComponent"
 import BlogComponent from "../../components/blog/BlogComponent"
 import { JeeMainContentList, JeeMainExamPageButtonCodesList, JeeMainExamPageButtonWidthList, JeeMainExamsButtonNameList, JeeMainHeadingIdList, JeeMainImageList, JeeMainsExamRoutesList, JeeMainsExamSubMenuList, JeeMainsHeadingList, JeeMainTableOfContentList, JeeMainVideoCardTitleList, JeeMainVideoCardUrlList } from "../../constants/exam/JeeMainsExamPageConstants"
 import { useNavigate } from "react-router-dom"
+import TopBanner from "../../home/components/TopBanner"
 
 const JeeMainExamPage = () => {
     const navigate = useNavigate()
@@ -40,8 +41,10 @@ const JeeMainExamPage = () => {
     }
 
     return (
-        <div className="text-white  mt-10 w-full">
-            <div className="flex items-center justify-center">
+        <div className="text-white w-full">
+            {/* Client requested to add the banner on the website will have to cross check with the client */}
+            <TopBanner></TopBanner>
+            <div className="mt-10 flex items-center justify-center">
                 <OverviewSectionComponent dropDownMenuName="Overview" dropDownButtonId="JeeMainOverviewButtonId" dropDowndivId="JeeMainOverviewDivId" dropDownSubMenuList={JeeMainsExamSubMenuList} dropDownRoutesList={JeeMainsExamRoutesList} buttonNameList={JeeMainExamsButtonNameList} buttonWidthList={JeeMainExamPageButtonWidthList} buttonCodeList={JeeMainExamPageButtonCodesList} buttonGenericClickHandler={OnOverviewSectionButtonClickHandlerGeneric}></OverviewSectionComponent>
             </div>
             <HeadingComponent headingName="Latest Updates on" headingSpanName="Jee Main 2025"></HeadingComponent>

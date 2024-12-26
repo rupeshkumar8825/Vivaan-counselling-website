@@ -6,6 +6,7 @@ import AdmissionAndCouncellingComponent from "./components/AdmissionAndCouncelli
 import CollegeReviewCutoffComponent from "./components/CollegeReviewCutoffComponent"
 import TestimonialComponent from "./components/TestimonialComponent"
 import { useEffect } from "react"
+import TopBanner from "./components/TopBanner"
 
 const HomePage = () => {
     console.log("the page has rendered")
@@ -16,11 +17,15 @@ const HomePage = () => {
     
     return (
         <div className="">
+            <TopBanner/>
+            <HeadingComponent headingName="Jee Main Latest Update" headingSpanName="2025"></HeadingComponent>
+            <JeeMainCarouselComponent></JeeMainCarouselComponent>
+
+
+            
             <HeadingComponent headingName="Councelling Help" headingSpanName="Desk"></HeadingComponent>
             <CouncellingCarouselComponent></CouncellingCarouselComponent>
 
-            <HeadingComponent headingName="Jee Main Latest Update" headingSpanName="2025"></HeadingComponent>
-            <JeeMainCarouselComponent></JeeMainCarouselComponent>
 
             <HeadingComponent headingName="Jee Advance Latest Update" headingSpanName="2025"></HeadingComponent>
             <JeeAdvanceCarouselComponent></JeeAdvanceCarouselComponent>
