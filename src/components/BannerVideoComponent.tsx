@@ -7,17 +7,17 @@ import VideoCard from "./VideoCardComponent"
 const BannerVideoComponent = (props: IBannerVideoComponent) => {
     return (
         <div className="hidden duration-700 ease-in-out " data-carousel-item>
-            <div className="absolute block w-full  h-full rounded -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 flex justify-evenly pl-16 pr-16">
+            <div className="absolute block w-full  h-full rounded -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 flex-col justify-evenly sm:flex-col md:flex-col lg:flex xl:flex  pl-16 pr-16">
                 <div className="flex flex-col justify-evenly items-center text-white w-1/2">
-                    <div className="flex flex-col justify-center items-center">
-                        <p className="text-2xl">
+                    <div className=" border-2 border-white flex flex-col justify-center items-center">
+                        <p className="text-xl sm:text-xl md:text-2xl lg:text-3xl">
                             {props.bannerText1}
                         </p>
-                        <p className="  text-2xl text-center">
+                        <p className="text-xl sm:text-xl md:text-2xl lg:text-3xl text-center">
                             {props.bannerText2}
                         </p>
                     </div>
-
+                    
                     {/* button  for going to get the councelling page */}
                     <ButtonComponent buttonName={props.bannerButtonName} buttonWidthInRem={props.bannerButtonWidth} onButtonComponentClickHandler={props.seeMoreEventHandler}></ButtonComponent>
                 </div>

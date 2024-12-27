@@ -18,16 +18,14 @@ const HomePage = () => {
     return (
         <div className="">
             <TopBanner/>
-            <HeadingComponent headingName="Jee Main Latest Update" headingSpanName="2025"></HeadingComponent>
-            <JeeMainCarouselComponent></JeeMainCarouselComponent>
 
-
-            
             <HeadingComponent headingName="Councelling Help" headingSpanName="Desk"></HeadingComponent>
             <CouncellingCarouselComponent></CouncellingCarouselComponent>
 
+            <HeadingComponent headingName="JEE Main Latest Update" headingSpanName="2025"></HeadingComponent>
+            <JeeMainCarouselComponent></JeeMainCarouselComponent>
 
-            <HeadingComponent headingName="Jee Advance Latest Update" headingSpanName="2025"></HeadingComponent>
+            <HeadingComponent headingName="JEE Advanced  Latest Update" headingSpanName="2025"></HeadingComponent>
             <JeeAdvanceCarouselComponent></JeeAdvanceCarouselComponent>
             
 

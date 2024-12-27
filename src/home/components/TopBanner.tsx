@@ -30,7 +30,7 @@ const TopBanner = () => {
                 </div> */}
             </div>
             {/* <!-- Slider indicators --> */}
-            <div className="border border-white absolute z-30 flex -translate-x-1/2 bottom-0 sm:bottom-1 md:bottom-2 lg:bottom-3 xl:bottom-4 left-1/2 space-x-3 rtl:space-x-reverse">
+            <div className=" absolute z-30 flex -translate-x-1/2 bottom-0 sm:bottom-1 md:bottom-2 lg:bottom-3 xl:bottom-4 left-1/2 space-x-3 rtl:space-x-reverse">
                 <button type="button" className="w-1 h-1 md:w-2 md:h-2 lg:w-3 lg:h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
                 <button type="button" className="w-1 h-1 md:w-2 md:h-2 lg:w-3 lg:h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
                 {/* <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
