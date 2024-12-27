@@ -7,16 +7,19 @@ import ButtonForExamPageComponent from "../../pages/exams/components/ButtonForEx
 
 const OverviewSectionComponent = (props : IOverviewComponent) => {
     return (
-        <div className="flex justify-center flex-wrap items-center justify-evenly w-3/4">
-            <div className="border-2 border-white rounded-lg">  
+        <div className=" flex justify-center items-center justify-evenly w-3/4 overflow-x-auto sm:overflow-x-hidden">
+            <div className="border-2 border-white mr-10 rounded-lg mb-4 sm:mb-0">  
                 {/* <DropDownMenuComponent buttonId="overview" menuName="Overview" divId="overviewDiv" subMenuList={JeeMainsExamSubMenuList} routesList={JeeMainsExamRoutesList}></DropDownMenuComponent> */}
                 <DropDownMenuNew menuName={props.dropDownMenuName} divId={props.dropDowndivId} buttonId={props.dropDownButtonId} subMenuList={props.dropDownSubMenuList} routesList={props.dropDownRoutesList}></DropDownMenuNew>
             </div>
 
             {/* using the map function to map all the buttons properly  */}
-            {props.buttonNameList.map((_ : string, index : number) => (
-                <ButtonForExamPageComponent key={index} OnButtonClickHandlerExamPage={props.buttonGenericClickHandler} buttonName={props.buttonNameList[index]} buttonWidthInRem={props.buttonWidthList[index]} buttonCode={props.buttonCodeList[index]}></ButtonForExamPageComponent>
-            ))}
+            <div className="flex flex-wrap sm:flex-nowrap overflow-x-auto space-x-4">
+                {props.buttonNameList.map((_ : string, index : number) => (
+                    <ButtonForExamPageComponent key={index} OnButtonClickHandlerExamPage={props.buttonGenericClickHandler} buttonName={props.buttonNameList[index]} buttonWidthInRem={props.buttonWidthList[index]} buttonCode={props.buttonCodeList[index]}></ButtonForExamPageComponent>
+                ))}
+
+            </div>
             {/* <ButtonComponent onButtonComponentClickHandler={handleJeeMainClickHandler} buttonName="Jee Mains" buttonWidthInRem="36"></ButtonComponent>
             <ButtonComponent onButtonComponentClickHandler={handleBitSatClickHandler} buttonName="BITSAT" buttonWidthInRem="36"></ButtonComponent>
             <ButtonComponent onButtonComponentClickHandler={handleWebJeeClickHandler} buttonName="WEBJEE" buttonWidthInRem="36"></ButtonComponent>
