@@ -43,10 +43,13 @@ const BitSatExamPage = () => {
                 <OverviewSectionComponent dropDownMenuName="Overview" dropDownButtonId="BitSatOverviewButtonId" dropDowndivId="BitSatOverviewDivId" dropDownSubMenuList={BitSatExamSubMenuList} dropDownRoutesList={BitSatExamRoutesList} buttonNameList={BitSatExamsButtonNameList} buttonWidthList={BitSatExamPageButtonWidthList} buttonCodeList={BitSatExamPageButtonCodesList} buttonGenericClickHandler={OnOverviewSectionButtonClickHandlerGeneric}></OverviewSectionComponent>
             </div>
             <HeadingComponent headingName="Latest Updates" headingSpanName="BITSAT"></HeadingComponent>
-            <div className="flex justify-center items-center justify-evenly mt-10 w-full p-10">
+            <div className="flex  flex-col justify-around items-center md:flex-row  mt-10 w-full">
                 {/* here we will be using the map function to render all the available video card  component */}
                 {BitSatVideoCardUrlList.map((_ : string, index : number) => (
-                    <VideoCard key={index} videoUrl={BitSatVideoCardUrlList[index]} title={BitSatVideoCardTitleList[index]} content="An example of a YouTube video embedded in a Tailwind CSS card."></VideoCard>
+                    <div className="mb-10">
+                        <VideoCard key={index} videoUrl={BitSatVideoCardUrlList[index]} title={BitSatVideoCardTitleList[index]} content="An example of a YouTube video embedded in a Tailwind CSS card." videoCardWidth="64"></VideoCard>
+
+                    </div>
                 ))}
             </div>
             <div className="">
