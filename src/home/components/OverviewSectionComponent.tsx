@@ -7,14 +7,14 @@ import ButtonForExamPageComponent from "../../pages/exams/components/ButtonForEx
 
 const OverviewSectionComponent = (props : IOverviewComponent) => {
     return (
-        <div className=" flex justify-center items-center justify-evenly w-3/4 overflow-x-auto sm:overflow-x-hidden">
-            <div className="border-2 border-white mr-10 rounded-lg mb-4 sm:mb-0">  
+        <div className="flex justify-center items-center justify-evenly w-full sm:w-full md:w-4/5 lg:4/5">
+            <div className="mr-1 sm:mr-5 md:smr-2 lg:mr-2 xl:mr-2 rounded-lg mb-4 mb-0">  
                 {/* <DropDownMenuComponent buttonId="overview" menuName="Overview" divId="overviewDiv" subMenuList={JeeMainsExamSubMenuList} routesList={JeeMainsExamRoutesList}></DropDownMenuComponent> */}
                 <DropDownMenuNew menuName={props.dropDownMenuName} divId={props.dropDowndivId} buttonId={props.dropDownButtonId} subMenuList={props.dropDownSubMenuList} routesList={props.dropDownRoutesList}></DropDownMenuNew>
             </div>
 
             {/* using the map function to map all the buttons properly  */}
-            <div className="flex flex-wrap sm:flex-nowrap overflow-x-auto space-x-4">
+            <div className="flex flex-nowrap overflow-x-auto space-x-4">
                 {props.buttonNameList.map((_ : string, index : number) => (
                     <ButtonForExamPageComponent key={index} OnButtonClickHandlerExamPage={props.buttonGenericClickHandler} buttonName={props.buttonNameList[index]} buttonWidthInRem={props.buttonWidthList[index]} buttonCode={props.buttonCodeList[index]}></ButtonForExamPageComponent>
                 ))}
@@ -43,7 +43,7 @@ const DropDownMenuNew = (props : IDropDownMenu) => {
             <button
                 id={props.buttonId}
                 onClick={toggleDropdown}
-                className="inline-flex justify-center w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-blue text-sm font-medium text-white hover:bg-gray-50 focus:outline-none"
+                className="inline-flex justify-center mt-2 w-full rounded-md border border-gray-300 shadow-sm px-1.5 py-1 sm:px-1.5 md:px-2 lg:px-3 xl:px-4 sm:py-1 md:py-1.5 lg:py-2 xl:py-2 bg-blue text-sm sm:text-xs md:text-xs lg:text-sm font-medium text-white hover:bg-gray-50 focus:outline-none"
             >
                 <div className="flex justify-center items-center">
                     <p>
@@ -57,7 +57,7 @@ const DropDownMenuNew = (props : IDropDownMenu) => {
             </button>
 
             {isOpen && (
-                <div id={props.divId} className="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
+                <div id={props.divId} className=" border-2 border-red-500 origin-top-right absolute right-0 left-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50">
                     <div className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
                         {/* using the for loop here for this purpose */}
                         {props.subMenuList.map((currSubDropDownName : string, index : number) => (
