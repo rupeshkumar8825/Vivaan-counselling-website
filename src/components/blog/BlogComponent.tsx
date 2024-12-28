@@ -8,7 +8,12 @@ import { IBlogComponent } from '../../interfaces/interfaces';
 const BlogComponent = (props : IBlogComponent) => {
     return (
         <div className="">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className=" grid grid-cols-1 md:grid-cols-3 gap-6">
+                {/* adding one more table of contents here to show for smaller screens */}
+                {/* the below table of contents is being added to make the website responsive itself */}
+                <div className="md:hidden  flex justify-center items-center">
+                    <TableOfContentsComponent headingIdList={props.headingIdList} headingNameList={props.tableOfContentsList}/> 
+                </div>
                 {/* Blog Section - spans 2 columns on medium screens */}
                 <div className="md:col-span-2">
                     {/* here we have to use the map element to iterate over all the blogs contents  */}
@@ -21,7 +26,7 @@ const BlogComponent = (props : IBlogComponent) => {
                     ))}
                 </div>
                 {/* Table of Contents */}
-                <div>
+                <div className='hidden md:block border-2 border-white'>
                     <TableOfContentsComponent headingIdList={props.headingIdList} headingNameList={props.tableOfContentsList}/>
                 </div>
             </div>
