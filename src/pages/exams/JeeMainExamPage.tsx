@@ -48,11 +48,11 @@ const JeeMainExamPage = () => {
                 <OverviewSectionComponent dropDownMenuName="Overview" dropDownButtonId="JeeMainOverviewButtonId" dropDowndivId="JeeMainOverviewDivId" dropDownSubMenuList={JeeMainsExamSubMenuList} dropDownRoutesList={JeeMainsExamRoutesList} buttonNameList={JeeMainExamsButtonNameList} buttonWidthList={JeeMainExamPageButtonWidthList} buttonCodeList={JeeMainExamPageButtonCodesList} buttonGenericClickHandler={OnOverviewSectionButtonClickHandlerGeneric}></OverviewSectionComponent>
             </div>
             <HeadingComponent headingName="Latest Updates on" headingSpanName="Jee Main 2025"></HeadingComponent>
-            <div className="flex  flex-col justify-around items-center md:flex-row    mt-10 w-full">
+            <div className="flex  flex-col justify-around items-center md:flex-row  mt-10 w-full">
                 {/* here we will be using the map function to render all the available video card  component */}
                 {JeeMainVideoCardTitleList.map((_ : string, index : number) => (
                     <div className="mb-10">
-                        <VideoCard key={index} videoUrl={JeeMainVideoCardUrlList[index]} title={JeeMainVideoCardTitleList[index]} content="An example of a YouTube video embedded in a Tailwind CSS card." videoCardWidth="72"></VideoCard>
+                        <VideoCard key={index} videoUrl={JeeMainVideoCardUrlList[index]} title={JeeMainVideoCardTitleList[index]} content="An example of a YouTube video embedded in a Tailwind CSS card." videoCardWidth="64"></VideoCard>
                     </div>
                         
                 ))}

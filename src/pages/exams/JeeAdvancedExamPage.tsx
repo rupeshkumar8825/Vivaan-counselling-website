@@ -39,14 +39,17 @@ const JeeAdvancedExamPage = () => {
 
     return (
         <div className="text-white  mt-10 w-full">
-            <div className="flex items-center justify-center">
+            <div className="mt-10 flex items-center justify-center">
                 <OverviewSectionComponent dropDownMenuName="Overview" dropDownButtonId="JeeAdvanceOverviewButtonId" dropDowndivId="JeeAdvanceOverviewDivId" dropDownSubMenuList={JeeAdvanceExamSubMenuList} dropDownRoutesList={JeeAdvanceExamRoutesList} buttonNameList={JeeAdvanceExamsButtonNameList} buttonWidthList={JeeAdvanceExamPageButtonWidthList} buttonCodeList={JeeAdvanceExamPageButtonCodesList} buttonGenericClickHandler={OnOverviewSectionButtonClickHandlerGeneric}></OverviewSectionComponent>
             </div>
             <HeadingComponent headingName="Latest Updates" headingSpanName="Jee Advance"></HeadingComponent>
-            <div className="flex justify-center items-center justify-evenly mt-10 w-full p-10">
+            <div className="flex  flex-col justify-around items-center md:flex-row  mt-10 w-full">
                 {/* here we will be using the map function to render all the available video card  component */}
                 {JeeAdvanceVideoCardTitleList.map((_ : string, index : number) => (
-                    <VideoCard key={index} videoUrl={JeeAdvanceVideoCardUrlList[index]} title={JeeAdvanceVideoCardTitleList[index]} content="An example of a YouTube video embedded in a Tailwind CSS card."></VideoCard>
+                    <div className="mb-10">
+                        <VideoCard key={index} videoUrl={JeeAdvanceVideoCardUrlList[index]} title={JeeAdvanceVideoCardTitleList[index]} content="An example of a YouTube video embedded in a Tailwind CSS card." videoCardWidth="64"></VideoCard>
+
+                    </div>
                 ))}
             </div>
             <div className="">
