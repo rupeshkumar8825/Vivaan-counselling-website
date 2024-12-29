@@ -187,6 +187,20 @@ export interface IFeesSectionCollegePageComponent {
     content : string
 }
 
+export interface ILocationSectionCollegePageComponent extends IAboutSectionCollegePageComponent {
+            
+}
+
+export interface IRankingSectionCollegePageComponent extends IAboutSectionCollegePageComponent {
+            
+}
+
+export interface ISeatSectionCollegePageComponent extends IAboutSectionCollegePageComponent {
+            
+}
+
+
+
 export interface IAdmissionSectionCollegePageComponent extends IAboutSectionCollegePageComponent {
         
 }
@@ -211,30 +225,51 @@ export interface IIITGenericCollegeComponent {
     collegeImage : string, 
     collegeName : string, 
     collegePageNavigationConstants : Array<IIITCollegeNavigationConstants>, 
+
     aboutSectionContent : string, 
     aboutSectionHeadingId : string,
-    aboutSectionHeadingName : string
-    feeSectionContent : string, 
-    feeSectionHeadingId : string, 
-    feeSectionHeadingName : string, 
+    aboutSectionHeadingName : string, 
+
+    locationSectionContent : string,
+    locationSectionHeadingId : string,
+    locationSectionHeadingName : string,
+
+    rankingSectionContent : string,
+    rankingSectionHeadingId : string,
+    rankingSectionHeadingName : string, 
+
     admissionSectionContent : string,
     admissionSectionHeadingId : string,
     admissionSectionHeadingName : string, 
-    placementSectionContent : string, 
-    placementSectionHeadingId : string,
-    placementSectionHeadingName : string,
-    collegePlacementDataConstant : Array<any>,
-    // contactSectionContent : string, 
-    // contactSectionHeadingId : string,
-    // contactSectionHeadingName : string,
+
     coursesSectionContent : string,
     coursesSectionHeadingId : string,
     coursesSectionHeadingName : string, 
-    collegeCourseDetailConstant : Array<any>
+
+    feeSectionContent : string, 
+    feeSectionHeadingId : string, 
+    feeSectionHeadingName : string, 
+
+    seatSectionContent : string,
+    seatSectionHeadingId : string,
+    seatSectionHeadingName : string,
 
     cutoffSectionContent : string, 
     cutoffSectionHeadingId : string,
     cutoffSectionHeadingName : string, 
+
+
+    placementSectionContent : string, 
+    placementSectionHeadingId : string,
+    placementSectionHeadingName : string,
+
+
+    collegePlacementDataConstant : Array<any>,
+    // contactSectionContent : string, 
+    // contactSectionHeadingId : string,
+    // contactSectionHeadingName : string,
+    collegeCourseDetailConstant : Array<any>
+
 }
 
 

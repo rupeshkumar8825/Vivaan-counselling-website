@@ -1161,3 +1161,100 @@ export const IITDhanbadCollegeCoursesSectionContent: string = "IIT Dhanbad, also
 export const IITDhanbadCollegePlacementSectionContent: string = "IIT Dhanbad, also known as the Indian Institute of Technology (Indian School of Mines) Dhanbad, is one of the premier engineering institutions in India. Established in 1926, it is located in Dhanbad, Jharkhand. IIT Dhanbad is renowned for its academic excellence, cutting-edge research, and vibrant campus life. The institute offers a wide range of undergraduate, postgraduate, and doctoral programs in engineering, science, design, and management. With a strong emphasis on innovation and entrepreneurship, IIT Dhanbad has produced numerous successful alumni who have made significant contributions to various fields globally. The campus is equipped with state-of-the-art facilities, including modern laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
 
 export const IITDhanbadCollegeCutOffSectionContent: string = "IIT Dhanbad, also known as the Indian Institute of Technology (Indian School of Mines) Dhanbad, is one of the premier engineering institutions in India. Established in 1926, it is located in Dhanbad, Jharkhand. IIT Dhanbad is renowned for its academic excellence, cutting-edge research, and vibrant campus life. The institute offers a wide range of undergraduate, postgraduate, and doctoral programs in engineering, science, design, and management. With a strong emphasis on innovation and entrepreneurship, IIT Dhanbad has produced numerous successful alumni who have made significant contributions to various fields globally. The campus is equipped with state-of-the-art facilities, including modern laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
+
+
+
+
+// adding the constants for the remaining sections on the college page for this purpose 
+export const IITBombayCollegeLocationSectionContent : string = "Some texts will come here which gives some information about the location of the college for this purpose"
+export const IITBombayCollegeRankingSectionContent : string = "Some texts will come here which gives some information about the ranking of the college for this purpose"
+export const IITBombayCollegeSeatSectionContent : string = "Some texts will come here which gives some information about the seats of the college for this purpose"
+
+
+export const IITDelhiCollegeLocationSectionContent : string = "Some texts will come here which gives some information about the location of the college for this purpose"
+export const IITDelhiCollegeRankingSectionContent : string = "Some texts will come here which gives some information about the ranking of the college for this purpose"
+export const IITDelhiCollegeSeatSectionContent : string = "Some texts will come here which gives some information about the seats of the college for this purpose"
+
+export const IITKanpurCollegeLocationSectionContent : string = "Some texts will come here which gives some information about the location of the college for this purpose"
+export const IITKanpurCollegeRankingSectionContent : string = "Some texts will come here which gives some information about the ranking of the college for this purpose"
+export const IITKanpurCollegeSeatSectionContent : string = "Some texts will come here which gives some information about the seats of the college for this purpose"
+
+export const IITMadrasCollegeLocationSectionContent : string = "Some texts will come here which gives some information about the location of the college for this purpose"
+export const IITMadrasCollegeRankingSectionContent : string = "Some texts will come here which gives some information about the ranking of the college for this purpose"
+export const IITMadrasCollegeSeatSectionContent : string = "Some texts will come here which gives some information about the seats of the college for this purpose"
+
+export const IITKharagpurCollegeLocationSectionContent : string = "Some texts will come here which gives some information about the location of the college for this purpose"
+export const IITKharagpurCollegeRankingSectionContent : string = "Some texts will come here which gives some information about the ranking of the college for this purpose"
+export const IITKharagpurCollegeSeatSectionContent : string = "Some texts will come here which gives some information about the seats of the college for this purpose"
+
+export const IITRoorkeeCollegeLocationSectionContent : string = "Some texts will come here which gives some information about the location of the college for this purpose"
+export const IITRoorkeeCollegeRankingSectionContent : string = "Some texts will come here which gives some information about the ranking of the college for this purpose"
+export const IITRoorkeeCollegeSeatSectionContent : string = "Some texts will come here which gives some information about the seats of the college for this purpose"
+
+export const IITGuwahatiCollegeLocationSectionContent : string = "Some texts will come here which gives some information about the location of the college for this purpose"
+export const IITGuwahatiCollegeRankingSectionContent : string = "Some texts will come here which gives some information about the ranking of the college for this purpose"
+export const IITGuwahatiCollegeSeatSectionContent : string = "Some texts will come here which gives some information about the seats of the college for this purpose"
+
+export const IITRoparCollegeLocationSectionContent : string = "Some texts will come here which gives some information about the location of the college for this purpose"
+export const IITRoparCollegeRankingSectionContent : string = "Some texts will come here which gives some information about the ranking of the college for this purpose"
+export const IITRoparCollegeSeatSectionContent : string = "Some texts will come here which gives some information about the seats of the college for this purpose"
+
+export const IITBhubaneswarCollegeLocationSectionContent : string = "Some texts will come here which gives some information about the location of the college for this purpose"
+export const IITBhubaneswarCollegeRankingSectionContent : string = "Some texts will come here which gives some information about the ranking of the college for this purpose"
+export const IITBhubaneswarCollegeSeatSectionContent : string = "Some texts will come here which gives some information about the seats of the college for this purpose"
+
+export const IITIndoreCollegeLocationSectionContent : string = "Some texts will come here which gives some information about the location of the college for this purpose"
+export const IITIndoreCollegeRankingSectionContent : string = "Some texts will come here which gives some information about the ranking of the college for this purpose"
+export const IITIndoreCollegeSeatSectionContent : string = "Some texts will come here which gives some information about the seats of the college for this purpose"
+
+export const IITJodhpurCollegeLocationSectionContent : string = "Some texts will come here which gives some information about the location of the college for this purpose"
+export const IITJodhpurCollegeRankingSectionContent : string = "Some texts will come here which gives some information about the ranking of the college for this purpose"
+export const IITJodhpurCollegeSeatSectionContent : string = "Some texts will come here which gives some information about the seats of the college for this purpose"
+
+export const IITPatnaCollegeLocationSectionContent : string = "Some texts will come here which gives some information about the location of the college for this purpose"
+export const IITPatnaCollegeRankingSectionContent : string = "Some texts will come here which gives some information about the ranking of the college for this purpose"
+export const IITPatnaCollegeSeatSectionContent : string = "Some texts will come here which gives some information about the seats of the college for this purpose"
+
+export const IITGandhinagarCollegeLocationSectionContent : string = "Some texts will come here which gives some information about the location of the college for this purpose"
+export const IITGandhinagarCollegeRankingSectionContent : string = "Some texts will come here which gives some information about the ranking of the college for this purpose"
+export const IITGandhinagarCollegeSeatSectionContent : string = "Some texts will come here which gives some information about the seats of the college for this purpose"
+
+export const IITJammuCollegeLocationSectionContent : string = "Some texts will come here which gives some information about the location of the college for this purpose"
+export const IITJammuCollegeRankingSectionContent : string = "Some texts will come here which gives some information about the ranking of the college for this purpose"
+export const IITJammuCollegeSeatSectionContent : string = "Some texts will come here which gives some information about the seats of the college for this purpose"
+
+export const IITHyderabadCollegeLocationSectionContent : string = "Some texts will come here which gives some information about the location of the college for this purpose"
+export const IITHyderabadCollegeRankingSectionContent : string = "Some texts will come here which gives some information about the ranking of the college for this purpose"
+export const IITHyderabadCollegeSeatSectionContent : string = "Some texts will come here which gives some information about the seats of the college for this purpose"
+
+export const IITBHUCollegeLocationSectionContent : string = "Some texts will come here which gives some information about the location of the college for this purpose"
+export const IITBHUCollegeRankingSectionContent : string = "Some texts will come here which gives some information about the ranking of the college for this purpose"
+export const IITBHUCollegeSeatSectionContent : string = "Some texts will come here which gives some information about the seats of the college for this purpose"
+
+export const IITBhilaiCollegeLocationSectionContent : string = "Some texts will come here which gives some information about the location of the college for this purpose"
+export const IITBhilaiCollegeRankingSectionContent : string = "Some texts will come here which gives some information about the ranking of the college for this purpose"
+export const IITBhilaiCollegeSeatSectionContent : string = "Some texts will come here which gives some information about the seats of the college for this purpose"
+
+export const IITPalakkadCollegeLocationSectionContent : string = "Some texts will come here which gives some information about the location of the college for this purpose"
+export const IITPalakkadCollegeRankingSectionContent : string = "Some texts will come here which gives some information about the ranking of the college for this purpose"
+export const IITPalakkadCollegeSeatSectionContent : string = "Some texts will come here which gives some information about the seats of the college for this purpose"
+
+export const IITGoaCollegeLocationSectionContent : string = "Some texts will come here which gives some information about the location of the college for this purpose"
+export const IITGoaCollegeRankingSectionContent : string = "Some texts will come here which gives some information about the ranking of the college for this purpose"
+export const IITGoaCollegeSeatSectionContent : string = "Some texts will come here which gives some information about the seats of the college for this purpose"
+
+export const IITDharwadCollegeLocationSectionContent : string = "Some texts will come here which gives some information about the location of the college for this purpose"
+export const IITDharwadCollegeRankingSectionContent : string = "Some texts will come here which gives some information about the ranking of the college for this purpose"
+export const IITDharwadCollegeSeatSectionContent : string = "Some texts will come here which gives some information about the seats of the college for this purpose"
+
+export const IITMandiCollegeLocationSectionContent : string = "Some texts will come here which gives some information about the location of the college for this purpose"
+export const IITMandiCollegeRankingSectionContent : string = "Some texts will come here which gives some information about the ranking of the college for this purpose"
+export const IITMandiCollegeSeatSectionContent : string = "Some texts will come here which gives some information about the seats of the college for this purpose"
+
+export const IITTirupatiCollegeLocationSectionContent : string = "Some texts will come here which gives some information about the location of the college for this purpose"
+export const IITTirupatiCollegeRankingSectionContent : string = "Some texts will come here which gives some information about the ranking of the college for this purpose"
+export const IITTirupatiCollegeSeatSectionContent : string = "Some texts will come here which gives some information about the seats of the college for this purpose"
+
+export const IITDhanbadCollegeLocationSectionContent : string = "Some texts will come here which gives some information about the location of the college for this purpose"
+export const IITDhanbadCollegeRankingSectionContent : string = "Some texts will come here which gives some information about the ranking of the college for this purpose"
+export const IITDhanbadCollegeSeatSectionContent : string = "Some texts will come here which gives some information about the seats of the college for this purpose"

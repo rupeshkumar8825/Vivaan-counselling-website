@@ -1,6 +1,8 @@
 // this is the component for the location section of the generic iit college page
 
-const LocationSectionCollegeComponent = () => {
+import { ILocationSectionCollegePageComponent } from "../../../../interfaces/interfaces"
+
+const LocationSectionCollegeComponent = (props: ILocationSectionCollegePageComponent) => {
 
     return (
         <>

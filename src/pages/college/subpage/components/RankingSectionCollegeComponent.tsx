@@ -1,7 +1,9 @@
 // this is the ranking section of the college section for  generic college page
 
+import { IRankingSectionCollegePageComponent } from "../../../../interfaces/interfaces"
 
-const RankingSectionCollegeComponent = () => {
+
+const RankingSectionCollegeComponent = (props : IRankingSectionCollegePageComponent) => {
 
     return (
         <>
