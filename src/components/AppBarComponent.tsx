@@ -34,7 +34,7 @@ const AppBarComponent = () => {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex justify-between items-center h-16">
                         {/* Icon Section */}
-                        <div className="  flex justify-center items-center ">
+                        <div className="border-2 border-white   flex justify-center items-center ">
                             {/* You can replace this with your own SVG icon or an <img> tag */}
                             <a href="/">
                                 <img src={appLogo} className='w-12 h-12 mb-2 text-gray-400 group:hover:text-red-500 rounded-full' aria-hidden="true" alt="" />
@@ -49,17 +49,8 @@ const AppBarComponent = () => {
                             </div>
                         </div>
 
-                        {/* Hamburger Menu Icon */}
-                        <div className="md:hidden">
-                            <button onClick={toggleMenu} className="text-white focus:outline-none">
-                                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7" />
-                                </svg>
-                            </button>
-                        </div>
-
                         {/* Menu Items */}
-                        <div className={`md:flex ${isMenuOpen ? 'block' : 'hidden'} ml-10 flex-col md:flex-row items-baseline space-y-4 md:space-y-0 md:space-x-4 text-white`}>
+                        <div className={`border-2 border-white fixed inset-0 bg-blue bg-opacity-90 z-50 top-20 md:top-0 flex flex-col items-center justify-center space-y-4 ${isMenuOpen ? 'block' : 'hidden'} md:relative md:flex md:flex-row md:space-y-0 md:space-x-4 md:bg-transparent md:bg-opacity-0`}>
                             {/* <div className="ml-10 flex items-baseline space-x-4 text-white"> */}
                                 {/* Drop down menus comes here */}
                                 {/* here one improvement could be to use the for loop for render each  */}
@@ -99,6 +90,14 @@ const AppBarComponent = () => {
                             </a>
                         </div>
 
+                        {/* Hamburger Menu Icon */}
+                        <div className="md:hidden border-2 border-white">
+                            <button onClick={toggleMenu} className="text-white focus:outline-none">
+                                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7" />
+                                </svg>
+                            </button>
+                        </div>
                         {/* Login button */}
                         {/* <div>
                             <button onClick={handleLoginClickHandler} type="button" className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Login</button>
