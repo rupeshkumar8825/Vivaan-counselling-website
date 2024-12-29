@@ -4,6 +4,7 @@ import VideoCard from "../../components/VideoCardComponent"
 import BlogComponent from "../../components/blog/BlogComponent"
 import { useNavigate } from "react-router-dom"
 import { CsabCounsellingPageButtonCodeList, CsabCounsellingPageButtonNameList, CsabCounsellingPageButtonWidthList, CsabCounsellingPageContentList, CsabCounsellingPageHeadingIdList, CsabCounsellingPageHeadingList, CsabCounsellingPageImageList, CsabCounsellingPageRoutesList, CsabCounsellingPageSubMenuList, CsabCounsellingPageTableOfContentList, CsabCounsellingPageVideoCardTitleList, CsabCounsellingPageVideoCardUrlList } from "../../constants/councelling/CsabCouncellingPageConstants"
+import TopBanner from "../../home/components/TopBanner"
 
 const CsabCounsellingPage = () => {
     const navigate = useNavigate()
@@ -48,7 +49,8 @@ const CsabCounsellingPage = () => {
     }
 
     return (
-        <div className="text-white  mt-10 w-full">
+        <div className="text-white w-full">
+            <TopBanner></TopBanner>
             <div className="flex items-center justify-center">
                 <OverviewSectionComponent dropDownMenuName="Overview" dropDownButtonId="CsabOverviewButtonId" dropDowndivId="CsabOverviewDivId" dropDownSubMenuList={CsabCounsellingPageSubMenuList} dropDownRoutesList={CsabCounsellingPageRoutesList} buttonNameList={CsabCounsellingPageButtonNameList} buttonWidthList={CsabCounsellingPageButtonWidthList} buttonCodeList={CsabCounsellingPageButtonCodeList} buttonGenericClickHandler={OnOverviewSectionButtonClickHandlerGeneric}></OverviewSectionComponent>
             </div>

@@ -4,6 +4,7 @@ import VideoCard from "../../components/VideoCardComponent"
 import BlogComponent from "../../components/blog/BlogComponent"
 import { useNavigate } from "react-router-dom"
 import { WbJeeContentList, WbJeeExamPageButtonCodesList, WbJeeExamPageButtonWidthList, WBJeeExamRoutesList, WBJeeExamsButtonNameList, WBJeeExamSubMenuList, WbJeeHeadingIdList, WbJeeHeadingList, WbJeeImageList, WbJeeTableOfContentList, WbJeeVideoCardTitleList, WbJEEVideoCardUrlList } from "../../constants/exam/WbJeeExamPageConstants"
+import TopBanner from "../../home/components/TopBanner"
 
 
 // this component for the jee advance exam page 
@@ -38,7 +39,8 @@ const WebJeeExamPage = () => {
     }
 
     return (
-        <div className="text-white  mt-10 w-full">
+        <div className="text-white   w-full">
+            <TopBanner/>
             <div className="flex items-center justify-center">
                 <OverviewSectionComponent dropDownMenuName="Overview" dropDownButtonId="WbJeeOverviewButtonId" dropDowndivId="WbJeeOverviewDivId" dropDownSubMenuList={WBJeeExamSubMenuList} dropDownRoutesList={WBJeeExamRoutesList} buttonNameList={WBJeeExamsButtonNameList} buttonWidthList={WbJeeExamPageButtonWidthList} buttonCodeList={WbJeeExamPageButtonCodesList} buttonGenericClickHandler={OnOverviewSectionButtonClickHandlerGeneric}></OverviewSectionComponent>
             </div>

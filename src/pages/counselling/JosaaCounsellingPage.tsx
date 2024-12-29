@@ -4,6 +4,7 @@ import VideoCard from "../../components/VideoCardComponent"
 import BlogComponent from "../../components/blog/BlogComponent"
 import { useNavigate } from "react-router-dom"
 import { JosaaCounsellingPageButtonCodeList, JosaaCounsellingPageButtonNameList, JosaaCounsellingPageButtonWidthList, JosaaCounsellingPageContentList, JosaaCounsellingPageHeadingIdList, JosaaCounsellingPageHeadingList, JosaaCounsellingPageRoutesList, JosaaCounsellingPageSubMenuList, JosaaCounsellingPageTableOfContentList, JosaaCounsellingPageVideoCardTitleList, JosaaCounsellingPageVideoCardUrlList, JosaaCounsellingPageImageList } from "../../constants/councelling/JosaaCounsellingPageConstants"
+import TopBanner from "../../home/components/TopBanner"
 
 const JosaaCounsellingPage = () => {
     const navigate = useNavigate()
@@ -48,7 +49,8 @@ const JosaaCounsellingPage = () => {
     }
 
     return (
-        <div className="text-white  mt-10 w-full">
+        <div className="text-white   w-full">
+            <TopBanner></TopBanner>
             <div className="flex items-center justify-center">
                 <OverviewSectionComponent dropDownMenuName="Overview" dropDownButtonId="JosaaOverviewButtonId" dropDowndivId="JosaaOverviewDivId" dropDownSubMenuList={JosaaCounsellingPageSubMenuList} dropDownRoutesList={JosaaCounsellingPageRoutesList} buttonNameList={JosaaCounsellingPageButtonNameList} buttonWidthList={JosaaCounsellingPageButtonWidthList} buttonCodeList={JosaaCounsellingPageButtonCodeList} buttonGenericClickHandler={OnOverviewSectionButtonClickHandlerGeneric}></OverviewSectionComponent>
             </div>

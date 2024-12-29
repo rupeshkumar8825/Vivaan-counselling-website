@@ -17,6 +17,7 @@ import {
     ComedkCounsellingPageVideoCardTitleList, 
     ComedkCounsellingPageVideoCardUrlList 
 } from "../../constants/councelling/ComedkCounsellingPageConstants"
+import TopBanner from "../../home/components/TopBanner"
 
 // component for showing the Comedk counselling form for this purpose
 const ComedkCounsellingPage = () => {
@@ -61,7 +62,8 @@ const ComedkCounsellingPage = () => {
         }
     }
     return (
-        <div className="text-white  mt-10 w-full">
+        <div className="text-white w-full">
+            <TopBanner></TopBanner>
             <div className="flex items-center justify-center">
                 <OverviewSectionComponent dropDownMenuName="Overview" dropDownButtonId="ComedkOverviewButtonId" dropDowndivId="ComedkOverviewDivId" dropDownSubMenuList={ComedkCounsellingPageSubMenuList} dropDownRoutesList={ComedkCounsellingPageRoutesList} buttonNameList={ComedkCounsellingPageButtonNameList} buttonWidthList={ComedkCounsellingPageButtonWidthList} buttonCodeList={ComedkCounsellingPageButtonCodeList} buttonGenericClickHandler={OnOverviewSectionButtonClickHandlerGeneric}></OverviewSectionComponent>
             </div>

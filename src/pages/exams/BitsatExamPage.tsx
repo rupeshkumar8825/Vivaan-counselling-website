@@ -4,6 +4,7 @@ import VideoCard from "../../components/VideoCardComponent"
 import BlogComponent from "../../components/blog/BlogComponent"
 import { useNavigate } from "react-router-dom"
 import { BitSatContentList, BitSatExamPageButtonCodesList, BitSatExamPageButtonWidthList, BitSatExamRoutesList, BitSatExamsButtonNameList, BitSatExamSubMenuList, BitSatHeadingIdList, BitSatHeadingList, BitSatImageList, BitSatTableOfContentList, BitSatVideoCardTitleList, BitSatVideoCardUrlList } from "../../constants/exam/BitSatExamPageConstants"
+import TopBanner from "../../home/components/TopBanner"
 
 
 // this component for the jee advance exam page 
@@ -38,7 +39,8 @@ const BitSatExamPage = () => {
     }
 
     return (
-        <div className="text-white  mt-10 w-full">
+        <div className="text-white w-full">
+            <TopBanner/>
             <div className="flex items-center justify-center">
                 <OverviewSectionComponent dropDownMenuName="Overview" dropDownButtonId="BitSatOverviewButtonId" dropDowndivId="BitSatOverviewDivId" dropDownSubMenuList={BitSatExamSubMenuList} dropDownRoutesList={BitSatExamRoutesList} buttonNameList={BitSatExamsButtonNameList} buttonWidthList={BitSatExamPageButtonWidthList} buttonCodeList={BitSatExamPageButtonCodesList} buttonGenericClickHandler={OnOverviewSectionButtonClickHandlerGeneric}></OverviewSectionComponent>
             </div>

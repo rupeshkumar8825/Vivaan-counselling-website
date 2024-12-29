@@ -4,6 +4,7 @@ import VideoCard from "../../components/VideoCardComponent"
 import BlogComponent from "../../components/blog/BlogComponent"
 import { useNavigate } from "react-router-dom"
 import { MhCetExamPageImageList, MhtCetContentList, MhtCetExamPageButtonCodesList, MhtCetExamPageButtonWidthList, MhtCetExamRoutesList, MhtCetExamsButtonNameList, MhtCetExamSubMenuList, MhtCetHeadingIdList, MhtCetHeadingList, MhtCetTableOfContentList, MhtCetVideoCardTitleList, MhtCetVideoCardUrlList } from "../../constants/exam/MhtCetExamPageConstants"
+import TopBanner from "../../home/components/TopBanner"
 
 
 // this component for the jee advance exam page 
@@ -38,7 +39,8 @@ const MhtCetExamPage = () => {
     }
 
     return (
-        <div className="text-white  mt-10 w-full">
+        <div className="text-white w-full">
+            <TopBanner/>
             <div className="flex items-center justify-center">
                 <OverviewSectionComponent dropDownMenuName="Overview" dropDownButtonId="MhtCetOverviewButtonId" dropDowndivId="MhtCetOverviewDivId" dropDownSubMenuList={MhtCetExamSubMenuList} dropDownRoutesList={MhtCetExamRoutesList} buttonNameList={MhtCetExamsButtonNameList} buttonWidthList={MhtCetExamPageButtonWidthList} buttonCodeList={MhtCetExamPageButtonCodesList} buttonGenericClickHandler={OnOverviewSectionButtonClickHandlerGeneric}></OverviewSectionComponent>
             </div>
@@ -48,7 +50,6 @@ const MhtCetExamPage = () => {
                 {MhtCetVideoCardUrlList.map((_ : string, index : number) => (
                     <div className="mb-10">
                         <VideoCard key={index} videoUrl={MhtCetVideoCardUrlList[index]} title={MhtCetVideoCardTitleList[index]} content="An example of a YouTube video embedded in a Tailwind CSS card." videoCardWidth="64"></VideoCard>
-
                     </div>
                 ))}
             </div>

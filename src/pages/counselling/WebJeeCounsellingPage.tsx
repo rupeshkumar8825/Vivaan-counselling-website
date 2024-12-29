@@ -16,6 +16,7 @@ import {
     WbJEECounsellingPageVideoCardTitleList, 
     WbJEECounsellingPageVideoCardUrlList 
 } from "../../constants/councelling/WbJeeCounsellingPageConstants"
+import TopBanner from "../../home/components/TopBanner"
 
 // component for showing the wbjee counselling form for this purpose
 const WbJEECounsellingPage = () => {
@@ -60,7 +61,8 @@ const WbJEECounsellingPage = () => {
         }
     }
     return (
-        <div className="text-white  mt-10 w-full">
+        <div className="text-white w-full">
+            <TopBanner></TopBanner>
             <div className="flex items-center justify-center">
                 <OverviewSectionComponent dropDownMenuName="Overview" dropDownButtonId="WbJEEOverviewButtonId" dropDowndivId="WbJEEOverviewDivId" dropDownSubMenuList={WbJEECounsellingPageSubMenuList} dropDownRoutesList={WbJEECounsellingPageRoutesList} buttonNameList={WbJEECounsellingPageButtonNameList} buttonWidthList={WbJEECounsellingPageButtonWidthList} buttonCodeList={WbJEECounsellingPageButtonCodeList} buttonGenericClickHandler={OnOverviewSectionButtonClickHandlerGeneric}></OverviewSectionComponent>
             </div>

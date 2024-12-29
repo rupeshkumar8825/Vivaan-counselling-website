@@ -4,6 +4,7 @@ import VideoCard from "../../components/VideoCardComponent"
 import BlogComponent from "../../components/blog/BlogComponent"
 import { useNavigate } from "react-router-dom"
 import { JacDelhiCounsellingPageButtonCodeList, JacDelhiCounsellingPageButtonNameList, JacDelhiCounsellingPageButtonWidthList, JacDelhiCounsellingPageContentList, JacDelhiCounsellingPageHeadingIdList, JacDelhiCounsellingPageHeadingList, JACDelhiCounsellingPageImageList, JacDelhiCounsellingPageRoutesList, JacDelhiCounsellingPageSubMenuList, JacDelhiCounsellingPageTableOfContentList, JacDelhiCounsellingPageVideoCardTitleList, JacDelhiCounsellingPageVideoCardUrlList } from "../../constants/councelling/JacDelhiCouncellingPageConstants"
+import TopBanner from "../../home/components/TopBanner"
 
 const JacDelhiCounsellingPage = () => {
     const navigate = useNavigate()
@@ -47,7 +48,8 @@ const JacDelhiCounsellingPage = () => {
         }
     }
     return (
-        <div className="text-white  mt-10 w-full">
+        <div className="text-white w-full">
+            <TopBanner></TopBanner>
             <div className="flex items-center justify-center">
                 <OverviewSectionComponent dropDownMenuName="Overview" dropDownButtonId="JacDelhiOverviewButtonId" dropDowndivId="JacDelhiOverviewDivId" dropDownSubMenuList={JacDelhiCounsellingPageSubMenuList} dropDownRoutesList={JacDelhiCounsellingPageRoutesList} buttonNameList={JacDelhiCounsellingPageButtonNameList} buttonWidthList={JacDelhiCounsellingPageButtonWidthList} buttonCodeList={JacDelhiCounsellingPageButtonCodeList} buttonGenericClickHandler={OnOverviewSectionButtonClickHandlerGeneric}></OverviewSectionComponent>
             </div>

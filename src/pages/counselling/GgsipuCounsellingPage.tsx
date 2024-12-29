@@ -4,6 +4,7 @@ import VideoCard from "../../components/VideoCardComponent"
 import BlogComponent from "../../components/blog/BlogComponent"
 import { useNavigate } from "react-router-dom"
 import { GGSIPUCounsellingPageButtonCodeList, GGSIPUCounsellingPageButtonNameList, GGSIPUCounsellingPageButtonWidthList, GGSIPUCounsellingPageContentList, GGSIPUCounsellingPageHeadingIdList, GGSIPUCounsellingPageHeadingList, GGSIPUCounsellingPageRoutesList, GGSIPUCounsellingPageSubMenuList, GGSIPUCounsellingPageTableOfContentList, GGSIPUCounsellingPageVideoCardTitleList, GGSIPUCounsellingPageVideoCardUrlList } from "../../constants/councelling/GGSIPUCounsellingPageConstants"
+import TopBanner from "../../home/components/TopBanner"
 
 
 // component for the GGSIPU councelling page for this purpose
@@ -50,7 +51,8 @@ const GGSIPUCounsellingPage = () => {
     }
 
     return (
-        <div className="text-white  mt-10 w-full">
+        <div className="text-white  w-full">
+            <TopBanner></TopBanner>
             <div className="flex items-center justify-center">
                 <OverviewSectionComponent dropDownMenuName="Overview" dropDownButtonId="GGSIPUOverviewButtonId" dropDowndivId="GGSIPUOverviewDivId" dropDownSubMenuList={GGSIPUCounsellingPageSubMenuList} dropDownRoutesList={GGSIPUCounsellingPageRoutesList} buttonNameList={GGSIPUCounsellingPageButtonNameList} buttonWidthList={GGSIPUCounsellingPageButtonWidthList} buttonCodeList={GGSIPUCounsellingPageButtonCodeList} buttonGenericClickHandler={OnOverviewSectionButtonClickHandlerGeneric}></OverviewSectionComponent>
             </div>
