@@ -40,6 +40,11 @@ const IITGenericCollegePage = (props : IIITGenericCollegeComponent) => {
                 <FeesSectionCollegePageComponent headingId={props.feeSectionHeadingId} headingName={props.feeSectionHeadingName} content={props.feeSectionContent}></FeesSectionCollegePageComponent>
                 <CutoffSectionCollegePageComponent headingId={props.cutoffSectionHeadingId} headingName={props.cutoffSectionHeadingName} content={props.cutoffSectionContent}></CutoffSectionCollegePageComponent>
                 <PlacementSectionCollegePageComponent collegePlacementDataConstant={props.collegePlacementDataConstant} headingId={props.placementSectionHeadingId} headingName={props.placementSectionHeadingName} content={props.placementSectionContent}></PlacementSectionCollegePageComponent>
+
+                {/* ' following are the components which are not there currently' */}
+                {/* 1. Location 
+                    2. Ranking
+                    3. Seats  */}
             </div>
         </div>
     )

@@ -5,7 +5,7 @@ import JeeMainsCutoffImage  from "../../assets/images/exam/JeeMains/Jee-Mains-Cu
 import JeeMainsExamDateImage from "../../assets/images/exam/JeeMains/Jee-Mains-Exam-Date.png"
 import JeeMainsExamPatternImage from "../../assets/images/exam/JeeMains/Jee-Mains-Exam-Pattern.png"
 import JeeMainsQualifyingCriteriaImage from "../../assets/images/exam/JeeMains/Jee-Mains-Qualification-criteria.png"
-
+import ClickHereLogo from "../../assets/images/other/click-here-logo.png"
 
 export const JeeMainsExamSubMenuList : Array<string> = [
     "JEE Main Exam",
@@ -235,7 +235,9 @@ However, OCI passing the Class XII (or equivalent) examination from an instituti
     
     
 // Syllabus
-`<span style ="color : white;" class="underline""><a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer">Click here</a></span> to download JEE main latest syllabus`,
+// `<span style ="color : white;" class="underline""><a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer">Click here</a></span> to download JEE main latest syllabus`,
+`<span style="color: white;" class="underline"><a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer">Click here</a></span> <img src=${ClickHereLogo} alt="Download Icon" style="width: 50px; height: 20px; margin-left: 5px; border-radius:8px; display:inline-block; vertical-align:middle;" /> to download JEE main latest syllabus`,
+
     
     
 // Admit card
