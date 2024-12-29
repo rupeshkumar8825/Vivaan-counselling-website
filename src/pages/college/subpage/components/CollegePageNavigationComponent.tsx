@@ -3,7 +3,7 @@ import { ICollegePageNavigationComponent, IIITCollegeNavigationConstants } from 
 const CollegePageNavigationComponent = (props : ICollegePageNavigationComponent) => {
     return (
         <div className="p-5 border-t rounded bg-blue-forComponentBg border-gray-600">
-            <div className="flex flex-wrap justify-around  items-center font-medium">
+            <div className="flex justify-around  items-center font-medium overflow-x-auto space-x-4">
                 {/* using the for loop here to render all the navigation items */}
                 {props.collegePageNavigationConstants.map((currentNavigationItem: IIITCollegeNavigationConstants, index : number) => (
                     <a href={`#${currentNavigationItem.headingId}`} className="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-100 hover:rounded-lg group">
