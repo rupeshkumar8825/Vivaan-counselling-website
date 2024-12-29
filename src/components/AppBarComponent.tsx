@@ -34,23 +34,21 @@ const AppBarComponent = () => {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex justify-between items-center h-16">
                         {/* Icon Section */}
-                        <div className="border-2 border-white   flex justify-center items-center ">
-                            {/* You can replace this with your own SVG icon or an <img> tag */}
-                            <a href="/">
-                                <img src={appLogo} className='w-12 h-12 mb-2 text-gray-400 group:hover:text-red-500 rounded-full' aria-hidden="true" alt="" />
+                        <div className="flex justify-center items-center ">
+                            <div>
+                                {/* You can replace this with your own SVG icon or an <img> tag */}
+                                <a href="/">
+                                    <img src={appLogo} className='w-12 h-12 mb-2 text-gray-400 group:hover:text-red-500 rounded-full' aria-hidden="true" alt="" />
+                                </a>
 
-                                {/* <svg className="h-8 w-8 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="white">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 11c0 2.21-1.79 4-4 4s-4-1.79-4-4 1.79-4 4-4 4 1.79 4 4z" />
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4v16m8-4H4m12-8h4" />
-                                </svg> */}
-                            </a>
-                            <div className="text-white text-lg flex justify-center align-center ml-5">
+                            </div>
+                            <div className="hidden lg:block text-white text-xs sm:text-sm md:text-sm lg:text-md  flex justify-center align-center ml-2">
                                 CollegeKendra.com
                             </div>
                         </div>
 
                         {/* Menu Items */}
-                        <div className={`border-2 border-white fixed inset-0 bg-blue bg-opacity-90 z-50 top-20 md:top-0 flex flex-col items-center justify-center space-y-4 ${isMenuOpen ? 'block' : 'hidden'} md:relative md:flex md:flex-row md:space-y-0 md:space-x-4 md:bg-transparent md:bg-opacity-0`}>
+                        <div className={`fixed inset-0 bg-blue bg-opacity-90 z-50 top-14 md:top-0 flex flex-col items-center justify-center space-y-4 ${isMenuOpen ? 'block' : 'hidden'} md:relative md:flex md:flex-row md:space-y-0 md:space-x-4 md:bg-transparent md:bg-opacity-0`}>
                             {/* <div className="ml-10 flex items-baseline space-x-4 text-white"> */}
                                 {/* Drop down menus comes here */}
                                 {/* here one improvement could be to use the for loop for render each  */}
@@ -72,8 +70,8 @@ const AppBarComponent = () => {
                         {/* Ask doubt button for the website */}
                         <button className=" flex justify-around items-center text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-xs px-1 py-1.5 text-center">
                             {/* <img src="" alt="" /> */}
-                            <img src={whatsAppLogo} className='w-8 h-8 text-gray-400 group:hover:text-red-500 rounded-xl' aria-hidden="true" alt="" />
-                            <div className=" ml-2">+91 8986090651</div>
+                            <img src={whatsAppLogo} className='w-8 h-8  text-gray-400 group:hover:text-red-500 rounded-xl' aria-hidden="true" alt="" />
+                            <div className="ml-2 text-xs">+91 8986090651</div>
 
                             {/* <button type="button" className="text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Ask Doubt</button> */}
 
@@ -91,7 +89,7 @@ const AppBarComponent = () => {
                         </div>
 
                         {/* Hamburger Menu Icon */}
-                        <div className="md:hidden border-2 border-white">
+                        <div className="md:hidden">
                             <button onClick={toggleMenu} className="text-white focus:outline-none">
                                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7" />
