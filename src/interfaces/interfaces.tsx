@@ -215,8 +215,10 @@ export interface ISeatSectionCollegePageComponent extends IAboutSectionCollegePa
 
 
 
-export interface IAdmissionSectionCollegePageComponent extends IAboutSectionCollegePageComponent {
-        
+export interface IAdmissionSectionCollegePageComponent {
+    headingId : string, 
+    headingName : string, 
+    content : string
 }
 
 export interface IPlacementSectionCollegePageComponent extends IAboutSectionCollegePageComponent {
