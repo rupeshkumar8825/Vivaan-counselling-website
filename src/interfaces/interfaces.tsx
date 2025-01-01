@@ -229,7 +229,10 @@ export interface IContactSectionCollegePageComponent extends IAboutSectionColleg
         
 }
 
-export interface ICoursesSectionCollegePageComponent extends IAboutSectionCollegePageComponent {
+export interface ICoursesSectionCollegePageComponent {
+    headingId : string,
+    headingName : string,
+    content : string,
     collegeCourseDetailConstant : Array<any>
 }
 

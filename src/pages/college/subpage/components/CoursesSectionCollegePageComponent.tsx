@@ -63,10 +63,9 @@ const CoursesSectionCollegePageComponent = (props : ICoursesSectionCollegePageCo
         <div>
             {/* here comes the blog component specific for the courses being offered in the colleges */}
             {/* Blog component for the courses section */}
-            <BlogSectionComponent headingId={props.headingId} headingName={props.headingName} content={props.content}/>
-            <div className="flex justify-evenly items-center">
+             <BlogSectionComponent headingId={props.headingId} headingName={props.headingName} content={props.content}/>
+            {/*<div className="flex justify-evenly items-center">
 
-                {/* /* here comes the search section with drop down option */ }
                 <SelectComponent
                     selectId="duration"
                     selectLabelName="Select Course Duration:"
@@ -85,10 +84,10 @@ const CoursesSectionCollegePageComponent = (props : ICoursesSectionCollegePageCo
                     selectHtmlFor="graduationType"
                 />
                 
-            </div>
+            </div> */}
             {/* here comes the courses being offered in the college */}
             {/* List of courses */}
-            <div className="mt-10 flex flex-col items-center justify-center">
+            {/* <div className="mt-10 flex flex-col items-center justify-center">
                 <h2 className="text-lg font-medium text-slate-300 ">Courses Being Offered:</h2>
                 <ul className="list-disc pl-5">
                     {courses.map((course, index) => (
@@ -97,7 +96,12 @@ const CoursesSectionCollegePageComponent = (props : ICoursesSectionCollegePageCo
                         </li>
                     ))}
                 </ul>
-            </div>
+            </div> */}
+
+            {/* here we will have to show the list of courses that are being offered currently */}
+            {/* <div>
+                <h1>List of courses being offered</h1>
+            </div> */}
         </div>
     );
 };
