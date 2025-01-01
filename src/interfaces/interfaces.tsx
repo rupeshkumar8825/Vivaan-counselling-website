@@ -178,7 +178,9 @@ export interface IIIITCollegeNavigationConstants {
 export interface IAboutSectionCollegePageComponent {
     headingId : string, 
     headingName : string, 
-    content : string
+    content : string, 
+    aboutSectionTableContent : Array<string[]>,
+    aboutSectionTableHeading : Array<string>
 }
 
 export interface IFeesSectionCollegePageComponent {
@@ -293,30 +295,66 @@ export interface INITGenericCollegeComponent {
     collegeImage : string, 
     collegeName : string, 
     collegePageNavigationConstants : Array<INITCollegeNavigationConstants>, 
+
     aboutSectionContent : string, 
     aboutSectionHeadingId : string,
-    aboutSectionHeadingName : string
-    feeSectionContent : string, 
-    feeSectionHeadingId : string, 
-    feeSectionHeadingName : string, 
+    aboutSectionHeadingName : string, 
+    aboutSectionTableContent : Array<string[]>,
+    aboutSectionTableHeading : Array<string>,
+
+    locationSectionContent : string,
+    locationSectionHeadingId : string,
+    locationSectionHeadingName : string,
+    locationSectionTableContent : Array<string[]>,
+    locationSectionTableHeading : Array<string>,
+
+    rankingSectionContent : string,
+    rankingSectionHeadingId : string,
+    rankingSectionHeadingName : string, 
+    rankingSectionTableContent : Array<string[]>,
+    rankingSectionTableHeading : Array<string>,
+
     admissionSectionContent : string,
     admissionSectionHeadingId : string,
     admissionSectionHeadingName : string, 
-    placementSectionContent : string, 
-    placementSectionHeadingId : string,
-    placementSectionHeadingName : string,
-    collegePlacementDataConstant : Array<any>,
-    // contactSectionContent : string, 
-    // contactSectionHeadingId : string,
-    // contactSectionHeadingName : string,
+
     coursesSectionContent : string,
     coursesSectionHeadingId : string,
     coursesSectionHeadingName : string, 
-    collegeCourseDetailConstant : Array<any>
+
+    feeSectionContent : string, 
+    feeSectionHeadingId : string, 
+    feeSectionHeadingName : string, 
+    feeSectionInstituteFeeTableContent : Array<string[]>,
+    feeSectionInstituteFeeTableHeading : Array<string>,
+    feeSectionHostelFeeTableContent : Array<string[]>,
+    feeSectionHostelFeeTableHeading : Array<string>,
+
+
+    seatSectionContent : string,
+    seatSectionHeadingId : string,
+    seatSectionHeadingName : string,
+    seatSectionTableContent : Array<string[]>,
+    seatSectionTableHeading : Array<string>,
+
 
     cutoffSectionContent : string, 
     cutoffSectionHeadingId : string,
     cutoffSectionHeadingName : string, 
+
+
+    placementSectionContent : string, 
+    placementSectionHeadingId : string,
+    placementSectionHeadingName : string,
+
+
+    collegePlacementDataConstant : Array<any>,
+    // contactSectionContent : string, 
+    // contactSectionHeadingId : string,
+    // contactSectionHeadingName : string,
+    collegeCourseDetailConstant : Array<any>
+
+
 }
 
 
@@ -349,4 +387,11 @@ export interface IIIITGenericCollegeComponent {
     cutoffSectionContent : string, 
     cutoffSectionHeadingId : string,
     cutoffSectionHeadingName : string, 
+}
+
+
+// interfaces for the table that we will be showing 
+export interface ITableContentComponent {
+    tableContentHeading : Array<string>, 
+    tableContent : Array<string[]>
 }

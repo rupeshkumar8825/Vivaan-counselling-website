@@ -6,36 +6,36 @@ export const NITWarangalCollegeNavigationConstants : Array<INITCollegeNavigation
         headingId : "#nit-warangal-about"
     },
     {
+        title : "Location",
+        headingId : "#nit-warangal-location"
+    },
+    {
+        title : "Ranking",
+        headingId : "#nit-warangal-ranking"
+    },
+    {
+        title : "Admissions",
+        headingId : "#nit-warangal-admissions"
+    },
+    {
+        title : "Courses",
+        headingId : "#nit-warangal-courses"
+    },
+    {
         title : "Fees",
         headingId : "#nit-warangal-fees"
     },
     {
-        title : "Placements",
-        headingId : "#nit-warangal-placements"
+        title : "Seats",
+        headingId : "#nit-warangal-seats"
     },
-    {
-        title : "Location",
-        headingId : "#nit-warangal-location"
-    }, 
-    {
-        title : "Ranking",
-        headingId : "#nit-warangal-ranking"
-    }, 
-    {
-        title : "Courses",
-        headingId : "#nit-warangal-courses"
-    }, 
-    {
-        title : "Admissions",
-        headingId : "#nit-warangal-admissions"
-    }, 
     {
         title : "Cutoff",
         headingId : "#nit-warangal-cutoff"
-    }, 
+    },
     {
-        title : "Seats",
-        headingId : "#nit-warangal-seats"
+        title : "Placements",
+        headingId : "#nit-warangal-placements"
     }
 ]
 
@@ -45,7 +45,9 @@ export const NITWarangalCollegeAdmissionSectionContent : string = "NIT Warangal,
 export const NITWarangalCollegeCoursesSectionContent : string = "NIT Warangal, also known as the Indian Institute of Technology Bombay, is one of the premier engineering institutions in India. Established in 1958, it is located in Powai, Mumbai. NIT Warangal is renowned for its academic excellence, cutting-edge research, and vibrant campus life. The institute offers a wide range of undergraduate, postgraduate, and doctoral programs in engineering, science, design, and management. With a strong emphasis on innovation and entrepreneurship, NIT Warangal has produced numerous successful alumni who have made significant contributions to various fields globally. The campus is equipped with state-of-the-art facilities, including modern laboratories, libraries, and recreational centers, providing a conducive environment for holistic development."
 export const NITWarangalCollegePlacementSectionContent : string = "NIT Warangal, also known as the Indian Institute of Technology Bombay, is one of the premier engineering institutions in India. Established in 1958, it is located in Powai, Mumbai. NIT Warangal is renowned for its academic excellence, cutting-edge research, and vibrant campus life. The institute offers a wide range of undergraduate, postgraduate, and doctoral programs in engineering, science, design, and management. With a strong emphasis on innovation and entrepreneurship, NIT Warangal has produced numerous successful alumni who have made significant contributions to various fields globally. The campus is equipped with state-of-the-art facilities, including modern laboratories, libraries, and recreational centers, providing a conducive environment for holistic development."
 export const NITWarangalCollegeCutOffSectionContent : string = "NIT Warangal, also known as the Indian Institute of Technology Bombay, is one of the premier engineering institutions in India. Established in 1958, it is located in Powai, Mumbai. NIT Warangal is renowned for its academic excellence, cutting-edge research, and vibrant campus life. The institute offers a wide range of undergraduate, postgraduate, and doctoral programs in engineering, science, design, and management. With a strong emphasis on innovation and entrepreneurship, NIT Warangal has produced numerous successful alumni who have made significant contributions to various fields globally. The campus is equipped with state-of-the-art facilities, including modern laboratories, libraries, and recreational centers, providing a conducive environment for holistic development."
-
+export const NITWarangalCollegeLocationSectionContent : string = "NIT Warangal, also known as the Indian Institute of Technology Bombay, is one of the premier engineering institutions in India. Established in 1958, it is located in Powai, Mumbai. NIT Warangal is renowned for its academic excellence, cutting-edge research, and vibrant campus life. The institute offers a wide range of undergraduate, postgraduate, and doctoral programs in engineering, science, design, and management. With a strong emphasis on innovation and entrepreneurship, NIT Warangal has produced numerous successful alumni who have made significant contributions to various fields globally. The campus is equipped with state-of-the-art facilities, including modern laboratories, libraries, and recreational centers, providing a conducive environment for holistic development."
+export const NITWarangalCollegeRankingSectionContent : string = "NIT Warangal, also known as the Indian Institute of Technology Bombay, is one of the premier engineering institutions in India. Established in 1958, it is located in Powai, Mumbai. NIT Warangal is renowned for its academic excellence, cutting-edge research, and vibrant campus life. The institute offers a wide range of undergraduate, postgraduate, and doctoral programs in engineering, science, design, and management. With a strong emphasis on innovation and entrepreneurship, NIT Warangal has produced numerous successful alumni who have made significant contributions to various fields globally. The campus is equipped with state-of-the-art facilities, including modern laboratories, libraries, and recreational centers, providing a conducive environment for holistic development."
+export const NITWarangalCollegeSeatSectionContent : string = "NIT Warangal, also known as the Indian Institute of Technology Bombay, is one of the premier engineering institutions in India. Established in 1958, it is located in Powai, Mumbai. NIT Warangal is renowned for its academic excellence, cutting-edge research, and vibrant campus life. The institute offers a wide range of undergraduate, postgraduate, and doctoral programs in engineering, science, design, and management. With a strong emphasis on innovation and entrepreneurship, NIT Warangal has produced numerous successful alumni who have made significant contributions to various fields globally. The campus is equipped with state-of-the-art facilities, including modern laboratories, libraries, and recreational centers, providing a conducive environment for holistic development."
 
 export const NITBhopalCollegeNavigationConstants : Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-bhopal-about" },
