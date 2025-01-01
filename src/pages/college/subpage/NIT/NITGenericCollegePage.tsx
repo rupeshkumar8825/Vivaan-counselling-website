@@ -11,7 +11,9 @@ import CollegePageNavigationComponent from "../components/CollegePageNavigationC
 import CoursesSectionCollegePageComponent from "../components/CoursesSectionCollegePageComponent"
 import CutoffSectionCollegePageComponent from "../components/CutoffSectionCollegePageComponent"
 import FeesSectionCollegePageComponent from "../components/FeesSectionCollegePageComponent"
+import LocationSectionCollegeComponent from "../components/LocationSectionCollegeComponent"
 import PlacementSectionCollegePageComponent from "../components/PlacementSectionCollegePageComponent"
+import RankingSectionCollegeComponent from "../components/RankingSectionCollegeComponent"
 
 
 const NITGenericCollegePage = (props : INITGenericCollegeComponent) => {
@@ -29,6 +31,8 @@ const NITGenericCollegePage = (props : INITGenericCollegeComponent) => {
                 </div>
                 <CollegePageNavigationComponent collegePageNavigationSvgPathConstants={CollegePageNavigationSvgPathConstants} collegePageNavigationConstants={props.collegePageNavigationConstants}></CollegePageNavigationComponent>
                 <AboutSectionCollegePageComponent headingId={props.aboutSectionHeadingId} headingName={props.aboutSectionHeadingName} content={props.aboutSectionContent} aboutSectionTableContent={props.aboutSectionTableContent} aboutSectionTableHeading={props.aboutSectionTableHeading}></AboutSectionCollegePageComponent>
+                <LocationSectionCollegeComponent headingId={props.locationSectionHeadingId} headingName={props.locationSectionHeadingName} content={props.locationSectionContent} locationSectionTableContent={props.locationSectionTableContent} locationSectionTableHeading={props.locationSectionTableHeading}></LocationSectionCollegeComponent>
+                <RankingSectionCollegeComponent headingId={props.rankingSectionHeadingId} headingName={props.rankingSectionHeadingName} content={props.rankingSectionContent} rankingSectionTableContent={props.rankingSectionTableContent} rankingSectionTableHeading={props.rankingSectionTableHeading}></RankingSectionCollegeComponent>
                 <FeesSectionCollegePageComponent headingId={props.feeSectionHeadingId} headingName={props.feeSectionHeadingName} content={props.feeSectionContent}></FeesSectionCollegePageComponent>
                 <AdmissionSectionCollegePageComponent headingId={props.admissionSectionHeadingId} headingName={props.admissionSectionHeadingName} content={props.admissionSectionContent}></AdmissionSectionCollegePageComponent>
                 <CoursesSectionCollegePageComponent collegeCourseDetailConstant={props.collegeCourseDetailConstant} headingId={props.coursesSectionHeadingId} headingName={props.coursesSectionHeadingName} content={props.coursesSectionContent}></CoursesSectionCollegePageComponent>

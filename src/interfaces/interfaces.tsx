@@ -187,14 +187,26 @@ export interface IFeesSectionCollegePageComponent {
     headingId : string, 
     headingName : string, 
     content : string
+    feeSectionInstituteFeeTableContent : Array<string[]>,
+    feeSectionInstituteFeeTableHeading : Array<string>,
+    feeSectionHostelFeeTableContent : Array<string[]>,
+    feeSectionHostelFeeTableHeading : Array<string>
 }
 
-export interface ILocationSectionCollegePageComponent extends IAboutSectionCollegePageComponent {
-            
+export interface ILocationSectionCollegePageComponent {
+    headingId : string,
+    headingName : string,
+    content : string,
+    locationSectionTableContent : Array<string[]>,
+    locationSectionTableHeading : Array<string>
 }
 
-export interface IRankingSectionCollegePageComponent extends IAboutSectionCollegePageComponent {
-            
+export interface IRankingSectionCollegePageComponent {
+    headingId : string,
+    headingName : string,
+    content : string,
+    rankingSectionTableContent : Array<string[]>,
+    rankingSectionTableHeading : Array<string>
 }
 
 export interface ISeatSectionCollegePageComponent extends IAboutSectionCollegePageComponent {
