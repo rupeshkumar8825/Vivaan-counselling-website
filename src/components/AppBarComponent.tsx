@@ -3,8 +3,10 @@ import DropDownMenuComponent from "./DropDownMenuComponent"
 import { collegeRoutesList, collegeSubMenuList, counsellingRouteList, counsellingSubMenuList, examRouteList, examSubMenuList, mentorshipRouteList, mentorshipSubMenuList } from "../constants/AppBarConstants"
 import appLogo from "../assets/Logo.jpg"
 import whatsAppLogo from "../assets/images/WhatsAppLogo.png"
-import instagramLogo from "../assets/images/instagramLogo.png"
-import youtubeLogo from "../assets/images/youtubeLogo.png"
+import instagramLogo from "../assets/images/InstagramLogo.png"
+import ShareLogo from "../assets/images/YoutubeShareLogo.png"
+
+
 import { useState } from "react"
 
 
@@ -81,10 +83,10 @@ const AppBarComponent = () => {
                         {/* Social Media Icons */}
                         <div className="flex space-x-4">
                             <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-                                <img src={instagramLogo} className=' w-8 h-8 text-gray-400 group:hover:text-red-500 rounded-xl' aria-hidden="true" alt="Instagram Logo" />
+                                <img src={instagramLogo} className=' w-8s h-8 text-gray-400 group:hover:text-red-500 rounded-xl bg-transparent'  aria-hidden="true" alt="Instagram Logo" />
                             </a>
                             <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
-                                <img src={youtubeLogo} className='w-7 h-7 text-gray-400 group:hover:text-red-500 rounded' aria-hidden="true" alt="YouTube Logo" />
+                                <img src={ShareLogo} className='w-18 h-9 text-gray-400 group:hover:text-red-500 rounded' aria-hidden="true" alt="YouTube Logo" />
                             </a>
                         </div>
 
