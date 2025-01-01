@@ -5,7 +5,7 @@ import FeeSectionTableComponent from './tables/FeeSectionTableComponent';
 
 const FeesSectionCollegePageComponent = (props : IFeesSectionCollegePageComponent) => {
     return (
-        <div>
+        <div className='mt-10'>
             {/* below is some description about the section */}
             <BlogSectionComponent headingId={props.headingId} headingName={props.headingName} content={props.content}></BlogSectionComponent>
 

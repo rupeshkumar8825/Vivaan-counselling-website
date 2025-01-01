@@ -10,7 +10,7 @@ import { IAdmissionSectionCollegePageComponent } from "../../../../interfaces/in
 
 const AdmissionSectionCollegePageComponent = (props: IAdmissionSectionCollegePageComponent) => {
     return (
-        <div>
+        <div className="mt-10">
             <BlogSectionComponent headingId={props.headingId} headingName={props.headingName} content={props.content}></BlogSectionComponent>
         </div>
     );

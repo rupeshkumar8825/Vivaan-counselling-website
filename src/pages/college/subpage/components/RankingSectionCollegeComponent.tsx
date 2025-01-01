@@ -9,10 +9,13 @@ const RankingSectionCollegeComponent = (props : IRankingSectionCollegePageCompon
 
     return (
         <>
-            {/* here comes the blog component if any for the ranking section for this purpose */}
-            <BlogSectionComponent headingId={props.headingId} headingName={props.headingName} content={props.content}></BlogSectionComponent>
-            {/* then here comes the ranking table component for this purpose */}
-            <RankingSectionTableComponent tableContentHeading={props.rankingSectionTableHeading} tableContent={props.rankingSectionTableContent}></RankingSectionTableComponent>
+            <div className="mt-10">
+                {/* here comes the blog component if any for the ranking section for this purpose */}
+                <BlogSectionComponent headingId={props.headingId} headingName={props.headingName} content={props.content}></BlogSectionComponent>
+                {/* then here comes the ranking table component for this purpose */}
+                <RankingSectionTableComponent tableContentHeading={props.rankingSectionTableHeading} tableContent={props.rankingSectionTableContent}></RankingSectionTableComponent>
+
+            </div>
         </>
     )
 }

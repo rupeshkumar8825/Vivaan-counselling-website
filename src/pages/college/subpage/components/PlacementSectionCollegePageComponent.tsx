@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import BlogSectionComponent from "../../../../components/blog/BlogSectionComponent";
 import SelectComponent from "../../../../components/common/SelectComponent";
 import { IPlacementSectionCollegePageComponent } from "../../../../interfaces/interfaces";
-
+// import NITWarangalImage1 from "."
 // in this we will be showing the placement of the colleges for multiple years 
 const PlacementSectionCollegePageComponent = (props: IPlacementSectionCollegePageComponent) => {
     // states for the component comes here
@@ -27,13 +27,21 @@ const PlacementSectionCollegePageComponent = (props: IPlacementSectionCollegePag
         setSelectedPlacementYear("")
         const listConsistingOnlyPlacementYears = props.collegePlacementDataConstant.map((currPlacementYear: any) => currPlacementYear.placementYear)
         setListConsistingOnlyPlacementYears(listConsistingOnlyPlacementYears ? listConsistingOnlyPlacementYears : [])
+        console.log("this list images are as follows\n", props.imageArray)
     }, [])
 
 
     return (
-        <div>
+        <div className="mt-10">
             <BlogSectionComponent headingId={props.headingId} headingName={props.headingName} content={props.content}></BlogSectionComponent>
-            <div className=" flex flex-col justify-center items-center">
+
+            {/* here comes the list of images to be shown in this case */}
+            <div className="flex flex-wrap items-center justify-around  ">
+                {props.imageArray.map((currPlacementImage: string, index: number) => (
+                    <img key={index} src={currPlacementImage}  className="w-96 h-100 mt-5 mb-5 border-2 border-slate-700 rounded-lg"></img>
+                ))}
+            </div>
+            {/* <div className=" flex flex-col justify-center items-center">
                 <SelectComponent
                     selectId="placement"
                     selectLabelName="Select Placement Year:"
@@ -93,7 +101,7 @@ const PlacementSectionCollegePageComponent = (props: IPlacementSectionCollegePag
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
         </div>
     );

@@ -60,7 +60,7 @@ const CoursesSectionCollegePageComponent = (props : ICoursesSectionCollegePageCo
 
 
     return (
-        <div>
+        <div className="mt-10">
             {/* here comes the blog component specific for the courses being offered in the colleges */}
             {/* Blog component for the courses section */}
              <BlogSectionComponent headingId={props.headingId} headingName={props.headingName} content={props.content}/>

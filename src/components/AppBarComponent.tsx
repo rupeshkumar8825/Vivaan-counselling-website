@@ -70,10 +70,13 @@ const AppBarComponent = () => {
 
 
                         {/* Ask doubt button for the website */}
-                        <button className=" flex justify-around items-center text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-xs px-1 py-1.5 text-center">
+                        <button className=" flex justify-around items-center text-gray-900  bg-blue-forComponentBg focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-xs px-1 py-1.5 text-center text-white ml-20">
                             {/* <img src="" alt="" /> */}
-                            <img src={whatsAppLogo} className='w-8 h-8  text-gray-400 group:hover:text-red-500 rounded-xl' aria-hidden="true" alt="" />
-                            <div className="ml-2 text-xs">+91 8986090651</div>
+                            <div className="flex items-center justify-center bg-gradient-to-r  bg-blue-forComponentBg rounded-full p-1 ml-1">
+                                <img src={whatsAppLogo} className='w-6 h-6 bg-lime-200 text-gray-400 group:hover:text-red-500 rounded' aria-hidden="true" alt="WhatsApp Logo" />
+                            </div>
+                            {/* <img src={whatsAppLogo} className='w-8 h-8  text-gray-400 group:hover:text-red-500 rounded-xl' aria-hidden="true" alt="" /> */}
+                            <div className="ml-2 text-xs mr-5">+91 8986090651</div>
 
                             {/* <button type="button" className="text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Ask Doubt</button> */}
 
@@ -81,9 +84,9 @@ const AppBarComponent = () => {
 
 
                         {/* Social Media Icons */}
-                        <div className="flex space-x-4">
+                        <div className="flex space-x-10">
                             <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-                                <img src={instagramLogo} className=' w-8s h-8 text-gray-400 group:hover:text-red-500 rounded-xl bg-transparent'  aria-hidden="true" alt="Instagram Logo" />
+                                <img src={instagramLogo} className=' w-8 h-8 text-gray-400 group:hover:text-red-500 rounded-xl bg-transparent'  aria-hidden="true" alt="Instagram Logo" />
                             </a>
                             <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
                                 <img src={ShareLogo} className='w-18 h-9 text-gray-400 group:hover:text-red-500 rounded' aria-hidden="true" alt="YouTube Logo" />

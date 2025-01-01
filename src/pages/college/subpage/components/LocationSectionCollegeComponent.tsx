@@ -8,10 +8,13 @@ const LocationSectionCollegeComponent = (props: ILocationSectionCollegePageCompo
 
     return (
         <>
-            {/* here we will add some text or some blog component for this purpose */}
-            <BlogSectionComponent headingId={props.headingId} headingName={props.headingName} content={props.content}></BlogSectionComponent>
-            {/* and then here comes the table of content for the location */}
-            <LocationSectionTableComponent tableContent={props.locationSectionTableContent} tableContentHeading={props.locationSectionTableHeading}></LocationSectionTableComponent>
+            <div className="mt-10">
+                {/* here we will add some text or some blog component for this purpose */}
+                <BlogSectionComponent headingId={props.headingId} headingName={props.headingName} content={props.content}></BlogSectionComponent>
+                {/* and then here comes the table of content for the location */}
+                <LocationSectionTableComponent tableContent={props.locationSectionTableContent} tableContentHeading={props.locationSectionTableHeading}></LocationSectionTableComponent>
+
+            </div>
         </>
     )
 }

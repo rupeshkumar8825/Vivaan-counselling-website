@@ -221,8 +221,13 @@ export interface IAdmissionSectionCollegePageComponent {
     content : string
 }
 
-export interface IPlacementSectionCollegePageComponent extends IAboutSectionCollegePageComponent {
-        collegePlacementDataConstant : Array<any>
+export interface IPlacementSectionCollegePageComponent {
+    headingId : string, 
+    headingName : string, 
+    content : string, 
+    imageArray : Array<string>, 
+    collegePlacementDataConstant : Array<any>
+
 }
 
 export interface IContactSectionCollegePageComponent extends IAboutSectionCollegePageComponent {
@@ -254,7 +259,7 @@ export interface IIITGenericCollegeComponent {
     locationSectionHeadingName : string,
 
     rankingSectionContent : string,
-    rankingSectionHeadingId : string,
+    rankingSectionHeadingId : string,   
     rankingSectionHeadingName : string, 
 
     admissionSectionContent : string,
@@ -363,6 +368,7 @@ export interface INITGenericCollegeComponent {
     placementSectionContent : string, 
     placementSectionHeadingId : string,
     placementSectionHeadingName : string,
+    placementImageList : Array<string>
 
 
     collegePlacementDataConstant : Array<any>,

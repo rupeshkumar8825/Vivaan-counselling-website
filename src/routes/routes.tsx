@@ -738,6 +738,7 @@ import { NITWarangalAboutDataTableConstant, NITWarangalFeesDataTableHeading } fr
 import { NITWarangalLocationDataTableConstant, NITWarangalLocationDataTableHeading } from "../constants/college/NIT/NITLocationDataCollegeConstant";
 import { NITWarangalRankingDataTableConstant, NITWarangalRankingDataTableHeading } from "../constants/college/NIT/NITRankingDataCollegeConstant";
 import { NITWarangalSeatDataTableConstant, NITWarangalSeatDataTableHeading } from "../constants/college/NIT/NITSeatDataCollegeConstant";
+import { NITWarangalPlacementImageList } from "../constants/college/NIT/NITPlacementDataCollegeComponent";
 
 const routes = [
     //authentication related routes
@@ -1281,7 +1282,7 @@ const routes = [
         feeSectionContent={NITWarangalCollegeFeeSectionContent} feeSectionHeadingId={NITWarangalCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITWarangalCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITWarangalInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITWarangalInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITWarangalHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITWarangalHostelFeesDataTableHeading}
         seatSectionContent={NITWarangalCollegeSeatSectionContent} seatSectionHeadingId={NITWarangalCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITWarangalCollegeNavigationConstants[6].title} seatSectionTableContent={NITWarangalSeatDataTableConstant} seatSectionTableHeading={NITWarangalSeatDataTableHeading}
         cutoffSectionContent={NITWarangalCollegeCutOffSectionContent} cutoffSectionHeadingId={NITWarangalCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITWarangalCollegeNavigationConstants[7].title}
-        placementSectionContent={NITWarangalCollegePlacementSectionContent} placementSectionHeadingId={NITWarangalCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITWarangalCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]}>
+        placementSectionContent={NITWarangalCollegePlacementSectionContent} placementSectionHeadingId={NITWarangalCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITWarangalCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITWarangalPlacementImageList}>
 
         </NITGenericCollegePage>
 

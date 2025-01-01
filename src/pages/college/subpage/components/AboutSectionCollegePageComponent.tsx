@@ -13,10 +13,13 @@ const AboutSectionCollegePageComponent = (props : IAboutSectionCollegePageCompon
     })
     return (
         <>
+        <div className='mt-10'>
             <BlogSectionComponent headingId={props.headingId} headingName={props.headingName} content={props.content}></BlogSectionComponent>
             {/* currently the client requirement we just have to show only the table in this section and may be some text */}
             {/* <TableContentComponent></TableContentComponent> */}
             <AboutSectionTableComponent tableContentHeading={props.aboutSectionTableHeading} tableContent={props.aboutSectionTableContent}></AboutSectionTableComponent>
+
+        </div>
         </>
         
         // <div id={props.headingId}>

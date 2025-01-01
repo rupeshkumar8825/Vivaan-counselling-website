@@ -36,8 +36,8 @@ const NITGenericCollegePage = (props : INITGenericCollegeComponent) => {
                 <AdmissionSectionCollegePageComponent headingId={props.admissionSectionHeadingId} headingName={props.admissionSectionHeadingName} content={props.admissionSectionContent}></AdmissionSectionCollegePageComponent>
                 <CoursesSectionCollegePageComponent collegeCourseDetailConstant={props.collegeCourseDetailConstant} headingId={props.coursesSectionHeadingId} headingName={props.coursesSectionHeadingName} content={props.coursesSectionContent}></CoursesSectionCollegePageComponent>
                 <FeesSectionCollegePageComponent headingId={props.feeSectionHeadingId} headingName={props.feeSectionHeadingName} content={props.feeSectionContent} feeSectionInstituteFeeTableContent={props.feeSectionInstituteFeeTableContent} feeSectionInstituteFeeTableHeading={props.feeSectionInstituteFeeTableHeading} feeSectionHostelFeeTableContent={props.feeSectionHostelFeeTableContent} feeSectionHostelFeeTableHeading={props.feeSectionHostelFeeTableHeading}></FeesSectionCollegePageComponent>
-                <PlacementSectionCollegePageComponent collegePlacementDataConstant={props.collegePlacementDataConstant} headingId={props.placementSectionHeadingId} headingName={props.placementSectionHeadingName} content={props.placementSectionContent}></PlacementSectionCollegePageComponent>
                 <CutoffSectionCollegePageComponent headingId={props.cutoffSectionHeadingId} headingName={props.cutoffSectionHeadingName} content={props.cutoffSectionContent}></CutoffSectionCollegePageComponent>
+                <PlacementSectionCollegePageComponent collegePlacementDataConstant={props.collegePlacementDataConstant} headingId={props.placementSectionHeadingId} headingName={props.placementSectionHeadingName} content={props.placementSectionContent} imageArray={props.placementImageList}></PlacementSectionCollegePageComponent>
             </div>
         </div>
     )
