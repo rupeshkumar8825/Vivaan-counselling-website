@@ -209,8 +209,12 @@ export interface IRankingSectionCollegePageComponent {
     rankingSectionTableHeading : Array<string>
 }
 
-export interface ISeatSectionCollegePageComponent extends IAboutSectionCollegePageComponent {
-            
+export interface ISeatSectionCollegePageComponent {
+    headingId : string, 
+    headingName : string, 
+    content  : string, 
+    seatSectionTableContent : Array<string[]>,
+    seatSectionTableHeading : Array<string>           
 }
 
 
@@ -241,7 +245,10 @@ export interface ICoursesSectionCollegePageComponent {
     collegeCourseDetailConstant : Array<any>
 }
 
-export interface ICutoffSectionCollegePageComponent extends IAboutSectionCollegePageComponent { 
+export interface ICutoffSectionCollegePageComponent  { 
+    headingId : string, 
+    headingName : string, 
+    content : string
 }
 
 
