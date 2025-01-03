@@ -21,26 +21,26 @@ const SeatMatrixSectionTableComponent = (props: ITableContentComponent) => {
                         {/* using the for loop to show each row data in the table */}
                         {props.tableContent.map((currentRow: string[], index: number) => (
                             <tr key={index} className="border-b bg-gray-800 border-gray-700">
-                                <th scope="row" className="px-6 py-4 font-medium text-slate-400 whitespace-nowrap text-white text-center">
+                                <th scope="row" className="px-6 py-4 font-medium text-slate-400 whitespace-nowrap text-white text-center border-r border-gray-600">
                                     {currentRow[0]}
                                 </th>
-                                <td className="px-6 py-4 text-center">
+                                <td className="px-6 py-4 text-center border-r border-gray-600">
                                     {currentRow[1]}
                                 </td>
-                                <td className="px-6 py-4 text-center">
+                                <td className="px-6 py-4 text-center border-r border-gray-600">
                                     {currentRow[2]}
                                 </td>
                             </tr>
                         ))}
 
                         <tr className="border-b bg-gray-800 border-gray-700">
-                            <th scope="row" rowSpan={2} className="px-6 py-4 font-medium text-slate-400 whitespace-nowrap text-white text-center">
+                            <th scope="row" rowSpan={2} className="px-6 py-4 font-medium text-slate-400 whitespace-nowrap text-white text-center border-r border-gray-600">
                                 Total
                             </th>
-                            <td className="px-6 py-4 text-center">
+                            <td className="px-6 py-4 text-center border-r border-gray-600">
                                 {props.tableContent.reduce((acc, currentRow) => acc + Number(currentRow[1]), 0)}
                             </td>
-                            <td className="px-6 py-4 text-center">
+                            <td className="px-6 py-4 text-center border-r border-gray-600">
                                 {props.tableContent.reduce((acc, currentRow) => acc + Number(currentRow[2]), 0)}
                             </td>
                         </tr>
@@ -48,7 +48,7 @@ const SeatMatrixSectionTableComponent = (props: ITableContentComponent) => {
                             {/* <th scope="row" className="px-6 py-4 font-medium text-slate-400 whitespace-nowrap text-white text-center">
                                 Grand Total
                             </th> */}
-                            <td colSpan={2} className="px-6 py-4 text-center">
+                            <td colSpan={2} className="px-6 py-4 text-center border-r border-gray-600">
                                 {props.tableContent.reduce((acc, currentRow) => acc + Number(currentRow[1]), 0) + props.tableContent.reduce((acc, currentRow) => acc + Number(currentRow[2]), 0)}
                             </td>
                         </tr>
