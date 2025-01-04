@@ -21,7 +21,7 @@ const SeatMatrixSectionTableComponent = (props: ITableContentComponent) => {
                         {/* using the for loop to show each row data in the table */}
                         {props.tableContent.map((currentRow: string[], index: number) => (
                             <tr key={index} className="border-b bg-gray-800 border-gray-700">
-                                <th scope="row" className="px-6 py-4 font-medium text-slate-400 whitespace-nowrap text-white text-center border-r border-gray-600">
+                                <th scope="row" className="px-6 py-4 font-medium text-slate-400 whitespace-wrap text-white text-center border-r border-gray-600">
                                     {currentRow[0]}
                                 </th>
                                 <td className="px-6 py-4 text-center border-r border-gray-600">
@@ -34,7 +34,7 @@ const SeatMatrixSectionTableComponent = (props: ITableContentComponent) => {
                         ))}
 
                         <tr className="border-b bg-gray-800 border-gray-700">
-                            <th scope="row" rowSpan={2} className="px-6 py-4 font-medium text-slate-400 whitespace-nowrap text-white text-center border-r border-gray-600">
+                            <th scope="row" rowSpan={2} className="px-6 py-4 font-medium text-slate-400 whitespace-wrap text-white text-center border-r border-gray-600">
                                 Total
                             </th>
                             <td className="px-6 py-4 text-center border-r border-gray-600">
