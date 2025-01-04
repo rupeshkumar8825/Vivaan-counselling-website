@@ -25,7 +25,7 @@ const NITGenericCollegePage = (props : INITGenericCollegeComponent) => {
                 {/* here comes the IIT bombay image  */}
                 <div className="flex flex-col items-center justify-center p-10 rounded w-full">
                     <div className="relative w-full flex justify-center items-center">
-                        <img src={props.collegeImage} alt="IIT Bombay" className=" rounded w-3/4 h-80 "></img>
+                        <img src={props.collegeImage} alt="IIT Bombay" className=" rounded w-full h-40 sm:w-[90%] md:w-[90%] lg:w-[90%] xl:w-[90%]  sm:h-64 md:h-68 lg:h-72 xl:h-80 "></img>
                         <div className="absolute inset-0 bg-blue opacity-50 rounded"></div>
                     </div>
                     <div className="text-2xl font-bold mt-5 ">{props.collegeName}</div>
