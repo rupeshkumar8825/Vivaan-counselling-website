@@ -2,8 +2,12 @@
 
 import TableContentComponent from "../../../../../components/TableContentComponent"
 import { ITableContentComponent } from "../../../../../interfaces/interfaces"
+import NIRFRankingLogo from "../../../../../assets/images/NirfAllEngineeringLogo.png"
+import OverAllEngineeringLocationLogo from "../../../../../assets/images/OverAllEngineeringLogo.png"
 
 const RankingSectionTableComponent = (props : ITableContentComponent) => {
+
+    const imageList = [NIRFRankingLogo, OverAllEngineeringLocationLogo]
     return (
         <div className="relative overflow-x-auto  flex items-center justify-center p-10">
         <table className="w-3/4 text-sm text-left rtl:text-right text-gray-400">
@@ -24,8 +28,14 @@ const RankingSectionTableComponent = (props : ITableContentComponent) => {
                         <th scope="row" className="px-6 py-4 font-medium text-slate-400 whitespace-nowrap text-white">
                             {currentRow[0]}
                         </th>
-                        <td className="px-6 py-4">
+                        <td className="px-6 py-4 flex  justify-around flex-wrap  items-center">
+                            <div className=" ">
                             {currentRow[1]}
+                            </div>
+
+                            <div className="">
+                                <img src={imageList[index]} className="w-10 h-10  rounded-lg" alt="location logo" />
+                            </div>
                         </td>
                     </tr>
                 ))}
