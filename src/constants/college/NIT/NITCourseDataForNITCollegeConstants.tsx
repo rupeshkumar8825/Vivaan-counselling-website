@@ -1145,3 +1145,36 @@ export const NITAndhraPradeshCoursesDetailsConstants = [
         ]
     }
 ]
+
+export const NITShibpurCoursesDetailsConstants = [
+    {
+        duration: "4",
+        graduationType: [
+            {
+                type: "B.Tech",
+                courses: [
+                    "Civil Engineering",
+                    "Computer Science and Engineering",
+                    "Electrical Engineering",
+                    "Electronics and Communication Engineering",
+                    "Mechanical Engineering"
+                ]
+            }
+        ]
+    },
+    {
+        duration: "5",
+        graduationType: [
+            {
+                type: "B.Tech + M.Tech",
+                courses: [
+                    "Civil Engineering",
+                    "Computer Science and Engineering",
+                    "Electrical Engineering",
+                    "Electronics and Communication Engineering",
+                    "Mechanical Engineering"
+                ]
+            }
+        ]
+    }
+]

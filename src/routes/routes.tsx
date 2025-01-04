@@ -522,13 +522,110 @@ import { NITBhopalCollegeAboutSectionContent
     NITAndhraPradeshCollegePlacementSectionContent,
     NITWarangalCollegeLocationSectionContent,
     NITWarangalCollegeRankingSectionContent,
-    NITWarangalCollegeSeatSectionContent
+    NITWarangalCollegeSeatSectionContent,
+    NITBhopalCollegeLocationSectionContent,
+    NITBhopalCollegeRankingSectionContent,
+    NITBhopalCollegeSeatSectionContent,
+    NITNagpurCollegeLocationSectionContent,
+    NITNagpurCollegeRankingSectionContent,
+    NITNagpurCollegeSeatSectionContent,
+    NITDurgapurCollegeLocationSectionContent,
+    NITDurgapurCollegeRankingSectionContent,
+    NITDurgapurCollegeSeatSectionContent,
+    NITKarnatakaCollegeLocationSectionContent,
+    NITShibpurCollegeNavigationConstants,
+    NITShibpurCollegeAboutSectionContent,
+    NITShibpurCollegeLocationSectionContent,
+    NITShibpurCollegeRankingSectionContent,
+    NITShibpurCollegeAdmissionSectionContent,
+    NITShibpurCollegeCoursesSectionContent,
+    NITShibpurCollegeFeeSectionContent,
+    NITShibpurCollegeSeatSectionContent,
+    NITShibpurCollegeCutOffSectionContent,
+    NITShibpurCollegePlacementSectionContent,
+    NITJamshedpurCollegeLocationSectionContent,
+    NITJamshedpurCollegeRankingSectionContent,
+    NITJamshedpurCollegeSeatSectionContent,
+    NITKarnatakaCollegeRankingSectionContent,
+    NITKarnatakaCollegeSeatSectionContent,
+    NITSrinagarCollegeLocationSectionContent,
+    NITSrinagarCollegeRankingSectionContent,
+    NITSrinagarCollegeSeatSectionContent,
+    NITAllahabadCollegeLocationSectionContent,
+    NITAllahabadCollegeRankingSectionContent,
+    NITAllahabadCollegeSeatSectionContent,
+    NITSuratCollegeLocationSectionContent,
+    NITSuratCollegeRankingSectionContent,
+    NITCalicutCollegeLocationSectionContent,
+    NITCalicutCollegeRankingSectionContent,
+    NITCalicutCollegeSeatSectionContent,
+    NITRourkelaCollegeLocationSectionContent,
+    NITRourkelaCollegeRankingSectionContent,
+    NITRourkelaCollegeSeatSectionContent,
+    NITJaipurCollegeLocationSectionContent,
+    NITJaipurCollegeRankingSectionContent,
+    NITJaipurCollegeSeatSectionContent,
+    NITKurukshetraCollegeLocationSectionContent,
+    NITKurukshetraCollegeRankingSectionContent,
+    NITKurukshetraCollegeSeatSectionContent,
+    NITTiruchirappalliCollegeLocationSectionContent,
+    NITTiruchirappalliCollegeRankingSectionContent,
+    NITTiruchirappalliCollegeSeatSectionContent,
+    NITSilcharCollegeLocationSectionContent,
+    NITSilcharCollegeRankingSectionContent,
+    NITSilcharCollegeSeatSectionContent,
+    NITHamirpurCollegeLocationSectionContent,
+    NITHamirpurCollegeRankingSectionContent,
+    NITHamirpurCollegeSeatSectionContent,
+    NITJalandharCollegeLocationSectionContent,
+    NITJalandharCollegeRankingSectionContent,
+    NITJalandharCollegeSeatSectionContent,
+    NITPatnaCollegeLocationSectionContent,
+    NITPatnaCollegeRankingSectionContent,
+    NITPatnaCollegeSeatSectionContent,
+    NITRaipurCollegeLocationSectionContent,
+    NITRaipurCollegeRankingSectionContent,
+    NITRaipurCollegeSeatSectionContent,
+    NITAgartalaCollegeLocationSectionContent,
+    NITAgartalaCollegeRankingSectionContent,
+    NITArunachalPradeshCollegeLocationSectionContent,
+    NITArunachalPradeshCollegeRankingSectionContent,
+    NITDelhiCollegeLocationSectionContent,
+    NITDelhiCollegeRankingSectionContent,
+    NITDelhiCollegeSeatSectionContent,
+    NITGoaCollegeLocationSectionContent,
+    NITGoaCollegeRankingSectionContent,
+    NITGoaCollegeSeatSectionContent,
+    NITManipurCollegeLocationSectionContent,
+    NITManipurCollegeRankingSectionContent,
+    NITManipurCollegeSeatSectionContent,
+    NITMeghalayaCollegeLocationSectionContent,
+    NITMeghalayaCollegeRankingSectionContent,
+    NITMeghalayaCollegeSeatSectionContent,
+    NITMizoramCollegeLocationSectionContent,
+    NITMizoramCollegeRankingSectionContent,
+    NITMizoramCollegeSeatSectionContent,
+    NITNagalandCollegeLocationSectionContent,
+    NITNagalandCollegeRankingSectionContent,
+    NITNagalandCollegeSeatSectionContent,
+    NITPuducherryCollegeLocationSectionContent,
+    NITPuducherryCollegeRankingSectionContent,
+    NITPuducherryCollegeSeatSectionContent,
+    NITSikkimCollegeLocationSectionContent,
+    NITSikkimCollegeRankingSectionContent,
+    NITSikkimCollegeSeatSectionContent,
+    NITUttarakhandCollegeLocationSectionContent,
+    NITUttarakhandCollegeRankingSectionContent,
+    NITUttarakhandCollegeSeatSectionContent,
+    NITAndhraPradeshCollegeLocationSectionContent,
+    NITAndhraPradeshCollegeRankingSectionContent,
+    NITAndhraPradeshCollegeSeatSectionContent
 
 } from "../constants/college/NIT/NITCollegePageNavigationComponentConstant";
 import { NITAgartalaCoursesDetailsConstants, NITAllahabadCoursesDetailsConstants, NITAndhraPradeshCoursesDetailsConstants, NITArunachalPradeshCoursesDetailsConstants, NITBhopalCoursesDetailsConstants
     , NITCalicutCoursesDetailsConstants, NITDelhiCoursesDetailsConstants, NITDurgapurCoursesDetailsConstants
     , NITGoaCoursesDetailsConstants, NITHamirpurCoursesDetailsConstants, NITJaipurCoursesDetailsConstants, NITJalandharCoursesDetailsConstants, NITJamshedpurCoursesDetailsConstants, NITKarnatakaCoursesDetailsConstants, NITKurukshetraCoursesDetailsConstants, NITManipurCoursesDetailsConstants, NITMeghalayaCoursesDetailsConstants, NITMizoramCoursesDetailsConstants, NITNagalandCoursesDetailsConstants, NITNagpurCoursesDetailsConstants
-    , NITPatnaCoursesDetailsConstants, NITPuducherryCoursesDetailsConstants, NITRaipurCoursesDetailsConstants, NITRourkelaCoursesDetailsConstants, NITSikkimCoursesDetailsConstants, NITSilcharCoursesDetailsConstants, NITSrinagarCoursesDetailsConstants, NITSuratCoursesDetailsConstants, NITTiruchirappalliCoursesDetailsConstants, NITUttarakhandCoursesDetailsConstants, NITWarangalCoursesDetailsConstants } from "../constants/college/NIT/NITCourseDataForNITCollegeConstants";
+    , NITPatnaCoursesDetailsConstants, NITPuducherryCoursesDetailsConstants, NITRaipurCoursesDetailsConstants, NITRourkelaCoursesDetailsConstants, NITShibpurCoursesDetailsConstants, NITSikkimCoursesDetailsConstants, NITSilcharCoursesDetailsConstants, NITSrinagarCoursesDetailsConstants, NITSuratCoursesDetailsConstants, NITTiruchirappalliCoursesDetailsConstants, NITUttarakhandCoursesDetailsConstants, NITWarangalCoursesDetailsConstants } from "../constants/college/NIT/NITCourseDataForNITCollegeConstants";
 import IIITGenericCollegePage from "../pages/college/subpage/IIIT/IIITGenericCollegePage";
 import {
     IIITHyderabadCollegeAboutSectionContent,
@@ -733,12 +830,12 @@ import {
     IIITKarnatakaCoursesDetailsConstants
 
  } from "../constants/college/IIIT/IIITCourseDataCollegeConstants";
-import { NITWarangalHostelFeesDataTableConstant, NITWarangalHostelFeesDataTableHeading, NITWarangalInstituteFeesDataTableConstant, NITWarangalInstituteFeesDataTableHeading } from "../constants/college/NIT/NITFeesDataCollegeConstant";
-import { NITWarangalAboutDataTableConstant, NITWarangalFeesDataTableHeading } from "../constants/college/NIT/NITAboutDataCollegeConstant";
-import { NITWarangalLocationDataTableConstant, NITWarangalLocationDataTableHeading } from "../constants/college/NIT/NITLocationDataCollegeConstant";
-import { NITWarangalRankingDataTableConstant, NITWarangalRankingDataTableHeading } from "../constants/college/NIT/NITRankingDataCollegeConstant";
-import { NITWarangalSeatDataTableConstant, NITWarangalSeatDataTableHeading } from "../constants/college/NIT/NITSeatDataCollegeConstant";
-import { NITWarangalPlacementImageList } from "../constants/college/NIT/NITPlacementDataCollegeComponent";
+import { NITAgaratalaHostelFeesDataTableConstant, NITAgaratalaHostelFeesDataTableHeading, NITAgaratalaInstituteFeesDataTableConstant, NITAgaratalaInstituteFeesDataTableHeading, NITAllahabadHostelFeesDataTableConstant, NITAllahabadHostelFeesDataTableHeading, NITAllahabadInstituteFeesDataTableConstant, NITAllahabadInstituteFeesDataTableHeading, NITAndhraPradeshHostelFeesDataTableConstant, NITAndhraPradeshHostelFeesDataTableHeading, NITAndhraPradeshInstituteFeesDataTableConstant, NITAndhraPradeshInstituteFeesDataTableHeading, NITArunachalPradeshHostelFeesDataTableConstant, NITArunachalPradeshHostelFeesDataTableHeading, NITArunachalPradeshInstituteFeesDataTableConstant, NITArunachalPradeshInstituteFeesDataTableHeading, NITBhopalHostelFeesDataTableConstant, NITBhopalHostelFeesDataTableHeading, NITBhopalInstituteFeesDataTableConstant, NITBhopalInstituteFeesDataTableHeading, NITCalicutHostelFeesDataTableConstant, NITCalicutHostelFeesDataTableHeading, NITCalicutInstituteFeesDataTableHeading, NITDelhiHostelFeesDataTableConstant, NITDelhiHostelFeesDataTableHeading, NITDelhiInstituteFeesDataTableConstant, NITDelhiInstituteFeesDataTableHeading, NITDurgapurHostelFeesDataTableConstant, NITDurgapurHostelFeesDataTableHeading, NITDurgapurInstituteFeesDataTableConstant, NITDurgapurInstituteFeesDataTableHeading, NITGoaHostelFeesDataTableConstant, NITGoaHostelFeesDataTableHeading, NITGoaInstituteFeesDataTableConstant, NITGoaInstituteFeesDataTableHeading, NITHamirpurHostelFeesDataTableConstant, NITHamirpurHostelFeesDataTableHeading, NITHamirpurInstituteFeesDataTableConstant, NITHamirpurInstituteFeesDataTableHeading, NITJaipurHostelFeesDataTableConstant, NITJaipurInstituteFeesDataTableConstant, NITJaipurInstituteFeesDataTableHeading, NITJalandharHostelFeesDataTableConstant, NITJalandharHostelFeesDataTableHeading, NITJalandharInstituteFeesDataTableConstant, NITJalandharInstituteFeesDataTableHeading, NITJamshedpurHostelFeesDataTableConstant, NITJamshedpurHostelFeesDataTableHeading, NITJamshedpurInstituteFeesDataTableConstant, NITJamshedpurInstituteFeesDataTableHeading, NITKarnatakaHostelFeesDataTableConstant, NITKarnatakaHostelFeesDataTableHeading, NITKarnatakaInstituteFeesDataTableConstant, NITKarnatakaInstituteFeesDataTableHeading, NITKurukshetraHostelFeesDataTableConstant, NITKurukshetraHostelFeesDataTableHeading, NITKurukshetraInstituteFeesDataTableConstant, NITKurukshetraInstituteFeesDataTableHeading, NITManipurHostelFeesDataTableConstant, NITManipurHostelFeesDataTableHeading, NITManipurInstituteFeesDataTableConstant, NITManipurInstituteFeesDataTableHeading, NITMeghalayaHostelFeesDataTableConstant, NITMeghalayaHostelFeesDataTableHeading, NITMeghalayaInstituteFeesDataTableConstant, NITMeghalayaInstituteFeesDataTableHeading, NITMizoramHostelFeesDataTableConstant, NITMizoramHostelFeesDataTableHeading, NITMizoramInstituteFeesDataTableConstant, NITMizoramInstituteFeesDataTableHeading, NITNagalandHostelFeesDataTableConstant, NITNagalandHostelFeesDataTableHeading, NITNagalandInstituteFeesDataTableConstant, NITNagalandInstituteFeesDataTableHeading, NITNagpurHostelFeesDataTableConstant, NITNagpurHostelFeesDataTableHeading, NITNagpurInstituteFeesDataTableConstant, NITNagpurInstituteFeesDataTableHeading, NITPatnaHostelFeesDataTableConstant, NITPatnaHostelFeesDataTableHeading, NITPatnaInstituteFeesDataTableConstant, NITPatnaInstituteFeesDataTableHeading, NITPuducherryHostelFeesDataTableConstant, NITPuducherryHostelFeesDataTableHeading, NITPuducherryInstituteFeesDataTableConstant, NITPuducherryInstituteFeesDataTableHeading, NITRaipurHostelFeesDataTableConstant, NITRaipurHostelFeesDataTableHeading, NITRaipurInstituteFeesDataTableConstant, NITRaipurInstituteFeesDataTableHeading, NITRourkelaHostelFeesDataTableConstant, NITRourkelaHostelFeesDataTableHeading, NITRourkelaInstituteFeesDataTableConstant, NITRourkelaInstituteFeesDataTableHeading, NITShibpurHostelFeesDataTableConstant, NITShibpurHostelFeesDataTableHeading, NITShibpurInstituteFeesDataTableConstant, NITShibpurInstituteFeesDataTableHeading, NITSikkimHostelFeesDataTableConstant, NITSikkimHostelFeesDataTableHeading, NITSikkimInstituteFeesDataTableConstant, NITSikkimInstituteFeesDataTableHeading, NITSilcharHostelFeesDataTableConstant, NITSilcharHostelFeesDataTableHeading, NITSilcharInstituteFeesDataTableConstant, NITSilcharInstituteFeesDataTableHeading, NITSrinagarHostelFeesDataTableConstant, NITSrinagarHostelFeesDataTableHeading, NITSrinagarInstituteFeesDataTableConstant, NITSrinagarInstituteFeesDataTableHeading, NITSuratHostelFeesDataTableConstant, NITSuratHostelFeesDataTableHeading, NITSuratInstituteFeesDataTableConstant, NITSuratInstituteFeesDataTableHeading, NITTiruchirapalliHostelFeesDataTableConstant, NITTiruchirapalliHostelFeesDataTableHeading, NITTiruchirapalliInstituteFeesDataTableConstant, NITTiruchirapalliInstituteFeesDataTableHeading, NITUttarakhandHostelFeesDataTableConstant, NITUttarakhandHostelFeesDataTableHeading, NITUttarakhandInstituteFeesDataTableConstant, NITUttarakhandInstituteFeesDataTableHeading, NITWarangalHostelFeesDataTableConstant, NITWarangalHostelFeesDataTableHeading, NITWarangalInstituteFeesDataTableConstant, NITWarangalInstituteFeesDataTableHeading } from "../constants/college/NIT/NITFeesDataCollegeConstant";
+import { NITAgaratalaAboutDataTableConstant, NITAgaratalaAboutDataTableHeading, NITAllahabadAboutDataTableConstant, NITAllahabadAboutDataTableHeading, NITAndhraPradeshAboutDataTableConstant, NITAndhraPradeshAboutDataTableHeading, NITArunachalPradeshAboutDataTableConstant, NITArunachalPradeshAboutDataTableHeading, NITBhopalAboutDataTableConstant, NITCalicutAboutDataTableConstant, NITCalicutAboutDataTableHeading, NITDelhiAboutDataTableConstant, NITDelhiAboutDataTableHeading, NITDurgapurAboutDataTableConstant, NITGoaAboutDataTableConstant, NITGoaAboutDataTableHeading, NITHamirpurAboutDataTableConstant, NITHamirpurAboutDataTableHeading, NITJaipurAboutDataTableConstant, NITJaipurAboutDataTableHeading, NITJalandharAboutDataTableConstant, NITJalandharAboutDataTableHeading, NITJamshedpurAboutDataTableConstant, NITJamshedpurAboutDataTableHeading, NITKarnatakaAboutDataTableConstant, NITKarnatakaAboutDataTableHeading, NITKurukshetraAboutDataTableConstant, NITKurukshetraAboutDataTableHeading, NITManipurAboutDataTableConstant, NITManipurAboutDataTableHeading, NITMeghalayaAboutDataTableConstant, NITMeghalayaAboutDataTableHeading, NITMizoramAboutDataTableConstant, NITMizoramAboutDataTableHeading, NITNagalandAboutDataTableConstant, NITNagalandAboutDataTableHeading, NITNagpurAboutDataTableConstant, NITNagpurAboutDataTableHeading, NITPatnaAboutDataTableConstant, NITPatnaAboutDataTableHeading, NITPuducherryAboutDataTableConstant, NITPuducherryAboutDataTableHeading, NITRaipurAboutDataTableConstant, NITRaipurAboutDataTableHeading, NITRourkelaAboutDataTableConstant, NITRourkelaAboutDataTableHeading, NITShibpurAboutDataTableConstant, NITShibpurAboutDataTableHeading, NITSikkimAboutDataTableConstant, NITSikkimAboutDataTableHeading, NITSilcharAboutDataTableConstant, NITSilcharAboutDataTableHeading, NITSrinagarAboutDataTableConstant, NITSrinagarAboutDataTableHeading, NITSuratAboutDataTableConstant, NITSuratAboutDataTableHeading, NITTiruchirappalliAboutDataTableConstant, NITTiruchirappalliAboutDataTableHeading, NITUttarakhandAboutDataTableConstant, NITUttarakhandAboutDataTableHeading, NITWarangalAboutDataTableConstant, NITWarangalAboutDataTableHeading } from "../constants/college/NIT/NITAboutDataCollegeConstant";
+import { NITAgaratalaLocationDataTableConstant, NITAgaratalaLocationDataTableHeading, NITAllahabadLocationDataTableConstant, NITAndhraPradeshLocationDataTableConstant, NITAndhraPradeshLocationDataTableHeading, NITArunachalPradeshLocationDataTableConstant, NITArunachalPradeshLocationDataTableHeading, NITBhopalLocationDataTableConstant, NITBhopalLocationDataTableHeading, NITCalicutLocationDataTableConstant, NITCalicutLocationDataTableHeading, NITDelhiLocationDataTableConstant, NITDelhiLocationDataTableHeading, NITDurgapurLocationDataTableConstant, NITDurgapurLocationDataTableHeading, NITGoaLocationDataTableConstant, NITHamirpurLocationDataTableConstant, NITHamirpurLocationDataTableHeading, NITJaipurLocationDataTableConstant, NITJaipurLocationDataTableHeading, NITJalandharLocationDataTableConstant, NITJalandharLocationDataTableHeading, NITJamshedpurLocationDataTableConstant, NITJamshedpurLocationDataTableHeading, NITKarnatakaLocationDataTableConstant, NITKarnatakaLocationDataTableHeading, NITKurukshetraLocationDataTableConstant, NITManipurLocationDataTableConstant, NITManipurLocationDataTableHeading, NITMeghalayaLocationDataTableConstant, NITMeghalayaLocationDataTableHeading, NITMizoramLocationDataTableConstant, NITMizoramLocationDataTableHeading, NITNagalandLocationDataTableConstant, NITNagalandLocationDataTableHeading, NITNagpurLocationDataTableConstant, NITNagpurLocationDataTableHeading, NITPatnaLocationDataTableConstant, NITPatnaLocationDataTableHeading, NITPuducherryLocationDataTableConstant, NITPuducherryLocationDataTableHeading, NITRaipurLocationDataTableConstant, NITRaipurLocationDataTableHeading, NITRourkelaLocationDataTableConstant, NITRourkelaLocationDataTableHeading, NITShibpurLocationDataTableConstant, NITShibpurLocationDataTableHeading, NITSikkimLocationDataTableConstant, NITSikkimLocationDataTableHeading, NITSilcharLocationDataTableConstant, NITSrinagarLocationDataTableConstant, NITSrinagarLocationDataTableHeading, NITSuratLocationDataTableConstant, NITSuratLocationDataTableHeading, NITTiruchirapalliLocationDataTableConstant, NITTiruchirapalliLocationDataTableHeading, NITUttarakhandLocationDataTableConstant, NITUttarakhandLocationDataTableHeading, NITWarangalLocationDataTableConstant, NITWarangalLocationDataTableHeading } from "../constants/college/NIT/NITLocationDataCollegeConstant";
+import { NITAgaratalaRankingDataTableConstant, NITAgaratalaRankingDataTableHeading, NITAllahabadRankingDataTableConstant, NITAllahabadRankingDataTableHeading, NITAndhraPradeshRankingDataTableConstant, NITAndhraPradeshRankingDataTableHeading, NITArunachalPradeshRankingDataTableConstant, NITArunachalPradeshRankingDataTableHeading, NITBhopalRankingDataTableConstant, NITBhopalRankingDataTableHeading, NITCalicutRankingDataTableConstant, NITCalicutRankingDataTableHeading, NITDelhiRankingDataTableConstant, NITDelhiRankingDataTableHeading, NITDurgapurRankingDataTableConstant, NITDurgapurRankingDataTableHeading, NITGoaRankingDataTableConstant, NITGoaRankingDataTableHeading, NITHamirpurRankingDataTableConstant, NITHamirpurRankingDataTableHeading, NITJaipurRankingDataTableConstant, NITJaipurRankingDataTableHeading, NITJalandharRankingDataTableConstant, NITJalandharRankingDataTableHeading, NITJamshedpurRankingDataTableConstant, NITJamshedpurRankingDataTableHeading, NITKarnatakaRankingDataTableConstant, NITKarnatakaRankingDataTableHeading, NITKurukshetraRankingDataTableConstant, NITManipurRankingDataTableConstant, NITManipurRankingDataTableHeading, NITMeghalayaRankingDataTableConstant, NITMeghalayaRankingDataTableHeading, NITMizoramRankingDataTableConstant, NITMizoramRankingDataTableHeading, NITNagalandRankingDataTableConstant, NITNagalandRankingDataTableHeading, NITNagpurRankingDataTableConstant, NITNagpurRankingDataTableHeading, NITPatnaRankingDataTableConstant, NITPatnaRankingDataTableHeading, NITPuducherryRankingDataTableHeading, NITRaipurRankingDataTableConstant, NITRaipurRankingDataTableHeading, NITRourkelaRankingDataTableConstant, NITRourkelaRankingDataTableHeading, NITShibpurRankingDataTableConstant, NITShibpurRankingDataTableHeading, NITSikkimRankingDataTableConstant, NITSikkimRankingDataTableHeading, NITSilcharRankingDataTableConstant, NITSilcharRankingDataTableHeading, NITSrinagarRankingDataTableHeading, NITSuratRankingDataTableConstant, NITSuratRankingDataTableHeading, NITTiruchirapalliRankingDataTableConstant, NITTiruchirapalliRankingDataTableHeading, NITUttarakhandRankingDataTableConstant, NITUttarakhandRankingDataTableHeading, NITWarangalRankingDataTableConstant, NITWarangalRankingDataTableHeading } from "../constants/college/NIT/NITRankingDataCollegeConstant";
+import { NITAgaratalaSeatDataTableConstant, NITAgaratalaSeatDataTableHeading, NITAllahabadSeatDataTableConstant, NITAllahabadSeatDataTableHeading, NITAndhraPradeshSeatDataTableConstant, NITAndhraPradeshSeatDataTableHeading, NITArunachalPradeshSeatDataTableConstant, NITArunachalPradeshSeatDataTableHeading, NITBhopalSeatDataTableConstant, NITBhopalSeatDataTableHeading, NITCalicutSeatDataTableConstant, NITCalicutSeatDataTableHeading, NITDelhiSeatDataTableConstant, NITDelhiSeatDataTableHeading, NITDurgapurSeatDataTableConstant, NITDurgapurSeatDataTableHeading, NITGoaSeatDataTableConstant, NITGoaSeatDataTableHeading, NITHamirpurSeatDataTableConstant, NITHamirpurSeatDataTableHeading, NITJaipurSeatDataTableConstant, NITJaipurSeatDataTableHeading, NITJalandharSeatDataTableConstant, NITJalandharSeatDataTableHeading, NITJamshedpurSeatDataTableConstant, NITJamshedpurSeatDataTableHeading, NITKarnatakaSeatDataTableConstant, NITKarnatakaSeatDataTableHeading, NITKurukshetraSeatDataTableConstant, NITKurukshetraSeatDataTableHeading, NITManipurSeatDataTableConstant, NITManipurSeatDataTableHeading, NITMeghalayaSeatDataTableConstant, NITMeghalayaSeatDataTableHeading, NITMizoramSeatDataTableConstant, NITMizoramSeatDataTableHeading, NITNagalandSeatDataTableConstant, NITNagalandSeatDataTableHeading, NITNagpurSeatDataTableConstant, NITNagpurSeatDataTableHeading, NITPatnaSeatDataTableConstant, NITPatnaSeatDataTableHeading, NITPuducherrySeatDataTableConstant, NITPuducherrySeatDataTableHeading, NITRaipurSeatDataTableConstant, NITRaipurSeatDataTableHeading, NITRourkelaSeatDataTableConstant, NITRourkelaSeatDataTableHeading, NITShibpurSeatDataTableConstant, NITShibpurSeatDataTableHeading, NITSikkimSeatDataTableConstant, NITSikkimSeatDataTableHeading, NITSilcharSeatDataTableConstant, NITSilcharSeatDataTableHeading, NITSrinagarSeatDataTableConstant, NITSrinagarSeatDataTableHeading, NITSuratSeatDataTableConstant, NITSuratSeatDataTableHeading, NITTiruchirapalliSeatDataTableConstant, NITTiruchirapalliSeatDataTableHeading, NITUttarakhandSeatDataTableConstant, NITUttarakhandSeatDataTableHeading, NITWarangalSeatDataTableConstant, NITWarangalSeatDataTableHeading } from "../constants/college/NIT/NITSeatDataCollegeConstant";
+import { NITAgaratalaPlacementImageList, NITAllahabadPlacementImageList, NITAndhraPradeshPlacementImageList, NITArunachalPradeshPlacementImageList, NITBhopalPlacementImageList, NITCalicutPlacementImageList, NITDelhiPlacementImageList, NITDurgapurPlacementImageList, NITGoaPlacementImageList, NITHamirpurPlacementImageList, NITJaipurPlacementImageList, NITJalandharPlacementImageList, NITJamshedpurPlacementImageList, NITKarnatakaPlacementImageList, NITKurukshetraPlacementImageList, NITManipurPlacementImageList, NITMeghalayaPlacementImageList, NITMizoramPlacementImageList, NITNagalandPlacementImageList, NITNagpurPlacementImageList, NITPatnaPlacementImageList, NITPuducherryPlacementImageList, NITRaipurPlacementImageList, NITRourkelaPlacementImageList, NITShibpurPlacementImageList, NITSikkimPlacementImageList, NITSilcharPlacementImageList, NITSrinagarPlacementImageList, NITSuratPlacementImageList, NITTiruchirapalliPlacementImageList, NITUttarakhandPlacementImageList, NITWarangalPlacementImageList } from "../constants/college/NIT/NITPlacementDataCollegeComponent";
 
 const routes = [
     //authentication related routes
@@ -1274,7 +1371,7 @@ const routes = [
         path : "/college/nit/nit-warangal",
         component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Warangal" 
         collegePageNavigationConstants={NITWarangalCollegeNavigationConstants} 
-        aboutSectionContent={NITWarangalCollegeAboutSectionContent} aboutSectionHeadingId={NITWarangalCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITWarangalCollegeNavigationConstants[0].title} aboutSectionTableContent={NITWarangalAboutDataTableConstant} aboutSectionTableHeading={NITWarangalFeesDataTableHeading}
+        aboutSectionContent={NITWarangalCollegeAboutSectionContent} aboutSectionHeadingId={NITWarangalCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITWarangalCollegeNavigationConstants[0].title} aboutSectionTableContent={NITWarangalAboutDataTableConstant} aboutSectionTableHeading={NITWarangalAboutDataTableHeading}
         locationSectionContent={NITWarangalCollegeLocationSectionContent} locationSectionHeadingId={NITWarangalCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITWarangalCollegeNavigationConstants[1].title} locationSectionTableContent={NITWarangalLocationDataTableConstant} locationSectionTableHeading={NITWarangalLocationDataTableHeading}
         rankingSectionContent={NITWarangalCollegeRankingSectionContent} rankingSectionHeadingId={NITWarangalCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={NITWarangalCollegeNavigationConstants[2].title} rankingSectionTableContent={NITWarangalRankingDataTableConstant} rankingSectionTableHeading={NITWarangalRankingDataTableHeading}
         admissionSectionContent={NITWarangalCollegeAdmissionSectionContent} admissionSectionHeadingId={NITWarangalCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={NITWarangalCollegeNavigationConstants[3].title}
@@ -1287,337 +1384,488 @@ const routes = [
         </NITGenericCollegePage>
 
     }, 
-    // {
-    //     path : "/college/nit/nit-bhopal",
-    //     component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Bhopal" 
-    //     collegePageNavigationConstants={NITBhopalCollegeNavigationConstants} 
-    //     aboutSectionContent={NITBhopalCollegeAboutSectionContent} aboutSectionHeadingId={NITBhopalCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITBhopalCollegeNavigationConstants[0].title} 
-    //     feeSectionContent={NITBhopalCollegeFeeSectionContent} feeSectionHeadingId={NITBhopalCollegeNavigationConstants[1].headingId} feeSectionHeadingName={NITBhopalCollegeNavigationConstants[1].title}
-    //     coursesSectionContent={NITBhopalCollegeCoursesSectionContent} coursesSectionHeadingId={NITBhopalCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={NITBhopalCollegeNavigationConstants[5].title} collegeCourseDetailConstant={NITBhopalCoursesDetailsConstants}
-    //     admissionSectionContent={NITBhopalCollegeAdmissionSectionContent} admissionSectionHeadingId={NITBhopalCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={NITBhopalCollegeNavigationConstants[6].title}
-    //     placementSectionContent={NITBhopalCollegePlacementSectionContent} placementSectionHeadingId={NITBhopalCollegeNavigationConstants[2].headingId} placementSectionHeadingName={NITBhopalCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-    //     cutoffSectionContent={NITBhopalCollegeCutOffSectionContent} cutoffSectionHeadingId={NITBhopalCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITBhopalCollegeNavigationConstants[7].title}></NITGenericCollegePage>
-    // },
-    // {
-    //     path : "/college/nit/nit-nagpur",
-    //     component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Nagpur" 
-    //     collegePageNavigationConstants={NITNagpurCollegeNavigationConstants} 
-    //     aboutSectionContent={NITNagpurCollegeAboutSectionContent} aboutSectionHeadingId={NITNagpurCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITNagpurCollegeNavigationConstants[0].title} 
-    //     feeSectionContent={NITNagpurCollegeFeeSectionContent} feeSectionHeadingId={NITNagpurCollegeNavigationConstants[1].headingId} feeSectionHeadingName={NITNagpurCollegeNavigationConstants[1].title}
-    //     coursesSectionContent={NITNagpurCollegeCoursesSectionContent} coursesSectionHeadingId={NITNagpurCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={NITNagpurCollegeNavigationConstants[5].title} collegeCourseDetailConstant={NITNagpurCoursesDetailsConstants}
-    //     admissionSectionContent={NITNagpurCollegeAdmissionSectionContent} admissionSectionHeadingId={NITNagpurCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={NITNagpurCollegeNavigationConstants[6].title}
-    //     placementSectionContent={NITNagpurCollegePlacementSectionContent} placementSectionHeadingId={NITNagpurCollegeNavigationConstants[2].headingId} placementSectionHeadingName={NITNagpurCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-    //     cutoffSectionContent={NITNagpurCollegeCutOffSectionContent} cutoffSectionHeadingId={NITNagpurCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITNagpurCollegeNavigationConstants[7].title}></NITGenericCollegePage>
-    // },
-    // {
-    //     path : "/college/nit/nit-durgapur",
-    //     component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Durgapur" 
-    //     collegePageNavigationConstants={NITDurgapurCollegeNavigationConstants} 
-    //     aboutSectionContent={NITDurgapurCollegeAboutSectionContent} aboutSectionHeadingId={NITDurgapurCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITDurgapurCollegeNavigationConstants[0].title} 
-    //     feeSectionContent={NITDurgapurCollegeFeeSectionContent} feeSectionHeadingId={NITDurgapurCollegeNavigationConstants[1].headingId} feeSectionHeadingName={NITDurgapurCollegeNavigationConstants[1].title}
-    //     coursesSectionContent={NITDurgapurCollegeCoursesSectionContent} coursesSectionHeadingId={NITDurgapurCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={NITDurgapurCollegeNavigationConstants[5].title} collegeCourseDetailConstant={NITDurgapurCoursesDetailsConstants}
-    //     admissionSectionContent={NITDurgapurCollegeAdmissionSectionContent} admissionSectionHeadingId={NITDurgapurCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={NITDurgapurCollegeNavigationConstants[6].title}
-    //     placementSectionContent={NITDurgapurCollegePlacementSectionContent} placementSectionHeadingId={NITDurgapurCollegeNavigationConstants[2].headingId} placementSectionHeadingName={NITDurgapurCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-    //     cutoffSectionContent={NITDurgapurCollegeCutOffSectionContent} cutoffSectionHeadingId={NITDurgapurCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITDurgapurCollegeNavigationConstants[7].title}></NITGenericCollegePage>
-    // },
 
-    // {
-    //     path : "/college/nit/nit-jamshedpur",
-    //     component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Jamshedpur" 
-    //     collegePageNavigationConstants={NITJamshedpurCollegeNavigationConstants} 
-    //     aboutSectionContent={NITJamshedpurCollegeAboutSectionContent} aboutSectionHeadingId={NITJamshedpurCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITJamshedpurCollegeNavigationConstants[0].title} 
-    //     feeSectionContent={NITJamshedpurCollegeFeeSectionContent} feeSectionHeadingId={NITJamshedpurCollegeNavigationConstants[1].headingId} feeSectionHeadingName={NITJamshedpurCollegeNavigationConstants[1].title}
-    //     coursesSectionContent={NITJamshedpurCollegeCoursesSectionContent} coursesSectionHeadingId={NITJamshedpurCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={NITJamshedpurCollegeNavigationConstants[5].title} collegeCourseDetailConstant={NITJamshedpurCoursesDetailsConstants}
-    //     admissionSectionContent={NITJamshedpurCollegeAdmissionSectionContent} admissionSectionHeadingId={NITJamshedpurCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={NITJamshedpurCollegeNavigationConstants[6].title}
-    //     placementSectionContent={NITJamshedpurCollegePlacementSectionContent} placementSectionHeadingId={NITJamshedpurCollegeNavigationConstants[2].headingId} placementSectionHeadingName={NITJamshedpurCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-    //     cutoffSectionContent={NITJamshedpurCollegeCutOffSectionContent} cutoffSectionHeadingId={NITJamshedpurCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITJamshedpurCollegeNavigationConstants[7].title}></NITGenericCollegePage>
-    // },
-    // {
-    //     path : "/college/nit/nit-karnataka",
-    //     component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Karnataka" 
-    //     collegePageNavigationConstants={NITKarnatakaCollegeNavigationConstants} 
-    //     aboutSectionContent={NITKarnatakaCollegeAboutSectionContent} aboutSectionHeadingId={NITKarnatakaCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITKarnatakaCollegeNavigationConstants[0].title} 
-    //     feeSectionContent={NITKarnatakaCollegeFeeSectionContent} feeSectionHeadingId={NITKarnatakaCollegeNavigationConstants[1].headingId} feeSectionHeadingName={NITKarnatakaCollegeNavigationConstants[1].title}
-    //     coursesSectionContent={NITKarnatakaCollegeCoursesSectionContent} coursesSectionHeadingId={NITKarnatakaCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={NITKarnatakaCollegeNavigationConstants[5].title} collegeCourseDetailConstant={NITKarnatakaCoursesDetailsConstants}
-    //     admissionSectionContent={NITKarnatakaCollegeAdmissionSectionContent} admissionSectionHeadingId={NITKarnatakaCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={NITKarnatakaCollegeNavigationConstants[6].title}
-    //     placementSectionContent={NITKarnatakaCollegePlacementSectionContent} placementSectionHeadingId={NITKarnatakaCollegeNavigationConstants[2].headingId} placementSectionHeadingName={NITKarnatakaCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-    //     cutoffSectionContent={NITKarnatakaCollegeCutOffSectionContent} cutoffSectionHeadingId={NITKarnatakaCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITKarnatakaCollegeNavigationConstants[7].title}></NITGenericCollegePage>
-    // },
-    // {
-    //     path : "/college/nit/nit-srinagar",
-    //     component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Srinagar" 
-    //     collegePageNavigationConstants={NITSrinagarCollegeNavigationConstants} 
-    //     aboutSectionContent={NITSrinagarCollegeAboutSectionContent} aboutSectionHeadingId={NITSrinagarCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITSrinagarCollegeNavigationConstants[0].title} 
-    //     feeSectionContent={NITSrinagarCollegeFeeSectionContent} feeSectionHeadingId={NITSrinagarCollegeNavigationConstants[1].headingId} feeSectionHeadingName={NITSrinagarCollegeNavigationConstants[1].title}
-    //     coursesSectionContent={NITSrinagarCollegeCoursesSectionContent} coursesSectionHeadingId={NITSrinagarCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={NITSrinagarCollegeNavigationConstants[5].title} collegeCourseDetailConstant={NITSrinagarCoursesDetailsConstants}
-    //     admissionSectionContent={NITSrinagarCollegeAdmissionSectionContent} admissionSectionHeadingId={NITSrinagarCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={NITSrinagarCollegeNavigationConstants[6].title}
-    //     placementSectionContent={NITSrinagarCollegePlacementSectionContent} placementSectionHeadingId={NITSrinagarCollegeNavigationConstants[2].headingId} placementSectionHeadingName={NITSrinagarCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-    //     cutoffSectionContent={NITSrinagarCollegeCutOffSectionContent} cutoffSectionHeadingId={NITSrinagarCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITSrinagarCollegeNavigationConstants[7].title}></NITGenericCollegePage>
-    // },
-    // {
-    //     path : "/college/nit/nit-allahabad",
-    //     component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Allahabad" 
-    //     collegePageNavigationConstants={NITAllahabadCollegeNavigationConstants} 
-    //     aboutSectionContent={NITAllahabadCollegeAboutSectionContent} aboutSectionHeadingId={NITAllahabadCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITAllahabadCollegeNavigationConstants[0].title} 
-    //     feeSectionContent={NITAllahabadCollegeFeeSectionContent} feeSectionHeadingId={NITAllahabadCollegeNavigationConstants[1].headingId} feeSectionHeadingName={NITAllahabadCollegeNavigationConstants[1].title}
-    //     coursesSectionContent={NITAllahabadCollegeCoursesSectionContent} coursesSectionHeadingId={NITAllahabadCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={NITAllahabadCollegeNavigationConstants[5].title} collegeCourseDetailConstant={NITAllahabadCoursesDetailsConstants}
-    //     admissionSectionContent={NITAllahabadCollegeAdmissionSectionContent} admissionSectionHeadingId={NITAllahabadCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={NITAllahabadCollegeNavigationConstants[6].title}
-    //     placementSectionContent={NITAllahabadCollegePlacementSectionContent} placementSectionHeadingId={NITAllahabadCollegeNavigationConstants[2].headingId} placementSectionHeadingName={NITAllahabadCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-    //     cutoffSectionContent={NITAllahabadCollegeCutOffSectionContent} cutoffSectionHeadingId={NITAllahabadCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITAllahabadCollegeNavigationConstants[7].title}></NITGenericCollegePage>
-    // }, 
-    // {
-    //     path : "/college/nit/nit-surat",
-    //     component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Surat" 
-    //     collegePageNavigationConstants={NITSuratCollegeNavigationConstants} 
-    //     aboutSectionContent={NITSuratCollegeAboutSectionContent} aboutSectionHeadingId={NITSuratCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITSuratCollegeNavigationConstants[0].title} 
-    //     feeSectionContent={NITSuratCollegeFeeSectionContent} feeSectionHeadingId={NITSuratCollegeNavigationConstants[1].headingId} feeSectionHeadingName={NITSuratCollegeNavigationConstants[1].title}
-    //     coursesSectionContent={NITSuratCollegeCoursesSectionContent} coursesSectionHeadingId={NITSuratCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={NITSuratCollegeNavigationConstants[5].title} collegeCourseDetailConstant={NITSuratCoursesDetailsConstants}
-    //     admissionSectionContent={NITSuratCollegeAdmissionSectionContent} admissionSectionHeadingId={NITSuratCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={NITSuratCollegeNavigationConstants[6].title}
-    //     placementSectionContent={NITSuratCollegePlacementSectionContent} placementSectionHeadingId={NITSuratCollegeNavigationConstants[2].headingId} placementSectionHeadingName={NITSuratCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-    //     cutoffSectionContent={NITSuratCollegeCutOffSectionContent} cutoffSectionHeadingId={NITSuratCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITSuratCollegeNavigationConstants[7].title}></NITGenericCollegePage>
-    // },
-    // {
-    //     path : "/college/nit/nit-calicut",
-    //     component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Calicut" 
-    //     collegePageNavigationConstants={NITCalicutCollegeNavigationConstants} 
-    //     aboutSectionContent={NITCalicutCollegeAboutSectionContent} aboutSectionHeadingId={NITCalicutCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITCalicutCollegeNavigationConstants[0].title} 
-    //     feeSectionContent={NITCalicutCollegeFeeSectionContent} feeSectionHeadingId={NITCalicutCollegeNavigationConstants[1].headingId} feeSectionHeadingName={NITCalicutCollegeNavigationConstants[1].title}
-    //     coursesSectionContent={NITCalicutCollegeCoursesSectionContent} coursesSectionHeadingId={NITCalicutCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={NITCalicutCollegeNavigationConstants[5].title} collegeCourseDetailConstant={NITCalicutCoursesDetailsConstants}
-    //     admissionSectionContent={NITCalicutCollegeAdmissionSectionContent} admissionSectionHeadingId={NITCalicutCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={NITCalicutCollegeNavigationConstants[6].title}
-    //     placementSectionContent={NITCalicutCollegePlacementSectionContent} placementSectionHeadingId={NITCalicutCollegeNavigationConstants[2].headingId} placementSectionHeadingName={NITCalicutCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-    //     cutoffSectionContent={NITCalicutCollegeCutOffSectionContent} cutoffSectionHeadingId={NITCalicutCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITCalicutCollegeNavigationConstants[7].title}></NITGenericCollegePage>
-    // },
-    // {
-    //     path : "/college/nit/nit-rourkela",
-    //     component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Rourkela" 
-    //     collegePageNavigationConstants={NITRourkelaCollegeNavigationConstants} 
-    //     aboutSectionContent={NITRourkelaCollegeAboutSectionContent} aboutSectionHeadingId={NITRourkelaCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITRourkelaCollegeNavigationConstants[0].title} 
-    //     feeSectionContent={NITRourkelaCollegeFeeSectionContent} feeSectionHeadingId={NITRourkelaCollegeNavigationConstants[1].headingId} feeSectionHeadingName={NITRourkelaCollegeNavigationConstants[1].title}
-    //     coursesSectionContent={NITRourkelaCollegeCoursesSectionContent} coursesSectionHeadingId={NITRourkelaCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={NITRourkelaCollegeNavigationConstants[5].title} collegeCourseDetailConstant={NITRourkelaCoursesDetailsConstants}
-    //     admissionSectionContent={NITRourkelaCollegeAdmissionSectionContent} admissionSectionHeadingId={NITRourkelaCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={NITRourkelaCollegeNavigationConstants[6].title}
-    //     placementSectionContent={NITRourkelaCollegePlacementSectionContent} placementSectionHeadingId={NITRourkelaCollegeNavigationConstants[2].headingId} placementSectionHeadingName={NITRourkelaCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-    //     cutoffSectionContent={NITRourkelaCollegeCutOffSectionContent} cutoffSectionHeadingId={NITRourkelaCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITRourkelaCollegeNavigationConstants[7].title}></NITGenericCollegePage>
-    // },
-    // {
-    //     path : "/college/nit/nit-jaipur",
-    //     component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Jaipur" 
-    //     collegePageNavigationConstants={NITJaipurCollegeNavigationConstants} 
-    //     aboutSectionContent={NITJaipurCollegeAboutSectionContent} aboutSectionHeadingId={NITJaipurCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITJaipurCollegeNavigationConstants[0].title} 
-    //     feeSectionContent={NITJaipurCollegeFeeSectionContent} feeSectionHeadingId={NITJaipurCollegeNavigationConstants[1].headingId} feeSectionHeadingName={NITJaipurCollegeNavigationConstants[1].title}
-    //     coursesSectionContent={NITJaipurCollegeCoursesSectionContent} coursesSectionHeadingId={NITJaipurCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={NITJaipurCollegeNavigationConstants[5].title} collegeCourseDetailConstant={NITJaipurCoursesDetailsConstants}
-    //     admissionSectionContent={NITJaipurCollegeAdmissionSectionContent} admissionSectionHeadingId={NITJaipurCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={NITJaipurCollegeNavigationConstants[6].title}
-    //     placementSectionContent={NITJaipurCollegePlacementSectionContent} placementSectionHeadingId={NITJaipurCollegeNavigationConstants[2].headingId} placementSectionHeadingName={NITJaipurCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-    //     cutoffSectionContent={NITJaipurCollegeCutOffSectionContent} cutoffSectionHeadingId={NITJaipurCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITJaipurCollegeNavigationConstants[7].title}></NITGenericCollegePage>
-    // },
-    // {
-    //     path : "/college/nit/nit-kurukshetra",
-    //     component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Kurukshetra" 
-    //     collegePageNavigationConstants={NITKurukshetraCollegeNavigationConstants} 
-    //     aboutSectionContent={NITKurukshetraCollegeAboutSectionContent} aboutSectionHeadingId={NITKurukshetraCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITKurukshetraCollegeNavigationConstants[0].title} 
-    //     feeSectionContent={NITKurukshetraCollegeFeeSectionContent} feeSectionHeadingId={NITKurukshetraCollegeNavigationConstants[1].headingId} feeSectionHeadingName={NITKurukshetraCollegeNavigationConstants[1].title}
-    //     coursesSectionContent={NITKurukshetraCollegeCoursesSectionContent} coursesSectionHeadingId={NITKurukshetraCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={NITKurukshetraCollegeNavigationConstants[5].title} collegeCourseDetailConstant={NITKurukshetraCoursesDetailsConstants}
-    //     admissionSectionContent={NITKurukshetraCollegeAdmissionSectionContent} admissionSectionHeadingId={NITKurukshetraCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={NITKurukshetraCollegeNavigationConstants[6].title}
-    //     placementSectionContent={NITKurukshetraCollegePlacementSectionContent} placementSectionHeadingId={NITKurukshetraCollegeNavigationConstants[2].headingId} placementSectionHeadingName={NITKurukshetraCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-    //     cutoffSectionContent={NITKurukshetraCollegeCutOffSectionContent} cutoffSectionHeadingId={NITKurukshetraCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITKurukshetraCollegeNavigationConstants[7].title}></NITGenericCollegePage>
-    // }, 
-    // {
-    //     path : "/college/nit/nit-tiruchirappalli",
-    //     component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Tiruchirappalli" 
-    //     collegePageNavigationConstants={NITTiruchirappalliCollegeNavigationConstants} 
-    //     aboutSectionContent={NITTiruchirappalliCollegeAboutSectionContent} aboutSectionHeadingId={NITTiruchirappalliCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITTiruchirappalliCollegeNavigationConstants[0].title} 
-    //     feeSectionContent={NITTiruchirappalliCollegeFeeSectionContent} feeSectionHeadingId={NITTiruchirappalliCollegeNavigationConstants[1].headingId} feeSectionHeadingName={NITTiruchirappalliCollegeNavigationConstants[1].title}
-    //     coursesSectionContent={NITTiruchirappalliCollegeCoursesSectionContent} coursesSectionHeadingId={NITTiruchirappalliCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={NITTiruchirappalliCollegeNavigationConstants[5].title} collegeCourseDetailConstant={NITTiruchirappalliCoursesDetailsConstants}
-    //     admissionSectionContent={NITTiruchirappalliCollegeAdmissionSectionContent} admissionSectionHeadingId={NITTiruchirappalliCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={NITTiruchirappalliCollegeNavigationConstants[6].title}
-    //     placementSectionContent={NITTiruchirappalliCollegePlacementSectionContent} placementSectionHeadingId={NITTiruchirappalliCollegeNavigationConstants[2].headingId} placementSectionHeadingName={NITTiruchirappalliCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-    //     cutoffSectionContent={NITTiruchirappalliCollegeCutOffSectionContent} cutoffSectionHeadingId={NITTiruchirappalliCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITTiruchirappalliCollegeNavigationConstants[7].title}></NITGenericCollegePage>
-    // },
-    // {
-    //     path : "/college/nit/nit-silchar",
-    //     component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Silchar" 
-    //     collegePageNavigationConstants={NITSilcharCollegeNavigationConstants} 
-    //     aboutSectionContent={NITSilcharCollegeAboutSectionContent} aboutSectionHeadingId={NITSilcharCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITSilcharCollegeNavigationConstants[0].title} 
-    //     feeSectionContent={NITSilcharCollegeFeeSectionContent} feeSectionHeadingId={NITSilcharCollegeNavigationConstants[1].headingId} feeSectionHeadingName={NITSilcharCollegeNavigationConstants[1].title}
-    //     coursesSectionContent={NITSilcharCollegeCoursesSectionContent} coursesSectionHeadingId={NITSilcharCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={NITSilcharCollegeNavigationConstants[5].title} collegeCourseDetailConstant={NITSilcharCoursesDetailsConstants}
-    //     admissionSectionContent={NITSilcharCollegeAdmissionSectionContent} admissionSectionHeadingId={NITSilcharCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={NITSilcharCollegeNavigationConstants[6].title}
-    //     placementSectionContent={NITSilcharCollegePlacementSectionContent} placementSectionHeadingId={NITSilcharCollegeNavigationConstants[2].headingId} placementSectionHeadingName={NITSilcharCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-    //     cutoffSectionContent={NITSilcharCollegeCutOffSectionContent} cutoffSectionHeadingId={NITSilcharCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITSilcharCollegeNavigationConstants[7].title}></NITGenericCollegePage>
-    // },
-    // {
-    //     path : "/college/nit/nit-hamirpur",
-    //     component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Hamirpur" 
-    //     collegePageNavigationConstants={NITHamirpurCollegeNavigationConstants} 
-    //     aboutSectionContent={NITHamirpurCollegeAboutSectionContent} aboutSectionHeadingId={NITHamirpurCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITHamirpurCollegeNavigationConstants[0].title} 
-    //     feeSectionContent={NITHamirpurCollegeFeeSectionContent} feeSectionHeadingId={NITHamirpurCollegeNavigationConstants[1].headingId} feeSectionHeadingName={NITHamirpurCollegeNavigationConstants[1].title}
-    //     coursesSectionContent={NITHamirpurCollegeCoursesSectionContent} coursesSectionHeadingId={NITHamirpurCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={NITHamirpurCollegeNavigationConstants[5].title} collegeCourseDetailConstant={NITHamirpurCoursesDetailsConstants}
-    //     admissionSectionContent={NITHamirpurCollegeAdmissionSectionContent} admissionSectionHeadingId={NITHamirpurCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={NITHamirpurCollegeNavigationConstants[6].title}
-    //     placementSectionContent={NITHamirpurCollegePlacementSectionContent} placementSectionHeadingId={NITHamirpurCollegeNavigationConstants[2].headingId} placementSectionHeadingName={NITHamirpurCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-    //     cutoffSectionContent={NITHamirpurCollegeCutOffSectionContent} cutoffSectionHeadingId={NITHamirpurCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITHamirpurCollegeNavigationConstants[7].title}></NITGenericCollegePage>
-    // },
-    // {
-    //     path : "/college/nit/nit-jalandhar",
-    //     component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Jalandhar" 
-    //     collegePageNavigationConstants={NITJalandharCollegeNavigationConstants} 
-    //     aboutSectionContent={NITJalandharCollegeAboutSectionContent} aboutSectionHeadingId={NITJalandharCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITJalandharCollegeNavigationConstants[0].title} 
-    //     feeSectionContent={NITJalandharCollegeFeeSectionContent} feeSectionHeadingId={NITJalandharCollegeNavigationConstants[1].headingId} feeSectionHeadingName={NITJalandharCollegeNavigationConstants[1].title}
-    //     coursesSectionContent={NITJalandharCollegeCoursesSectionContent} coursesSectionHeadingId={NITJalandharCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={NITJalandharCollegeNavigationConstants[5].title} collegeCourseDetailConstant={NITJalandharCoursesDetailsConstants}
-    //     admissionSectionContent={NITJalandharCollegeAdmissionSectionContent} admissionSectionHeadingId={NITJalandharCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={NITJalandharCollegeNavigationConstants[6].title}
-    //     placementSectionContent={NITJalandharCollegePlacementSectionContent} placementSectionHeadingId={NITJalandharCollegeNavigationConstants[2].headingId} placementSectionHeadingName={NITJalandharCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-    //     cutoffSectionContent={NITJalandharCollegeCutOffSectionContent} cutoffSectionHeadingId={NITJalandharCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITJalandharCollegeNavigationConstants[7].title}></NITGenericCollegePage>
-    // },
-    // {
-    //     path : "/college/nit/nit-patna",
-    //     component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Patna" 
-    //     collegePageNavigationConstants={NITPatnaCollegeNavigationConstants} 
-    //     aboutSectionContent={NITPatnaCollegeAboutSectionContent} aboutSectionHeadingId={NITPatnaCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITPatnaCollegeNavigationConstants[0].title} 
-    //     feeSectionContent={NITPatnaCollegeFeeSectionContent} feeSectionHeadingId={NITPatnaCollegeNavigationConstants[1].headingId} feeSectionHeadingName={NITPatnaCollegeNavigationConstants[1].title}
-    //     coursesSectionContent={NITPatnaCollegeCoursesSectionContent} coursesSectionHeadingId={NITPatnaCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={NITPatnaCollegeNavigationConstants[5].title} collegeCourseDetailConstant={NITPatnaCoursesDetailsConstants}
-    //     admissionSectionContent={NITPatnaCollegeAdmissionSectionContent} admissionSectionHeadingId={NITPatnaCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={NITPatnaCollegeNavigationConstants[6].title}
-    //     placementSectionContent={NITPatnaCollegePlacementSectionContent} placementSectionHeadingId={NITPatnaCollegeNavigationConstants[2].headingId} placementSectionHeadingName={NITPatnaCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-    //     cutoffSectionContent={NITPatnaCollegeCutOffSectionContent} cutoffSectionHeadingId={NITPatnaCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITPatnaCollegeNavigationConstants[7].title}></NITGenericCollegePage>
-    // },
-    // {
-    //     path : "/college/nit/nit-raipur",
-    //     component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Raipur" 
-    //     collegePageNavigationConstants={NITRaipurCollegeNavigationConstants} 
-    //     aboutSectionContent={NITRaipurCollegeAboutSectionContent} aboutSectionHeadingId={NITRaipurCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITRaipurCollegeNavigationConstants[0].title} 
-    //     feeSectionContent={NITRaipurCollegeFeeSectionContent} feeSectionHeadingId={NITRaipurCollegeNavigationConstants[1].headingId} feeSectionHeadingName={NITRaipurCollegeNavigationConstants[1].title}
-    //     coursesSectionContent={NITRaipurCollegeCoursesSectionContent} coursesSectionHeadingId={NITRaipurCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={NITRaipurCollegeNavigationConstants[5].title} collegeCourseDetailConstant={NITRaipurCoursesDetailsConstants}
-    //     admissionSectionContent={NITRaipurCollegeAdmissionSectionContent} admissionSectionHeadingId={NITRaipurCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={NITRaipurCollegeNavigationConstants[6].title}
-    //     placementSectionContent={NITRaipurCollegePlacementSectionContent} placementSectionHeadingId={NITRaipurCollegeNavigationConstants[2].headingId} placementSectionHeadingName={NITRaipurCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-    //     cutoffSectionContent={NITRaipurCollegeCutOffSectionContent} cutoffSectionHeadingId={NITRaipurCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITRaipurCollegeNavigationConstants[7].title}></NITGenericCollegePage>
-    // },
-    // {
-    //     path : "/college/nit/nit-agartala",
-    //     component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Agartala" 
-    //     collegePageNavigationConstants={NITAgartalaCollegeNavigationConstants} 
-    //     aboutSectionContent={NITAgartalaCollegeAboutSectionContent} aboutSectionHeadingId={NITAgartalaCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITAgartalaCollegeNavigationConstants[0].title} 
-    //     feeSectionContent={NITAgartalaCollegeFeeSectionContent} feeSectionHeadingId={NITAgartalaCollegeNavigationConstants[1].headingId} feeSectionHeadingName={NITAgartalaCollegeNavigationConstants[1].title}
-    //     coursesSectionContent={NITAgartalaCollegeCoursesSectionContent} coursesSectionHeadingId={NITAgartalaCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={NITAgartalaCollegeNavigationConstants[5].title} collegeCourseDetailConstant={NITAgartalaCoursesDetailsConstants}
-    //     admissionSectionContent={NITAgartalaCollegeAdmissionSectionContent} admissionSectionHeadingId={NITAgartalaCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={NITAgartalaCollegeNavigationConstants[6].title}
-    //     placementSectionContent={NITAgartalaCollegePlacementSectionContent} placementSectionHeadingId={NITAgartalaCollegeNavigationConstants[2].headingId} placementSectionHeadingName={NITAgartalaCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-    //     cutoffSectionContent={NITAgartalaCollegeCutOffSectionContent} cutoffSectionHeadingId={NITAgartalaCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITAgartalaCollegeNavigationConstants[7].title}></NITGenericCollegePage>
-    // },
-    // {
-    //     path : "/college/nit/nit-arunachal-pradesh",
-    //     component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Arunachal Pradesh" 
-    //     collegePageNavigationConstants={NITArunachalPradeshCollegeNavigationConstants} 
-    //     aboutSectionContent={NITArunachalPradeshCollegeAboutSectionContent} aboutSectionHeadingId={NITArunachalPradeshCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITArunachalPradeshCollegeNavigationConstants[0].title} 
-    //     feeSectionContent={NITArunachalPradeshCollegeFeeSectionContent} feeSectionHeadingId={NITArunachalPradeshCollegeNavigationConstants[1].headingId} feeSectionHeadingName={NITArunachalPradeshCollegeNavigationConstants[1].title}
-    //     coursesSectionContent={NITArunachalPradeshCollegeCoursesSectionContent} coursesSectionHeadingId={NITArunachalPradeshCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={NITArunachalPradeshCollegeNavigationConstants[5].title} collegeCourseDetailConstant={NITArunachalPradeshCoursesDetailsConstants}
-    //     admissionSectionContent={NITArunachalPradeshCollegeAdmissionSectionContent} admissionSectionHeadingId={NITArunachalPradeshCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={NITArunachalPradeshCollegeNavigationConstants[6].title}
-    //     placementSectionContent={NITArunachalPradeshCollegePlacementSectionContent} placementSectionHeadingId={NITArunachalPradeshCollegeNavigationConstants[2].headingId} placementSectionHeadingName={NITArunachalPradeshCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-    //     cutoffSectionContent={NITArunachalPradeshCollegeCutOffSectionContent} cutoffSectionHeadingId={NITArunachalPradeshCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITArunachalPradeshCollegeNavigationConstants[7].title}></NITGenericCollegePage>
-    // },
-    // {
-    //     path : "/college/nit/nit-delhi",
-    //     component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Delhi" 
-    //     collegePageNavigationConstants={NITDelhiCollegeNavigationConstants} 
-    //     aboutSectionContent={NITDelhiCollegeAboutSectionContent} aboutSectionHeadingId={NITDelhiCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITDelhiCollegeNavigationConstants[0].title} 
-    //     feeSectionContent={NITDelhiCollegeFeeSectionContent} feeSectionHeadingId={NITDelhiCollegeNavigationConstants[1].headingId} feeSectionHeadingName={NITDelhiCollegeNavigationConstants[1].title}
-    //     coursesSectionContent={NITDelhiCollegeCoursesSectionContent} coursesSectionHeadingId={NITDelhiCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={NITDelhiCollegeNavigationConstants[5].title} collegeCourseDetailConstant={NITDelhiCoursesDetailsConstants}
-    //     admissionSectionContent={NITDelhiCollegeAdmissionSectionContent} admissionSectionHeadingId={NITDelhiCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={NITDelhiCollegeNavigationConstants[6].title}
-    //     placementSectionContent={NITDelhiCollegePlacementSectionContent} placementSectionHeadingId={NITDelhiCollegeNavigationConstants[2].headingId} placementSectionHeadingName={NITDelhiCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-    //     cutoffSectionContent={NITDelhiCollegeCutOffSectionContent} cutoffSectionHeadingId={NITDelhiCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITDelhiCollegeNavigationConstants[7].title}></NITGenericCollegePage>
-    // },
-    // {
-    //     path : "/college/nit/nit-goa",
-    //     component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Goa" 
-    //     collegePageNavigationConstants={NITGoaCollegeNavigationConstants} 
-    //     aboutSectionContent={NITGoaCollegeAboutSectionContent} aboutSectionHeadingId={NITGoaCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITGoaCollegeNavigationConstants[0].title} 
-    //     feeSectionContent={NITGoaCollegeFeeSectionContent} feeSectionHeadingId={NITGoaCollegeNavigationConstants[1].headingId} feeSectionHeadingName={NITGoaCollegeNavigationConstants[1].title}
-    //     coursesSectionContent={NITGoaCollegeCoursesSectionContent} coursesSectionHeadingId={NITGoaCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={NITGoaCollegeNavigationConstants[5].title} collegeCourseDetailConstant={NITGoaCoursesDetailsConstants}
-    //     admissionSectionContent={NITGoaCollegeAdmissionSectionContent} admissionSectionHeadingId={NITGoaCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={NITGoaCollegeNavigationConstants[6].title}
-    //     placementSectionContent={NITGoaCollegePlacementSectionContent} placementSectionHeadingId={NITGoaCollegeNavigationConstants[2].headingId} placementSectionHeadingName={NITGoaCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-    //     cutoffSectionContent={NITGoaCollegeCutOffSectionContent} cutoffSectionHeadingId={NITGoaCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITGoaCollegeNavigationConstants[7].title}></NITGenericCollegePage>
-    // }, 
-    // {
-    //     path : "/college/nit/nit-manipur",
-    //     component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Manipur" 
-    //     collegePageNavigationConstants={NITManipurCollegeNavigationConstants} 
-    //     aboutSectionContent={NITManipurCollegeAboutSectionContent} aboutSectionHeadingId={NITManipurCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITManipurCollegeNavigationConstants[0].title} 
-    //     feeSectionContent={NITManipurCollegeFeeSectionContent} feeSectionHeadingId={NITManipurCollegeNavigationConstants[1].headingId} feeSectionHeadingName={NITManipurCollegeNavigationConstants[1].title}
-    //     coursesSectionContent={NITManipurCollegeCoursesSectionContent} coursesSectionHeadingId={NITManipurCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={NITManipurCollegeNavigationConstants[5].title} collegeCourseDetailConstant={NITManipurCoursesDetailsConstants}
-    //     admissionSectionContent={NITManipurCollegeAdmissionSectionContent} admissionSectionHeadingId={NITManipurCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={NITManipurCollegeNavigationConstants[6].title}
-    //     placementSectionContent={NITManipurCollegePlacementSectionContent} placementSectionHeadingId={NITManipurCollegeNavigationConstants[2].headingId} placementSectionHeadingName={NITManipurCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-    //     cutoffSectionContent={NITManipurCollegeCutOffSectionContent} cutoffSectionHeadingId={NITManipurCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITManipurCollegeNavigationConstants[7].title}></NITGenericCollegePage>
-    // },
-    // {
-    //     path : "/college/nit/nit-meghalaya",
-    //     component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Meghalaya" 
-    //     collegePageNavigationConstants={NITMeghalayaCollegeNavigationConstants} 
-    //     aboutSectionContent={NITMeghalayaCollegeAboutSectionContent} aboutSectionHeadingId={NITMeghalayaCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITMeghalayaCollegeNavigationConstants[0].title} 
-    //     feeSectionContent={NITMeghalayaCollegeFeeSectionContent} feeSectionHeadingId={NITMeghalayaCollegeNavigationConstants[1].headingId} feeSectionHeadingName={NITMeghalayaCollegeNavigationConstants[1].title}
-    //     coursesSectionContent={NITMeghalayaCollegeCoursesSectionContent} coursesSectionHeadingId={NITMeghalayaCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={NITMeghalayaCollegeNavigationConstants[5].title} collegeCourseDetailConstant={NITMeghalayaCoursesDetailsConstants}
-    //     admissionSectionContent={NITMeghalayaCollegeAdmissionSectionContent} admissionSectionHeadingId={NITMeghalayaCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={NITMeghalayaCollegeNavigationConstants[6].title}
-    //     placementSectionContent={NITMeghalayaCollegePlacementSectionContent} placementSectionHeadingId={NITMeghalayaCollegeNavigationConstants[2].headingId} placementSectionHeadingName={NITMeghalayaCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-    //     cutoffSectionContent={NITMeghalayaCollegeCutOffSectionContent} cutoffSectionHeadingId={NITMeghalayaCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITMeghalayaCollegeNavigationConstants[7].title}></NITGenericCollegePage>
-    // },
-    // {
-    //     path : "/college/nit/nit-mizoram",
-    //     component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Mizoram" 
-    //     collegePageNavigationConstants={NITMizoramCollegeNavigationConstants} 
-    //     aboutSectionContent={NITMizoramCollegeAboutSectionContent} aboutSectionHeadingId={NITMizoramCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITMizoramCollegeNavigationConstants[0].title} 
-    //     feeSectionContent={NITMizoramCollegeFeeSectionContent} feeSectionHeadingId={NITMizoramCollegeNavigationConstants[1].headingId} feeSectionHeadingName={NITMizoramCollegeNavigationConstants[1].title}
-    //     coursesSectionContent={NITMizoramCollegeCoursesSectionContent} coursesSectionHeadingId={NITMizoramCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={NITMizoramCollegeNavigationConstants[5].title} collegeCourseDetailConstant={NITMizoramCoursesDetailsConstants}
-    //     admissionSectionContent={NITMizoramCollegeAdmissionSectionContent} admissionSectionHeadingId={NITMizoramCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={NITMizoramCollegeNavigationConstants[6].title}
-    //     placementSectionContent={NITMizoramCollegePlacementSectionContent} placementSectionHeadingId={NITMizoramCollegeNavigationConstants[2].headingId} placementSectionHeadingName={NITMizoramCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-    //     cutoffSectionContent={NITMizoramCollegeCutOffSectionContent} cutoffSectionHeadingId={NITMizoramCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITMizoramCollegeNavigationConstants[7].title}></NITGenericCollegePage>
-    // },
-    // {
-    //     path : "/college/nit/nit-nagaland",
-    //     component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Nagaland" 
-    //     collegePageNavigationConstants={NITNagalandCollegeNavigationConstants} 
-    //     aboutSectionContent={NITNagalandCollegeAboutSectionContent} aboutSectionHeadingId={NITNagalandCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITNagalandCollegeNavigationConstants[0].title} 
-    //     feeSectionContent={NITNagalandCollegeFeeSectionContent} feeSectionHeadingId={NITNagalandCollegeNavigationConstants[1].headingId} feeSectionHeadingName={NITNagalandCollegeNavigationConstants[1].title}
-    //     coursesSectionContent={NITNagalandCollegeCoursesSectionContent} coursesSectionHeadingId={NITNagalandCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={NITNagalandCollegeNavigationConstants[5].title} collegeCourseDetailConstant={NITNagalandCoursesDetailsConstants}
-    //     admissionSectionContent={NITNagalandCollegeAdmissionSectionContent} admissionSectionHeadingId={NITNagalandCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={NITNagalandCollegeNavigationConstants[6].title}
-    //     placementSectionContent={NITNagalandCollegePlacementSectionContent} placementSectionHeadingId={NITNagalandCollegeNavigationConstants[2].headingId} placementSectionHeadingName={NITNagalandCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-    //     cutoffSectionContent={NITNagalandCollegeCutOffSectionContent} cutoffSectionHeadingId={NITNagalandCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITNagalandCollegeNavigationConstants[7].title}></NITGenericCollegePage>
-    // },
-    // {
-    //     path : "/college/nit/nit-puducherry",
-    //     component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Puducherry" 
-    //     collegePageNavigationConstants={NITPuducherryCollegeNavigationConstants} 
-    //     aboutSectionContent={NITPuducherryCollegeAboutSectionContent} aboutSectionHeadingId={NITPuducherryCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITPuducherryCollegeNavigationConstants[0].title} 
-    //     feeSectionContent={NITPuducherryCollegeFeeSectionContent} feeSectionHeadingId={NITPuducherryCollegeNavigationConstants[1].headingId} feeSectionHeadingName={NITPuducherryCollegeNavigationConstants[1].title}
-    //     coursesSectionContent={NITPuducherryCollegeCoursesSectionContent} coursesSectionHeadingId={NITPuducherryCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={NITPuducherryCollegeNavigationConstants[5].title} collegeCourseDetailConstant={NITPuducherryCoursesDetailsConstants}
-    //     admissionSectionContent={NITPuducherryCollegeAdmissionSectionContent} admissionSectionHeadingId={NITPuducherryCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={NITPuducherryCollegeNavigationConstants[6].title}
-    //     placementSectionContent={NITPuducherryCollegePlacementSectionContent} placementSectionHeadingId={NITPuducherryCollegeNavigationConstants[2].headingId} placementSectionHeadingName={NITPuducherryCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-    //     cutoffSectionContent={NITPuducherryCollegeCutOffSectionContent} cutoffSectionHeadingId={NITPuducherryCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITPuducherryCollegeNavigationConstants[7].title}></NITGenericCollegePage>
-    // },
-    // {
-    //     path : "/college/nit/nit-sikkim",
-    //     component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Sikkim" 
-    //     collegePageNavigationConstants={NITSikkimCollegeNavigationConstants} 
-    //     aboutSectionContent={NITSikkimCollegeAboutSectionContent} aboutSectionHeadingId={NITSikkimCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITSikkimCollegeNavigationConstants[0].title} 
-    //     feeSectionContent={NITSikkimCollegeFeeSectionContent} feeSectionHeadingId={NITSikkimCollegeNavigationConstants[1].headingId} feeSectionHeadingName={NITSikkimCollegeNavigationConstants[1].title}
-    //     coursesSectionContent={NITSikkimCollegeCoursesSectionContent} coursesSectionHeadingId={NITSikkimCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={NITSikkimCollegeNavigationConstants[5].title} collegeCourseDetailConstant={NITSikkimCoursesDetailsConstants}
-    //     admissionSectionContent={NITSikkimCollegeAdmissionSectionContent} admissionSectionHeadingId={NITSikkimCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={NITSikkimCollegeNavigationConstants[6].title}
-    //     placementSectionContent={NITSikkimCollegePlacementSectionContent} placementSectionHeadingId={NITSikkimCollegeNavigationConstants[2].headingId} placementSectionHeadingName={NITSikkimCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-    //     cutoffSectionContent={NITSikkimCollegeCutOffSectionContent} cutoffSectionHeadingId={NITSikkimCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITSikkimCollegeNavigationConstants[7].title}></NITGenericCollegePage>
-    // },
-    // {
-    //     path : "/college/nit/nit-uttarakhand",
-    //     component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Uttarakhand" 
-    //     collegePageNavigationConstants={NITUttarakhandCollegeNavigationConstants} 
-    //     aboutSectionContent={NITUttarakhandCollegeAboutSectionContent} aboutSectionHeadingId={NITUttarakhandCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITUttarakhandCollegeNavigationConstants[0].title} 
-    //     feeSectionContent={NITUttarakhandCollegeFeeSectionContent} feeSectionHeadingId={NITUttarakhandCollegeNavigationConstants[1].headingId} feeSectionHeadingName={NITUttarakhandCollegeNavigationConstants[1].title}
-    //     coursesSectionContent={NITUttarakhandCollegeCoursesSectionContent} coursesSectionHeadingId={NITUttarakhandCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={NITUttarakhandCollegeNavigationConstants[5].title} collegeCourseDetailConstant={NITUttarakhandCoursesDetailsConstants}
-    //     admissionSectionContent={NITUttarakhandCollegeAdmissionSectionContent} admissionSectionHeadingId={NITUttarakhandCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={NITUttarakhandCollegeNavigationConstants[6].title}
-    //     placementSectionContent={NITUttarakhandCollegePlacementSectionContent} placementSectionHeadingId={NITUttarakhandCollegeNavigationConstants[2].headingId} placementSectionHeadingName={NITUttarakhandCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-    //     cutoffSectionContent={NITUttarakhandCollegeCutOffSectionContent} cutoffSectionHeadingId={NITUttarakhandCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITUttarakhandCollegeNavigationConstants[7].title}></NITGenericCollegePage>
-    // },
-    // {
-    //     path : "/college/nit/nit-andhra-pradesh",
-    //     component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Andhra Pradesh" 
-    //     collegePageNavigationConstants={NITAndhraPradeshCollegeNavigationConstants} 
-    //     aboutSectionContent={NITAndhraPradeshCollegeAboutSectionContent} aboutSectionHeadingId={NITAndhraPradeshCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITAndhraPradeshCollegeNavigationConstants[0].title} 
-    //     feeSectionContent={NITAndhraPradeshCollegeFeeSectionContent} feeSectionHeadingId={NITAndhraPradeshCollegeNavigationConstants[1].headingId} feeSectionHeadingName={NITAndhraPradeshCollegeNavigationConstants[1].title}
-    //     coursesSectionContent={NITAndhraPradeshCollegeCoursesSectionContent} coursesSectionHeadingId={NITAndhraPradeshCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={NITAndhraPradeshCollegeNavigationConstants[5].title} collegeCourseDetailConstant={NITAndhraPradeshCoursesDetailsConstants}
-    //     admissionSectionContent={NITAndhraPradeshCollegeAdmissionSectionContent} admissionSectionHeadingId={NITAndhraPradeshCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={NITAndhraPradeshCollegeNavigationConstants[6].title}
-    //     placementSectionContent={NITAndhraPradeshCollegePlacementSectionContent} placementSectionHeadingId={NITAndhraPradeshCollegeNavigationConstants[2].headingId} placementSectionHeadingName={NITAndhraPradeshCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-    //     cutoffSectionContent={NITAndhraPradeshCollegeCutOffSectionContent} cutoffSectionHeadingId={NITAndhraPradeshCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITAndhraPradeshCollegeNavigationConstants[7].title}></NITGenericCollegePage>
-    // },
+    
+    {
+        path : "/college/nit/nit-bhopal",
+        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Bhopal" 
+        collegePageNavigationConstants={NITBhopalCollegeNavigationConstants} 
+        aboutSectionContent={NITBhopalCollegeAboutSectionContent} aboutSectionHeadingId={NITBhopalCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITBhopalCollegeNavigationConstants[0].title} aboutSectionTableContent={NITBhopalAboutDataTableConstant} aboutSectionTableHeading={NITGoaAboutDataTableHeading}
+        locationSectionContent={NITBhopalCollegeLocationSectionContent} locationSectionHeadingId={NITBhopalCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITBhopalCollegeNavigationConstants[1].title} locationSectionTableContent={NITBhopalLocationDataTableConstant} locationSectionTableHeading={NITBhopalLocationDataTableHeading}
+        rankingSectionContent={NITBhopalCollegeRankingSectionContent} rankingSectionHeadingId={NITBhopalCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={NITBhopalCollegeNavigationConstants[2].title} rankingSectionTableContent={NITBhopalRankingDataTableConstant} rankingSectionTableHeading={NITBhopalRankingDataTableHeading}
+        admissionSectionContent={NITBhopalCollegeAdmissionSectionContent} admissionSectionHeadingId={NITBhopalCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={NITBhopalCollegeNavigationConstants[3].title}
+        coursesSectionContent={NITBhopalCollegeCoursesSectionContent} coursesSectionHeadingId={NITBhopalCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={NITBhopalCollegeNavigationConstants[4].title} collegeCourseDetailConstant={NITBhopalCoursesDetailsConstants}
+        feeSectionContent={NITBhopalCollegeFeeSectionContent} feeSectionHeadingId={NITBhopalCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITBhopalCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITBhopalInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITBhopalInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITBhopalHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITBhopalHostelFeesDataTableHeading}
+        seatSectionContent={NITBhopalCollegeSeatSectionContent} seatSectionHeadingId={NITBhopalCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITBhopalCollegeNavigationConstants[6].title} seatSectionTableContent={NITBhopalSeatDataTableConstant} seatSectionTableHeading={NITBhopalSeatDataTableHeading}
+        cutoffSectionContent={NITBhopalCollegeCutOffSectionContent} cutoffSectionHeadingId={NITBhopalCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITBhopalCollegeNavigationConstants[7].title}
+        placementSectionContent={NITBhopalCollegePlacementSectionContent} placementSectionHeadingId={NITBhopalCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITBhopalCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITBhopalPlacementImageList}>
+        </NITGenericCollegePage>
+    },
+    {
+        path : "/college/nit/nit-nagpur",
+        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Nagpur" 
+        collegePageNavigationConstants={NITNagpurCollegeNavigationConstants} 
+        aboutSectionContent={NITNagpurCollegeAboutSectionContent} aboutSectionHeadingId={NITNagpurCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITNagpurCollegeNavigationConstants[0].title} aboutSectionTableContent={NITNagpurAboutDataTableConstant} aboutSectionTableHeading={NITNagpurAboutDataTableHeading}
+        locationSectionContent={NITNagpurCollegeLocationSectionContent} locationSectionHeadingId={NITNagpurCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITNagpurCollegeNavigationConstants[1].title} locationSectionTableContent={NITNagpurLocationDataTableConstant} locationSectionTableHeading={NITNagpurLocationDataTableHeading}
+        rankingSectionContent={NITNagpurCollegeRankingSectionContent} rankingSectionHeadingId={NITNagpurCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={NITNagpurCollegeNavigationConstants[2].title} rankingSectionTableContent={NITNagpurRankingDataTableConstant} rankingSectionTableHeading={NITNagpurRankingDataTableHeading}
+        admissionSectionContent={NITNagpurCollegeAdmissionSectionContent} admissionSectionHeadingId={NITNagpurCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={NITNagpurCollegeNavigationConstants[3].title}
+        coursesSectionContent={NITNagpurCollegeCoursesSectionContent} coursesSectionHeadingId={NITNagpurCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={NITNagpurCollegeNavigationConstants[4].title} collegeCourseDetailConstant={NITNagpurCoursesDetailsConstants}
+        feeSectionContent={NITNagpurCollegeFeeSectionContent} feeSectionHeadingId={NITNagpurCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITNagpurCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITNagpurInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITNagpurInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITNagpurHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITNagpurHostelFeesDataTableHeading}
+        seatSectionContent={NITNagpurCollegeSeatSectionContent} seatSectionHeadingId={NITNagpurCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITNagpurCollegeNavigationConstants[6].title} seatSectionTableContent={NITNagpurSeatDataTableConstant} seatSectionTableHeading={NITNagpurSeatDataTableHeading}
+        cutoffSectionContent={NITNagpurCollegeCutOffSectionContent} cutoffSectionHeadingId={NITNagpurCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITNagpurCollegeNavigationConstants[7].title}
+        placementSectionContent={NITNagpurCollegePlacementSectionContent} placementSectionHeadingId={NITNagpurCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITNagpurCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITNagpurPlacementImageList}>
+        </NITGenericCollegePage>
+    },
+    {
+        path : "/college/nit/nit-durgapur",
+        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Durgapur" 
+        collegePageNavigationConstants={NITDurgapurCollegeNavigationConstants} 
+        aboutSectionContent={NITDurgapurCollegeAboutSectionContent} aboutSectionHeadingId={NITDurgapurCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITDurgapurCollegeNavigationConstants[0].title} aboutSectionTableContent={NITDurgapurAboutDataTableConstant} aboutSectionTableHeading={NITNagpurAboutDataTableHeading}
+        locationSectionContent={NITDurgapurCollegeLocationSectionContent} locationSectionHeadingId={NITDurgapurCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITDurgapurCollegeNavigationConstants[1].title} locationSectionTableContent = {NITDurgapurLocationDataTableConstant} locationSectionTableHeading={NITDurgapurLocationDataTableHeading}
+        rankingSectionContent={NITDurgapurCollegeRankingSectionContent} rankingSectionHeadingId={NITDurgapurCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={NITDurgapurCollegeNavigationConstants[2].title} rankingSectionTableContent={NITDurgapurRankingDataTableConstant} rankingSectionTableHeading={NITDurgapurRankingDataTableHeading}
+        admissionSectionContent={NITDurgapurCollegeAdmissionSectionContent} admissionSectionHeadingId={NITDurgapurCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={NITDurgapurCollegeNavigationConstants[3].title}
+        coursesSectionContent={NITDurgapurCollegeCoursesSectionContent} coursesSectionHeadingId={NITDurgapurCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={NITDurgapurCollegeNavigationConstants[4].title} collegeCourseDetailConstant={NITDurgapurCoursesDetailsConstants}
+        feeSectionContent={NITDurgapurCollegeFeeSectionContent} feeSectionHeadingId={NITDurgapurCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITDurgapurCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITDurgapurInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITDurgapurInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITDurgapurHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITDurgapurHostelFeesDataTableHeading}
+        seatSectionContent={NITDurgapurCollegeSeatSectionContent} seatSectionHeadingId={NITDurgapurCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITDurgapurCollegeNavigationConstants[6].title} seatSectionTableContent={NITDurgapurSeatDataTableConstant} seatSectionTableHeading={NITDurgapurSeatDataTableHeading}
+        cutoffSectionContent={NITDurgapurCollegeCutOffSectionContent} cutoffSectionHeadingId={NITDurgapurCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITDurgapurCollegeNavigationConstants[7].title}
+        placementSectionContent={NITDurgapurCollegePlacementSectionContent} placementSectionHeadingId={NITDurgapurCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITDurgapurCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITDurgapurPlacementImageList}>
+        </NITGenericCollegePage>
+    },
+    {
+        path : "/college/nit/nit-jamshedpur",
+        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Jamshedpur" 
+        collegePageNavigationConstants={NITJamshedpurCollegeNavigationConstants} 
+        aboutSectionContent={NITJamshedpurCollegeAboutSectionContent} aboutSectionHeadingId={NITJamshedpurCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITJamshedpurCollegeNavigationConstants[0].title} aboutSectionTableContent={NITJamshedpurAboutDataTableConstant} aboutSectionTableHeading={NITJamshedpurAboutDataTableHeading}
+        locationSectionContent={NITJamshedpurCollegeLocationSectionContent} locationSectionHeadingId={NITJamshedpurCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITJamshedpurCollegeNavigationConstants[1].title} locationSectionTableContent={NITJamshedpurLocationDataTableConstant} locationSectionTableHeading={NITJamshedpurLocationDataTableHeading}
+        rankingSectionContent={NITJamshedpurCollegeRankingSectionContent} rankingSectionHeadingId={NITJamshedpurCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={NITJamshedpurCollegeNavigationConstants[2].title} rankingSectionTableContent={NITJamshedpurRankingDataTableConstant} rankingSectionTableHeading={NITJamshedpurRankingDataTableHeading}
+        admissionSectionContent={NITJamshedpurCollegeAdmissionSectionContent} admissionSectionHeadingId={NITJamshedpurCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={NITJamshedpurCollegeNavigationConstants[3].title}
+        coursesSectionContent={NITJamshedpurCollegeCoursesSectionContent} coursesSectionHeadingId={NITJamshedpurCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={NITJamshedpurCollegeNavigationConstants[4].title} collegeCourseDetailConstant={NITJamshedpurCoursesDetailsConstants}
+        feeSectionContent={NITJamshedpurCollegeFeeSectionContent} feeSectionHeadingId={NITJamshedpurCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITJamshedpurCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITJamshedpurInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITJamshedpurInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITJamshedpurHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITJamshedpurHostelFeesDataTableHeading}
+        seatSectionContent={NITJamshedpurCollegeSeatSectionContent} seatSectionHeadingId={NITJamshedpurCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITJamshedpurCollegeNavigationConstants[6].title} seatSectionTableContent={NITJamshedpurSeatDataTableConstant} seatSectionTableHeading={NITJamshedpurSeatDataTableHeading}
+        cutoffSectionContent={NITJamshedpurCollegeCutOffSectionContent} cutoffSectionHeadingId={NITJamshedpurCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITJamshedpurCollegeNavigationConstants[7].title}
+        placementSectionContent={NITJamshedpurCollegePlacementSectionContent} placementSectionHeadingId={NITJamshedpurCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITJamshedpurCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITJamshedpurPlacementImageList}>
+        </NITGenericCollegePage>
+    },
+    {
+        path : "/college/nit/nit-karnataka",
+        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Karnataka" 
+        collegePageNavigationConstants={NITKarnatakaCollegeNavigationConstants} 
+        aboutSectionContent={NITKarnatakaCollegeAboutSectionContent} aboutSectionHeadingId={NITKarnatakaCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITKarnatakaCollegeNavigationConstants[0].title} aboutSectionTableContent={NITKarnatakaAboutDataTableConstant} aboutSectionTableHeading={NITKarnatakaAboutDataTableHeading}
+        locationSectionContent={NITKarnatakaCollegeLocationSectionContent} locationSectionHeadingId={NITKarnatakaCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITKarnatakaCollegeNavigationConstants[1].title} locationSectionTableContent={NITKarnatakaLocationDataTableConstant} locationSectionTableHeading={NITKarnatakaLocationDataTableHeading}
+        rankingSectionContent={NITKarnatakaCollegeRankingSectionContent} rankingSectionHeadingId={NITKarnatakaCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={NITKarnatakaCollegeNavigationConstants[2].title} rankingSectionTableContent={NITKarnatakaRankingDataTableConstant} rankingSectionTableHeading={NITKarnatakaRankingDataTableHeading}
+        admissionSectionContent={NITKarnatakaCollegeAdmissionSectionContent} admissionSectionHeadingId={NITKarnatakaCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={NITKarnatakaCollegeNavigationConstants[3].title}
+        coursesSectionContent={NITKarnatakaCollegeCoursesSectionContent} coursesSectionHeadingId={NITKarnatakaCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={NITKarnatakaCollegeNavigationConstants[4].title} collegeCourseDetailConstant={NITKarnatakaCoursesDetailsConstants}
+        feeSectionContent={NITKarnatakaCollegeFeeSectionContent} feeSectionHeadingId={NITKarnatakaCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITKarnatakaCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITKarnatakaInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITKarnatakaInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITKarnatakaHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITKarnatakaHostelFeesDataTableHeading}
+        seatSectionContent={NITKarnatakaCollegeSeatSectionContent} seatSectionHeadingId={NITKarnatakaCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITKarnatakaCollegeNavigationConstants[6].title} seatSectionTableContent={NITKarnatakaSeatDataTableConstant} seatSectionTableHeading={NITKarnatakaSeatDataTableHeading}
+        cutoffSectionContent={NITKarnatakaCollegeCutOffSectionContent} cutoffSectionHeadingId={NITKarnatakaCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITKarnatakaCollegeNavigationConstants[7].title}
+        placementSectionContent={NITKarnatakaCollegePlacementSectionContent} placementSectionHeadingId={NITKarnatakaCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITKarnatakaCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITKarnatakaPlacementImageList}>
+        </NITGenericCollegePage>
+    },
+    {
+        path : "/college/nit/nit-srinagar",
+        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Srinagar" 
+        collegePageNavigationConstants={NITSrinagarCollegeNavigationConstants} 
+        aboutSectionContent={NITSrinagarCollegeAboutSectionContent} aboutSectionHeadingId={NITSrinagarCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITSrinagarCollegeNavigationConstants[0].title} aboutSectionTableContent={NITSrinagarAboutDataTableConstant} aboutSectionTableHeading={NITSrinagarAboutDataTableHeading}
+        locationSectionContent={NITSrinagarCollegeLocationSectionContent} locationSectionHeadingId={NITSrinagarCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITSrinagarCollegeNavigationConstants[1].title} locationSectionTableContent={NITDurgapurAboutDataTableConstant} locationSectionTableHeading={NITSrinagarLocationDataTableHeading}
+        rankingSectionContent={NITSrinagarCollegeRankingSectionContent} rankingSectionHeadingId={NITSrinagarCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={NITSrinagarCollegeNavigationConstants[2].title} rankingSectionTableContent={NITSrinagarLocationDataTableConstant} rankingSectionTableHeading={NITSrinagarRankingDataTableHeading}
+        admissionSectionContent={NITSrinagarCollegeAdmissionSectionContent} admissionSectionHeadingId={NITSrinagarCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={NITSrinagarCollegeNavigationConstants[3].title}
+        coursesSectionContent={NITSrinagarCollegeCoursesSectionContent} coursesSectionHeadingId={NITSrinagarCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={NITSrinagarCollegeNavigationConstants[4].title} collegeCourseDetailConstant={NITSrinagarCoursesDetailsConstants}
+        feeSectionContent={NITSrinagarCollegeFeeSectionContent} feeSectionHeadingId={NITSrinagarCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITSrinagarCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITSrinagarInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITSrinagarInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITSrinagarHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITSrinagarHostelFeesDataTableHeading}
+        seatSectionContent={NITSrinagarCollegeSeatSectionContent} seatSectionHeadingId={NITSrinagarCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITSrinagarCollegeNavigationConstants[6].title} seatSectionTableContent={NITSrinagarSeatDataTableConstant} seatSectionTableHeading={NITSrinagarSeatDataTableHeading}
+        cutoffSectionContent={NITSrinagarCollegeCutOffSectionContent} cutoffSectionHeadingId={NITSrinagarCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITSrinagarCollegeNavigationConstants[7].title}
+        placementSectionContent={NITSrinagarCollegePlacementSectionContent} placementSectionHeadingId={NITSrinagarCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITSrinagarCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITSrinagarPlacementImageList}>
+        </NITGenericCollegePage>
+    },
+    {
+        path : "/college/nit/nit-allahabad",
+        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Allahabad" 
+        collegePageNavigationConstants={NITAllahabadCollegeNavigationConstants} 
+        aboutSectionContent={NITAllahabadCollegeAboutSectionContent} aboutSectionHeadingId={NITAllahabadCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITAllahabadCollegeNavigationConstants[0].title} aboutSectionTableContent={NITAllahabadAboutDataTableConstant} aboutSectionTableHeading={NITAllahabadAboutDataTableHeading}
+        locationSectionContent={NITAllahabadCollegeLocationSectionContent} locationSectionHeadingId={NITAllahabadCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITAllahabadCollegeNavigationConstants[1].title} locationSectionTableContent={NITAllahabadLocationDataTableConstant} locationSectionTableHeading={NITBhopalLocationDataTableHeading}
+        rankingSectionContent={NITAllahabadCollegeRankingSectionContent} rankingSectionHeadingId={NITAllahabadCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={NITAllahabadCollegeNavigationConstants[2].title} rankingSectionTableContent={NITAllahabadRankingDataTableConstant} rankingSectionTableHeading={NITAllahabadRankingDataTableHeading}
+        admissionSectionContent={NITAllahabadCollegeAdmissionSectionContent} admissionSectionHeadingId={NITAllahabadCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={NITAllahabadCollegeNavigationConstants[3].title}
+        coursesSectionContent={NITAllahabadCollegeCoursesSectionContent} coursesSectionHeadingId={NITAllahabadCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={NITAllahabadCollegeNavigationConstants[4].title} collegeCourseDetailConstant={NITAllahabadCoursesDetailsConstants}
+        feeSectionContent={NITAllahabadCollegeFeeSectionContent} feeSectionHeadingId={NITAllahabadCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITAllahabadCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITAllahabadInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITAllahabadInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITAllahabadHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITAllahabadHostelFeesDataTableHeading}
+        seatSectionContent={NITAllahabadCollegeSeatSectionContent} seatSectionHeadingId={NITAllahabadCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITAllahabadCollegeNavigationConstants[6].title} seatSectionTableContent={NITAllahabadSeatDataTableConstant} seatSectionTableHeading={NITAllahabadSeatDataTableHeading}
+        cutoffSectionContent={NITAllahabadCollegeCutOffSectionContent} cutoffSectionHeadingId={NITAllahabadCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITAllahabadCollegeNavigationConstants[7].title}
+        placementSectionContent={NITAllahabadCollegePlacementSectionContent} placementSectionHeadingId={NITAllahabadCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITAllahabadCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITAllahabadPlacementImageList}>
+        </NITGenericCollegePage>
+    },
+    {
+        path : "/college/nit/nit-surat",
+        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Surat" 
+        collegePageNavigationConstants={NITSuratCollegeNavigationConstants} 
+        aboutSectionContent={NITSuratCollegeAboutSectionContent} aboutSectionHeadingId={NITSuratCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITSuratCollegeNavigationConstants[0].title} aboutSectionTableContent={NITSuratAboutDataTableConstant} aboutSectionTableHeading={NITSuratAboutDataTableHeading}
+        locationSectionContent={NITSuratCollegeLocationSectionContent} locationSectionHeadingId={NITSuratCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITSuratCollegeNavigationConstants[1].title} locationSectionTableContent={NITSuratLocationDataTableConstant} locationSectionTableHeading={NITSuratLocationDataTableHeading}
+        rankingSectionContent={NITSuratCollegeRankingSectionContent} rankingSectionHeadingId={NITSuratCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={NITSuratCollegeNavigationConstants[2].title} rankingSectionTableContent={NITSuratRankingDataTableConstant} rankingSectionTableHeading={NITSuratRankingDataTableHeading}
+        admissionSectionContent={NITSuratCollegeAdmissionSectionContent} admissionSectionHeadingId={NITSuratCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={NITSuratCollegeNavigationConstants[3].title}
+        coursesSectionContent={NITSuratCollegeCoursesSectionContent} coursesSectionHeadingId={NITSuratCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={NITSuratCollegeNavigationConstants[4].title} collegeCourseDetailConstant={NITSuratCoursesDetailsConstants}
+        feeSectionContent={NITSuratCollegeFeeSectionContent} feeSectionHeadingId={NITSuratCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITSuratCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITSuratInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITSuratInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITSuratHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITSuratHostelFeesDataTableHeading}
+        seatSectionContent={NITSuratCollegeFeeSectionContent} seatSectionHeadingId={NITSuratCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITSuratCollegeNavigationConstants[6].title} seatSectionTableContent={NITSuratSeatDataTableConstant} seatSectionTableHeading={NITSuratSeatDataTableHeading}
+        cutoffSectionContent={NITSuratCollegeCutOffSectionContent} cutoffSectionHeadingId={NITSuratCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITSuratCollegeNavigationConstants[7].title}
+        placementSectionContent={NITSuratCollegePlacementSectionContent} placementSectionHeadingId={NITSuratCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITSuratCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITSuratPlacementImageList}>
+        </NITGenericCollegePage>
+    }
+,
+
+    {
+        path : "/college/nit/nit-calicut",
+        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Calicut" 
+        collegePageNavigationConstants={NITCalicutCollegeNavigationConstants} 
+        aboutSectionContent={NITCalicutCollegeAboutSectionContent} aboutSectionHeadingId={NITCalicutCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITCalicutCollegeNavigationConstants[0].title} aboutSectionTableContent={NITCalicutAboutDataTableConstant} aboutSectionTableHeading={NITCalicutAboutDataTableHeading}
+        locationSectionContent={NITCalicutCollegeLocationSectionContent} locationSectionHeadingId={NITCalicutCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITCalicutCollegeNavigationConstants[1].title} locationSectionTableContent={NITCalicutLocationDataTableConstant} locationSectionTableHeading={NITCalicutLocationDataTableHeading}
+        rankingSectionContent={NITCalicutCollegeRankingSectionContent} rankingSectionHeadingId={NITCalicutCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={NITCalicutCollegeNavigationConstants[2].title} rankingSectionTableContent={NITCalicutRankingDataTableConstant} rankingSectionTableHeading={NITCalicutRankingDataTableHeading}
+        admissionSectionContent={NITCalicutCollegeAdmissionSectionContent} admissionSectionHeadingId={NITCalicutCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={NITCalicutCollegeNavigationConstants[3].title}
+        coursesSectionContent={NITCalicutCollegeCoursesSectionContent} coursesSectionHeadingId={NITCalicutCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={NITCalicutCollegeNavigationConstants[4].title} collegeCourseDetailConstant={NITCalicutCoursesDetailsConstants}
+        feeSectionContent={NITCalicutCollegeFeeSectionContent} feeSectionHeadingId={NITCalicutCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITCalicutCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITCalicutHostelFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITCalicutInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITCalicutHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITCalicutHostelFeesDataTableHeading}
+        seatSectionContent={NITCalicutCollegeSeatSectionContent} seatSectionHeadingId={NITCalicutCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITCalicutCollegeNavigationConstants[6].title} seatSectionTableContent={NITCalicutSeatDataTableConstant} seatSectionTableHeading={NITCalicutSeatDataTableHeading}
+        cutoffSectionContent={NITCalicutCollegeCutOffSectionContent} cutoffSectionHeadingId={NITCalicutCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITCalicutCollegeNavigationConstants[7].title}
+        placementSectionContent={NITCalicutCollegePlacementSectionContent} placementSectionHeadingId={NITCalicutCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITCalicutCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITCalicutPlacementImageList}>
+        </NITGenericCollegePage>
+    },
+    {
+        path : "/college/nit/nit-rourkela",
+        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Rourkela" 
+        collegePageNavigationConstants={NITRourkelaCollegeNavigationConstants} 
+        aboutSectionContent={NITRourkelaCollegeAboutSectionContent} aboutSectionHeadingId={NITRourkelaCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITRourkelaCollegeNavigationConstants[0].title} aboutSectionTableContent={NITRourkelaAboutDataTableConstant} aboutSectionTableHeading={NITRourkelaAboutDataTableHeading}
+        locationSectionContent={NITRourkelaCollegeLocationSectionContent} locationSectionHeadingId={NITRourkelaCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITRourkelaCollegeNavigationConstants[1].title} locationSectionTableContent={NITRourkelaLocationDataTableConstant} locationSectionTableHeading={NITRourkelaLocationDataTableHeading}
+        rankingSectionContent={NITRourkelaCollegeRankingSectionContent} rankingSectionHeadingId={NITRourkelaCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={NITRourkelaCollegeNavigationConstants[2].title} rankingSectionTableContent={NITRourkelaRankingDataTableConstant} rankingSectionTableHeading={NITRourkelaRankingDataTableHeading}
+        admissionSectionContent={NITRourkelaCollegeAdmissionSectionContent} admissionSectionHeadingId={NITRourkelaCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={NITRourkelaCollegeNavigationConstants[3].title}
+        coursesSectionContent={NITRourkelaCollegeCoursesSectionContent} coursesSectionHeadingId={NITRourkelaCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={NITRourkelaCollegeNavigationConstants[4].title} collegeCourseDetailConstant={NITRourkelaCoursesDetailsConstants}
+        feeSectionContent={NITRourkelaCollegeFeeSectionContent} feeSectionHeadingId={NITRourkelaCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITRourkelaCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITRourkelaInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITRourkelaInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITRourkelaHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITRourkelaHostelFeesDataTableHeading}
+        seatSectionContent={NITRourkelaCollegeSeatSectionContent} seatSectionHeadingId={NITRourkelaCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITRourkelaCollegeNavigationConstants[6].title} seatSectionTableContent={NITRourkelaSeatDataTableConstant} seatSectionTableHeading={NITRourkelaSeatDataTableHeading}
+        cutoffSectionContent={NITRourkelaCollegeCutOffSectionContent} cutoffSectionHeadingId={NITRourkelaCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITRourkelaCollegeNavigationConstants[7].title}
+        placementSectionContent={NITRourkelaCollegePlacementSectionContent} placementSectionHeadingId={NITRourkelaCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITRourkelaCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITRourkelaPlacementImageList}>
+        </NITGenericCollegePage>
+    },
+    {
+        path : "/college/nit/nit-jaipur",
+        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Jaipur" 
+        collegePageNavigationConstants={NITJaipurCollegeNavigationConstants} 
+        aboutSectionContent={NITJaipurCollegeAboutSectionContent} aboutSectionHeadingId={NITJaipurCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITJaipurCollegeNavigationConstants[0].title} aboutSectionTableContent={NITJaipurAboutDataTableConstant} aboutSectionTableHeading={NITJaipurAboutDataTableHeading}
+        locationSectionContent={NITJaipurCollegeLocationSectionContent} locationSectionHeadingId={NITJaipurCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITJaipurCollegeNavigationConstants[1].title} locationSectionTableContent={NITJaipurLocationDataTableConstant} locationSectionTableHeading={NITJaipurLocationDataTableHeading}
+        rankingSectionContent={NITJaipurCollegeRankingSectionContent} rankingSectionHeadingId={NITJaipurCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={NITJaipurCollegeNavigationConstants[2].title} rankingSectionTableContent={NITJaipurRankingDataTableConstant} rankingSectionTableHeading={NITJaipurRankingDataTableHeading}
+        admissionSectionContent={NITJaipurCollegeAdmissionSectionContent} admissionSectionHeadingId={NITJaipurCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={NITJaipurCollegeNavigationConstants[3].title}
+        coursesSectionContent={NITJaipurCollegeCoursesSectionContent} coursesSectionHeadingId={NITJaipurCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={NITJaipurCollegeNavigationConstants[4].title} collegeCourseDetailConstant={NITJaipurCoursesDetailsConstants}
+        feeSectionContent={NITJaipurCollegeFeeSectionContent} feeSectionHeadingId={NITJaipurCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITJaipurCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITJaipurInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITJaipurInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITJaipurHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITBhopalHostelFeesDataTableHeading}
+        seatSectionContent={NITJaipurCollegeSeatSectionContent} seatSectionHeadingId={NITJaipurCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITJaipurCollegeNavigationConstants[6].title} seatSectionTableContent={NITJaipurSeatDataTableConstant} seatSectionTableHeading={NITJaipurSeatDataTableHeading}
+        cutoffSectionContent={NITJaipurCollegeCutOffSectionContent} cutoffSectionHeadingId={NITJaipurCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITJaipurCollegeNavigationConstants[7].title}
+        placementSectionContent={NITJaipurCollegePlacementSectionContent} placementSectionHeadingId={NITJaipurCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITJaipurCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITJaipurPlacementImageList}>
+        </NITGenericCollegePage>
+    }
+,
+    {
+        path : "/college/nit/nit-kurukshetra",
+        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Kurukshetra" 
+        collegePageNavigationConstants={NITKurukshetraCollegeNavigationConstants} 
+        aboutSectionContent={NITKurukshetraCollegeAboutSectionContent} aboutSectionHeadingId={NITKurukshetraCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITKurukshetraCollegeNavigationConstants[0].title} aboutSectionTableContent={NITKurukshetraAboutDataTableConstant} aboutSectionTableHeading={NITKurukshetraAboutDataTableHeading}
+        locationSectionContent={NITKurukshetraCollegeLocationSectionContent} locationSectionHeadingId={NITKurukshetraCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITKurukshetraCollegeNavigationConstants[1].title} locationSectionTableContent={NITKurukshetraLocationDataTableConstant} locationSectionTableHeading={NITBhopalLocationDataTableHeading}
+        rankingSectionContent={NITKurukshetraCollegeRankingSectionContent} rankingSectionHeadingId={NITKurukshetraCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={NITKurukshetraCollegeNavigationConstants[2].title} rankingSectionTableContent={NITKurukshetraRankingDataTableConstant} rankingSectionTableHeading={NITBhopalRankingDataTableHeading}
+        admissionSectionContent={NITKurukshetraCollegeAdmissionSectionContent} admissionSectionHeadingId={NITKurukshetraCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={NITKurukshetraCollegeNavigationConstants[3].title}
+        coursesSectionContent={NITKurukshetraCollegeCoursesSectionContent} coursesSectionHeadingId={NITKurukshetraCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={NITKurukshetraCollegeNavigationConstants[4].title} collegeCourseDetailConstant={NITKurukshetraCoursesDetailsConstants}
+        feeSectionContent={NITKurukshetraCollegeFeeSectionContent} feeSectionHeadingId={NITKurukshetraCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITKurukshetraCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITKurukshetraInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITKurukshetraInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITKurukshetraHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITKurukshetraHostelFeesDataTableHeading}
+        seatSectionContent={NITKurukshetraCollegeSeatSectionContent} seatSectionHeadingId={NITKurukshetraCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITKurukshetraCollegeNavigationConstants[6].title} seatSectionTableContent={NITKurukshetraSeatDataTableConstant} seatSectionTableHeading={NITKurukshetraSeatDataTableHeading}
+        cutoffSectionContent={NITKurukshetraCollegeCutOffSectionContent} cutoffSectionHeadingId={NITKurukshetraCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITKurukshetraCollegeNavigationConstants[7].title}
+        placementSectionContent={NITKurukshetraCollegePlacementSectionContent} placementSectionHeadingId={NITKurukshetraCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITKurukshetraCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITKurukshetraPlacementImageList}>
+        </NITGenericCollegePage>
+    },
+    {
+        path : "/college/nit/nit-tiruchirapalli",
+        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Tiruchirapalli" 
+        collegePageNavigationConstants={NITTiruchirappalliCollegeNavigationConstants} 
+        aboutSectionContent={NITTiruchirappalliCollegeAboutSectionContent} aboutSectionHeadingId={NITTiruchirappalliCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITTiruchirappalliCollegeNavigationConstants[0].title} aboutSectionTableContent={NITTiruchirappalliAboutDataTableConstant} aboutSectionTableHeading={NITTiruchirappalliAboutDataTableHeading}
+        locationSectionContent={NITTiruchirappalliCollegeLocationSectionContent} locationSectionHeadingId={NITTiruchirappalliCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITTiruchirappalliCollegeNavigationConstants[1].title} locationSectionTableContent={NITTiruchirapalliLocationDataTableConstant} locationSectionTableHeading={NITTiruchirapalliLocationDataTableHeading}
+        rankingSectionContent={NITTiruchirappalliCollegeRankingSectionContent} rankingSectionHeadingId={NITTiruchirappalliCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={NITTiruchirappalliCollegeNavigationConstants[2].title} rankingSectionTableContent={NITTiruchirapalliRankingDataTableConstant} rankingSectionTableHeading={NITTiruchirapalliRankingDataTableHeading}
+        admissionSectionContent={NITTiruchirappalliCollegeAdmissionSectionContent} admissionSectionHeadingId={NITTiruchirappalliCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={NITTiruchirappalliCollegeNavigationConstants[3].title}
+        coursesSectionContent={NITTiruchirappalliCollegeCoursesSectionContent} coursesSectionHeadingId={NITTiruchirappalliCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={NITTiruchirappalliCollegeNavigationConstants[4].title} collegeCourseDetailConstant={NITTiruchirappalliCoursesDetailsConstants}
+        feeSectionContent={NITTiruchirappalliCollegeFeeSectionContent} feeSectionHeadingId={NITTiruchirappalliCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITTiruchirappalliCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITTiruchirapalliInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITTiruchirapalliInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITTiruchirapalliHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITTiruchirapalliHostelFeesDataTableHeading}
+        seatSectionContent={NITTiruchirappalliCollegeSeatSectionContent} seatSectionHeadingId={NITTiruchirappalliCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITTiruchirappalliCollegeNavigationConstants[6].title} seatSectionTableContent={NITTiruchirapalliSeatDataTableConstant} seatSectionTableHeading={NITTiruchirapalliSeatDataTableHeading}
+        cutoffSectionContent={NITTiruchirappalliCollegeCutOffSectionContent} cutoffSectionHeadingId={NITTiruchirappalliCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITTiruchirappalliCollegeNavigationConstants[7].title}
+        placementSectionContent={NITTiruchirappalliCollegePlacementSectionContent} placementSectionHeadingId={NITTiruchirappalliCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITTiruchirappalliCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITTiruchirapalliPlacementImageList}>
+        </NITGenericCollegePage>
+    },
+    {
+        path : "/college/nit/nit-silchar",
+        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Silchar" 
+        collegePageNavigationConstants={NITSilcharCollegeNavigationConstants} 
+        aboutSectionContent={NITSilcharCollegeAboutSectionContent} aboutSectionHeadingId={NITSilcharCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITSilcharCollegeNavigationConstants[0].title} aboutSectionTableContent={NITSilcharAboutDataTableConstant} aboutSectionTableHeading={NITSilcharAboutDataTableHeading}
+        locationSectionContent={NITSilcharCollegeLocationSectionContent} locationSectionHeadingId={NITSilcharCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITSilcharCollegeNavigationConstants[1].title} locationSectionTableContent={NITSilcharLocationDataTableConstant} locationSectionTableHeading={NITBhopalLocationDataTableHeading}
+        rankingSectionContent={NITSilcharCollegeRankingSectionContent} rankingSectionHeadingId={NITSilcharCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={NITSilcharCollegeNavigationConstants[2].title} rankingSectionTableContent={NITSilcharRankingDataTableConstant} rankingSectionTableHeading={NITSilcharRankingDataTableHeading}
+        admissionSectionContent={NITSilcharCollegeAdmissionSectionContent} admissionSectionHeadingId={NITSilcharCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={NITSilcharCollegeNavigationConstants[3].title}
+        coursesSectionContent={NITSilcharCollegeCoursesSectionContent} coursesSectionHeadingId={NITSilcharCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={NITSilcharCollegeNavigationConstants[4].title} collegeCourseDetailConstant={NITSilcharCoursesDetailsConstants}
+        feeSectionContent={NITSilcharCollegeFeeSectionContent} feeSectionHeadingId={NITSilcharCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITSilcharCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITSilcharInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITSilcharInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITSilcharHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITSilcharHostelFeesDataTableHeading}
+        seatSectionContent={NITSilcharCollegeSeatSectionContent} seatSectionHeadingId={NITSilcharCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITSilcharCollegeNavigationConstants[6].title} seatSectionTableContent={NITSilcharSeatDataTableConstant} seatSectionTableHeading={NITSilcharSeatDataTableHeading}
+        cutoffSectionContent={NITSilcharCollegeCutOffSectionContent} cutoffSectionHeadingId={NITSilcharCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITSilcharCollegeNavigationConstants[7].title}
+        placementSectionContent={NITSilcharCollegePlacementSectionContent} placementSectionHeadingId={NITSilcharCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITSilcharCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITSilcharPlacementImageList}>
+        </NITGenericCollegePage>
+    },
+    {
+        path : "/college/nit/nit-hamirpur",
+        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Hamirpur" 
+        collegePageNavigationConstants={NITHamirpurCollegeNavigationConstants} 
+        aboutSectionContent={NITHamirpurCollegeAboutSectionContent} aboutSectionHeadingId={NITHamirpurCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITHamirpurCollegeNavigationConstants[0].title} aboutSectionTableContent={NITHamirpurAboutDataTableConstant} aboutSectionTableHeading={NITHamirpurAboutDataTableHeading}
+        locationSectionContent={NITHamirpurCollegeLocationSectionContent} locationSectionHeadingId={NITHamirpurCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITHamirpurCollegeNavigationConstants[1].title} locationSectionTableContent={NITHamirpurLocationDataTableConstant} locationSectionTableHeading={NITHamirpurLocationDataTableHeading}
+        rankingSectionContent={NITHamirpurCollegeRankingSectionContent} rankingSectionHeadingId={NITHamirpurCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={NITHamirpurCollegeNavigationConstants[2].title} rankingSectionTableContent={NITHamirpurRankingDataTableConstant} rankingSectionTableHeading={NITHamirpurRankingDataTableHeading}
+        admissionSectionContent={NITHamirpurCollegeAdmissionSectionContent} admissionSectionHeadingId={NITHamirpurCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={NITHamirpurCollegeNavigationConstants[3].title}
+        coursesSectionContent={NITHamirpurCollegeCoursesSectionContent} coursesSectionHeadingId={NITHamirpurCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={NITHamirpurCollegeNavigationConstants[4].title} collegeCourseDetailConstant={NITHamirpurCoursesDetailsConstants}
+        feeSectionContent={NITHamirpurCollegeFeeSectionContent} feeSectionHeadingId={NITHamirpurCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITHamirpurCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITHamirpurInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITHamirpurInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITHamirpurHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITHamirpurHostelFeesDataTableHeading}
+        seatSectionContent={NITHamirpurCollegeSeatSectionContent} seatSectionHeadingId={NITHamirpurCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITHamirpurCollegeNavigationConstants[6].title} seatSectionTableContent={NITHamirpurSeatDataTableConstant} seatSectionTableHeading={NITHamirpurSeatDataTableHeading}
+        cutoffSectionContent={NITHamirpurCollegeCutOffSectionContent} cutoffSectionHeadingId={NITHamirpurCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITHamirpurCollegeNavigationConstants[7].title}
+        placementSectionContent={NITHamirpurCollegePlacementSectionContent} placementSectionHeadingId={NITHamirpurCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITHamirpurCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITHamirpurPlacementImageList}>
+        </NITGenericCollegePage>
+    }
+,
+
+    {
+        path : "/college/nit/nit-jalandhar",
+        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Jalandhar" 
+        collegePageNavigationConstants={NITJalandharCollegeNavigationConstants} 
+        aboutSectionContent={NITJalandharCollegeAboutSectionContent} aboutSectionHeadingId={NITJalandharCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITJalandharCollegeNavigationConstants[0].title} aboutSectionTableContent={NITJalandharAboutDataTableConstant} aboutSectionTableHeading={NITJalandharAboutDataTableHeading}
+        locationSectionContent={NITJalandharCollegeLocationSectionContent} locationSectionHeadingId={NITJalandharCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITJalandharCollegeNavigationConstants[1].title} locationSectionTableContent={NITJalandharLocationDataTableConstant} locationSectionTableHeading={NITJalandharLocationDataTableHeading}
+        rankingSectionContent={NITJalandharCollegeRankingSectionContent} rankingSectionHeadingId={NITJalandharCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={NITJalandharCollegeNavigationConstants[2].title} rankingSectionTableContent={NITJalandharRankingDataTableConstant} rankingSectionTableHeading={NITJalandharRankingDataTableHeading}
+        admissionSectionContent={NITJalandharCollegeAdmissionSectionContent} admissionSectionHeadingId={NITJalandharCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={NITJalandharCollegeNavigationConstants[3].title}
+        coursesSectionContent={NITJalandharCollegeCoursesSectionContent} coursesSectionHeadingId={NITJalandharCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={NITJalandharCollegeNavigationConstants[4].title} collegeCourseDetailConstant={NITJalandharCoursesDetailsConstants}
+        feeSectionContent={NITJalandharCollegeFeeSectionContent} feeSectionHeadingId={NITJalandharCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITJalandharCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITJalandharInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITJalandharInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITJalandharHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITJalandharHostelFeesDataTableHeading}
+        seatSectionContent={NITJalandharCollegeSeatSectionContent} seatSectionHeadingId={NITJalandharCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITJalandharCollegeNavigationConstants[6].title} seatSectionTableContent={NITJalandharSeatDataTableConstant} seatSectionTableHeading={NITJalandharSeatDataTableHeading}
+        cutoffSectionContent={NITJalandharCollegeCutOffSectionContent} cutoffSectionHeadingId={NITJalandharCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITJalandharCollegeNavigationConstants[7].title}
+        placementSectionContent={NITJalandharCollegePlacementSectionContent} placementSectionHeadingId={NITJalandharCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITJalandharCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITJalandharPlacementImageList}>
+        </NITGenericCollegePage>
+    },
+    {
+        path : "/college/nit/nit-patna",
+        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Patna" 
+        collegePageNavigationConstants={NITPatnaCollegeNavigationConstants} 
+        aboutSectionContent={NITPatnaCollegeAboutSectionContent} aboutSectionHeadingId={NITPatnaCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITPatnaCollegeNavigationConstants[0].title} aboutSectionTableContent={NITPatnaAboutDataTableConstant} aboutSectionTableHeading={NITPatnaAboutDataTableHeading}
+        locationSectionContent={NITPatnaCollegeLocationSectionContent} locationSectionHeadingId={NITPatnaCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITPatnaCollegeNavigationConstants[1].title} locationSectionTableContent={NITPatnaLocationDataTableConstant} locationSectionTableHeading={NITPatnaLocationDataTableHeading}
+        rankingSectionContent={NITPatnaCollegeRankingSectionContent} rankingSectionHeadingId={NITPatnaCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={NITPatnaCollegeNavigationConstants[2].title} rankingSectionTableContent={NITPatnaRankingDataTableConstant} rankingSectionTableHeading={NITPatnaRankingDataTableHeading}
+        admissionSectionContent={NITPatnaCollegeAdmissionSectionContent} admissionSectionHeadingId={NITPatnaCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={NITPatnaCollegeNavigationConstants[3].title}
+        coursesSectionContent={NITPatnaCollegeCoursesSectionContent} coursesSectionHeadingId={NITPatnaCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={NITPatnaCollegeNavigationConstants[4].title} collegeCourseDetailConstant={NITPatnaCoursesDetailsConstants}
+        feeSectionContent={NITPatnaCollegeFeeSectionContent} feeSectionHeadingId={NITPatnaCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITPatnaCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITPatnaInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITPatnaInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITPatnaHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITPatnaHostelFeesDataTableHeading}
+        seatSectionContent={NITPatnaCollegeSeatSectionContent} seatSectionHeadingId={NITPatnaCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITPatnaCollegeNavigationConstants[6].title} seatSectionTableContent={NITPatnaSeatDataTableConstant} seatSectionTableHeading={NITPatnaSeatDataTableHeading}
+        cutoffSectionContent={NITPatnaCollegeCutOffSectionContent} cutoffSectionHeadingId={NITPatnaCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITPatnaCollegeNavigationConstants[7].title}
+        placementSectionContent={NITPatnaCollegePlacementSectionContent} placementSectionHeadingId={NITPatnaCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITPatnaCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITPatnaPlacementImageList}>
+        </NITGenericCollegePage>
+    },
+    {
+        path : "/college/nit/nit-raipur",
+        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Raipur" 
+        collegePageNavigationConstants={NITRaipurCollegeNavigationConstants} 
+        aboutSectionContent={NITRaipurCollegeAboutSectionContent} aboutSectionHeadingId={NITRaipurCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITRaipurCollegeNavigationConstants[0].title} aboutSectionTableContent={NITRaipurAboutDataTableConstant} aboutSectionTableHeading={NITRaipurAboutDataTableHeading}
+        locationSectionContent={NITRaipurCollegeLocationSectionContent} locationSectionHeadingId={NITRaipurCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITRaipurCollegeNavigationConstants[1].title} locationSectionTableContent={NITRaipurLocationDataTableConstant} locationSectionTableHeading={NITRaipurLocationDataTableHeading}
+        rankingSectionContent={NITRaipurCollegeRankingSectionContent} rankingSectionHeadingId={NITRaipurCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={NITRaipurCollegeNavigationConstants[2].title} rankingSectionTableContent={NITRaipurRankingDataTableConstant} rankingSectionTableHeading={NITRaipurRankingDataTableHeading}
+        admissionSectionContent={NITRaipurCollegeAdmissionSectionContent} admissionSectionHeadingId={NITRaipurCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={NITRaipurCollegeNavigationConstants[3].title}
+        coursesSectionContent={NITRaipurCollegeCoursesSectionContent} coursesSectionHeadingId={NITRaipurCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={NITRaipurCollegeNavigationConstants[4].title} collegeCourseDetailConstant={NITRaipurCoursesDetailsConstants}
+        feeSectionContent={NITRaipurCollegeFeeSectionContent} feeSectionHeadingId={NITRaipurCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITRaipurCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITRaipurInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITRaipurInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITRaipurHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITRaipurHostelFeesDataTableHeading}
+        seatSectionContent={NITRaipurCollegeSeatSectionContent} seatSectionHeadingId={NITRaipurCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITRaipurCollegeNavigationConstants[6].title} seatSectionTableContent={NITRaipurSeatDataTableConstant} seatSectionTableHeading={NITRaipurSeatDataTableHeading}
+        cutoffSectionContent={NITRaipurCollegeCutOffSectionContent} cutoffSectionHeadingId={NITRaipurCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITRaipurCollegeNavigationConstants[7].title}
+        placementSectionContent={NITRaipurCollegePlacementSectionContent} placementSectionHeadingId={NITRaipurCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITRaipurCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITRaipurPlacementImageList}>
+        </NITGenericCollegePage>
+    },
+    {
+        path : "/college/nit/nit-agartala",
+        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Agartala" 
+        collegePageNavigationConstants={NITAgartalaCollegeNavigationConstants} 
+        aboutSectionContent={NITAgartalaCollegeAboutSectionContent} aboutSectionHeadingId={NITAgartalaCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITAgartalaCollegeNavigationConstants[0].title} aboutSectionTableContent={NITAgaratalaAboutDataTableConstant} aboutSectionTableHeading={NITAgaratalaAboutDataTableHeading}
+        locationSectionContent={NITAgartalaCollegeLocationSectionContent} locationSectionHeadingId={NITAgartalaCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITAgartalaCollegeNavigationConstants[1].title} locationSectionTableContent={NITAgaratalaLocationDataTableConstant} locationSectionTableHeading={NITAgaratalaLocationDataTableHeading}
+        rankingSectionContent={NITAgartalaCollegeRankingSectionContent} rankingSectionHeadingId={NITAgartalaCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={NITAgartalaCollegeNavigationConstants[2].title} rankingSectionTableContent={NITAgaratalaRankingDataTableConstant} rankingSectionTableHeading={NITAgaratalaRankingDataTableHeading}
+        admissionSectionContent={NITAgartalaCollegeAdmissionSectionContent} admissionSectionHeadingId={NITAgartalaCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={NITAgartalaCollegeNavigationConstants[3].title}
+        coursesSectionContent={NITAgartalaCollegeCoursesSectionContent} coursesSectionHeadingId={NITAgartalaCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={NITAgartalaCollegeNavigationConstants[4].title} collegeCourseDetailConstant={NITAgartalaCoursesDetailsConstants}
+        feeSectionContent={NITAgartalaCollegeFeeSectionContent} feeSectionHeadingId={NITAgartalaCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITAgartalaCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITAgaratalaInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITAgaratalaInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITAgaratalaHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITAgaratalaHostelFeesDataTableHeading}
+        seatSectionContent={NITAgartalaCollegeFeeSectionContent} seatSectionHeadingId={NITAgartalaCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITAgartalaCollegeNavigationConstants[6].title} seatSectionTableContent={NITAgaratalaSeatDataTableConstant} seatSectionTableHeading={NITAgaratalaSeatDataTableHeading}
+        cutoffSectionContent={NITAgartalaCollegeCutOffSectionContent} cutoffSectionHeadingId={NITAgartalaCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITAgartalaCollegeNavigationConstants[7].title}
+        placementSectionContent={NITAgartalaCollegePlacementSectionContent} placementSectionHeadingId={NITAgartalaCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITAgartalaCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITAgaratalaPlacementImageList}>
+        </NITGenericCollegePage>
+    }
+,
+    {
+        path : "/college/nit/nit-arunachal-pradesh",
+        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Arunachal Pradesh" 
+        collegePageNavigationConstants={NITArunachalPradeshCollegeNavigationConstants} 
+        aboutSectionContent={NITArunachalPradeshCollegeAboutSectionContent} aboutSectionHeadingId={NITArunachalPradeshCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITArunachalPradeshCollegeNavigationConstants[0].title} aboutSectionTableContent={NITArunachalPradeshAboutDataTableConstant} aboutSectionTableHeading={NITArunachalPradeshAboutDataTableHeading}
+        locationSectionContent={NITArunachalPradeshCollegeLocationSectionContent} locationSectionHeadingId={NITArunachalPradeshCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITArunachalPradeshCollegeNavigationConstants[1].title} locationSectionTableContent={NITArunachalPradeshLocationDataTableConstant} locationSectionTableHeading={NITArunachalPradeshLocationDataTableHeading}
+        rankingSectionContent={NITArunachalPradeshCollegeRankingSectionContent} rankingSectionHeadingId={NITArunachalPradeshCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={NITArunachalPradeshCollegeNavigationConstants[2].title} rankingSectionTableContent={NITArunachalPradeshRankingDataTableConstant} rankingSectionTableHeading={NITArunachalPradeshRankingDataTableHeading}
+        admissionSectionContent={NITArunachalPradeshCollegeAdmissionSectionContent} admissionSectionHeadingId={NITArunachalPradeshCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={NITArunachalPradeshCollegeNavigationConstants[3].title}
+        coursesSectionContent={NITArunachalPradeshCollegeCoursesSectionContent} coursesSectionHeadingId={NITArunachalPradeshCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={NITArunachalPradeshCollegeNavigationConstants[4].title} collegeCourseDetailConstant={NITArunachalPradeshCoursesDetailsConstants}
+        feeSectionContent={NITArunachalPradeshCollegeFeeSectionContent} feeSectionHeadingId={NITArunachalPradeshCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITArunachalPradeshCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITArunachalPradeshInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITArunachalPradeshInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITArunachalPradeshHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITArunachalPradeshHostelFeesDataTableHeading}
+        seatSectionContent={NITArunachalPradeshCollegeFeeSectionContent} seatSectionHeadingId={NITArunachalPradeshCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITArunachalPradeshCollegeNavigationConstants[6].title} seatSectionTableContent={NITArunachalPradeshSeatDataTableConstant} seatSectionTableHeading={NITArunachalPradeshSeatDataTableHeading}
+        cutoffSectionContent={NITArunachalPradeshCollegeCutOffSectionContent} cutoffSectionHeadingId={NITArunachalPradeshCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITArunachalPradeshCollegeNavigationConstants[7].title}
+        placementSectionContent={NITArunachalPradeshCollegePlacementSectionContent} placementSectionHeadingId={NITArunachalPradeshCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITArunachalPradeshCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITArunachalPradeshPlacementImageList}>
+        </NITGenericCollegePage>
+    },
+    {
+        path : "/college/nit/nit-delhi",
+        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Delhi" 
+        collegePageNavigationConstants={NITDelhiCollegeNavigationConstants} 
+        aboutSectionContent={NITDelhiCollegeAboutSectionContent} aboutSectionHeadingId={NITDelhiCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITDelhiCollegeNavigationConstants[0].title} aboutSectionTableContent={NITDelhiAboutDataTableConstant} aboutSectionTableHeading={NITDelhiAboutDataTableHeading}
+        locationSectionContent={NITDelhiCollegeLocationSectionContent} locationSectionHeadingId={NITDelhiCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITDelhiCollegeNavigationConstants[1].title} locationSectionTableContent={NITDelhiLocationDataTableConstant} locationSectionTableHeading={NITDelhiLocationDataTableHeading}
+        rankingSectionContent={NITDelhiCollegeRankingSectionContent} rankingSectionHeadingId={NITDelhiCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={NITDelhiCollegeNavigationConstants[2].title} rankingSectionTableContent={NITDelhiRankingDataTableConstant} rankingSectionTableHeading={NITDelhiRankingDataTableHeading}
+        admissionSectionContent={NITDelhiCollegeAdmissionSectionContent} admissionSectionHeadingId={NITDelhiCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={NITDelhiCollegeNavigationConstants[3].title}
+        coursesSectionContent={NITDelhiCollegeCoursesSectionContent} coursesSectionHeadingId={NITDelhiCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={NITDelhiCollegeNavigationConstants[4].title} collegeCourseDetailConstant={NITDelhiCoursesDetailsConstants}
+        feeSectionContent={NITDelhiCollegeFeeSectionContent} feeSectionHeadingId={NITDelhiCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITDelhiCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITDelhiInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITDelhiInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITDelhiHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITDelhiHostelFeesDataTableHeading}
+        seatSectionContent={NITDelhiCollegeSeatSectionContent} seatSectionHeadingId={NITDelhiCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITDelhiCollegeNavigationConstants[6].title} seatSectionTableContent={NITDelhiSeatDataTableConstant} seatSectionTableHeading={NITDelhiSeatDataTableHeading}
+        cutoffSectionContent={NITDelhiCollegeCutOffSectionContent} cutoffSectionHeadingId={NITDelhiCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITDelhiCollegeNavigationConstants[7].title}
+        placementSectionContent={NITDelhiCollegePlacementSectionContent} placementSectionHeadingId={NITDelhiCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITDelhiCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITDelhiPlacementImageList}>
+        </NITGenericCollegePage>
+    },
+    {
+        path : "/college/nit/nit-goa",
+        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Goa" 
+        collegePageNavigationConstants={NITGoaCollegeNavigationConstants} 
+        aboutSectionContent={NITGoaCollegeAboutSectionContent} aboutSectionHeadingId={NITGoaCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITGoaCollegeNavigationConstants[0].title} aboutSectionTableContent={NITGoaAboutDataTableConstant} aboutSectionTableHeading={NITGoaAboutDataTableHeading}
+        locationSectionContent={NITGoaCollegeLocationSectionContent} locationSectionHeadingId={NITGoaCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITGoaCollegeNavigationConstants[1].title} locationSectionTableContent={NITGoaLocationDataTableConstant} locationSectionTableHeading={NITBhopalLocationDataTableHeading}
+        rankingSectionContent={NITGoaCollegeRankingSectionContent} rankingSectionHeadingId={NITGoaCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={NITGoaCollegeNavigationConstants[2].title} rankingSectionTableContent={NITGoaRankingDataTableConstant} rankingSectionTableHeading={NITGoaRankingDataTableHeading}
+        admissionSectionContent={NITGoaCollegeAdmissionSectionContent} admissionSectionHeadingId={NITGoaCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={NITGoaCollegeNavigationConstants[3].title}
+        coursesSectionContent={NITGoaCollegeCoursesSectionContent} coursesSectionHeadingId={NITGoaCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={NITGoaCollegeNavigationConstants[4].title} collegeCourseDetailConstant={NITGoaCoursesDetailsConstants}
+        feeSectionContent={NITGoaCollegeFeeSectionContent} feeSectionHeadingId={NITGoaCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITGoaCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITGoaInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITGoaInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITGoaHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITGoaHostelFeesDataTableHeading}
+        seatSectionContent={NITGoaCollegeSeatSectionContent} seatSectionHeadingId={NITGoaCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITGoaCollegeNavigationConstants[6].title} seatSectionTableContent={NITGoaSeatDataTableConstant} seatSectionTableHeading={NITGoaSeatDataTableHeading}
+        cutoffSectionContent={NITGoaCollegeCutOffSectionContent} cutoffSectionHeadingId={NITGoaCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITGoaCollegeNavigationConstants[7].title}
+        placementSectionContent={NITGoaCollegePlacementSectionContent} placementSectionHeadingId={NITGoaCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITGoaCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITGoaPlacementImageList}>
+        </NITGenericCollegePage>
+    },
+    {
+        path : "/college/nit/nit-manipur",
+        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Manipur" 
+        collegePageNavigationConstants={NITManipurCollegeNavigationConstants} 
+        aboutSectionContent={NITManipurCollegeAboutSectionContent} aboutSectionHeadingId={NITManipurCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITManipurCollegeNavigationConstants[0].title} aboutSectionTableContent={NITManipurAboutDataTableConstant} aboutSectionTableHeading={NITManipurAboutDataTableHeading}
+        locationSectionContent={NITManipurCollegeLocationSectionContent} locationSectionHeadingId={NITManipurCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITManipurCollegeNavigationConstants[1].title} locationSectionTableContent={NITManipurLocationDataTableConstant} locationSectionTableHeading={NITManipurLocationDataTableHeading}
+        rankingSectionContent={NITManipurCollegeRankingSectionContent} rankingSectionHeadingId={NITManipurCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={NITManipurCollegeNavigationConstants[2].title} rankingSectionTableContent={NITManipurRankingDataTableConstant} rankingSectionTableHeading={NITManipurRankingDataTableHeading}
+        admissionSectionContent={NITManipurCollegeAdmissionSectionContent} admissionSectionHeadingId={NITManipurCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={NITManipurCollegeNavigationConstants[3].title}
+        coursesSectionContent={NITManipurCollegeCoursesSectionContent} coursesSectionHeadingId={NITManipurCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={NITManipurCollegeNavigationConstants[4].title} collegeCourseDetailConstant={NITManipurCoursesDetailsConstants}
+        feeSectionContent={NITManipurCollegeFeeSectionContent} feeSectionHeadingId={NITManipurCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITManipurCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITManipurInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITManipurInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITManipurHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITManipurHostelFeesDataTableHeading}
+        seatSectionContent={NITManipurCollegeSeatSectionContent} seatSectionHeadingId={NITManipurCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITManipurCollegeNavigationConstants[6].title} seatSectionTableContent={NITManipurSeatDataTableConstant} seatSectionTableHeading={NITManipurSeatDataTableHeading}
+        cutoffSectionContent={NITManipurCollegeCutOffSectionContent} cutoffSectionHeadingId={NITManipurCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITManipurCollegeNavigationConstants[7].title}
+        placementSectionContent={NITManipurCollegePlacementSectionContent} placementSectionHeadingId={NITManipurCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITManipurCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITManipurPlacementImageList}>
+        </NITGenericCollegePage>
+    },
+    {
+        path : "/college/nit/nit-meghalaya",
+        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Meghalaya" 
+        collegePageNavigationConstants={NITMeghalayaCollegeNavigationConstants} 
+        aboutSectionContent={NITMeghalayaCollegeAboutSectionContent} aboutSectionHeadingId={NITMeghalayaCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITMeghalayaCollegeNavigationConstants[0].title} aboutSectionTableContent={NITMeghalayaAboutDataTableConstant} aboutSectionTableHeading={NITMeghalayaAboutDataTableHeading}
+        locationSectionContent={NITMeghalayaCollegeLocationSectionContent} locationSectionHeadingId={NITMeghalayaCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITMeghalayaCollegeNavigationConstants[1].title} locationSectionTableContent={NITMeghalayaLocationDataTableConstant} locationSectionTableHeading={NITMeghalayaLocationDataTableHeading}
+        rankingSectionContent={NITMeghalayaCollegeRankingSectionContent} rankingSectionHeadingId={NITMeghalayaCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={NITMeghalayaCollegeNavigationConstants[2].title} rankingSectionTableContent={NITMeghalayaRankingDataTableConstant} rankingSectionTableHeading={NITMeghalayaRankingDataTableHeading}
+        admissionSectionContent={NITMeghalayaCollegeAdmissionSectionContent} admissionSectionHeadingId={NITMeghalayaCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={NITMeghalayaCollegeNavigationConstants[3].title}
+        coursesSectionContent={NITMeghalayaCollegeCoursesSectionContent} coursesSectionHeadingId={NITMeghalayaCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={NITMeghalayaCollegeNavigationConstants[4].title} collegeCourseDetailConstant={NITMeghalayaCoursesDetailsConstants}
+        feeSectionContent={NITMeghalayaCollegeFeeSectionContent} feeSectionHeadingId={NITMeghalayaCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITMeghalayaCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITMeghalayaInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITMeghalayaInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITMeghalayaHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITMeghalayaHostelFeesDataTableHeading}
+        seatSectionContent={NITMeghalayaCollegeSeatSectionContent} seatSectionHeadingId={NITMeghalayaCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITMeghalayaCollegeNavigationConstants[6].title} seatSectionTableContent={NITMeghalayaSeatDataTableConstant} seatSectionTableHeading={NITMeghalayaSeatDataTableHeading}
+        cutoffSectionContent={NITMeghalayaCollegeCutOffSectionContent} cutoffSectionHeadingId={NITMeghalayaCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITMeghalayaCollegeNavigationConstants[7].title}
+        placementSectionContent={NITMeghalayaCollegePlacementSectionContent} placementSectionHeadingId={NITMeghalayaCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITMeghalayaCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITMeghalayaPlacementImageList}>
+        </NITGenericCollegePage>
+    }, 
+
+    {
+        path : "/college/nit/nit-mizoram",
+        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Mizoram" 
+        collegePageNavigationConstants={NITMizoramCollegeNavigationConstants} 
+        aboutSectionContent={NITMizoramCollegeAboutSectionContent} aboutSectionHeadingId={NITMizoramCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITMizoramCollegeNavigationConstants[0].title} aboutSectionTableContent={NITMizoramAboutDataTableConstant} aboutSectionTableHeading={NITMizoramAboutDataTableHeading}
+        locationSectionContent={NITMizoramCollegeLocationSectionContent} locationSectionHeadingId={NITMizoramCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITMizoramCollegeNavigationConstants[1].title} locationSectionTableContent={NITMizoramLocationDataTableConstant} locationSectionTableHeading={NITMizoramLocationDataTableHeading}
+        rankingSectionContent={NITMizoramCollegeRankingSectionContent} rankingSectionHeadingId={NITMizoramCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={NITMizoramCollegeNavigationConstants[2].title} rankingSectionTableContent={NITMizoramRankingDataTableConstant} rankingSectionTableHeading={NITMizoramRankingDataTableHeading}
+        admissionSectionContent={NITMizoramCollegeAdmissionSectionContent} admissionSectionHeadingId={NITMizoramCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={NITMizoramCollegeNavigationConstants[3].title}
+        coursesSectionContent={NITMizoramCollegeCoursesSectionContent} coursesSectionHeadingId={NITMizoramCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={NITMizoramCollegeNavigationConstants[4].title} collegeCourseDetailConstant={NITMizoramCoursesDetailsConstants}
+        feeSectionContent={NITMizoramCollegeFeeSectionContent} feeSectionHeadingId={NITMizoramCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITMizoramCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITMizoramInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITMizoramInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITMizoramHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITMizoramHostelFeesDataTableHeading}
+        seatSectionContent={NITMizoramCollegeSeatSectionContent} seatSectionHeadingId={NITMizoramCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITMizoramCollegeNavigationConstants[6].title} seatSectionTableContent={NITMizoramSeatDataTableConstant} seatSectionTableHeading={NITMizoramSeatDataTableHeading}
+        cutoffSectionContent={NITMizoramCollegeCutOffSectionContent} cutoffSectionHeadingId={NITMizoramCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITMizoramCollegeNavigationConstants[7].title}
+        placementSectionContent={NITMizoramCollegePlacementSectionContent} placementSectionHeadingId={NITMizoramCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITMizoramCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITMizoramPlacementImageList}>
+        </NITGenericCollegePage>
+    },
+    {
+        path : "/college/nit/nit-nagaland",
+        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Nagaland" 
+        collegePageNavigationConstants={NITNagalandCollegeNavigationConstants} 
+        aboutSectionContent={NITNagalandCollegeAboutSectionContent} aboutSectionHeadingId={NITNagalandCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITNagalandCollegeNavigationConstants[0].title} aboutSectionTableContent={NITNagalandAboutDataTableConstant} aboutSectionTableHeading={NITNagalandAboutDataTableHeading}
+        locationSectionContent={NITNagalandCollegeLocationSectionContent} locationSectionHeadingId={NITNagalandCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITNagalandCollegeNavigationConstants[1].title} locationSectionTableContent={NITNagalandLocationDataTableConstant} locationSectionTableHeading={NITNagalandLocationDataTableHeading}
+        rankingSectionContent={NITNagalandCollegeRankingSectionContent} rankingSectionHeadingId={NITNagalandCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={NITNagalandCollegeNavigationConstants[2].title} rankingSectionTableContent={NITNagalandRankingDataTableConstant} rankingSectionTableHeading={NITNagalandRankingDataTableHeading}
+        admissionSectionContent={NITNagalandCollegeAdmissionSectionContent} admissionSectionHeadingId={NITNagalandCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={NITNagalandCollegeNavigationConstants[3].title}
+        coursesSectionContent={NITNagalandCollegeCoursesSectionContent} coursesSectionHeadingId={NITNagalandCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={NITNagalandCollegeNavigationConstants[4].title} collegeCourseDetailConstant={NITNagalandCoursesDetailsConstants}
+        feeSectionContent={NITNagalandCollegeFeeSectionContent} feeSectionHeadingId={NITNagalandCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITNagalandCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITNagalandInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITNagalandInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITNagalandHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITNagalandHostelFeesDataTableHeading}
+        seatSectionContent={NITNagalandCollegeSeatSectionContent} seatSectionHeadingId={NITNagalandCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITNagalandCollegeNavigationConstants[6].title} seatSectionTableContent={NITNagalandSeatDataTableConstant} seatSectionTableHeading={NITNagalandSeatDataTableHeading}
+        cutoffSectionContent={NITNagalandCollegeCutOffSectionContent} cutoffSectionHeadingId={NITNagalandCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITNagalandCollegeNavigationConstants[7].title}
+        placementSectionContent={NITNagalandCollegePlacementSectionContent} placementSectionHeadingId={NITNagalandCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITNagalandCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITNagalandPlacementImageList}>
+        </NITGenericCollegePage>
+    },
+    {
+        path : "/college/nit/nit-puducherry",
+        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Puducherry" 
+        collegePageNavigationConstants={NITPuducherryCollegeNavigationConstants} 
+        aboutSectionContent={NITPuducherryCollegeAboutSectionContent} aboutSectionHeadingId={NITPuducherryCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITPuducherryCollegeNavigationConstants[0].title} aboutSectionTableContent={NITPuducherryAboutDataTableConstant} aboutSectionTableHeading={NITPuducherryAboutDataTableHeading}
+        locationSectionContent={NITPuducherryCollegeLocationSectionContent} locationSectionHeadingId={NITPuducherryCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITPuducherryCollegeNavigationConstants[1].title} locationSectionTableContent={NITPuducherryLocationDataTableConstant} locationSectionTableHeading={NITPuducherryLocationDataTableHeading}
+        rankingSectionContent={NITPuducherryCollegeRankingSectionContent} rankingSectionHeadingId={NITPuducherryCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={NITPuducherryCollegeNavigationConstants[2].title} rankingSectionTableContent={NITPuducherryLocationDataTableConstant} rankingSectionTableHeading={NITPuducherryRankingDataTableHeading}
+        admissionSectionContent={NITPuducherryCollegeAdmissionSectionContent} admissionSectionHeadingId={NITPuducherryCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={NITPuducherryCollegeNavigationConstants[3].title}
+        coursesSectionContent={NITPuducherryCollegeCoursesSectionContent} coursesSectionHeadingId={NITPuducherryCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={NITPuducherryCollegeNavigationConstants[4].title} collegeCourseDetailConstant={NITPuducherryCoursesDetailsConstants}
+        feeSectionContent={NITPuducherryCollegeFeeSectionContent} feeSectionHeadingId={NITPuducherryCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITPuducherryCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITPuducherryInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITPuducherryInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITPuducherryHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITPuducherryHostelFeesDataTableHeading}
+        seatSectionContent={NITPuducherryCollegeSeatSectionContent} seatSectionHeadingId={NITPuducherryCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITPuducherryCollegeNavigationConstants[6].title} seatSectionTableContent={NITPuducherrySeatDataTableConstant} seatSectionTableHeading={NITPuducherrySeatDataTableHeading}
+        cutoffSectionContent={NITPuducherryCollegeCutOffSectionContent} cutoffSectionHeadingId={NITPuducherryCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITPuducherryCollegeNavigationConstants[7].title}
+        placementSectionContent={NITPuducherryCollegePlacementSectionContent} placementSectionHeadingId={NITPuducherryCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITPuducherryCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITPuducherryPlacementImageList}>
+        </NITGenericCollegePage>
+    },
+    {
+        path : "/college/nit/nit-sikkim",
+        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Sikkim" 
+        collegePageNavigationConstants={NITSikkimCollegeNavigationConstants} 
+        aboutSectionContent={NITSikkimCollegeAboutSectionContent} aboutSectionHeadingId={NITSikkimCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITSikkimCollegeNavigationConstants[0].title} aboutSectionTableContent={NITSikkimAboutDataTableConstant} aboutSectionTableHeading={NITSikkimAboutDataTableHeading}
+        locationSectionContent={NITSikkimCollegeLocationSectionContent} locationSectionHeadingId={NITSikkimCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITSikkimCollegeNavigationConstants[1].title} locationSectionTableContent={NITSikkimLocationDataTableConstant} locationSectionTableHeading={NITSikkimLocationDataTableHeading}
+        rankingSectionContent={NITSikkimCollegeRankingSectionContent} rankingSectionHeadingId={NITSikkimCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={NITSikkimCollegeNavigationConstants[2].title} rankingSectionTableContent={NITSikkimRankingDataTableConstant} rankingSectionTableHeading={NITSikkimRankingDataTableHeading}
+        admissionSectionContent={NITSikkimCollegeAdmissionSectionContent} admissionSectionHeadingId={NITSikkimCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={NITSikkimCollegeNavigationConstants[3].title}
+        coursesSectionContent={NITSikkimCollegeCoursesSectionContent} coursesSectionHeadingId={NITSikkimCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={NITSikkimCollegeNavigationConstants[4].title} collegeCourseDetailConstant={NITSikkimCoursesDetailsConstants}
+        feeSectionContent={NITSikkimCollegeFeeSectionContent} feeSectionHeadingId={NITSikkimCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITSikkimCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITSikkimInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITSikkimInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITSikkimHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITSikkimHostelFeesDataTableHeading}
+        seatSectionContent={NITSikkimCollegeSeatSectionContent} seatSectionHeadingId={NITSikkimCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITSikkimCollegeNavigationConstants[6].title} seatSectionTableContent={NITSikkimSeatDataTableConstant} seatSectionTableHeading={NITSikkimSeatDataTableHeading}
+        cutoffSectionContent={NITSikkimCollegeCutOffSectionContent} cutoffSectionHeadingId={NITSikkimCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITSikkimCollegeNavigationConstants[7].title}
+        placementSectionContent={NITSikkimCollegePlacementSectionContent} placementSectionHeadingId={NITSikkimCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITSikkimCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITSikkimPlacementImageList}>
+        </NITGenericCollegePage>
+    }, 
+
+    {
+        path : "/college/nit/nit-uttarakhand",
+        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Uttarakhand" 
+        collegePageNavigationConstants={NITUttarakhandCollegeNavigationConstants} 
+        aboutSectionContent={NITUttarakhandCollegeAboutSectionContent} aboutSectionHeadingId={NITUttarakhandCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITUttarakhandCollegeNavigationConstants[0].title} aboutSectionTableContent={NITUttarakhandAboutDataTableConstant} aboutSectionTableHeading={NITUttarakhandAboutDataTableHeading}
+        locationSectionContent={NITUttarakhandCollegeLocationSectionContent} locationSectionHeadingId={NITUttarakhandCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITUttarakhandCollegeNavigationConstants[1].title} locationSectionTableContent={NITUttarakhandLocationDataTableConstant} locationSectionTableHeading={NITUttarakhandLocationDataTableHeading}
+        rankingSectionContent={NITUttarakhandCollegeRankingSectionContent} rankingSectionHeadingId={NITUttarakhandCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={NITUttarakhandCollegeNavigationConstants[2].title} rankingSectionTableContent={NITUttarakhandRankingDataTableConstant} rankingSectionTableHeading={NITUttarakhandRankingDataTableHeading}
+        admissionSectionContent={NITUttarakhandCollegeAdmissionSectionContent} admissionSectionHeadingId={NITUttarakhandCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={NITUttarakhandCollegeNavigationConstants[3].title}
+        coursesSectionContent={NITUttarakhandCollegeCoursesSectionContent} coursesSectionHeadingId={NITUttarakhandCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={NITUttarakhandCollegeNavigationConstants[4].title} collegeCourseDetailConstant={NITUttarakhandCoursesDetailsConstants}
+        feeSectionContent={NITUttarakhandCollegeFeeSectionContent} feeSectionHeadingId={NITUttarakhandCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITUttarakhandCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITUttarakhandInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITUttarakhandInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITUttarakhandHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITUttarakhandHostelFeesDataTableHeading}
+        seatSectionContent={NITUttarakhandCollegeSeatSectionContent} seatSectionHeadingId={NITUttarakhandCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITUttarakhandCollegeNavigationConstants[6].title} seatSectionTableContent={NITUttarakhandSeatDataTableConstant} seatSectionTableHeading={NITUttarakhandSeatDataTableHeading}
+        cutoffSectionContent={NITUttarakhandCollegeCutOffSectionContent} cutoffSectionHeadingId={NITUttarakhandCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITUttarakhandCollegeNavigationConstants[7].title}
+        placementSectionContent={NITUttarakhandCollegePlacementSectionContent} placementSectionHeadingId={NITUttarakhandCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITUttarakhandCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITUttarakhandPlacementImageList}>
+        </NITGenericCollegePage>
+    },
+    {
+        path : "/college/nit/nit-andhra-pradesh",
+        _component: <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Andhra Pradesh"
+            collegePageNavigationConstants={NITAndhraPradeshCollegeNavigationConstants}
+            aboutSectionContent={NITAndhraPradeshCollegeAboutSectionContent} aboutSectionHeadingId={NITAndhraPradeshCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITAndhraPradeshCollegeNavigationConstants[0].title} aboutSectionTableContent={NITAndhraPradeshAboutDataTableConstant} aboutSectionTableHeading={NITAndhraPradeshAboutDataTableHeading}
+            locationSectionContent={NITAndhraPradeshCollegeLocationSectionContent} locationSectionHeadingId={NITAndhraPradeshCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITAndhraPradeshCollegeNavigationConstants[1].title} locationSectionTableContent={NITAndhraPradeshLocationDataTableConstant} locationSectionTableHeading={NITAndhraPradeshLocationDataTableHeading}
+            rankingSectionContent={NITAndhraPradeshCollegeRankingSectionContent} rankingSectionHeadingId={NITAndhraPradeshCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={NITAndhraPradeshCollegeNavigationConstants[2].title} rankingSectionTableContent={NITAndhraPradeshRankingDataTableConstant} rankingSectionTableHeading={NITAndhraPradeshRankingDataTableHeading}
+            admissionSectionContent={NITAndhraPradeshCollegeAdmissionSectionContent} admissionSectionHeadingId={NITAndhraPradeshCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={NITAndhraPradeshCollegeNavigationConstants[3].title}
+            coursesSectionContent={NITAndhraPradeshCollegeCoursesSectionContent} coursesSectionHeadingId={NITAndhraPradeshCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={NITAndhraPradeshCollegeNavigationConstants[4].title} collegeCourseDetailConstant={NITAndhraPradeshCoursesDetailsConstants}
+            feeSectionContent={NITAndhraPradeshCollegeFeeSectionContent} feeSectionHeadingId={NITAndhraPradeshCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITAndhraPradeshCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITAndhraPradeshInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITAndhraPradeshInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITAndhraPradeshHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITAndhraPradeshHostelFeesDataTableHeading}
+            seatSectionContent={NITAndhraPradeshCollegeSeatSectionContent} seatSectionHeadingId={NITAndhraPradeshCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITAndhraPradeshCollegeNavigationConstants[6].title} seatSectionTableContent={NITAndhraPradeshSeatDataTableConstant} seatSectionTableHeading={NITAndhraPradeshSeatDataTableHeading}
+            cutoffSectionContent={NITAndhraPradeshCollegeCutOffSectionContent} cutoffSectionHeadingId={NITAndhraPradeshCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITAndhraPradeshCollegeNavigationConstants[7].title}
+            placementSectionContent={NITAndhraPradeshCollegePlacementSectionContent} placementSectionHeadingId={NITAndhraPradeshCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITAndhraPradeshCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITAndhraPradeshPlacementImageList}>
+        </NITGenericCollegePage>
+    },
+    {
+        path : "/college/nit/nit-shibpur",
+        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Shibpur" 
+        collegePageNavigationConstants={NITShibpurCollegeNavigationConstants} 
+        aboutSectionContent={NITShibpurCollegeAboutSectionContent} aboutSectionHeadingId={NITShibpurCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITShibpurCollegeNavigationConstants[0].title} aboutSectionTableContent={NITShibpurAboutDataTableConstant} aboutSectionTableHeading={NITShibpurAboutDataTableHeading}
+        locationSectionContent={NITShibpurCollegeLocationSectionContent} locationSectionHeadingId={NITShibpurCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITShibpurCollegeNavigationConstants[1].title} locationSectionTableContent={NITShibpurLocationDataTableConstant} locationSectionTableHeading={NITShibpurLocationDataTableHeading}
+        rankingSectionContent={NITShibpurCollegeRankingSectionContent} rankingSectionHeadingId={NITShibpurCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={NITShibpurCollegeNavigationConstants[2].title} rankingSectionTableContent={NITShibpurRankingDataTableConstant} rankingSectionTableHeading={NITShibpurRankingDataTableHeading}
+        admissionSectionContent={NITShibpurCollegeAdmissionSectionContent} admissionSectionHeadingId={NITShibpurCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={NITShibpurCollegeNavigationConstants[3].title}
+        coursesSectionContent={NITShibpurCollegeCoursesSectionContent} coursesSectionHeadingId={NITShibpurCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={NITShibpurCollegeNavigationConstants[4].title} collegeCourseDetailConstant={NITShibpurCoursesDetailsConstants}
+        feeSectionContent={NITShibpurCollegeFeeSectionContent} feeSectionHeadingId={NITShibpurCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITShibpurCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITShibpurInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITShibpurInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITShibpurHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITShibpurHostelFeesDataTableHeading}
+        seatSectionContent={NITShibpurCollegeSeatSectionContent} seatSectionHeadingId={NITShibpurCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITShibpurCollegeNavigationConstants[6].title} seatSectionTableContent={NITShibpurSeatDataTableConstant} seatSectionTableHeading={NITShibpurSeatDataTableHeading}
+        cutoffSectionContent={NITShibpurCollegeCutOffSectionContent} cutoffSectionHeadingId={NITShibpurCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITShibpurCollegeNavigationConstants[7].title}
+        placementSectionContent={NITShibpurCollegePlacementSectionContent} placementSectionHeadingId={NITShibpurCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITShibpurCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITShibpurPlacementImageList}>
+        </NITGenericCollegePage>
+    }
+
+
+
+
+
+
+,
 
 
     // routes for pages of all IIITs comes here

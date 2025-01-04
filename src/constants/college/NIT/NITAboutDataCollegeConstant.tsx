@@ -23,7 +23,7 @@ export const NITWarangalAboutDataTableConstant = [
     ]
 ]
 
-export const NITWarangalFeesDataTableHeading = [
+export const NITWarangalAboutDataTableHeading = [
     "Institute Name", 
     "National Institute of Technology, Tiruchirappalli"
 ]
@@ -52,7 +52,7 @@ export const NITBhopalAboutDataTableConstant = [
     ]
 ]
 
-export const NITBhopalFeesDataTableHeading = [
+export const NITBhopalAboutDataTableHeading = [
     "Institute Name", 
     "Maulana Azad National Institute of Technology, Bhopal"
 ]
@@ -80,7 +80,7 @@ export const NITNagpurAboutDataTableConstant = [
     ]
 ]
 
-export const NITNagpurFeesDataTableHeading = [
+export const NITNagpurAboutDataTableHeading = [
     "Institute Name", 
     "Visvesvaraya National Institute of Technology, Nagpur"
 ]
@@ -108,7 +108,7 @@ export const NITDurgapurAboutDataTableConstant = [
     ]
 ]
 
-export const NITDurgapurFeesDataTableHeading = [
+export const NITDurgapurAboutDataTableHeading = [
     "Institute Name", 
     "National Institute of Technology, Durgapur"
 ]
@@ -136,7 +136,7 @@ export const NITJamshedpurAboutDataTableConstant = [
     ]
 ]
 
-export const NITJamshedpurFeesDataTableHeading = [
+export const NITJamshedpurAboutDataTableHeading = [
     "Institute Name", 
     "National Institute of Technology, Jamshedpur"
 ]
@@ -164,7 +164,7 @@ export const NITKarnatakaAboutDataTableConstant = [
     ]
 ]
 
-export const NITKarnatakaFeesDataTableHeading = [
+export const NITKarnatakaAboutDataTableHeading = [
     "Institute Name", 
     "National Institute of Technology, Karnataka"
 ]
@@ -193,7 +193,7 @@ export const NITSrinagarAboutDataTableConstant = [
     ]
 ]
 
-export const NITSrinagarFeesDataTableHeading = [
+export const NITSrinagarAboutDataTableHeading = [
     "Institute Name", 
     "National Institute of Technology, Srinagar"
 ]
@@ -221,7 +221,7 @@ export const NITAllahabadAboutDataTableConstant = [
     ]
 ]
 
-export const NITAllahabadFeesDataTableHeading = [
+export const NITAllahabadAboutDataTableHeading = [
     "Institute Name", 
     "Motilal Nehru National Institute of Technology, Allahabad"
 ]
@@ -249,7 +249,7 @@ export const NITSuratAboutDataTableConstant = [
     ]
 ]
 
-export const NITSuratFeesDataTableHeading = [
+export const NITSuratAboutDataTableHeading = [
     "Institute Name", 
     "Sardar Vallabhbhai National Institute of Technology, Surat"
 ]
@@ -277,7 +277,7 @@ export const NITCalicutAboutDataTableConstant = [
     ]
 ]
 
-export const NITCalicutFeesDataTableHeading = [
+export const NITCalicutAboutDataTableHeading = [
     "Institute Name", 
     "National Institute of Technology, Calicut"
 ]
@@ -305,7 +305,7 @@ export const NITRourkelaAboutDataTableConstant = [
     ]
 ]
 
-export const NITRourkelaFeesDataTableHeading = [
+export const NITRourkelaAboutDataTableHeading = [
     "Institute Name", 
     "National Institute of Technology, Rourkela"
 ]
@@ -333,7 +333,7 @@ export const NITJaipurAboutDataTableConstant = [
     ]
 ]
 
-export const NITJaipurFeesDataTableHeading = [
+export const NITJaipurAboutDataTableHeading = [
     "Institute Name", 
     "Malaviya National Institute of Technology, Jaipur"
 ]
@@ -361,7 +361,7 @@ export const NITKurukshetraAboutDataTableConstant = [
     ]
 ]
 
-export const NITKurukshetraFeesDataTableHeading = [
+export const NITKurukshetraAboutDataTableHeading = [
     "Institute Name", 
     "National Institute of Technology, Kurukshetra"
 ]
@@ -389,7 +389,7 @@ export const NITTiruchirappalliAboutDataTableConstant = [
     ]
 ]
 
-export const NITTiruchirappalliFeesDataTableHeading = [
+export const NITTiruchirappalliAboutDataTableHeading = [
     "Institute Name", 
     "National Institute of Technology, Tiruchirappalli"
 ]
@@ -418,7 +418,7 @@ export const NITSilcharAboutDataTableConstant = [
     ]
 ]
 
-export const NITSilcharFeesDataTableHeading = [
+export const NITSilcharAboutDataTableHeading = [
     "Institute Name", 
     "National Institute of Technology, Silchar"
 ]
@@ -446,7 +446,7 @@ export const NITHamirpurAboutDataTableConstant = [
     ]
 ]
 
-export const NITHamirpurFeesDataTableHeading = [
+export const NITHamirpurAboutDataTableHeading = [
     "Institute Name", 
     "National Institute of Technology, Hamirpur"
 ]
@@ -474,7 +474,7 @@ export const NITJalandharAboutDataTableConstant = [
     ]
 ]
 
-export const NITJalandharFeesDataTableHeading = [
+export const NITJalandharAboutDataTableHeading = [
     "Institute Name", 
     "Dr. B R Ambedkar National Institute of Technology, Jalandhar"
 ]
@@ -502,7 +502,7 @@ export const NITPatnaAboutDataTableConstant = [
     ]
 ]
 
-export const NITPatnaFeesDataTableHeading = [
+export const NITPatnaAboutDataTableHeading = [
     "Institute Name", 
     "National Institute of Technology, Patna"
 ]
@@ -530,7 +530,7 @@ export const NITRaipurAboutDataTableConstant = [
     ]
 ]
 
-export const NITRaipurFeesDataTableHeading = [
+export const NITRaipurAboutDataTableHeading = [
     "Institute Name", 
     "National Institute of Technology, Raipur"
 ]
@@ -558,7 +558,7 @@ export const NITAgaratalaAboutDataTableConstant = [
     ]
 ]
 
-export const NITAgaratalaFeesDataTableHeading = [
+export const NITAgaratalaAboutDataTableHeading = [
     "Institute Name", 
     "National Institute of Technology, Agartala"
 ]
@@ -586,7 +586,7 @@ export const NITArunachalPradeshAboutDataTableConstant = [
     ]
 ]
 
-export const NITArunachalPradeshFeesDataTableHeading = [
+export const NITArunachalPradeshAboutDataTableHeading = [
     "Institute Name", 
     "National Institute of Technology, Arunachal Pradesh"
 ]
@@ -614,7 +614,7 @@ export const NITDelhiAboutDataTableConstant = [
     ]
 ]
 
-export const NITDelhiFeesDataTableHeading = [
+export const NITDelhiAboutDataTableHeading = [
     "Institute Name", 
     "National Institute of Technology, Delhi"
 ]
@@ -642,7 +642,7 @@ export const NITGoaAboutDataTableConstant = [
     ]
 ]
 
-export const NITGoaFeesDataTableHeading = [
+export const NITGoaAboutDataTableHeading = [
     "Institute Name", 
     "National Institute of Technology, Goa"
 ]
@@ -670,7 +670,7 @@ export const NITManipurAboutDataTableConstant = [
     ]
 ]
 
-export const NITManipurFeesDataTableHeading = [
+export const NITManipurAboutDataTableHeading = [
     "Institute Name", 
     "National Institute of Technology, Manipur"
 ]
@@ -698,7 +698,7 @@ export const NITMeghalayaAboutDataTableConstant = [
     ]
 ]
 
-export const NITMeghalayaFeesDataTableHeading = [
+export const NITMeghalayaAboutDataTableHeading = [
     "Institute Name", 
     "National Institute of Technology, Meghalaya"
 ]
@@ -726,7 +726,7 @@ export const NITMizoramAboutDataTableConstant = [
     ]
 ]
 
-export const NITMizoramFeesDataTableHeading = [
+export const NITMizoramAboutDataTableHeading = [
     "Institute Name", 
     "National Institute of Technology, Mizoram"
 ]
@@ -754,7 +754,7 @@ export const NITNagalandAboutDataTableConstant = [
     ]
 ]
 
-export const NITNagalandFeesDataTableHeading = [
+export const NITNagalandAboutDataTableHeading = [
     "Institute Name", 
     "National Institute of Technology, Nagaland"
 ]
@@ -782,7 +782,7 @@ export const NITPuducherryAboutDataTableConstant = [
     ]
 ]
 
-export const NITPuducherryFeesDataTableHeading = [
+export const NITPuducherryAboutDataTableHeading = [
     "Institute Name", 
     "National Institute of Technology, Puducherry"
 ]
@@ -810,7 +810,7 @@ export const NITSikkimAboutDataTableConstant = [
     ]
 ]
 
-export const NITSikkimFeesDataTableHeading = [
+export const NITSikkimAboutDataTableHeading = [
     "Institute Name", 
     "National Institute of Technology, Sikkim"
 ]
@@ -838,7 +838,7 @@ export const NITUttarakhandAboutDataTableConstant = [
     ]
 ]
 
-export const NITUttarakhandFeesDataTableHeading = [
+export const NITUttarakhandAboutDataTableHeading = [
     "Institute Name", 
     "National Institute of Technology, Uttarakhand"
 ]
@@ -866,12 +866,12 @@ export const NITAndhraPradeshAboutDataTableConstant = [
     ]
 ]
 
-export const NITAndhraPradeshFeesDataTableHeading = [
+export const NITAndhraPradeshAboutDataTableHeading = [
     "Institute Name", 
     "National Institute of Technology, Andhra Pradesh"
 ]
 
-export const IIESTShibpurAboutDataTableConstant = [
+export const NITShibpurAboutDataTableConstant = [
     [
         "Also Known as", 
         "IIEST, Indian Institute of Engineering Science and Technology Shibpur"
@@ -894,7 +894,7 @@ export const IIESTShibpurAboutDataTableConstant = [
     ]
 ]
 
-export const IIESTShibpurFeesDataTableHeading = [
+export const NITShibpurAboutDataTableHeading = [
     "Institute Name", 
     "Indian Institute of Engineering Science and Technology, Shibpur"
 ]
