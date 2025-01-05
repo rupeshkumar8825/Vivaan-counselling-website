@@ -27,18 +27,18 @@ const LocationSectionTableComponent = (props : ITableContentComponent) => {
                 {/* using the for loop to show each row data in the table */}
                 {props.tableContent.map((currentRow: string[], index: number) => (
                     <tr key={index} className="border-b bg-gray-800 border-gray-700">
-                        <th scope="row" className="px-6 py-4 font-medium text-slate-400 whitespace-wrap text-white flex flex-wrap items-center ">
+                        <th scope="row" className=" px-6 py-4 font-medium text-slate-400 whitespace-wrap text-white flex flex-wrap items-center ">
                             <div className="">
                                 <img src={imageList[index]} className="w-8 h-8 md:w-10 md:h-10   rounded-lg" alt="location logo" />
                             </div>
-                            <div className="ml-4 sm:ml-5 md:ml-6 lg:ml-7">
+                            <div className="ml-3 sm:ml-5 md:ml-6 lg:ml-7 text-xs">
                                 {currentRow[0]}
                             </div>
 
                         </th>
-                        <td className="px-6 py-4">
+                        <td className="px-1 py-4 sm:px-2 md:px-3 lg:px-4 xl:px-6">
                             <div className=" ">
-                            {currentRow[1]}
+                            {currentRow[1]} km
                             </div>
                         </td>
                     </tr>
