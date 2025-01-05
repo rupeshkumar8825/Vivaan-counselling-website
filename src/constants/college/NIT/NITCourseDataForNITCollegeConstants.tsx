@@ -1,66 +1,26 @@
 // consisting the course being offered in various NIT colleges
 
-export const NITWarangalCoursesDetailsConstants = [
-    {
-        duration : "4",
-        graduationType : [
-            {
-                type : "B.Tech",
-                courses : [
-                    "Aerospace Engineering1",
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical Engineering",
-                    "Mechanical Engineering",
-                    "Metallurgical Engineering and Materials Science"
-                ]
-            },
-            {
-                type : "B.Sc",
-                courses : [
-                    "Aerospace Engineering2",
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical Engineering",
-                    "Mechanical Engineering",
-                    "Metallurgical Engineering and Materials Science"
-                ]
-            },
-        ] 
-        
-    },
-    {
-        duration : "5", 
-        graduationType : [
-            {
-                type : "B.Tech + M.Tech",
-                courses : [
-                    "Aerospace Engineering3",
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical Engineering",
-                    "Mechanical Engineering",
-                    "Metallurgical Engineering and Materials Science"
-                ]
-            }, 
-            {
-                type : "B.Sc + M.Sc",
-                courses : [
-                    "Aerospace Engineering4",
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical Engineering",
-                    "Mechanical Engineering",
-                    "Metallurgical Engineering and Materials Science"
-                ]
-            }
-        ]
-        
-    }
+export const NITWarangalCoursesTableContent = [
+    [   "Chemical Engineering",
+        "Civil Engineering",
+        "Computer Science and Engineering",
+        "Electrical and Electronics Engineering",
+        "Electronics and Communication Engineering",
+        "Instrumentation and Control Engineering",
+        "Mechanical Engineering",
+        "Metallurgical and Materials Engineering",
+        "Production Engineering",
+    ], 
+    [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+    ]
+]
+
+export const NITWarangalCoursesTableHeading = [
+    "Btech",
+    "Bsc"
 ]
 
 export const NITBhopalCoursesDetailsConstants = [

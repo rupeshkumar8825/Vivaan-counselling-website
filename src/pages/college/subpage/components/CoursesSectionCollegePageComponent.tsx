@@ -2,80 +2,70 @@ import { useEffect, useState } from "react";
 import BlogSectionComponent from "../../../../components/blog/BlogSectionComponent";
 import { ICoursesSectionCollegePageComponent } from "../../../../interfaces/interfaces";
 import SelectComponent from "../../../../components/common/SelectComponent";
+import CoursesSectionTableComponent from "./tables/CoursesSectionTableComponent";
 
 // Component for course section for colleges 
 const CoursesSectionCollegePageComponent = (props : ICoursesSectionCollegePageComponent) => {
+    // States of the component comes here
+    const [courseType, setCourseType] = useState<string>("");
+    const [defaultCourseType, setDefaultCourseType] = useState<string>("");
+    const [listOfAllCourse, setListOfAllCourse] = useState<string[]>([]);
+    const [listOfAllCourseTypes, setListOfAllCourseTypes] = useState<string[]>([]);
 
-    // states for this component comes here for this purpose 
-    const [selectedDuration, setSelectedDuration] = useState<string>("");
-    const [courses, setCourses] = useState<Array<string>>([]);
-    const [selectedGraduationType, setSelectedGraduationType] = useState<string>("");
-    const [graduationTypesList, setGraduationTypesList] = useState<any>([]);
-    const [listConsistingOnlyTypes, setListConsistingOnlyTypes] = useState<Array<string>>([]);
-    const [listConsistingOnlyDuration, setListConsistingOnlyDuration] = useState<Array<string>>([]);
 
-    // handler functions comes here for the components
-    const handleDurationChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-        console.log("we are inside handleDurationChange function");
-        setSelectedDuration(e.target.value);
-        console.log("the current value of selected duration is ", e.target.value);
-        
+    // handlers for this component comes here
+    const handleCourseTypeChange = (event : React.ChangeEvent<HTMLSelectElement>) => {
+        console.log("The course type has been changed to: ", event.target.value)
+
+        setCourseType(event.target.value) 
     }
 
-    // handler to handle the graduation type change
-    const handleGraduationTypeChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-        setSelectedGraduationType(e.target.value);
-    };
+    const getAllCourseTypes = () => {
+        console.log("finding the list of all the course types for this purpose");
+        // say everything went fine 
+        return props.coursesSectionTableHeading
+    }
 
-    // this useeffect will be called only when the component is rendered first time
+    // using the useeffect to do the following two things: 
+    // 1. set the default course type to the first element of the list
+    // 2. set the list of selected courses for this purpose
+    // when it renders for the first time we will have to set the default one 
     useEffect(() => {
-        // when the component renders for the first time do the following actions
-        // 1. clear the selected duration and selected graduation type
-        // 2. Make a separate array for the course duration from the IITBombayCoursesDetailsConstants
-        setSelectedDuration("")
-        setSelectedGraduationType("")
-        const listConsistingOnlyDuration = props.collegeCourseDetailConstant.map((currObject : any) => currObject.duration)
-        setListConsistingOnlyDuration(listConsistingOnlyDuration? listConsistingOnlyDuration : [])  
+        setCourseType(getAllCourseTypes()[0]);
+        setListOfAllCourseTypes(props.coursesSectionTableHeading)
     }, [])
 
-    // useffect will be called when the selecteDuration is changed 
+    // whenever the course type of course type is changed then we call the below useeffect
     useEffect(() => {
-        // here we have to update the value of the 
-        // find the gradutation type
-        const currSelectedDurationData = props.collegeCourseDetailConstant.find((currDuration : any) => currDuration.duration === selectedDuration)
-        const currGraduationTypeList = currSelectedDurationData?.graduationType
-        // we can get the array of only types from graduationTypesList using the map function 
-        const listConsistingOnlyTypes = currGraduationTypeList?.map((currObject : any) => currObject.type)
-        setListConsistingOnlyTypes(listConsistingOnlyTypes? listConsistingOnlyTypes : [])
-        setGraduationTypesList(currGraduationTypeList)
-    }, [selectedDuration])
+        console.log("the course type has been changed to: ", courseType)
+        // now here we will find the index and then we will get the list of all courses to be shown on the UI 
+        const courseListIndexToBeUsed : number = props.coursesSectionTableHeading.findIndex((course) => course === courseType)
+        console.log("The index of the course is: ", courseListIndexToBeUsed)
 
-    // this useffect will be called only when the selectedGraduationType is changed
-    // and we will update the courses as well
-    useEffect(() => {
-        // we have to find the list of courses now given the graduation type 
-        const currCoursesList = graduationTypesList.find((currElement : any) => currElement.type === selectedGraduationType)?.courses
-        setCourses(currCoursesList? currCoursesList : [])
-    }, [selectedGraduationType])
+        setListOfAllCourse(props.coursesSectionTableContent[courseListIndexToBeUsed])
+    }, [courseType])
+    
 
 
     return (
         <div className="mt-10">
             {/* here comes the blog component specific for the courses being offered in the colleges */}
             {/* Blog component for the courses section */}
+            
              <BlogSectionComponent headingId={props.headingId} headingName={props.headingName} content={props.content}/>
-            {/*<div className="flex justify-evenly items-center">
+
+            <div className="flex justify-evenly items-center">
 
                 <SelectComponent
                     selectId="duration"
                     selectLabelName="Select Course Duration:"
-                    selectedValue={selectedDuration}
-                    selectOnChangeHandler={handleDurationChange}
-                    selectValuesList={listConsistingOnlyDuration}
+                    selectedValue={courseType}
+                    selectOnChangeHandler={handleCourseTypeChange}
+                    selectValuesList={listOfAllCourseTypes}
                     selectHtmlFor="duration"
                 />
 
-                <SelectComponent
+                {/* <SelectComponent
                     selectId="graduationType"
                     selectLabelName="Select Course Graduation Type:"
                     selectedValue={selectedGraduationType}
@@ -83,8 +73,11 @@ const CoursesSectionCollegePageComponent = (props : ICoursesSectionCollegePageCo
                     selectValuesList={listConsistingOnlyTypes}
                     selectHtmlFor="graduationType"
                 />
-                
-            </div> */}
+                 */}
+            </div>
+
+            {/* here the table content will be the list of courses to be shown on the UI */}
+            {listOfAllCourse ? <CoursesSectionTableComponent tableContent={listOfAllCourse} tableContentHeading={[courseType]}></CoursesSectionTableComponent> : null}
             {/* here comes the courses being offered in the college */}
             {/* List of courses */}
             {/* <div className="mt-10 flex flex-col items-center justify-center">

@@ -242,7 +242,9 @@ export interface ICoursesSectionCollegePageComponent {
     headingId : string,
     headingName : string,
     content : string,
-    collegeCourseDetailConstant : Array<any>
+    // collegeCourseDetailConstant : Array<any>
+    coursesSectionTableContent : Array<string[]>,
+    coursesSectionTableHeading : Array<string>
 }
 
 export interface ICutoffSectionCollegePageComponent  { 
@@ -350,6 +352,8 @@ export interface INITGenericCollegeComponent {
     coursesSectionContent : string,
     coursesSectionHeadingId : string,
     coursesSectionHeadingName : string, 
+    coursesSectionTableContent : Array<string[]>,
+    coursesSectionTableHeading : Array<string>,
 
     feeSectionContent : string, 
     feeSectionHeadingId : string, 
@@ -382,7 +386,7 @@ export interface INITGenericCollegeComponent {
     // contactSectionContent : string, 
     // contactSectionHeadingId : string,
     // contactSectionHeadingName : string,
-    collegeCourseDetailConstant : Array<any>
+    // collegeCourseDetailConstant : Array<any>
 
 
 }
@@ -424,4 +428,10 @@ export interface IIIITGenericCollegeComponent {
 export interface ITableContentComponent {
     tableContentHeading : Array<string>, 
     tableContent : Array<string[]>
+}
+
+
+export interface ICourseTableContentComponent {
+    tableContentHeading : Array<string>, 
+    tableContent : Array<string>
 }
