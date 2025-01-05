@@ -17,8 +17,8 @@ const AboutSectionTableComponent = (props: ITableContentComponent) => {
 
 
     return (
-        <div className="relative overflow-x-auto  flex items-center justify-center p-10">
-        <table className="w-3/4 text-sm text-left rtl:text-right text-gray-400">
+        <div className="relative overflow-x-auto  flex items-center justify-center p-1 sm:p-2 md:p-4 lg:p-8 xl:p-10">
+        <table className="w-full md:w-3/4 text-sm text-left rtl:text-right text-gray-400">
             <thead className="text-xs  uppercase bg-gray-700 text-gray-400 text-center">
                 <tr>
                     {/* using the for loop to show the headings of the table */}

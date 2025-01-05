@@ -36,7 +36,7 @@ const PlacementSectionCollegePageComponent = (props: IPlacementSectionCollegePag
             <BlogSectionComponent headingId={props.headingId} headingName={props.headingName} content={props.content}></BlogSectionComponent>
 
             {/* here comes the list of images to be shown in this case */}
-            <div className="flex flex-wrap items-center justify-evenly  ">
+            <div className="flex flex-wrap items-center justify-center  ">
                 {props.imageArray.map((currPlacementImage: string, index: number) => (
                     <img key={index} src={currPlacementImage}  className="w-96 h-100 mt-5 mb-5 border-2 border-slate-700 rounded-lg"></img>
                 ))}
