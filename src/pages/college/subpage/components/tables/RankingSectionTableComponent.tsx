@@ -35,7 +35,7 @@ const RankingSectionTableComponent = (props: ITableContentComponent) => {
                                     {currentRow[0]}
                                 </div>
                             </th>
-                            <td className="px-6 py-4 ">
+                            <td className="px-2 py-4 px-1 py-4 sm:px-2 md:px-3 lg:px-4 xl:px-6">
                                 <div className=" ">
                                     {currentRow[1]}
                                 </div>
