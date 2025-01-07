@@ -23,1118 +23,672 @@ export const NITWarangalCoursesTableHeading = [
     "B.Arch - 5 Years"
 ]
 
-export const NITBhopalCoursesDetailsConstants = [
-    {
-        duration: "4",
-        graduationType: [
-            {
-                type: "B.Tech",
-                courses: [
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical Engineering",
-                    "Electronics and Communication Engineering",
-                    "Mechanical Engineering"
-                ]
-            },
-            {
-                type: "B.Arch",
-                courses: [
-                    "Architecture"
-                ]
-            }
-        ]
-    },
-    {
-        duration: "5",
-        graduationType: [
-            {
-                type: "B.Tech + M.Tech",
-                courses: [
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical Engineering",
-                    "Electronics and Communication Engineering",
-                    "Mechanical Engineering"
-                ]
-            }
-        ]
-    }
+export const NITBhopalCoursesTableContent = [
+    [
+        "Chemical Engineering",
+        "Civil Engineering",
+        "Computer Science and Engineering",
+        "Electrical Engineering",
+        "Electronics and Communication Engineering",
+        "Industrial and Production Engineering",
+        "Information Technology",
+        "Mechanical Engineering",
+        "Metallurgical and Materials Engineering"
+    ],
+    [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+    ]
 ]
 
-export const NITNagpurCoursesDetailsConstants = [
-    {
-        duration: "4",
-        graduationType: [
-            {
-                type: "B.Tech",
-                courses: [
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical Engineering",
-                    "Electronics and Communication Engineering",
-                    "Mechanical Engineering"
-                ]
-            }
-        ]
-    },
-    {
-        duration: "5",
-        graduationType: [
-            {
-                type: "B.Tech + M.Tech",
-                courses: [
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical Engineering",
-                    "Electronics and Communication Engineering",
-                    "Mechanical Engineering"
-                ]
-            }
-        ]
-    }
+export const NITBhopalCoursesTableHeading = [
+    "B.E./B.Tech - 4 Years",
+    "B.Arch - 5 Years"
 ]
 
-export const NITDurgapurCoursesDetailsConstants = [
-    {
-        duration: "4",
-        graduationType: [
-            {
-                type: "B.Tech",
-                courses: [
-                    "Biotechnology",
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical Engineering",
-                    "Electronics and Communication Engineering",
-                    "Mechanical Engineering",
-                    "Metallurgical and Materials Engineering"
-                ]
-            }
-        ]
-    },
-    {
-        duration: "5",
-        graduationType: [
-            {
-                type: "B.Tech + M.Tech",
-                courses: [
-                    "Biotechnology",
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical Engineering",
-                    "Electronics and Communication Engineering",
-                    "Mechanical Engineering",
-                    "Metallurgical and Materials Engineering"
-                ]
-            }
-        ]
-    }
+export const NITNagpurCoursesTableContent = [
+    [
+        "Chemical Engineering",
+        "Civil Engineering",
+        "Computer Science and Engineering",
+        "Electrical and Electronics Engineering",
+        "Electronics and Communication Engineering",
+        "Mechanical Engineering",
+        "Metallurgical and Materials Engineering",
+        "Mining Engineering"
+    ],
+    [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+    ]
 ]
 
-export const NITJamshedpurCoursesDetailsConstants = [
-    {
-        duration: "4",
-        graduationType: [
-            {
-                type: "B.Tech",
-                courses: [
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical and Electronics Engineering",
-                    "Mechanical Engineering",
-                    "Metallurgical and Materials Engineering",
-                    "Production and Industrial Engineering"
-                ]
-            }
-        ]
-    },
-    {
-        duration: "5",
-        graduationType: [
-            {
-                type: "B.Tech + M.Tech",
-                courses: [
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical and Electronics Engineering",
-                    "Mechanical Engineering",
-                    "Metallurgical and Materials Engineering",
-                    "Production and Industrial Engineering"
-                ]
-            }
-        ]
-    }
+export const NITNagpurCoursesTableHeading = [
+    "B.E./B.Tech - 4 Years",
+    "B.Arch - 5 Years"
 ]
 
-export const NITKarnatakaCoursesDetailsConstants = [
-    {
-        duration: "4",
-        graduationType: [
-            {
-                type: "B.Tech",
-                courses: [
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical and Electronics Engineering",
-                    "Electronics and Communication Engineering",
-                    "Information Technology",
-                    "Mechanical Engineering",
-                    "Metallurgical and Materials Engineering",
-                    "Mining Engineering"
-                ]
-            }
-        ]
-    },
-    {
-        duration: "5",
-        graduationType: [
-            {
-                type: "B.Tech + M.Tech",
-                courses: [
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical and Electronics Engineering",
-                    "Electronics and Communication Engineering",
-                    "Information Technology",
-                    "Mechanical Engineering",
-                    "Metallurgical and Materials Engineering",
-                    "Mining Engineering"
-                ]
-            }
-        ]
-    }
+export const NITDurgapurCoursesTableContent = [
+    [
+        "Biotechnology",
+        "Chemical Engineering",
+        "Civil Engineering",
+        "Computer Science and Engineering",
+        "Electrical Engineering",
+        "Electronics and Communication Engineering",
+        "Information Technology",
+        "Mechanical Engineering",
+        "Metallurgical and Materials Engineering"
+    ],
+    [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+    ]
 ]
 
-export const NITSrinagarCoursesDetailsConstants = [
-    {
-        duration: "4",
-        graduationType: [
-            {
-                type: "B.Tech",
-                courses: [
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical Engineering",
-                    "Electronics and Communication Engineering",
-                    "Information Technology",
-                    "Mechanical Engineering",
-                    "Metallurgical and Materials Engineering"
-                ]
-            }
-        ]
-    },
-    {
-        duration: "5",
-        graduationType: [
-            {
-                type: "B.Tech + M.Tech",
-                courses: [
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical Engineering",
-                    "Electronics and Communication Engineering",
-                    "Information Technology",
-                    "Mechanical Engineering",
-                    "Metallurgical and Materials Engineering"
-                ]
-            }
-        ]
-    }
+export const NITDurgapurCoursesTableHeading = [
+    "B.E./B.Tech - 4 Years",
+    "B.Arch - 5 Years"
 ]
 
-export const NITAllahabadCoursesDetailsConstants = [
-    {
-        duration: "4",
-        graduationType: [
-            {
-                type: "B.Tech",
-                courses: [
-                    "Biotechnology",
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical Engineering",
-                    "Electronics and Communication Engineering",
-                    "Information Technology",
-                    "Mechanical Engineering",
-                    "Production and Industrial Engineering"
-                ]
-            }
-        ]
-    },
-    {
-        duration: "5",
-        graduationType: [
-            {
-                type: "B.Tech + M.Tech",
-                courses: [
-                    "Biotechnology",
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical Engineering",
-                    "Electronics and Communication Engineering",
-                    "Information Technology",
-                    "Mechanical Engineering",
-                    "Production and Industrial Engineering"
-                ]
-            }
-        ]
-    }
+export const NITJamshedpurCoursesTableContent = [
+    [
+        "Civil Engineering",
+        "Computer Science and Engineering",
+        "Electrical and Electronics Engineering",
+        "Electronics and Communication Engineering",
+        "Mechanical Engineering",
+        "Metallurgical and Materials Engineering",
+        "Production and Industrial Engineering"
+    ],
+    [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+    ]
 ]
 
-export const NITSuratCoursesDetailsConstants = [
-    {
-        duration: "4",
-        graduationType: [
-            {
-                type: "B.Tech",
-                courses: [
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer Engineering",
-                    "Electrical Engineering",
-                    "Electronics and Communication Engineering",
-                    "Mechanical Engineering",
-                    "Production Engineering"
-                ]
-            }
-        ]
-    },
-    {
-        duration: "5",
-        graduationType: [
-            {
-                type: "B.Tech + M.Tech",
-                courses: [
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer Engineering",
-                    "Electrical Engineering",
-                    "Electronics and Communication Engineering",
-                    "Mechanical Engineering",
-                    "Production Engineering"
-                ]
-            }
-        ]
-    }
+export const NITJamshedpurCoursesTableHeading = [
+    "B.E./B.Tech - 4 Years",
+    "B.Arch - 5 Years"
 ]
 
-export const NITCalicutCoursesDetailsConstants = [
-    {
-        duration: "4",
-        graduationType: [
-            {
-                type: "B.Tech",
-                courses: [
-                    "Architecture",
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical and Electronics Engineering",
-                    "Electronics and Communication Engineering",
-                    "Mechanical Engineering",
-                    "Production Engineering"
-                ]
-            }
-        ]
-    },
-    {
-        duration: "5",
-        graduationType: [
-            {
-                type: "B.Tech + M.Tech",
-                courses: [
-                    "Architecture",
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical and Electronics Engineering",
-                    "Electronics and Communication Engineering",
-                    "Mechanical Engineering",
-                    "Production Engineering"
-                ]
-            }
-        ]
-    }
+export const NITKarnatakaCoursesTableContent = [
+    [
+        "Chemical Engineering",
+        "Civil Engineering",
+        "Computer Science and Engineering",
+        "Electrical and Electronics Engineering",
+        "Electronics and Communication Engineering",
+        "Information Technology",
+        "Mechanical Engineering",
+        "Metallurgical and Materials Engineering",
+        "Mining Engineering"
+    ],
+    [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+    ]
 ]
 
-export const NITRourkelaCoursesDetailsConstants = [
-    {
-        duration: "4",
-        graduationType: [
-            {
-                type: "B.Tech",
-                courses: [
-                    "Biotechnology and Medical Engineering",
-                    "Ceramic Engineering",
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical Engineering",
-                    "Electronics and Communication Engineering",
-                    "Mechanical Engineering",
-                    "Metallurgical and Materials Engineering",
-                    "Mining Engineering"
-                ]
-            }
-        ]
-    },
-    {
-        duration: "5",
-        graduationType: [
-            {
-                type: "B.Tech + M.Tech",
-                courses: [
-                    "Biotechnology and Medical Engineering",
-                    "Ceramic Engineering",
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical Engineering",
-                    "Electronics and Communication Engineering",
-                    "Mechanical Engineering",
-                    "Metallurgical and Materials Engineering",
-                    "Mining Engineering"
-                ]
-            }
-        ]
-    }
+export const NITKarnatakaCoursesTableHeading = [
+    "B.E./B.Tech - 4 Years",
+    "B.Arch - 5 Years"
 ]
 
-export const NITJaipurCoursesDetailsConstants = [
-    {
-        duration: "4",
-        graduationType: [
-            {
-                type: "B.Tech",
-                courses: [
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical Engineering",
-                    "Electronics and Communication Engineering",
-                    "Mechanical Engineering",
-                    "Metallurgical and Materials Engineering"
-                ]
-            }
-        ]
-    },
-    {
-        duration: "5",
-        graduationType: [
-            {
-                type: "B.Tech + M.Tech",
-                courses: [
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical Engineering",
-                    "Electronics and Communication Engineering",
-                    "Mechanical Engineering",
-                    "Metallurgical and Materials Engineering"
-                ]
-            }
-        ]
-    }
+export const NITSrinagarCoursesTableContent = [
+    [
+        "Chemical Engineering",
+        "Civil Engineering",
+        "Computer Science and Engineering",
+        "Electrical Engineering",
+        "Electronics and Communication Engineering",
+        "Mechanical Engineering"
+    ],
+    [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+    ]
 ]
 
-export const NITKurukshetraCoursesDetailsConstants = [
-    {
-        duration: "4",
-        graduationType: [
-            {
-                type: "B.Tech",
-                courses: [
-                    "Civil Engineering",
-                    "Computer Engineering",
-                    "Electrical Engineering",
-                    "Electronics and Communication Engineering",
-                    "Information Technology",
-                    "Mechanical Engineering"
-                ]
-            }
-        ]
-    },
-    {
-        duration: "5",
-        graduationType: [
-            {
-                type: "B.Tech + M.Tech",
-                courses: [
-                    "Civil Engineering",
-                    "Computer Engineering",
-                    "Electrical Engineering",
-                    "Electronics and Communication Engineering",
-                    "Information Technology",
-                    "Mechanical Engineering"
-                ]
-            }
-        ]
-    }
+export const NITSrinagarCoursesTableHeading = [
+    "B.E./B.Tech - 4 Years",
+    "B.Arch - 5 Years"
+]
+
+export const NITAllahabadCoursesTableContent = [
+    [
+        "Biotechnology",
+        "Chemical Engineering",
+        "Civil Engineering",
+        "Computer Science and Engineering",
+        "Electrical Engineering",
+        "Electronics and Communication Engineering",
+        "Information Technology",
+        "Mechanical Engineering",
+        "Production and Industrial Engineering"
+    ],
+    [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+    ]
+]
+
+export const NITAllahabadCoursesTableHeading = [
+    "B.E./B.Tech - 4 Years",
+    "B.Arch - 5 Years"
+]
+
+export const NITSuratCoursesTableContent = [
+    [
+        "Chemical Engineering",
+        "Civil Engineering",
+        "Computer Engineering",
+        "Electrical Engineering",
+        "Electronics and Communication Engineering",
+        "Mechanical Engineering",
+        "Production Engineering"
+    ],
+    [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+    ]
+]
+
+export const NITSuratCoursesTableHeading = [
+    "B.E./B.Tech - 4 Years",
+    "B.Arch - 5 Years"
+]
+
+export const NITCalicutCoursesTableContent = [
+    [
+        "Architecture",
+        "Chemical Engineering",
+        "Civil Engineering",
+        "Computer Science and Engineering",
+        "Electrical and Electronics Engineering",
+        "Electronics and Communication Engineering",
+        "Mechanical Engineering",
+        "Production Engineering"
+    ],
+    [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+    ]
+]
+
+export const NITCalicutCoursesTableHeading = [
+    "B.E./B.Tech - 4 Years",
+    "B.Arch - 5 Years"
+]
+
+export const NITRourkelaCoursesTableContent = [
+    [
+        "Biotechnology",
+        "Ceramic Engineering",
+        "Chemical Engineering",
+        "Civil Engineering",
+        "Computer Science and Engineering",
+        "Electrical Engineering",
+        "Electronics and Communication Engineering",
+        "Mechanical Engineering",
+        "Metallurgical and Materials Engineering",
+        "Mining Engineering"
+    ],
+    [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+    ]
+]
+
+export const NITRourkelaCoursesTableHeading = [
+    "B.E./B.Tech - 4 Years",
+    "B.Arch - 5 Years"
+]
+
+export const NITJaipurCoursesTableContent = [
+    [
+        "Chemical Engineering",
+        "Civil Engineering",
+        "Computer Science and Engineering",
+        "Electrical Engineering",
+        "Electronics and Communication Engineering",
+        "Mechanical Engineering",
+        "Metallurgical and Materials Engineering"
+    ],
+    [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+    ]
+]
+
+export const NITJaipurCoursesTableHeading = [
+    "B.E./B.Tech - 4 Years",
+    "B.Arch - 5 Years"
+]
+
+export const NITKurukshetraCoursesTableContent = [
+    [
+        "Civil Engineering",
+        "Computer Engineering",
+        "Electrical Engineering",
+        "Electronics and Communication Engineering",
+        "Information Technology",
+        "Mechanical Engineering"
+    ],
+    [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+    ]
+]
+
+export const NITKurukshetraCoursesTableHeading = [
+    "B.E./B.Tech - 4 Years",
+    "B.Arch - 5 Years"
 ]
 
 
-export const NITTiruchirappalliCoursesDetailsConstants = [
-    {
-        duration: "4",
-        graduationType: [
-            {
-                type: "B.Tech",
-                courses: [
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical and Electronics Engineering",
-                    "Electronics and Communication Engineering",
-                    "Instrumentation and Control Engineering",
-                    "Mechanical Engineering",
-                    "Metallurgical and Materials Engineering",
-                    "Production Engineering"
-                ]
-            }
-        ]
-    },
-    {
-        duration: "5",
-        graduationType: [
-            {
-                type: "B.Tech + M.Tech",
-                courses: [
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical and Electronics Engineering",
-                    "Electronics and Communication Engineering",
-                    "Instrumentation and Control Engineering",
-                    "Mechanical Engineering",
-                    "Metallurgical and Materials Engineering",
-                    "Production Engineering"
-                ]
-            }
-        ]
-    }
+export const NITTiruchirapalliCoursesTableContent = [
+    [
+        "Chemical Engineering",
+        "Civil Engineering",
+        "Computer Science and Engineering",
+        "Electrical and Electronics Engineering",
+        "Electronics and Communication Engineering",
+        "Instrumentation and Control Engineering",
+        "Mechanical Engineering",
+        "Metallurgical and Materials Engineering",
+        "Production Engineering"
+    ],
+    [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+    ]
 ]
 
-export const NITSilcharCoursesDetailsConstants = [
-    {
-        duration: "4",
-        graduationType: [
-            {
-                type: "B.Tech",
-                courses: [
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical Engineering",
-                    "Electronics and Communication Engineering",
-                    "Mechanical Engineering"
-                ]
-            }
-        ]
-    },
-    {
-        duration: "5",
-        graduationType: [
-            {
-                type: "B.Tech + M.Tech",
-                courses: [
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical Engineering",
-                    "Electronics and Communication Engineering",
-                    "Mechanical Engineering"
-                ]
-            }
-        ]
-    }
+export const NITTiruchirapalliCoursesTableHeading = [
+    "B.E./B.Tech - 4 Years",
+    "B.Arch - 5 Years"
 ]
 
-export const NITHamirpurCoursesDetailsConstants = [
-    {
-        duration: "4",
-        graduationType: [
-            {
-                type: "B.Tech",
-                courses: [
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical Engineering",
-                    "Electronics and Communication Engineering",
-                    "Mechanical Engineering"
-                ]
-            }
-        ]
-    },
-    {
-        duration: "5",
-        graduationType: [
-            {
-                type: "B.Tech + M.Tech",
-                courses: [
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical Engineering",
-                    "Electronics and Communication Engineering",
-                    "Mechanical Engineering"
-                ]
-            }
-        ]
-    }
+export const NITSilcharCoursesTableContent = [
+    [
+        "Civil Engineering",
+        "Computer Science and Engineering",
+        "Electrical Engineering",
+        "Electronics and Communication Engineering",
+        "Mechanical Engineering"
+    ],
+    [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+    ]
 ]
 
-export const NITJalandharCoursesDetailsConstants = [
-    {
-        duration: "4",
-        graduationType: [
-            {
-                type: "B.Tech",
-                courses: [
-                    "Biotechnology",
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical Engineering",
-                    "Electronics and Communication Engineering",
-                    "Industrial and Production Engineering",
-                    "Instrumentation and Control Engineering",
-                    "Mechanical Engineering",
-                    "Textile Technology"
-                ]
-            }
-        ]
-    },
-    {
-        duration: "5",
-        graduationType: [
-            {
-                type: "B.Tech + M.Tech",
-                courses: [
-                    "Biotechnology",
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical Engineering",
-                    "Electronics and Communication Engineering",
-                    "Industrial and Production Engineering",
-                    "Instrumentation and Control Engineering",
-                    "Mechanical Engineering",
-                    "Textile Technology"
-                ]
-            }
-        ]
-    }
+export const NITSilcharCoursesTableHeading = [
+    "B.E./B.Tech - 4 Years",
+    "B.Arch - 5 Years"
 ]
 
-export const NITPatnaCoursesDetailsConstants = [
-    {
-        duration: "4",
-        graduationType: [
-            {
-                type: "B.Tech",
-                courses: [
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical Engineering",
-                    "Electronics and Communication Engineering",
-                    "Mechanical Engineering"
-                ]
-            }
-        ]
-    },
-    {
-        duration: "5",
-        graduationType: [
-            {
-                type: "B.Tech + M.Tech",
-                courses: [
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical Engineering",
-                    "Electronics and Communication Engineering",
-                    "Mechanical Engineering"
-                ]
-            }
-        ]
-    }
+export const NITHamirpurCoursesTableContent = [
+    [
+        "Civil Engineering",
+        "Computer Science and Engineering",
+        "Electrical Engineering",
+        "Electronics and Communication Engineering",
+        "Mechanical Engineering"
+    ],
+    [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+    ]
 ]
 
-export const NITRaipurCoursesDetailsConstants = [
-    {
-        duration: "4",
-        graduationType: [
-            {
-                type: "B.Tech",
-                courses: [
-                    "Bio Medical Engineering",
-                    "Bio Technology",
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical Engineering",
-                    "Electronics and Communication Engineering",
-                    "Information Technology",
-                    "Mechanical Engineering",
-                    "Metallurgical Engineering",
-                    "Mining Engineering"
-                ]
-            }
-        ]
-    },
-    {
-        duration: "5",
-        graduationType: [
-            {
-                type: "B.Tech + M.Tech",
-                courses: [
-                    "Bio Medical Engineering",
-                    "Bio Technology",
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical Engineering",
-                    "Electronics and Communication Engineering",
-                    "Information Technology",
-                    "Mechanical Engineering",
-                    "Metallurgical Engineering",
-                    "Mining Engineering"
-                ]
-            }
-        ]
-    }
+export const NITHamirpurCoursesTableHeading = [
+    "B.E./B.Tech - 4 Years",
+    "B.Arch - 5 Years"
 ]
 
-
-export const NITAgartalaCoursesDetailsConstants = [
-    {
-        duration: "4",
-        graduationType: [
-            {
-                type: "B.Tech",
-                courses: [
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical Engineering",
-                    "Electronics and Communication Engineering",
-                    "Mechanical Engineering",
-                    "Production Engineering"
-                ]
-            }
-        ]
-    },
-    {
-        duration: "5",
-        graduationType: [
-            {
-                type: "B.Tech + M.Tech",
-                courses: [
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical Engineering",
-                    "Electronics and Communication Engineering",
-                    "Mechanical Engineering",
-                    "Production Engineering"
-                ]
-            }
-        ]
-    }
+export const NITJalandharCoursesTableContent = [
+    [
+        "Biotechnology",
+        "Chemical Engineering",
+        "Civil Engineering",
+        "Computer Science and Engineering",
+        "Electrical Engineering",
+        "Electronics and Communication Engineering",
+        "Information Technology",
+        "Mechanical Engineering",
+        "Textile Technology"
+    ],
+    [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+    ]
 ]
 
-export const NITArunachalPradeshCoursesDetailsConstants = [
-    {
-        duration: "4",
-        graduationType: [
-            {
-                type: "B.Tech",
-                courses: [
-                    "Bio Technology",
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical Engineering",
-                    "Electronics and Communication Engineering",
-                    "Mechanical Engineering"
-                ]
-            }
-        ]
-    },
-    {
-        duration: "5",
-        graduationType: [
-            {
-                type: "B.Tech + M.Tech",
-                courses: [
-                    "Bio Technology",
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical Engineering",
-                    "Electronics and Communication Engineering",
-                    "Mechanical Engineering"
-                ]
-            }
-        ]
-    }
+export const NITJalandharCoursesTableHeading = [
+    "B.E./B.Tech - 4 Years",
+    "B.Arch - 5 Years"
 ]
 
-export const NITDelhiCoursesDetailsConstants = [
-    {
-        duration: "4",
-        graduationType: [
-            {
-                type: "B.Tech",
-                courses: [
-                    "Computer Science and Engineering",
-                    "Electrical and Electronics Engineering",
-                    "Electronics and Communication Engineering"
-                ]
-            }
-        ]
-    },
-    {
-        duration: "5",
-        graduationType: [
-            {
-                type: "B.Tech + M.Tech",
-                courses: [
-                    "Computer Science and Engineering",
-                    "Electrical and Electronics Engineering",
-                    "Electronics and Communication Engineering"
-                ]
-            }
-        ]
-    }
+export const NITPatnaCoursesTableContent = [
+    [
+        "Civil Engineering",
+        "Computer Science and Engineering",
+        "Electrical Engineering",
+        "Electronics and Communication Engineering",
+        "Mechanical Engineering"
+    ],
+    [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+    ]
 ]
 
-export const NITGoaCoursesDetailsConstants = [
-    {
-        duration: "4",
-        graduationType: [
-            {
-                type: "B.Tech",
-                courses: [
-                    "Computer Science and Engineering",
-                    "Electrical and Electronics Engineering",
-                    "Electronics and Communication Engineering"
-                ]
-            }
-        ]
-    },
-    {
-        duration: "5",
-        graduationType: [
-            {
-                type: "B.Tech + M.Tech",
-                courses: [
-                    "Computer Science and Engineering",
-                    "Electrical and Electronics Engineering",
-                    "Electronics and Communication Engineering"
-                ]
-            }
-        ]
-    }
+export const NITPatnaCoursesTableHeading = [
+    "B.E./B.Tech - 4 Years",
+    "B.Arch - 5 Years"
 ]
 
-export const NITManipurCoursesDetailsConstants = [
-    {
-        duration: "4",
-        graduationType: [
-            {
-                type: "B.Tech",
-                courses: [
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical Engineering",
-                    "Electronics and Communication Engineering",
-                    "Mechanical Engineering"
-                ]
-            }
-        ]
-    },
-    {
-        duration: "5",
-        graduationType: [
-            {
-                type: "B.Tech + M.Tech",
-                courses: [
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical Engineering",
-                    "Electronics and Communication Engineering",
-                    "Mechanical Engineering"
-                ]
-            }
-        ]
-    }
+export const NITRaipurCoursesTableContent = [
+    [
+        "Biomedical Engineering",
+        "Biotechnology",
+        "Chemical Engineering",
+        "Civil Engineering",
+        "Computer Science and Engineering",
+        "Electrical Engineering",
+        "Electronics and Communication Engineering",
+        "Information Technology",
+        "Mechanical Engineering",
+        "Metallurgical and Materials Engineering",
+        "Mining Engineering"
+    ],
+    [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+    ]
 ]
 
-export const NITMeghalayaCoursesDetailsConstants = [
-    {
-        duration: "4",
-        graduationType: [
-            {
-                type: "B.Tech",
-                courses: [
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical and Electronics Engineering",
-                    "Electronics and Communication Engineering",
-                    "Mechanical Engineering"
-                ]
-            }
-        ]
-    },
-    {
-        duration: "5",
-        graduationType: [
-            {
-                type: "B.Tech + M.Tech",
-                courses: [
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical and Electronics Engineering",
-                    "Electronics and Communication Engineering",
-                    "Mechanical Engineering"
-                ]
-            }
-        ]
-    }
+export const NITRaipurCoursesTableHeading = [
+    "B.E./B.Tech - 4 Years",
+    "B.Arch - 5 Years"
 ]
 
-export const NITMizoramCoursesDetailsConstants = [
-    {
-        duration: "4",
-        graduationType: [
-            {
-                type: "B.Tech",
-                courses: [
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical and Electronics Engineering",
-                    "Electronics and Communication Engineering",
-                    "Mechanical Engineering"
-                ]
-            }
-        ]
-    },
-    {
-        duration: "5",
-        graduationType: [
-            {
-                type: "B.Tech + M.Tech",
-                courses: [
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical and Electronics Engineering",
-                    "Electronics and Communication Engineering",
-                    "Mechanical Engineering"
-                ]
-            }
-        ]
-    }
+export const NITAgartalaCoursesTableContent = [
+    [
+        "Chemical Engineering",
+        "Civil Engineering",
+        "Computer Science and Engineering",
+        "Electrical Engineering",
+        "Electronics and Communication Engineering",
+        "Mechanical Engineering",
+        "Production Engineering"
+    ],
+    [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+    ]
 ]
 
-export const NITNagalandCoursesDetailsConstants = [
-    {
-        duration: "4",
-        graduationType: [
-            {
-                type: "B.Tech",
-                courses: [
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical and Electronics Engineering",
-                    "Electronics and Communication Engineering",
-                    "Mechanical Engineering"
-                ]
-            }
-        ]
-    },
-    {
-        duration: "5",
-        graduationType: [
-            {
-                type: "B.Tech + M.Tech",
-                courses: [
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical and Electronics Engineering",
-                    "Electronics and Communication Engineering",
-                    "Mechanical Engineering"
-                ]
-            }
-        ]
-    }
+export const NITAgartalaCoursesTableHeading = [
+    "B.E./B.Tech - 4 Years",
+    "B.Arch - 5 Years"
 ]
 
-export const NITPuducherryCoursesDetailsConstants = [
-    {
-        duration: "4",
-        graduationType: [
-            {
-                type: "B.Tech",
-                courses: [
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical and Electronics Engineering",
-                    "Electronics and Communication Engineering",
-                    "Mechanical Engineering"
-                ]
-            }
-        ]
-    },
-    {
-        duration: "5",
-        graduationType: [
-            {
-                type: "B.Tech + M.Tech",
-                courses: [
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical and Electronics Engineering",
-                    "Electronics and Communication Engineering",
-                    "Mechanical Engineering"
-                ]
-            }
-        ]
-    }
+export const NITArunachalPradeshCoursesTableContent = [
+    [
+        "Civil Engineering",
+        "Computer Science and Engineering",
+        "Electrical Engineering",
+        "Electronics and Communication Engineering",
+        "Mechanical Engineering"
+    ],
+    [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+    ]
 ]
 
-
-export const NITSikkimCoursesDetailsConstants = [
-    {
-        duration: "4",
-        graduationType: [
-            {
-                type: "B.Tech",
-                courses: [
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical and Electronics Engineering",
-                    "Electronics and Communication Engineering",
-                    "Mechanical Engineering"
-                ]
-            }
-        ]
-    },
-    {
-        duration: "5",
-        graduationType: [
-            {
-                type: "B.Tech + M.Tech",
-                courses: [
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical and Electronics Engineering",
-                    "Electronics and Communication Engineering",
-                    "Mechanical Engineering"
-                ]
-            }
-        ]
-    }
+export const NITArunachalPradeshCoursesTableHeading = [
+    "B.E./B.Tech - 4 Years",
+    "B.Arch - 5 Years"
 ]
 
-export const NITUttarakhandCoursesDetailsConstants = [
-    {
-        duration: "4",
-        graduationType: [
-            {
-                type: "B.Tech",
-                courses: [
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical and Electronics Engineering",
-                    "Electronics and Communication Engineering",
-                    "Mechanical Engineering"
-                ]
-            }
-        ]
-    },
-    {
-        duration: "5",
-        graduationType: [
-            {
-                type: "B.Tech + M.Tech",
-                courses: [
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical and Electronics Engineering",
-                    "Electronics and Communication Engineering",
-                    "Mechanical Engineering"
-                ]
-            }
-        ]
-    }
+export const NITDelhiCoursesTableContent = [
+    [
+        "Computer Science and Engineering",
+        "Electrical and Electronics Engineering",
+        "Electronics and Communication Engineering",
+        "Mechanical Engineering"
+    ],
+    [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+    ]
 ]
 
-export const NITAndhraPradeshCoursesDetailsConstants = [
-    {
-        duration: "4",
-        graduationType: [
-            {
-                type: "B.Tech",
-                courses: [
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical and Electronics Engineering",
-                    "Electronics and Communication Engineering",
-                    "Mechanical Engineering"
-                ]
-            }
-        ]
-    },
-    {
-        duration: "5",
-        graduationType: [
-            {
-                type: "B.Tech + M.Tech",
-                courses: [
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical and Electronics Engineering",
-                    "Electronics and Communication Engineering",
-                    "Mechanical Engineering"
-                ]
-            }
-        ]
-    }
+export const NITDelhiCoursesTableHeading = [
+    "B.E./B.Tech - 4 Years",
+    "B.Arch - 5 Years"
 ]
 
-export const NITShibpurCoursesDetailsConstants = [
-    {
-        duration: "4",
-        graduationType: [
-            {
-                type: "B.Tech",
-                courses: [
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical Engineering",
-                    "Electronics and Communication Engineering",
-                    "Mechanical Engineering"
-                ]
-            }
-        ]
-    },
-    {
-        duration: "5",
-        graduationType: [
-            {
-                type: "B.Tech + M.Tech",
-                courses: [
-                    "Civil Engineering",
-                    "Computer Science and Engineering",
-                    "Electrical Engineering",
-                    "Electronics and Communication Engineering",
-                    "Mechanical Engineering"
-                ]
-            }
-        ]
-    }
+export const NITGoaCoursesTableContent = [
+    [
+        "Computer Science and Engineering",
+        "Electrical and Electronics Engineering",
+        "Electronics and Communication Engineering",
+        "Mechanical Engineering"
+    ],
+    [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+    ]
+]
+
+export const NITGoaCoursesTableHeading = [
+    "B.E./B.Tech - 4 Years",
+    "B.Arch - 5 Years"
+]
+
+export const NITManipurCoursesTableContent = [
+    [
+        "Civil Engineering",
+        "Computer Science and Engineering",
+        "Electrical Engineering",
+        "Electronics and Communication Engineering",
+        "Mechanical Engineering"
+    ],
+    [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+    ]
+]
+
+export const NITManipurCoursesTableHeading = [
+    "B.E./B.Tech - 4 Years",
+    "B.Arch - 5 Years"
+]
+
+export const NITMeghalayaCoursesTableContent = [
+    [
+        "Civil Engineering",
+        "Computer Science and Engineering",
+        "Electrical and Electronics Engineering",
+        "Electronics and Communication Engineering",
+        "Mechanical Engineering"
+    ],
+    [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+    ]
+]
+
+export const NITMeghalayaCoursesTableHeading = [
+    "B.E./B.Tech - 4 Years",
+    "B.Arch - 5 Years"
+]
+
+export const NITMizoramCoursesTableContent = [
+    [
+        "Civil Engineering",
+        "Computer Science and Engineering",
+        "Electrical and Electronics Engineering",
+        "Electronics and Communication Engineering",
+        "Mechanical Engineering"
+    ],
+    [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+    ]
+]
+
+export const NITMizoramCoursesTableHeading = [
+    "B.E./B.Tech - 4 Years",
+    "B.Arch - 5 Years"
+]
+
+export const NITNagalandCoursesTableContent = [
+    [
+        "Civil Engineering",
+        "Computer Science and Engineering",
+        "Electrical and Electronics Engineering",
+        "Electronics and Communication Engineering",
+        "Mechanical Engineering"
+    ],
+    [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+    ]
+]
+
+export const NITNagalandCoursesTableHeading = [
+    "B.E./B.Tech - 4 Years",
+    "B.Arch - 5 Years"
+]
+
+export const NITPuducherryCoursesTableContent = [
+    [
+        "Civil Engineering",
+        "Computer Science and Engineering",
+        "Electrical and Electronics Engineering",
+        "Electronics and Communication Engineering",
+        "Mechanical Engineering"
+    ],
+    [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+    ]
+]
+
+export const NITPuducherryCoursesTableHeading = [
+    "B.E./B.Tech - 4 Years",
+    "B.Arch - 5 Years"
+]
+
+export const NITSikkimCoursesTableContent = [
+    [
+        "Civil Engineering",
+        "Computer Science and Engineering",
+        "Electrical and Electronics Engineering",
+        "Electronics and Communication Engineering",
+        "Mechanical Engineering"
+    ],
+    [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+    ]
+]
+
+export const NITSikkimCoursesTableHeading = [
+    "B.E./B.Tech - 4 Years",
+    "B.Arch - 5 Years"
+]
+
+export const NITUttarakhandCoursesTableContent = [
+    [
+        "Civil Engineering",
+        "Computer Science and Engineering",
+        "Electrical and Electronics Engineering",
+        "Electronics and Communication Engineering",
+        "Mechanical Engineering"
+    ],
+    [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+    ]
+]
+
+export const NITUttarakhandCoursesTableHeading = [
+    "B.E./B.Tech - 4 Years",
+    "B.Arch - 5 Years"
+]
+
+export const NITAndhraPradeshCoursesTableContent = [
+    [
+        "Civil Engineering",
+        "Computer Science and Engineering",
+        "Electrical and Electronics Engineering",
+        "Electronics and Communication Engineering",
+        "Mechanical Engineering"
+    ],
+    [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+    ]
+]
+
+export const NITAndhraPradeshCoursesTableHeading = [
+    "B.E./B.Tech - 4 Years",
+    "B.Arch - 5 Years"
+]
+
+export const NITShipurCoursesTableContent = [
+    [
+        "Civil Engineering",
+        "Computer Science and Engineering",
+        "Electrical and Electronics Engineering",
+        "Electronics and Communication Engineering",
+        "Mechanical Engineering"
+    ],
+    [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+    ]
+]
+
+export const NITShipurCoursesTableHeading = [
+    "B.E./B.Tech - 4 Years",
+    "B.Arch - 5 Years"
 ]
