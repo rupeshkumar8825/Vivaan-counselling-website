@@ -673,7 +673,7 @@ export const NITAndhraPradeshCoursesTableHeading = [
     "B.Arch - 5 Years"
 ]
 
-export const NITShipurCoursesTableContent = [
+export const NITShibpurCoursesTableContent = [
     [
         "Civil Engineering",
         "Computer Science and Engineering",
@@ -688,7 +688,7 @@ export const NITShipurCoursesTableContent = [
     ]
 ]
 
-export const NITShipurCoursesTableHeading = [
+export const NITShibpurCoursesTableHeading = [
     "B.E./B.Tech - 4 Years",
     "B.Arch - 5 Years"
 ]
