@@ -7,8 +7,11 @@ import SeatMatrixSectionTableComponent from "./tables/SeatMatrixSectionTableComp
 const SeatSectionCollegeComponent = (props : ISeatSectionCollegePageComponent) => {
     return (
         <>
+        <div className="border-2 border-slate-700 mt-4 pt-2">
             <BlogSectionComponent headingId={props.headingId} headingName={props.headingName} content={props.content}></BlogSectionComponent>
             <SeatMatrixSectionTableComponent tableContent={props.seatSectionTableContent} tableContentHeading={props.seatSectionTableHeading}></SeatMatrixSectionTableComponent>
+
+        </div>
         </>
     )
 }

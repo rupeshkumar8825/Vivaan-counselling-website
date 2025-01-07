@@ -19,8 +19,8 @@ export const NITWarangalCoursesTableContent = [
 ]
 
 export const NITWarangalCoursesTableHeading = [
-    "Btech",
-    "Bsc"
+    "B.E./B.Tech - 4 Years",
+    "B.Arch - 5 Years"
 ]
 
 export const NITBhopalCoursesDetailsConstants = [

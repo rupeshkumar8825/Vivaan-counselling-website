@@ -16,7 +16,6 @@ const CoursesSectionCollegePageComponent = (props : ICoursesSectionCollegePageCo
     // handlers for this component comes here
     const handleCourseTypeChange = (event : React.ChangeEvent<HTMLSelectElement>) => {
         console.log("The course type has been changed to: ", event.target.value)
-
         setCourseType(event.target.value) 
     }
 
@@ -48,13 +47,13 @@ const CoursesSectionCollegePageComponent = (props : ICoursesSectionCollegePageCo
 
 
     return (
-        <div className="mt-10">
+        <div className="border-2 border-slate-700 mt-4 pt-2">
             {/* here comes the blog component specific for the courses being offered in the colleges */}
             {/* Blog component for the courses section */}
             
              <BlogSectionComponent headingId={props.headingId} headingName={props.headingName} content={props.content}/>
 
-            <div className="flex justify-evenly items-center">
+            <div className="flex justify-evenly items-center  w-full">
 
                 <SelectComponent
                     selectId="duration"
@@ -78,23 +77,6 @@ const CoursesSectionCollegePageComponent = (props : ICoursesSectionCollegePageCo
 
             {/* here the table content will be the list of courses to be shown on the UI */}
             {listOfAllCourse ? <CoursesSectionTableComponent tableContent={listOfAllCourse} tableContentHeading={[courseType]}></CoursesSectionTableComponent> : null}
-            {/* here comes the courses being offered in the college */}
-            {/* List of courses */}
-            {/* <div className="mt-10 flex flex-col items-center justify-center">
-                <h2 className="text-lg font-medium text-slate-300 ">Courses Being Offered:</h2>
-                <ul className="list-disc pl-5">
-                    {courses.map((course, index) => (
-                        <li key={index} className="mt-2 text-slate-400 text-gray-700 border-b  border-gray-700 text-lg">
-                            {course}
-                        </li>
-                    ))}
-                </ul>
-            </div> */}
-
-            {/* here we will have to show the list of courses that are being offered currently */}
-            {/* <div>
-                <h1>List of courses being offered</h1>
-            </div> */}
         </div>
     );
 };

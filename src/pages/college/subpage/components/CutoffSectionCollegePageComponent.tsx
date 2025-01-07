@@ -29,7 +29,7 @@ export const CutoffSectionCollegePageComponent = (props: ICutoffSectionCollegePa
     }
 
     return (
-        <div className="flex flex-col justify-center items-center">
+        <div className="border-2 border-slate-700 mt-4 pt-2 flex flex-col justify-center items-center">
             <BlogSectionComponent headingId={props.headingId} headingName={props.headingName} content={props.content}></BlogSectionComponent>
             {/* // Accordian for different years comes here  */}
             <div className=" flex justify-center items-center w-1/2">

@@ -9,7 +9,7 @@ const RankingSectionCollegeComponent = (props : IRankingSectionCollegePageCompon
 
     return (
         <>
-            <div className="mt-10">
+            <div className="border-2 border-slate-700 mt-4 pt-2">
                 {/* here comes the blog component if any for the ranking section for this purpose */}
                 <BlogSectionComponent headingId={props.headingId} headingName={props.headingName} content={props.content}></BlogSectionComponent>
                 {/* then here comes the ranking table component for this purpose */}

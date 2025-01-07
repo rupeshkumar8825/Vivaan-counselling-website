@@ -32,7 +32,7 @@ const PlacementSectionCollegePageComponent = (props: IPlacementSectionCollegePag
 
 
     return (
-        <div className="mt-10">
+        <div className="border-2 border-slate-700 mt-4 pt-2">
             <BlogSectionComponent headingId={props.headingId} headingName={props.headingName} content={props.content}></BlogSectionComponent>
 
             {/* here comes the list of images to be shown in this case */}
