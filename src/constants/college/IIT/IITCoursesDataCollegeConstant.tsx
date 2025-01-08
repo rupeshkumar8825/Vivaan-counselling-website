@@ -336,7 +336,7 @@ export const IITMandiCoursesTableHeading = [
     "B.Arch - 5 Years"
 ]
 
-export const IITBHUVaranasiCoursesTableContent = [
+export const IITBHUCoursesTableContent = [
     [
         "Ceramic Engineering",
         "Chemical Engineering",
@@ -356,7 +356,7 @@ export const IITBHUVaranasiCoursesTableContent = [
     ]
 ]
 
-export const IITBHUVaranasiCoursesTableHeading = [
+export const IITBHUCoursesTableHeading = [
     "B.E./B.Tech - 4 Years",
     "B.Arch - 5 Years"
 ]

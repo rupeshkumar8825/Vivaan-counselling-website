@@ -257,7 +257,7 @@ export const IITMandiRankingDataTableHeading = [
 
 ]
 
-export const IITBHUVaranasiRankingDataTableConstant = [
+export const IITBHURankingDataTableConstant = [
     [
         "NIRF Overall Rankings", 
         "11 (2023)", 
@@ -270,7 +270,7 @@ export const IITBHUVaranasiRankingDataTableConstant = [
     ]
 ]
 
-export const IITBHUVaranasiRankingDataTableHeading = [
+export const IITBHURankingDataTableHeading = [
 
 ]
 

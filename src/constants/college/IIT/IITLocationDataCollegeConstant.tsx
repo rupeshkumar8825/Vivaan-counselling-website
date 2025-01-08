@@ -16,6 +16,7 @@ export const IITBombayLocationDataTableHeading = [
 
 ]
 
+
 export const IITKharagpurLocationDataTableConstant = [
     [
         "Netaji Subhas Chandra Bose International Airport", 
@@ -27,26 +28,38 @@ export const IITKharagpurLocationDataTableConstant = [
     ]
 ]
 
+export const IITKharagpurLocationDataTableHeading = [
+
+]
+
 export const IITMadrasLocationDataTableConstant = [
     [
         "Chennai International Airport", 
-        "15"
+        "13"
     ], 
     [
         "Chennai Central Railway Station", 
-        "13"
+        "12"
     ]
+]
+
+export const IITMadrasLocationDataTableHeading = [
+
 ]
 
 export const IITKanpurLocationDataTableConstant = [
     [
-        "Kanpur Airport", 
-        "16"
+        "Chaudhary Charan Singh International Airport", 
+        "95"
     ], 
     [
         "Kanpur Central Railway Station", 
-        "15"
+        "16"
     ]
+]
+
+export const IITKanpurLocationDataTableHeading = [
+
 ]
 
 export const IITDelhiLocationDataTableConstant = [
@@ -60,6 +73,10 @@ export const IITDelhiLocationDataTableConstant = [
     ]
 ]
 
+export const IITDelhiLocationDataTableHeading = [
+
+]
+
 export const IITGuwahatiLocationDataTableConstant = [
     [
         "Lokpriya Gopinath Bordoloi International Airport", 
@@ -69,6 +86,10 @@ export const IITGuwahatiLocationDataTableConstant = [
         "Guwahati Railway Station", 
         "18"
     ]
+]
+
+export const IITGuwahatiLocationDataTableHeading = [
+
 ]
 
 export const IITRoorkeeLocationDataTableConstant = [
@@ -82,6 +103,10 @@ export const IITRoorkeeLocationDataTableConstant = [
     ]
 ]
 
+export const IITRoorkeeLocationDataTableHeading = [
+
+]
+
 export const IITRoparLocationDataTableConstant = [
     [
         "Chandigarh International Airport", 
@@ -93,6 +118,9 @@ export const IITRoparLocationDataTableConstant = [
     ]
 ]
 
+export const IITRoparLocationDataTableHeading = [
+
+]
 
 export const IITBhubaneswarLocationDataTableConstant = [
     [
@@ -103,6 +131,10 @@ export const IITBhubaneswarLocationDataTableConstant = [
         "Bhubaneswar Railway Station", 
         "20"
     ]
+]
+
+export const IITBhubaneswarLocationDataTableHeading = [
+
 ]
 
 export const IITGandhinagarLocationDataTableConstant = [
@@ -116,6 +148,10 @@ export const IITGandhinagarLocationDataTableConstant = [
     ]
 ]
 
+export const IITGandhinagarLocationDataTableHeading = [
+
+]
+
 export const IITHyderabadLocationDataTableConstant = [
     [
         "Rajiv Gandhi International Airport", 
@@ -125,6 +161,10 @@ export const IITHyderabadLocationDataTableConstant = [
         "Hyderabad Deccan Railway Station", 
         "35"
     ]
+]
+
+export const IITHyderabadLocationDataTableHeading = [
+
 ]
 
 export const IITJodhpurLocationDataTableConstant = [
@@ -138,15 +178,23 @@ export const IITJodhpurLocationDataTableConstant = [
     ]
 ]
 
+export const IITJodhpurLocationDataTableHeading = [
+
+]
+
 export const IITPatnaLocationDataTableConstant = [
     [
         "Jay Prakash Narayan International Airport", 
-        "35"
+        "30"
     ], 
     [
         "Patna Junction Railway Station", 
-        "30"
+        "35"
     ]
+]
+
+export const IITPatnaLocationDataTableHeading = [
+
 ]
 
 export const IITIndoreLocationDataTableConstant = [
@@ -160,6 +208,10 @@ export const IITIndoreLocationDataTableConstant = [
     ]
 ]
 
+export const IITIndoreLocationDataTableHeading = [
+
+]
+
 export const IITMandiLocationDataTableConstant = [
     [
         "Kullu–Manali Airport", 
@@ -171,7 +223,11 @@ export const IITMandiLocationDataTableConstant = [
     ]
 ]
 
-export const IITBHUVaranasiLocationDataTableConstant = [
+export const IITMandiLocationDataTableHeading = [
+
+]
+
+export const IITBHULocationDataTableConstant = [
     [
         "Lal Bahadur Shastri International Airport", 
         "30"
@@ -180,6 +236,10 @@ export const IITBHUVaranasiLocationDataTableConstant = [
         "Varanasi Junction Railway Station", 
         "10"
     ]
+]
+
+export const IITBHULocationDataTableHeading = [
+
 ]
 
 export const IITPalakkadLocationDataTableConstant = [
@@ -193,6 +253,9 @@ export const IITPalakkadLocationDataTableConstant = [
     ]
 ]
 
+export const IITPalakkadLocationDataTableHeading = [
+
+]
 
 export const IITTirupatiLocationDataTableConstant = [
     [
@@ -203,6 +266,10 @@ export const IITTirupatiLocationDataTableConstant = [
         "Tirupati Railway Station", 
         "10"
     ]
+]
+
+export const IITTirupatiLocationDataTableHeading = [
+
 ]
 
 export const IITDhanbadLocationDataTableConstant = [
@@ -216,10 +283,14 @@ export const IITDhanbadLocationDataTableConstant = [
     ]
 ]
 
+export const IITDhanbadLocationDataTableHeading = [
+
+]
+
 export const IITBhilaiLocationDataTableConstant = [
     [
         "Swami Vivekananda Airport", 
-        "45"
+        "50"
     ], 
     [
         "Bhilai Nagar Railway Station", 
@@ -227,15 +298,23 @@ export const IITBhilaiLocationDataTableConstant = [
     ]
 ]
 
+export const IITBhilaiLocationDataTableHeading = [
+
+]
+
 export const IITDharwadLocationDataTableConstant = [
     [
         "Hubli Airport", 
-        "30"
+        "20"
     ], 
     [
         "Dharwad Railway Station", 
-        "12"
+        "10"
     ]
+]
+
+export const IITDharwadLocationDataTableHeading = [
+
 ]
 
 export const IITJammuLocationDataTableConstant = [
@@ -249,6 +328,10 @@ export const IITJammuLocationDataTableConstant = [
     ]
 ]
 
+export const IITJammuLocationDataTableHeading = [
+
+]
+
 export const IITGoaLocationDataTableConstant = [
     [
         "Goa International Airport", 
@@ -256,6 +339,10 @@ export const IITGoaLocationDataTableConstant = [
     ], 
     [
         "Madgaon Railway Station", 
-        "30"
+        "40"
     ]
+]
+
+export const IITGoaLocationDataTableHeading = [
+
 ]
