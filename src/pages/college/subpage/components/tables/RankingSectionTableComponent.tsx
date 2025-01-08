@@ -1,6 +1,5 @@
 // this is the table for ranking section of the college page
 
-import TableContentComponent from "../../../../../components/TableContentComponent"
 import { ITableContentComponent } from "../../../../../interfaces/interfaces"
 import NIRFRankingLogo from "../../../../../assets/images/NirfAllEngineeringLogo.png"
 import OverAllEngineeringLocationLogo from "../../../../../assets/images/OverAllEngineeringLogo.png"

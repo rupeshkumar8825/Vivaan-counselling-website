@@ -3,7 +3,6 @@
 import { ITableContentComponent } from "../../../../../interfaces/interfaces"
 import AeroPlaneLocationlogo from "../../../../../assets/images/AeroplaneLocationLogo.png"
 import RailwayLocationLogo from "../../../../../assets/images/TrainLocationLogo.png"
-import { useEffect } from "react"
 
 
 const LocationSectionTableComponent = (props : ITableContentComponent) => {

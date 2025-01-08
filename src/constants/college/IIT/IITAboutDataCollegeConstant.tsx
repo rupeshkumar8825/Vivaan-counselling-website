@@ -238,3 +238,82 @@ export const IITPalakkadAboutDataTableHeading = [
     "Institute Name",
     "Indian Institute of Technology, Palakkad"
 ];
+
+
+export const IITTirupatiAboutDataTableConstant = [
+    ["Also Known as", "IITT"],
+    ["Institute Type", "Government"],
+    ["Established", "2015"],
+    ["Location", "Tirupati, Andhra Pradesh"],
+    ["Type", "IIT"]
+];
+
+export const IITTirupatiAboutDataTableHeading = [
+    "Institute Name",
+    "Indian Institute of Technology, Tirupati"
+];
+
+export const IITDhanbadAboutDataTableConstant = [
+    ["Also Known as", "IIT ISM"],
+    ["Institute Type", "Government"],
+    ["Established", "1926"],
+    ["Location", "Dhanbad, Jharkhand"],
+    ["Type", "IIT"]
+];
+
+export const IITDhanbadAboutDataTableHeading = [
+    "Institute Name",
+    "Indian Institute of Technology, Dhanbad"
+];
+
+export const IITBhilaiAboutDataTableConstant = [
+    ["Also Known as", "IITBH"],
+    ["Institute Type", "Government"],
+    ["Established", "2016"],
+    ["Location", "Bhilai, Chhattisgarh"],
+    ["Type", "IIT"]
+];
+
+export const IITBhilaiAboutDataTableHeading = [
+    "Institute Name",
+    "Indian Institute of Technology, Bhilai"
+];
+
+export const IITDharwadAboutDataTableConstant = [
+    ["Also Known as", "IITDH"],
+    ["Institute Type", "Government"],
+    ["Established", "2016"],
+    ["Location", "Dharwad, Karnataka"],
+    ["Type", "IIT"]
+];
+
+export const IITDharwadAboutDataTableHeading = [
+    "Institute Name",
+    "Indian Institute of Technology, Dharwad"
+];
+
+export const IITJammuAboutDataTableConstant = [
+    ["Also Known as", "IITJMU"],
+    ["Institute Type", "Government"],
+    ["Established", "2016"],
+    ["Location", "Jammu, Jammu and Kashmir"],
+    ["Type", "IIT"]
+];
+
+export const IITJammuAboutDataTableHeading = [
+    "Institute Name",
+    "Indian Institute of Technology, Jammu"
+];
+
+export const IITGoaAboutDataTableConstant = [
+    ["Also Known as", "IITGOA"],
+    ["Institute Type", "Government"],
+    ["Established", "2016"],
+    ["Location", "Goa"],
+    ["Type", "IIT"]
+];
+
+export const IITGoaAboutDataTableHeading = [
+    "Institute Name",
+    "Indian Institute of Technology, Goa"
+];

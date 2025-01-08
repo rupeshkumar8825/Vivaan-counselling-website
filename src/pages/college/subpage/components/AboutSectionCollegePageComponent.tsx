@@ -1,8 +1,6 @@
 // this is the component to write the "About" section of the colleges 
 import { useEffect } from 'react';
 import BlogSectionComponent from '../../../../components/blog/BlogSectionComponent';
-import TableOfContentsComponent from '../../../../components/blog/TableOfContentsComponent';
-import TableContentComponent from '../../../../components/TableContentComponent';
 import { IAboutSectionCollegePageComponent } from '../../../../interfaces/interfaces';
 import AboutSectionTableComponent from './tables/AboutSectionTableComponent';
 
