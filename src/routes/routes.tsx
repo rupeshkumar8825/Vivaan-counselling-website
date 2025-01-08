@@ -282,7 +282,7 @@ import {
     IITDhanbadCollegeSeatSectionContent,
     IITMadrasCollegeLocationSectionContent,
     IITMadrasCollegeRankingSectionContent,
-    IITMadrasCollegeSeatSectionContent} from "../constants/college/IIT/CollegePageNavigationComponentConstants";
+    IITMadrasCollegeSeatSectionContent} from "../constants/college/IIT/IITCollegePageNavigationComponentConstants";
 
 import { 
     IITBhubaneshwarCoursesDetailsConstants,

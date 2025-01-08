@@ -3,7 +3,7 @@
 // we have made a generic page such that it will be applicable to all colleges 
 // and the variation will be in the props that we pass to this component
 
-import { CollegePageNavigationSvgPathConstants } from "../../../../constants/college/IIT/CollegePageNavigationComponentConstants"
+import { CollegePageNavigationSvgPathConstants } from "../../../../constants/college/IIT/IITCollegePageNavigationComponentConstants"
 import { INITGenericCollegeComponent } from "../../../../interfaces/interfaces"
 import AboutSectionCollegePageComponent from "../components/AboutSectionCollegePageComponent"
 import AdmissionSectionCollegePageComponent from "../components/AdmissionSectionCollegePageComponent"

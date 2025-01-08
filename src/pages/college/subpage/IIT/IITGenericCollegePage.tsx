@@ -9,7 +9,7 @@ import CoursesSectionCollegePageComponent from "../components/CoursesSectionColl
 import CutoffSectionCollegePageComponent from "../components/CutoffSectionCollegePageComponent"
 import FeesSectionCollegePageComponent from "../components/FeesSectionCollegePageComponent"
 import PlacementSectionCollegePageComponent from "../components/PlacementSectionCollegePageComponent"
-import { CollegePageNavigationSvgPathConstants } from "../../../../constants/college/IIT/CollegePageNavigationComponentConstants"
+import { CollegePageNavigationSvgPathConstants } from "../../../../constants/college/IIT/IITCollegePageNavigationComponentConstants"
 import LocationSectionCollegeComponent from "../components/LocationSectionCollegeComponent"
 import RankingSectionCollegeComponent from "../components/RankingSectionCollegeComponent"
 import SeatSectionCollegeComponent from "../components/SeatSectionCollegeComponent"

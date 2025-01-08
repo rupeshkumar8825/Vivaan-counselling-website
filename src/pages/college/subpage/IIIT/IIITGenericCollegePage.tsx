@@ -2,7 +2,7 @@
 // actually this is the common code for the page and 
 // just the data is different for each college
 
-import { CollegePageNavigationSvgPathConstants } from "../../../../constants/college/IIT/CollegePageNavigationComponentConstants"
+import { CollegePageNavigationSvgPathConstants } from "../../../../constants/college/IIT/IITCollegePageNavigationComponentConstants"
 import { IIIITGenericCollegeComponent } from "../../../../interfaces/interfaces"
 import AboutSectionCollegePageComponent from "../components/AboutSectionCollegePageComponent"
 import AdmissionSectionCollegePageComponent from "../components/AdmissionSectionCollegePageComponent"
