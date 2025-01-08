@@ -8,7 +8,7 @@ const LocationSectionCollegeComponent = (props: ILocationSectionCollegePageCompo
 
     return (
         <>
-            <div className=" border-2 border-slate-700 mt-4 pt-2">
+            <div className="border-2 border-slate-700 mt-4 pt-2">
                 {/* here we will add some text or some blog component for this purpose */}
                 <BlogSectionComponent headingId={props.headingId} headingName={props.headingName} content={props.content}></BlogSectionComponent>
                 {/* and then here comes the table of content for the location */}

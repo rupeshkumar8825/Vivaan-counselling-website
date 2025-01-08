@@ -290,8 +290,8 @@ import {
     IITGandhinagarCoursesDetailsConstants, 
     IITGuwahatiCoursesDetailsConstants, 
     IITIndoreCoursesDetailsConstants,
-    IITKanpurCoursesDetailsConstants} from "../constants/college/IIT/CoursesDataForIITCollegeConstant";
-import { IITBhubaneshwarPlacementDataConstant, IITBombayPlacementDataConstant, IITGandhinagarPlacementDataConstant, IITGuwahatiPlacementDataConstant, IITIndorePlacementDataConstant, IITKanpurPlacementDataConstant } from "../constants/college/IIT/PlacementDataForIITCollegeConstant";
+    IITKanpurCoursesDetailsConstants} from "../constants/college/IIT/IITCoursesDataCollegeConstant";
+import { IITBhubaneshwarPlacementDataConstant, IITBombayPlacementDataConstant, IITGandhinagarPlacementDataConstant, IITGuwahatiPlacementDataConstant, IITIndorePlacementDataConstant, IITKanpurPlacementDataConstant } from "../constants/college/IIT/IITPlacementDataCollegeConstant";
 import IITGenericCutOffPage from "../pages/college/subpage/IIT/IITGenericCutOffPage";
 import { IITBombayCutOffContentConstant, IITBombayCutOffHeadingIdConstant, IITBombayCutOffHeadingName, IITDelhiCutOffContentConstant, IITDelhiCutOffHeadingIdConstant, IITDelhiCutOffHeadingName } from "../constants/college/IIT/CutoffDataForIITCollegeConstant";
 

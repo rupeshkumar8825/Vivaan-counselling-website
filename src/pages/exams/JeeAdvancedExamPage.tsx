@@ -39,7 +39,7 @@ const JeeAdvancedExamPage = () => {
     }
 
     return (
-        <div className="text-white w-full">
+        <div className="text-white  w-full">
             <TopBanner></TopBanner>
 
             <div className="mt-10 flex items-center justify-center">
