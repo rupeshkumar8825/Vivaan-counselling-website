@@ -544,3 +544,120 @@ export const IIITKarnatakaCollegeAdmissionSectionContent: string = "Admissions t
 export const IIITKarnatakaCollegeCoursesSectionContent: string = "IIIT Karnataka offers a wide range of courses in engineering, science, and management. The programs are designed to provide students with a strong foundation in their chosen fields and prepare them for successful careers.";
 export const IIITKarnatakaCollegePlacementSectionContent: string = "IIIT Karnataka has a strong placement record with top companies visiting the campus for recruitment. The institute's placement cell provides training and support to students to help them secure job offers.";
 export const IIITKarnatakaCollegeCutOffSectionContent: string = "The cutoff for admission to IIIT Karnataka varies each year based on the number of applicants and the difficulty level of the entrance exams. The cutoff is released after the declaration of the entrance exam results.";
+
+
+
+
+/**
+ * Adding the remaining constants here for this purpose */
+export const IIITHyderabadCollegeLocationSectionContent = ""
+export const IIITHyderabadCollegeRankingSectionContent = ""
+export const IIITHyderabadCollegeSeatSelectionContent = ""
+
+export const IIITGwaliorCollegeLocationSectionContent = ""
+export const IIITGwaliorCollegeRankingSectionContent = ""
+export const IIITGwaliorCollegeSeatSelectionContent = ""
+
+export const IIITBangaloreCollegeLocationSectionContent = ""
+export const IIITBangaloreCollegeRankingSectionContent = ""
+export const IIITBangaloreCollegeSeatSelectionContent = ""
+
+export const IIITGuwahatiCollegeLocationSectionContent = ""
+export const IIITGuwahatiCollegeRankingSectionContent = ""
+export const IIITGuwahatiCollegeSeatSelectionContent = ""
+
+export const IIITJabalpurCollegeLocationSectionContent = ""
+export const IIITJabalpurCollegeRankingSectionContent = ""
+export const IIITJabalpurCollegeSeatSelectionContent = ""
+
+export const IIITAllahabadCollegeLocationSectionContent = ""
+export const IIITAllahabadCollegeRankingSectionContent = ""
+export const IIITAllahabadCollegeSeatSelectionContent = ""
+
+export const IIITKanchipuramCollegeLocationSectionContent = ""
+export const IIITKanchipuramCollegeRankingSectionContent = ""
+export const IIITKanchipuramCollegeSeatSelectionContent = ""
+
+export const IIITBhubaneshwarCollegeLocationSectionContent = ""
+export const IIITBhubaneshwarCollegeRankingSectionContent = ""
+export const IIITBhubaneshwarCollegeSeatSelectionContent = ""
+
+export const IIITPuneCollegeLocationSectionContent = ""
+export const IIITPuneCollegeRankingSectionContent = ""
+export const IIITPuneCollegeSeatSelectionContent = ""
+
+export const IIITKotaCollegeLocationSectionContent = ""
+export const IIITKotaCollegeRankingSectionContent = ""
+export const IIITKotaCollegeSeatSelectionContent = ""
+
+export const IIITSriCityCollegeLocationSectionContent = ""
+export const IIITSriCityCollegeRankingSectionContent = ""
+export const IIITSriCityCollegeSeatSelectionContent = ""
+
+export const IIITVadodaraCollegeLocationSectionContent = ""
+export const IIITVadodaraCollegeRankingSectionContent = ""
+export const IIITVadodaraCollegeSeatSelectionContent = ""
+
+export const IIITNagpurCollegeLocationSectionContent = ""
+export const IIITNagpurCollegeRankingSectionContent = ""
+export const IIITNagpurCollegeSeatSelectionContent = ""
+
+export const IIITKalyaniCollegeLocationSectionContent = ""
+export const IIITKalyaniCollegeRankingSectionContent = ""
+export const IIITKalyaniCollegeSeatSelectionContent = ""
+
+export const IIITLucknowCollegeLocationSectionContent = ""
+export const IIITLucknowCollegeRankingSectionContent = ""
+export const IIITLucknowCollegeSeatSelectionContent = ""
+
+export const IIITDharwadCollegeLocationSectionContent = ""
+export const IIITDharwadCollegeRankingSectionContent = ""
+export const IIITDharwadCollegeSeatSelectionContent = ""
+
+export const IIITBhagalpurCollegeLocationSectionContent = ""
+export const IIITBhagalpurCollegeRankingSectionContent = ""
+export const IIITBhagalpurCollegeSeatSelectionContent = ""
+
+export const IIITBhopalCollegeLocationSectionContent = ""
+export const IIITBhopalCollegeRankingSectionContent = ""
+export const IIITBhopalCollegeSeatSelectionContent = ""
+
+export const IIITKottayamCollegeLocationSectionContent = ""
+export const IIITKottayamCollegeRankingSectionContent = ""
+export const IIITKottayamCollegeSeatSelectionContent = ""
+
+export const IIITRanchiCollegeLocationSectionContent = ""
+export const IIITRanchiCollegeRankingSectionContent = ""
+export const IIITRanchiCollegeSeatSelectionContent = ""
+
+export const IIITUnaCollegeLocationSectionContent = ""
+export const IIITUnaCollegeRankingSectionContent = ""
+export const IIITUnaCollegeSeatSelectionContent = ""
+
+export const IIITSuratCollegeLocationSectionContent = ""
+export const IIITSuratCollegeRankingSectionContent = ""
+export const IIITSuratCollegeSeatSelectionContent = ""
+
+export const IIITManipurCollegeLocationSectionContent = ""
+export const IIITManipurCollegeRankingSectionContent = ""
+export const IIITManipurCollegeSeatSelectionContent = ""
+
+export const IIITKurnoolCollegeLocationSectionContent = ""
+export const IIITKurnoolCollegeRankingSectionContent = ""
+export const IIITKurnoolCollegeSeatSelectionContent = ""
+
+export const IIITTiruchirapalliCollegeLocationSectionContent = ""
+export const IIITTiruchirapalliCollegeRankingSectionContent = ""
+export const IIITTiruchirapalliCollegeSeatSelectionContent = ""
+
+export const IIITSonepatCollegeLocationSectionContent = ""
+export const IIITSonepatCollegeRankingSectionContent = ""
+export const IIITSonepatCollegeSeatSelectionContent = ""
+
+export const IIITAgartalaCollegeLocationSectionContent = ""
+export const IIITAgartalaCollegeRankingSectionContent = ""
+export const IIITAgartalaCollegeSeatSelectionContent = ""
+
+export const IIITKarnatakaCollegeLocationSectionContent = ""
+export const IIITKarnatakaCollegeRankingSectionContent = ""
+export const IIITKarnatakaCollegeSeatSelectionContent = ""
