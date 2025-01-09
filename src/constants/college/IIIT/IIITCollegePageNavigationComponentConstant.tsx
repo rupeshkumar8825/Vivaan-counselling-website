@@ -552,112 +552,112 @@ export const IIITKarnatakaCollegeCutOffSectionContent: string = "The cutoff for 
  * Adding the remaining constants here for this purpose */
 export const IIITHyderabadCollegeLocationSectionContent = ""
 export const IIITHyderabadCollegeRankingSectionContent = ""
-export const IIITHyderabadCollegeSeatSelectionContent = ""
+export const IIITHyderabadCollegeSeatSectionContent = ""
 
 export const IIITGwaliorCollegeLocationSectionContent = ""
 export const IIITGwaliorCollegeRankingSectionContent = ""
-export const IIITGwaliorCollegeSeatSelectionContent = ""
+export const IIITGwaliorCollegeSeatSectionContent = ""
 
 export const IIITBangaloreCollegeLocationSectionContent = ""
 export const IIITBangaloreCollegeRankingSectionContent = ""
-export const IIITBangaloreCollegeSeatSelectionContent = ""
+export const IIITBangaloreCollegeSeatSectionContent = ""
 
 export const IIITGuwahatiCollegeLocationSectionContent = ""
 export const IIITGuwahatiCollegeRankingSectionContent = ""
-export const IIITGuwahatiCollegeSeatSelectionContent = ""
+export const IIITGuwahatiCollegeSeatSectionContent = ""
 
 export const IIITJabalpurCollegeLocationSectionContent = ""
 export const IIITJabalpurCollegeRankingSectionContent = ""
-export const IIITJabalpurCollegeSeatSelectionContent = ""
+export const IIITJabalpurCollegeSeatSectionContent = ""
 
 export const IIITAllahabadCollegeLocationSectionContent = ""
 export const IIITAllahabadCollegeRankingSectionContent = ""
-export const IIITAllahabadCollegeSeatSelectionContent = ""
+export const IIITAllahabadCollegeSeatSectionContent = ""
 
 export const IIITKanchipuramCollegeLocationSectionContent = ""
 export const IIITKanchipuramCollegeRankingSectionContent = ""
-export const IIITKanchipuramCollegeSeatSelectionContent = ""
+export const IIITKanchipuramCollegeSeatSectionContent = ""
 
 export const IIITBhubaneshwarCollegeLocationSectionContent = ""
 export const IIITBhubaneshwarCollegeRankingSectionContent = ""
-export const IIITBhubaneshwarCollegeSeatSelectionContent = ""
+export const IIITBhubaneshwarCollegeSeatSectionContent = ""
 
 export const IIITPuneCollegeLocationSectionContent = ""
 export const IIITPuneCollegeRankingSectionContent = ""
-export const IIITPuneCollegeSeatSelectionContent = ""
+export const IIITPuneCollegeSeatSectionContent = ""
 
 export const IIITKotaCollegeLocationSectionContent = ""
 export const IIITKotaCollegeRankingSectionContent = ""
-export const IIITKotaCollegeSeatSelectionContent = ""
+export const IIITKotaCollegeSeatSectionContent = ""
 
 export const IIITSriCityCollegeLocationSectionContent = ""
 export const IIITSriCityCollegeRankingSectionContent = ""
-export const IIITSriCityCollegeSeatSelectionContent = ""
+export const IIITSriCityCollegeSeatSectionContent = ""
 
 export const IIITVadodaraCollegeLocationSectionContent = ""
 export const IIITVadodaraCollegeRankingSectionContent = ""
-export const IIITVadodaraCollegeSeatSelectionContent = ""
+export const IIITVadodaraCollegeSeatSectionContent = ""
 
 export const IIITNagpurCollegeLocationSectionContent = ""
 export const IIITNagpurCollegeRankingSectionContent = ""
-export const IIITNagpurCollegeSeatSelectionContent = ""
+export const IIITNagpurCollegeSeatSectionContent = ""
 
 export const IIITKalyaniCollegeLocationSectionContent = ""
 export const IIITKalyaniCollegeRankingSectionContent = ""
-export const IIITKalyaniCollegeSeatSelectionContent = ""
+export const IIITKalyaniCollegeSeatSectionContent = ""
 
 export const IIITLucknowCollegeLocationSectionContent = ""
 export const IIITLucknowCollegeRankingSectionContent = ""
-export const IIITLucknowCollegeSeatSelectionContent = ""
+export const IIITLucknowCollegeSeatSectionContent = ""
 
 export const IIITDharwadCollegeLocationSectionContent = ""
 export const IIITDharwadCollegeRankingSectionContent = ""
-export const IIITDharwadCollegeSeatSelectionContent = ""
+export const IIITDharwadCollegeSeatSectionContent = ""
 
 export const IIITBhagalpurCollegeLocationSectionContent = ""
 export const IIITBhagalpurCollegeRankingSectionContent = ""
-export const IIITBhagalpurCollegeSeatSelectionContent = ""
+export const IIITBhagalpurCollegeSeatSectionContent = ""
 
 export const IIITBhopalCollegeLocationSectionContent = ""
 export const IIITBhopalCollegeRankingSectionContent = ""
-export const IIITBhopalCollegeSeatSelectionContent = ""
+export const IIITBhopalCollegeSeatSectionContent = ""
 
 export const IIITKottayamCollegeLocationSectionContent = ""
 export const IIITKottayamCollegeRankingSectionContent = ""
-export const IIITKottayamCollegeSeatSelectionContent = ""
+export const IIITKottayamCollegeSeatSectionContent = ""
 
 export const IIITRanchiCollegeLocationSectionContent = ""
 export const IIITRanchiCollegeRankingSectionContent = ""
-export const IIITRanchiCollegeSeatSelectionContent = ""
+export const IIITRanchiCollegeSeatSectionContent = ""
 
 export const IIITUnaCollegeLocationSectionContent = ""
 export const IIITUnaCollegeRankingSectionContent = ""
-export const IIITUnaCollegeSeatSelectionContent = ""
+export const IIITUnaCollegeSeatSectionContent = ""
 
 export const IIITSuratCollegeLocationSectionContent = ""
 export const IIITSuratCollegeRankingSectionContent = ""
-export const IIITSuratCollegeSeatSelectionContent = ""
+export const IIITSuratCollegeSeatSectionContent = ""
 
 export const IIITManipurCollegeLocationSectionContent = ""
 export const IIITManipurCollegeRankingSectionContent = ""
-export const IIITManipurCollegeSeatSelectionContent = ""
+export const IIITManipurCollegeSeatSectionContent = ""
 
 export const IIITKurnoolCollegeLocationSectionContent = ""
 export const IIITKurnoolCollegeRankingSectionContent = ""
-export const IIITKurnoolCollegeSeatSelectionContent = ""
+export const IIITKurnoolCollegeSeatSectionContent = ""
 
 export const IIITTiruchirapalliCollegeLocationSectionContent = ""
 export const IIITTiruchirapalliCollegeRankingSectionContent = ""
-export const IIITTiruchirapalliCollegeSeatSelectionContent = ""
+export const IIITTiruchirapalliCollegeSeatSectionContent = ""
 
 export const IIITSonepatCollegeLocationSectionContent = ""
 export const IIITSonepatCollegeRankingSectionContent = ""
-export const IIITSonepatCollegeSeatSelectionContent = ""
+export const IIITSonepatCollegeSeatSectionContent = ""
 
 export const IIITAgartalaCollegeLocationSectionContent = ""
 export const IIITAgartalaCollegeRankingSectionContent = ""
-export const IIITAgartalaCollegeSeatSelectionContent = ""
+export const IIITAgartalaCollegeSeatSectionContent = ""
 
 export const IIITKarnatakaCollegeLocationSectionContent = ""
 export const IIITKarnatakaCollegeRankingSectionContent = ""
-export const IIITKarnatakaCollegeSeatSelectionContent = ""
+export const IIITKarnatakaCollegeSeatSectionContent = ""

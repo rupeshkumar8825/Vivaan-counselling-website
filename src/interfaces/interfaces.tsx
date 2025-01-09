@@ -413,31 +413,69 @@ export interface INITGenericCollegeComponent {
 export interface IIIITGenericCollegeComponent {
     collegeImage : string, 
     collegeName : string, 
-    collegePageNavigationConstants : Array<IIIITCollegeNavigationConstants>, 
+    collegePageNavigationConstants : Array<IIITCollegeNavigationConstants>, 
+
     aboutSectionContent : string, 
     aboutSectionHeadingId : string,
-    aboutSectionHeadingName : string
-    feeSectionContent : string, 
-    feeSectionHeadingId : string, 
-    feeSectionHeadingName : string, 
+    aboutSectionHeadingName : string, 
+    aboutSectionTableContent : Array<string[]>,
+    aboutSectionTableHeading : Array<string>,
+
+    locationSectionContent : string,
+    locationSectionHeadingId : string,
+    locationSectionHeadingName : string,
+    locationSectionTableContent : Array<string[]>,
+    locationSectionTableHeading : Array<string>,
+
+    rankingSectionContent : string,
+    rankingSectionHeadingId : string,
+    rankingSectionHeadingName : string, 
+    rankingSectionTableContent : Array<string[]>,
+    rankingSectionTableHeading : Array<string>,
+
     admissionSectionContent : string,
     admissionSectionHeadingId : string,
     admissionSectionHeadingName : string, 
-    placementSectionContent : string, 
-    placementSectionHeadingId : string,
-    placementSectionHeadingName : string,
-    collegePlacementDataConstant : Array<any>,
-    // contactSectionContent : string, 
-    // contactSectionHeadingId : string,
-    // contactSectionHeadingName : string,
+
     coursesSectionContent : string,
     coursesSectionHeadingId : string,
     coursesSectionHeadingName : string, 
-    collegeCourseDetailConstant : Array<any>
+    coursesSectionTableContent : Array<string[]>,
+    coursesSectionTableHeading : Array<string>,
+
+    feeSectionContent : string, 
+    feeSectionHeadingId : string, 
+    feeSectionHeadingName : string, 
+    feeSectionInstituteFeeTableContent : Array<string[]>,
+    feeSectionInstituteFeeTableHeading : Array<string>,
+    feeSectionHostelFeeTableContent : Array<string[]>,
+    feeSectionHostelFeeTableHeading : Array<string>,
+
+
+    seatSectionContent : string,
+    seatSectionHeadingId : string,
+    seatSectionHeadingName : string,
+    seatSectionTableContent : Array<string[]>,
+    seatSectionTableHeading : Array<string>,
+
 
     cutoffSectionContent : string, 
     cutoffSectionHeadingId : string,
     cutoffSectionHeadingName : string, 
+
+
+    placementSectionContent : string, 
+    placementSectionHeadingId : string,
+    placementSectionHeadingName : string,
+    placementImageList : Array<string>
+
+
+    collegePlacementDataConstant : Array<any>,
+    // contactSectionContent : string, 
+    // contactSectionHeadingId : string,
+    // contactSectionHeadingName : string,
+    // collegeCourseDetailConstant : Array<any>
+
 }
 
 

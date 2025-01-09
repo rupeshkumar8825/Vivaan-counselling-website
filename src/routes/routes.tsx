@@ -871,38 +871,181 @@ import {
     IIITKarnatakaCollegeFeeSectionContent,
     IIITKarnatakaCollegeNavigationConstants,
     IIITKarnatakaCollegePlacementSectionContent,
-    IIITAllahabadCollegeCutOffSectionContent
+    IIITAllahabadCollegeCutOffSectionContent,
+    IIITHyderabadCollegeLocationSectionContent,
+    IIITHyderabadCollegeRankingSectionContent,
+    IIITHyderabadCollegeSeatSectionContent,
+    IIITHyderabadCollegeCutOffSectionContent,
+    IIITGwaliorCollegeLocationSectionContent,
+    IIITGwaliorCollegeRankingSectionContent,
+    IIITGwaliorCollegeSeatSectionContent,
+    IIITGwaliorCollegeCutOffSectionContent,
+
+    IIITBangaloreCollegeLocationSectionContent,
+    IIITBangaloreCollegeRankingSectionContent,
+    IIITBangaloreCollegeSeatSectionContent,
+    IIITBangaloreCollegeCutOffSectionContent,
+    IIITGuwahatiCollegeLocationSectionContent,
+    IIITGuwahatiCollegeRankingSectionContent,
+    IIITGuwahatiCollegeSeatSectionContent,
+    IIITGuwahatiCollegeCutOffSectionContent,
+    IIITJabalpurCollegeLocationSectionContent,
+    IIITJabalpurCollegeRankingSectionContent,
+    IIITJabalpurCollegeSeatSectionContent,
+    IIITJabalpurCollegeCutOffSectionContent,
+    IIITAllahabadCollegeLocationSectionContent,
+    IIITAllahabadCollegeRankingSectionContent,
+    IIITAllahabadCollegeSeatSectionContent,
+    IIITKanchipuramCollegeLocationSectionContent,
+    IIITKanchipuramCollegeRankingSectionContent,
+    IIITKanchipuramCollegeSeatSectionContent,
+    IIITKanchipuramCollegeCutOffSectionContent,
+    IIITBhubaneshwarCollegeLocationSectionContent,
+    IIITBhubaneshwarCollegeRankingSectionContent,
+    IIITBhubaneshwarCollegeSeatSectionContent,
+    IIITBhubaneshwarCollegeCutOffSectionContent,
+    IIITPuneCollegeLocationSectionContent,
+    IIITPuneCollegeRankingSectionContent,
+    IIITPuneCollegeSeatSectionContent,
+    IIITPuneCollegeCutOffSectionContent,
+    IIITKotaCollegeLocationSectionContent,
+    IIITKotaCollegeRankingSectionContent,
+    IIITKotaCollegeSeatSectionContent,
+    IIITKotaCollegeCutOffSectionContent,
+    IIITSriCityCollegeLocationSectionContent,
+    IIITSriCityCollegeRankingSectionContent,
+    IIITSriCityCollegeSeatSectionContent,
+    IIITSriCityCollegeCutOffSectionContent,
+    IIITVadodaraCollegeLocationSectionContent,
+    IIITVadodaraCollegeRankingSectionContent,
+    IIITVadodaraCollegeSeatSectionContent,
+    IIITVadodaraCollegeCutOffSectionContent,
+    IIITNagpurCollegeLocationSectionContent,
+    IIITNagpurCollegeRankingSectionContent,
+    IIITNagpurCollegeSeatSectionContent,
+    IIITNagpurCollegeCutOffSectionContent,
+    IIITKalyaniCollegeLocationSectionContent,
+    IIITKalyaniCollegeRankingSectionContent,
+    IIITKalyaniCollegeSeatSectionContent,
+    IIITKalyaniCollegeCutOffSectionContent,
+    IIITLucknowCollegeLocationSectionContent,
+    IIITLucknowCollegeRankingSectionContent,
+    IIITLucknowCollegeSeatSectionContent,
+    IIITLucknowCollegeCutOffSectionContent,
+    IIITDharwadCollegeLocationSectionContent,
+    IIITDharwadCollegeRankingSectionContent,
+    IIITDharwadCollegeSeatSectionContent,
+    IIITDharwadCollegeCutOffSectionContent,
+    IIITBhagalpurCollegeLocationSectionContent,
+    IIITBhagalpurCollegeRankingSectionContent,
+    IIITBhagalpurCollegeSeatSectionContent,
+    IIITBhagalpurCollegeCutOffSectionContent,
+    IIITBhopalCollegeLocationSectionContent,
+    IIITBhopalCollegeRankingSectionContent,
+    IIITBhopalCollegeSeatSectionContent,
+    IIITBhopalCollegeCutOffSectionContent,
+    IIITKottayamCollegeLocationSectionContent,
+    IIITKottayamCollegeRankingSectionContent,
+    IIITKottayamCollegeSeatSectionContent,
+    IIITKottayamCollegeCutOffSectionContent,
+    IIITRanchiCollegeLocationSectionContent,
+    IIITRanchiCollegeRankingSectionContent,
+    IIITRanchiCollegeSeatSectionContent,
+    IIITRanchiCollegeCutOffSectionContent,
+    IIITUnaCollegeLocationSectionContent,
+    IIITUnaCollegeRankingSectionContent,
+    IIITUnaCollegeSeatSectionContent,
+    IIITUnaCollegeCutOffSectionContent,
+    IIITSuratCollegeLocationSectionContent,
+    IIITSuratCollegeRankingSectionContent,
+    IIITSuratCollegeSeatSectionContent,
+    IIITSuratCollegeCutOffSectionContent,
+    IIITManipurCollegeLocationSectionContent,
+    IIITManipurCollegeRankingSectionContent,
+    IIITManipurCollegeSeatSectionContent,
+    IIITManipurCollegeCutOffSectionContent,
+    IIITKurnoolCollegeLocationSectionContent,
+    IIITKurnoolCollegeRankingSectionContent,
+    IIITKurnoolCollegeSeatSectionContent,
+    IIITKurnoolCollegeCutOffSectionContent,
+    IIITTiruchirapalliCollegeLocationSectionContent,
+    IIITTiruchirapalliCollegeRankingSectionContent,
+    IIITTiruchirapalliCollegeSeatSectionContent,
+    IIITTiruchirapalliCollegeCutOffSectionContent,
+    IIITSonepatCollegeLocationSectionContent,
+    IIITSonepatCollegeRankingSectionContent,
+    IIITSonepatCollegeSeatSectionContent,
+    IIITSonepatCollegeCutOffSectionContent,
+    IIITAgartalaCollegeLocationSectionContent,
+    IIITAgartalaCollegeRankingSectionContent,
+    IIITAgartalaCollegeSeatSectionContent,
+    IIITAgartalaCollegeCutOffSectionContent,
+    IIITKarnatakaCollegeLocationSectionContent,
+    IIITKarnatakaCollegeRankingSectionContent,
+    IIITKarnatakaCollegeSeatSectionContent,
+    IIITKarnatakaCollegeCutOffSectionContent
     
     } from "../constants/college/IIIT/IIITCollegePageNavigationComponentConstant";
+
 import { 
-    IIITHyderabadCoursesDetailsConstants,
-    IIITGwaliorCoursesDetailsConstants,
-    IIITBangaloreCoursesDetailsConstants,
-    IIITGuwahatiCoursesDetailsConstants,
-    IIITJabalpurCoursesDetailsConstants,
-    IIITAllahabadCoursesDetailsConstants,
-    IIITKanchipuramCoursesDetailsConstants,
-    IIITBhubaneshwarCoursesDetailsConstants,
-    IIITPuneCoursesDetailsConstants,
-    IIITKotaCoursesDetailsConstants,
-    IIITSriCityCoursesDetailsConstants,
-    IIITVadodaraCoursesDetailsConstants,
-    IIITNagpurCoursesDetailsConstants,
-    IIITKalyaniCoursesDetailsConstants,
-    IIITLucknowCoursesDetailsConstants,
-    IIITDharwadCoursesDetailsConstants,
-    IIITBhagalpurCoursesDetailsConstants,
-    IIITBhopalCoursesDetailsConstants,
-    IIITKottayamCoursesDetailsConstants,
-    IIITRanchiCoursesDetailsConstants,
-    IIITUnaCoursesDetailsConstants,
-    IIITSuratCoursesDetailsConstants,
-    IIITManipurCoursesDetailsConstants,
-    IIITKurnoolCoursesDetailsConstants,
-    IIITTiruchirapalliCoursesDetailsConstants,
-    IIITSonepatCoursesDetailsConstants,
-    IIITAgartalaCoursesDetailsConstants,
-    IIITKarnatakaCoursesDetailsConstants
+    
+    IIITHyderabadCoursesTableContent,
+    IIITHyderabadCoursesTableHeading,
+
+    IIITGwaliorCoursesTableContent,
+    IIITGwaliorCoursesTableHeading,
+    IIITBangaloreCoursesTableContent,
+    IIITBangaloreCoursesTableHeading,
+    IIITGuwahatiCoursesTableContent,
+    IIITGuwahatiCoursesTableHeading,
+    IIITJabalpurCoursesTableContent,
+    IIITJabalpurCoursesTableHeading,
+    IIITAllahabadCoursesTableContent,
+    IIITAllahabadCoursesTableHeading,
+    IIITKanchipuramCoursesTableContent,
+    IIITKanchipuramCoursesTableHeading,
+    IIITBhubaneswarCoursesTableContent,
+    IIITBhubaneswarCoursesTableHeading,
+    IIITPuneCoursesTableContent,
+    IIITPuneCoursesTableHeading,
+    IIITKotaCoursesTableContent,
+    IIITKotaCoursesTableHeading,
+    IIITSricityCoursesTableContent,
+    IIITSricityCoursesTableHeading,
+    IIITVadodaraCoursesTableContent,
+    IIITVadodaraCoursesTableHeading,
+    IIITNagpurCoursesTableContent,
+    IIITNagpurCoursesTableHeading,
+    IIITKalyaniCoursesTableContent,
+    IIITKalyaniCoursesTableHeading,
+    IIITLucknowCoursesTableContent,
+    IIITLucknowCoursesTableHeading,
+    IIITDharwadCoursesTableContent,
+    IIITDharwadCoursesTableHeading,
+    IIITBhagalpurCoursesTableContent,
+    IIITBhagalpurCoursesTableHeading,
+    IIITBhopalCoursesTableContent,
+    IIITBhopalCoursesTableHeading,
+    IIITKottayamCoursesTableContent,
+    IIITKottayamCoursesTableHeading,
+    IIITRanchiCoursesTableContent,
+    IIITRanchiCoursesTableHeading,
+    IIITUnaCoursesTableContent,
+    IIITUnaCoursesTableHeading,
+    IIITSuratCoursesTableContent,
+    IIITSuratCoursesTableHeading,
+    IIITManipurCoursesTableContent,
+    IIITManipurCoursesTableHeading,
+    IIITKurnoolCoursesTableContent,
+    IIITKurnoolCoursesTableHeading,
+    IIITTiruchirapalliCoursesTableContent,
+    IIITTiruchirapalliCoursesTableHeading,
+    IIITSonepatCoursesTableContent,
+    IIITSonepatCoursesTableHeading,
+    IIITAgartalaCoursesTableContent,
+    IIITAgartalaCoursesTableHeading,
+    IIITKarnatakaCoursesTableContent,
+    IIITKarnatakaCoursesTableHeading
 
  } from "../constants/college/IIIT/IIITCourseDataCollegeConstants";
 import { NITAgaratalaHostelFeesDataTableConstant, NITAgaratalaHostelFeesDataTableHeading, NITAgaratalaInstituteFeesDataTableConstant, NITAgaratalaInstituteFeesDataTableHeading, NITAllahabadHostelFeesDataTableConstant, NITAllahabadHostelFeesDataTableHeading, NITAllahabadInstituteFeesDataTableConstant, NITAllahabadInstituteFeesDataTableHeading, NITAndhraPradeshHostelFeesDataTableConstant, NITAndhraPradeshHostelFeesDataTableHeading, NITAndhraPradeshInstituteFeesDataTableConstant, NITAndhraPradeshInstituteFeesDataTableHeading, NITArunachalPradeshHostelFeesDataTableConstant, NITArunachalPradeshHostelFeesDataTableHeading, NITArunachalPradeshInstituteFeesDataTableConstant, NITArunachalPradeshInstituteFeesDataTableHeading, NITBhopalHostelFeesDataTableConstant, NITBhopalHostelFeesDataTableHeading, NITBhopalInstituteFeesDataTableConstant, NITBhopalInstituteFeesDataTableHeading, NITCalicutHostelFeesDataTableConstant, NITCalicutHostelFeesDataTableHeading, NITCalicutInstituteFeesDataTableHeading, NITDelhiHostelFeesDataTableConstant, NITDelhiHostelFeesDataTableHeading, NITDelhiInstituteFeesDataTableConstant, NITDelhiInstituteFeesDataTableHeading, NITDurgapurHostelFeesDataTableConstant, NITDurgapurHostelFeesDataTableHeading, NITDurgapurInstituteFeesDataTableConstant, NITDurgapurInstituteFeesDataTableHeading, NITGoaHostelFeesDataTableConstant, NITGoaHostelFeesDataTableHeading, NITGoaInstituteFeesDataTableConstant, NITGoaInstituteFeesDataTableHeading, NITHamirpurHostelFeesDataTableConstant, NITHamirpurHostelFeesDataTableHeading, NITHamirpurInstituteFeesDataTableConstant, NITHamirpurInstituteFeesDataTableHeading, NITJaipurHostelFeesDataTableConstant, NITJaipurInstituteFeesDataTableConstant, NITJaipurInstituteFeesDataTableHeading, NITJalandharHostelFeesDataTableConstant, NITJalandharHostelFeesDataTableHeading, NITJalandharInstituteFeesDataTableConstant, NITJalandharInstituteFeesDataTableHeading, NITJamshedpurHostelFeesDataTableConstant, NITJamshedpurHostelFeesDataTableHeading, NITJamshedpurInstituteFeesDataTableConstant, NITJamshedpurInstituteFeesDataTableHeading, NITKarnatakaHostelFeesDataTableConstant, NITKarnatakaHostelFeesDataTableHeading, NITKarnatakaInstituteFeesDataTableConstant, NITKarnatakaInstituteFeesDataTableHeading, NITKurukshetraHostelFeesDataTableConstant, NITKurukshetraHostelFeesDataTableHeading, NITKurukshetraInstituteFeesDataTableConstant, NITKurukshetraInstituteFeesDataTableHeading, NITManipurHostelFeesDataTableConstant, NITManipurHostelFeesDataTableHeading, NITManipurInstituteFeesDataTableConstant, NITManipurInstituteFeesDataTableHeading, NITMeghalayaHostelFeesDataTableConstant, NITMeghalayaHostelFeesDataTableHeading, NITMeghalayaInstituteFeesDataTableConstant, NITMeghalayaInstituteFeesDataTableHeading, NITMizoramHostelFeesDataTableConstant, NITMizoramHostelFeesDataTableHeading, NITMizoramInstituteFeesDataTableConstant, NITMizoramInstituteFeesDataTableHeading, NITNagalandHostelFeesDataTableConstant, NITNagalandHostelFeesDataTableHeading, NITNagalandInstituteFeesDataTableConstant, NITNagalandInstituteFeesDataTableHeading, NITNagpurHostelFeesDataTableConstant, NITNagpurHostelFeesDataTableHeading, NITNagpurInstituteFeesDataTableConstant, NITNagpurInstituteFeesDataTableHeading, NITPatnaHostelFeesDataTableConstant, NITPatnaHostelFeesDataTableHeading, NITPatnaInstituteFeesDataTableConstant, NITPatnaInstituteFeesDataTableHeading, NITPuducherryHostelFeesDataTableConstant, NITPuducherryHostelFeesDataTableHeading, NITPuducherryInstituteFeesDataTableConstant, NITPuducherryInstituteFeesDataTableHeading, NITRaipurHostelFeesDataTableConstant, NITRaipurHostelFeesDataTableHeading, NITRaipurInstituteFeesDataTableConstant, NITRaipurInstituteFeesDataTableHeading, NITRourkelaHostelFeesDataTableConstant, NITRourkelaHostelFeesDataTableHeading, NITRourkelaInstituteFeesDataTableConstant, NITRourkelaInstituteFeesDataTableHeading, NITShibpurHostelFeesDataTableConstant, NITShibpurHostelFeesDataTableHeading, NITShibpurInstituteFeesDataTableConstant, NITShibpurInstituteFeesDataTableHeading, NITSikkimHostelFeesDataTableConstant, NITSikkimHostelFeesDataTableHeading, NITSikkimInstituteFeesDataTableConstant, NITSikkimInstituteFeesDataTableHeading, NITSilcharHostelFeesDataTableConstant, NITSilcharHostelFeesDataTableHeading, NITSilcharInstituteFeesDataTableConstant, NITSilcharInstituteFeesDataTableHeading, NITSrinagarHostelFeesDataTableConstant, NITSrinagarHostelFeesDataTableHeading, NITSrinagarInstituteFeesDataTableConstant, NITSrinagarInstituteFeesDataTableHeading, NITSuratHostelFeesDataTableConstant, NITSuratHostelFeesDataTableHeading, NITSuratInstituteFeesDataTableConstant, NITSuratInstituteFeesDataTableHeading, NITTiruchirapalliHostelFeesDataTableConstant, NITTiruchirapalliHostelFeesDataTableHeading, NITTiruchirapalliInstituteFeesDataTableConstant, NITTiruchirapalliInstituteFeesDataTableHeading, NITUttarakhandHostelFeesDataTableConstant, NITUttarakhandHostelFeesDataTableHeading, NITUttarakhandInstituteFeesDataTableConstant, NITUttarakhandInstituteFeesDataTableHeading, NITWarangalHostelFeesDataTableConstant, NITWarangalHostelFeesDataTableHeading, NITWarangalInstituteFeesDataTableConstant, NITWarangalInstituteFeesDataTableHeading } from "../constants/college/NIT/NITFeesDataCollegeConstant";
@@ -1200,6 +1343,384 @@ import {
     IITTirupatiSeatDataTableHeading
 
 } from "../constants/college/IIT/IITSeatDataCollegeConstant";
+import { 
+    IIITGwaliorAboutDataTableConstant,
+    IIITGwaliorAboutDataTableHeading,
+    IIITHyderabadAboutDataTableConstant,
+    IIITHyderabadAboutDataTableHeading,
+    IIITBangaloreAboutDataTableConstant,
+    IIITBangaloreAboutDataTableHeading,
+    IIITGuwahatiAboutDataTableConstant,
+    IIITGuwahatiAboutDataTableHeading,
+    IIITJabalpurAboutDataTableConstant,
+    IIITJabalpurAboutDataTableHeading,
+    IIITAllahabadAboutDataTableConstant,
+    IIITAllahabadAboutDataTableHeading,
+    IIITKanchipuramAboutDataTableConstant,
+    IIITKanchipuramAboutDataTableHeading,
+    IIITBhubaneswarAboutDataTableConstant,
+    IIITBhubaneswarAboutDataTableHeading,
+    IIITPuneAboutDataTableConstant,
+    IIITPuneAboutDataTableHeading,
+    IIITKotaAboutDataTableConstant,
+    IIITKotaAboutDataTableHeading,
+    IIITSricityAboutDataTableConstant,
+    IIITSricityAboutDataTableHeading,
+    IIITVadodaraAboutDataTableConstant,
+    IIITVadodaraAboutDataTableHeading,
+    IIITNagpurAboutDataTableConstant,
+    IIITNagpurAboutDataTableHeading,
+    IIITKalyaniAboutDataTableConstant,
+    IIITKalyaniAboutDataTableHeading,
+    IIITLucknowAboutDataTableConstant,
+    IIITLucknowAboutDataTableHeading,
+    IIITDharwadAboutDataTableConstant,
+    IIITDharwadAboutDataTableHeading,
+    IIITBhagalpurAboutDataTableConstant,
+    IIITBhagalpurAboutDataTableHeading,
+    IIITBhopalAboutDataTableConstant,
+    IIITBhopalAboutDataTableHeading,
+    IIITKottayamAboutDataTableConstant,
+    IIITKottayamAboutDataTableHeading,
+    IIITRanchiAboutDataTableConstant,
+    IIITRanchiAboutDataTableHeading,
+    IIITUnaAboutDataTableConstant,
+    IIITUnaAboutDataTableHeading,
+    IIITSuratAboutDataTableConstant,
+    IIITSuratAboutDataTableHeading,
+    IIITManipurAboutDataTableConstant,
+    IIITManipurAboutDataTableHeading,
+    IIITKurnoolAboutDataTableConstant,
+    IIITKurnoolAboutDataTableHeading,
+    IIITTiruchirapalliAboutDataTableConstant,
+    IIITTiruchirapalliAboutDataTableHeading,
+    IIITSonepatAboutDataTableConstant,
+    IIITSonepatAboutDataTableHeading,
+    IIITAgartalaAboutDataTableConstant,
+    IIITAgartalaAboutDataTableHeading,
+    IIITKarnatakaAboutDataTableConstant,
+    IIITKarnatakaAboutDataTableHeading
+    
+    } from "../constants/college/IIIT/IIITAboutDataCollegeConstant";
+import { 
+    IIITGwaliorLocationDataTableConstant,
+    IIITGwaliorLocationDataTableHeading,
+    IIITHyderabadLocationDataTableConstant,
+    IIITHyderabadLocationDataTableHeading,
+    IIITBangaloreLocationDataTableConstant,
+    IIITBangaloreLocationDataTableHeading,
+    IIITGuwahatiLocationDataTableConstant,
+    IIITGuwahatiLocationDataTableHeading,
+    IIITJabalpurLocationDataTableConstant,
+    IIITJabalpurLocationDataTableHeading,
+    IIITAllahabadLocationDataTableConstant,
+    IIITAllahabadLocationDataTableHeading,
+    IIITKanchipuramLocationDataTableConstant,
+    IIITKanchipuramLocationDataTableHeading,
+    IIITBhubaneswarLocationDataTableConstant,
+    IIITBhubaneswarLocationDataTableHeading,
+    IIITPuneLocationDataTableConstant,
+    IIITPuneLocationDataTableHeading,
+    IIITKotaLocationDataTableConstant,
+    IIITKotaLocationDataTableHeading,
+    IIITSricityLocationDataTableConstant,
+    IIITSricityLocationDataTableHeading,
+    IIITVadodaraLocationDataTableConstant,
+    IIITVadodaraLocationDataTableHeading,
+    IIITNagpurLocationDataTableConstant,
+    IIITNagpurLocationDataTableHeading,
+    IIITKalyaniLocationDataTableConstant,
+    IIITKalyaniLocationDataTableHeading,
+    IIITLucknowLocationDataTableConstant,
+    IIITLucknowLocationDataTableHeading,
+    IIITDharwadLocationDataTableConstant,
+    IIITDharwadLocationDataTableHeading,
+    IIITBhagalpurLocationDataTableConstant,
+    IIITBhagalpurLocationDataTableHeading,
+    IIITBhopalLocationDataTableConstant,
+    IIITBhopalLocationDataTableHeading,
+    IIITKottayamLocationDataTableConstant,
+    IIITKottayamLocationDataTableHeading,
+    IIITRanchiLocationDataTableConstant,
+    IIITRanchiLocationDataTableHeading,
+    IIITUnaLocationDataTableConstant,
+    IIITUnaLocationDataTableHeading,
+    IIITSuratLocationDataTableConstant,
+    IIITSuratLocationDataTableHeading,
+    IIITManipurLocationDataTableConstant,
+    IIITManipurLocationDataTableHeading,
+    IIITKurnoolLocationDataTableConstant,
+    IIITKurnoolLocationDataTableHeading,
+    IIITTiruchirapalliLocationDataTableConstant,
+    IIITTiruchirapalliLocationDataTableHeading,
+    IIITSonepatLocationDataTableConstant,
+    IIITSonepatLocationDataTableHeading,
+    IIITAgartalaLocationDataTableConstant,
+    IIITAgartalaLocationDataTableHeading,
+    IIITKarnatakaLocationDataTableConstant,
+    IIITKarnatakaLocationDataTableHeading
+ } from "../constants/college/IIIT/IIITLocationDataCollegeConstant";
+import { 
+    IIITGwaliorRankingDataTableConstant,
+    IIITGwaliorRankingDataTableHeading,
+    IIITHyderabadRankingDataTableConstant,
+    IIITHyderabadRankingDataTableHeading,
+    IIITBangaloreRankingDataTableConstant,
+    IIITBangaloreRankingDataTableHeading,
+    IIITGuwahatiRankingDataTableConstant,
+    IIITGuwahatiRankingDataTableHeading,
+    IIITJabalpurRankingDataTableConstant,
+    IIITJabalpurRankingDataTableHeading,
+    IIITAllahabadRankingDataTableConstant,
+    IIITAllahabadRankingDataTableHeading,
+    IIITKanchipuramRankingDataTableConstant,
+    IIITKanchipuramRankingDataTableHeading,
+    IIITBhubaneswarRankingDataTableConstant,
+    IIITBhubaneswarRankingDataTableHeading,
+    IIITPuneRankingDataTableConstant,
+    IIITPuneRankingDataTableHeading,
+    IIITKotaRankingDataTableConstant,
+    IIITKotaRankingDataTableHeading,
+    IIITSricityRankingDataTableConstant,
+    IIITSricityRankingDataTableHeading,
+    IIITVadodaraRankingDataTableConstant,
+    IIITVadodaraRankingDataTableHeading,
+    IIITNagpurRankingDataTableConstant,
+    IIITNagpurRankingDataTableHeading,
+    IIITKalyaniRankingDataTableConstant,
+    IIITKalyaniRankingDataTableHeading,
+    IIITLucknowRankingDataTableConstant,
+    IIITLucknowRankingDataTableHeading,
+    IIITDharwadRankingDataTableConstant,
+    IIITDharwadRankingDataTableHeading,
+    IIITBhagalpurRankingDataTableConstant,
+    IIITBhagalpurRankingDataTableHeading,
+    IIITBhopalRankingDataTableConstant,
+    IIITBhopalRankingDataTableHeading,
+    IIITKottayamRankingDataTableConstant,
+    IIITKottayamRankingDataTableHeading,
+    IIITRanchiRankingDataTableConstant,
+    IIITRanchiRankingDataTableHeading,
+    IIITUnaRankingDataTableConstant,
+    IIITUnaRankingDataTableHeading,
+    IIITSuratRankingDataTableConstant,
+    IIITSuratRankingDataTableHeading,
+    IIITManipurRankingDataTableConstant,
+    IIITManipurRankingDataTableHeading,
+    IIITKurnoolRankingDataTableConstant,
+    IIITKurnoolRankingDataTableHeading,
+    IIITTiruchirapalliRankingDataTableConstant,
+    IIITTiruchirapalliRankingDataTableHeading,
+    IIITSonepatRankingDataTableConstant,
+    IIITSonepatRankingDataTableHeading,
+    IIITAgartalaRankingDataTableConstant,
+    IIITAgartalaRankingDataTableHeading,
+    IIITKarnatakaRankingDataTableConstant,
+    IIITKarnatakaRankingDataTableHeading
+ } from "../constants/college/IIIT/IIITRankingDataCollegeConstant";
+import { 
+    IIITGwaliorHostelFeesDataTableConstant,
+    IIITGwaliorHostelFeesDataTableHeading,
+    IIITGwaliorInstituteFeesDataTableConstant,
+    IIITGwaliorInstituteFeesDataTableHeading,
+    IIITHyderabadHostelFeesDataTableConstant,
+    IIITHyderabadHostelFeesDataTableHeading,
+    IIITHyderabadInstituteFeesDataTableConstant,
+    IIITHyderabadInstituteFeesDataTableHeading ,
+
+    IIITBangaloreHostelFeesDataTableConstant,
+    IIITBangaloreHostelFeesDataTableHeading,
+    IIITBangaloreInstituteFeesDataTableConstant,
+    IIITBangaloreInstituteFeesDataTableHeading,
+    IIITGuwahatiHostelFeesDataTableConstant,
+    IIITGuwahatiHostelFeesDataTableHeading,
+    IIITGuwahatiInstituteFeesDataTableConstant,
+    IIITGuwahatiInstituteFeesDataTableHeading,
+    IIITJabalpurHostelFeesDataTableConstant,
+    IIITJabalpurHostelFeesDataTableHeading,
+    IIITJabalpurInstituteFeesDataTableConstant,
+    IIITJabalpurInstituteFeesDataTableHeading,
+    IIITAllahabadHostelFeesDataTableConstant,
+    IIITAllahabadHostelFeesDataTableHeading,
+    IIITAllahabadInstituteFeesDataTableConstant,
+    IIITAllahabadInstituteFeesDataTableHeading,
+    IIITKanchipuramHostelFeesDataTableConstant,
+    IIITKanchipuramHostelFeesDataTableHeading,
+    IIITKanchipuramInstituteFeesDataTableConstant,
+    IIITKanchipuramInstituteFeesDataTableHeading,
+    IIITBhubaneswarHostelFeesDataTableConstant,
+    IIITBhubaneswarHostelFeesDataTableHeading,
+    IIITBhubaneswarInstituteFeesDataTableConstant,
+    IIITBhubaneswarInstituteFeesDataTableHeading,
+    IIITPuneHostelFeesDataTableConstant,
+    IIITPuneHostelFeesDataTableHeading,
+    IIITPuneInstituteFeesDataTableConstant,
+    IIITPuneInstituteFeesDataTableHeading,
+    IIITKotaHostelFeesDataTableConstant,
+    IIITKotaHostelFeesDataTableHeading,
+    IIITKotaInstituteFeesDataTableConstant,
+    IIITKotaInstituteFeesDataTableHeading,
+    IIITSricityHostelFeesDataTableConstant,
+    IIITSricityHostelFeesDataTableHeading,
+    IIITSricityInstituteFeesDataTableConstant,
+    IIITSricityInstituteFeesDataTableHeading,
+    IIITVadodaraHostelFeesDataTableConstant,
+    IIITVadodaraHostelFeesDataTableHeading,
+    IIITVadodaraInstituteFeesDataTableConstant,
+    IIITVadodaraInstituteFeesDataTableHeading,
+    IIITNagpurHostelFeesDataTableConstant,
+    IIITNagpurHostelFeesDataTableHeading,
+    IIITNagpurInstituteFeesDataTableConstant,
+    IIITNagpurInstituteFeesDataTableHeading,
+    IIITKalyaniHostelFeesDataTableConstant,
+    IIITKalyaniHostelFeesDataTableHeading,
+    IIITKalyaniInstituteFeesDataTableConstant,
+    IIITKalyaniInstituteFeesDataTableHeading,
+    IIITLucknowHostelFeesDataTableConstant,
+    IIITLucknowHostelFeesDataTableHeading,
+    IIITLucknowInstituteFeesDataTableConstant,
+    IIITLucknowInstituteFeesDataTableHeading,
+    IIITDharwadHostelFeesDataTableConstant,
+    IIITDharwadHostelFeesDataTableHeading,
+    IIITDharwadInstituteFeesDataTableConstant,
+    IIITDharwadInstituteFeesDataTableHeading,
+    IIITBhagalpurHostelFeesDataTableConstant,
+    IIITBhagalpurHostelFeesDataTableHeading,
+    IIITBhagalpurInstituteFeesDataTableConstant,
+    IIITBhagalpurInstituteFeesDataTableHeading,
+    IIITBhopalHostelFeesDataTableConstant,
+    IIITBhopalHostelFeesDataTableHeading,
+    IIITBhopalInstituteFeesDataTableConstant,
+    IIITBhopalInstituteFeesDataTableHeading,
+    IIITKottayamHostelFeesDataTableConstant,
+    IIITKottayamHostelFeesDataTableHeading,
+    IIITKottayamInstituteFeesDataTableConstant,
+    IIITKottayamInstituteFeesDataTableHeading,
+    IIITRanchiHostelFeesDataTableConstant,
+    IIITRanchiHostelFeesDataTableHeading,
+    IIITRanchiInstituteFeesDataTableConstant,
+    IIITRanchiInstituteFeesDataTableHeading,
+    IIITUnaHostelFeesDataTableConstant,
+    IIITUnaHostelFeesDataTableHeading,
+    IIITUnaInstituteFeesDataTableConstant,
+    IIITUnaInstituteFeesDataTableHeading,
+    IIITSuratHostelFeesDataTableConstant,
+    IIITSuratHostelFeesDataTableHeading,
+    IIITSuratInstituteFeesDataTableConstant,
+    IIITSuratInstituteFeesDataTableHeading,
+    IIITManipurHostelFeesDataTableConstant,
+    IIITManipurHostelFeesDataTableHeading,
+    IIITManipurInstituteFeesDataTableConstant,
+    IIITManipurInstituteFeesDataTableHeading,
+    IIITKurnoolHostelFeesDataTableConstant,
+    IIITKurnoolHostelFeesDataTableHeading,
+    IIITKurnoolInstituteFeesDataTableConstant,
+    IIITKurnoolInstituteFeesDataTableHeading,
+    IIITTiruchirapalliHostelFeesDataTableConstant,
+    IIITTiruchirapalliHostelFeesDataTableHeading,
+    IIITTiruchirapalliInstituteFeesDataTableConstant,
+    IIITTiruchirapalliInstituteFeesDataTableHeading,
+    IIITSonepatHostelFeesDataTableConstant,
+    IIITSonepatHostelFeesDataTableHeading,
+    IIITSonepatInstituteFeesDataTableConstant,
+    IIITSonepatInstituteFeesDataTableHeading,
+    IIITAgartalaHostelFeesDataTableConstant,
+    IIITAgartalaHostelFeesDataTableHeading,
+    IIITAgartalaInstituteFeesDataTableConstant,
+    IIITAgartalaInstituteFeesDataTableHeading,
+    IIITKarnatakaHostelFeesDataTableConstant,
+    IIITKarnatakaHostelFeesDataTableHeading,
+    IIITKarnatakaInstituteFeesDataTableConstant,
+    IIITKarnatakaInstituteFeesDataTableHeading
+} from "../constants/college/IIIT/IIITFeesDataCollegeConstant";
+import { 
+    IIITGwaliorSeatDataTableConstant,
+    IIITGwaliorSeatDataTableHeading,
+    IIITHyderabadSeatDataTableConstant,
+    IIITHyderabadSeatDataTableHeading,
+    IIITBangaloreSeatDataTableConstant,
+    IIITBangaloreSeatDataTableHeading,
+    IIITGuwahatiSeatDataTableConstant,
+    IIITGuwahatiSeatDataTableHeading,
+    IIITJabalpurSeatDataTableConstant,
+    IIITJabalpurSeatDataTableHeading,
+    IIITAllahabadSeatDataTableConstant,
+    IIITAllahabadSeatDataTableHeading,
+    IIITKanchipuramSeatDataTableConstant,
+    IIITKanchipuramSeatDataTableHeading,
+    IIITBhubaneswarSeatDataTableConstant,
+    IIITBhubaneswarSeatDataTableHeading,
+    IIITPuneSeatDataTableConstant,
+    IIITPuneSeatDataTableHeading,
+    IIITKotaSeatDataTableConstant,
+    IIITKotaSeatDataTableHeading,
+    IIITSricitySeatDataTableConstant,
+    IIITSricitySeatDataTableHeading,
+    IIITVadodaraSeatDataTableConstant,
+    IIITVadodaraSeatDataTableHeading,
+    IIITNagpurSeatDataTableConstant,
+    IIITNagpurSeatDataTableHeading,
+    IIITKalyaniSeatDataTableConstant,
+    IIITKalyaniSeatDataTableHeading,
+    IIITLucknowSeatDataTableConstant,
+    IIITLucknowSeatDataTableHeading,
+    IIITDharwadSeatDataTableConstant,
+    IIITDharwadSeatDataTableHeading,
+    IIITBhagalpurSeatDataTableConstant,
+    IIITBhagalpurSeatDataTableHeading,
+    IIITBhopalSeatDataTableConstant,
+    IIITBhopalSeatDataTableHeading,
+    IIITKottayamSeatDataTableConstant,
+    IIITKottayamSeatDataTableHeading,
+    IIITRanchiSeatDataTableConstant,
+    IIITRanchiSeatDataTableHeading,
+    IIITUnaSeatDataTableConstant,
+    IIITUnaSeatDataTableHeading,
+    IIITSuratSeatDataTableConstant,
+    IIITSuratSeatDataTableHeading,
+    IIITManipurSeatDataTableConstant,
+    IIITManipurSeatDataTableHeading,
+    IIITKurnoolSeatDataTableConstant,
+    IIITKurnoolSeatDataTableHeading,
+    IIITTiruchirapalliSeatDataTableConstant,
+    IIITTiruchirapalliSeatDataTableHeading,
+    IIITSonepatSeatDataTableConstant,
+    IIITSonepatSeatDataTableHeading,
+    IIITAgartalaSeatDataTableConstant,
+    IIITAgartalaSeatDataTableHeading,
+    IIITKarnatakaSeatDataTableConstant,
+    IIITKarnatakaSeatDataTableHeading
+ } from "../constants/college/IIIT/IIITSeatDataCollegeConstant";
+import { 
+    IIITGwaliorPlacementImageList, 
+    IIITHyderabadPlacementImageList ,
+    IIITBangalorePlacementImageList,
+    IIITGuwahatiPlacementImageList,
+    IIITJabalpurPlacementImageList,
+    IIITAllahabadPlacementImageList,
+    IIITKancipuramPlacementImageList,
+    IIITBhubaneswarPlacementImageList,
+    IIITPunePlacementImageList,
+    IIITKotaPlacementImageList,
+    IIITSricityPlacementImageList,
+    IIITVadodaraPlacementImageList,
+    IIITNagpurPlacementImageList,
+    IIITKalyaniPlacementImageList,
+    IIITLucknowPlacementImageList,
+    IIITDharwadPlacementImageList,
+    IIITBhagalpurPlacementImageList,
+    IIITBhopalPlacementImageList,
+    IIITKottayamPlacementImageList,
+    IIITRanchiPlacementImageList,
+    IIITUnaPlacementImageList,
+    IIITSuratPlacementImageList,
+    IIITManipurPlacementImageList,
+    IIITKurnoolPlacementImageList,
+    IIITTiruchirapalliPlacementImageList,
+    IIITSonepatPlacementImageList,
+    IIITAgartalaPlacementImageList,
+    IIITKarnatakaPlacementImageList
+} from "../constants/college/IIIT/IIITPlacementDataCollegeConstant";
 
 const routes = [
     //authentication related routes
@@ -2263,314 +2784,427 @@ const routes = [
     // routes for pages of all IIITs comes here
     {
         path : "/college/iiit/iiit-hyderabad",
-        component : <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Andhra Pradesh" 
+        component : <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Shibpur" 
         collegePageNavigationConstants={IIITHyderabadCollegeNavigationConstants} 
-        aboutSectionContent={IIITHyderabadCollegeAboutSectionContent} aboutSectionHeadingId={IIITHyderabadCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITHyderabadCollegeNavigationConstants[0].title} 
-        feeSectionContent={IIITHyderabadCollegeFeeSectionContent} feeSectionHeadingId={IIITHyderabadCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IIITHyderabadCollegeNavigationConstants[1].title}
-        coursesSectionContent={IIITHyderabadCollegeCoursesSectionContent} coursesSectionHeadingId={IIITHyderabadCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={IIITHyderabadCollegeNavigationConstants[5].title} collegeCourseDetailConstant={IIITHyderabadCoursesDetailsConstants}
-        admissionSectionContent={IIITHyderabadCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITHyderabadCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={IIITHyderabadCollegeNavigationConstants[6].title}
-        placementSectionContent={IIITHyderabadCollegePlacementSectionContent} placementSectionHeadingId={IIITHyderabadCollegeNavigationConstants[2].headingId} placementSectionHeadingName={IIITHyderabadCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-        cutoffSectionContent={IIITAllahabadCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITHyderabadCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITHyderabadCollegeNavigationConstants[7].title}></IIITGenericCollegePage>
-    }, 
-    {
-        path : "/college/iiit/iiit-gwalior",
-        component : <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Gwalior" 
-        collegePageNavigationConstants={IIITGwaliorCollegeNavigationConstants} 
-        aboutSectionContent={IIITGwaliorCollegeAboutSectionContent} aboutSectionHeadingId={IIITGwaliorCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITGwaliorCollegeNavigationConstants[0].title} 
-        feeSectionContent={IIITGwaliorCollegeFeeSectionContent} feeSectionHeadingId={IIITGwaliorCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IIITGwaliorCollegeNavigationConstants[1].title}
-        coursesSectionContent={IIITGwaliorCollegeCoursesSectionContent} coursesSectionHeadingId={IIITGwaliorCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={IIITGwaliorCollegeNavigationConstants[5].title} collegeCourseDetailConstant={IIITGwaliorCoursesDetailsConstants}
-        admissionSectionContent={IIITGwaliorCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITGwaliorCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={IIITGwaliorCollegeNavigationConstants[6].title}
-        placementSectionContent={IIITGwaliorCollegePlacementSectionContent} placementSectionHeadingId={IIITGwaliorCollegeNavigationConstants[2].headingId} placementSectionHeadingName={IIITGwaliorCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-        cutoffSectionContent={IIITAllahabadCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITGwaliorCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITGwaliorCollegeNavigationConstants[7].title}></IIITGenericCollegePage>
+        aboutSectionContent={IIITHyderabadCollegeAboutSectionContent} aboutSectionHeadingId={IIITHyderabadCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITHyderabadCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITHyderabadAboutDataTableConstant} aboutSectionTableHeading={IIITHyderabadAboutDataTableHeading}
+        locationSectionContent={IIITHyderabadCollegeLocationSectionContent} locationSectionHeadingId={IIITHyderabadCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITHyderabadCollegeNavigationConstants[1].title} locationSectionTableContent={IIITHyderabadLocationDataTableConstant} locationSectionTableHeading={IIITHyderabadLocationDataTableHeading}
+        rankingSectionContent={IIITHyderabadCollegeRankingSectionContent} rankingSectionHeadingId={IIITHyderabadCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={IIITHyderabadCollegeNavigationConstants[2].title} rankingSectionTableContent={IIITHyderabadRankingDataTableConstant} rankingSectionTableHeading={IIITHyderabadRankingDataTableHeading}
+        admissionSectionContent={IIITHyderabadCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITHyderabadCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={IIITHyderabadCollegeNavigationConstants[3].title}
+        coursesSectionContent={IIITHyderabadCollegeCoursesSectionContent} coursesSectionHeadingId={IIITHyderabadCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={IIITHyderabadCollegeNavigationConstants[4].title} coursesSectionTableContent={IIITHyderabadCoursesTableContent} coursesSectionTableHeading={IIITHyderabadCoursesTableHeading}
+        feeSectionContent={IIITHyderabadCollegeFeeSectionContent} feeSectionHeadingId={IIITHyderabadCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IIITHyderabadCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IIITHyderabadInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IIITHyderabadInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IIITHyderabadHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IIITHyderabadHostelFeesDataTableHeading}
+        seatSectionContent={IIITHyderabadCollegeSeatSectionContent} seatSectionHeadingId={IIITHyderabadCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IIITHyderabadCollegeNavigationConstants[6].title} seatSectionTableContent={IIITHyderabadSeatDataTableConstant} seatSectionTableHeading={IIITHyderabadSeatDataTableHeading}
+        cutoffSectionContent={IIITHyderabadCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITHyderabadCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITHyderabadCollegeNavigationConstants[7].title}
+        placementSectionContent={IIITHyderabadCollegePlacementSectionContent} placementSectionHeadingId={IIITHyderabadCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IIITHyderabadCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IIITHyderabadPlacementImageList}>
+        </IIITGenericCollegePage>
     },
     {
-        path : "/college/iiit/iiit-bangalore",
-        component : <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Bangalore" 
-        collegePageNavigationConstants={IIITBangaloreCollegeNavigationConstants} 
-        aboutSectionContent={IIITBangaloreCollegeAboutSectionContent} aboutSectionHeadingId={IIITBangaloreCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITBangaloreCollegeNavigationConstants[0].title} 
-        feeSectionContent={IIITBangaloreCollegeFeeSectionContent} feeSectionHeadingId={IIITBangaloreCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IIITBangaloreCollegeNavigationConstants[1].title}
-        coursesSectionContent={IIITBangaloreCollegeCoursesSectionContent} coursesSectionHeadingId={IIITBangaloreCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={IIITBangaloreCollegeNavigationConstants[5].title} collegeCourseDetailConstant={IIITBangaloreCoursesDetailsConstants}
-        admissionSectionContent={IIITBangaloreCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITBangaloreCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={IIITBangaloreCollegeNavigationConstants[6].title}
-        placementSectionContent={IIITBangaloreCollegePlacementSectionContent} placementSectionHeadingId={IIITBangaloreCollegeNavigationConstants[2].headingId} placementSectionHeadingName={IIITBangaloreCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-        cutoffSectionContent={IIITAllahabadCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITBangaloreCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITBangaloreCollegeNavigationConstants[7].title}></IIITGenericCollegePage>
+        path: "/college/iiit/iiit-gwalior",
+        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Gwalior"
+            collegePageNavigationConstants={IIITGwaliorCollegeNavigationConstants}
+            aboutSectionContent={IIITGwaliorCollegeAboutSectionContent} aboutSectionHeadingId={IIITGwaliorCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITGwaliorCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITGwaliorAboutDataTableConstant} aboutSectionTableHeading={IIITGwaliorAboutDataTableHeading}
+            locationSectionContent={IIITGwaliorCollegeLocationSectionContent} locationSectionHeadingId={IIITGwaliorCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITGwaliorCollegeNavigationConstants[1].title} locationSectionTableContent={IIITGwaliorLocationDataTableConstant} locationSectionTableHeading={IIITGwaliorLocationDataTableHeading}
+            rankingSectionContent={IIITGwaliorCollegeRankingSectionContent} rankingSectionHeadingId={IIITGwaliorCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={IIITGwaliorCollegeNavigationConstants[2].title} rankingSectionTableContent={IIITGwaliorRankingDataTableConstant} rankingSectionTableHeading={IIITGwaliorRankingDataTableHeading}
+            admissionSectionContent={IIITGwaliorCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITGwaliorCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={IIITGwaliorCollegeNavigationConstants[3].title}
+            coursesSectionContent={IIITGwaliorCollegeCoursesSectionContent} coursesSectionHeadingId={IIITGwaliorCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={IIITGwaliorCollegeNavigationConstants[4].title} coursesSectionTableContent={IIITGwaliorCoursesTableContent} coursesSectionTableHeading={IIITGwaliorCoursesTableHeading}
+            feeSectionContent={IIITGwaliorCollegeFeeSectionContent} feeSectionHeadingId={IIITGwaliorCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IIITGwaliorCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IIITGwaliorInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IIITGwaliorInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IIITGwaliorHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IIITGwaliorHostelFeesDataTableHeading}
+            seatSectionContent={IIITGwaliorCollegeSeatSectionContent} seatSectionHeadingId={IIITGwaliorCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IIITGwaliorCollegeNavigationConstants[6].title} seatSectionTableContent={IIITGwaliorSeatDataTableConstant} seatSectionTableHeading={IIITGwaliorSeatDataTableHeading}
+            cutoffSectionContent={IIITGwaliorCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITGwaliorCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITGwaliorCollegeNavigationConstants[7].title}
+            placementSectionContent={IIITGwaliorCollegePlacementSectionContent} placementSectionHeadingId={IIITGwaliorCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IIITGwaliorCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IIITGwaliorPlacementImageList}>
+        </IIITGenericCollegePage>
     },
-    {
-        path : "/college/iiit/iiit-guwahati",
-        component : <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Guwahati" 
-        collegePageNavigationConstants={IIITGuwahatiCollegeNavigationConstants} 
-        aboutSectionContent={IIITGuwahatiCollegeAboutSectionContent} aboutSectionHeadingId={IIITGuwahatiCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITGuwahatiCollegeNavigationConstants[0].title} 
-        feeSectionContent={IIITGuwahatiCollegeFeeSectionContent} feeSectionHeadingId={IIITGuwahatiCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IIITGuwahatiCollegeNavigationConstants[1].title}
-        coursesSectionContent={IIITGuwahatiCollegeCoursesSectionContent} coursesSectionHeadingId={IIITGuwahatiCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={IIITGuwahatiCollegeNavigationConstants[5].title} collegeCourseDetailConstant={IIITGuwahatiCoursesDetailsConstants}
-        admissionSectionContent={IIITGuwahatiCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITGuwahatiCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={IIITGuwahatiCollegeNavigationConstants[6].title}
-        placementSectionContent={IIITGuwahatiCollegePlacementSectionContent} placementSectionHeadingId={IIITGuwahatiCollegeNavigationConstants[2].headingId} placementSectionHeadingName={IIITGuwahatiCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-        cutoffSectionContent={IIITAllahabadCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITGuwahatiCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITGuwahatiCollegeNavigationConstants[7].title}></IIITGenericCollegePage>
-    },
-    {
-        path : "/college/iiit/iiit-jabalpur",
-        component : <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Jabalpur" 
-        collegePageNavigationConstants={IIITJabalpurCollegeNavigationConstants} 
-        aboutSectionContent={IIITJabalpurCollegeAboutSectionContent} aboutSectionHeadingId={IIITJabalpurCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITJabalpurCollegeNavigationConstants[0].title} 
-        feeSectionContent={IIITJabalpurCollegeFeeSectionContent} feeSectionHeadingId={IIITJabalpurCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IIITJabalpurCollegeNavigationConstants[1].title}
-        coursesSectionContent={IIITJabalpurCollegeCoursesSectionContent} coursesSectionHeadingId={IIITJabalpurCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={IIITJabalpurCollegeNavigationConstants[5].title} collegeCourseDetailConstant={IIITJabalpurCoursesDetailsConstants}
-        admissionSectionContent={IIITJabalpurCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITJabalpurCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={IIITJabalpurCollegeNavigationConstants[6].title}
-        placementSectionContent={IIITJabalpurCollegePlacementSectionContent} placementSectionHeadingId={IIITJabalpurCollegeNavigationConstants[2].headingId} placementSectionHeadingName={IIITJabalpurCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-        cutoffSectionContent={IIITAllahabadCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITJabalpurCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITJabalpurCollegeNavigationConstants[7].title}></IIITGenericCollegePage>
-    },
-    {
-        path : "/college/iiit/iiit-allahabad",
-        component : <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Allahabad" 
-        collegePageNavigationConstants={IIITAllahabadCollegeNavigationConstants} 
-        aboutSectionContent={IIITAllahabadCollegeAboutSectionContent} aboutSectionHeadingId={IIITAllahabadCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITAllahabadCollegeNavigationConstants[0].title} 
-        feeSectionContent={IIITAllahabadCollegeFeeSectionContent} feeSectionHeadingId={IIITAllahabadCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IIITAllahabadCollegeNavigationConstants[1].title}
-        coursesSectionContent={IIITAllahabadCollegeCoursesSectionContent} coursesSectionHeadingId={IIITAllahabadCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={IIITAllahabadCollegeNavigationConstants[5].title} collegeCourseDetailConstant={IIITAllahabadCoursesDetailsConstants}
-        admissionSectionContent={IIITAllahabadCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITAllahabadCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={IIITAllahabadCollegeNavigationConstants[6].title}
-        placementSectionContent={IIITAllahabadCollegePlacementSectionContent} placementSectionHeadingId={IIITAllahabadCollegeNavigationConstants[2].headingId} placementSectionHeadingName={IIITAllahabadCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-        cutoffSectionContent={IIITAllahabadCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITAllahabadCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITAllahabadCollegeNavigationConstants[7].title}></IIITGenericCollegePage>
-    },
-    {
-        path : "/college/iiit/iiit-kanchipuram",
-        component : <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Kanchipuram" 
-        collegePageNavigationConstants={IIITKanchipuramCollegeNavigationConstants} 
-        aboutSectionContent={IIITKanchipuramCollegeAboutSectionContent} aboutSectionHeadingId={IIITKanchipuramCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITKanchipuramCollegeNavigationConstants[0].title} 
-        feeSectionContent={IIITKanchipuramCollegeFeeSectionContent} feeSectionHeadingId={IIITKanchipuramCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IIITKanchipuramCollegeNavigationConstants[1].title}
-        coursesSectionContent={IIITKanchipuramCollegeCoursesSectionContent} coursesSectionHeadingId={IIITKanchipuramCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={IIITKanchipuramCollegeNavigationConstants[5].title} collegeCourseDetailConstant={IIITKanchipuramCoursesDetailsConstants}
-        admissionSectionContent={IIITKanchipuramCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITKanchipuramCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={IIITKanchipuramCollegeNavigationConstants[6].title}
-        placementSectionContent={IIITKanchipuramCollegePlacementSectionContent} placementSectionHeadingId={IIITKanchipuramCollegeNavigationConstants[2].headingId} placementSectionHeadingName={IIITKanchipuramCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-        cutoffSectionContent={IIITAllahabadCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITKanchipuramCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITKanchipuramCollegeNavigationConstants[7].title}></IIITGenericCollegePage>
-    },
-    {
-        path : "/college/iiit/iiit-bhubaneshwar",
-        component : <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Bhubaneshwar" 
-        collegePageNavigationConstants={IIITBhubaneshwarCollegeNavigationConstants} 
-        aboutSectionContent={IIITBhubaneshwarCollegeAboutSectionContent} aboutSectionHeadingId={IIITBhubaneshwarCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITBhubaneshwarCollegeNavigationConstants[0].title} 
-        feeSectionContent={IIITBhubaneshwarCollegeFeeSectionContent} feeSectionHeadingId={IIITBhubaneshwarCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IIITBhubaneshwarCollegeNavigationConstants[1].title}
-        coursesSectionContent={IIITBhubaneshwarCollegeCoursesSectionContent} coursesSectionHeadingId={IIITBhubaneshwarCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={IIITBhubaneshwarCollegeNavigationConstants[5].title} collegeCourseDetailConstant={IIITBhubaneshwarCoursesDetailsConstants}
-        admissionSectionContent={IIITBhubaneshwarCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITBhubaneshwarCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={IIITBhubaneshwarCollegeNavigationConstants[6].title}
-        placementSectionContent={IIITBhubaneshwarCollegePlacementSectionContent} placementSectionHeadingId={IIITBhubaneshwarCollegeNavigationConstants[2].headingId} placementSectionHeadingName={IIITBhubaneshwarCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-        cutoffSectionContent={IIITAllahabadCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITBhubaneshwarCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITBhubaneshwarCollegeNavigationConstants[7].title}></IIITGenericCollegePage>
-    },
-    {
-        path : "/college/iiit/iiit-pune",
-        component : <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Pune" 
-        collegePageNavigationConstants={IIITPuneCollegeNavigationConstants} 
-        aboutSectionContent={IIITPuneCollegeAboutSectionContent} aboutSectionHeadingId={IIITPuneCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITPuneCollegeNavigationConstants[0].title} 
-        feeSectionContent={IIITPuneCollegeFeeSectionContent} feeSectionHeadingId={IIITPuneCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IIITPuneCollegeNavigationConstants[1].title}
-        coursesSectionContent={IIITPuneCollegeCoursesSectionContent} coursesSectionHeadingId={IIITPuneCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={IIITPuneCollegeNavigationConstants[5].title} collegeCourseDetailConstant={IIITPuneCoursesDetailsConstants}
-        admissionSectionContent={IIITPuneCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITPuneCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={IIITPuneCollegeNavigationConstants[6].title}
-        placementSectionContent={IIITPuneCollegePlacementSectionContent} placementSectionHeadingId={IIITPuneCollegeNavigationConstants[2].headingId} placementSectionHeadingName={IIITPuneCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-        cutoffSectionContent={IIITAllahabadCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITPuneCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITPuneCollegeNavigationConstants[7].title}></IIITGenericCollegePage>
-    },
-    {
-        path : "/college/iiit/iiit-kota",
-        component : <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Kota" 
-        collegePageNavigationConstants={IIITKotaCollegeNavigationConstants} 
-        aboutSectionContent={IIITKotaCollegeAboutSectionContent} aboutSectionHeadingId={IIITKotaCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITKotaCollegeNavigationConstants[0].title} 
-        feeSectionContent={IIITKotaCollegeFeeSectionContent} feeSectionHeadingId={IIITKotaCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IIITKotaCollegeNavigationConstants[1].title}
-        coursesSectionContent={IIITKotaCollegeCoursesSectionContent} coursesSectionHeadingId={IIITKotaCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={IIITKotaCollegeNavigationConstants[5].title} collegeCourseDetailConstant={IIITKotaCoursesDetailsConstants}
-        admissionSectionContent={IIITKotaCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITKotaCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={IIITKotaCollegeNavigationConstants[6].title}
-        placementSectionContent={IIITKotaCollegePlacementSectionContent} placementSectionHeadingId={IIITKotaCollegeNavigationConstants[2].headingId} placementSectionHeadingName={IIITKotaCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-        cutoffSectionContent={IIITAllahabadCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITKotaCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITKotaCollegeNavigationConstants[7].title}></IIITGenericCollegePage>
-    }, 
-    {
-        path : "/college/iiit/iiit-sri-city",
-        component : <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Sri City" 
-        collegePageNavigationConstants={IIITSriCityCollegeNavigationConstants} 
-        aboutSectionContent={IIITSriCityCollegeAboutSectionContent} aboutSectionHeadingId={IIITSriCityCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITSriCityCollegeNavigationConstants[0].title} 
-        feeSectionContent={IIITSriCityCollegeFeeSectionContent} feeSectionHeadingId={IIITSriCityCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IIITSriCityCollegeNavigationConstants[1].title}
-        coursesSectionContent={IIITSriCityCollegeCoursesSectionContent} coursesSectionHeadingId={IIITSriCityCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={IIITSriCityCollegeNavigationConstants[5].title} collegeCourseDetailConstant={IIITSriCityCoursesDetailsConstants}
-        admissionSectionContent={IIITSriCityCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITSriCityCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={IIITSriCityCollegeNavigationConstants[6].title}
-        placementSectionContent={IIITSriCityCollegePlacementSectionContent} placementSectionHeadingId={IIITSriCityCollegeNavigationConstants[2].headingId} placementSectionHeadingName={IIITSriCityCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-        cutoffSectionContent={IIITAllahabadCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITSriCityCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITSriCityCollegeNavigationConstants[7].title}></IIITGenericCollegePage>
-    },
-    {
-        path : "/college/iiit/iiit-vadodara",
-        component : <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Vadodara" 
-        collegePageNavigationConstants={IIITVadodaraCollegeNavigationConstants} 
-        aboutSectionContent={IIITVadodaraCollegeAboutSectionContent} aboutSectionHeadingId={IIITVadodaraCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITVadodaraCollegeNavigationConstants[0].title} 
-        feeSectionContent={IIITVadodaraCollegeFeeSectionContent} feeSectionHeadingId={IIITVadodaraCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IIITVadodaraCollegeNavigationConstants[1].title}
-        coursesSectionContent={IIITVadodaraCollegeCoursesSectionContent} coursesSectionHeadingId={IIITVadodaraCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={IIITVadodaraCollegeNavigationConstants[5].title} collegeCourseDetailConstant={IIITVadodaraCoursesDetailsConstants}
-        admissionSectionContent={IIITVadodaraCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITVadodaraCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={IIITVadodaraCollegeNavigationConstants[6].title}
-        placementSectionContent={IIITVadodaraCollegePlacementSectionContent} placementSectionHeadingId={IIITVadodaraCollegeNavigationConstants[2].headingId} placementSectionHeadingName={IIITVadodaraCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-        cutoffSectionContent={IIITAllahabadCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITVadodaraCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITVadodaraCollegeNavigationConstants[7].title}></IIITGenericCollegePage>
-    },
-    {
-        path : "/college/iiit/iiit-nagpur",
-        component : <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Nagpur" 
-        collegePageNavigationConstants={IIITNagpurCollegeNavigationConstants} 
-        aboutSectionContent={IIITNagpurCollegeAboutSectionContent} aboutSectionHeadingId={IIITNagpurCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITNagpurCollegeNavigationConstants[0].title} 
-        feeSectionContent={IIITNagpurCollegeFeeSectionContent} feeSectionHeadingId={IIITNagpurCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IIITNagpurCollegeNavigationConstants[1].title}
-        coursesSectionContent={IIITNagpurCollegeCoursesSectionContent} coursesSectionHeadingId={IIITNagpurCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={IIITNagpurCollegeNavigationConstants[5].title} collegeCourseDetailConstant={IIITNagpurCoursesDetailsConstants}
-        admissionSectionContent={IIITNagpurCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITNagpurCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={IIITNagpurCollegeNavigationConstants[6].title}
-        placementSectionContent={IIITNagpurCollegePlacementSectionContent} placementSectionHeadingId={IIITNagpurCollegeNavigationConstants[2].headingId} placementSectionHeadingName={IIITNagpurCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-        cutoffSectionContent={IIITAllahabadCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITNagpurCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITNagpurCollegeNavigationConstants[7].title}></IIITGenericCollegePage>
-    },
-    {
-        path : "/college/iiit/iiit-kalyani",
-        component : <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Kalyani" 
-        collegePageNavigationConstants={IIITKalyaniCollegeNavigationConstants} 
-        aboutSectionContent={IIITKalyaniCollegeAboutSectionContent} aboutSectionHeadingId={IIITKalyaniCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITKalyaniCollegeNavigationConstants[0].title} 
-        feeSectionContent={IIITKalyaniCollegeFeeSectionContent} feeSectionHeadingId={IIITKalyaniCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IIITKalyaniCollegeNavigationConstants[1].title}
-        coursesSectionContent={IIITKalyaniCollegeCoursesSectionContent} coursesSectionHeadingId={IIITKalyaniCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={IIITKalyaniCollegeNavigationConstants[5].title} collegeCourseDetailConstant={IIITKalyaniCoursesDetailsConstants}
-        admissionSectionContent={IIITKalyaniCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITKalyaniCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={IIITKalyaniCollegeNavigationConstants[6].title}
-        placementSectionContent={IIITKalyaniCollegePlacementSectionContent} placementSectionHeadingId={IIITKalyaniCollegeNavigationConstants[2].headingId} placementSectionHeadingName={IIITKalyaniCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-        cutoffSectionContent={IIITAllahabadCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITKalyaniCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITKalyaniCollegeNavigationConstants[7].title}></IIITGenericCollegePage>
-    },
-    {
-        path : "/college/iiit/iiit-lucknow",
-        component : <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Lucknow" 
-        collegePageNavigationConstants={IIITLucknowCollegeNavigationConstants} 
-        aboutSectionContent={IIITLucknowCollegeAboutSectionContent} aboutSectionHeadingId={IIITLucknowCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITLucknowCollegeNavigationConstants[0].title} 
-        feeSectionContent={IIITLucknowCollegeFeeSectionContent} feeSectionHeadingId={IIITLucknowCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IIITLucknowCollegeNavigationConstants[1].title}
-        coursesSectionContent={IIITLucknowCollegeCoursesSectionContent} coursesSectionHeadingId={IIITLucknowCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={IIITLucknowCollegeNavigationConstants[5].title} collegeCourseDetailConstant={IIITLucknowCoursesDetailsConstants}
-        admissionSectionContent={IIITLucknowCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITLucknowCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={IIITLucknowCollegeNavigationConstants[6].title}
-        placementSectionContent={IIITLucknowCollegePlacementSectionContent} placementSectionHeadingId={IIITLucknowCollegeNavigationConstants[2].headingId} placementSectionHeadingName={IIITLucknowCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-        cutoffSectionContent={IIITAllahabadCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITLucknowCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITLucknowCollegeNavigationConstants[7].title}></IIITGenericCollegePage>
-    },
-    {
-        path : "/college/iiit/iiit-dharwad",
-        component : <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Dharwad" 
-        collegePageNavigationConstants={IIITDharwadCollegeNavigationConstants} 
-        aboutSectionContent={IIITDharwadCollegeAboutSectionContent} aboutSectionHeadingId={IIITDharwadCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITDharwadCollegeNavigationConstants[0].title} 
-        feeSectionContent={IIITDharwadCollegeFeeSectionContent} feeSectionHeadingId={IIITDharwadCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IIITDharwadCollegeNavigationConstants[1].title}
-        coursesSectionContent={IIITDharwadCollegeCoursesSectionContent} coursesSectionHeadingId={IIITDharwadCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={IIITDharwadCollegeNavigationConstants[5].title} collegeCourseDetailConstant={IIITDharwadCoursesDetailsConstants}
-        admissionSectionContent={IIITDharwadCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITDharwadCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={IIITDharwadCollegeNavigationConstants[6].title}
-        placementSectionContent={IIITDharwadCollegePlacementSectionContent} placementSectionHeadingId={IIITDharwadCollegeNavigationConstants[2].headingId} placementSectionHeadingName={IIITDharwadCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-        cutoffSectionContent={IIITAllahabadCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITDharwadCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITDharwadCollegeNavigationConstants[7].title}></IIITGenericCollegePage>
-    },
-    {
-        path : "/college/iiit/iiit-bhagalpur",
-        component : <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Bhagalpur" 
-        collegePageNavigationConstants={IIITBhagalpurCollegeNavigationConstants} 
-        aboutSectionContent={IIITBhagalpurCollegeAboutSectionContent} aboutSectionHeadingId={IIITBhagalpurCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITBhagalpurCollegeNavigationConstants[0].title} 
-        feeSectionContent={IIITBhagalpurCollegeFeeSectionContent} feeSectionHeadingId={IIITBhagalpurCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IIITBhagalpurCollegeNavigationConstants[1].title}
-        coursesSectionContent={IIITBhagalpurCollegeCoursesSectionContent} coursesSectionHeadingId={IIITBhagalpurCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={IIITBhagalpurCollegeNavigationConstants[5].title} collegeCourseDetailConstant={IIITBhagalpurCoursesDetailsConstants}
-        admissionSectionContent={IIITBhagalpurCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITBhagalpurCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={IIITBhagalpurCollegeNavigationConstants[6].title}
-        placementSectionContent={IIITBhagalpurCollegePlacementSectionContent} placementSectionHeadingId={IIITBhagalpurCollegeNavigationConstants[2].headingId} placementSectionHeadingName={IIITBhagalpurCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-        cutoffSectionContent={IIITAllahabadCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITBhagalpurCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITBhagalpurCollegeNavigationConstants[7].title}></IIITGenericCollegePage>
-    },
-    {
-        path : "/college/iiit/iiit-bhopal",
-        component : <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Bhopal" 
-        collegePageNavigationConstants={IIITBhopalCollegeNavigationConstants} 
-        aboutSectionContent={IIITBhopalCollegeAboutSectionContent} aboutSectionHeadingId={IIITBhopalCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITBhopalCollegeNavigationConstants[0].title} 
-        feeSectionContent={IIITBhopalCollegeFeeSectionContent} feeSectionHeadingId={IIITBhopalCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IIITBhopalCollegeNavigationConstants[1].title}
-        coursesSectionContent={IIITBhopalCollegeCoursesSectionContent} coursesSectionHeadingId={IIITBhopalCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={IIITBhopalCollegeNavigationConstants[5].title} collegeCourseDetailConstant={IIITBhopalCoursesDetailsConstants}
-        admissionSectionContent={IIITBhopalCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITBhopalCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={IIITBhopalCollegeNavigationConstants[6].title}
-        placementSectionContent={IIITBhopalCollegePlacementSectionContent} placementSectionHeadingId={IIITBhopalCollegeNavigationConstants[2].headingId} placementSectionHeadingName={IIITBhopalCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-        cutoffSectionContent={IIITAllahabadCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITBhopalCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITBhopalCollegeNavigationConstants[7].title}></IIITGenericCollegePage>
-    }, 
 
     {
-        path : "/college/iiit/iiit-kottayam",
-        component : <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Kottayam" 
-        collegePageNavigationConstants={IIITKottayamCollegeNavigationConstants} 
-        aboutSectionContent={IIITKottayamCollegeAboutSectionContent} aboutSectionHeadingId={IIITKottayamCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITKottayamCollegeNavigationConstants[0].title} 
-        feeSectionContent={IIITKottayamCollegeFeeSectionContent} feeSectionHeadingId={IIITKottayamCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IIITKottayamCollegeNavigationConstants[1].title}
-        coursesSectionContent={IIITKottayamCollegeCoursesSectionContent} coursesSectionHeadingId={IIITKottayamCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={IIITKottayamCollegeNavigationConstants[5].title} collegeCourseDetailConstant={IIITKottayamCoursesDetailsConstants}
-        admissionSectionContent={IIITKottayamCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITKottayamCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={IIITKottayamCollegeNavigationConstants[6].title}
-        placementSectionContent={IIITKottayamCollegePlacementSectionContent} placementSectionHeadingId={IIITKottayamCollegeNavigationConstants[2].headingId} placementSectionHeadingName={IIITKottayamCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-        cutoffSectionContent={IIITAllahabadCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITKottayamCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITKottayamCollegeNavigationConstants[7].title}></IIITGenericCollegePage>
+        path: "/college/iiit/iiit-bangalore",
+        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Bangalore"
+            collegePageNavigationConstants={IIITBangaloreCollegeNavigationConstants}
+            aboutSectionContent={IIITBangaloreCollegeAboutSectionContent} aboutSectionHeadingId={IIITBangaloreCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITBangaloreCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITBangaloreAboutDataTableConstant} aboutSectionTableHeading={IIITBangaloreAboutDataTableHeading}
+            locationSectionContent={IIITBangaloreCollegeLocationSectionContent} locationSectionHeadingId={IIITBangaloreCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITBangaloreCollegeNavigationConstants[1].title} locationSectionTableContent={IIITBangaloreLocationDataTableConstant} locationSectionTableHeading={IIITBangaloreLocationDataTableHeading}
+            rankingSectionContent={IIITBangaloreCollegeRankingSectionContent} rankingSectionHeadingId={IIITBangaloreCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={IIITBangaloreCollegeNavigationConstants[2].title} rankingSectionTableContent={IIITBangaloreRankingDataTableConstant} rankingSectionTableHeading={IIITBangaloreRankingDataTableHeading}
+            admissionSectionContent={IIITBangaloreCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITBangaloreCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={IIITBangaloreCollegeNavigationConstants[3].title}
+            coursesSectionContent={IIITBangaloreCollegeCoursesSectionContent} coursesSectionHeadingId={IIITBangaloreCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={IIITBangaloreCollegeNavigationConstants[4].title} coursesSectionTableContent={IIITBangaloreCoursesTableContent} coursesSectionTableHeading={IIITBangaloreCoursesTableHeading}
+            feeSectionContent={IIITBangaloreCollegeFeeSectionContent} feeSectionHeadingId={IIITBangaloreCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IIITBangaloreCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IIITBangaloreInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IIITBangaloreInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IIITBangaloreHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IIITBangaloreHostelFeesDataTableHeading}
+            seatSectionContent={IIITBangaloreCollegeSeatSectionContent} seatSectionHeadingId={IIITBangaloreCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IIITBangaloreCollegeNavigationConstants[6].title} seatSectionTableContent={IIITBangaloreSeatDataTableConstant} seatSectionTableHeading={IIITBangaloreSeatDataTableHeading}
+            cutoffSectionContent={IIITBangaloreCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITBangaloreCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITBangaloreCollegeNavigationConstants[7].title}
+            placementSectionContent={IIITBangaloreCollegePlacementSectionContent} placementSectionHeadingId={IIITBangaloreCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IIITBangaloreCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IIITBangalorePlacementImageList}>
+        </IIITGenericCollegePage>
     },
     {
-        path : "/college/iiit/iiit-ranchi",
-        component : <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Ranchi" 
-        collegePageNavigationConstants={IIITRanchiCollegeNavigationConstants} 
-        aboutSectionContent={IIITRanchiCollegeAboutSectionContent} aboutSectionHeadingId={IIITRanchiCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITRanchiCollegeNavigationConstants[0].title} 
-        feeSectionContent={IIITRanchiCollegeFeeSectionContent} feeSectionHeadingId={IIITRanchiCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IIITRanchiCollegeNavigationConstants[1].title}
-        coursesSectionContent={IIITRanchiCollegeCoursesSectionContent} coursesSectionHeadingId={IIITRanchiCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={IIITRanchiCollegeNavigationConstants[5].title} collegeCourseDetailConstant={IIITRanchiCoursesDetailsConstants}
-        admissionSectionContent={IIITRanchiCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITRanchiCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={IIITRanchiCollegeNavigationConstants[6].title}
-        placementSectionContent={IIITRanchiCollegePlacementSectionContent} placementSectionHeadingId={IIITRanchiCollegeNavigationConstants[2].headingId} placementSectionHeadingName={IIITRanchiCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-        cutoffSectionContent={IIITAllahabadCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITRanchiCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITRanchiCollegeNavigationConstants[7].title}></IIITGenericCollegePage>
+        path: "/college/iiit/iiit-guwahati",
+        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Guwahati"
+            collegePageNavigationConstants={IIITGuwahatiCollegeNavigationConstants}
+            aboutSectionContent={IIITGuwahatiCollegeAboutSectionContent} aboutSectionHeadingId={IIITGuwahatiCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITGuwahatiCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITGuwahatiAboutDataTableConstant} aboutSectionTableHeading={IIITGuwahatiAboutDataTableHeading}
+            locationSectionContent={IIITGuwahatiCollegeLocationSectionContent} locationSectionHeadingId={IIITGuwahatiCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITGuwahatiCollegeNavigationConstants[1].title} locationSectionTableContent={IIITGuwahatiLocationDataTableConstant} locationSectionTableHeading={IIITGuwahatiLocationDataTableHeading}
+            rankingSectionContent={IIITGuwahatiCollegeRankingSectionContent} rankingSectionHeadingId={IIITGuwahatiCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={IIITGuwahatiCollegeNavigationConstants[2].title} rankingSectionTableContent={IIITGuwahatiRankingDataTableConstant} rankingSectionTableHeading={IIITGuwahatiRankingDataTableHeading}
+            admissionSectionContent={IIITGuwahatiCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITGuwahatiCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={IIITGuwahatiCollegeNavigationConstants[3].title}
+            coursesSectionContent={IIITGuwahatiCollegeCoursesSectionContent} coursesSectionHeadingId={IIITGuwahatiCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={IIITGuwahatiCollegeNavigationConstants[4].title} coursesSectionTableContent={IIITGuwahatiCoursesTableContent} coursesSectionTableHeading={IIITGuwahatiCoursesTableHeading}
+            feeSectionContent={IIITGuwahatiCollegeFeeSectionContent} feeSectionHeadingId={IIITGuwahatiCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IIITGuwahatiCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IIITGuwahatiInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IIITGuwahatiInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IIITGuwahatiHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IIITGuwahatiHostelFeesDataTableHeading}
+            seatSectionContent={IIITGuwahatiCollegeSeatSectionContent} seatSectionHeadingId={IIITGuwahatiCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IIITGuwahatiCollegeNavigationConstants[6].title} seatSectionTableContent={IIITGuwahatiSeatDataTableConstant} seatSectionTableHeading={IIITGuwahatiSeatDataTableHeading}
+            cutoffSectionContent={IIITGuwahatiCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITGuwahatiCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITGuwahatiCollegeNavigationConstants[7].title}
+            placementSectionContent={IIITGuwahatiCollegePlacementSectionContent} placementSectionHeadingId={IIITGuwahatiCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IIITGuwahatiCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IIITGuwahatiPlacementImageList}>
+        </IIITGenericCollegePage>
     },
     {
-        path : "/college/iiit/iiit-una",
-        component : <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Una" 
-        collegePageNavigationConstants={IIITUnaCollegeNavigationConstants} 
-        aboutSectionContent={IIITUnaCollegeAboutSectionContent} aboutSectionHeadingId={IIITUnaCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITUnaCollegeNavigationConstants[0].title} 
-        feeSectionContent={IIITUnaCollegeFeeSectionContent} feeSectionHeadingId={IIITUnaCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IIITUnaCollegeNavigationConstants[1].title}
-        coursesSectionContent={IIITUnaCollegeCoursesSectionContent} coursesSectionHeadingId={IIITUnaCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={IIITUnaCollegeNavigationConstants[5].title} collegeCourseDetailConstant={IIITUnaCoursesDetailsConstants}
-        admissionSectionContent={IIITUnaCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITUnaCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={IIITUnaCollegeNavigationConstants[6].title}
-        placementSectionContent={IIITUnaCollegePlacementSectionContent} placementSectionHeadingId={IIITUnaCollegeNavigationConstants[2].headingId} placementSectionHeadingName={IIITUnaCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-        cutoffSectionContent={IIITAllahabadCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITUnaCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITUnaCollegeNavigationConstants[7].title}></IIITGenericCollegePage>
+        path: "/college/iiit/iiit-jabalpur",
+        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Jabalpur"
+            collegePageNavigationConstants={IIITJabalpurCollegeNavigationConstants}
+            aboutSectionContent={IIITJabalpurCollegeAboutSectionContent} aboutSectionHeadingId={IIITJabalpurCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITJabalpurCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITJabalpurAboutDataTableConstant} aboutSectionTableHeading={IIITJabalpurAboutDataTableHeading}
+            locationSectionContent={IIITJabalpurCollegeLocationSectionContent} locationSectionHeadingId={IIITJabalpurCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITJabalpurCollegeNavigationConstants[1].title} locationSectionTableContent={IIITJabalpurLocationDataTableConstant} locationSectionTableHeading={IIITJabalpurLocationDataTableHeading}
+            rankingSectionContent={IIITJabalpurCollegeRankingSectionContent} rankingSectionHeadingId={IIITJabalpurCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={IIITJabalpurCollegeNavigationConstants[2].title} rankingSectionTableContent={IIITJabalpurRankingDataTableConstant} rankingSectionTableHeading={IIITJabalpurRankingDataTableHeading}
+            admissionSectionContent={IIITJabalpurCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITJabalpurCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={IIITJabalpurCollegeNavigationConstants[3].title}
+            coursesSectionContent={IIITJabalpurCollegeCoursesSectionContent} coursesSectionHeadingId={IIITJabalpurCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={IIITJabalpurCollegeNavigationConstants[4].title} coursesSectionTableContent={IIITJabalpurCoursesTableContent} coursesSectionTableHeading={IIITJabalpurCoursesTableHeading}
+            feeSectionContent={IIITJabalpurCollegeFeeSectionContent} feeSectionHeadingId={IIITJabalpurCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IIITJabalpurCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IIITJabalpurInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IIITJabalpurInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IIITJabalpurHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IIITJabalpurHostelFeesDataTableHeading}
+            seatSectionContent={IIITJabalpurCollegeSeatSectionContent} seatSectionHeadingId={IIITJabalpurCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IIITJabalpurCollegeNavigationConstants[6].title} seatSectionTableContent={IIITJabalpurSeatDataTableConstant} seatSectionTableHeading={IIITJabalpurSeatDataTableHeading}
+            cutoffSectionContent={IIITJabalpurCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITJabalpurCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITJabalpurCollegeNavigationConstants[7].title}
+            placementSectionContent={IIITJabalpurCollegePlacementSectionContent} placementSectionHeadingId={IIITJabalpurCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IIITJabalpurCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IIITJabalpurPlacementImageList}>
+        </IIITGenericCollegePage>
     },
     {
-        path : "/college/iiit/iiit-surat",
-        component : <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Surat" 
-        collegePageNavigationConstants={IIITSuratCollegeNavigationConstants} 
-        aboutSectionContent={IIITSuratCollegeAboutSectionContent} aboutSectionHeadingId={IIITSuratCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITSuratCollegeNavigationConstants[0].title} 
-        feeSectionContent={IIITSuratCollegeFeeSectionContent} feeSectionHeadingId={IIITSuratCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IIITSuratCollegeNavigationConstants[1].title}
-        coursesSectionContent={IIITSuratCollegeCoursesSectionContent} coursesSectionHeadingId={IIITSuratCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={IIITSuratCollegeNavigationConstants[5].title} collegeCourseDetailConstant={IIITSuratCoursesDetailsConstants}
-        admissionSectionContent={IIITSuratCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITSuratCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={IIITSuratCollegeNavigationConstants[6].title}
-        placementSectionContent={IIITSuratCollegePlacementSectionContent} placementSectionHeadingId={IIITSuratCollegeNavigationConstants[2].headingId} placementSectionHeadingName={IIITSuratCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-        cutoffSectionContent={IIITAllahabadCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITSuratCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITSuratCollegeNavigationConstants[7].title}></IIITGenericCollegePage>
+        path: "/college/iiit/iiit-allahabad",
+        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Allahabad"
+            collegePageNavigationConstants={IIITAllahabadCollegeNavigationConstants}
+            aboutSectionContent={IIITAllahabadCollegeAboutSectionContent} aboutSectionHeadingId={IIITAllahabadCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITAllahabadCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITAllahabadAboutDataTableConstant} aboutSectionTableHeading={IIITAllahabadAboutDataTableHeading}
+            locationSectionContent={IIITAllahabadCollegeLocationSectionContent} locationSectionHeadingId={IIITAllahabadCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITAllahabadCollegeNavigationConstants[1].title} locationSectionTableContent={IIITAllahabadLocationDataTableConstant} locationSectionTableHeading={IIITAllahabadLocationDataTableHeading}
+            rankingSectionContent={IIITAllahabadCollegeRankingSectionContent} rankingSectionHeadingId={IIITAllahabadCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={IIITAllahabadCollegeNavigationConstants[2].title} rankingSectionTableContent={IIITAllahabadRankingDataTableConstant} rankingSectionTableHeading={IIITAllahabadRankingDataTableHeading}
+            admissionSectionContent={IIITAllahabadCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITAllahabadCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={IIITAllahabadCollegeNavigationConstants[3].title}
+            coursesSectionContent={IIITAllahabadCollegeCoursesSectionContent} coursesSectionHeadingId={IIITAllahabadCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={IIITAllahabadCollegeNavigationConstants[4].title} coursesSectionTableContent={IIITAllahabadCoursesTableContent} coursesSectionTableHeading={IIITAllahabadCoursesTableHeading}
+            feeSectionContent={IIITAllahabadCollegeFeeSectionContent} feeSectionHeadingId={IIITAllahabadCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IIITAllahabadCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IIITAllahabadInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IIITAllahabadInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IIITAllahabadHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IIITAllahabadHostelFeesDataTableHeading}
+            seatSectionContent={IIITAllahabadCollegeSeatSectionContent} seatSectionHeadingId={IIITAllahabadCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IIITAllahabadCollegeNavigationConstants[6].title} seatSectionTableContent={IIITAllahabadSeatDataTableConstant} seatSectionTableHeading={IIITAllahabadSeatDataTableHeading}
+            cutoffSectionContent={IIITAllahabadCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITAllahabadCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITAllahabadCollegeNavigationConstants[7].title}
+            placementSectionContent={IIITAllahabadCollegePlacementSectionContent} placementSectionHeadingId={IIITAllahabadCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IIITAllahabadCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IIITAllahabadPlacementImageList}>
+        </IIITGenericCollegePage>
+    },
+
+    {
+        path: "/college/iiit/iiit-kanchipuram",
+        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Kanchipuram"
+            collegePageNavigationConstants={IIITKanchipuramCollegeNavigationConstants}
+            aboutSectionContent={IIITKanchipuramCollegeAboutSectionContent} aboutSectionHeadingId={IIITKanchipuramCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITKanchipuramCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITKanchipuramAboutDataTableConstant} aboutSectionTableHeading={IIITKanchipuramAboutDataTableHeading}
+            locationSectionContent={IIITKanchipuramCollegeLocationSectionContent} locationSectionHeadingId={IIITKanchipuramCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITKanchipuramCollegeNavigationConstants[1].title} locationSectionTableContent={IIITKanchipuramLocationDataTableConstant} locationSectionTableHeading={IIITKanchipuramLocationDataTableHeading}
+            rankingSectionContent={IIITKanchipuramCollegeRankingSectionContent} rankingSectionHeadingId={IIITKanchipuramCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={IIITKanchipuramCollegeNavigationConstants[2].title} rankingSectionTableContent={IIITKanchipuramRankingDataTableConstant} rankingSectionTableHeading={IIITKanchipuramRankingDataTableHeading}
+            admissionSectionContent={IIITKanchipuramCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITKanchipuramCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={IIITKanchipuramCollegeNavigationConstants[3].title}
+            coursesSectionContent={IIITKanchipuramCollegeCoursesSectionContent} coursesSectionHeadingId={IIITKanchipuramCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={IIITKanchipuramCollegeNavigationConstants[4].title} coursesSectionTableContent={IIITKanchipuramCoursesTableContent} coursesSectionTableHeading={IIITKanchipuramCoursesTableHeading}
+            feeSectionContent={IIITKanchipuramCollegeFeeSectionContent} feeSectionHeadingId={IIITKanchipuramCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IIITKanchipuramCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IIITKanchipuramInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IIITKanchipuramInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IIITKanchipuramHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IIITKanchipuramHostelFeesDataTableHeading}
+            seatSectionContent={IIITKanchipuramCollegeSeatSectionContent} seatSectionHeadingId={IIITKanchipuramCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IIITKanchipuramCollegeNavigationConstants[6].title} seatSectionTableContent={IIITKanchipuramSeatDataTableConstant} seatSectionTableHeading={IIITKanchipuramSeatDataTableHeading}
+            cutoffSectionContent={IIITKanchipuramCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITKanchipuramCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITKanchipuramCollegeNavigationConstants[7].title}
+            placementSectionContent={IIITKanchipuramCollegePlacementSectionContent} placementSectionHeadingId={IIITKanchipuramCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IIITKanchipuramCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IIITKancipuramPlacementImageList}>
+        </IIITGenericCollegePage>
     },
     {
-        path : "/college/iiit/iiit-manipur",
-        component : <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Manipur" 
-        collegePageNavigationConstants={IIITManipurCollegeNavigationConstants} 
-        aboutSectionContent={IIITManipurCollegeAboutSectionContent} aboutSectionHeadingId={IIITManipurCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITManipurCollegeNavigationConstants[0].title} 
-        feeSectionContent={IIITManipurCollegeFeeSectionContent} feeSectionHeadingId={IIITManipurCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IIITManipurCollegeNavigationConstants[1].title}
-        coursesSectionContent={IIITManipurCollegeCoursesSectionContent} coursesSectionHeadingId={IIITManipurCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={IIITManipurCollegeNavigationConstants[5].title} collegeCourseDetailConstant={IIITManipurCoursesDetailsConstants}
-        admissionSectionContent={IIITManipurCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITManipurCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={IIITManipurCollegeNavigationConstants[6].title}
-        placementSectionContent={IIITManipurCollegePlacementSectionContent} placementSectionHeadingId={IIITManipurCollegeNavigationConstants[2].headingId} placementSectionHeadingName={IIITManipurCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-        cutoffSectionContent={IIITAllahabadCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITManipurCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITManipurCollegeNavigationConstants[7].title}></IIITGenericCollegePage>
+        path: "/college/iiit/iiit-bhubaneshwar",
+        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Bhubaneshwar"
+            collegePageNavigationConstants={IIITBhubaneshwarCollegeNavigationConstants}
+            aboutSectionContent={IIITBhubaneshwarCollegeAboutSectionContent} aboutSectionHeadingId={IIITBhubaneshwarCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITBhubaneshwarCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITBhubaneswarAboutDataTableConstant} aboutSectionTableHeading={IIITBhubaneswarAboutDataTableHeading}
+            locationSectionContent={IIITBhubaneshwarCollegeLocationSectionContent} locationSectionHeadingId={IIITBhubaneshwarCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITBhubaneshwarCollegeNavigationConstants[1].title} locationSectionTableContent={IIITBhubaneswarLocationDataTableConstant} locationSectionTableHeading={IIITBhubaneswarLocationDataTableHeading}
+            rankingSectionContent={IIITBhubaneshwarCollegeRankingSectionContent} rankingSectionHeadingId={IIITBhubaneshwarCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={IIITBhubaneshwarCollegeNavigationConstants[2].title} rankingSectionTableContent={IIITBhubaneswarRankingDataTableConstant} rankingSectionTableHeading={IIITBhubaneswarRankingDataTableHeading}
+            admissionSectionContent={IIITBhubaneshwarCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITBhubaneshwarCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={IIITBhubaneshwarCollegeNavigationConstants[3].title}
+            coursesSectionContent={IIITBhubaneshwarCollegeCoursesSectionContent} coursesSectionHeadingId={IIITBhubaneshwarCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={IIITBhubaneshwarCollegeNavigationConstants[4].title} coursesSectionTableContent={IIITBhubaneswarCoursesTableContent} coursesSectionTableHeading={IIITBhubaneswarCoursesTableHeading}
+            feeSectionContent={IIITBhubaneshwarCollegeFeeSectionContent} feeSectionHeadingId={IIITBhubaneshwarCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IIITBhubaneshwarCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IIITBhubaneswarInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IIITBhubaneswarInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IIITBhubaneswarHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IIITBhubaneswarHostelFeesDataTableHeading}
+            seatSectionContent={IIITBhubaneshwarCollegeSeatSectionContent} seatSectionHeadingId={IIITBhubaneshwarCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IIITBhubaneshwarCollegeNavigationConstants[6].title} seatSectionTableContent={IIITBhubaneswarSeatDataTableConstant} seatSectionTableHeading={IIITBhubaneswarSeatDataTableHeading}
+            cutoffSectionContent={IIITBhubaneshwarCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITBhubaneshwarCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITBhubaneshwarCollegeNavigationConstants[7].title}
+            placementSectionContent={IIITBhubaneshwarCollegePlacementSectionContent} placementSectionHeadingId={IIITBhubaneshwarCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IIITBhubaneshwarCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IIITBhubaneswarPlacementImageList}>
+        </IIITGenericCollegePage>
     },
     {
-        path : "/college/iiit/iiit-kurnool",
-        component : <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Kurnool" 
-        collegePageNavigationConstants={IIITKurnoolCollegeNavigationConstants} 
-        aboutSectionContent={IIITKurnoolCollegeAboutSectionContent} aboutSectionHeadingId={IIITKurnoolCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITKurnoolCollegeNavigationConstants[0].title} 
-        feeSectionContent={IIITKurnoolCollegeFeeSectionContent} feeSectionHeadingId={IIITKurnoolCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IIITKurnoolCollegeNavigationConstants[1].title}
-        coursesSectionContent={IIITKurnoolCollegeCoursesSectionContent} coursesSectionHeadingId={IIITKurnoolCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={IIITKurnoolCollegeNavigationConstants[5].title} collegeCourseDetailConstant={IIITKurnoolCoursesDetailsConstants}
-        admissionSectionContent={IIITKurnoolCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITKurnoolCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={IIITKurnoolCollegeNavigationConstants[6].title}
-        placementSectionContent={IIITKurnoolCollegePlacementSectionContent} placementSectionHeadingId={IIITKurnoolCollegeNavigationConstants[2].headingId} placementSectionHeadingName={IIITKurnoolCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-        cutoffSectionContent={IIITAllahabadCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITKurnoolCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITKurnoolCollegeNavigationConstants[7].title}></IIITGenericCollegePage>
+        path: "/college/iiit/iiit-pune",
+        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Pune"
+            collegePageNavigationConstants={IIITPuneCollegeNavigationConstants}
+            aboutSectionContent={IIITPuneCollegeAboutSectionContent} aboutSectionHeadingId={IIITPuneCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITPuneCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITPuneAboutDataTableConstant} aboutSectionTableHeading={IIITPuneAboutDataTableHeading}
+            locationSectionContent={IIITPuneCollegeLocationSectionContent} locationSectionHeadingId={IIITPuneCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITPuneCollegeNavigationConstants[1].title} locationSectionTableContent={IIITPuneLocationDataTableConstant} locationSectionTableHeading={IIITPuneLocationDataTableHeading}
+            rankingSectionContent={IIITPuneCollegeRankingSectionContent} rankingSectionHeadingId={IIITPuneCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={IIITPuneCollegeNavigationConstants[2].title} rankingSectionTableContent={IIITPuneRankingDataTableConstant} rankingSectionTableHeading={IIITPuneRankingDataTableHeading}
+            admissionSectionContent={IIITPuneCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITPuneCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={IIITPuneCollegeNavigationConstants[3].title}
+            coursesSectionContent={IIITPuneCollegeCoursesSectionContent} coursesSectionHeadingId={IIITPuneCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={IIITPuneCollegeNavigationConstants[4].title} coursesSectionTableContent={IIITPuneCoursesTableContent} coursesSectionTableHeading={IIITPuneCoursesTableHeading}
+            feeSectionContent={IIITPuneCollegeFeeSectionContent} feeSectionHeadingId={IIITPuneCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IIITPuneCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IIITPuneInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IIITPuneInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IIITPuneHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IIITPuneHostelFeesDataTableHeading}
+            seatSectionContent={IIITPuneCollegeSeatSectionContent} seatSectionHeadingId={IIITPuneCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IIITPuneCollegeNavigationConstants[6].title} seatSectionTableContent={IIITPuneSeatDataTableConstant} seatSectionTableHeading={IIITPuneSeatDataTableHeading}
+            cutoffSectionContent={IIITPuneCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITPuneCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITPuneCollegeNavigationConstants[7].title}
+            placementSectionContent={IIITPuneCollegePlacementSectionContent} placementSectionHeadingId={IIITPuneCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IIITPuneCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IIITPunePlacementImageList}>
+        </IIITGenericCollegePage>
     },
     {
-        path : "/college/iiit/iiit-tiruchirapalli",
-        component : <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Tiruchirapalli" 
-        collegePageNavigationConstants={IIITTiruchirapalliCollegeNavigationConstants} 
-        aboutSectionContent={IIITTiruchirapalliCollegeAboutSectionContent} aboutSectionHeadingId={IIITTiruchirapalliCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITTiruchirapalliCollegeNavigationConstants[0].title} 
-        feeSectionContent={IIITTiruchirapalliCollegeFeeSectionContent} feeSectionHeadingId={IIITTiruchirapalliCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IIITTiruchirapalliCollegeNavigationConstants[1].title}
-        coursesSectionContent={IIITTiruchirapalliCollegeCoursesSectionContent} coursesSectionHeadingId={IIITTiruchirapalliCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={IIITTiruchirapalliCollegeNavigationConstants[5].title} collegeCourseDetailConstant={IIITTiruchirapalliCoursesDetailsConstants}
-        admissionSectionContent={IIITTiruchirapalliCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITTiruchirapalliCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={IIITTiruchirapalliCollegeNavigationConstants[6].title}
-        placementSectionContent={IIITTiruchirapalliCollegePlacementSectionContent} placementSectionHeadingId={IIITTiruchirapalliCollegeNavigationConstants[2].headingId} placementSectionHeadingName={IIITTiruchirapalliCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-        cutoffSectionContent={IIITAllahabadCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITTiruchirapalliCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITTiruchirapalliCollegeNavigationConstants[7].title}></IIITGenericCollegePage>
-    },
-    {
-        path : "/college/iiit/iiit-sonepat",
-        component : <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Sonepat" 
-        collegePageNavigationConstants={IIITSonepatCollegeNavigationConstants} 
-        aboutSectionContent={IIITSonepatCollegeAboutSectionContent} aboutSectionHeadingId={IIITSonepatCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITSonepatCollegeNavigationConstants[0].title} 
-        feeSectionContent={IIITSonepatCollegeFeeSectionContent} feeSectionHeadingId={IIITSonepatCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IIITSonepatCollegeNavigationConstants[1].title}
-        coursesSectionContent={IIITSonepatCollegeCoursesSectionContent} coursesSectionHeadingId={IIITSonepatCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={IIITSonepatCollegeNavigationConstants[5].title} collegeCourseDetailConstant={IIITSonepatCoursesDetailsConstants}
-        admissionSectionContent={IIITSonepatCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITSonepatCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={IIITSonepatCollegeNavigationConstants[6].title}
-        placementSectionContent={IIITSonepatCollegePlacementSectionContent} placementSectionHeadingId={IIITSonepatCollegeNavigationConstants[2].headingId} placementSectionHeadingName={IIITSonepatCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-        cutoffSectionContent={IIITAllahabadCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITSonepatCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITSonepatCollegeNavigationConstants[7].title}></IIITGenericCollegePage>
-    },
-    {
-        path : "/college/iiit/iiit-agartala",
-        component : <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Agartala" 
-        collegePageNavigationConstants={IIITAgartalaCollegeNavigationConstants} 
-        aboutSectionContent={IIITAgartalaCollegeAboutSectionContent} aboutSectionHeadingId={IIITAgartalaCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITAgartalaCollegeNavigationConstants[0].title} 
-        feeSectionContent={IIITAgartalaCollegeFeeSectionContent} feeSectionHeadingId={IIITAgartalaCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IIITAgartalaCollegeNavigationConstants[1].title}
-        coursesSectionContent={IIITAgartalaCollegeCoursesSectionContent} coursesSectionHeadingId={IIITAgartalaCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={IIITAgartalaCollegeNavigationConstants[5].title} collegeCourseDetailConstant={IIITAgartalaCoursesDetailsConstants}
-        admissionSectionContent={IIITAgartalaCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITAgartalaCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={IIITAgartalaCollegeNavigationConstants[6].title}
-        placementSectionContent={IIITAgartalaCollegePlacementSectionContent} placementSectionHeadingId={IIITAgartalaCollegeNavigationConstants[2].headingId} placementSectionHeadingName={IIITAgartalaCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-        cutoffSectionContent={IIITAllahabadCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITAgartalaCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITAgartalaCollegeNavigationConstants[7].title}></IIITGenericCollegePage>
-    },
-    {
-        path : "/college/iiit/iiit-karnataka",
-        component : <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Karnataka" 
-        collegePageNavigationConstants={IIITKarnatakaCollegeNavigationConstants} 
-        aboutSectionContent={IIITKarnatakaCollegeAboutSectionContent} aboutSectionHeadingId={IIITKarnatakaCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITKarnatakaCollegeNavigationConstants[0].title} 
-        feeSectionContent={IIITKarnatakaCollegeFeeSectionContent} feeSectionHeadingId={IIITKarnatakaCollegeNavigationConstants[1].headingId} feeSectionHeadingName={IIITKarnatakaCollegeNavigationConstants[1].title}
-        coursesSectionContent={IIITKarnatakaCollegeCoursesSectionContent} coursesSectionHeadingId={IIITKarnatakaCollegeNavigationConstants[5].headingId} coursesSectionHeadingName={IIITKarnatakaCollegeNavigationConstants[5].title} collegeCourseDetailConstant={IIITKarnatakaCoursesDetailsConstants}
-        admissionSectionContent={IIITKarnatakaCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITKarnatakaCollegeNavigationConstants[6].headingId} admissionSectionHeadingName={IIITKarnatakaCollegeNavigationConstants[6].title}
-        placementSectionContent={IIITKarnatakaCollegePlacementSectionContent} placementSectionHeadingId={IIITKarnatakaCollegeNavigationConstants[2].headingId} placementSectionHeadingName={IIITKarnatakaCollegeNavigationConstants[2].title} collegePlacementDataConstant={[]}
-        cutoffSectionContent={IIITAllahabadCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITKarnatakaCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITKarnatakaCollegeNavigationConstants[7].title}></IIITGenericCollegePage>
+        path: "/college/iiit/iiit-kota",
+        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Kota"
+            collegePageNavigationConstants={IIITKotaCollegeNavigationConstants}
+            aboutSectionContent={IIITKotaCollegeAboutSectionContent} aboutSectionHeadingId={IIITKotaCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITKotaCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITKotaAboutDataTableConstant} aboutSectionTableHeading={IIITKotaAboutDataTableHeading}
+            locationSectionContent={IIITKotaCollegeLocationSectionContent} locationSectionHeadingId={IIITKotaCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITKotaCollegeNavigationConstants[1].title} locationSectionTableContent={IIITKotaLocationDataTableConstant} locationSectionTableHeading={IIITKotaLocationDataTableHeading}
+            rankingSectionContent={IIITKotaCollegeRankingSectionContent} rankingSectionHeadingId={IIITKotaCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={IIITKotaCollegeNavigationConstants[2].title} rankingSectionTableContent={IIITKotaRankingDataTableConstant} rankingSectionTableHeading={IIITKotaRankingDataTableHeading}
+            admissionSectionContent={IIITKotaCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITKotaCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={IIITKotaCollegeNavigationConstants[3].title}
+            coursesSectionContent={IIITKotaCollegeCoursesSectionContent} coursesSectionHeadingId={IIITKotaCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={IIITKotaCollegeNavigationConstants[4].title} coursesSectionTableContent={IIITKotaCoursesTableContent} coursesSectionTableHeading={IIITKotaCoursesTableHeading}
+            feeSectionContent={IIITKotaCollegeFeeSectionContent} feeSectionHeadingId={IIITKotaCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IIITKotaCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IIITKotaInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IIITKotaInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IIITKotaHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IIITKotaHostelFeesDataTableHeading}
+            seatSectionContent={IIITKotaCollegeSeatSectionContent} seatSectionHeadingId={IIITKotaCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IIITKotaCollegeNavigationConstants[6].title} seatSectionTableContent={IIITKotaSeatDataTableConstant} seatSectionTableHeading={IIITKotaSeatDataTableHeading}
+            cutoffSectionContent={IIITKotaCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITKotaCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITKotaCollegeNavigationConstants[7].title}
+            placementSectionContent={IIITKotaCollegePlacementSectionContent} placementSectionHeadingId={IIITKotaCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IIITKotaCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IIITKotaPlacementImageList}>
+        </IIITGenericCollegePage>
     }
-
+,
+    {
+        path: "/college/iiit/iiit-sricity",
+        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Sri City"
+            collegePageNavigationConstants={IIITSriCityCollegeNavigationConstants}
+            aboutSectionContent={IIITSriCityCollegeAboutSectionContent} aboutSectionHeadingId={IIITSriCityCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITSriCityCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITSricityAboutDataTableConstant} aboutSectionTableHeading={IIITSricityAboutDataTableHeading}
+            locationSectionContent={IIITSriCityCollegeLocationSectionContent} locationSectionHeadingId={IIITSriCityCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITSriCityCollegeNavigationConstants[1].title} locationSectionTableContent={IIITSricityLocationDataTableConstant} locationSectionTableHeading={IIITSricityLocationDataTableHeading}
+            rankingSectionContent={IIITSriCityCollegeRankingSectionContent} rankingSectionHeadingId={IIITSriCityCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={IIITSriCityCollegeNavigationConstants[2].title} rankingSectionTableContent={IIITSricityRankingDataTableConstant} rankingSectionTableHeading={IIITSricityRankingDataTableHeading}
+            admissionSectionContent={IIITSriCityCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITSriCityCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={IIITSriCityCollegeNavigationConstants[3].title}
+            coursesSectionContent={IIITSriCityCollegeCoursesSectionContent} coursesSectionHeadingId={IIITSriCityCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={IIITSriCityCollegeNavigationConstants[4].title} coursesSectionTableContent={IIITSricityCoursesTableContent} coursesSectionTableHeading={IIITSricityCoursesTableHeading}
+            feeSectionContent={IIITSriCityCollegeFeeSectionContent} feeSectionHeadingId={IIITSriCityCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IIITSriCityCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IIITSricityInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IIITSricityInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IIITSricityHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IIITSricityHostelFeesDataTableHeading}
+            seatSectionContent={IIITSriCityCollegeSeatSectionContent} seatSectionHeadingId={IIITSriCityCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IIITSriCityCollegeNavigationConstants[6].title} seatSectionTableContent={IIITSricitySeatDataTableConstant} seatSectionTableHeading={IIITSricitySeatDataTableHeading}
+            cutoffSectionContent={IIITSriCityCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITSriCityCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITSriCityCollegeNavigationConstants[7].title}
+            placementSectionContent={IIITSriCityCollegePlacementSectionContent} placementSectionHeadingId={IIITSriCityCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IIITSriCityCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IIITSricityPlacementImageList}>
+        </IIITGenericCollegePage>
+    },
+    {
+        path: "/college/iiit/iiit-vadodara",
+        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Vadodara"
+            collegePageNavigationConstants={IIITVadodaraCollegeNavigationConstants}
+            aboutSectionContent={IIITVadodaraCollegeAboutSectionContent} aboutSectionHeadingId={IIITVadodaraCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITVadodaraCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITVadodaraAboutDataTableConstant} aboutSectionTableHeading={IIITVadodaraAboutDataTableHeading}
+            locationSectionContent={IIITVadodaraCollegeLocationSectionContent} locationSectionHeadingId={IIITVadodaraCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITVadodaraCollegeNavigationConstants[1].title} locationSectionTableContent={IIITVadodaraLocationDataTableConstant} locationSectionTableHeading={IIITVadodaraLocationDataTableHeading}
+            rankingSectionContent={IIITVadodaraCollegeRankingSectionContent} rankingSectionHeadingId={IIITVadodaraCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={IIITVadodaraCollegeNavigationConstants[2].title} rankingSectionTableContent={IIITVadodaraRankingDataTableConstant} rankingSectionTableHeading={IIITVadodaraRankingDataTableHeading}
+            admissionSectionContent={IIITVadodaraCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITVadodaraCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={IIITVadodaraCollegeNavigationConstants[3].title}
+            coursesSectionContent={IIITVadodaraCollegeCoursesSectionContent} coursesSectionHeadingId={IIITVadodaraCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={IIITVadodaraCollegeNavigationConstants[4].title} coursesSectionTableContent={IIITVadodaraCoursesTableContent} coursesSectionTableHeading={IIITVadodaraCoursesTableHeading}
+            feeSectionContent={IIITVadodaraCollegeFeeSectionContent} feeSectionHeadingId={IIITVadodaraCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IIITVadodaraCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IIITVadodaraInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IIITVadodaraInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IIITVadodaraHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IIITVadodaraHostelFeesDataTableHeading}
+            seatSectionContent={IIITVadodaraCollegeSeatSectionContent} seatSectionHeadingId={IIITVadodaraCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IIITVadodaraCollegeNavigationConstants[6].title} seatSectionTableContent={IIITVadodaraSeatDataTableConstant} seatSectionTableHeading={IIITVadodaraSeatDataTableHeading}
+            cutoffSectionContent={IIITVadodaraCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITVadodaraCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITVadodaraCollegeNavigationConstants[7].title}
+            placementSectionContent={IIITVadodaraCollegePlacementSectionContent} placementSectionHeadingId={IIITVadodaraCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IIITVadodaraCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IIITVadodaraPlacementImageList}>
+        </IIITGenericCollegePage>
+    },
+    {
+        path: "/college/iiit/iiit-nagpur",
+        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Nagpur"
+            collegePageNavigationConstants={IIITNagpurCollegeNavigationConstants}
+            aboutSectionContent={IIITNagpurCollegeAboutSectionContent} aboutSectionHeadingId={IIITNagpurCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITNagpurCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITNagpurAboutDataTableConstant} aboutSectionTableHeading={IIITNagpurAboutDataTableHeading}
+            locationSectionContent={IIITNagpurCollegeLocationSectionContent} locationSectionHeadingId={IIITNagpurCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITNagpurCollegeNavigationConstants[1].title} locationSectionTableContent={IIITNagpurLocationDataTableConstant} locationSectionTableHeading={IIITNagpurLocationDataTableHeading}
+            rankingSectionContent={IIITNagpurCollegeRankingSectionContent} rankingSectionHeadingId={IIITNagpurCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={IIITNagpurCollegeNavigationConstants[2].title} rankingSectionTableContent={IIITNagpurRankingDataTableConstant} rankingSectionTableHeading={IIITNagpurRankingDataTableHeading}
+            admissionSectionContent={IIITNagpurCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITNagpurCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={IIITNagpurCollegeNavigationConstants[3].title}
+            coursesSectionContent={IIITNagpurCollegeCoursesSectionContent} coursesSectionHeadingId={IIITNagpurCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={IIITNagpurCollegeNavigationConstants[4].title} coursesSectionTableContent={IIITNagpurCoursesTableContent} coursesSectionTableHeading={IIITNagpurCoursesTableHeading}
+            feeSectionContent={IIITNagpurCollegeFeeSectionContent} feeSectionHeadingId={IIITNagpurCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IIITNagpurCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IIITNagpurInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IIITNagpurInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IIITNagpurHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IIITNagpurHostelFeesDataTableHeading}
+            seatSectionContent={IIITNagpurCollegeSeatSectionContent} seatSectionHeadingId={IIITNagpurCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IIITNagpurCollegeNavigationConstants[6].title} seatSectionTableContent={IIITNagpurSeatDataTableConstant} seatSectionTableHeading={IIITNagpurSeatDataTableHeading}
+            cutoffSectionContent={IIITNagpurCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITNagpurCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITNagpurCollegeNavigationConstants[7].title}
+            placementSectionContent={IIITNagpurCollegePlacementSectionContent} placementSectionHeadingId={IIITNagpurCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IIITNagpurCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IIITNagpurPlacementImageList}>
+        </IIITGenericCollegePage>
+    },
+    {
+        path: "/college/iiit/iiit-kalyani",
+        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Kalyani"
+            collegePageNavigationConstants={IIITKalyaniCollegeNavigationConstants}
+            aboutSectionContent={IIITKalyaniCollegeAboutSectionContent} aboutSectionHeadingId={IIITKalyaniCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITKalyaniCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITKalyaniAboutDataTableConstant} aboutSectionTableHeading={IIITKalyaniAboutDataTableHeading}
+            locationSectionContent={IIITKalyaniCollegeLocationSectionContent} locationSectionHeadingId={IIITKalyaniCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITKalyaniCollegeNavigationConstants[1].title} locationSectionTableContent={IIITKalyaniLocationDataTableConstant} locationSectionTableHeading={IIITKalyaniLocationDataTableHeading}
+            rankingSectionContent={IIITKalyaniCollegeRankingSectionContent} rankingSectionHeadingId={IIITKalyaniCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={IIITKalyaniCollegeNavigationConstants[2].title} rankingSectionTableContent={IIITKalyaniRankingDataTableConstant} rankingSectionTableHeading={IIITKalyaniRankingDataTableHeading}
+            admissionSectionContent={IIITKalyaniCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITKalyaniCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={IIITKalyaniCollegeNavigationConstants[3].title}
+            coursesSectionContent={IIITKalyaniCollegeCoursesSectionContent} coursesSectionHeadingId={IIITKalyaniCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={IIITKalyaniCollegeNavigationConstants[4].title} coursesSectionTableContent={IIITKalyaniCoursesTableContent} coursesSectionTableHeading={IIITKalyaniCoursesTableHeading}
+            feeSectionContent={IIITKalyaniCollegeFeeSectionContent} feeSectionHeadingId={IIITKalyaniCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IIITKalyaniCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IIITKalyaniInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IIITKalyaniInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IIITKalyaniHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IIITKalyaniHostelFeesDataTableHeading}
+            seatSectionContent={IIITKalyaniCollegeSeatSectionContent} seatSectionHeadingId={IIITKalyaniCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IIITKalyaniCollegeNavigationConstants[6].title} seatSectionTableContent={IIITKalyaniSeatDataTableConstant} seatSectionTableHeading={IIITKalyaniSeatDataTableHeading}
+            cutoffSectionContent={IIITKalyaniCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITKalyaniCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITKalyaniCollegeNavigationConstants[7].title}
+            placementSectionContent={IIITKalyaniCollegePlacementSectionContent} placementSectionHeadingId={IIITKalyaniCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IIITKalyaniCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IIITKalyaniPlacementImageList}>
+        </IIITGenericCollegePage>
+    },
+    {
+        path: "/college/iiit/iiit-lucknow",
+        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Lucknow"
+            collegePageNavigationConstants={IIITLucknowCollegeNavigationConstants}
+            aboutSectionContent={IIITLucknowCollegeAboutSectionContent} aboutSectionHeadingId={IIITLucknowCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITLucknowCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITLucknowAboutDataTableConstant} aboutSectionTableHeading={IIITLucknowAboutDataTableHeading}
+            locationSectionContent={IIITLucknowCollegeLocationSectionContent} locationSectionHeadingId={IIITLucknowCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITLucknowCollegeNavigationConstants[1].title} locationSectionTableContent={IIITLucknowLocationDataTableConstant} locationSectionTableHeading={IIITLucknowLocationDataTableHeading}
+            rankingSectionContent={IIITLucknowCollegeRankingSectionContent} rankingSectionHeadingId={IIITLucknowCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={IIITLucknowCollegeNavigationConstants[2].title} rankingSectionTableContent={IIITLucknowRankingDataTableConstant} rankingSectionTableHeading={IIITLucknowRankingDataTableHeading}
+            admissionSectionContent={IIITLucknowCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITLucknowCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={IIITLucknowCollegeNavigationConstants[3].title}
+            coursesSectionContent={IIITLucknowCollegeCoursesSectionContent} coursesSectionHeadingId={IIITLucknowCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={IIITLucknowCollegeNavigationConstants[4].title} coursesSectionTableContent={IIITLucknowCoursesTableContent} coursesSectionTableHeading={IIITLucknowCoursesTableHeading}
+            feeSectionContent={IIITLucknowCollegeFeeSectionContent} feeSectionHeadingId={IIITLucknowCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IIITLucknowCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IIITLucknowInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IIITLucknowInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IIITLucknowHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IIITLucknowHostelFeesDataTableHeading}
+            seatSectionContent={IIITLucknowCollegeSeatSectionContent} seatSectionHeadingId={IIITLucknowCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IIITLucknowCollegeNavigationConstants[6].title} seatSectionTableContent={IIITLucknowSeatDataTableConstant} seatSectionTableHeading={IIITLucknowSeatDataTableHeading}
+            cutoffSectionContent={IIITLucknowCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITLucknowCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITLucknowCollegeNavigationConstants[7].title}
+            placementSectionContent={IIITLucknowCollegePlacementSectionContent} placementSectionHeadingId={IIITLucknowCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IIITLucknowCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IIITLucknowPlacementImageList}>
+        </IIITGenericCollegePage>
+    },
+    {
+        path: "/college/iiit/iiit-dharwad",
+        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Dharwad"
+            collegePageNavigationConstants={IIITDharwadCollegeNavigationConstants}
+            aboutSectionContent={IIITDharwadCollegeAboutSectionContent} aboutSectionHeadingId={IIITDharwadCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITDharwadCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITDharwadAboutDataTableConstant} aboutSectionTableHeading={IIITDharwadAboutDataTableHeading}
+            locationSectionContent={IIITDharwadCollegeLocationSectionContent} locationSectionHeadingId={IIITDharwadCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITDharwadCollegeNavigationConstants[1].title} locationSectionTableContent={IIITDharwadLocationDataTableConstant} locationSectionTableHeading={IIITDharwadLocationDataTableHeading}
+            rankingSectionContent={IIITDharwadCollegeRankingSectionContent} rankingSectionHeadingId={IIITDharwadCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={IIITDharwadCollegeNavigationConstants[2].title} rankingSectionTableContent={IIITDharwadRankingDataTableConstant} rankingSectionTableHeading={IIITDharwadRankingDataTableHeading}
+            admissionSectionContent={IIITDharwadCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITDharwadCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={IIITDharwadCollegeNavigationConstants[3].title}
+            coursesSectionContent={IIITDharwadCollegeCoursesSectionContent} coursesSectionHeadingId={IIITDharwadCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={IIITDharwadCollegeNavigationConstants[4].title} coursesSectionTableContent={IIITDharwadCoursesTableContent} coursesSectionTableHeading={IIITDharwadCoursesTableHeading}
+            feeSectionContent={IIITDharwadCollegeFeeSectionContent} feeSectionHeadingId={IIITDharwadCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IIITDharwadCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IIITDharwadInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IIITDharwadInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IIITDharwadHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IIITDharwadHostelFeesDataTableHeading}
+            seatSectionContent={IIITDharwadCollegeSeatSectionContent} seatSectionHeadingId={IIITDharwadCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IIITDharwadCollegeNavigationConstants[6].title} seatSectionTableContent={IIITDharwadSeatDataTableConstant} seatSectionTableHeading={IIITDharwadSeatDataTableHeading}
+            cutoffSectionContent={IIITDharwadCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITDharwadCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITDharwadCollegeNavigationConstants[7].title}
+            placementSectionContent={IIITDharwadCollegePlacementSectionContent} placementSectionHeadingId={IIITDharwadCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IIITDharwadCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IIITDharwadPlacementImageList}>
+        </IIITGenericCollegePage>
+    },
+    {
+        path: "/college/iiit/iiit-bhagalpur",
+        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Bhagalpur"
+            collegePageNavigationConstants={IIITBhagalpurCollegeNavigationConstants}
+            aboutSectionContent={IIITBhagalpurCollegeAboutSectionContent} aboutSectionHeadingId={IIITBhagalpurCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITBhagalpurCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITBhagalpurAboutDataTableConstant} aboutSectionTableHeading={IIITBhagalpurAboutDataTableHeading}
+            locationSectionContent={IIITBhagalpurCollegeLocationSectionContent} locationSectionHeadingId={IIITBhagalpurCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITBhagalpurCollegeNavigationConstants[1].title} locationSectionTableContent={IIITBhagalpurLocationDataTableConstant} locationSectionTableHeading={IIITBhagalpurLocationDataTableHeading}
+            rankingSectionContent={IIITBhagalpurCollegeRankingSectionContent} rankingSectionHeadingId={IIITBhagalpurCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={IIITBhagalpurCollegeNavigationConstants[2].title} rankingSectionTableContent={IIITBhagalpurRankingDataTableConstant} rankingSectionTableHeading={IIITBhagalpurRankingDataTableHeading}
+            admissionSectionContent={IIITBhagalpurCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITBhagalpurCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={IIITBhagalpurCollegeNavigationConstants[3].title}
+            coursesSectionContent={IIITBhagalpurCollegeCoursesSectionContent} coursesSectionHeadingId={IIITBhagalpurCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={IIITBhagalpurCollegeNavigationConstants[4].title} coursesSectionTableContent={IIITBhagalpurCoursesTableContent} coursesSectionTableHeading={IIITBhagalpurCoursesTableHeading}
+            feeSectionContent={IIITBhagalpurCollegeFeeSectionContent} feeSectionHeadingId={IIITBhagalpurCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IIITBhagalpurCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IIITBhagalpurInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IIITBhagalpurInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IIITBhagalpurHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IIITBhagalpurHostelFeesDataTableHeading}
+            seatSectionContent={IIITBhagalpurCollegeSeatSectionContent} seatSectionHeadingId={IIITBhagalpurCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IIITBhagalpurCollegeNavigationConstants[6].title} seatSectionTableContent={IIITBhagalpurSeatDataTableConstant} seatSectionTableHeading={IIITBhagalpurSeatDataTableHeading}
+            cutoffSectionContent={IIITBhagalpurCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITBhagalpurCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITBhagalpurCollegeNavigationConstants[7].title}
+            placementSectionContent={IIITBhagalpurCollegePlacementSectionContent} placementSectionHeadingId={IIITBhagalpurCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IIITBhagalpurCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IIITBhagalpurPlacementImageList}>
+        </IIITGenericCollegePage>
+    },
+    {
+        path: "/college/iiit/iiit-bhopal",
+        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Bhopal"
+            collegePageNavigationConstants={IIITBhopalCollegeNavigationConstants}
+            aboutSectionContent={IIITBhopalCollegeAboutSectionContent} aboutSectionHeadingId={IIITBhopalCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITBhopalCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITBhopalAboutDataTableConstant} aboutSectionTableHeading={IIITBhopalAboutDataTableHeading}
+            locationSectionContent={IIITBhopalCollegeLocationSectionContent} locationSectionHeadingId={IIITBhopalCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITBhopalCollegeNavigationConstants[1].title} locationSectionTableContent={IIITBhopalLocationDataTableConstant} locationSectionTableHeading={IIITBhopalLocationDataTableHeading}
+            rankingSectionContent={IIITBhopalCollegeRankingSectionContent} rankingSectionHeadingId={IIITBhopalCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={IIITBhopalCollegeNavigationConstants[2].title} rankingSectionTableContent={IIITBhopalRankingDataTableConstant} rankingSectionTableHeading={IIITBhopalRankingDataTableHeading}
+            admissionSectionContent={IIITBhopalCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITBhopalCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={IIITBhopalCollegeNavigationConstants[3].title}
+            coursesSectionContent={IIITBhopalCollegeCoursesSectionContent} coursesSectionHeadingId={IIITBhopalCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={IIITBhopalCollegeNavigationConstants[4].title} coursesSectionTableContent={IIITBhopalCoursesTableContent} coursesSectionTableHeading={IIITBhopalCoursesTableHeading}
+            feeSectionContent={IIITBhopalCollegeFeeSectionContent} feeSectionHeadingId={IIITBhopalCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IIITBhopalCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IIITBhopalInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IIITBhopalInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IIITBhopalHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IIITBhopalHostelFeesDataTableHeading}
+            seatSectionContent={IIITBhopalCollegeSeatSectionContent} seatSectionHeadingId={IIITBhopalCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IIITBhopalCollegeNavigationConstants[6].title} seatSectionTableContent={IIITBhopalSeatDataTableConstant} seatSectionTableHeading={IIITBhopalSeatDataTableHeading}
+            cutoffSectionContent={IIITBhopalCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITBhopalCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITBhopalCollegeNavigationConstants[7].title}
+            placementSectionContent={IIITBhopalCollegePlacementSectionContent} placementSectionHeadingId={IIITBhopalCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IIITBhopalCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IIITBhopalPlacementImageList}>
+        </IIITGenericCollegePage>
+    },
+    {
+        path: "/college/iiit/iiit-kottayam",
+        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Kottayam"
+            collegePageNavigationConstants={IIITKottayamCollegeNavigationConstants}
+            aboutSectionContent={IIITKottayamCollegeAboutSectionContent} aboutSectionHeadingId={IIITKottayamCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITKottayamCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITKottayamAboutDataTableConstant} aboutSectionTableHeading={IIITKottayamAboutDataTableHeading}
+            locationSectionContent={IIITKottayamCollegeLocationSectionContent} locationSectionHeadingId={IIITKottayamCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITKottayamCollegeNavigationConstants[1].title} locationSectionTableContent={IIITKottayamLocationDataTableConstant} locationSectionTableHeading={IIITKottayamLocationDataTableHeading}
+            rankingSectionContent={IIITKottayamCollegeRankingSectionContent} rankingSectionHeadingId={IIITKottayamCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={IIITKottayamCollegeNavigationConstants[2].title} rankingSectionTableContent={IIITKottayamRankingDataTableConstant} rankingSectionTableHeading={IIITKottayamRankingDataTableHeading}
+            admissionSectionContent={IIITKottayamCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITKottayamCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={IIITKottayamCollegeNavigationConstants[3].title}
+            coursesSectionContent={IIITKottayamCollegeCoursesSectionContent} coursesSectionHeadingId={IIITKottayamCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={IIITKottayamCollegeNavigationConstants[4].title} coursesSectionTableContent={IIITKottayamCoursesTableContent} coursesSectionTableHeading={IIITKottayamCoursesTableHeading}
+            feeSectionContent={IIITKottayamCollegeFeeSectionContent} feeSectionHeadingId={IIITKottayamCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IIITKottayamCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IIITKottayamInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IIITKottayamInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IIITKottayamHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IIITKottayamHostelFeesDataTableHeading}
+            seatSectionContent={IIITKottayamCollegeSeatSectionContent} seatSectionHeadingId={IIITKottayamCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IIITKottayamCollegeNavigationConstants[6].title} seatSectionTableContent={IIITKottayamSeatDataTableConstant} seatSectionTableHeading={IIITKottayamSeatDataTableHeading}
+            cutoffSectionContent={IIITKottayamCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITKottayamCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITKottayamCollegeNavigationConstants[7].title}
+            placementSectionContent={IIITKottayamCollegePlacementSectionContent} placementSectionHeadingId={IIITKottayamCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IIITKottayamCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IIITKottayamPlacementImageList}>
+        </IIITGenericCollegePage>
+    },
+    {
+        path: "/college/iiit/iiit-ranchi",
+        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Ranchi"
+            collegePageNavigationConstants={IIITRanchiCollegeNavigationConstants}
+            aboutSectionContent={IIITRanchiCollegeAboutSectionContent} aboutSectionHeadingId={IIITRanchiCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITRanchiCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITRanchiAboutDataTableConstant} aboutSectionTableHeading={IIITRanchiAboutDataTableHeading}
+            locationSectionContent={IIITRanchiCollegeLocationSectionContent} locationSectionHeadingId={IIITRanchiCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITRanchiCollegeNavigationConstants[1].title} locationSectionTableContent={IIITRanchiLocationDataTableConstant} locationSectionTableHeading={IIITRanchiLocationDataTableHeading}
+            rankingSectionContent={IIITRanchiCollegeRankingSectionContent} rankingSectionHeadingId={IIITRanchiCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={IIITRanchiCollegeNavigationConstants[2].title} rankingSectionTableContent={IIITRanchiRankingDataTableConstant} rankingSectionTableHeading={IIITRanchiRankingDataTableHeading}
+            admissionSectionContent={IIITRanchiCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITRanchiCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={IIITRanchiCollegeNavigationConstants[3].title}
+            coursesSectionContent={IIITRanchiCollegeCoursesSectionContent} coursesSectionHeadingId={IIITRanchiCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={IIITRanchiCollegeNavigationConstants[4].title} coursesSectionTableContent={IIITRanchiCoursesTableContent} coursesSectionTableHeading={IIITRanchiCoursesTableHeading}
+            feeSectionContent={IIITRanchiCollegeFeeSectionContent} feeSectionHeadingId={IIITRanchiCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IIITRanchiCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IIITRanchiInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IIITRanchiInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IIITRanchiHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IIITRanchiHostelFeesDataTableHeading}
+            seatSectionContent={IIITRanchiCollegeSeatSectionContent} seatSectionHeadingId={IIITRanchiCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IIITRanchiCollegeNavigationConstants[6].title} seatSectionTableContent={IIITRanchiSeatDataTableConstant} seatSectionTableHeading={IIITRanchiSeatDataTableHeading}
+            cutoffSectionContent={IIITRanchiCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITRanchiCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITRanchiCollegeNavigationConstants[7].title}
+            placementSectionContent={IIITRanchiCollegePlacementSectionContent} placementSectionHeadingId={IIITRanchiCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IIITRanchiCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IIITRanchiPlacementImageList}>
+        </IIITGenericCollegePage>
+    },
+    {
+        path: "/college/iiit/iiit-una",
+        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Una"
+            collegePageNavigationConstants={IIITUnaCollegeNavigationConstants}
+            aboutSectionContent={IIITUnaCollegeAboutSectionContent} aboutSectionHeadingId={IIITUnaCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITUnaCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITUnaAboutDataTableConstant} aboutSectionTableHeading={IIITUnaAboutDataTableHeading}
+            locationSectionContent={IIITUnaCollegeLocationSectionContent} locationSectionHeadingId={IIITUnaCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITUnaCollegeNavigationConstants[1].title} locationSectionTableContent={IIITUnaLocationDataTableConstant} locationSectionTableHeading={IIITUnaLocationDataTableHeading}
+            rankingSectionContent={IIITUnaCollegeRankingSectionContent} rankingSectionHeadingId={IIITUnaCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={IIITUnaCollegeNavigationConstants[2].title} rankingSectionTableContent={IIITUnaRankingDataTableConstant} rankingSectionTableHeading={IIITUnaRankingDataTableHeading}
+            admissionSectionContent={IIITUnaCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITUnaCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={IIITUnaCollegeNavigationConstants[3].title}
+            coursesSectionContent={IIITUnaCollegeCoursesSectionContent} coursesSectionHeadingId={IIITUnaCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={IIITUnaCollegeNavigationConstants[4].title} coursesSectionTableContent={IIITUnaCoursesTableContent} coursesSectionTableHeading={IIITUnaCoursesTableHeading}
+            feeSectionContent={IIITUnaCollegeFeeSectionContent} feeSectionHeadingId={IIITUnaCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IIITUnaCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IIITUnaInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IIITUnaInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IIITUnaHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IIITUnaHostelFeesDataTableHeading}
+            seatSectionContent={IIITUnaCollegeSeatSectionContent} seatSectionHeadingId={IIITUnaCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IIITUnaCollegeNavigationConstants[6].title} seatSectionTableContent={IIITUnaSeatDataTableConstant} seatSectionTableHeading={IIITUnaSeatDataTableHeading}
+            cutoffSectionContent={IIITUnaCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITUnaCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITUnaCollegeNavigationConstants[7].title}
+            placementSectionContent={IIITUnaCollegePlacementSectionContent} placementSectionHeadingId={IIITUnaCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IIITUnaCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IIITUnaPlacementImageList}>
+        </IIITGenericCollegePage>
+    },
+    {
+        path: "/college/iiit/iiit-surat",
+        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Surat"
+            collegePageNavigationConstants={IIITSuratCollegeNavigationConstants}
+            aboutSectionContent={IIITSuratCollegeAboutSectionContent} aboutSectionHeadingId={IIITSuratCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITSuratCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITSuratAboutDataTableConstant} aboutSectionTableHeading={IIITSuratAboutDataTableHeading}
+            locationSectionContent={IIITSuratCollegeLocationSectionContent} locationSectionHeadingId={IIITSuratCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITSuratCollegeNavigationConstants[1].title} locationSectionTableContent={IIITSuratLocationDataTableConstant} locationSectionTableHeading={IIITSuratLocationDataTableHeading}
+            rankingSectionContent={IIITSuratCollegeRankingSectionContent} rankingSectionHeadingId={IIITSuratCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={IIITSuratCollegeNavigationConstants[2].title} rankingSectionTableContent={IIITSuratRankingDataTableConstant} rankingSectionTableHeading={IIITSuratRankingDataTableHeading}
+            admissionSectionContent={IIITSuratCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITSuratCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={IIITSuratCollegeNavigationConstants[3].title}
+            coursesSectionContent={IIITSuratCollegeCoursesSectionContent} coursesSectionHeadingId={IIITSuratCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={IIITSuratCollegeNavigationConstants[4].title} coursesSectionTableContent={IIITSuratCoursesTableContent} coursesSectionTableHeading={IIITSuratCoursesTableHeading}
+            feeSectionContent={IIITSuratCollegeFeeSectionContent} feeSectionHeadingId={IIITSuratCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IIITSuratCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IIITSuratInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IIITSuratInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IIITSuratHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IIITSuratHostelFeesDataTableHeading}
+            seatSectionContent={IIITSuratCollegeSeatSectionContent} seatSectionHeadingId={IIITSuratCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IIITSuratCollegeNavigationConstants[6].title} seatSectionTableContent={IIITSuratSeatDataTableConstant} seatSectionTableHeading={IIITSuratSeatDataTableHeading}
+            cutoffSectionContent={IIITSuratCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITSuratCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITSuratCollegeNavigationConstants[7].title}
+            placementSectionContent={IIITSuratCollegePlacementSectionContent} placementSectionHeadingId={IIITSuratCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IIITSuratCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IIITSuratPlacementImageList}>
+        </IIITGenericCollegePage>
+    },
+    {
+        path: "/college/iiit/iiit-manipur",
+        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Manipur"
+            collegePageNavigationConstants={IIITManipurCollegeNavigationConstants}
+            aboutSectionContent={IIITManipurCollegeAboutSectionContent} aboutSectionHeadingId={IIITManipurCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITManipurCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITManipurAboutDataTableConstant} aboutSectionTableHeading={IIITManipurAboutDataTableHeading}
+            locationSectionContent={IIITManipurCollegeLocationSectionContent} locationSectionHeadingId={IIITManipurCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITManipurCollegeNavigationConstants[1].title} locationSectionTableContent={IIITManipurLocationDataTableConstant} locationSectionTableHeading={IIITManipurLocationDataTableHeading}
+            rankingSectionContent={IIITManipurCollegeRankingSectionContent} rankingSectionHeadingId={IIITManipurCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={IIITManipurCollegeNavigationConstants[2].title} rankingSectionTableContent={IIITManipurRankingDataTableConstant} rankingSectionTableHeading={IIITManipurRankingDataTableHeading}
+            admissionSectionContent={IIITManipurCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITManipurCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={IIITManipurCollegeNavigationConstants[3].title}
+            coursesSectionContent={IIITManipurCollegeCoursesSectionContent} coursesSectionHeadingId={IIITManipurCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={IIITManipurCollegeNavigationConstants[4].title} coursesSectionTableContent={IIITManipurCoursesTableContent} coursesSectionTableHeading={IIITManipurCoursesTableHeading}
+            feeSectionContent={IIITManipurCollegeFeeSectionContent} feeSectionHeadingId={IIITManipurCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IIITManipurCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IIITManipurInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IIITManipurInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IIITManipurHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IIITManipurHostelFeesDataTableHeading}
+            seatSectionContent={IIITManipurCollegeSeatSectionContent} seatSectionHeadingId={IIITManipurCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IIITManipurCollegeNavigationConstants[6].title} seatSectionTableContent={IIITManipurSeatDataTableConstant} seatSectionTableHeading={IIITManipurSeatDataTableHeading}
+            cutoffSectionContent={IIITManipurCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITManipurCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITManipurCollegeNavigationConstants[7].title}
+            placementSectionContent={IIITManipurCollegePlacementSectionContent} placementSectionHeadingId={IIITManipurCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IIITManipurCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IIITManipurPlacementImageList}>
+        </IIITGenericCollegePage>
+    },
+    {
+        path: "/college/iiit/iiit-kurnool",
+        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Kurnool"
+            collegePageNavigationConstants={IIITKurnoolCollegeNavigationConstants}
+            aboutSectionContent={IIITKurnoolCollegeAboutSectionContent} aboutSectionHeadingId={IIITKurnoolCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITKurnoolCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITKurnoolAboutDataTableConstant} aboutSectionTableHeading={IIITKurnoolAboutDataTableHeading}
+            locationSectionContent={IIITKurnoolCollegeLocationSectionContent} locationSectionHeadingId={IIITKurnoolCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITKurnoolCollegeNavigationConstants[1].title} locationSectionTableContent={IIITKurnoolLocationDataTableConstant} locationSectionTableHeading={IIITKurnoolLocationDataTableHeading}
+            rankingSectionContent={IIITKurnoolCollegeRankingSectionContent} rankingSectionHeadingId={IIITKurnoolCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={IIITKurnoolCollegeNavigationConstants[2].title} rankingSectionTableContent={IIITKurnoolRankingDataTableConstant} rankingSectionTableHeading={IIITKurnoolRankingDataTableHeading}
+            admissionSectionContent={IIITKurnoolCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITKurnoolCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={IIITKurnoolCollegeNavigationConstants[3].title}
+            coursesSectionContent={IIITKurnoolCollegeCoursesSectionContent} coursesSectionHeadingId={IIITKurnoolCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={IIITKurnoolCollegeNavigationConstants[4].title} coursesSectionTableContent={IIITKurnoolCoursesTableContent} coursesSectionTableHeading={IIITKurnoolCoursesTableHeading}
+            feeSectionContent={IIITKurnoolCollegeFeeSectionContent} feeSectionHeadingId={IIITKurnoolCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IIITKurnoolCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IIITKurnoolInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IIITKurnoolInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IIITKurnoolHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IIITKurnoolHostelFeesDataTableHeading}
+            seatSectionContent={IIITKurnoolCollegeSeatSectionContent} seatSectionHeadingId={IIITKurnoolCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IIITKurnoolCollegeNavigationConstants[6].title} seatSectionTableContent={IIITKurnoolSeatDataTableConstant} seatSectionTableHeading={IIITKurnoolSeatDataTableHeading}
+            cutoffSectionContent={IIITKurnoolCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITKurnoolCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITKurnoolCollegeNavigationConstants[7].title}
+            placementSectionContent={IIITKurnoolCollegePlacementSectionContent} placementSectionHeadingId={IIITKurnoolCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IIITKurnoolCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IIITKurnoolPlacementImageList}>
+        </IIITGenericCollegePage>
+    },
+    {
+        path: "/college/iiit/iiit-tiruchirapalli",
+        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Tiruchirapalli"
+            collegePageNavigationConstants={IIITTiruchirapalliCollegeNavigationConstants}
+            aboutSectionContent={IIITTiruchirapalliCollegeAboutSectionContent} aboutSectionHeadingId={IIITTiruchirapalliCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITTiruchirapalliCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITTiruchirapalliAboutDataTableConstant} aboutSectionTableHeading={IIITTiruchirapalliAboutDataTableHeading}
+            locationSectionContent={IIITTiruchirapalliCollegeLocationSectionContent} locationSectionHeadingId={IIITTiruchirapalliCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITTiruchirapalliCollegeNavigationConstants[1].title} locationSectionTableContent={IIITTiruchirapalliLocationDataTableConstant} locationSectionTableHeading={IIITTiruchirapalliLocationDataTableHeading}
+            rankingSectionContent={IIITTiruchirapalliCollegeRankingSectionContent} rankingSectionHeadingId={IIITTiruchirapalliCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={IIITTiruchirapalliCollegeNavigationConstants[2].title} rankingSectionTableContent={IIITTiruchirapalliRankingDataTableConstant} rankingSectionTableHeading={IIITTiruchirapalliRankingDataTableHeading}
+            admissionSectionContent={IIITTiruchirapalliCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITTiruchirapalliCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={IIITTiruchirapalliCollegeNavigationConstants[3].title}
+            coursesSectionContent={IIITTiruchirapalliCollegeCoursesSectionContent} coursesSectionHeadingId={IIITTiruchirapalliCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={IIITTiruchirapalliCollegeNavigationConstants[4].title} coursesSectionTableContent={IIITTiruchirapalliCoursesTableContent} coursesSectionTableHeading={IIITTiruchirapalliCoursesTableHeading}
+            feeSectionContent={IIITTiruchirapalliCollegeFeeSectionContent} feeSectionHeadingId={IIITTiruchirapalliCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IIITTiruchirapalliCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IIITTiruchirapalliInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IIITTiruchirapalliInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IIITTiruchirapalliHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IIITTiruchirapalliHostelFeesDataTableHeading}
+            seatSectionContent={IIITTiruchirapalliCollegeSeatSectionContent} seatSectionHeadingId={IIITTiruchirapalliCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IIITTiruchirapalliCollegeNavigationConstants[6].title} seatSectionTableContent={IIITTiruchirapalliSeatDataTableConstant} seatSectionTableHeading={IIITTiruchirapalliSeatDataTableHeading}
+            cutoffSectionContent={IIITTiruchirapalliCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITTiruchirapalliCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITTiruchirapalliCollegeNavigationConstants[7].title}
+            placementSectionContent={IIITTiruchirapalliCollegePlacementSectionContent} placementSectionHeadingId={IIITTiruchirapalliCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IIITTiruchirapalliCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IIITTiruchirapalliPlacementImageList}>
+        </IIITGenericCollegePage>
+    },
+    {
+        path: "/college/iiit/iiit-sonepat",
+        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Sonepat"
+            collegePageNavigationConstants={IIITSonepatCollegeNavigationConstants}
+            aboutSectionContent={IIITSonepatCollegeAboutSectionContent} aboutSectionHeadingId={IIITSonepatCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITSonepatCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITSonepatAboutDataTableConstant} aboutSectionTableHeading={IIITSonepatAboutDataTableHeading}
+            locationSectionContent={IIITSonepatCollegeLocationSectionContent} locationSectionHeadingId={IIITSonepatCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITSonepatCollegeNavigationConstants[1].title} locationSectionTableContent={IIITSonepatLocationDataTableConstant} locationSectionTableHeading={IIITSonepatLocationDataTableHeading}
+            rankingSectionContent={IIITSonepatCollegeRankingSectionContent} rankingSectionHeadingId={IIITSonepatCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={IIITSonepatCollegeNavigationConstants[2].title} rankingSectionTableContent={IIITSonepatRankingDataTableConstant} rankingSectionTableHeading={IIITSonepatRankingDataTableHeading}
+            admissionSectionContent={IIITSonepatCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITSonepatCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={IIITSonepatCollegeNavigationConstants[3].title}
+            coursesSectionContent={IIITSonepatCollegeCoursesSectionContent} coursesSectionHeadingId={IIITSonepatCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={IIITSonepatCollegeNavigationConstants[4].title} coursesSectionTableContent={IIITSonepatCoursesTableContent} coursesSectionTableHeading={IIITSonepatCoursesTableHeading}
+            feeSectionContent={IIITSonepatCollegeFeeSectionContent} feeSectionHeadingId={IIITSonepatCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IIITSonepatCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IIITSonepatInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IIITSonepatInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IIITSonepatHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IIITSonepatHostelFeesDataTableHeading}
+            seatSectionContent={IIITSonepatCollegeSeatSectionContent} seatSectionHeadingId={IIITSonepatCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IIITSonepatCollegeNavigationConstants[6].title} seatSectionTableContent={IIITSonepatSeatDataTableConstant} seatSectionTableHeading={IIITSonepatSeatDataTableHeading}
+            cutoffSectionContent={IIITSonepatCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITSonepatCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITSonepatCollegeNavigationConstants[7].title}
+            placementSectionContent={IIITSonepatCollegePlacementSectionContent} placementSectionHeadingId={IIITSonepatCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IIITSonepatCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IIITSonepatPlacementImageList}>
+        </IIITGenericCollegePage>
+    },
+    {
+        path: "/college/iiit/iiit-agartala",
+        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Agartala"
+            collegePageNavigationConstants={IIITAgartalaCollegeNavigationConstants}
+            aboutSectionContent={IIITAgartalaCollegeAboutSectionContent} aboutSectionHeadingId={IIITAgartalaCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITAgartalaCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITAgartalaAboutDataTableConstant} aboutSectionTableHeading={IIITAgartalaAboutDataTableHeading}
+            locationSectionContent={IIITAgartalaCollegeLocationSectionContent} locationSectionHeadingId={IIITAgartalaCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITAgartalaCollegeNavigationConstants[1].title} locationSectionTableContent={IIITAgartalaLocationDataTableConstant} locationSectionTableHeading={IIITAgartalaLocationDataTableHeading}
+            rankingSectionContent={IIITAgartalaCollegeRankingSectionContent} rankingSectionHeadingId={IIITAgartalaCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={IIITAgartalaCollegeNavigationConstants[2].title} rankingSectionTableContent={IIITAgartalaRankingDataTableConstant} rankingSectionTableHeading={IIITAgartalaRankingDataTableHeading}
+            admissionSectionContent={IIITAgartalaCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITAgartalaCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={IIITAgartalaCollegeNavigationConstants[3].title}
+            coursesSectionContent={IIITAgartalaCollegeCoursesSectionContent} coursesSectionHeadingId={IIITAgartalaCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={IIITAgartalaCollegeNavigationConstants[4].title} coursesSectionTableContent={IIITAgartalaCoursesTableContent} coursesSectionTableHeading={IIITAgartalaCoursesTableHeading}
+            feeSectionContent={IIITAgartalaCollegeFeeSectionContent} feeSectionHeadingId={IIITAgartalaCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IIITAgartalaCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IIITAgartalaInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IIITAgartalaInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IIITAgartalaHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IIITAgartalaHostelFeesDataTableHeading}
+            seatSectionContent={IIITAgartalaCollegeSeatSectionContent} seatSectionHeadingId={IIITAgartalaCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IIITAgartalaCollegeNavigationConstants[6].title} seatSectionTableContent={IIITAgartalaSeatDataTableConstant} seatSectionTableHeading={IIITAgartalaSeatDataTableHeading}
+            cutoffSectionContent={IIITAgartalaCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITAgartalaCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITAgartalaCollegeNavigationConstants[7].title}
+            placementSectionContent={IIITAgartalaCollegePlacementSectionContent} placementSectionHeadingId={IIITAgartalaCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IIITAgartalaCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IIITAgartalaPlacementImageList}>
+        </IIITGenericCollegePage>
+    },
+    {
+        path: "/college/iiit/iiit-karnataka",
+        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Karnataka"
+            collegePageNavigationConstants={IIITKarnatakaCollegeNavigationConstants}
+            aboutSectionContent={IIITKarnatakaCollegeAboutSectionContent} aboutSectionHeadingId={IIITKarnatakaCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITKarnatakaCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITKarnatakaAboutDataTableConstant} aboutSectionTableHeading={IIITKarnatakaAboutDataTableHeading}
+            locationSectionContent={IIITKarnatakaCollegeLocationSectionContent} locationSectionHeadingId={IIITKarnatakaCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITKarnatakaCollegeNavigationConstants[1].title} locationSectionTableContent={IIITKarnatakaLocationDataTableConstant} locationSectionTableHeading={IIITKarnatakaLocationDataTableHeading}
+            rankingSectionContent={IIITKarnatakaCollegeRankingSectionContent} rankingSectionHeadingId={IIITKarnatakaCollegeNavigationConstants[2].headingId} rankingSectionHeadingName={IIITKarnatakaCollegeNavigationConstants[2].title} rankingSectionTableContent={IIITKarnatakaRankingDataTableConstant} rankingSectionTableHeading={IIITKarnatakaRankingDataTableHeading}
+            admissionSectionContent={IIITKarnatakaCollegeAdmissionSectionContent} admissionSectionHeadingId={IIITKarnatakaCollegeNavigationConstants[3].headingId} admissionSectionHeadingName={IIITKarnatakaCollegeNavigationConstants[3].title}
+            coursesSectionContent={IIITKarnatakaCollegeCoursesSectionContent} coursesSectionHeadingId={IIITKarnatakaCollegeNavigationConstants[4].headingId} coursesSectionHeadingName={IIITKarnatakaCollegeNavigationConstants[4].title} coursesSectionTableContent={IIITKarnatakaCoursesTableContent} coursesSectionTableHeading={IIITKarnatakaCoursesTableHeading}
+            feeSectionContent={IIITKarnatakaCollegeFeeSectionContent} feeSectionHeadingId={IIITKarnatakaCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IIITKarnatakaCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IIITKarnatakaInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IIITKarnatakaInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IIITKarnatakaHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IIITKarnatakaHostelFeesDataTableHeading}
+            seatSectionContent={IIITKarnatakaCollegeSeatSectionContent} seatSectionHeadingId={IIITKarnatakaCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IIITKarnatakaCollegeNavigationConstants[6].title} seatSectionTableContent={IIITKarnatakaSeatDataTableConstant} seatSectionTableHeading={IIITKarnatakaSeatDataTableHeading}
+            cutoffSectionContent={IIITKarnatakaCollegeCutOffSectionContent} cutoffSectionHeadingId={IIITKarnatakaCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IIITKarnatakaCollegeNavigationConstants[7].title}
+            placementSectionContent={IIITKarnatakaCollegePlacementSectionContent} placementSectionHeadingId={IIITKarnatakaCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IIITKarnatakaCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IIITKarnatakaPlacementImageList}>
+        </IIITGenericCollegePage>
+    }
 ]
 
 // say everything went fine 
