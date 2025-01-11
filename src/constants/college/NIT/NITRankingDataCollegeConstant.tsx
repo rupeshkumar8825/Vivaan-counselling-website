@@ -36,16 +36,8 @@ export const NITBhopalRankingDataTableHeading = [
 ]
 
 export const NITNagpurRankingDataTableConstant = [
-    [
-        "NIRF Overall Rankings", 
-        "80 (2023)", 
-        "75 (2022)"
-    ], 
-    [
-        "NIRF Engineering Rankings", 
-        "30 (2023)", 
-        "32 (2022)"
-    ]
+    ["NIRF Overall Rankings", "82 (2023)", "68 (2022)"],
+    ["NIRF Engineering Rankings", "41 (2023)", "32 (2022)"]
 ]
 
 export const NITNagpurRankingDataTableHeading = [
@@ -53,16 +45,8 @@ export const NITNagpurRankingDataTableHeading = [
 ]
 
 export const NITDurgapurRankingDataTableConstant = [
-    [
-        "NIRF Overall Rankings", 
-        "90 (2023)", 
-        "85 (2022)"
-    ], 
-    [
-        "NIRF Engineering Rankings", 
-        "35 (2023)", 
-        "38 (2022)"
-    ]
+    ["NIRF Overall Rankings", "90 (2023)", "72 (2022)"],
+    ["NIRF Engineering Rankings", "43 (2023)", "34 (2022)"]
 ]
 
 export const NITDurgapurRankingDataTableHeading = [
@@ -120,16 +104,8 @@ export const NITSrinagarRankingDataTableHeading = [
 ]
 
 export const NITAllahabadRankingDataTableConstant = [
-    [
-        "NIRF Overall Rankings", 
-        "130 (2023)", 
-        "125 (2022)"
-    ], 
-    [
-        "NIRF Engineering Rankings", 
-        "55 (2023)", 
-        "58 (2022)"
-    ]
+    ["NIRF Overall Rankings", "101-150 (2023)", "101-150 (2022)"],
+    ["NIRF Engineering Rankings", "49 (2023)", "47 (2022)"]
 ]
 
 export const NITAllahabadRankingDataTableHeading = [
@@ -190,16 +166,16 @@ export const NITJaipurRankingDataTableHeading = [
 ]
 
 export const NITKurukshetraRankingDataTableConstant = [
-    [
-        "NIRF Overall Rankings", 
-        "180 (2023)", 
-        "175 (2022)"
-    ], 
-    [
-        "NIRF Engineering Rankings", 
-        "80 (2023)", 
-        "82 (2022)"
-    ]
+    // [
+    //     "NIRF Overall Rankings", 
+    //     "180 (2023)", 
+    //     "175 (2022)"
+    // ], 
+    // [
+    //     "NIRF Engineering Rankings", 
+    //     "80 (2023)", 
+    //     "82 (2022)"
+    // ]
 ]
 
 export const NITKurukshetraRankingDataTableHeading = [
@@ -224,16 +200,8 @@ export const NITTiruchirapalliRankingDataTableHeading = [
 ]
 
 export const NITSilcharRankingDataTableConstant = [
-    [
-        "NIRF Overall Rankings", 
-        "200 (2023)", 
-        "195 (2022)"
-    ], 
-    [
-        "NIRF Engineering Rankings", 
-        "90 (2023)", 
-        "92 (2022)"
-    ]
+    ["NIRF Overall Rankings", "83 (2023)", "76 (2022)"],
+    ["NIRF Engineering Rankings", "40 (2023)", "38 (2022)"]
 ]
 
 export const NITSilcharRankingDataTableHeading = [

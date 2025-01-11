@@ -36,14 +36,8 @@ export const NITBhopalLocationDataTableHeading = [
 ]
 
 export const NITNagpurLocationDataTableConstant = [
-    [
-        "Dr. Babasaheb Ambedkar International Airport", 
-        "8"
-    ], 
-    [
-        "Nagpur Junction Railway Station", 
-        "7"
-    ]
+    ["Dr. Babasaheb Ambedkar International Airport, Nagpur", "8"],
+    ["Nagpur Junction Railway Station", "7"]
 ]
 
 export const NITNagpurLocationDataTableHeading = [
@@ -51,14 +45,9 @@ export const NITNagpurLocationDataTableHeading = [
 ]
 
 export const NITDurgapurLocationDataTableConstant = [
-    [
-        "Kazi Nazrul Islam Airport", 
-        "15"
-    ], 
-    [
-        "Durgapur Railway Station", 
-        "5"
-    ]
+    ["Kazi Nazrul Islam Airport, Durgapur", "14"],
+    ["Netaji Subhas Chandra Bose International Airport, Kolkata", "175"],
+    ["Durgapur Railway Station", "8.5"]
 ]
 
 export const NITDurgapurLocationDataTableHeading = [
@@ -119,14 +108,8 @@ export const NITSrinagarLocationDataTableHeading = [
 ]
 
 export const NITAllahabadLocationDataTableConstant = [
-    [
-        "Allahabad Airport", 
-        "12"
-    ], 
-    [
-        "Allahabad Junction Railway Station", 
-        "10"
-    ]
+    ["Prayagraj Airport", "18.5"],
+    ["Allahabad Junction Railway Station", "8"]
 ]
 
 export const NITAllahabadLocationDataTableHeading = [
@@ -183,14 +166,9 @@ export const NITJaipurLocationDataTableHeading = [
 ]
 
 export const NITKurukshetraLocationDataTableConstant = [
-    [
-        "Chandigarh Airport", 
-        "90"
-    ], 
-    [
-        "Kurukshetra Junction Railway Station", 
-        "5"
-    ]
+    ["Chandigarh International Airport", "100"],
+    ["Indira Gandhi International Airport, Delhi", "183"],
+    ["Kurukshetra Junction Railway Station", "6.5"]
 ]
 
 export const NITKurukshetraLocationDataTableHeading = [
@@ -213,14 +191,8 @@ export const NITTiruchirapalliLocationDataTableHeading = [
 ]
 
 export const NITSilcharLocationDataTableConstant = [
-    [
-        "Silchar Airport", 
-        "35"
-    ], 
-    [
-        "Silchar Railway Station", 
-        "10"
-    ]
+    ["Silchar Airport", "33.5"],
+    ["Silchar Railway Station", "10.5"]
 ]
 
 export const NITSilcharLocationDataTableHeading = [
