@@ -2483,7 +2483,7 @@ const routes = [
         </NITGenericCollegePage>
     },
     {
-        path : "/college/nit/nit-tiruchirapalli",
+        path : "/college/nit/nit-tiruchirappalli",
         component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Tiruchirapalli" 
         collegePageNavigationConstants={NITTiruchirappalliCollegeNavigationConstants} 
         aboutSectionContent={NITTiruchirappalliCollegeAboutSectionContent} aboutSectionHeadingId={NITTiruchirappalliCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITTiruchirappalliCollegeNavigationConstants[0].title} aboutSectionTableContent={NITTiruchirappalliAboutDataTableConstant} aboutSectionTableHeading={NITTiruchirappalliAboutDataTableHeading}
@@ -3146,7 +3146,7 @@ const routes = [
         </IIITGenericCollegePage>
     },
     {
-        path: "/college/iiit/iiit-tiruchirapalli",
+        path: "/college/iiit/iiit-tiruchirappalli",
         component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Tiruchirapalli"
             collegePageNavigationConstants={IIITTiruchirapalliCollegeNavigationConstants}
             aboutSectionContent={IIITTiruchirapalliCollegeAboutSectionContent} aboutSectionHeadingId={IIITTiruchirapalliCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITTiruchirapalliCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITTiruchirapalliAboutDataTableConstant} aboutSectionTableHeading={IIITTiruchirapalliAboutDataTableHeading}

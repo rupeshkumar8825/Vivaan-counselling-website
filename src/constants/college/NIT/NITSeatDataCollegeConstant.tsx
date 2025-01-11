@@ -235,16 +235,16 @@ export const NITKurukshetraSeatDataTableHeading = [
 ]
 
 export const NITTiruchirapalliSeatDataTableConstant = [
-    ["General", "335", "93"],
-    ["Ews", "87", "18"],
-    ["Obc-Ncl", "225", "53"],
-    ["Sc", "118", "37"],
-    ["St", "59", "18"],
-    ["General-PwD", "15", "3"],
+    ["General", "314", "86"],
+    ["Ews", "84", "17"],
+    ["Obc-Ncl", "223", "47"],
+    ["Sc", "105", "34"],
+    ["St", "53", "17"],
+    ["General-PwD", "14", "2"],
     ["Ews-PwD", "10", "2"],
     ["Obc-Ncl-PwD", "12", "6"],
     ["Sc-PwD", "10", "0"],
-    ["St-PwD", "3", "0"]
+    ["St-PwD", "2", "0"]
 ]
 export const NITTiruchirapalliSeatDataTableHeading = [
     "Category", 

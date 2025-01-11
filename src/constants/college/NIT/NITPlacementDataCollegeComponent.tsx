@@ -57,8 +57,8 @@ import NITJaipurPlacementImage1 from "../../../assets/images/NIT/placements/nit-
 import NITJaipurPlacementImage2 from "../../../assets/images/NIT/placements/nit-warangal-2.png"
 import NITKurukshetraPlacementImage1 from "../../../assets/images/NIT/placements/nit-warangal-1.png"
 import NITKurukshetraPlacementImage2 from "../../../assets/images/NIT/placements/nit-warangal-2.png"
-import NITTiruchirapalliPlacementImage1 from "../../../assets/images/NIT/placements/nit-warangal-1.png"
-import NITTiruchirapalliPlacementImage2 from "../../../assets/images/NIT/placements/nit-warangal-2.png"
+import NITTiruchirapalliPlacementImage1 from "../../../assets/images/NIT/placements/nit-trichy-1.png"
+import NITTiruchirapalliPlacementImage2 from "../../../assets/images/NIT/placements/nit-trichy-2.png"
 
 export const NITSrinagarPlacementImageList = [
     NITSrinagarPlacementImage1, 

@@ -369,7 +369,7 @@ export const NITKurukshetraAboutDataTableHeading = [
 export const NITTiruchirappalliAboutDataTableConstant = [
     [
         "Also Known as", 
-        "NITT, National Institute of Technology Tiruchirappalli"
+        "NITT, NIT Tiruchirappalli, NIT Trichy"
     ], 
     [
         "Institute Type", 

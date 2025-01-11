@@ -203,11 +203,11 @@ export const NITKurukshetraLocationDataTableHeading = [
 export const NITTiruchirapalliLocationDataTableConstant = [
     [
         "Tiruchirappalli International Airport", 
-        "8"
+        "18"
     ], 
     [
         "Tiruchirappalli Junction Railway Station", 
-        "10"
+        "18.5"
     ]
 ]
 

@@ -39,20 +39,20 @@ export const NITWarangalCollegeNavigationConstants : Array<INITCollegeNavigation
     }
 ]
 
-export const NITWarangalCollegeAboutSectionContent : string = ""
-export const NITWarangalCollegeFeeSectionContent : string = ""
+export const NITWarangalCollegeAboutSectionContent : string =""
+export const NITWarangalCollegeFeeSectionContent : string =""
 export const NITWarangalCollegeAdmissionSectionContent : string = 
 `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
 
 • Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
 `
 
-export const NITWarangalCollegeCoursesSectionContent : string = ""
-export const NITWarangalCollegePlacementSectionContent : string = ""
-export const NITWarangalCollegeCutOffSectionContent : string = ""
-export const NITWarangalCollegeLocationSectionContent : string = ""
-export const NITWarangalCollegeRankingSectionContent : string = ""
-export const NITWarangalCollegeSeatSectionContent : string = ""
+export const NITWarangalCollegeCoursesSectionContent : string =""
+export const NITWarangalCollegePlacementSectionContent : string =""
+export const NITWarangalCollegeCutOffSectionContent : string =""
+export const NITWarangalCollegeLocationSectionContent : string =""
+export const NITWarangalCollegeRankingSectionContent : string =""
+export const NITWarangalCollegeSeatSectionContent : string =""
 
 export const NITBhopalCollegeNavigationConstants : Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-bhopal-about" },
@@ -66,15 +66,18 @@ export const NITBhopalCollegeNavigationConstants : Array<INITCollegeNavigationCo
     { title: "Placements", headingId: "#nit-bhopal-placements" }
 ];
 
-export const NITBhopalCollegeAboutSectionContent : string = "NIT Bhopal, also known as Maulana Azad National Institute of Technology, is a premier engineering institution in India. Established in 1960, it is located in Bhopal, Madhya Pradesh. NIT Bhopal is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITBhopalCollegeFeeSectionContent : string = "The fee structure at NIT Bhopal is designed to be affordable while providing quality education. The fees vary depending on the program and category of the student. Scholarships and financial aid are available for eligible students.";
-export const NITBhopalCollegeAdmissionSectionContent : string = "Admissions to NIT Bhopal are based on national level entrance exams such as JEE Main for undergraduate programs and GATE for postgraduate programs. The institute follows a merit-based selection process.";
-export const NITBhopalCollegeCoursesSectionContent : string = "NIT Bhopal offers a wide range of courses in engineering, science, and management. The programs are designed to provide students with a strong foundation in their chosen fields and prepare them for successful careers.";
-export const NITBhopalCollegePlacementSectionContent : string = "NIT Bhopal has a strong placement record with top companies visiting the campus for recruitment. The institute's placement cell provides training and support to students to help them secure job offers.";
-export const NITBhopalCollegeCutOffSectionContent : string = "The cutoff for admission to NIT Bhopal varies each year based on the number of applicants and the difficulty level of the entrance exams. The cutoff is released after the declaration of the entrance exam results.";
-export const NITBhopalCollegeLocationSectionContent : string = "NIT Bhopal is located in Bhopal, Madhya Pradesh. The campus is well-connected by road and rail, with the Raja Bhoj Airport and Bhopal Junction Railway Station in close proximity. The city of Bhopal offers a vibrant cultural scene, historical landmarks, and recreational opportunities for students to explore and enjoy.";
-export const NITBhopalCollegeRankingSectionContent : string = "N    IT Bhopal, also known as Maulana Azad National Institute of Technology, is a premier engineering institution in India. Established in 1960, it is located in Bhopal, Madhya Pradesh. NIT Bhopal is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITBhopalCollegeSeatSectionContent : string = "NIT Bhop    al, also known as Maulana Azad National Institute of Technology, is a premier engineering institution in India. Established in 1960, it is located in Bhopal, Madhya Pradesh. NIT Bhopal is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
+export const NITBhopalCollegeAboutSectionContent : string =""
+export const NITBhopalCollegeFeeSectionContent : string =""
+export const NITBhopalCollegeAdmissionSectionContent : string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+
+• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+`
+export const NITBhopalCollegeCoursesSectionContent : string =""
+export const NITBhopalCollegePlacementSectionContent : string =""
+export const NITBhopalCollegeCutOffSectionContent : string =""
+export const NITBhopalCollegeLocationSectionContent : string =""
+export const NITBhopalCollegeRankingSectionContent : string =""
+export const NITBhopalCollegeSeatSectionContent : string =""
 
 export const NITNagpurCollegeNavigationConstants : Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-nagpur-about" },
@@ -88,15 +91,18 @@ export const NITNagpurCollegeNavigationConstants : Array<INITCollegeNavigationCo
     { title: "Placements", headingId: "#nit-nagpur-placements" }
 ];
 
-export const NITNagpurCollegeAboutSectionContent : string = "NIT Nagpur, also known as Visvesvaraya National Institute of Technology, is a leading engineering institution in India. Established in 1960, it is located in Nagpur, Maharashtra. NIT Nagpur is renowned for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITNagpurCollegeFeeSectionContent : string = "The fee structure at NIT Nagpur is designed to be affordable while providing quality education. The fees vary depending on the program and category of the student. Scholarships and financial aid are available for eligible students.";
-export const NITNagpurCollegeAdmissionSectionContent : string = "Admissions to NIT Nagpur are based on national level entrance exams such as JEE Main for undergraduate programs and GATE for postgraduate programs. The institute follows a merit-based selection process.";
-export const NITNagpurCollegeCoursesSectionContent : string = "NIT Nagpur offers a wide range of courses in engineering, science, and management. The programs are designed to provide students with a strong foundation in their chosen fields and prepare them for successful careers.";
-export const NITNagpurCollegePlacementSectionContent : string = "NIT Nagpur has a strong placement record with top companies visiting the campus for recruitment. The institute's placement cell provides training and support to students to help them secure job offers.";
-export const NITNagpurCollegeCutOffSectionContent : string = "The cutoff for admission to NIT Nagpur varies each year based on the number of applicants and the difficulty level of the entrance exams. The cutoff is released after the declaration of the entrance exam results.";
-export const NITNagpurCollegeLocationSectionContent : string = "NIT Nagpur is located in Nagpur, Maharashtra. The campus is well-connected by road and rail, with the Dr. Babasaheb Ambedkar International Airport and Nagpur Junction Railway Station in close proximity. The city of Nagpur offers a vibrant cultural scene, historical landmarks, and recreational opportunities for students to explore and enjoy.";
-export const NITNagpurCollegeRankingSectionContent : string = "NIT Nagpur, also known as Visvesvaraya National Institute of Technology, is a leading engineering institution in India. Established in 1960, it is located in Nagpur, Maharashtra. NIT Nagpur is renowned for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITNagpurCollegeSeatSectionContent : string = "NIT Nagpur, also known as Visvesvaraya National Institute of Technology, is a leading engineering institution in India. Established in 1960, it is located in Nagpur, Maharashtra. NIT Nagpur is renowned for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
+export const NITNagpurCollegeAboutSectionContent : string =""
+export const NITNagpurCollegeFeeSectionContent : string =""
+export const NITNagpurCollegeAdmissionSectionContent : string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+
+• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+`
+export const NITNagpurCollegeCoursesSectionContent : string =""
+export const NITNagpurCollegePlacementSectionContent : string =""
+export const NITNagpurCollegeCutOffSectionContent : string =""
+export const NITNagpurCollegeLocationSectionContent : string =""
+export const NITNagpurCollegeRankingSectionContent : string =""
+export const NITNagpurCollegeSeatSectionContent : string =""
 
 export const NITDurgapurCollegeNavigationConstants : Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-durgapur-about" },
@@ -110,15 +116,18 @@ export const NITDurgapurCollegeNavigationConstants : Array<INITCollegeNavigation
     { title: "Placements", headingId: "#nit-durgapur-placements" }
 ];
 
-export const NITDurgapurCollegeAboutSectionContent : string = "NIT Durgapur, also known as National Institute of Technology Durgapur, is a premier engineering institution in India. Established in 1960, it is located in Durgapur, West Bengal. NIT Durgapur is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITDurgapurCollegeFeeSectionContent : string = "The fee structure at NIT Durgapur is designed to be affordable while providing quality education. The fees vary depending on the program and category of the student. Scholarships and financial aid are available for eligible students.";
-export const NITDurgapurCollegeAdmissionSectionContent : string = "Admissions to NIT Durgapur are based on national level entrance exams such as JEE Main for undergraduate programs and GATE for postgraduate programs. The institute follows a merit-based selection process.";
-export const NITDurgapurCollegeCoursesSectionContent : string = "NIT Durgapur offers a wide range of courses in engineering, science, and management. The programs are designed to provide students with a strong foundation in their chosen fields and prepare them for successful careers.";
-export const NITDurgapurCollegePlacementSectionContent : string = "NIT Durgapur has a strong placement record with top companies visiting the campus for recruitment. The institute's placement cell provides training and support to students to help them secure job offers.";
-export const NITDurgapurCollegeCutOffSectionContent : string = "The cutoff for admission to NIT Durgapur varies each year based on the number of applicants and the difficulty level of the entrance exams. The cutoff is released after the declaration of the entrance exam results.";
-export const NITDurgapurCollegeLocationSectionContent : string = "NIT Durgapur is located in Durgapur, West Bengal. The campus is well-connected by road and rail, with the Kazi Nazrul Islam Airport and Durgapur Railway Station in close proximity. The city of Durgapur offers a vibrant cultural scene, historical landmarks, and recreational opportunities for students to explore and enjoy.";
-export const NITDurgapurCollegeRankingSectionContent : string = "NIT Durgapur, also known as National Institute of Technology Durgapur, is a premier engineering institution in India. Established in 1960, it is located in Durgapur, West Bengal. NIT Durgapur is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITDurgapurCollegeSeatSectionContent : string = "NIT Durgapur, also known as National Institute of Technology Durgapur, is a premier engineering institution in India. Established in 1960, it is located in Durgapur, West Bengal. NIT Durgapur is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
+export const NITDurgapurCollegeAboutSectionContent : string =""
+export const NITDurgapurCollegeFeeSectionContent : string =""
+export const NITDurgapurCollegeAdmissionSectionContent : string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+
+• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+`
+export const NITDurgapurCollegeCoursesSectionContent : string =""
+export const NITDurgapurCollegePlacementSectionContent : string =""
+export const NITDurgapurCollegeCutOffSectionContent : string =""
+export const NITDurgapurCollegeLocationSectionContent : string =""
+export const NITDurgapurCollegeRankingSectionContent : string =""
+export const NITDurgapurCollegeSeatSectionContent : string =""
 
 export const NITJamshedpurCollegeNavigationConstants : Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-jamshedpur-about" },
@@ -132,15 +141,18 @@ export const NITJamshedpurCollegeNavigationConstants : Array<INITCollegeNavigati
     { title: "Placements", headingId: "#nit-jamshedpur-placements" }
 ];
 
-export const NITJamshedpurCollegeAboutSectionContent : string = "NIT Jamshedpur, also known as National Institute of Technology Jamshedpur, is a leading engineering institution in India. Established in 1960, it is located in Jamshedpur, Jharkhand. NIT Jamshedpur is renowned for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITJamshedpurCollegeFeeSectionContent : string = "The fee structure at NIT Jamshedpur is designed to be affordable while providing quality education. The fees vary depending on the program and category of the student. Scholarships and financial aid are available for eligible students.";
-export const NITJamshedpurCollegeAdmissionSectionContent : string = "Admissions to NIT Jamshedpur are based on national level entrance exams such as JEE Main for undergraduate programs and GATE for postgraduate programs. The institute follows a merit-based selection process.";
-export const NITJamshedpurCollegeCoursesSectionContent : string = "NIT Jamshedpur offers a wide range of courses in engineering, science, and management. The programs are designed to provide students with a strong foundation in their chosen fields and prepare them for successful careers.";
-export const NITJamshedpurCollegePlacementSectionContent : string = "NIT Jamshedpur has a strong placement record with top companies visiting the campus for recruitment. The institute's placement cell provides training and support to students to help them secure job offers.";
-export const NITJamshedpurCollegeCutOffSectionContent : string = "The cutoff for admission to NIT Jamshedpur varies each year based on the number of applicants and the difficulty level of the entrance exams. The cutoff is released after the declaration of the entrance exam results.";
-export const NITJamshedpurCollegeLocationSectionContent : string = "NIT Jamshedpur is located in Jamshedpur, Jharkhand. The campus is well-connected by road and rail, with the Birsa Munda Airport and Tatanagar Junction Railway Station in close proximity. The city of Jamshedpur offers a vibrant cultural scene, historical landmarks, and recreational opportunities for students to explore and enjoy.";
-export const NITJamshedpurCollegeRankingSectionContent : string = "NIT Jamshedpur, also known as National Institute of Technology Jamshedpur, is a leading engineering institution in India. Established in 1960, it is located in Jamshedpur, Jharkhand. NIT Jamshedpur is renowned for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITJamshedpurCollegeSeatSectionContent : string = "NIT Jamshedpur, also known as National Institute of Technology Jamshedpur, is a leading engineering institution in India. Established in 1960, it is located in Jamshedpur, Jharkhand. NIT Jamshedpur is renowned for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
+export const NITJamshedpurCollegeAboutSectionContent : string =""
+export const NITJamshedpurCollegeFeeSectionContent : string =""
+export const NITJamshedpurCollegeAdmissionSectionContent : string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+
+• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+`
+export const NITJamshedpurCollegeCoursesSectionContent : string =""
+export const NITJamshedpurCollegePlacementSectionContent : string =""
+export const NITJamshedpurCollegeCutOffSectionContent : string =""
+export const NITJamshedpurCollegeLocationSectionContent : string =""
+export const NITJamshedpurCollegeRankingSectionContent : string =""
+export const NITJamshedpurCollegeSeatSectionContent : string =""
 
 
 export const NITKarnatakaCollegeNavigationConstants : Array<INITCollegeNavigationConstants> = [
@@ -155,15 +167,18 @@ export const NITKarnatakaCollegeNavigationConstants : Array<INITCollegeNavigatio
     { title: "Placements", headingId: "#nit-karnataka-placements" }
 ];
 
-export const NITKarnatakaCollegeAboutSectionContent : string = "NIT Karnataka, also known as National Institute of Technology Karnataka, is a premier engineering institution in India. Established in 1960, it is located in Surathkal, Karnataka. NIT Karnataka is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITKarnatakaCollegeFeeSectionContent : string = "The fee structure at NIT Karnataka is designed to be affordable while providing quality education. The fees vary depending on the program and category of the student. Scholarships and financial aid are available for eligible students.";
-export const NITKarnatakaCollegeAdmissionSectionContent : string = "Admissions to NIT Karnataka are based on national level entrance exams such as JEE Main for undergraduate programs and GATE for postgraduate programs. The institute follows a merit-based selection process.";
-export const NITKarnatakaCollegeCoursesSectionContent : string = "NIT Karnataka offers a wide range of courses in engineering, science, and management. The programs are designed to provide students with a strong foundation in their chosen fields and prepare them for successful careers.";
-export const NITKarnatakaCollegePlacementSectionContent : string = "NIT Karnataka has a strong placement record with top companies visiting the campus for recruitment. The institute's placement cell provides training and support to students to help them secure job offers.";
-export const NITKarnatakaCollegeCutOffSectionContent : string = "The cutoff for admission to NIT Karnataka varies each year based on the number of applicants and the difficulty level of the entrance exams. The cutoff is released after the declaration of the entrance exam results.";
-export const NITKarnatakaCollegeLocationSectionContent : string = "NIT Karnataka is located in Surathkal, Karnataka. The campus is well-connected by road and rail, with the Mangalore International Airport and Surathkal Railway Station in close proximity. The city of Surathkal offers a vibrant cultural scene, historical landmarks, and recreational opportunities for students to explore and enjoy.";
-export const NITKarnatakaCollegeRankingSectionContent : string = "NIT Karnataka, also known as National Institute of Technology Karnataka, is a premier engineering institution in India. Established in 1960, it is located in Surathkal, Karnataka. NIT Karnataka is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITKarnatakaCollegeSeatSectionContent : string = "NIT Karnataka, also known as National Institute of Technology Karnataka, is a premier engineering institution in India. Established in 1960, it is located in Surathkal, Karnataka. NIT Karnataka is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
+export const NITKarnatakaCollegeAboutSectionContent : string =""
+export const NITKarnatakaCollegeFeeSectionContent : string =""
+export const NITKarnatakaCollegeAdmissionSectionContent : string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+
+• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+`
+export const NITKarnatakaCollegeCoursesSectionContent : string =""
+export const NITKarnatakaCollegePlacementSectionContent : string =""
+export const NITKarnatakaCollegeCutOffSectionContent : string =""
+export const NITKarnatakaCollegeLocationSectionContent : string =""
+export const NITKarnatakaCollegeRankingSectionContent : string =""
+export const NITKarnatakaCollegeSeatSectionContent : string =""
 
 export const NITSrinagarCollegeNavigationConstants : Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-srinagar-about" },
@@ -177,15 +192,18 @@ export const NITSrinagarCollegeNavigationConstants : Array<INITCollegeNavigation
     { title: "Placements", headingId: "#nit-srinagar-placements" }
 ];
 
-export const NITSrinagarCollegeAboutSectionContent : string = "NIT Srinagar, also known as National Institute of Technology Srinagar, is a leading engineering institution in India. Established in 1960, it is located in Srinagar, Jammu and Kashmir. NIT Srinagar is renowned for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITSrinagarCollegeFeeSectionContent : string = "The fee structure at NIT Srinagar is designed to be affordable while providing quality education. The fees vary depending on the program and category of the student. Scholarships and financial aid are available for eligible students.";
-export const NITSrinagarCollegeAdmissionSectionContent : string = "Admissions to NIT Srinagar are based on national level entrance exams such as JEE Main for undergraduate programs and GATE for postgraduate programs. The institute follows a merit-based selection process.";
-export const NITSrinagarCollegeCoursesSectionContent : string = "NIT Srinagar offers a wide range of courses in engineering, science, and management. The programs are designed to provide students with a strong foundation in their chosen fields and prepare them for successful careers.";
-export const NITSrinagarCollegePlacementSectionContent : string = "NIT Srinagar has a strong placement record with top companies visiting the campus for recruitment. The institute's placement cell provides training and support to students to help them secure job offers.";
-export const NITSrinagarCollegeCutOffSectionContent : string = "The cutoff for admission to NIT Srinagar varies each year based on the number of applicants and the difficulty level of the entrance exams. The cutoff is released after the declaration of the entrance exam results.";
-export const NITSrinagarCollegeLocationSectionContent : string = "NIT Srinagar is located in Srinagar, Jammu and Kashmir. The campus is well-connected by road and air, with the Sheikh Ul-Alam International Airport and Srinagar Railway Station in close proximity. The city of Srinagar offers a vibrant cultural scene, historical landmarks, and recreational opportunities for students to explore and enjoy.";
-export const NITSrinagarCollegeRankingSectionContent : string = "NIT Srinagar, also known as National Institute of Technology Srinagar, is a leading engineering institution in India. Established in 1960, it is located in Srinagar, Jammu and Kashmir. NIT Srinagar is renowned for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITSrinagarCollegeSeatSectionContent : string = "NIT Srinagar, also known as National Institute of Technology Srinagar, is a leading engineering institution in India. Established in 1960, it is located in Srinagar, Jammu and Kashmir. NIT Srinagar is renowned for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
+export const NITSrinagarCollegeAboutSectionContent : string =""
+export const NITSrinagarCollegeFeeSectionContent : string =""
+export const NITSrinagarCollegeAdmissionSectionContent : string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+
+• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+`
+export const NITSrinagarCollegeCoursesSectionContent : string =""
+export const NITSrinagarCollegePlacementSectionContent : string =""
+export const NITSrinagarCollegeCutOffSectionContent : string =""
+export const NITSrinagarCollegeLocationSectionContent : string =""
+export const NITSrinagarCollegeRankingSectionContent : string =""
+export const NITSrinagarCollegeSeatSectionContent : string =""
 
 export const NITAllahabadCollegeNavigationConstants : Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-allahabad-about" },
@@ -199,15 +217,18 @@ export const NITAllahabadCollegeNavigationConstants : Array<INITCollegeNavigatio
     { title: "Placements", headingId: "#nit-allahabad-placements" }
 ];
 
-export const NITAllahabadCollegeAboutSectionContent : string = "NIT Allahabad, also known as Motilal Nehru National Institute of Technology, is a premier engineering institution in India. Established in 1961, it is located in Allahabad, Uttar Pradesh. NIT Allahabad is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITAllahabadCollegeFeeSectionContent : string = "The fee structure at NIT Allahabad is designed to be affordable while providing quality education. The fees vary depending on the program and category of the student. Scholarships and financial aid are available for eligible students.";
-export const NITAllahabadCollegeAdmissionSectionContent : string = "Admissions to NIT Allahabad are based on national level entrance exams such as JEE Main for undergraduate programs and GATE for postgraduate programs. The institute follows a merit-based selection process.";
-export const NITAllahabadCollegeCoursesSectionContent : string = "NIT Allahabad offers a wide range of courses in engineering, science, and management. The programs are designed to provide students with a strong foundation in their chosen fields and prepare them for successful careers.";
-export const NITAllahabadCollegePlacementSectionContent : string = "NIT Allahabad has a strong placement record with top companies visiting the campus for recruitment. The institute's placement cell provides training and support to students to help them secure job offers.";
-export const NITAllahabadCollegeCutOffSectionContent : string = "The cutoff for admission to NIT Allahabad varies each year based on the number of applicants and the difficulty level of the entrance exams. The cutoff is released after the declaration of the entrance exam results.";
-export const NITAllahabadCollegeLocationSectionContent : string = "NIT Allahabad is located in Allahabad, Uttar Pradesh. The campus is well-connected by road and rail, with the Allahabad Airport and Allahabad Junction Railway Station in close proximity. The city of Allahabad offers a vibrant cultural scene, historical landmarks, and recreational opportunities for students to explore and enjoy.";
-export const NITAllahabadCollegeRankingSectionContent : string = "NIT Allahabad, also known as Motilal Nehru National Institute of Technology, is a premier engineering institution in India. Established in 1961, it is located in Allahabad, Uttar Pradesh. NIT Allahabad is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITAllahabadCollegeSeatSectionContent : string = "NIT Allahabad, also known as Motilal Nehru National Institute of Technology, is a premier engineering institution in India. Established in 1961, it is located in Allahabad, Uttar Pradesh. NIT Allahabad is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
+export const NITAllahabadCollegeAboutSectionContent : string =""
+export const NITAllahabadCollegeFeeSectionContent : string =""
+export const NITAllahabadCollegeAdmissionSectionContent : string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+
+• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+`
+export const NITAllahabadCollegeCoursesSectionContent : string =""
+export const NITAllahabadCollegePlacementSectionContent : string =""
+export const NITAllahabadCollegeCutOffSectionContent : string =""
+export const NITAllahabadCollegeLocationSectionContent : string =""
+export const NITAllahabadCollegeRankingSectionContent : string =""
+export const NITAllahabadCollegeSeatSectionContent : string =""
 
 export const NITSuratCollegeNavigationConstants : Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-surat-about" },
@@ -221,14 +242,17 @@ export const NITSuratCollegeNavigationConstants : Array<INITCollegeNavigationCon
     { title: "Placements", headingId: "#nit-surat-placements" }
 ];
 
-export const NITSuratCollegeAboutSectionContent : string = "NIT Surat, also known as Sardar Vallabhbhai National Institute of Technology, is a leading engineering institution in India. Established in 1961, it is located in Surat, Gujarat. NIT Surat is renowned for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITSuratCollegeFeeSectionContent : string = "The fee structure at NIT Surat is designed to be affordable while providing quality education. The fees vary depending on the program and category of the student. Scholarships and financial aid are available for eligible students.";
-export const NITSuratCollegeAdmissionSectionContent : string = "Admissions to NIT Surat are based on national level entrance exams such as JEE Main for undergraduate programs and GATE for postgraduate programs. The institute follows a merit-based selection process.";
-export const NITSuratCollegeCoursesSectionContent : string = "NIT Surat offers a wide range of courses in engineering, science, and management. The programs are designed to provide students with a strong foundation in their chosen fields and prepare them for successful careers.";
-export const NITSuratCollegePlacementSectionContent : string = "NIT Surat has a strong placement record with top companies visiting the campus for recruitment. The institute's placement cell provides training and support to students to help them secure job offers.";
-export const NITSuratCollegeCutOffSectionContent : string = "The cutoff for admission to NIT Surat varies each year based on the number of applicants and the difficulty level of the entrance exams. The cutoff is released after the declaration of the entrance exam results.";
-export const NITSuratCollegeLocationSectionContent : string = "NIT Surat is located in Surat, Gujarat. The campus is well-connected by road and rail, with the Surat Airport and Surat Railway Station in close proximity. The city of Surat offers a vibrant cultural scene, historical landmarks, and recreational opportunities for students to explore and enjoy.";
-export const NITSuratCollegeRankingSectionContent : string = "NIT Surat, also known as Sardar Vallabhbhai National Institute of Technology, is a leading engineering institution in India. Established in 1961, it is located in Surat, Gujarat. NIT Surat is renowned for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
+export const NITSuratCollegeAboutSectionContent : string =""
+export const NITSuratCollegeFeeSectionContent : string =""
+export const NITSuratCollegeAdmissionSectionContent : string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+
+• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+`
+export const NITSuratCollegeCoursesSectionContent : string =""
+export const NITSuratCollegePlacementSectionContent : string =""
+export const NITSuratCollegeCutOffSectionContent : string =""
+export const NITSuratCollegeLocationSectionContent : string =""
+export const NITSuratCollegeRankingSectionContent : string =""
 
 export const NITCalicutCollegeNavigationConstants : Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-calicut-about" },
@@ -242,15 +266,18 @@ export const NITCalicutCollegeNavigationConstants : Array<INITCollegeNavigationC
     { title: "Placements", headingId: "#nit-calicut-placements" }
 ];
 
-export const NITCalicutCollegeAboutSectionContent : string = "NIT Calicut, also known as National Institute of Technology Calicut, is a premier engineering institution in India. Established in 1961, it is located in Calicut, Kerala. NIT Calicut is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITCalicutCollegeFeeSectionContent : string = "The fee structure at NIT Calicut is designed to be affordable while providing quality education. The fees vary depending on the program and category of the student. Scholarships and financial aid are available for eligible students.";
-export const NITCalicutCollegeAdmissionSectionContent : string = "Admissions to NIT Calicut are based on national level entrance exams such as JEE Main for undergraduate programs and GATE for postgraduate programs. The institute follows a merit-based selection process.";
-export const NITCalicutCollegeCoursesSectionContent : string = "NIT Calicut offers a wide range of courses in engineering, science, and management. The programs are designed to provide students with a strong foundation in their chosen fields and prepare them for successful careers.";
-export const NITCalicutCollegePlacementSectionContent : string = "NIT Calicut has a strong placement record with top companies visiting the campus for recruitment. The institute's placement cell provides training and support to students to help them secure job offers.";
-export const NITCalicutCollegeCutOffSectionContent : string = "The cutoff for admission to NIT Calicut varies each year based on the number of applicants and the difficulty level of the entrance exams. The cutoff is released after the declaration of the entrance exam results.";
-export const NITCalicutCollegeLocationSectionContent : string = "NIT Calicut is located in Calicut, Kerala. The campus is well-connected by road and rail, with the Calicut International Airport and Calicut Railway Station in close proximity. The city of Calicut offers a vibrant cultural scene, historical landmarks, and recreational opportunities for students to explore and enjoy.";
-export const NITCalicutCollegeRankingSectionContent : string = "NIT Calicut, also known as National Institute of Technology Calicut, is a premier engineering institution in India. Established in 1961, it is located in Calicut, Kerala. NIT Calicut is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITCalicutCollegeSeatSectionContent : string = "NIT Calicut, also known as National Institute of Technology Calicut, is a premier engineering institution in India. Established in 1961, it is located in Calicut, Kerala. NIT Calicut is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
+export const NITCalicutCollegeAboutSectionContent : string =""
+export const NITCalicutCollegeFeeSectionContent : string =""
+export const NITCalicutCollegeAdmissionSectionContent : string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+
+• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+`
+export const NITCalicutCollegeCoursesSectionContent : string =""
+export const NITCalicutCollegePlacementSectionContent : string =""
+export const NITCalicutCollegeCutOffSectionContent : string =""
+export const NITCalicutCollegeLocationSectionContent : string =""
+export const NITCalicutCollegeRankingSectionContent : string =""
+export const NITCalicutCollegeSeatSectionContent : string =""
 
 export const NITRourkelaCollegeNavigationConstants : Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-rourkela-about" },
@@ -264,15 +291,18 @@ export const NITRourkelaCollegeNavigationConstants : Array<INITCollegeNavigation
     { title: "Placements", headingId: "#nit-rourkela-placements" }
 ];
 
-export const NITRourkelaCollegeAboutSectionContent : string = "NIT Rourkela, also known as National Institute of Technology Rourkela, is a premier engineering institution in India. Established in 1961, it is located in Rourkela, Odisha. NIT Rourkela is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITRourkelaCollegeFeeSectionContent : string = "The fee structure at NIT Rourkela is designed to be affordable while providing quality education. The fees vary depending on the program and category of the student. Scholarships and financial aid are available for eligible students.";
-export const NITRourkelaCollegeAdmissionSectionContent : string = "Admissions to NIT Rourkela are based on national level entrance exams such as JEE Main for undergraduate programs and GATE for postgraduate programs. The institute follows a merit-based selection process.";
-export const NITRourkelaCollegeCoursesSectionContent : string = "NIT Rourkela offers a wide range of courses in engineering, science, and management. The programs are designed to provide students with a strong foundation in their chosen fields and prepare them for successful careers.";
-export const NITRourkelaCollegePlacementSectionContent : string = "NIT Rourkela has a strong placement record with top companies visiting the campus for recruitment. The institute's placement cell provides training and support to students to help them secure job offers.";
-export const NITRourkelaCollegeCutOffSectionContent : string = "The cutoff for admission to NIT Rourkela varies each year based on the number of applicants and the difficulty level of the entrance exams. The cutoff is released after the declaration of the entrance exam results.";
-export const NITRourkelaCollegeLocationSectionContent : string = "NIT Rourkela is located in Rourkela, Odisha. The campus is well-connected by road and rail, with the Rourkela Airport and Rourkela Junction Railway Station in close proximity. The city of Rourkela offers a vibrant cultural scene, historical landmarks, and recreational opportunities for students to explore and enjoy.";
-export const NITRourkelaCollegeRankingSectionContent : string = "NIT Rourkela, also known as National Institute of Technology Rourkela, is a premier engineering institution in India. Established in 1961, it is located in Rourkela, Odisha. NIT Rourkela is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITRourkelaCollegeSeatSectionContent : string = "NIT Rourkela, also known as National Institute of Technology Rourkela, is a premier engineering institution in India. Established in 1961, it is located in Rourkela, Odisha. NIT Rourkela is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
+export const NITRourkelaCollegeAboutSectionContent : string =""
+export const NITRourkelaCollegeFeeSectionContent : string =""
+export const NITRourkelaCollegeAdmissionSectionContent : string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+
+• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+`
+export const NITRourkelaCollegeCoursesSectionContent : string =""
+export const NITRourkelaCollegePlacementSectionContent : string =""
+export const NITRourkelaCollegeCutOffSectionContent : string =""
+export const NITRourkelaCollegeLocationSectionContent : string =""
+export const NITRourkelaCollegeRankingSectionContent : string =""
+export const NITRourkelaCollegeSeatSectionContent : string =""
 
 export const NITJaipurCollegeNavigationConstants : Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-jaipur-about" },
@@ -286,15 +316,18 @@ export const NITJaipurCollegeNavigationConstants : Array<INITCollegeNavigationCo
     { title: "Placements", headingId: "#nit-jaipur-placements" }
 ];
 
-export const NITJaipurCollegeAboutSectionContent : string = "NIT Jaipur, also known as Malaviya National Institute of Technology Jaipur, is a leading engineering institution in India. Established in 1963, it is located in Jaipur, Rajasthan. NIT Jaipur is renowned for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITJaipurCollegeFeeSectionContent : string = "The fee structure at NIT Jaipur is designed to be affordable while providing quality education. The fees vary depending on the program and category of the student. Scholarships and financial aid are available for eligible students.";
-export const NITJaipurCollegeAdmissionSectionContent : string = "Admissions to NIT Jaipur are based on national level entrance exams such as JEE Main for undergraduate programs and GATE for postgraduate programs. The institute follows a merit-based selection process.";
-export const NITJaipurCollegeCoursesSectionContent : string = "NIT Jaipur offers a wide range of courses in engineering, science, and management. The programs are designed to provide students with a strong foundation in their chosen fields and prepare them for successful careers.";
-export const NITJaipurCollegePlacementSectionContent : string = "NIT Jaipur has a strong placement record with top companies visiting the campus for recruitment. The institute's placement cell provides training and support to students to help them secure job offers.";
-export const NITJaipurCollegeCutOffSectionContent : string = "The cutoff for admission to NIT Jaipur varies each year based on the number of applicants and the difficulty level of the entrance exams. The cutoff is released after the declaration of the entrance exam results.";
-export const NITJaipurCollegeLocationSectionContent : string = "NIT Jaipur is located in Jaipur, Rajasthan. The campus is well-connected by road and rail, with the Jaipur International Airport and Jaipur Junction Railway Station in close proximity. The city of Jaipur offers a vibrant cultural scene, historical landmarks, and recreational opportunities for students to explore and enjoy.";
-export const NITJaipurCollegeRankingSectionContent : string = "NIT Jaipur, also known as Malaviya National Institute of Technology Jaipur, is a leading engineering institution in India. Established in 1963, it is located in Jaipur, Rajasthan. NIT Jaipur is renowned for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITJaipurCollegeSeatSectionContent : string = "NIT Jaipur, also known as Malaviya National Institute of Technology Jaipur, is a leading engineering institution in India. Established in 1963, it is located in Jaipur, Rajasthan. NIT Jaipur is renowned for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
+export const NITJaipurCollegeAboutSectionContent : string =""
+export const NITJaipurCollegeFeeSectionContent : string =""
+export const NITJaipurCollegeAdmissionSectionContent : string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+
+• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+`
+export const NITJaipurCollegeCoursesSectionContent : string =""
+export const NITJaipurCollegePlacementSectionContent : string =""
+export const NITJaipurCollegeCutOffSectionContent : string =""
+export const NITJaipurCollegeLocationSectionContent : string =""
+export const NITJaipurCollegeRankingSectionContent : string =""
+export const NITJaipurCollegeSeatSectionContent : string =""
 
 export const NITKurukshetraCollegeNavigationConstants : Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-kurukshetra-about" },
@@ -308,15 +341,18 @@ export const NITKurukshetraCollegeNavigationConstants : Array<INITCollegeNavigat
     { title: "Placements", headingId: "#nit-kurukshetra-placements" }
 ];
 
-export const NITKurukshetraCollegeAboutSectionContent : string = "NIT Kurukshetra, also known as National Institute of Technology Kurukshetra, is a premier engineering institution in India. Established in 1963, it is located in Kurukshetra, Haryana. NIT Kurukshetra is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITKurukshetraCollegeFeeSectionContent : string = "The fee structure at NIT Kurukshetra is designed to be affordable while providing quality education. The fees vary depending on the program and category of the student. Scholarships and financial aid are available for eligible students.";
-export const NITKurukshetraCollegeAdmissionSectionContent : string = "Admissions to NIT Kurukshetra are based on national level entrance exams such as JEE Main for undergraduate programs and GATE for postgraduate programs. The institute follows a merit-based selection process.";
-export const NITKurukshetraCollegeCoursesSectionContent : string = "NIT Kurukshetra offers a wide range of courses in engineering, science, and management. The programs are designed to provide students with a strong foundation in their chosen fields and prepare them for successful careers.";
-export const NITKurukshetraCollegePlacementSectionContent : string = "NIT Kurukshetra has a strong placement record with top companies visiting the campus for recruitment. The institute's placement cell provides training and support to students to help them secure job offers.";
-export const NITKurukshetraCollegeCutOffSectionContent : string = "The cutoff for admission to NIT Kurukshetra varies each year based on the number of applicants and the difficulty level of the entrance exams. The cutoff is released after the declaration of the entrance exam results.";
-export const NITKurukshetraCollegeLocationSectionContent : string = "NIT Kurukshetra is located in Kurukshetra, Haryana. The campus is well-connected by road and rail, with the Chandigarh International Airport and Kurukshetra Junction Railway Station in close proximity. The city of Kurukshetra offers a vibrant cultural scene, historical landmarks, and recreational opportunities for students to explore and enjoy.";
-export const NITKurukshetraCollegeRankingSectionContent : string = "NIT Kurukshetra, also known as National Institute of Technology Kurukshetra, is a premier engineering institution in India. Established in 1963, it is located in Kurukshetra, Haryana. NIT Kurukshetra is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITKurukshetraCollegeSeatSectionContent : string = "NIT Kurukshetra, also known as National Institute of Technology Kurukshetra, is a premier engineering institution in India. Established in 1963, it is located in Kurukshetra, Haryana. NIT Kurukshetra is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
+export const NITKurukshetraCollegeAboutSectionContent : string =""
+export const NITKurukshetraCollegeFeeSectionContent : string =""
+export const NITKurukshetraCollegeAdmissionSectionContent : string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+
+• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+`
+export const NITKurukshetraCollegeCoursesSectionContent : string =""
+export const NITKurukshetraCollegePlacementSectionContent : string =""
+export const NITKurukshetraCollegeCutOffSectionContent : string =""
+export const NITKurukshetraCollegeLocationSectionContent : string =""
+export const NITKurukshetraCollegeRankingSectionContent : string =""
+export const NITKurukshetraCollegeSeatSectionContent : string =""
 
 export const NITTiruchirappalliCollegeNavigationConstants : Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-tiruchirappalli-about" },
@@ -330,15 +366,18 @@ export const NITTiruchirappalliCollegeNavigationConstants : Array<INITCollegeNav
     { title: "Placements", headingId: "#nit-tiruchirappalli-placements" }
 ];
 
-export const NITTiruchirappalliCollegeAboutSectionContent : string = "NIT Tiruchirappalli, also known as National Institute of Technology Tiruchirappalli, is a leading engineering institution in India. Established in 1964, it is located in Tiruchirappalli, Tamil Nadu. NIT Tiruchirappalli is renowned for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITTiruchirappalliCollegeFeeSectionContent : string = "The fee structure at NIT Tiruchirappalli is designed to be affordable while providing quality education. The fees vary depending on the program and category of the student. Scholarships and financial aid are available for eligible students.";
-export const NITTiruchirappalliCollegeAdmissionSectionContent : string = "Admissions to NIT Tiruchirappalli are based on national level entrance exams such as JEE Main for undergraduate programs and GATE for postgraduate programs. The institute follows a merit-based selection process.";
-export const NITTiruchirappalliCollegeCoursesSectionContent : string = "NIT Tiruchirappalli offers a wide range of courses in engineering, science, and management. The programs are designed to provide students with a strong foundation in their chosen fields and prepare them for successful careers.";
-export const NITTiruchirappalliCollegePlacementSectionContent : string = "NIT Tiruchirappalli has a strong placement record with top companies visiting the campus for recruitment. The institute's placement cell provides training and support to students to help them secure job offers.";
-export const NITTiruchirappalliCollegeCutOffSectionContent : string = "The cutoff for admission to NIT Tiruchirappalli varies each year based on the number of applicants and the difficulty level of the entrance exams. The cutoff is released after the declaration of the entrance exam results.";
-export const NITTiruchirappalliCollegeLocationSectionContent : string = "NIT Tiruchirappalli is located in Tiruchirappalli, Tamil Nadu. The campus is well-connected by road and rail, with the Tiruchirappalli International Airport and Tiruchirappalli Junction Railway Station in close proximity. The city of Tiruchirappalli offers a vibrant cultural scene, historical landmarks, and recreational opportunities for students to explore and enjoy.";
-export const NITTiruchirappalliCollegeRankingSectionContent : string = "NIT Tiruchirappalli, also known as National Institute of Technology Tiruchirappalli, is a leading engineering institution in India. Established in 1964, it is located in Tiruchirappalli, Tamil Nadu. NIT Tiruchirappalli is renowned for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITTiruchirappalliCollegeSeatSectionContent : string = "NIT Tiruchirappalli, also known as National Institute of Technology Tiruchirappalli, is a leading engineering institution in India. Established in 1964, it is located in Tiruchirappalli, Tamil Nadu. NIT Tiruchirappalli is renowned for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
+export const NITTiruchirappalliCollegeAboutSectionContent : string =""
+export const NITTiruchirappalliCollegeFeeSectionContent : string =""
+export const NITTiruchirappalliCollegeAdmissionSectionContent : string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+
+• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+`
+export const NITTiruchirappalliCollegeCoursesSectionContent : string =""
+export const NITTiruchirappalliCollegePlacementSectionContent : string =""
+export const NITTiruchirappalliCollegeCutOffSectionContent : string =""
+export const NITTiruchirappalliCollegeLocationSectionContent : string =""
+export const NITTiruchirappalliCollegeRankingSectionContent : string =""
+export const NITTiruchirappalliCollegeSeatSectionContent : string =""
 
 
 export const NITSilcharCollegeNavigationConstants : Array<INITCollegeNavigationConstants> = [
@@ -353,15 +392,18 @@ export const NITSilcharCollegeNavigationConstants : Array<INITCollegeNavigationC
     { title: "Placements", headingId: "#nit-silchar-placements" }
 ];
 
-export const NITSilcharCollegeAboutSectionContent : string = "NIT Silchar, also known as National Institute of Technology Silchar, is a premier engineering institution in India. Established in 1967, it is located in Silchar, Assam. NIT Silchar is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITSilcharCollegeFeeSectionContent : string = "The fee structure at NIT Silchar is designed to be affordable while providing quality education. The fees vary depending on the program and category of the student. Scholarships and financial aid are available for eligible students.";
-export const NITSilcharCollegeAdmissionSectionContent : string = "Admissions to NIT Silchar are based on national level entrance exams such as JEE Main for undergraduate programs and GATE for postgraduate programs. The institute follows a merit-based selection process.";
-export const NITSilcharCollegeCoursesSectionContent : string = "NIT Silchar offers a wide range of courses in engineering, science, and management. The programs are designed to provide students with a strong foundation in their chosen fields and prepare them for successful careers.";
-export const NITSilcharCollegePlacementSectionContent : string = "NIT Silchar has a strong placement record with top companies visiting the campus for recruitment. The institute's placement cell provides training and support to students to help them secure job offers.";
-export const NITSilcharCollegeCutOffSectionContent : string = "The cutoff for admission to NIT Silchar varies each year based on the number of applicants and the difficulty level of the entrance exams. The cutoff is released after the declaration of the entrance exam results.";
-export const NITSilcharCollegeLocationSectionContent : string = "NIT Silchar is located in Silchar, Assam. The campus is well-connected by road and rail, with the Silchar Airport and Silchar Junction Railway Station in close proximity. The city of Silchar offers a vibrant cultural scene, historical landmarks, and recreational opportunities for students to explore and enjoy.";
-export const NITSilcharCollegeRankingSectionContent : string = "NIT Silchar, also known as National Institute of Technology Silchar, is a premier engineering institution in India. Established in 1967, it is located in Silchar, Assam. NIT Silchar is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITSilcharCollegeSeatSectionContent : string = "NIT Silchar, also known as National Institute of Technology Silchar, is a premier engineering institution in India. Established in 1967, it is located in Silchar, Assam. NIT Silchar is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
+export const NITSilcharCollegeAboutSectionContent : string =""
+export const NITSilcharCollegeFeeSectionContent : string =""
+export const NITSilcharCollegeAdmissionSectionContent : string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+
+• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+`
+export const NITSilcharCollegeCoursesSectionContent : string =""
+export const NITSilcharCollegePlacementSectionContent : string =""
+export const NITSilcharCollegeCutOffSectionContent : string =""
+export const NITSilcharCollegeLocationSectionContent : string =""
+export const NITSilcharCollegeRankingSectionContent : string =""
+export const NITSilcharCollegeSeatSectionContent : string =""
 
 
 export const NITHamirpurCollegeNavigationConstants : Array<INITCollegeNavigationConstants> = [
@@ -376,15 +418,18 @@ export const NITHamirpurCollegeNavigationConstants : Array<INITCollegeNavigation
     { title: "Placements", headingId: "#nit-hamirpur-placements" }
 ];
 
-export const NITHamirpurCollegeAboutSectionContent : string = "NIT Hamirpur, also known as National Institute of Technology Hamirpur, is a premier engineering institution in India. Established in 1986, it is located in Hamirpur, Himachal Pradesh. NIT Hamirpur is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITHamirpurCollegeFeeSectionContent : string = "The fee structure at NIT Hamirpur is designed to be affordable while providing quality education. The fees vary depending on the program and category of the student. Scholarships and financial aid are available for eligible students.";
-export const NITHamirpurCollegeAdmissionSectionContent : string = "Admissions to NIT Hamirpur are based on national level entrance exams such as JEE Main for undergraduate programs and GATE for postgraduate programs. The institute follows a merit-based selection process.";
-export const NITHamirpurCollegeCoursesSectionContent : string = "NIT Hamirpur offers a wide range of courses in engineering, science, and management. The programs are designed to provide students with a strong foundation in their chosen fields and prepare them for successful careers.";
-export const NITHamirpurCollegePlacementSectionContent : string = "NIT Hamirpur has a strong placement record with top companies visiting the campus for recruitment. The institute's placement cell provides training and support to students to help them secure job offers.";
-export const NITHamirpurCollegeCutOffSectionContent : string = "The cutoff for admission to NIT Hamirpur varies each year based on the number of applicants and the difficulty level of the entrance exams. The cutoff is released after the declaration of the entrance exam results.";
-export const NITHamirpurCollegeLocationSectionContent : string = "NIT Hamirpur is located in Hamirpur, Himachal Pradesh. The campus is well-connected by road and rail, with the Kangra Airport and Kangra Railway Station in close proximity. The city of Hamirpur offers a vibrant cultural scene, historical landmarks, and recreational opportunities for students to explore and enjoy.";
-export const NITHamirpurCollegeRankingSectionContent : string = "NIT Hamirpur, also known as National Institute of Technology Hamirpur, is a premier engineering institution in India. Established in 1986, it is located in Hamirpur, Himachal Pradesh. NIT Hamirpur is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITHamirpurCollegeSeatSectionContent : string = "NIT Hamirpur, also known as National Institute of Technology Hamirpur, is a premier engineering institution in India. Established in 1986, it is located in Hamirpur, Himachal Pradesh. NIT Hamirpur is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
+export const NITHamirpurCollegeAboutSectionContent : string =""
+export const NITHamirpurCollegeFeeSectionContent : string =""
+export const NITHamirpurCollegeAdmissionSectionContent : string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+
+• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+`
+export const NITHamirpurCollegeCoursesSectionContent : string =""
+export const NITHamirpurCollegePlacementSectionContent : string =""
+export const NITHamirpurCollegeCutOffSectionContent : string =""
+export const NITHamirpurCollegeLocationSectionContent : string =""
+export const NITHamirpurCollegeRankingSectionContent : string =""
+export const NITHamirpurCollegeSeatSectionContent : string =""
 
 export const NITJalandharCollegeNavigationConstants : Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-jalandhar-about" },
@@ -398,15 +443,18 @@ export const NITJalandharCollegeNavigationConstants : Array<INITCollegeNavigatio
     { title: "Placements", headingId: "#nit-jalandhar-placements" }
 ];
 
-export const NITJalandharCollegeAboutSectionContent : string = "NIT Jalandhar, also known as Dr. B R Ambedkar National Institute of Technology Jalandhar, is a leading engineering institution in India. Established in 1987, it is located in Jalandhar, Punjab. NIT Jalandhar is renowned for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITJalandharCollegeFeeSectionContent : string = "The fee structure at NIT Jalandhar is designed to be affordable while providing quality education. The fees vary depending on the program and category of the student. Scholarships and financial aid are available for eligible students.";
-export const NITJalandharCollegeAdmissionSectionContent : string = "Admissions to NIT Jalandhar are based on national level entrance exams such as JEE Main for undergraduate programs and GATE for postgraduate programs. The institute follows a merit-based selection process.";
-export const NITJalandharCollegeCoursesSectionContent : string = "NIT Jalandhar offers a wide range of courses in engineering, science, and management. The programs are designed to provide students with a strong foundation in their chosen fields and prepare them for successful careers.";
-export const NITJalandharCollegePlacementSectionContent : string = "NIT Jalandhar has a strong placement record with top companies visiting the campus for recruitment. The institute's placement cell provides training and support to students to help them secure job offers.";
-export const NITJalandharCollegeCutOffSectionContent : string = "The cutoff for admission to NIT Jalandhar varies each year based on the number of applicants and the difficulty level of the entrance exams. The cutoff is released after the declaration of the entrance exam results.";
-export const NITJalandharCollegeLocationSectionContent : string = "NIT Jalandhar is located in Jalandhar, Punjab. The campus is well-connected by road and rail, with the Adampur Airport and Jalandhar Junction Railway Station in close proximity. The city of Jalandhar offers a vibrant cultural scene, historical landmarks, and recreational opportunities for students to explore and enjoy.";
-export const NITJalandharCollegeRankingSectionContent : string = "NIT Jalandhar, also known as Dr. B R Ambedkar National Institute of Technology Jalandhar, is a leading engineering institution in India. Established in 1987, it is located in Jalandhar, Punjab. NIT Jalandhar is renowned for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITJalandharCollegeSeatSectionContent : string = "NIT Jalandhar, also known as Dr. B R Ambedkar National Institute of Technology Jalandhar, is a leading engineering institution in India. Established in 1987, it is located in Jalandhar, Punjab. NIT Jalandhar is renowned for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
+export const NITJalandharCollegeAboutSectionContent : string =""
+export const NITJalandharCollegeFeeSectionContent : string =""
+export const NITJalandharCollegeAdmissionSectionContent : string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+
+• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+`
+export const NITJalandharCollegeCoursesSectionContent : string =""
+export const NITJalandharCollegePlacementSectionContent : string =""
+export const NITJalandharCollegeCutOffSectionContent : string =""
+export const NITJalandharCollegeLocationSectionContent : string =""
+export const NITJalandharCollegeRankingSectionContent : string =""
+export const NITJalandharCollegeSeatSectionContent : string =""
 
 export const NITPatnaCollegeNavigationConstants : Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-patna-about" },
@@ -420,15 +468,18 @@ export const NITPatnaCollegeNavigationConstants : Array<INITCollegeNavigationCon
     { title: "Placements", headingId: "#nit-patna-placements" }
 ];
 
-export const NITPatnaCollegeAboutSectionContent : string = "NIT Patna, also known as National Institute of Technology Patna, is a premier engineering institution in India. Established in 1886, it is located in Patna, Bihar. NIT Patna is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITPatnaCollegeFeeSectionContent : string = "The fee structure at NIT Patna is designed to be affordable while providing quality education. The fees vary depending on the program and category of the student. Scholarships and financial aid are available for eligible students.";
-export const NITPatnaCollegeAdmissionSectionContent : string = "Admissions to NIT Patna are based on national level entrance exams such as JEE Main for undergraduate programs and GATE for postgraduate programs. The institute follows a merit-based selection process.";
-export const NITPatnaCollegeCoursesSectionContent : string = "NIT Patna offers a wide range of courses in engineering, science, and management. The programs are designed to provide students with a strong foundation in their chosen fields and prepare them for successful careers.";
-export const NITPatnaCollegePlacementSectionContent : string = "NIT Patna has a strong placement record with top companies visiting the campus for recruitment. The institute's placement cell provides training and support to students to help them secure job offers.";
-export const NITPatnaCollegeCutOffSectionContent : string = "The cutoff for admission to NIT Patna varies each year based on the number of applicants and the difficulty level of the entrance exams. The cutoff is released after the declaration of the entrance exam results.";
-export const NITPatnaCollegeLocationSectionContent : string = "NIT Patna is located in Patna, Bihar. The campus is well-connected by road and rail, with the Patna Airport and Patna Junction Railway Station in close proximity. The city of Patna offers a vibrant cultural scene, historical landmarks, and recreational opportunities for students to explore and enjoy.";
-export const NITPatnaCollegeRankingSectionContent : string = "NIT Patna, also known as National Institute of Technology Patna, is a premier engineering institution in India. Established in 1886, it is located in Patna, Bihar. NIT Patna is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITPatnaCollegeSeatSectionContent : string = "NIT Patna, also known as National Institute of Technology Patna, is a premier engineering institution in India. Established in 1886, it is located in Patna, Bihar. NIT Patna is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
+export const NITPatnaCollegeAboutSectionContent : string =""
+export const NITPatnaCollegeFeeSectionContent : string =""
+export const NITPatnaCollegeAdmissionSectionContent : string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+
+• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+`
+export const NITPatnaCollegeCoursesSectionContent : string =""
+export const NITPatnaCollegePlacementSectionContent : string =""
+export const NITPatnaCollegeCutOffSectionContent : string =""
+export const NITPatnaCollegeLocationSectionContent : string =""
+export const NITPatnaCollegeRankingSectionContent : string =""
+export const NITPatnaCollegeSeatSectionContent : string =""
 
 export const NITRaipurCollegeNavigationConstants : Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-raipur-about" },
@@ -442,15 +493,18 @@ export const NITRaipurCollegeNavigationConstants : Array<INITCollegeNavigationCo
     { title: "Placements", headingId: "#nit-raipur-placements" }
 ];
 
-export const NITRaipurCollegeAboutSectionContent : string = "NIT Raipur, also known as National Institute of Technology Raipur, is a leading engineering institution in India. Established in 1956, it is located in Raipur, Chhattisgarh. NIT Raipur is renowned for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITRaipurCollegeFeeSectionContent : string = "The fee structure at NIT Raipur is designed to be affordable while providing quality education. The fees vary depending on the program and category of the student. Scholarships and financial aid are available for eligible students.";
-export const NITRaipurCollegeAdmissionSectionContent : string = "Admissions to NIT Raipur are based on national level entrance exams such as JEE Main for undergraduate programs and GATE for postgraduate programs. The institute follows a merit-based selection process.";
-export const NITRaipurCollegeCoursesSectionContent : string = "NIT Raipur offers a wide range of courses in engineering, science, and management. The programs are designed to provide students with a strong foundation in their chosen fields and prepare them for successful careers.";
-export const NITRaipurCollegePlacementSectionContent : string = "NIT Raipur has a strong placement record with top companies visiting the campus for recruitment. The institute's placement cell provides training and support to students to help them secure job offers.";
-export const NITRaipurCollegeCutOffSectionContent : string = "The cutoff for admission to NIT Raipur varies each year based on the number of applicants and the difficulty level of the entrance exams. The cutoff is released after the declaration of the entrance exam results.";
-export const NITRaipurCollegeLocationSectionContent : string = "NIT Raipur is located in Raipur, Chhattisgarh. The campus is well-connected by road and rail, with the Raipur Airport and Raipur Junction Railway Station in close proximity. The city of Raipur offers a vibrant cultural scene, historical landmarks, and recreational opportunities for students to explore and enjoy.";
-export const NITRaipurCollegeRankingSectionContent : string = "NIT Raipur, also known as National Institute of Technology Raipur, is a leading engineering institution in India. Established in 1956, it is located in Raipur, Chhattisgarh. NIT Raipur is renowned for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITRaipurCollegeSeatSectionContent : string = "NIT Raipur, also known as National Institute of Technology Raipur, is a leading engineering institution in India. Established in 1956, it is located in Raipur, Chhattisgarh. NIT Raipur is renowned for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
+export const NITRaipurCollegeAboutSectionContent : string =""
+export const NITRaipurCollegeFeeSectionContent : string =""
+export const NITRaipurCollegeAdmissionSectionContent : string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+
+• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+`
+export const NITRaipurCollegeCoursesSectionContent : string =""
+export const NITRaipurCollegePlacementSectionContent : string =""
+export const NITRaipurCollegeCutOffSectionContent : string =""
+export const NITRaipurCollegeLocationSectionContent : string =""
+export const NITRaipurCollegeRankingSectionContent : string =""
+export const NITRaipurCollegeSeatSectionContent : string =""
 
 export const NITAgartalaCollegeNavigationConstants : Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-agartala-about" },
@@ -464,14 +518,17 @@ export const NITAgartalaCollegeNavigationConstants : Array<INITCollegeNavigation
     { title: "Placements", headingId: "#nit-agartala-placements" }
 ];
 
-export const NITAgartalaCollegeAboutSectionContent : string = "NIT Agartala, also known as National Institute of Technology Agartala, is a premier engineering institution in India. Established in 1965, it is located in Agartala, Tripura. NIT Agartala is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITAgartalaCollegeFeeSectionContent : string = "The fee structure at NIT Agartala is designed to be affordable while providing quality education. The fees vary depending on the program and category of the student. Scholarships and financial aid are available for eligible students.";
-export const NITAgartalaCollegeAdmissionSectionContent : string = "Admissions to NIT Agartala are based on national level entrance exams such as JEE Main for undergraduate programs and GATE for postgraduate programs. The institute follows a merit-based selection process.";
-export const NITAgartalaCollegeCoursesSectionContent : string = "NIT Agartala offers a wide range of courses in engineering, science, and management. The programs are designed to provide students with a strong foundation in their chosen fields and prepare them for successful careers.";
-export const NITAgartalaCollegePlacementSectionContent : string = "NIT Agartala has a strong placement record with top companies visiting the campus for recruitment. The institute's placement cell provides training and support to students to help them secure job offers.";
-export const NITAgartalaCollegeCutOffSectionContent : string = "The cutoff for admission to NIT Agartala varies each year based on the number of applicants and the difficulty level of the entrance exams. The cutoff is released after the declaration of the entrance exam results.";
-export const NITAgartalaCollegeLocationSectionContent : string = "NIT Agartala is located in Agartala, Tripura. The campus is well-connected by road and rail, with the Agartala Airport and Agartala Junction Railway Station in close proximity. The city of Agartala offers a vibrant cultural scene, historical landmarks, and recreational opportunities for students to explore and enjoy.";
-export const NITAgartalaCollegeRankingSectionContent : string = "NIT Agartala, also known as National Institute of Technology Agartala, is a premier engineering institution in India. Established in 1965, it is located in Agartala, Tripura. NIT Agartala is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
+export const NITAgartalaCollegeAboutSectionContent : string =""
+export const NITAgartalaCollegeFeeSectionContent : string =""
+export const NITAgartalaCollegeAdmissionSectionContent : string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+
+• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+`
+export const NITAgartalaCollegeCoursesSectionContent : string =""
+export const NITAgartalaCollegePlacementSectionContent : string =""
+export const NITAgartalaCollegeCutOffSectionContent : string =""
+export const NITAgartalaCollegeLocationSectionContent : string =""
+export const NITAgartalaCollegeRankingSectionContent : string =""
 
 export const NITArunachalPradeshCollegeNavigationConstants: Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-arunachal-pradesh-about" },
@@ -485,14 +542,17 @@ export const NITArunachalPradeshCollegeNavigationConstants: Array<INITCollegeNav
     { title: "Placements", headingId: "#nit-arunachal-pradesh-placements" }
 ];
 
-export const NITArunachalPradeshCollegeAboutSectionContent: string = "NIT Arunachal Pradesh, also known as National Institute of Technology Arunachal Pradesh, is a premier engineering institution in India. Established in 2010, it is located in Yupia, Arunachal Pradesh. NIT Arunachal Pradesh is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITArunachalPradeshCollegeFeeSectionContent: string = "The fee structure at NIT Arunachal Pradesh is designed to be affordable while providing quality education. The fees vary depending on the program and category of the student. Scholarships and financial aid are available for eligible students.";
-export const NITArunachalPradeshCollegeAdmissionSectionContent: string = "Admissions to NIT Arunachal Pradesh are based on national level entrance exams such as JEE Main for undergraduate programs and GATE for postgraduate programs. The institute follows a merit-based selection process.";
-export const NITArunachalPradeshCollegeCoursesSectionContent: string = "NIT Arunachal Pradesh offers a wide range of courses in engineering, science, and management. The programs are designed to provide students with a strong foundation in their chosen fields and prepare them for successful careers.";
-export const NITArunachalPradeshCollegePlacementSectionContent: string = "NIT Arunachal Pradesh has a strong placement record with top companies visiting the campus for recruitment. The institute's placement cell provides training and support to students to help them secure job offers.";
-export const NITArunachalPradeshCollegeCutOffSectionContent: string = "The cutoff for admission to NIT Arunachal Pradesh varies each year based on the number of applicants and the difficulty level of the entrance exams. The cutoff is released after the declaration of the entrance exam results.";
-export const NITArunachalPradeshCollegeLocationSectionContent: string = "NIT Arunachal Pradesh is located in Yupia, Arunachal Pradesh. The campus is well-connected by road and rail, with the Lilabari Airport and Naharlagun Railway Station in close proximity. The city of Yupia offers a vibrant cultural scene, historical landmarks, and recreational opportunities for students to explore and enjoy.";
-export const NITArunachalPradeshCollegeRankingSectionContent: string = "NIT Arunachal Pradesh, also known as National Institute of Technology Arunachal Pradesh, is a premier engineering institution in India. Established in 2010, it is located in Yupia, Arunachal Pradesh. NIT Arunachal Pradesh is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
+export const NITArunachalPradeshCollegeAboutSectionContent: string =""
+export const NITArunachalPradeshCollegeFeeSectionContent: string =""
+export const NITArunachalPradeshCollegeAdmissionSectionContent: string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+
+• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+`
+export const NITArunachalPradeshCollegeCoursesSectionContent: string =""
+export const NITArunachalPradeshCollegePlacementSectionContent: string =""
+export const NITArunachalPradeshCollegeCutOffSectionContent: string =""
+export const NITArunachalPradeshCollegeLocationSectionContent: string =""
+export const NITArunachalPradeshCollegeRankingSectionContent: string =""
 
 export const NITDelhiCollegeNavigationConstants: Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-delhi-about" },
@@ -506,15 +566,18 @@ export const NITDelhiCollegeNavigationConstants: Array<INITCollegeNavigationCons
     { title: "Placements", headingId: "#nit-delhi-placements" }
 ];
 
-export const NITDelhiCollegeAboutSectionContent: string = "NIT Delhi, also known as National Institute of Technology Delhi, is a premier engineering institution in India. Established in 2010, it is located in Delhi. NIT Delhi is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITDelhiCollegeFeeSectionContent: string = "The fee structure at NIT Delhi is designed to be affordable while providing quality education. The fees vary depending on the program and category of the student. Scholarships and financial aid are available for eligible students.";
-export const NITDelhiCollegeAdmissionSectionContent: string = "Admissions to NIT Delhi are based on national level entrance exams such as JEE Main for undergraduate programs and GATE for postgraduate programs. The institute follows a merit-based selection process.";
-export const NITDelhiCollegeCoursesSectionContent: string = "NIT Delhi offers a wide range of courses in engineering, science, and management. The programs are designed to provide students with a strong foundation in their chosen fields and prepare them for successful careers.";
-export const NITDelhiCollegePlacementSectionContent: string = "NIT Delhi has a strong placement record with top companies visiting the campus for recruitment. The institute's placement cell provides training and support to students to help them secure job offers.";
-export const NITDelhiCollegeCutOffSectionContent: string = "The cutoff for admission to NIT Delhi varies each year based on the number of applicants and the difficulty level of the entrance exams. The cutoff is released after the declaration of the entrance exam results.";
-export const NITDelhiCollegeLocationSectionContent: string = "NIT Delhi is located in Delhi. The campus is well-connected by road and rail, with the Indira Gandhi International Airport and New Delhi Railway Station in close proximity. The city of Delhi offers a vibrant cultural scene, historical landmarks, and recreational opportunities for students to explore and enjoy.";
-export const NITDelhiCollegeRankingSectionContent: string = "NIT Delhi, also known as National Institute of Technology Delhi, is a premier engineering institution in India. Established in 2010, it is located in Delhi. NIT Delhi is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITDelhiCollegeSeatSectionContent: string = "NIT Delhi, also known as National Institute of Technology Delhi, is a premier engineering institution in India. Established in 2010, it is located in Delhi. NIT Delhi is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
+export const NITDelhiCollegeAboutSectionContent: string =""
+export const NITDelhiCollegeFeeSectionContent: string =""
+export const NITDelhiCollegeAdmissionSectionContent: string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+
+• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+`
+export const NITDelhiCollegeCoursesSectionContent: string =""
+export const NITDelhiCollegePlacementSectionContent: string =""
+export const NITDelhiCollegeCutOffSectionContent: string =""
+export const NITDelhiCollegeLocationSectionContent: string =""
+export const NITDelhiCollegeRankingSectionContent: string =""
+export const NITDelhiCollegeSeatSectionContent: string =""
 
 export const NITGoaCollegeNavigationConstants: Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-goa-about" },
@@ -528,15 +591,18 @@ export const NITGoaCollegeNavigationConstants: Array<INITCollegeNavigationConsta
     { title: "Placements", headingId: "#nit-goa-placements" }
 ];
 
-export const NITGoaCollegeAboutSectionContent: string = "NIT Goa, also known as National Institute of Technology Goa, is a premier engineering institution in India. Established in 2010, it is located in Farmagudi, Goa. NIT Goa is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITGoaCollegeFeeSectionContent: string = "The fee structure at NIT Goa is designed to be affordable while providing quality education. The fees vary depending on the program and category of the student. Scholarships and financial aid are available for eligible students.";
-export const NITGoaCollegeAdmissionSectionContent: string = "Admissions to NIT Goa are based on national level entrance exams such as JEE Main for undergraduate programs and GATE for postgraduate programs. The institute follows a merit-based selection process.";
-export const NITGoaCollegeCoursesSectionContent: string = "NIT Goa offers a wide range of courses in engineering, science, and management. The programs are designed to provide students with a strong foundation in their chosen fields and prepare them for successful careers.";
-export const NITGoaCollegePlacementSectionContent: string = "NIT Goa has a strong placement record with top companies visiting the campus for recruitment. The institute's placement cell provides training and support to students to help them secure job offers.";
-export const NITGoaCollegeCutOffSectionContent: string = "The cutoff for admission to NIT Goa varies each year based on the number of applicants and the difficulty level of the entrance exams. The cutoff is released after the declaration of the entrance exam results.";
-export const NITGoaCollegeLocationSectionContent: string = "NIT Goa is located in Farmagudi, Goa. The campus is well-connected by road and rail, with the Goa International Airport and Madgaon Junction Railway Station in close proximity. The city of Goa offers a vibrant cultural scene, historical landmarks, and recreational opportunities for students to explore and enjoy.";
-export const NITGoaCollegeRankingSectionContent: string = "NIT Goa, also known as National Institute of Technology Goa, is a premier engineering institution in India. Established in 2010, it is located in Farmagudi, Goa. NIT Goa is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITGoaCollegeSeatSectionContent: string = "NIT Goa, also known as National Institute of Technology Goa, is a premier engineering institution in India. Established in 2010, it is located in Farmagudi, Goa. NIT Goa is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
+export const NITGoaCollegeAboutSectionContent: string =""
+export const NITGoaCollegeFeeSectionContent: string =""
+export const NITGoaCollegeAdmissionSectionContent: string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+
+• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+`
+export const NITGoaCollegeCoursesSectionContent: string =""
+export const NITGoaCollegePlacementSectionContent: string =""
+export const NITGoaCollegeCutOffSectionContent: string =""
+export const NITGoaCollegeLocationSectionContent: string =""
+export const NITGoaCollegeRankingSectionContent: string =""
+export const NITGoaCollegeSeatSectionContent: string =""
 
 export const NITManipurCollegeNavigationConstants: Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-manipur-about" },
@@ -550,15 +616,18 @@ export const NITManipurCollegeNavigationConstants: Array<INITCollegeNavigationCo
     { title: "Placements", headingId: "#nit-manipur-placements" }
 ];
 
-export const NITManipurCollegeAboutSectionContent: string = "NIT Manipur, also known as National Institute of Technology Manipur, is a premier engineering institution in India. Established in 2010, it is located in Imphal, Manipur. NIT Manipur is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITManipurCollegeFeeSectionContent: string = "The fee structure at NIT Manipur is designed to be affordable while providing quality education. The fees vary depending on the program and category of the student. Scholarships and financial aid are available for eligible students.";
-export const NITManipurCollegeAdmissionSectionContent: string = "Admissions to NIT Manipur are based on national level entrance exams such as JEE Main for undergraduate programs and GATE for postgraduate programs. The institute follows a merit-based selection process.";
-export const NITManipurCollegeCoursesSectionContent: string = "NIT Manipur offers a wide range of courses in engineering, science, and management. The programs are designed to provide students with a strong foundation in their chosen fields and prepare them for successful careers.";
-export const NITManipurCollegePlacementSectionContent: string = "NIT Manipur has a strong placement record with top companies visiting the campus for recruitment. The institute's placement cell provides training and support to students to help them secure job offers.";
-export const NITManipurCollegeCutOffSectionContent: string = "The cutoff for admission to NIT Manipur varies each year based on the number of applicants and the difficulty level of the entrance exams. The cutoff is released after the declaration of the entrance exam results.";
-export const NITManipurCollegeLocationSectionContent: string = "NIT Manipur is located in Imphal, Manipur. The campus is well-connected by road and rail, with the Imphal Airport and Imphal Junction Railway Station in close proximity. The city of Imphal offers a vibrant cultural scene, historical landmarks, and recreational opportunities for students to explore and enjoy.";
-export const NITManipurCollegeRankingSectionContent: string = "NIT Manipur, also known as National Institute of Technology Manipur, is a premier engineering institution in India. Established in 2010, it is located in Imphal, Manipur. NIT Manipur is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITManipurCollegeSeatSectionContent: string = "NIT Manipur, also known as National Institute of Technology Manipur, is a premier engineering institution in India. Established in 2010, it is located in Imphal, Manipur. NIT Manipur is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
+export const NITManipurCollegeAboutSectionContent: string =""
+export const NITManipurCollegeFeeSectionContent: string =""
+export const NITManipurCollegeAdmissionSectionContent: string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+
+• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+`
+export const NITManipurCollegeCoursesSectionContent: string =""
+export const NITManipurCollegePlacementSectionContent: string =""
+export const NITManipurCollegeCutOffSectionContent: string =""
+export const NITManipurCollegeLocationSectionContent: string =""
+export const NITManipurCollegeRankingSectionContent: string =""
+export const NITManipurCollegeSeatSectionContent: string =""
 
 export const NITMeghalayaCollegeNavigationConstants: Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-meghalaya-about" },
@@ -572,15 +641,18 @@ export const NITMeghalayaCollegeNavigationConstants: Array<INITCollegeNavigation
     { title: "Placements", headingId: "#nit-meghalaya-placements" }
 ];
 
-export const NITMeghalayaCollegeAboutSectionContent: string = "NIT Meghalaya, also known as National Institute of Technology Meghalaya, is a premier engineering institution in India. Established in 2010, it is located in Shillong, Meghalaya. NIT Meghalaya is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITMeghalayaCollegeFeeSectionContent: string = "The fee structure at NIT Meghalaya is designed to be affordable while providing quality education. The fees vary depending on the program and category of the student. Scholarships and financial aid are available for eligible students.";
-export const NITMeghalayaCollegeAdmissionSectionContent: string = "Admissions to NIT Meghalaya are based on national level entrance exams such as JEE Main for undergraduate programs and GATE for postgraduate programs. The institute follows a merit-based selection process.";
-export const NITMeghalayaCollegeCoursesSectionContent: string = "NIT Meghalaya offers a wide range of courses in engineering, science, and management. The programs are designed to provide students with a strong foundation in their chosen fields and prepare them for successful careers.";
-export const NITMeghalayaCollegePlacementSectionContent: string = "NIT Meghalaya has a strong placement record with top companies visiting the campus for recruitment. The institute's placement cell provides training and support to students to help them secure job offers.";
-export const NITMeghalayaCollegeCutOffSectionContent: string = "The cutoff for admission to NIT Meghalaya varies each year based on the number of applicants and the difficulty level of the entrance exams. The cutoff is released after the declaration of the entrance exam results.";
-export const NITMeghalayaCollegeLocationSectionContent: string = "NIT Meghalaya is located in Shillong, Meghalaya. The campus is well-connected by road and rail, with the Shillong Airport and Shillong Junction Railway Station in close proximity. The city of Shillong offers a vibrant cultural scene, historical landmarks, and recreational opportunities for students to explore and enjoy.";
-export const NITMeghalayaCollegeRankingSectionContent: string = "NIT Meghalaya, also known as National Institute of Technology Meghalaya, is a premier engineering institution in India. Established in 2010, it is located in Shillong, Meghalaya. NIT Meghalaya is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITMeghalayaCollegeSeatSectionContent: string = "NIT Meghalaya, also known as National Institute of Technology Meghalaya, is a premier engineering institution in India. Established in 2010, it is located in Shillong, Meghalaya. NIT Meghalaya is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
+export const NITMeghalayaCollegeAboutSectionContent: string =""
+export const NITMeghalayaCollegeFeeSectionContent: string =""
+export const NITMeghalayaCollegeAdmissionSectionContent: string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+
+• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+`
+export const NITMeghalayaCollegeCoursesSectionContent: string =""
+export const NITMeghalayaCollegePlacementSectionContent: string =""
+export const NITMeghalayaCollegeCutOffSectionContent: string =""
+export const NITMeghalayaCollegeLocationSectionContent: string =""
+export const NITMeghalayaCollegeRankingSectionContent: string =""
+export const NITMeghalayaCollegeSeatSectionContent: string =""
 
 export const NITMizoramCollegeNavigationConstants: Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-mizoram-about" },
@@ -594,15 +666,18 @@ export const NITMizoramCollegeNavigationConstants: Array<INITCollegeNavigationCo
     { title: "Placements", headingId: "#nit-mizoram-placements" }
 ];
 
-export const NITMizoramCollegeAboutSectionContent: string = "NIT Mizoram, also known as National Institute of Technology Mizoram, is a premier engineering institution in India. Established in 2010, it is located in Aizawl, Mizoram. NIT Mizoram is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITMizoramCollegeFeeSectionContent: string = "The fee structure at NIT Mizoram is designed to be affordable while providing quality education. The fees vary depending on the program and category of the student. Scholarships and financial aid are available for eligible students.";
-export const NITMizoramCollegeAdmissionSectionContent: string = "Admissions to NIT Mizoram are based on national level entrance exams such as JEE Main for undergraduate programs and GATE for postgraduate programs. The institute follows a merit-based selection process.";
-export const NITMizoramCollegeCoursesSectionContent: string = "NIT Mizoram offers a wide range of courses in engineering, science, and management. The programs are designed to provide students with a strong foundation in their chosen fields and prepare them for successful careers.";
-export const NITMizoramCollegePlacementSectionContent: string = "NIT Mizoram has a strong placement record with top companies visiting the campus for recruitment. The institute's placement cell provides training and support to students to help them secure job offers.";
-export const NITMizoramCollegeCutOffSectionContent: string = "The cutoff for admission to NIT Mizoram varies each year based on the number of applicants and the difficulty level of the entrance exams. The cutoff is released after the declaration of the entrance exam results.";
-export const NITMizoramCollegeLocationSectionContent: string = "NIT Mizoram is located in Aizawl, Mizoram. The campus is well-connected by road and rail, with the Lengpui Airport and Aizawl Junction Railway Station in close proximity. The city of Aizawl offers a vibrant cultural scene, historical landmarks, and recreational opportunities for students to explore and enjoy.";
-export const NITMizoramCollegeRankingSectionContent: string = "NIT Mizoram, also known as National Institute of Technology Mizoram, is a premier engineering institution in India. Established in 2010, it is located in Aizawl, Mizoram. NIT Mizoram is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITMizoramCollegeSeatSectionContent: string = "NIT Mizoram, also known as National Institute of Technology Mizoram, is a premier engineering institution in India. Established in 2010, it is located in Aizawl, Mizoram. NIT Mizoram is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
+export const NITMizoramCollegeAboutSectionContent: string =""
+export const NITMizoramCollegeFeeSectionContent: string =""
+export const NITMizoramCollegeAdmissionSectionContent: string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+
+• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+`
+export const NITMizoramCollegeCoursesSectionContent: string =""
+export const NITMizoramCollegePlacementSectionContent: string =""
+export const NITMizoramCollegeCutOffSectionContent: string =""
+export const NITMizoramCollegeLocationSectionContent: string =""
+export const NITMizoramCollegeRankingSectionContent: string =""
+export const NITMizoramCollegeSeatSectionContent: string =""
 
 export const NITNagalandCollegeNavigationConstants: Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-nagaland-about" },
@@ -616,15 +691,18 @@ export const NITNagalandCollegeNavigationConstants: Array<INITCollegeNavigationC
     { title: "Placements", headingId: "#nit-nagaland-placements" }
 ];
 
-export const NITNagalandCollegeAboutSectionContent: string = "NIT Nagaland, also known as National Institute of Technology Nagaland, is a premier engineering institution in India. Established in 2010, it is located in Dimapur, Nagaland. NIT Nagaland is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITNagalandCollegeFeeSectionContent: string = "The fee structure at NIT Nagaland is designed to be affordable while providing quality education. The fees vary depending on the program and category of the student. Scholarships and financial aid are available for eligible students.";
-export const NITNagalandCollegeAdmissionSectionContent: string = "Admissions to NIT Nagaland are based on national level entrance exams such as JEE Main for undergraduate programs and GATE for postgraduate programs. The institute follows a merit-based selection process.";
-export const NITNagalandCollegeCoursesSectionContent: string = "NIT Nagaland offers a wide range of courses in engineering, science, and management. The programs are designed to provide students with a strong foundation in their chosen fields and prepare them for successful careers.";
-export const NITNagalandCollegePlacementSectionContent: string = "NIT Nagaland has a strong placement record with top companies visiting the campus for recruitment. The institute's placement cell provides training and support to students to help them secure job offers.";
-export const NITNagalandCollegeCutOffSectionContent: string = "The cutoff for admission to NIT Nagaland varies each year based on the number of applicants and the difficulty level of the entrance exams. The cutoff is released after the declaration of the entrance exam results.";
-export const NITNagalandCollegeLocationSectionContent: string = "NIT Nagaland is located in Dimapur, Nagaland. The campus is well-connected by road and rail, with the Dimapur Airport and Dimapur Junction Railway Station in close proximity. The city of Dimapur offers a vibrant cultural scene, historical landmarks, and recreational opportunities for students to explore and enjoy.";
-export const NITNagalandCollegeRankingSectionContent: string = "NIT Nagaland, also known as National Institute of Technology Nagaland, is a premier engineering institution in India. Established in 2010, it is located in Dimapur, Nagaland. NIT Nagaland is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITNagalandCollegeSeatSectionContent: string = "NIT Nagaland, also known as National Institute of Technology Nagaland, is a premier engineering institution in India. Established in 2010, it is located in Dimapur, Nagaland. NIT Nagaland is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
+export const NITNagalandCollegeAboutSectionContent: string =""
+export const NITNagalandCollegeFeeSectionContent: string =""
+export const NITNagalandCollegeAdmissionSectionContent: string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+
+• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+`
+export const NITNagalandCollegeCoursesSectionContent: string =""
+export const NITNagalandCollegePlacementSectionContent: string =""
+export const NITNagalandCollegeCutOffSectionContent: string =""
+export const NITNagalandCollegeLocationSectionContent: string =""
+export const NITNagalandCollegeRankingSectionContent: string =""
+export const NITNagalandCollegeSeatSectionContent: string =""
 
 export const NITPuducherryCollegeNavigationConstants: Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-puducherry-about" },
@@ -638,15 +716,18 @@ export const NITPuducherryCollegeNavigationConstants: Array<INITCollegeNavigatio
     { title: "Placements", headingId: "#nit-puducherry-placements" }
 ];
 
-export const NITPuducherryCollegeAboutSectionContent: string = "NIT Puducherry, also known as National Institute of Technology Puducherry, is a premier engineering institution in India. Established in 2010, it is located in Karaikal, Puducherry. NIT Puducherry is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITPuducherryCollegeFeeSectionContent: string = "The fee structure at NIT Puducherry is designed to be affordable while providing quality education. The fees vary depending on the program and category of the student. Scholarships and financial aid are available for eligible students.";
-export const NITPuducherryCollegeAdmissionSectionContent: string = "Admissions to NIT Puducherry are based on national level entrance exams such as JEE Main for undergraduate programs and GATE for postgraduate programs. The institute follows a merit-based selection process.";
-export const NITPuducherryCollegeCoursesSectionContent: string = "NIT Puducherry offers a wide range of courses in engineering, science, and management. The programs are designed to provide students with a strong foundation in their chosen fields and prepare them for successful careers.";
-export const NITPuducherryCollegePlacementSectionContent: string = "NIT Puducherry has a strong placement record with top companies visiting the campus for recruitment. The institute's placement cell provides training and support to students to help them secure job offers.";
-export const NITPuducherryCollegeCutOffSectionContent: string = "The cutoff for admission to NIT Puducherry varies each year based on the number of applicants and the difficulty level of the entrance exams. The cutoff is released after the declaration of the entrance exam results.";
-export const NITPuducherryCollegeLocationSectionContent: string = "NIT Puducherry is located in Karaikal, Puducherry. The campus is well-connected by road and rail, with the Puducherry Airport and Karaikal Junction Railway Station in close proximity. The city of Karaikal offers a vibrant cultural scene, historical landmarks, and recreational opportunities for students to explore and enjoy.";
-export const NITPuducherryCollegeRankingSectionContent: string = "NIT Puducherry, also known as National Institute of Technology Puducherry, is a premier engineering institution in India. Established in 2010, it is located in Karaikal, Puducherry. NIT Puducherry is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITPuducherryCollegeSeatSectionContent: string = "NIT Puducherry, also known as National Institute of Technology Puducherry, is a premier engineering institution in India. Established in 2010, it is located in Karaikal, Puducherry. NIT Puducherry is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
+export const NITPuducherryCollegeAboutSectionContent: string =""
+export const NITPuducherryCollegeFeeSectionContent: string =""
+export const NITPuducherryCollegeAdmissionSectionContent: string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+
+• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+`
+export const NITPuducherryCollegeCoursesSectionContent: string =""
+export const NITPuducherryCollegePlacementSectionContent: string =""
+export const NITPuducherryCollegeCutOffSectionContent: string =""
+export const NITPuducherryCollegeLocationSectionContent: string =""
+export const NITPuducherryCollegeRankingSectionContent: string =""
+export const NITPuducherryCollegeSeatSectionContent: string =""
 
 export const NITSikkimCollegeNavigationConstants: Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-sikkim-about" },
@@ -660,15 +741,18 @@ export const NITSikkimCollegeNavigationConstants: Array<INITCollegeNavigationCon
     { title: "Placements", headingId: "#nit-sikkim-placements" }
 ];
 
-export const NITSikkimCollegeAboutSectionContent: string = "NIT Sikkim, also known as National Institute of Technology Sikkim, is a premier engineering institution in India. Established in 2010, it is located in Ravangla, Sikkim. NIT Sikkim is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITSikkimCollegeFeeSectionContent: string = "The fee structure at NIT Sikkim is designed to be affordable while providing quality education. The fees vary depending on the program and category of the student. Scholarships and financial aid are available for eligible students.";
-export const NITSikkimCollegeAdmissionSectionContent: string = "Admissions to NIT Sikkim are based on national level entrance exams such as JEE Main for undergraduate programs and GATE for postgraduate programs. The institute follows a merit-based selection process.";
-export const NITSikkimCollegeCoursesSectionContent: string = "NIT Sikkim offers a wide range of courses in engineering, science, and management. The programs are designed to provide students with a strong foundation in their chosen fields and prepare them for successful careers.";
-export const NITSikkimCollegePlacementSectionContent: string = "NIT Sikkim has a strong placement record with top companies visiting the campus for recruitment. The institute's placement cell provides training and support to students to help them secure job offers.";
-export const NITSikkimCollegeCutOffSectionContent: string = "The cutoff for admission to NIT Sikkim varies each year based on the number of applicants and the difficulty level of the entrance exams. The cutoff is released after the declaration of the entrance exam results.";
-export const NITSikkimCollegeLocationSectionContent: string = "NIT Sikkim is located in Ravangla, Sikkim. The campus is well-connected by road and"
-export const NITSikkimCollegeRankingSectionContent: string = "NIT Sikkim, also known as National Institute of Technology Sikkim, is a premier engineering institution in India. Established in 2010, it is located in Ravangla, Sikkim. NIT Sikkim is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITSikkimCollegeSeatSectionContent: string = "NIT Sikk NIT Sikkim is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
+export const NITSikkimCollegeAboutSectionContent: string =""
+export const NITSikkimCollegeFeeSectionContent: string =""
+export const NITSikkimCollegeAdmissionSectionContent: string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+
+• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+`
+export const NITSikkimCollegeCoursesSectionContent: string =""
+export const NITSikkimCollegePlacementSectionContent: string =""
+export const NITSikkimCollegeCutOffSectionContent: string =""
+export const NITSikkimCollegeLocationSectionContent: string =""
+export const NITSikkimCollegeRankingSectionContent: string =""
+export const NITSikkimCollegeSeatSectionContent: string =""
 
 
 export const NITUttarakhandCollegeNavigationConstants: Array<INITCollegeNavigationConstants> = [
@@ -683,15 +767,18 @@ export const NITUttarakhandCollegeNavigationConstants: Array<INITCollegeNavigati
     { title: "Placements", headingId: "#nit-uttarakhand-placements" }
 ];
 
-export const NITUttarakhandCollegeAboutSectionContent: string = "NIT Uttarakhand, also known as National Institute of Technology Uttarakhand, is a premier engineering institution in India. Established in 2010, it is located in Srinagar, Uttarakhand. NIT Uttarakhand is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITUttarakhandCollegeFeeSectionContent: string = "The fee structure at NIT Uttarakhand is designed to be affordable while providing quality education. The fees vary depending on the program and category of the student. Scholarships and financial aid are available for eligible students.";
-export const NITUttarakhandCollegeAdmissionSectionContent: string = "Admissions to NIT Uttarakhand are based on national level entrance exams such as JEE Main for undergraduate programs and GATE for postgraduate programs. The institute follows a merit-based selection process.";
-export const NITUttarakhandCollegeCoursesSectionContent: string = "NIT Uttarakhand offers a wide range of courses in engineering, science, and management. The programs are designed to provide students with a strong foundation in their chosen fields and prepare them for successful careers.";
-export const NITUttarakhandCollegePlacementSectionContent: string = "NIT Uttarakhand has a strong placement record with top companies visiting the campus for recruitment. The institute's placement cell provides training and support to students to help them secure job offers.";
-export const NITUttarakhandCollegeCutOffSectionContent: string = "The cutoff for admission to NIT Uttarakhand varies each year based on the number of applicants and the difficulty level of the entrance exams. The cutoff is released after the declaration of the entrance exam results.";
-export const NITUttarakhandCollegeLocationSectionContent: string = "NIT Uttarakhand is located in Srinagar, Uttarakhand. The campus is well-connected by road and rail, with the Jolly Grant Airport and Rishikesh Railway Station in close proximity. The city of Srinagar offers a vibrant cultural scene, historical landmarks, and recreational opportunities for students to explore and enjoy.";
-export const NITUttarakhandCollegeRankingSectionContent: string = "NIT Uttarakhand, also known as National Institute of Technology Uttarakhand, is a premier engineering institution in India. Established in 2010, it is located in Srinagar, Uttarakhand. NIT Uttarakhand is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITUttarakhandCollegeSeatSectionContent: string = "NIT Uttarakhand, also known as National Institute of Technology Uttarakhand, is a premier engineering institution in India. Established in 2010, it is located in Srinagar, Uttarakhand. NIT Uttarakhand is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
+export const NITUttarakhandCollegeAboutSectionContent: string =""
+export const NITUttarakhandCollegeFeeSectionContent: string =""
+export const NITUttarakhandCollegeAdmissionSectionContent: string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+
+• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+`
+export const NITUttarakhandCollegeCoursesSectionContent: string =""
+export const NITUttarakhandCollegePlacementSectionContent: string =""
+export const NITUttarakhandCollegeCutOffSectionContent: string =""
+export const NITUttarakhandCollegeLocationSectionContent: string =""
+export const NITUttarakhandCollegeRankingSectionContent: string =""
+export const NITUttarakhandCollegeSeatSectionContent: string =""
 
 export const NITAndhraPradeshCollegeNavigationConstants: Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-andhra-pradesh-about" },
@@ -705,15 +792,18 @@ export const NITAndhraPradeshCollegeNavigationConstants: Array<INITCollegeNaviga
     { title: "Placements", headingId: "#nit-andhra-pradesh-placements" }
 ];
 
-export const NITAndhraPradeshCollegeAboutSectionContent: string = "NIT Andhra Pradesh, also known as National Institute of Technology Andhra Pradesh, is a premier engineering institution in India. Established in 2015, it is located in Tadepalligudem, Andhra Pradesh. NIT Andhra Pradesh is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITAndhraPradeshCollegeFeeSectionContent: string = "The fee structure at NIT Andhra Pradesh is designed to be affordable while providing quality education. The fees vary depending on the program and category of the student. Scholarships and financial aid are available for eligible students.";
-export const NITAndhraPradeshCollegeAdmissionSectionContent: string = "Admissions to NIT Andhra Pradesh are based on national level entrance exams such as JEE Main for undergraduate programs and GATE for postgraduate programs. The institute follows a merit-based selection process.";
-export const NITAndhraPradeshCollegeCoursesSectionContent: string = "NIT Andhra Pradesh offers a wide range of courses in engineering, science, and management. The programs are designed to provide students with a strong foundation in their chosen fields and prepare them for successful careers.";
-export const NITAndhraPradeshCollegePlacementSectionContent: string = "NIT Andhra Pradesh has a strong placement record with top companies visiting the campus for recruitment. The institute's placement cell provides training and support to students to help them secure job offers.";
-export const NITAndhraPradeshCollegeCutOffSectionContent: string = "The cutoff for admission to NIT Andhra Pradesh varies each year based on the number of applicants and the difficulty level of the entrance exams. The cutoff is released after the declaration of the entrance exam results.";
-export const NITAndhraPradeshCollegeLocationSectionContent: string = "NIT Andhra Pradesh is located in Tadepalligudem, Andhra Pradesh. The campus is well-connected by road and rail, with the Rajahmundry Airport and Tadepalligudem Railway Station in close proximity. The city of Tadepalligudem offers a vibrant cultural scene, historical landmarks, and recreational opportunities for students to explore and enjoy.";
-export const NITAndhraPradeshCollegeRankingSectionContent: string = "NIT Andhra Pradesh, also known as National Institute of Technology Andhra Pradesh, is a premier engineering institution in India. Established in 2015, it is located in Tadepalligudem, Andhra Pradesh. NIT Andhra Pradesh is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITAndhraPradeshCollegeSeatSectionContent: string = "NIT Andhra Pradesh, also known as National Institute of Technology Andhra Pradesh, is a premier engineering institution in India. Established in 2015, it is located in Tadepalligudem, Andhra Pradesh. NIT Andhra Pradesh is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
+export const NITAndhraPradeshCollegeAboutSectionContent: string =""
+export const NITAndhraPradeshCollegeFeeSectionContent: string =""
+export const NITAndhraPradeshCollegeAdmissionSectionContent: string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+
+• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+`
+export const NITAndhraPradeshCollegeCoursesSectionContent: string =""
+export const NITAndhraPradeshCollegePlacementSectionContent: string =""
+export const NITAndhraPradeshCollegeCutOffSectionContent: string =""
+export const NITAndhraPradeshCollegeLocationSectionContent: string =""
+export const NITAndhraPradeshCollegeRankingSectionContent: string =""
+export const NITAndhraPradeshCollegeSeatSectionContent: string =""
 
 
 export const NITShibpurCollegeNavigationConstants: Array<INITCollegeNavigationConstants> = [
@@ -728,15 +818,18 @@ export const NITShibpurCollegeNavigationConstants: Array<INITCollegeNavigationCo
     { title: "Placements", headingId: "#nit-shibpur-placements" }
 ];
 
-export const NITShibpurCollegeAboutSectionContent: string = "NIT Shibpur, also known as Indian Institute of Engineering Science and Technology, Shibpur, is a premier engineering institution in India. Established in 1856, it is located in Howrah, West Bengal. NIT Shibpur is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITShibpurCollegeFeeSectionContent: string = "The fee structure at NIT Shibpur is designed to be affordable while providing quality education. The fees vary depending on the program and category of the student. Scholarships and financial aid are available for eligible students.";
-export const NITShibpurCollegeAdmissionSectionContent: string = "Admissions to NIT Shibpur are based on national level entrance exams such as JEE Main for undergraduate programs and GATE for postgraduate programs. The institute follows a merit-based selection process.";
-export const NITShibpurCollegeCoursesSectionContent: string = "NIT Shibpur offers a wide range of courses in engineering, science, and management. The programs are designed to provide students with a strong foundation in their chosen fields and prepare them for successful careers.";
-export const NITShibpurCollegePlacementSectionContent: string = "NIT Shibpur has a strong placement record with top companies visiting the campus for recruitment. The institute's placement cell provides training and support to students to help them secure job offers.";
-export const NITShibpurCollegeCutOffSectionContent: string = "The cutoff for admission to NIT Shibpur varies each year based on the number of applicants and the difficulty level of the entrance exams. The cutoff is released after the declaration of the entrance exam results.";
-export const NITShibpurCollegeLocationSectionContent: string = "NIT Shibpur is located in Howrah, West Bengal. The campus is well-connected by road and rail, with the Netaji Subhas Chandra Bose International Airport and Howrah Junction Railway Station in close proximity. The city of Howrah offers a vibrant cultural scene, historical landmarks, and recreational opportunities for students to explore and enjoy.";
-export const NITShibpurCollegeRankingSectionContent: string = "NIT Shibpur, also known as Indian Institute of Engineering Science and Technology, Shibpur, is a premier engineering institution in India. Established in 1856, it is located in Howrah, West Bengal. NIT Shibpur is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
-export const NITShibpurCollegeSeatSectionContent: string = "NIT Shibpur, also known as Indian Institute of Engineering Science and Technology, Shibpur, is a premier engineering institution in India. Established in 1856, it is located in Howrah, West Bengal. NIT Shibpur is known for its academic excellence, research, and vibrant campus life. The institute offers a variety of undergraduate, postgraduate, and doctoral programs in engineering, science, and management. The campus is equipped with modern facilities, including laboratories, libraries, and recreational centers, providing a conducive environment for holistic development.";
+export const NITShibpurCollegeAboutSectionContent: string =""
+export const NITShibpurCollegeFeeSectionContent: string =""
+export const NITShibpurCollegeAdmissionSectionContent: string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+
+• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+`
+export const NITShibpurCollegeCoursesSectionContent: string =""
+export const NITShibpurCollegePlacementSectionContent: string =""
+export const NITShibpurCollegeCutOffSectionContent: string =""
+export const NITShibpurCollegeLocationSectionContent: string =""
+export const NITShibpurCollegeRankingSectionContent: string =""
+export const NITShibpurCollegeSeatSectionContent: string =""
 
 
 

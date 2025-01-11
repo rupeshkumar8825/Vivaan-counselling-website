@@ -313,12 +313,11 @@ export const NITTiruchirapalliCoursesTableContent = [
         "Instrumentation and Control Engineering",
         "Mechanical Engineering",
         "Metallurgical and Materials Engineering",
-        "Production Engineering"
+        "Production Engineering",
+
     ],
     [
-        "Physics",
-        "Chemistry",
-        "Mathematics"
+        "Architecture"
     ]
 ]
 
