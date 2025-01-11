@@ -3,7 +3,7 @@
 export const NITWarangalAboutDataTableConstant = [
     [
         "Also Known as", 
-        "NITT, NIT Tiruchirappalli, NIT Trichy"
+        "NITW, Regional Engineering College Warangal (RECW)."
     ], 
     [
         "Institute Type", 
@@ -11,11 +11,11 @@ export const NITWarangalAboutDataTableConstant = [
     ], 
     [
         "Established", 
-        "1964"
+        "1959"
     ], 
     [
         "Location", 
-        "Tiruchirappalli, Tamil Nadu"
+        "Warangal, Telangana"
     ], 
     [
         "Type", 
@@ -25,7 +25,7 @@ export const NITWarangalAboutDataTableConstant = [
 
 export const NITWarangalAboutDataTableHeading = [
     "Institute Name", 
-    "National Institute of Technology, Tiruchirappalli"
+    "National Institute of Technology, Warangal"
 ]
 
 

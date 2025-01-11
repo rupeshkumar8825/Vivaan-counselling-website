@@ -42,9 +42,9 @@ export const NITWarangalCollegeNavigationConstants : Array<INITCollegeNavigation
 export const NITWarangalCollegeAboutSectionContent : string = ""
 export const NITWarangalCollegeFeeSectionContent : string = ""
 export const NITWarangalCollegeAdmissionSectionContent : string = 
-`One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+`• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
 
-Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
 `
 
 export const NITWarangalCollegeCoursesSectionContent : string = ""

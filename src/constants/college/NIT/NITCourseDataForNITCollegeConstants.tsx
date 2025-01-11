@@ -1,26 +1,30 @@
 // consisting the course being offered in various NIT colleges
 
 export const NITWarangalCoursesTableContent = [
-    [   "Chemical Engineering",
+    [   
+        "Biotechnology",
+        "Chemical Engineering",
         "Civil Engineering",
         "Computer Science and Engineering",
         "Electrical and Electronics Engineering",
         "Electronics and Communication Engineering",
-        "Instrumentation and Control Engineering",
+        "Electronics and Communication Engineering with specialization in VLSI Design and Technology",
+        "Mathematics and Computing",
         "Mechanical Engineering",
         "Metallurgical and Materials Engineering",
-        "Production Engineering",
+
     ], 
     [
-        "Physics",
         "Chemistry",
-        "Mathematics"
+        "Mathematics",
+        "Physics",
+
     ]
 ]
 
 export const NITWarangalCoursesTableHeading = [
     "B.E./B.Tech - 4 Years",
-    "B.Arch - 5 Years"
+    "Integrated M.Sc. - 5 Years"
 ]
 
 export const NITBhopalCoursesTableContent = [

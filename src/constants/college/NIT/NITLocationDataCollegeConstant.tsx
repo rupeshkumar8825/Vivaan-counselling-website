@@ -3,12 +3,16 @@
 
 export const NITWarangalLocationDataTableConstant = [
     [
-        "Tiruchirappalli International Airport", 
+        "Rajiv Gandhi International Airport, Hyderabad", 
         "18"
     ], 
     [
-        "Tiruchirappalli Junction Railway Station", 
+        "Kazipet Junction Railway Station", 
         "18.5"
+    ],
+    [
+        "Warangal Railway Station",
+        ""
     ]
 ]
 

@@ -3,13 +3,13 @@
 export const NITWarangalRankingDataTableConstant = [
     [
         "NIRF Overall Rankings", 
-        "21 (2023)", 
-        "21 (2022)"
+        "53 (2023)", 
+        "45 (2022)"
     ], 
     [
         "NIRF Engineering Rankings", 
-        "9 (2023)", 
-        "8 (2022)"
+        "21 (2023)", 
+        "21 (2022)"
     ]
 ]
 
