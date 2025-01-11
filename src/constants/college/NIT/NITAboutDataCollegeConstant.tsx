@@ -144,7 +144,7 @@ export const NITJamshedpurAboutDataTableHeading = [
 export const NITKarnatakaAboutDataTableConstant = [
     [
         "Also Known as", 
-        "NITK, National Institute of Technology Karnataka"
+        "NITK, NIT Karnataka, NIT Surathkal, NIT Mangalore and NITK."
     ], 
     [
         "Institute Type", 
@@ -156,7 +156,7 @@ export const NITKarnatakaAboutDataTableConstant = [
     ], 
     [
         "Location", 
-        "Surathkal, Karnataka"
+        "Mangalore, Karnataka"
     ], 
     [
         "Type", 

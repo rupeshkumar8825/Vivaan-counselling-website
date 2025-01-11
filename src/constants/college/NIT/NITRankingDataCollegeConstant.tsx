@@ -89,13 +89,13 @@ export const NITJamshedpurRankingDataTableHeading = [
 export const NITKarnatakaRankingDataTableConstant = [
     [
         "NIRF Overall Rankings", 
-        "110 (2023)", 
-        "105 (2022)"
+        "38 (2023)", 
+        "27 (2022)"
     ], 
     [
         "NIRF Engineering Rankings", 
-        "45 (2023)", 
-        "48 (2022)"
+        "12 (2023)", 
+        "10 (2022)"
     ]
 ]
 

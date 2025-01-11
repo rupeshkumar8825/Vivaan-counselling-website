@@ -122,26 +122,29 @@ export const NITJamshedpurCoursesTableHeading = [
 
 export const NITKarnatakaCoursesTableContent = [
     [
+        "Artificial Intelligence",
         "Chemical Engineering",
         "Civil Engineering",
+        "Computational and Data Science",
         "Computer Science and Engineering",
         "Electrical and Electronics Engineering",
         "Electronics and Communication Engineering",
         "Information Technology",
         "Mechanical Engineering",
         "Metallurgical and Materials Engineering",
-        "Mining Engineering"
+        "Mining Engineering",
+
     ],
-    [
-        "Physics",
-        "Chemistry",
-        "Mathematics"
-    ]
+    // [
+    //     "Physics",
+    //     "Chemistry",
+    //     "Mathematics"
+    // ]
 ]
 
 export const NITKarnatakaCoursesTableHeading = [
     "B.E./B.Tech - 4 Years",
-    "B.Arch - 5 Years"
+    // "B.Arch - 5 Years"
 ]
 
 export const NITSrinagarCoursesTableContent = [

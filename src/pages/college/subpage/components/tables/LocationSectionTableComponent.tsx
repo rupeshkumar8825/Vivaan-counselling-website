@@ -28,7 +28,12 @@ const LocationSectionTableComponent = (props : ITableContentComponent) => {
                     <tr key={index} className="border-b bg-gray-800 border-gray-700">
                         <th scope="row" className=" px-6 py-4 font-medium text-slate-400 whitespace-wrap text-white flex flex-wrap items-center ">
                             <div className="">
-                                <img src={imageList[index]} className="w-8 h-8 md:w-10 md:h-10   rounded-lg" alt="location logo" />
+                                {/* convert the logic here to support the below feature: 
+                                    1. If the name of the location consists of the railway station then attach image for railway 
+                                    2. If the name of the location consists of the airport then attach image for airport
+                                    the above logic prevents us to image attribute along with the location data as we can decide with 
+                                    the above algorithm itself whether we have to attach the image for the railway or for airport */}
+                                <img src={currentRow[0].includes("Railway")? imageList[1] : imageList[0]} className="w-8 h-8 md:w-10 md:h-10   rounded-lg" alt="location logo" />
                             </div>
                             <div className="ml-3 sm:ml-5 md:ml-6 lg:ml-7 text-xs">
                                 {currentRow[0]}

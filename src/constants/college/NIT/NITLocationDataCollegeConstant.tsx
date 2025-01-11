@@ -83,11 +83,19 @@ export const NITJamshedpurLocationDataTableHeading = [
 export const NITKarnatakaLocationDataTableConstant = [
     [
         "Mangalore International Airport", 
-        "60"
+        "18"
     ], 
     [
         "Surathkal Railway Station", 
         "3"
+    ],
+    [
+        "Managalore Central Railway Station", 
+        "19"
+    ], 
+    [
+        "Mangalore Junction Railway Junction",
+        "20"
     ]
 ]
 

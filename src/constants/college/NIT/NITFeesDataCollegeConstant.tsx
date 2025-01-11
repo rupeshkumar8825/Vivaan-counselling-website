@@ -104,21 +104,22 @@ export const NITJamshedpurHostelFeesDataTableConstant = [
 export const NITJamshedpurHostelFeesDataTableHeading = ["Hostel Fee", "Amount"];
 
 export const NITKarnatakaInstituteFeesDataTableConstant = [
-    ["One Time Fees", "23500"], 
-    ["Tuition Fee (per Semester)", "61500"], 
-    ["Annual Fees", "7300"], 
-    ["Total", "92300"]
+    ["Caution Money (One Time, Refundable)", "₹5,790"],
+    ["One Time Fees", "₹5,800"],
+    ["Tuition Fee (per Semester)", "₹62,500"],
+    ["Other Fees", "₹2,320"],
+    ["Annual Fees", "₹14,320"],
+    ["Total", "₹90,750"]
+
 ];
 
 export const NITKarnatakaInstituteFeesDataTableHeading = ["Institute Fee", "Amount"];
 
 export const NITKarnatakaHostelFeesDataTableConstant = [
-    ["Hostel Caution Money (One Time, Refundable)", "13500"], 
-    ["Hostel Seat Rent (per Year)", "4600"], 
-    ["Electricity & Water Charges (per Year)", "5200"], 
-    ["Other Fees (per Year)", "5100"], 
-    ["Mess Advance (per Semester)", "14700"], 
-    ["Total", "92100"]
+    ["One Time Fee", "₹1,000"],
+    ["Hostel Seat Rent (per Semester)", "₹6,950"],
+    ["Other Fees (per semester)", "₹11,100"],
+    ["Mess Advance (per Semester)", "₹39,050"]
 ];
 
 export const NITKarnatakaHostelFeesDataTableHeading = ["Hostel Fee", "Amount"];
