@@ -181,16 +181,16 @@ export const NITCalicutSeatDataTableHeading = [
 ]
 
 export const NITRourkelaSeatDataTableConstant = [
-    ["General", "325", "88"],
-    ["Ews", "82", "17"],
-    ["Obc-Ncl", "215", "49"],
-    ["Sc", "112", "33"],
-    ["St", "56", "17"],
-    ["General-PwD", "14", "3"],
-    ["Ews-PwD", "10", "2"],
-    ["Obc-Ncl-PwD", "12", "6"],
-    ["Sc-PwD", "10", "0"],
-    ["St-PwD", "3", "0"]
+    // ["General", "325", "88"],
+    // ["Ews", "82", "17"],
+    // ["Obc-Ncl", "215", "49"],
+    // ["Sc", "112", "33"],
+    // ["St", "56", "17"],
+    // ["General-PwD", "14", "3"],
+    // ["Ews-PwD", "10", "2"],
+    // ["Obc-Ncl-PwD", "12", "6"],
+    // ["Sc-PwD", "10", "0"],
+    // ["St-PwD", "3", "0"]
 ]
 export const NITRourkelaSeatDataTableHeading = [
     "Category", 

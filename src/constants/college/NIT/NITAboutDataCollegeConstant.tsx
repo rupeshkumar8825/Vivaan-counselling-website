@@ -255,26 +255,12 @@ export const NITSuratAboutDataTableHeading = [
 ]
 
 export const NITCalicutAboutDataTableConstant = [
-    [
-        "Also Known as", 
-        "NITC, National Institute of Technology Calicut"
-    ], 
-    [
-        "Institute Type", 
-        "Government"
-    ], 
-    [
-        "Established", 
-        "1961"
-    ], 
-    [
-        "Location", 
-        "Calicut, Kerala"
-    ], 
-    [
-        "Type", 
-        "NIT"
-    ]
+    ["Also Known As", "NITL, Calicut Regional Engineering College (CREC), NIT Calicut."],
+    ["Institute Type", "Government"],
+    ["Established", "1961"],
+    ["Location", "Calicut, Kerala"],
+    ["Type", "NIT"]
+
 ]
 
 export const NITCalicutAboutDataTableHeading = [
@@ -283,26 +269,11 @@ export const NITCalicutAboutDataTableHeading = [
 ]
 
 export const NITRourkelaAboutDataTableConstant = [
-    [
-        "Also Known as", 
-        "NITRKL, National Institute of Technology Rourkela"
-    ], 
-    [
-        "Institute Type", 
-        "Government"
-    ], 
-    [
-        "Established", 
-        "1961"
-    ], 
-    [
-        "Location", 
-        "Rourkela, Odisha"
-    ], 
-    [
-        "Type", 
-        "NIT"
-    ]
+    ["Also Known As", "NITRKL, Regional Engineering College Rourkela."],
+    ["Institute Type", "Government"],
+    ["Established", "1961"],
+    ["Location", "Rourkela, Odisha"],
+    ["Type", "NIT"]
 ]
 
 export const NITRourkelaAboutDataTableHeading = [

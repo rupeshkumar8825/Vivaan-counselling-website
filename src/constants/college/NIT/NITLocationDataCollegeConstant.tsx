@@ -149,14 +149,8 @@ export const NITSuratLocationDataTableHeading = [
 ]
 
 export const NITCalicutLocationDataTableConstant = [
-    [
-        "Calicut International Airport", 
-        "35"
-    ], 
-    [
-        "Kozhikode Railway Station", 
-        "22"
-    ]
+    ["Kozhikode International Airport", "35"],
+    ["Kozhikode Railway Station", "23"]
 ]
 
 export const NITCalicutLocationDataTableHeading = [
@@ -164,14 +158,9 @@ export const NITCalicutLocationDataTableHeading = [
 ]
 
 export const NITRourkelaLocationDataTableConstant = [
-    [
-        "Jharsuguda Airport", 
-        "130"
-    ], 
-    [
-        "Rourkela Railway Station", 
-        "7"
-    ]
+    ["Birsa Munda Airport, Ranchi", "161"],
+    ["Biju Patnaik International Airport, Bhubaneswar", "336"],
+    ["Rourkela Junction Railway Station", "7"]
 ]
 
 export const NITRourkelaLocationDataTableHeading = [

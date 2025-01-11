@@ -216,19 +216,20 @@ export const NITSuratCoursesTableHeading = [
 
 export const NITCalicutCoursesTableContent = [
     [
-        "Architecture",
+        "Biotechnology",
         "Chemical Engineering",
         "Civil Engineering",
         "Computer Science and Engineering",
         "Electrical and Electronics Engineering",
         "Electronics and Communication Engineering",
+        "Engineering Physics",
+        "Materials Science and Engineering",
         "Mechanical Engineering",
-        "Production Engineering"
+        "Production Engineering",
+
     ],
     [
-        "Physics",
-        "Chemistry",
-        "Mathematics"
+        "Architecture"
     ]
 ]
 
@@ -239,6 +240,7 @@ export const NITCalicutCoursesTableHeading = [
 
 export const NITRourkelaCoursesTableContent = [
     [
+        "Bio Medical Engineering",
         "Biotechnology",
         "Ceramic Engineering",
         "Chemical Engineering",
@@ -246,20 +248,34 @@ export const NITRourkelaCoursesTableContent = [
         "Computer Science and Engineering",
         "Electrical Engineering",
         "Electronics and Communication Engineering",
+        "Electronics and Instrumentation Engineering",
+        "Food Process Engineering",
+        "Industrial Design",
         "Mechanical Engineering",
         "Metallurgical and Materials Engineering",
-        "Mining Engineering"
+        "Mining Engineering",
+
     ],
     [
-        "Physics",
+        "Ceramic Engineering and M.Tech. Industrial Ceramic",
+        "Chemical Engineering",
+        "Metallurgical and Materials Engineering",
+        "Mining Engineering",
+
+    ],
+    [
         "Chemistry",
-        "Mathematics"
+        "Life Science",
+        "Mathematics",
+        "Physics",
+
     ]
 ]
 
 export const NITRourkelaCoursesTableHeading = [
     "B.E./B.Tech - 4 Years",
-    "B.Arch - 5 Years"
+    "B.Tech + M.Tech (Dual Degree) - 5 Years",
+    "Integrated M.Sc. - 5 Years"
 ]
 
 export const NITJaipurCoursesTableContent = [

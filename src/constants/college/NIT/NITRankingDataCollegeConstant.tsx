@@ -154,16 +154,8 @@ export const NITSuratRankingDataTableHeading = [
 ]
 
 export const NITCalicutRankingDataTableConstant = [
-    [
-        "NIRF Overall Rankings", 
-        "150 (2023)", 
-        "145 (2022)"
-    ], 
-    [
-        "NIRF Engineering Rankings", 
-        "65 (2023)", 
-        "68 (2022)"
-    ]
+    ["NIRF Overall Rankings", "54 (2023)", "--"],
+    ["NIRF Engineering Rankings", "23 (2023)", "31 (2022)"]
 ]
 
 export const NITCalicutRankingDataTableHeading = [
@@ -171,16 +163,9 @@ export const NITCalicutRankingDataTableHeading = [
 ]
 
 export const NITRourkelaRankingDataTableConstant = [
-    [
-        "NIRF Overall Rankings", 
-        "160 (2023)", 
-        "155 (2022)"
-    ], 
-    [
-        "NIRF Engineering Rankings", 
-        "70 (2023)", 
-        "72 (2022)"
-    ]
+    ["NIRF Overall Rankings", "37 (2023)", "39 (2022)"],
+    ["NIRF Engineering Rankings", "16 (2023)", "15 (2022)"]
+
 ]
 
 export const NITRourkelaRankingDataTableHeading = [
