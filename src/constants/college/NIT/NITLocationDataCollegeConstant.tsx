@@ -83,14 +83,9 @@ export const NITKarnatakaLocationDataTableHeading = [
 ]
 
 export const NITSrinagarLocationDataTableConstant = [
-    [
-        "Sheikh Ul-Alam International Airport", 
-        "10"
-    ], 
-    [
-        "Srinagar Railway Station", 
-        "12"
-    ]
+    ["Sheikh Ul-Alam International Airport, Srinagar", "19"],
+  ["Srinagar Railway Station", "19"],
+  ["Jammu Tawi Railway Station", "270"]
 ]
 
 export const NITSrinagarLocationDataTableHeading = [
@@ -230,14 +225,9 @@ export const NITAgaratalaLocationDataTableHeading = [
 ]
 
 export const NITArunachalPradeshLocationDataTableConstant = [
-    [
-        "Dibrugarh Airport", 
-        "150"
-    ], 
-    [
-        "Naharlagun Railway Station", 
-        "20"
-    ]
+    ["Lilabari Airport", "96"],
+    ["Naharlagun Railway Station", "38"],
+    ["Guwahati Railway Station", "315"]
 ]
 
 export const NITArunachalPradeshLocationDataTableHeading = [
@@ -287,14 +277,8 @@ export const NITMeghalayaLocationDataTableHeading = [
 ]
 
 export const NITMizoramLocationDataTableConstant = [
-    [
-        "Lengpui Airport", 
-        "40"
-    ], 
-    [
-        "Bairabi Railway Station", 
-        "130"
-    ]
+    ["Lengpui Airport, Aizawl", "32 km"],
+    ["Silchar Railway Station", "166 km"]
 ]
 
 export const NITMizoramLocationDataTableHeading = [
@@ -302,14 +286,8 @@ export const NITMizoramLocationDataTableHeading = [
 ]
 
 export const NITNagalandLocationDataTableConstant = [
-    [
-        "Dimapur Airport", 
-        "7"
-    ], 
-    [
-        "Dimapur Railway Station", 
-        "5"
-    ]
+    ["Dimapur Airport", "13.5"],
+    ["Dimapur Railway Station", "18.5"]
 ]
 
 export const NITNagalandLocationDataTableHeading = [
@@ -317,14 +295,11 @@ export const NITNagalandLocationDataTableHeading = [
 ]
 
 export const NITPuducherryLocationDataTableConstant = [
-    [
-        "Puducherry Airport", 
-        "5"
-    ], 
-    [
-        "Puducherry Railway Station", 
-        "3"
-    ]
+    ["Pondicherry Airport", "130"],
+    ["Tiruchirappalli International Airport", "153"],
+    ["Karaikal Railway Station", "10"],
+    ["Mayiladuthurai Junction Railway Station", "37.5"],
+    ["Puducherry Railway Station", "127"]
 ]
 
 export const NITPuducherryLocationDataTableHeading = [
@@ -332,14 +307,9 @@ export const NITPuducherryLocationDataTableHeading = [
 ]
 
 export const NITSikkimLocationDataTableConstant = [
-    [
-        "Pakyong Airport", 
-        "35"
-    ], 
-    [
-        "New Jalpaiguri Railway Station", 
-        "120"
-    ]
+    ["Pakyong Airport", "70"],
+    ["Bagdogra International Airport", "130"],
+    ["New Jalpaiguri Junction Railway Station", "121"]
 ]
 
 export const NITSikkimLocationDataTableHeading = [
@@ -347,14 +317,9 @@ export const NITSikkimLocationDataTableHeading = [
 ]
 
 export const NITUttarakhandLocationDataTableConstant = [
-    [
-        "Jolly Grant Airport", 
-        "30"
-    ], 
-    [
-        "Dehradun Railway Station", 
-        "25"
-    ]
+    ["Jolly Grant Airport, Dehradun", "119"],
+    ["Rishikesh Railway Station", "103"],
+    ["Haridwar Junction Railway Station", "126"]
 ]
 
 export const NITUttarakhandLocationDataTableHeading = [
@@ -362,14 +327,10 @@ export const NITUttarakhandLocationDataTableHeading = [
 ]
 
 export const NITAndhraPradeshLocationDataTableConstant = [
-    [
-        "Vijayawada Airport", 
-        "20"
-    ], 
-    [
-        "Vijayawada Railway Station", 
-        "15"
-    ]
+    ["Rajahmundry Airport", "60.5"],
+    ["Vijayawada International Airport", "96.5"],
+    ["Tadepalligudem Railway Station", "4"],
+    ["Rajahmundry Railway Station", "44"]
 ]
 
 export const NITAndhraPradeshLocationDataTableHeading = [

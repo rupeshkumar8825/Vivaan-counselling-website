@@ -451,16 +451,16 @@ export const NITMeghalayaSeatDataTableHeading = [
 ]
 
 export const NITMizoramSeatDataTableConstant = [
-    ["General", "270", "67"],
-    ["Ews", "65", "13"],
-    ["Obc-Ncl", "170", "38"],
-    ["Sc", "90", "25"],
-    ["St", "45", "13"],
-    ["General-PwD", "9", "2"],
-    ["Ews-PwD", "7", "2"],
-    ["Obc-Ncl-PwD", "8", "4"],
-    ["Sc-PwD", "6", "0"],
-    ["St-PwD", "2", "0"]
+    // ["General", "270", "67"],
+    // ["Ews", "65", "13"],
+    // ["Obc-Ncl", "170", "38"],
+    // ["Sc", "90", "25"],
+    // ["St", "45", "13"],
+    // ["General-PwD", "9", "2"],
+    // ["Ews-PwD", "7", "2"],
+    // ["Obc-Ncl-PwD", "8", "4"],
+    // ["Sc-PwD", "6", "0"],
+    // ["St-PwD", "2", "0"]
 ]
 export const NITMizoramSeatDataTableHeading = [
     "Category", 
@@ -469,16 +469,16 @@ export const NITMizoramSeatDataTableHeading = [
 ]
 
 export const NITNagalandSeatDataTableConstant = [
-    ["General", "265", "65"],
-    ["Ews", "60", "12"],
-    ["Obc-Ncl", "165", "37"],
-    ["Sc", "85", "24"],
-    ["St", "45", "13"],
-    ["General-PwD", "8", "2"],
-    ["Ews-PwD", "7", "2"],
-    ["Obc-Ncl-PwD", "8", "4"],
-    ["Sc-PwD", "6", "0"],
-    ["St-PwD", "2", "0"]
+    // ["General", "265", "65"],
+    // ["Ews", "60", "12"],
+    // ["Obc-Ncl", "165", "37"],
+    // ["Sc", "85", "24"],
+    // ["St", "45", "13"],
+    // ["General-PwD", "8", "2"],
+    // ["Ews-PwD", "7", "2"],
+    // ["Obc-Ncl-PwD", "8", "4"],
+    // ["Sc-PwD", "6", "0"],
+    // ["St-PwD", "2", "0"]
 ]
 export const NITNagalandSeatDataTableHeading = [
     "Category", 
@@ -487,16 +487,16 @@ export const NITNagalandSeatDataTableHeading = [
 ]
 
 export const NITPuducherrySeatDataTableConstant = [
-    ["General", "295", "74"],
-    ["Ews", "70", "14"],
-    ["Obc-Ncl", "185", "41"],
-    ["Sc", "95", "27"],
-    ["St", "50", "14"],
-    ["General-PwD", "9", "2"],
-    ["Ews-PwD", "8", "2"],
-    ["Obc-Ncl-PwD", "9", "4"],
-    ["Sc-PwD", "7", "0"],
-    ["St-PwD", "2", "0"]
+    // ["General", "295", "74"],
+    // ["Ews", "70", "14"],
+    // ["Obc-Ncl", "185", "41"],
+    // ["Sc", "95", "27"],
+    // ["St", "50", "14"],
+    // ["General-PwD", "9", "2"],
+    // ["Ews-PwD", "8", "2"],
+    // ["Obc-Ncl-PwD", "9", "4"],
+    // ["Sc-PwD", "7", "0"],
+    // ["St-PwD", "2", "0"]
 ]
 export const NITPuducherrySeatDataTableHeading = [
     "Category", 
@@ -505,16 +505,16 @@ export const NITPuducherrySeatDataTableHeading = [
 ]
 
 export const NITSikkimSeatDataTableConstant = [
-    ["General", "285", "72"],
-    ["Ews", "68", "14"],
-    ["Obc-Ncl", "180", "40"],
-    ["Sc", "90", "26"],
-    ["St", "45", "13"],
-    ["General-PwD", "9", "2"],
-    ["Ews-PwD", "7", "2"],
-    ["Obc-Ncl-PwD", "8", "4"],
-    ["Sc-PwD", "6", "0"],
-    ["St-PwD", "2", "0"]
+    // ["General", "285", "72"],
+    // ["Ews", "68", "14"],
+    // ["Obc-Ncl", "180", "40"],
+    // ["Sc", "90", "26"],
+    // ["St", "45", "13"],
+    // ["General-PwD", "9", "2"],
+    // ["Ews-PwD", "7", "2"],
+    // ["Obc-Ncl-PwD", "8", "4"],
+    // ["Sc-PwD", "6", "0"],
+    // ["St-PwD", "2", "0"]
 ]
 export const NITSikkimSeatDataTableHeading = [
     "Category", 

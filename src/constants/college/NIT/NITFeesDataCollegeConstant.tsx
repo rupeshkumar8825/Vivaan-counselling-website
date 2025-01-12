@@ -127,21 +127,20 @@ export const NITKarnatakaHostelFeesDataTableConstant = [
 export const NITKarnatakaHostelFeesDataTableHeading = ["Hostel Fee", "Amount"];
 
 export const NITSrinagarInstituteFeesDataTableConstant = [
-    ["One Time Fees", "21000"], 
-    ["Tuition Fee (per Semester)", "60000"], 
-    ["Annual Fees", "7000"], 
-    ["Total", "88000"]
+    ["Caution Money (One Time, Refundable)", "₹12,000"],
+    ["One Time Fees", "₹4,500"],
+    ["Tuition Fee (per Semester)", "₹62,500"],
+    ["Other Fees (per semester)", "₹10,500"],
+    ["Total", "₹89,500"]
 ];
 
 export const NITSrinagarInstituteFeesDataTableHeading = ["Institute Fee", "Amount"];
 
 export const NITSrinagarHostelFeesDataTableConstant = [
-    ["Hostel Caution Money (One Time, Refundable)", "12000"], 
-    ["Hostel Seat Rent (per Year)", "4000"], 
-    ["Electricity & Water Charges (per Year)", "5000"], 
-    ["Other Fees (per Year)", "4500"], 
-    ["Mess Advance (per Semester)", "14000"], 
-    ["Total", "89500"]
+    ["One Time Fees", "₹3,000"],
+    ["Hostel Room Rent (including all charges) (Per Semester)", "₹8,000"],
+    ["Mess Advance (per Semester)", "₹20,000"],
+    ["Total", "₹31,000"]
 ];
 
 export const NITSrinagarHostelFeesDataTableHeading = ["Hostel Fee", "Amount"];
@@ -421,24 +420,26 @@ export const NITAgaratalaHostelFeesDataTableConstant = [
 export const NITAgaratalaHostelFeesDataTableHeading = ["Hostel Fee", "Amount"];
 
 export const NITArunachalPradeshInstituteFeesDataTableConstant = [
-    ["One Time Fees", "25000"], 
-    ["Tuition Fee (per Semester)", "64000"], 
-    ["Annual Fees", "7300"], 
-    ["Total", "96300"]
+    ["Caution Money (One Time, Refundable)", "₹5,000"],
+    ["One Time Fees", "₹1,600"],
+    ["Tuition Fee (per Semester)", "₹62,500"],
+    ["Hostel Seat Rent (Per Semester)", "₹4,000"],
+    ["Other Fees (per semester)", "₹7,000"],
+    ["Total", "₹80,100"]
 ];
 
 export const NITArunachalPradeshInstituteFeesDataTableHeading = ["Institute Fee", "Amount"];
 
 export const NITArunachalPradeshHostelFeesDataTableConstant = [
-    ["Hostel Caution Money (One Time, Refundable)", "15000"], 
-    ["Hostel Seat Rent (per Year)", "4800"], 
-    ["Electricity & Water Charges (per Year)", "5500"], 
-    ["Other Fees (per Year)", "5200"], 
-    ["Mess Advance (per Semester)", "15500"], 
-    ["Total", "96000"]
+    // ["Hostel Caution Money (One Time, Refundable)", "15000"], 
+    // ["Hostel Seat Rent (per Year)", "4800"], 
+    // ["Electricity & Water Charges (per Year)", "5500"], 
+    // ["Other Fees (per Year)", "5200"], 
+    // ["Mess Advance (per Semester)", "15500"], 
+    // ["Total", "96000"]
 ];
 
-export const NITArunachalPradeshHostelFeesDataTableHeading = ["Hostel Fee", "Amount"];
+export const NITArunachalPradeshHostelFeesDataTableHeading = [];
 
 export const NITDelhiInstituteFeesDataTableConstant = [
     ["Caution Money (One Time, Refundable)", "₹20,000"],
@@ -531,121 +532,127 @@ export const NITMeghalayaHostelFeesDataTableConstant = [
 export const NITMeghalayaHostelFeesDataTableHeading = ["Hostel Fee", "Amount"];
 
 export const NITMizoramInstituteFeesDataTableConstant = [
-    ["One Time Fees", "30000"], 
-    ["Tuition Fee (per Semester)", "69000"], 
-    ["Annual Fees", "7800"], 
-    ["Total", "106800"]
+    ["Caution Money (One Time, Refundable)", "₹2,000"],
+    ["Tuition Fee (per Semester)", "₹62,500"],
+    ["Other Fees (per semester)", "₹4,600"],
+    ["Annual Fees", "₹300"],
+    ["Total", "₹69,400"]
 ];
 
 export const NITMizoramInstituteFeesDataTableHeading = ["Institute Fee", "Amount"];
 
 export const NITMizoramHostelFeesDataTableConstant = [
-    ["Hostel Caution Money (One Time, Refundable)", "20000"], 
-    ["Hostel Seat Rent (per Year)", "5300"], 
-    ["Electricity & Water Charges (per Year)", "6000"], 
-    ["Other Fees (per Year)", "5700"], 
-    ["Mess Advance (per Semester)", "18000"], 
-    ["Total", "110000"]
+    ["Hostel Caution Money (One Time, Refundable)", "₹7,500"],
+    ["One Time Fees", "₹9,000"],
+    ["Hostel Seat Rent (per Semester)", "₹1,200"],
+    ["Electricity Charges (per Semester)", "₹1,500"],
+    ["Annual Fees", "₹2,050"],
+    ["Mess Advance (Per semester)", "₹13,000"],
+    ["Total", "₹34,250"]
 ];
 
 export const NITMizoramHostelFeesDataTableHeading = ["Hostel Fee", "Amount"];
 
 export const NITNagalandInstituteFeesDataTableConstant = [
-    ["One Time Fees", "31000"], 
-    ["Tuition Fee (per Semester)", "70000"], 
-    ["Annual Fees", "7900"], 
-    ["Total", "108900"]
+    ["Caution Money (One Time, Refundable)", "₹3,500"],
+    ["One Time Fees", "₹950"],
+    ["Tuition Fee (per Semester)", "₹62,500"],
+    ["Other Fees (per semester)", "₹4,400"],
+    ["Total", "₹71,350"]
 ];
 
 export const NITNagalandInstituteFeesDataTableHeading = ["Institute Fee", "Amount"];
 
 export const NITNagalandHostelFeesDataTableConstant = [
-    ["Hostel Caution Money (One Time, Refundable)", "21000"], 
-    ["Hostel Seat Rent (per Year)", "5400"], 
-    ["Electricity & Water Charges (per Year)", "6100"], 
-    ["Other Fees (per Year)", "5800"], 
-    ["Mess Advance (per Semester)", "18500"], 
-    ["Total", "112800"]
+    ["Hostel Caution Money (One TIme, Refundable)", "₹3,000"],
+    ["One Time Fees", "₹500"],
+    ["Hostel Charges (Per Semester)", "₹4,000"],
+    ["Other Fees (per Semester)", "₹4,000"],
+    ["Mess Advance (Per semester)", "₹21,000"],
+    ["Total", "₹32,300"]
 ];
 
 export const NITNagalandHostelFeesDataTableHeading = ["Hostel Fee", "Amount"];
 
 export const NITPuducherryInstituteFeesDataTableConstant = [
-    ["One Time Fees", "32000"], 
-    ["Tuition Fee (per Semester)", "71000"], 
-    ["Annual Fees", "8000"], 
-    ["Total", "111000"]
+    ["Caution Money (One Time, Refundable)", "₹3,500"],
+    ["One Time Fees", "₹950"],
+    ["Tuition Fee (per Semester)", "₹62,500"],
+    ["Other Fees (per semester)", "₹5,250"],
+    ["Total", "₹72,200"]
 ];
 
 export const NITPuducherryInstituteFeesDataTableHeading = ["Institute Fee", "Amount"];
 
 export const NITPuducherryHostelFeesDataTableConstant = [
-    ["Hostel Caution Money (One Time, Refundable)", "22000"], 
-    ["Hostel Seat Rent (per Year)", "5500"], 
-    ["Electricity & Water Charges (per Year)", "6200"], 
-    ["Other Fees (per Year)", "5900"], 
-    ["Mess Advance (per Semester)", "19000"], 
-    ["Total", "115600"]
+    ["Hostel Caution Money (One TIme, Refundable)", "₹4,000"],
+    ["Hostel Seat Rent (Per Semester)", "₹6,000"],
+    ["Other Fees (per Semester)", "₹4,000"],
+    ["Mess Advance (Per Semester)", "₹14,000"],
+    ["Total", "₹28,000"]
 ];
 
 export const NITPuducherryHostelFeesDataTableHeading = ["Hostel Fee", "Amount"];
 
 export const NITSikkimInstituteFeesDataTableConstant = [
-    ["One Time Fees", "33000"], 
-    ["Tuition Fee (per Semester)", "72000"], 
-    ["Annual Fees", "8100"], 
-    ["Total", "113100"]
+    ["Caution Money (One Time, Refundable)", "₹7,500"],
+    ["One Time Fees", "₹3,110"],
+    ["Tuition Fee (per Semester)", "₹62,500"],
+    ["Other Fees (per semester)", "₹7,660"],
+    ["Total", "₹80,770"]
 ];
 
 export const NITSikkimInstituteFeesDataTableHeading = ["Institute Fee", "Amount"];
 
 export const NITSikkimHostelFeesDataTableConstant = [
-    ["Hostel Caution Money (One Time, Refundable)", "23000"], 
-    ["Hostel Seat Rent (per Year)", "5600"], 
-    ["Electricity & Water Charges (per Year)", "6300"], 
-    ["Other Fees (per Year)", "6000"], 
-    ["Mess Advance (per Semester)", "19500"], 
-    ["Total", "118400"]
+    ["Hostel Caution Money (One TIme, Refundable)", "₹3,000"],
+    ["Mess Caution Money (One Time, Refundable)", "₹5,000"],
+    ["One Time Fees", "₹500"],
+    ["Hostel Charges (Per Semester)", "₹7,500"],
+    ["Other Fees (per Semester)", "₹750"],
+    ["Total", "₹16,750"]
 ];
 
 export const NITSikkimHostelFeesDataTableHeading = ["Hostel Fee", "Amount"];
 
 export const NITUttarakhandInstituteFeesDataTableConstant = [
-    ["One Time Fees", "34000"], 
-    ["Tuition Fee (per Semester)", "73000"], 
-    ["Annual Fees", "8200"], 
-    ["Total", "115200"]
+    ["Caution Money (One Time, Refundable)", "₹8,500"],
+    ["One Time Fees", "₹9,885"],
+    ["Tuition Fee (per Semester)", "₹62,500"],
+    ["Other Fees (per Semester)", "₹7,800"],
+    ["Annual Fees", "₹1,150"],
+    ["Total", "₹89,835"]
 ];
 
 export const NITUttarakhandInstituteFeesDataTableHeading = ["Institute Fee", "Amount"];
 
 export const NITUttarakhandHostelFeesDataTableConstant = [
-    ["Hostel Caution Money (One Time, Refundable)", "24000"], 
-    ["Hostel Seat Rent (per Year)", "5700"], 
-    ["Electricity & Water Charges (per Year)", "6400"], 
-    ["Other Fees (per Year)", "6100"], 
-    ["Mess Advance (per Semester)", "20000"], 
-    ["Total", "121200"]
+    ["Hostel Caution Money (One Time, Refundable)", "₹5,000"],
+    ["One Time Fees", "₹3,400"],
+    ["Hostel Seat Rent (per Semester)", "₹4,685"],
+    ["Electricity And Water Charges (per Semester)", "₹2,928"],
+    ["Other Fees (per Semester)", "₹1,000"],
+    ["Mess Advance (Per semester)", "₹22,000"],
+    ["Total", "₹39,013"]
 ];
 
 export const NITUttarakhandHostelFeesDataTableHeading = ["Hostel Fee", "Amount"];
 
 export const NITAndhraPradeshInstituteFeesDataTableConstant = [
-    ["One Time Fees", "35000"], 
-    ["Tuition Fee (per Semester)", "74000"], 
-    ["Annual Fees", "8300"], 
-    ["Total", "117300"]
+    ["Caution Money (One Time, Refundable)", "₹6,000"],
+    ["One Time Fees", "₹15,700"],
+    ["Tuition Fee (per Semester)", "₹62,500"],
+    ["Annual Fees", "₹5,800"],
+    ["Total", "₹90,000"]
 ];
 
 export const NITAndhraPradeshInstituteFeesDataTableHeading = ["Institute Fee", "Amount"];
 
 export const NITAndhraPradeshHostelFeesDataTableConstant = [
-    ["Hostel Caution Money (One Time, Refundable)", "25000"], 
-    ["Hostel Seat Rent (per Year)", "5800"], 
-    ["Electricity & Water Charges (per Year)", "6500"], 
-    ["Other Fees (per Year)", "6200"], 
-    ["Mess Advance (per Semester)", "20500"], 
-    ["Total", "124000"]
+    ["Hostel Caution Money (One TIme, Refundable)", "₹8,000"],
+  ["Hostel Charges (per Semester)", "₹12,500"],
+  ["Mess Advance (Per semester)", "₹17,500"],
+  ["Total", "₹38,000"]
 ];
 
 export const NITAndhraPradeshHostelFeesDataTableHeading = ["Hostel Fee", "Amount"];

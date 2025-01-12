@@ -71,16 +71,8 @@ export const NITKarnatakaRankingDataTableHeading = [
 
 ]
 export const NITSrinagarRankingDataTableConstant = [
-    [
-        "NIRF Overall Rankings", 
-        "120 (2023)", 
-        "115 (2022)"
-    ], 
-    [
-        "NIRF Engineering Rankings", 
-        "50 (2023)", 
-        "52 (2022)"
-    ]
+    ["NIRF Overall Rankings", "101-150 (2024)", "101-150 (2023)"],
+  ["NIRF Engineering Rankings", "79 (2024)", "82 (2023)"]
 ]
 
 export const NITSrinagarRankingDataTableHeading = [
@@ -232,16 +224,7 @@ export const NITAgaratalaRankingDataTableHeading = [
 ]
 
 export const NITArunachalPradeshRankingDataTableConstant = [
-    [
-        "NIRF Overall Rankings", 
-        "260 (2023)", 
-        "255 (2022)"
-    ], 
-    [
-        "NIRF Engineering Rankings", 
-        "120 (2023)", 
-        "122 (2022)"
-    ]
+    ["NIRF Engineering Rankings", "101-150 (2023)", "171 (2022)"]
 ]
 
 export const NITArunachalPradeshRankingDataTableHeading = [
@@ -300,16 +283,7 @@ export const NITMeghalayaRankingDataTableHeading = [
 ]
 
 export const NITMizoramRankingDataTableConstant = [
-    [
-        "NIRF Overall Rankings", 
-        "310 (2023)", 
-        "305 (2022)"
-    ], 
-    [
-        "NIRF Engineering Rankings", 
-        "145 (2023)", 
-        "148 (2022)"
-    ]
+    ["NIRF Engineering Rankings", "101-150 (2024)", "--"]
 ]
 
 export const NITMizoramRankingDataTableHeading = [
@@ -317,16 +291,7 @@ export const NITMizoramRankingDataTableHeading = [
 ]
 
 export const NITNagalandRankingDataTableConstant = [
-    [
-        "NIRF Overall Rankings", 
-        "320 (2023)", 
-        "315 (2022)"
-    ], 
-    [
-        "NIRF Engineering Rankings", 
-        "150 (2023)", 
-        "152 (2022)"
-    ]
+    ["NIRF Engineering Rankings", "151-200 (2024)", "201-250 (2022)"]
 ]
 
 export const NITNagalandRankingDataTableHeading = [
@@ -334,16 +299,7 @@ export const NITNagalandRankingDataTableHeading = [
 ]
 
 export const NITPuducherryRankingDataTableConstant = [
-    [
-        "NIRF Overall Rankings", 
-        "330 (2023)", 
-        "325 (2022)"
-    ], 
-    [
-        "NIRF Engineering Rankings", 
-        "155 (2023)", 
-        "158 (2022)"
-    ]
+    ["NIRF Engineering Rankings", "101-150 (2023)", "136 (2022)"]
 ]
 
 export const NITPuducherryRankingDataTableHeading = [
@@ -351,16 +307,7 @@ export const NITPuducherryRankingDataTableHeading = [
 ]
 
 export const NITSikkimRankingDataTableConstant = [
-    [
-        "NIRF Overall Rankings", 
-        "340 (2023)", 
-        "335 (2022)"
-    ], 
-    [
-        "NIRF Engineering Rankings", 
-        "160 (2023)", 
-        "162 (2022)"
-    ]
+    ["NIRF Engineering Rankings", "151-200 (2024)", "151-200 (2023)"]
 ]
 
 export const NITSikkimRankingDataTableHeading = [
@@ -368,16 +315,8 @@ export const NITSikkimRankingDataTableHeading = [
 ]
 
 export const NITUttarakhandRankingDataTableConstant = [
-    [
-        "NIRF Overall Rankings", 
-        "350 (2023)", 
-        "345 (2022)"
-    ], 
-    [
-        "NIRF Engineering Rankings", 
-        "165 (2023)", 
-        "168 (2022)"
-    ]
+    ["NIRF Engineering Rankings", "101-150 (2024)", "101-150 (2023)"]
+
 ]
 
 export const NITUttarakhandRankingDataTableHeading = [
@@ -385,16 +324,7 @@ export const NITUttarakhandRankingDataTableHeading = [
 ]
 
 export const NITAndhraPradeshRankingDataTableConstant = [
-    [
-        "NIRF Overall Rankings", 
-        "360 (2023)", 
-        "355 (2022)"
-    ], 
-    [
-        "NIRF Engineering Rankings", 
-        "170 (2023)", 
-        "172 (2022)"
-    ]
+    ["NIRF Engineering Rankings", "251-300 (2022)", "--"]
 ]
 
 export const NITAndhraPradeshRankingDataTableHeading = [

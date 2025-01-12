@@ -113,26 +113,11 @@ export const NITKarnatakaAboutDataTableHeading = [
 
 
 export const NITSrinagarAboutDataTableConstant = [
-    [
-        "Also Known as", 
-        "NITSRI, National Institute of Technology Srinagar"
-    ], 
-    [
-        "Institute Type", 
-        "Government"
-    ], 
-    [
-        "Established", 
-        "1960"
-    ], 
-    [
-        "Location", 
-        "Srinagar, Jammu and Kashmir"
-    ], 
-    [
-        "Type", 
-        "NIT"
-    ]
+    ["Also Known As", "NITSRI, NIT Srinagar, NITSRI and Regional Engineering College Srinagar."],
+  ["Institute Type", "Government"],
+  ["Established", "1960"],
+  ["Location", "Srinagar, Jammu & Kashmir"],
+  ["Type", "NIT"]
 ]
 
 export const NITSrinagarAboutDataTableHeading = [
@@ -332,26 +317,11 @@ export const NITAgaratalaAboutDataTableHeading = [
 ]
 
 export const NITArunachalPradeshAboutDataTableConstant = [
-    [
-        "Also Known as", 
-        "NITAP, National Institute of Technology Arunachal Pradesh"
-    ], 
-    [
-        "Institute Type", 
-        "Government"
-    ], 
-    [
-        "Established", 
-        "2010"
-    ], 
-    [
-        "Location", 
-        "Yupia, Arunachal Pradesh"
-    ], 
-    [
-        "Type", 
-        "NIT"
-    ]
+    ["Also Known As", "NITAP and NIT Arunachal Pradesh"],
+    ["Institute Type", "Government"],
+    ["Established", "2010"],
+    ["Location", "Papum Pare, Arunachal Pradesh"],
+    ["Type", "NIT"]
 ]
 
 export const NITArunachalPradeshAboutDataTableHeading = [
@@ -414,26 +384,11 @@ export const NITMeghalayaAboutDataTableHeading = [
 ]
 
 export const NITMizoramAboutDataTableConstant = [
-    [
-        "Also Known as", 
-        "NITMZ, National Institute of Technology Mizoram"
-    ], 
-    [
-        "Institute Type", 
-        "Government"
-    ], 
-    [
-        "Established", 
-        "2010"
-    ], 
-    [
-        "Location", 
-        "Aizawl, Mizoram"
-    ], 
-    [
-        "Type", 
-        "NIT"
-    ]
+    ["Also Known As", "NITMZ and NIT Mizoram."],
+    ["Institute Type", "Government"],
+    ["Established", "2010"],
+    ["Location", "Aizawal, Mizoram"],
+    ["Type", "NIT"]
 ]
 
 export const NITMizoramAboutDataTableHeading = [
@@ -442,26 +397,11 @@ export const NITMizoramAboutDataTableHeading = [
 ]
 
 export const NITNagalandAboutDataTableConstant = [
-    [
-        "Also Known as", 
-        "NITN, National Institute of Technology Nagaland"
-    ], 
-    [
-        "Institute Type", 
-        "Government"
-    ], 
-    [
-        "Established", 
-        "2010"
-    ], 
-    [
-        "Location", 
-        "Dimapur, Nagaland"
-    ], 
-    [
-        "Type", 
-        "NIT"
-    ]
+    ["Also Known As", "NITN and NIT Nagaland."],
+    ["Institute Type", "Government"],
+    ["Established", "2010"],
+    ["Location", "Dimapur, Nagaland"],
+    ["Type", "NIT"]
 ]
 
 export const NITNagalandAboutDataTableHeading = [
@@ -470,26 +410,12 @@ export const NITNagalandAboutDataTableHeading = [
 ]
 
 export const NITPuducherryAboutDataTableConstant = [
-    [
-        "Also Known as", 
-        "NITPY, National Institute of Technology Puducherry"
-    ], 
-    [
-        "Institute Type", 
-        "Government"
-    ], 
-    [
-        "Established", 
-        "2010"
-    ], 
-    [
-        "Location", 
-        "Karaikal, Puducherry"
-    ], 
-    [
-        "Type", 
-        "NIT"
-    ]
+    ["Also Known As", "NITPY, NIT Puducherry, NIT Karaikal and NITPY"],
+    ["Institute Type", "Government"],
+    ["Established", "1960"],
+    ["Location", "Srinagar, Jammu & Kashmir"],
+    ["Type", "NIT"]
+  
 ]
 
 export const NITPuducherryAboutDataTableHeading = [
@@ -498,26 +424,11 @@ export const NITPuducherryAboutDataTableHeading = [
 ]
 
 export const NITSikkimAboutDataTableConstant = [
-    [
-        "Also Known as", 
-        "NITSKM, National Institute of Technology Sikkim"
-    ], 
-    [
-        "Institute Type", 
-        "Government"
-    ], 
-    [
-        "Established", 
-        "2010"
-    ], 
-    [
-        "Location", 
-        "Ravangla, Sikkim"
-    ], 
-    [
-        "Type", 
-        "NIT"
-    ]
+["Also Known As", "NIT Sikkim and NITSKM"],
+  ["Institute Type", "Government"],
+  ["Established", "2010"],
+  ["Location", "Ravangla, Sikkim"],
+  ["Type", "NIT"]
 ]
 
 export const NITSikkimAboutDataTableHeading = [
@@ -526,26 +437,11 @@ export const NITSikkimAboutDataTableHeading = [
 ]
 
 export const NITUttarakhandAboutDataTableConstant = [
-    [
-        "Also Known as", 
-        "NITUK, National Institute of Technology Uttarakhand"
-    ], 
-    [
-        "Institute Type", 
-        "Government"
-    ], 
-    [
-        "Established", 
-        "2010"
-    ], 
-    [
-        "Location", 
-        "Srinagar, Uttarakhand"
-    ], 
-    [
-        "Type", 
-        "NIT"
-    ]
+    ["Also Known As", "NITUK, NIT Uttarakhand."],
+    ["Institute Type", "Government"],
+    ["Established", "2010"],
+    ["Location", "Garhwal, Uttarakhand"],
+    ["Type", "NIT"]
 ]
 
 export const NITUttarakhandAboutDataTableHeading = [
@@ -554,26 +450,11 @@ export const NITUttarakhandAboutDataTableHeading = [
 ]
 
 export const NITAndhraPradeshAboutDataTableConstant = [
-    [
-        "Also Known as", 
-        "NITAP, National Institute of Technology Andhra Pradesh"
-    ], 
-    [
-        "Institute Type", 
-        "Government"
-    ], 
-    [
-        "Established", 
-        "2015"
-    ], 
-    [
-        "Location", 
-        "Tadepalligudem, Andhra Pradesh"
-    ], 
-    [
-        "Type", 
-        "NIT"
-    ]
+    ["Also Known As", "NIT Andhra, NIT Tadepalligudem and NIT Eluru."],
+    ["Institute Type", "Government"],
+    ["Established", "2010"],
+    ["Location", "Aizawl, Mizoram"],
+    ["Type", "NIT"]
 ]
 
 export const NITAndhraPradeshAboutDataTableHeading = [
