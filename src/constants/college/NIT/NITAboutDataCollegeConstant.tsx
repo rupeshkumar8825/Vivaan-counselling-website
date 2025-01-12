@@ -292,26 +292,11 @@ export const NITJalandharAboutDataTableHeading = [
 ]
 
 export const NITPatnaAboutDataTableConstant = [
-    [
-        "Also Known as", 
-        "NITP, National Institute of Technology Patna"
-    ], 
-    [
-        "Institute Type", 
-        "Government"
-    ], 
-    [
-        "Established", 
-        "2004"
-    ], 
-    [
-        "Location", 
-        "Patna, Bihar"
-    ], 
-    [
-        "Type", 
-        "NIT"
-    ]
+    ["Also Known As", "NITP, NIT Patna, NITP and Bihar College of Engineering."],
+  ["Institute Type", "Government"],
+  ["Established", "1886"],
+  ["Location", "Patna, Bihar"],
+  ["Type", "NIT"]
 ]
 
 export const NITPatnaAboutDataTableHeading = [
@@ -375,26 +360,11 @@ export const NITArunachalPradeshAboutDataTableHeading = [
 ]
 
 export const NITDelhiAboutDataTableConstant = [
-    [
-        "Also Known as", 
-        "NITD, National Institute of Technology Delhi"
-    ], 
-    [
-        "Institute Type", 
-        "Government"
-    ], 
-    [
-        "Established", 
-        "2010"
-    ], 
-    [
-        "Location", 
-        "Delhi"
-    ], 
-    [
-        "Type", 
-        "NIT"
-    ]
+    ["Also Known As, NITD, NIT Delhi."],
+    ["Institute Type, Government"],
+    ["Established, 2010"],
+    ["Location, New Delhi, Delhi"],
+    ["Type, NIT"]
 ]
 
 export const NITDelhiAboutDataTableHeading = [
@@ -417,26 +387,11 @@ export const NITGoaAboutDataTableHeading = [
 ]
 
 export const NITManipurAboutDataTableConstant = [
-    [
-        "Also Known as", 
-        "NITMN, National Institute of Technology Manipur"
-    ], 
-    [
-        "Institute Type", 
-        "Government"
-    ], 
-    [
-        "Established", 
-        "2010"
-    ], 
-    [
-        "Location", 
-        "Imphal, Manipur"
-    ], 
-    [
-        "Type", 
-        "NIT"
-    ]
+    ["Also Known As", "NITMN, NIT Manipur"],
+    ["Institute Type", "Government"],
+    ["Established", "2010"],
+    ["Location", "Imphal, Manipur"],
+    ["Type", "NIT"]
 ]
 
 export const NITManipurAboutDataTableHeading = [

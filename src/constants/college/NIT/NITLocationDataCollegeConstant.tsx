@@ -202,14 +202,8 @@ export const NITJalandharLocationDataTableHeading = [
 ]
 
 export const NITPatnaLocationDataTableConstant = [
-    [
-        "Jay Prakash Narayan International Airport", 
-        "5"
-    ], 
-    [
-        "Patna Junction Railway Station", 
-        "2"
-    ]
+    ["Jay Prakash Narayan International Airport, Patna", "11"],
+  ["Patna Junction Railway Station", "5.5"]
 ]
 
 export const NITPatnaLocationDataTableHeading = [
@@ -252,14 +246,10 @@ export const NITArunachalPradeshLocationDataTableHeading = [
 
 
 export const NITDelhiLocationDataTableConstant = [
-    [
-        "Indira Gandhi International Airport", 
-        "20"
-    ], 
-    [
-        "New Delhi Railway Station", 
-        "15"
-    ]
+    ["Indira Gandhi International Airport, Delhi, 45 "],
+    ["New Delhi Railway Station, 28 "],
+    ["Hazrat Nizamuddin Railway Station, 39 "],
+    ["Anand Vihar Terminal Railway Station, 40.5 "]
 ]
 
 export const NITDelhiLocationDataTableHeading = [
@@ -276,14 +266,9 @@ export const NITGoaLocationDataTableHeading = [
 ]
 
 export const NITManipurLocationDataTableConstant = [
-    [
-        "Imphal International Airport", 
-        "10"
-    ], 
-    [
-        "Jiribam Railway Station", 
-        "220"
-    ]
+    ["Bir Tikendrajit International Airport, Imphal", "11"],
+    ["Dimapur Railway Station", "206"],
+    ["Guwahati Railway Station", "489"]
 ]
 
 export const NITManipurLocationDataTableHeading = [
