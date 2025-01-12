@@ -12,7 +12,7 @@ const FeesSectionCollegePageComponent = (props : IFeesSectionCollegePageComponen
             {/* then comes the institute fee table here if applicable for this purpose*/}
             <FeeSectionTableComponent tableContentHeading={props.feeSectionInstituteFeeTableHeading} tableContent={props.feeSectionInstituteFeeTableContent}></FeeSectionTableComponent>
             {/* then comes the hotel fee table here if applicable for this purpose*/}
-            <FeeSectionTableComponent tableContentHeading={props.feeSectionHostelFeeTableHeading} tableContent={props.feeSectionHostelFeeTableContent}></FeeSectionTableComponent>
+            <FeeSectionTableComponent tableContentHeading={props.feeSectionHostelFeeTableHeading? props.feeSectionHostelFeeTableHeading : []} tableContent={props.feeSectionHostelFeeTableContent? props.feeSectionHostelFeeTableContent : []}></FeeSectionTableComponent>
 
             {/* <TableContentComponent></TableContentComponent> */}
             {/* <feesection */}

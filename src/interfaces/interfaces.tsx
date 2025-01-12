@@ -189,8 +189,8 @@ export interface IFeesSectionCollegePageComponent {
     content : string
     feeSectionInstituteFeeTableContent : Array<string[]>,
     feeSectionInstituteFeeTableHeading : Array<string>,
-    feeSectionHostelFeeTableContent : Array<string[]>,
-    feeSectionHostelFeeTableHeading : Array<string>
+    feeSectionHostelFeeTableContent? : Array<string[]>,
+    feeSectionHostelFeeTableHeading? : Array<string>
 }
 
 export interface ILocationSectionCollegePageComponent {
@@ -221,6 +221,12 @@ export interface ISeatSectionCollegePageComponent {
 
 export interface IAdmissionSectionCollegePageComponent {
     headingId : string, 
+    headingName : string, 
+    content : string
+}
+
+export interface IFeeWaiverSecionCollegePageComponent {
+    headingId : string,
     headingName : string, 
     content : string
 }
