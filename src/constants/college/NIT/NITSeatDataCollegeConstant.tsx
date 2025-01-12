@@ -19,16 +19,16 @@ export const NITWarangalSeatDataTableHeading = [
 ]
 
 export const NITBhopalSeatDataTableConstant = [
-    ["General", "300", "80"],
-    ["Ews", "70", "15"],
-    ["Obc-Ncl", "200", "45"],
-    ["Sc", "100", "30"],
-    ["St", "50", "15"],
-    ["General-PwD", "10", "2"],
-    ["Ews-PwD", "8", "2"],
-    ["Obc-Ncl-PwD", "10", "5"],
-    ["Sc-PwD", "8", "0"],
-    ["St-PwD", "2", "0"]
+    // ["General", "300", "80"],
+    // ["Ews", "70", "15"],
+    // ["Obc-Ncl", "200", "45"],
+    // ["Sc", "100", "30"],
+    // ["St", "50", "15"],
+    // ["General-PwD", "10", "2"],
+    // ["Ews-PwD", "8", "2"],
+    // ["Obc-Ncl-PwD", "10", "5"],
+    // ["Sc-PwD", "8", "0"],
+    // ["St-PwD", "2", "0"]
 ]
 export const NITBhopalSeatDataTableHeading = [
     "Category", 
@@ -73,16 +73,16 @@ export const NITDurgapurSeatDataTableHeading = [
 ]
 
 export const NITJamshedpurSeatDataTableConstant = [
-    ["General", "305", "83"],
-    ["Ews", "75", "15"],
-    ["Obc-Ncl", "202", "46"],
-    ["Sc", "106", "31"],
-    ["St", "52", "15"],
-    ["General-PwD", "13", "2"],
-    ["Ews-PwD", "8", "2"],
-    ["Obc-Ncl-PwD", "11", "5"],
-    ["Sc-PwD", "8", "0"],
-    ["St-PwD", "2", "0"]
+    // ["General", "305", "83"],
+    // ["Ews", "75", "15"],
+    // ["Obc-Ncl", "202", "46"],
+    // ["Sc", "106", "31"],
+    // ["St", "52", "15"],
+    // ["General-PwD", "13", "2"],
+    // ["Ews-PwD", "8", "2"],
+    // ["Obc-Ncl-PwD", "11", "5"],
+    // ["Sc-PwD", "8", "0"],
+    // ["St-PwD", "2", "0"]
 ]
 export const NITJamshedpurSeatDataTableHeading = [
     "Category", 
@@ -109,16 +109,16 @@ export const NITKarnatakaSeatDataTableHeading = [
 ]
 
 export const NITSrinagarSeatDataTableConstant = [
-    ["General", "290", "75"],
-    ["Ews", "70", "14"],
-    ["Obc-Ncl", "190", "42"],
-    ["Sc", "100", "28"],
-    ["St", "50", "14"],
-    ["General-PwD", "10", "2"],
-    ["Ews-PwD", "8", "2"],
-    ["Obc-Ncl-PwD", "9", "4"],
-    ["Sc-PwD", "7", "0"],
-    ["St-PwD", "2", "0"]
+    // ["General", "290", "75"],
+    // ["Ews", "70", "14"],
+    // ["Obc-Ncl", "190", "42"],
+    // ["Sc", "100", "28"],
+    // ["St", "50", "14"],
+    // ["General-PwD", "10", "2"],
+    // ["Ews-PwD", "8", "2"],
+    // ["Obc-Ncl-PwD", "9", "4"],
+    // ["Sc-PwD", "7", "0"],
+    // ["St-PwD", "2", "0"]
 ]
 export const NITSrinagarSeatDataTableHeading = [
     "Category", 
@@ -145,16 +145,16 @@ export const NITAllahabadSeatDataTableHeading = [
 ]
 
 export const NITSuratSeatDataTableConstant = [
-    ["General", "315", "87"],
-    ["Ews", "80", "17"],
-    ["Obc-Ncl", "210", "48"],
-    ["Sc", "110", "34"],
-    ["St", "55", "17"],
-    ["General-PwD", "13", "2"],
-    ["Ews-PwD", "9", "2"],
-    ["Obc-Ncl-PwD", "11", "5"],
-    ["Sc-PwD", "9", "0"],
-    ["St-PwD", "2", "0"]
+    // ["General", "315", "87"],
+    // ["Ews", "80", "17"],
+    // ["Obc-Ncl", "210", "48"],
+    // ["Sc", "110", "34"],
+    // ["St", "55", "17"],
+    // ["General-PwD", "13", "2"],
+    // ["Ews-PwD", "9", "2"],
+    // ["Obc-Ncl-PwD", "11", "5"],
+    // ["Sc-PwD", "9", "0"],
+    // ["St-PwD", "2", "0"]
 ]
 export const NITSuratSeatDataTableHeading = [
     "Category", 
@@ -163,16 +163,16 @@ export const NITSuratSeatDataTableHeading = [
 ]
 
 export const NITCalicutSeatDataTableConstant = [
-    ["General", "340", "95"],
-    ["Ews", "90", "19"],
-    ["Obc-Ncl", "230", "54"],
-    ["Sc", "120", "38"],
-    ["St", "60", "19"],
-    ["General-PwD", "16", "3"],
-    ["Ews-PwD", "11", "2"],
-    ["Obc-Ncl-PwD", "13", "6"],
-    ["Sc-PwD", "11", "0"],
-    ["St-PwD", "3", "0"]
+    // ["General", "340", "95"],
+    // ["Ews", "90", "19"],
+    // ["Obc-Ncl", "230", "54"],
+    // ["Sc", "120", "38"],
+    // ["St", "60", "19"],
+    // ["General-PwD", "16", "3"],
+    // ["Ews-PwD", "11", "2"],
+    // ["Obc-Ncl-PwD", "13", "6"],
+    // ["Sc-PwD", "11", "0"],
+    // ["St-PwD", "3", "0"]
 ]
 export const NITCalicutSeatDataTableHeading = [
     "Category", 
@@ -199,16 +199,16 @@ export const NITRourkelaSeatDataTableHeading = [
 ]
 
 export const NITJaipurSeatDataTableConstant = [
-    ["General", "320", "90"],
-    ["Ews", "85", "18"],
-    ["Obc-Ncl", "210", "50"],
-    ["Sc", "110", "35"],
-    ["St", "55", "18"],
-    ["General-PwD", "12", "3"],
-    ["Ews-PwD", "9", "2"],
-    ["Obc-Ncl-PwD", "11", "6"],
-    ["Sc-PwD", "9", "1"],
-    ["St-PwD", "3", "0"]
+    // ["General", "320", "90"],
+    // ["Ews", "85", "18"],
+    // ["Obc-Ncl", "210", "50"],
+    // ["Sc", "110", "35"],
+    // ["St", "55", "18"],
+    // ["General-PwD", "12", "3"],
+    // ["Ews-PwD", "9", "2"],
+    // ["Obc-Ncl-PwD", "11", "6"],
+    // ["Sc-PwD", "9", "1"],
+    // ["St-PwD", "3", "0"]
 ]
 export const NITJaipurSeatDataTableHeading = [
     "Category", 
@@ -271,16 +271,16 @@ export const NITSilcharSeatDataTableHeading = [
 ]
 
 export const NITHamirpurSeatDataTableConstant = [
-    ["General", "310", "85"],
-    ["Ews", "80", "16"],
-    ["Obc-Ncl", "205", "48"],
-    ["Sc", "108", "32"],
-    ["St", "54", "16"],
-    ["General-PwD", "11", "2"],
-    ["Ews-PwD", "9", "2"],
-    ["Obc-Ncl-PwD", "10", "5"],
-    ["Sc-PwD", "9", "0"],
-    ["St-PwD", "2", "0"]
+    // ["General", "310", "85"],
+    // ["Ews", "80", "16"],
+    // ["Obc-Ncl", "205", "48"],
+    // ["Sc", "108", "32"],
+    // ["St", "54", "16"],
+    // ["General-PwD", "11", "2"],
+    // ["Ews-PwD", "9", "2"],
+    // ["Obc-Ncl-PwD", "10", "5"],
+    // ["Sc-PwD", "9", "0"],
+    // ["St-PwD", "2", "0"]
 ]
 export const NITHamirpurSeatDataTableHeading = [
     "Category", 
@@ -289,16 +289,16 @@ export const NITHamirpurSeatDataTableHeading = [
 ]
 
 export const NITJalandharSeatDataTableConstant = [
-    ["General", "320", "90"],
-    ["Ews", "85", "18"],
-    ["Obc-Ncl", "210", "50"],
-    ["Sc", "110", "35"],
-    ["St", "55", "18"],
-    ["General-PwD", "12", "3"],
-    ["Ews-PwD", "9", "2"],
-    ["Obc-Ncl-PwD", "11", "6"],
-    ["Sc-PwD", "9", "1"],
-    ["St-PwD", "3", "0"]
+    // ["General", "320", "90"],
+    // ["Ews", "85", "18"],
+    // ["Obc-Ncl", "210", "50"],
+    // ["Sc", "110", "35"],
+    // ["St", "55", "18"],
+    // ["General-PwD", "12", "3"],
+    // ["Ews-PwD", "9", "2"],
+    // ["Obc-Ncl-PwD", "11", "6"],
+    // ["Sc-PwD", "9", "1"],
+    // ["St-PwD", "3", "0"]
 ]
 export const NITJalandharSeatDataTableHeading = [
     "Category", 
@@ -307,16 +307,16 @@ export const NITJalandharSeatDataTableHeading = [
 ]
 
 export const NITPatnaSeatDataTableConstant = [
-    ["General", "305", "83"],
-    ["Ews", "75", "15"],
-    ["Obc-Ncl", "202", "46"],
-    ["Sc", "106", "31"],
-    ["St", "52", "15"],
-    ["General-PwD", "13", "2"],
-    ["Ews-PwD", "8", "2"],
-    ["Obc-Ncl-PwD", "11", "5"],
-    ["Sc-PwD", "8", "0"],
-    ["St-PwD", "2", "0"]
+    // ["General", "305", "83"],
+    // ["Ews", "75", "15"],
+    // ["Obc-Ncl", "202", "46"],
+    // ["Sc", "106", "31"],
+    // ["St", "52", "15"],
+    // ["General-PwD", "13", "2"],
+    // ["Ews-PwD", "8", "2"],
+    // ["Obc-Ncl-PwD", "11", "5"],
+    // ["Sc-PwD", "8", "0"],
+    // ["St-PwD", "2", "0"]
 ]
 export const NITPatnaSeatDataTableHeading = [
     "Category", 
@@ -325,16 +325,16 @@ export const NITPatnaSeatDataTableHeading = [
 ]
 
 export const NITRaipurSeatDataTableConstant = [
-    ["General", "315", "87"],
-    ["Ews", "80", "17"],
-    ["Obc-Ncl", "210", "48"],
-    ["Sc", "110", "34"],
-    ["St", "55", "17"],
-    ["General-PwD", "13", "2"],
-    ["Ews-PwD", "9", "2"],
-    ["Obc-Ncl-PwD", "11", "5"],
-    ["Sc-PwD", "9", "0"],
-    ["St-PwD", "2", "0"]
+    // ["General", "315", "87"],
+    // ["Ews", "80", "17"],
+    // ["Obc-Ncl", "210", "48"],
+    // ["Sc", "110", "34"],
+    // ["St", "55", "17"],
+    // ["General-PwD", "13", "2"],
+    // ["Ews-PwD", "9", "2"],
+    // ["Obc-Ncl-PwD", "11", "5"],
+    // ["Sc-PwD", "9", "0"],
+    // ["St-PwD", "2", "0"]
 ]
 export const NITRaipurSeatDataTableHeading = [
     "Category", 
@@ -343,16 +343,16 @@ export const NITRaipurSeatDataTableHeading = [
 ]
 
 export const NITAgaratalaSeatDataTableConstant = [
-    ["General", "290", "75"],
-    ["Ews", "70", "14"],
-    ["Obc-Ncl", "190", "42"],
-    ["Sc", "100", "28"],
-    ["St", "50", "14"],
-    ["General-PwD", "10", "2"],
-    ["Ews-PwD", "8", "2"],
-    ["Obc-Ncl-PwD", "9", "4"],
-    ["Sc-PwD", "7", "0"],
-    ["St-PwD", "2", "0"]
+    // ["General", "290", "75"],
+    // ["Ews", "70", "14"],
+    // ["Obc-Ncl", "190", "42"],
+    // ["Sc", "100", "28"],
+    // ["St", "50", "14"],
+    // ["General-PwD", "10", "2"],
+    // ["Ews-PwD", "8", "2"],
+    // ["Obc-Ncl-PwD", "9", "4"],
+    // ["Sc-PwD", "7", "0"],
+    // ["St-PwD", "2", "0"]
 ]
 export const NITAgaratalaSeatDataTableHeading = [
     "Category", 
@@ -361,16 +361,16 @@ export const NITAgaratalaSeatDataTableHeading = [
 ]
 
 export const NITArunachalPradeshSeatDataTableConstant = [
-    ["General", "280", "70"],
-    ["Ews", "65", "13"],
-    ["Obc-Ncl", "180", "40"],
-    ["Sc", "95", "26"],
-    ["St", "45", "13"],
-    ["General-PwD", "9", "2"],
-    ["Ews-PwD", "7", "2"],
-    ["Obc-Ncl-PwD", "8", "4"],
-    ["Sc-PwD", "6", "0"],
-    ["St-PwD", "2", "0"]
+    // ["General", "280", "70"],
+    // ["Ews", "65", "13"],
+    // ["Obc-Ncl", "180", "40"],
+    // ["Sc", "95", "26"],
+    // ["St", "45", "13"],
+    // ["General-PwD", "9", "2"],
+    // ["Ews-PwD", "7", "2"],
+    // ["Obc-Ncl-PwD", "8", "4"],
+    // ["Sc-PwD", "6", "0"],
+    // ["St-PwD", "2", "0"]
 ]
 export const NITArunachalPradeshSeatDataTableHeading = [
     "Category", 
@@ -379,16 +379,16 @@ export const NITArunachalPradeshSeatDataTableHeading = [
 ]
 
 export const NITDelhiSeatDataTableConstant = [
-    ["General", "300", "80"],
-    ["Ews", "75", "15"],
-    ["Obc-Ncl", "200", "45"],
-    ["Sc", "100", "30"],
-    ["St", "50", "15"],
-    ["General-PwD", "10", "2"],
-    ["Ews-PwD", "8", "2"],
-    ["Obc-Ncl-PwD", "10", "5"],
-    ["Sc-PwD", "8", "0"],
-    ["St-PwD", "2", "0"]
+    // ["General", "300", "80"],
+    // ["Ews", "75", "15"],
+    // ["Obc-Ncl", "200", "45"],
+    // ["Sc", "100", "30"],
+    // ["St", "50", "15"],
+    // ["General-PwD", "10", "2"],
+    // ["Ews-PwD", "8", "2"],
+    // ["Obc-Ncl-PwD", "10", "5"],
+    // ["Sc-PwD", "8", "0"],
+    // ["St-PwD", "2", "0"]
 ]
 export const NITDelhiSeatDataTableHeading = [
     "Category", 
@@ -397,16 +397,16 @@ export const NITDelhiSeatDataTableHeading = [
 ]
 
 export const NITGoaSeatDataTableConstant = [
-    ["General", "290", "75"],
-    ["Ews", "70", "14"],
-    ["Obc-Ncl", "190", "42"],
-    ["Sc", "100", "28"],
-    ["St", "50", "14"],
-    ["General-PwD", "10", "2"],
-    ["Ews-PwD", "8", "2"],
-    ["Obc-Ncl-PwD", "9", "4"],
-    ["Sc-PwD", "7", "0"],
-    ["St-PwD", "2", "0"]
+    // ["General", "290", "75"],
+    // ["Ews", "70", "14"],
+    // ["Obc-Ncl", "190", "42"],
+    // ["Sc", "100", "28"],
+    // ["St", "50", "14"],
+    // ["General-PwD", "10", "2"],
+    // ["Ews-PwD", "8", "2"],
+    // ["Obc-Ncl-PwD", "9", "4"],
+    // ["Sc-PwD", "7", "0"],
+    // ["St-PwD", "2", "0"]
 ]
 export const NITGoaSeatDataTableHeading = [
     "Category", 
@@ -415,16 +415,16 @@ export const NITGoaSeatDataTableHeading = [
 ]
 
 export const NITManipurSeatDataTableConstant = [
-    ["General", "280", "70"],
-    ["Ews", "65", "13"],
-    ["Obc-Ncl", "180", "40"],
-    ["Sc", "95", "26"],
-    ["St", "45", "13"],
-    ["General-PwD", "9", "2"],
-    ["Ews-PwD", "7", "2"],
-    ["Obc-Ncl-PwD", "8", "4"],
-    ["Sc-PwD", "6", "0"],
-    ["St-PwD", "2", "0"]
+    // ["General", "280", "70"],
+    // ["Ews", "65", "13"],
+    // ["Obc-Ncl", "180", "40"],
+    // ["Sc", "95", "26"],
+    // ["St", "45", "13"],
+    // ["General-PwD", "9", "2"],
+    // ["Ews-PwD", "7", "2"],
+    // ["Obc-Ncl-PwD", "8", "4"],
+    // ["Sc-PwD", "6", "0"],
+    // ["St-PwD", "2", "0"]
 ]
 export const NITManipurSeatDataTableHeading = [
     "Category", 

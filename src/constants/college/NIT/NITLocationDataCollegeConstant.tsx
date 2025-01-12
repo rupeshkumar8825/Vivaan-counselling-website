@@ -21,14 +21,9 @@ export const NITWarangalLocationDataTableHeading = [
 ]
 
 export const NITBhopalLocationDataTableConstant = [
-    [
-        "Raja Bhoj Airport", 
-        "15"
-    ], 
-    [
-        "Bhopal Junction Railway Station", 
-        "10"
-    ]
+    ["Raja Bhoj Airport, Bhopal", "15"],
+    ["Habibganj Railway Station", "5"],
+    ["Bhopal Junction Railway Station", "8"]
 ]
 
 export const NITBhopalLocationDataTableHeading = [
@@ -55,14 +50,9 @@ export const NITDurgapurLocationDataTableHeading = [
 ]
 
 export const NITJamshedpurLocationDataTableConstant = [
-    [
-        "Birsa Munda Airport", 
-        "130"
-    ], 
-    [
-        "Tatanagar Junction Railway Station", 
-        "12"
-    ]
+    ["Birsa Munda Airport, Ranchi", "133"],
+    ["Netaji Subhas Chandra Bose International Airport, Kolkata", "302"],
+    ["Tatanagar Junction Railway Station", "13"]
 ]
 
 export const NITJamshedpurLocationDataTableHeading = [
@@ -117,14 +107,9 @@ export const NITAllahabadLocationDataTableHeading = [
 ]
 
 export const NITSuratLocationDataTableConstant = [
-    [
-        "Surat Airport", 
-        "10"
-    ], 
-    [
-        "Surat Railway Station", 
-        "8"
-    ]
+    ["Surat International Airport", "8.5"],
+    ["Surat Railway Station", "9"]
+
 ]
 
 export const NITSuratLocationDataTableHeading = [
@@ -151,14 +136,9 @@ export const NITRourkelaLocationDataTableHeading = [
 ]
 
 export const NITJaipurLocationDataTableConstant = [
-    [
-        "Jaipur International Airport", 
-        "15"
-    ], 
-    [
-        "Jaipur Junction Railway Station", 
-        "10"
-    ]
+    ["Jaipur International Airport", "5.5"],
+    ["Gandhinagar Jaipur Railway Station", "3.5"],
+    ["Jaipur Junction Railway Station", "10.5"]
 ]
 
 export const NITJaipurLocationDataTableHeading = [
@@ -200,14 +180,9 @@ export const NITSilcharLocationDataTableHeading = [
 ]
 
 export const NITHamirpurLocationDataTableConstant = [
-    [
-        "Kangra Airport", 
-        "80"
-    ], 
-    [
-        "Una Railway Station", 
-        "70"
-    ]
+    ["Kangra Airport, Gaggal", "86.5"],
+    ["Una Himachal Railway Station", "67.5"]
+
 ]
 
 export const NITHamirpurLocationDataTableHeading = [
@@ -215,14 +190,11 @@ export const NITHamirpurLocationDataTableHeading = [
 ]
 
 export const NITJalandharLocationDataTableConstant = [
-    [
-        "Sri Guru Ram Dass Jee International Airport", 
-        "90"
-    ], 
-    [
-        "Jalandhar City Railway Station", 
-        "10"
-    ]
+    ["Adampur Airport, Jalandhar", "34"],
+  ["Sri Guru Ram Dass Jee International Airport, Amritsar", "85.5"],
+  ["Jalandhar City Junction Railway Station", "15.5"],
+  ["Jalandhar Cantonment Railway Station", "22.5"]
+
 ]
 
 export const NITJalandharLocationDataTableHeading = [
@@ -245,14 +217,8 @@ export const NITPatnaLocationDataTableHeading = [
 ]
 
 export const NITRaipurLocationDataTableConstant = [
-    [
-        "Swami Vivekananda Airport", 
-        "15"
-    ], 
-    [
-        "Raipur Junction Railway Station", 
-        "10"
-    ]
+    ["Swami Vivekananda Airport, Raipur", "18.5"],
+    ["Raipur Junction Railway Station", "5"]
 ]
 
 export const NITRaipurLocationDataTableHeading = [
@@ -260,14 +226,9 @@ export const NITRaipurLocationDataTableHeading = [
 ]
 
 export const NITAgaratalaLocationDataTableConstant = [
-    [
-        "Maharaja Bir Bikram Airport", 
-        "12"
-    ], 
-    [
-        "Agartala Railway Station", 
-        "8"
-    ]
+    ["Maharaja Bir Bikram Airport, Agartala", "26"],
+    ["Jirania Railway Station", "3"],
+    ["Agartala Railway Station", "21.5"]
 ]
 
 export const NITAgaratalaLocationDataTableHeading = [
@@ -306,14 +267,8 @@ export const NITDelhiLocationDataTableHeading = [
 ]
 
 export const NITGoaLocationDataTableConstant = [
-    [
-        "Goa International Airport", 
-        "30"
-    ], 
-    [
-        "Madgaon Railway Station", 
-        "35"
-    ]
+    ["Goa International Airport", "38"],
+    ["Madgaon Junction Railway Station", "24"]
 ]
 
 export const NITGoaLocationDataTableHeading = [
@@ -336,14 +291,10 @@ export const NITManipurLocationDataTableHeading = [
 ]
 
 export const NITMeghalayaLocationDataTableConstant = [
-    [
-        "Shillong Airport", 
-        "35"
-    ], 
-    [
-        "Guwahati Railway Station", 
-        "100"
-    ]
+    ["Shillong Airport", "26"],
+    ["Lokpriya Gopinath Bordoloi International Airport, Guwahati", "121"],
+    ["Guwahati Railway Station", "98"]
+
 ]
 
 export const NITMeghalayaLocationDataTableHeading = [

@@ -34,21 +34,25 @@ export const NITBhopalCoursesTableContent = [
         "Computer Science and Engineering",
         "Electrical Engineering",
         "Electronics and Communication Engineering",
-        "Industrial and Production Engineering",
-        "Information Technology",
-        "Mechanical Engineering",
-        "Metallurgical and Materials Engineering"
+        "Materials Science and Metallurgical Engineering",
+        "Mechanical Engineering"
     ],
     [
-        "Physics",
-        "Chemistry",
-        "Mathematics"
+        "Planning"
+    ],
+    [
+        "Architecture"
+    ],
+    [
+        "Mathematics and Data Science"
     ]
 ]
 
 export const NITBhopalCoursesTableHeading = [
     "B.E./B.Tech - 4 Years",
-    "B.Arch - 5 Years"
+    "B.Plan. - 4 Years" , 
+    "B.Arch. - 5 Years",
+    "B.Tech + M.Tech. (Dual Degree) - 5 Years"
 ]
 
 export const NITNagpurCoursesTableContent = [
@@ -104,23 +108,24 @@ export const NITDurgapurCoursesTableHeading = [
 export const NITJamshedpurCoursesTableContent = [
     [
         "Civil Engineering",
-        "Computer Science and Engineering",
-        "Electrical and Electronics Engineering",
-        "Electronics and Communication Engineering",
-        "Mechanical Engineering",
-        "Metallurgical and Materials Engineering",
-        "Production and Industrial Engineering"
+  "Computer Science and Engineering",
+  "Electrical Engineering",
+  "Electronics and Communication Engineering",
+  "Engineering and Computational Mechanics",
+  "Mechanical Engineering",
+  "Metallurgical and Materials Engineering",
+  "Production and Industrial Engineering"
     ],
-    [
-        "Physics",
-        "Chemistry",
-        "Mathematics"
-    ]
+    // [
+    //     "Physics",
+    //     "Chemistry",
+    //     "Mathematics"
+    // ]
 ]
 
 export const NITJamshedpurCoursesTableHeading = [
     "B.E./B.Tech - 4 Years",
-    "B.Arch - 5 Years"
+    // "B.Arch - 5 Years"
 ]
 
 export const NITKarnatakaCoursesTableContent = [
@@ -193,24 +198,24 @@ export const NITAllahabadCoursesTableHeading = [
 
 export const NITSuratCoursesTableContent = [
     [
-        "Chemical Engineering",
-        "Civil Engineering",
-        "Computer Engineering",
-        "Electrical Engineering",
-        "Electronics and Communication Engineering",
-        "Mechanical Engineering",
-        "Production Engineering"
+        "Artificial Intelligence",
+    "Chemical Engineering",
+    "Civil Engineering",
+    "Computer Science and Engineering",
+    "Electrical Engineering",
+    "Electronics and Communication Engineering",
+    "Mechanical Engineering"
     ],
     [
-        "Physics",
         "Chemistry",
-        "Mathematics"
+    "Mathematics",
+    "Physics"
     ]
 ]
 
 export const NITSuratCoursesTableHeading = [
     "B.E./B.Tech - 4 Years",
-    "B.Arch - 5 Years"
+    "Integrated M.Sc. - 5 Years"
 ]
 
 export const NITCalicutCoursesTableContent = [
@@ -279,6 +284,7 @@ export const NITRourkelaCoursesTableHeading = [
 
 export const NITJaipurCoursesTableContent = [
     [
+        "Artificial Intelligence and Data Engineering",
         "Chemical Engineering",
         "Civil Engineering",
         "Computer Science and Engineering",
@@ -286,11 +292,11 @@ export const NITJaipurCoursesTableContent = [
         "Electronics and Communication Engineering",
         "Mechanical Engineering",
         "Metallurgical and Materials Engineering"
+
     ],
     [
-        "Physics",
-        "Chemistry",
-        "Mathematics"
+        "Architecture"
+
     ]
 ]
 
@@ -367,46 +373,61 @@ export const NITSilcharCoursesTableHeading = [
 
 export const NITHamirpurCoursesTableContent = [
     [
-        "Civil Engineering",
-        "Computer Science and Engineering",
-        "Electrical Engineering",
-        "Electronics and Communication Engineering",
-        "Mechanical Engineering"
+        "Chemical Engineering",
+    "Civil Engineering",
+    "Computer Science and Engineering",
+    "Electrical Engineering",
+    "Electronics and Communication Engineering",
+    "Engineering Physics",
+    "Materials Science and Engineering",
+    "Mathematics and Computing",
+    "Mechanical Engineering"
+
+
     ],
     [
-        "Physics",
-        "Chemistry",
-        "Mathematics"
+        "Architecture"
+    ],
+    [
+        "Computer Science and Engineering",
+    "Electronics and Communication Engineering"
+
     ]
 ]
 
 export const NITHamirpurCoursesTableHeading = [
     "B.E./B.Tech - 4 Years",
-    "B.Arch - 5 Years"
+    "B.Arch - 5 Years",
+    "B.Tech + M.Tech. (Dual Degree) - 5 Years"
 ]
 
 export const NITJalandharCoursesTableContent = [
     [
         "Biotechnology",
-        "Chemical Engineering",
-        "Civil Engineering",
-        "Computer Science and Engineering",
-        "Electrical Engineering",
-        "Electronics and Communication Engineering",
-        "Information Technology",
-        "Mechanical Engineering",
-        "Textile Technology"
+  "Chemical Engineering",
+  "Civil Engineering",
+  "Computer Science and Engineering",
+  "Data Science and Engineering",
+  "Electrical Engineering",
+  "Electronics and Communication Engineering",
+  "Electronics and VLSI Engineering",
+  "Industrial and Production Engineering",
+  "Information Technology",
+  "Instrumentation and Control Engineering",
+  "Mechanical Engineering",
+  "Textile Technology"
+
     ],
-    [
-        "Physics",
-        "Chemistry",
-        "Mathematics"
-    ]
+    // [
+    //     "Physics",
+    //     "Chemistry",
+    //     "Mathematics"
+    // ]
 ]
 
 export const NITJalandharCoursesTableHeading = [
     "B.E./B.Tech - 4 Years",
-    "B.Arch - 5 Years"
+    // "B.Arch - 5 Years"
 ]
 
 export const NITPatnaCoursesTableContent = [
@@ -431,22 +452,21 @@ export const NITPatnaCoursesTableHeading = [
 
 export const NITRaipurCoursesTableContent = [
     [
-        "Biomedical Engineering",
-        "Biotechnology",
-        "Chemical Engineering",
-        "Civil Engineering",
-        "Computer Science and Engineering",
-        "Electrical Engineering",
-        "Electronics and Communication Engineering",
-        "Information Technology",
-        "Mechanical Engineering",
-        "Metallurgical and Materials Engineering",
-        "Mining Engineering"
+        "Bio Medical Engineering", 
+    "Biotechnology", 
+    "Chemical Engineering", 
+    "Civil Engineering", 
+    "Computer Science and Engineering", 
+    "Electrical Engineering", 
+    "Electronics and Communication Engineering", 
+    "Information Technology", 
+    "Mechanical Engineering", 
+    "Metallurgical and Materials Engineering", 
+    "Mining Engineering"
+
     ],
     [
-        "Physics",
-        "Chemistry",
-        "Mathematics"
+        "Architecture"
     ]
 ]
 
@@ -457,24 +477,32 @@ export const NITRaipurCoursesTableHeading = [
 
 export const NITAgartalaCoursesTableContent = [
     [
-        "Chemical Engineering",
-        "Civil Engineering",
-        "Computer Science and Engineering",
-        "Electrical Engineering",
-        "Electronics and Communication Engineering",
-        "Mechanical Engineering",
-        "Production Engineering"
+        "Biotechnology and Biochemical Engineering",
+    "Chemical Engineering",
+    "Civil Engineering",
+    "Computer Science and Engineering",
+    "Electrical Engineering",
+    "Electronics and Communication Engineering",
+    "Electronics and Instrumentation Engineering",
+    "Mechanical Engineering",
+    "Production Engineering"
     ],
     [
-        "Physics",
+        "Computational Mathematics",
+    "Engineering Physics"
+    ], 
+    [
         "Chemistry",
-        "Mathematics"
+    "Mathematics and Computing",
+    "Physics"
+
     ]
 ]
 
 export const NITAgartalaCoursesTableHeading = [
-    "B.E./B.Tech - 4 Years",
-    "B.Arch - 5 Years"
+"B.E./B.Tech - 4 Years",
+    "B.Tech + M.Tech. (Dual Degree) - 5 Years", 
+    "B.Sc. + M.Sc. (Dual Degree) - 5 Years"
 ]
 
 export const NITArunachalPradeshCoursesTableContent = [
@@ -518,10 +546,12 @@ export const NITDelhiCoursesTableHeading = [
 
 export const NITGoaCoursesTableContent = [
     [
-        "Computer Science and Engineering",
-        "Electrical and Electronics Engineering",
-        "Electronics and Communication Engineering",
-        "Mechanical Engineering"
+        "Civil Engineering",
+    "Computer Science and Engineering",
+    "Electrical and Electronics Engineering",
+    "Electronics and Communication Engineering",
+    "Mechanical Engineering"
+
     ],
     [
         "Physics",
@@ -558,21 +588,22 @@ export const NITManipurCoursesTableHeading = [
 export const NITMeghalayaCoursesTableContent = [
     [
         "Civil Engineering",
-        "Computer Science and Engineering",
-        "Electrical and Electronics Engineering",
-        "Electronics and Communication Engineering",
-        "Mechanical Engineering"
+    "Computer Science and Engineering",
+    "Electrical and Electronics Engineering",
+    "Electronics and Communication Engineering",
+    "Mechanical Engineering"
+
     ],
-    [
-        "Physics",
-        "Chemistry",
-        "Mathematics"
-    ]
+    // [
+    //     "Physics",
+    //     "Chemistry",
+    //     "Mathematics"
+    // ]
 ]
 
 export const NITMeghalayaCoursesTableHeading = [
     "B.E./B.Tech - 4 Years",
-    "B.Arch - 5 Years"
+    // "B.Arch - 5 Years"
 ]
 
 export const NITMizoramCoursesTableContent = [

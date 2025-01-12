@@ -30,11 +30,12 @@ export const NITWarangalAboutDataTableHeading = [
 
 
 export const NITBhopalAboutDataTableConstant = [
-    ["Also Known As", "VNIT, NIT Nagpur, Regional College of Engineering Nagpur and Visvesvaraya Regional College of Engineering Nagpur (VRCE)."],
+    ["Also Known As", "MANIT, Maulana Azad College of Technology (MACT), MANIT Bhopal and NIT Bhopal."],
     ["Institute Type", "Government"],
     ["Established", "1960"],
-    ["Location", "Nagpur, Maharashtra"],
-    ["Type", "VNIT"]
+    ["Location", "Bhopal, Madhya Pradesh"],
+    ["Type", "NIT"]
+
 ]
 
 export const NITBhopalAboutDataTableHeading = [
@@ -43,26 +44,11 @@ export const NITBhopalAboutDataTableHeading = [
 ]
 
 export const NITNagpurAboutDataTableConstant = [
-    [
-        "Also Known as", 
-        "VNIT, Visvesvaraya National Institute of Technology"
-    ], 
-    [
-        "Institute Type", 
-        "Government"
-    ], 
-    [
-        "Established", 
-        "1960"
-    ], 
-    [
-        "Location", 
-        "Nagpur, Maharashtra"
-    ], 
-    [
-        "Type", 
-        "NIT"
-    ]
+    ["Also Known As", "VNIT, NIT Nagpur, Regional College of Engineering Nagpur and Visvesvaraya Regional College of Engineering Nagpur (VRCE)."],
+    ["Institute Type", "Government"],
+    ["Established", "1960"],
+    ["Location", "Nagpur, Maharashtra"],
+    ["Type", "VNIT"]
 ]
 
 export const NITNagpurAboutDataTableHeading = [
@@ -84,26 +70,12 @@ export const NITDurgapurAboutDataTableHeading = [
 ]
 
 export const NITJamshedpurAboutDataTableConstant = [
-    [
-        "Also Known as", 
-        "NITJSR, National Institute of Technology Jamshedpur"
-    ], 
-    [
-        "Institute Type", 
-        "Government"
-    ], 
-    [
-        "Established", 
-        "1960"
-    ], 
-    [
-        "Location", 
-        "Jamshedpur, Jharkhand"
-    ], 
-    [
-        "Type", 
-        "NIT"
-    ]
+    ["Also Known As", "NITJSR, NIT Adityapur, NIT Jamshedpur"],
+    ["Institute Type", "Government"],
+    ["Established", "1960"],
+    ["Location", "Jamshedpur, Jharkhand"],
+    ["Type", "NIT"]
+  
 ]
 
 export const NITJamshedpurAboutDataTableHeading = [
@@ -182,26 +154,11 @@ export const NITAllahabadAboutDataTableHeading = [
 ]
 
 export const NITSuratAboutDataTableConstant = [
-    [
-        "Also Known as", 
-        "SVNIT, Sardar Vallabhbhai National Institute of Technology"
-    ], 
-    [
-        "Institute Type", 
-        "Government"
-    ], 
-    [
-        "Established", 
-        "1961"
-    ], 
-    [
-        "Location", 
-        "Surat, Gujarat"
-    ], 
-    [
-        "Type", 
-        "NIT"
-    ]
+    ["Also Known As", "SVNIT, SVNIT Surat and NIT Surat."],
+    ["Institute Type", "Government"],
+    ["Established", "1961"],
+    ["Location", "Surat, Gujarat"],
+    ["Type", "NIT"]
 ]
 
 export const NITSuratAboutDataTableHeading = [
@@ -237,26 +194,12 @@ export const NITRourkelaAboutDataTableHeading = [
 ]
 
 export const NITJaipurAboutDataTableConstant = [
-    [
-        "Also Known as", 
-        "MNIT, Malaviya National Institute of Technology"
-    ], 
-    [
-        "Institute Type", 
-        "Government"
-    ], 
-    [
-        "Established", 
-        "1963"
-    ], 
-    [
-        "Location", 
-        "Jaipur, Rajasthan"
-    ], 
-    [
-        "Type", 
-        "NIT"
-    ]
+    ["Also Known As", "MNIT, Malaviya Regional Engineering College Jaipur, MNIT Jaipur and NIT Jaipur."],
+    ["Institute Type", "Government"],
+    ["Established", "1963"],
+    ["Location", "Jaipur, Rajasthan"],
+    ["Type", "NIT"]
+
 ]
 
 export const NITJaipurAboutDataTableHeading = [
@@ -321,26 +264,12 @@ export const NITSilcharAboutDataTableHeading = [
 ]
 
 export const NITHamirpurAboutDataTableConstant = [
-    [
-        "Also Known as", 
-        "NITH, National Institute of Technology Hamirpur"
-    ], 
-    [
-        "Institute Type", 
-        "Government"
-    ], 
-    [
-        "Established", 
-        "1986"
-    ], 
-    [
-        "Location", 
-        "Hamirpur, Himachal Pradesh"
-    ], 
-    [
-        "Type", 
-        "NIT"
-    ]
+    ["Also Known As", "NITH, NIT Hamirpur"],
+    ["Institute Type", "Government"],
+    ["Established", "1986"],
+    ["Location", "Hamirpur, Himachal Pradesh"],
+    ["Type", "NIT"]
+
 ]
 
 export const NITHamirpurAboutDataTableHeading = [
@@ -349,26 +278,12 @@ export const NITHamirpurAboutDataTableHeading = [
 ]
 
 export const NITJalandharAboutDataTableConstant = [
-    [
-        "Also Known as", 
-        "NITJ, Dr. B R Ambedkar National Institute of Technology"
-    ], 
-    [
-        "Institute Type", 
-        "Government"
-    ], 
-    [
-        "Established", 
-        "1987"
-    ], 
-    [
-        "Location", 
-        "Jalandhar, Punjab"
-    ], 
-    [
-        "Type", 
-        "NIT"
-    ]
+    ["Also Known As", "NITJ, NIT Jalandhar"],
+    ["Institute Type", "Government"],
+    ["Established", "1987"],
+    ["Location", "Jalandhar, Punjab"],
+    ["Type", "NIT"]
+  
 ]
 
 export const NITJalandharAboutDataTableHeading = [
@@ -405,26 +320,11 @@ export const NITPatnaAboutDataTableHeading = [
 ]
 
 export const NITRaipurAboutDataTableConstant = [
-    [
-        "Also Known as", 
-        "NITRR, National Institute of Technology Raipur"
-    ], 
-    [
-        "Institute Type", 
-        "Government"
-    ], 
-    [
-        "Established", 
-        "1956"
-    ], 
-    [
-        "Location", 
-        "Raipur, Chhattisgarh"
-    ], 
-    [
-        "Type", 
-        "NIT"
-    ]
+    ["Also Known As", "NITRR, NIT Raipur"],
+    ["Institute Type", "Government"],
+    ["Established", "1956"],
+    ["Location", "Raipur, Chhattisgarh"],
+    ["Type", "NIT"]
 ]
 
 export const NITRaipurAboutDataTableHeading = [
@@ -433,26 +333,12 @@ export const NITRaipurAboutDataTableHeading = [
 ]
 
 export const NITAgaratalaAboutDataTableConstant = [
-    [
-        "Also Known as", 
-        "NITA, National Institute of Technology Agartala"
-    ], 
-    [
-        "Institute Type", 
-        "Government"
-    ], 
-    [
-        "Established", 
-        "1965"
-    ], 
-    [
-        "Location", 
-        "Agartala, Tripura"
-    ], 
-    [
-        "Type", 
-        "NIT"
-    ]
+    ["Also Known As", "NITA, Tripura Engineering College, NIT Agartala"],
+    ["Institute Type", "Government"],
+    ["Established", "1965"],
+    ["Location", "Agartala, Tripura"],
+    ["Type", "NIT"]
+
 ]
 
 export const NITAgaratalaAboutDataTableHeading = [
@@ -517,26 +403,12 @@ export const NITDelhiAboutDataTableHeading = [
 ]
 
 export const NITGoaAboutDataTableConstant = [
-    [
-        "Also Known as", 
-        "NITG, National Institute of Technology Goa"
-    ], 
-    [
-        "Institute Type", 
-        "Government"
-    ], 
-    [
-        "Established", 
-        "2010"
-    ], 
-    [
-        "Location", 
-        "Farmagudi, Goa"
-    ], 
-    [
-        "Type", 
-        "NIT"
-    ]
+    ["Also Known As", "NITG, NIT Goa"],
+    ["Institute Type", "Government"],
+    ["Established", "2010"],
+    ["Location", "Ponda, Goa"],
+    ["Type", "NIT"]
+
 ]
 
 export const NITGoaAboutDataTableHeading = [
@@ -573,26 +445,12 @@ export const NITManipurAboutDataTableHeading = [
 ]
 
 export const NITMeghalayaAboutDataTableConstant = [
-    [
-        "Also Known as", 
-        "NITMGH, National Institute of Technology Meghalaya"
-    ], 
-    [
-        "Institute Type", 
-        "Government"
-    ], 
-    [
-        "Established", 
-        "2010"
-    ], 
-    [
-        "Location", 
-        "Shillong, Meghalaya"
-    ], 
-    [
-        "Type", 
-        "NIT"
-    ]
+    ["Also Known As", "NITM, NIT Meghalaya, NIT Shillong"],
+    ["Institute Type", "Government"],
+    ["Established", "2010"],
+    ["Location", "Shillong, Meghalaya"],
+    ["Type", "NIT"]
+
 ]
 
 export const NITMeghalayaAboutDataTableHeading = [
