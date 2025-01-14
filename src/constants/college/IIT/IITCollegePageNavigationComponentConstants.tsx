@@ -1239,7 +1239,7 @@ export const IITPalakkadCollegeRankingSectionContent : string =""
 export const IITPalakkadCollegeSeatSectionContent : string =""
 
 export const IITGoaCollegeLocationSectionContent : string =""
-export const IITGoaCollegeRankingSectionContent : string =""
+export const IITGoaCollegeRankingSectionContent : string ="Information currently unavailable"
 export const IITGoaCollegeSeatSectionContent : string =""
 
 export const IITDharwadCollegeLocationSectionContent : string =""

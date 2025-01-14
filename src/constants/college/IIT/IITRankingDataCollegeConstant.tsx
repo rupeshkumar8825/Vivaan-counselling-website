@@ -63,16 +63,8 @@ export const IITKanpurRankingDataTableHeading = [
 ]
 
 export const IITDelhiRankingDataTableConstant = [
-    [
-        "NIRF Overall Rankings", 
-        "2 (2023)", 
-        "2 (2022)"
-    ], 
-    [
-        "NIRF Engineering Rankings", 
-        "2 (2023)", 
-        "2 (2022)"
-    ]
+    ["NIRF Overall Rankings", "3 (2023)", "4 (2022)"],
+    ["NIRF Engineering Rankings", "2 (2023)", "2 (2022)"]
 ]
 
 export const IITDelhiRankingDataTableHeading = [
@@ -80,16 +72,8 @@ export const IITDelhiRankingDataTableHeading = [
 ]
 
 export const IITGuwahatiRankingDataTableConstant = [
-    [
-        "NIRF Overall Rankings", 
-        "7 (2023)", 
-        "7 (2022)"
-    ], 
-    [
-        "NIRF Engineering Rankings", 
-        "7 (2023)", 
-        "7 (2022)"
-    ]
+    ["NIRF Overall Rankings", "9 (2024)", "9 (2023)"],
+    ["NIRF Engineering Rankings", "7 (2024)", "7 (2023)"]
 ]
 
 export const IITGuwahatiRankingDataTableHeading = [
@@ -97,16 +81,8 @@ export const IITGuwahatiRankingDataTableHeading = [
 ]
 
 export const IITRoorkeeRankingDataTableConstant = [
-    [
-        "NIRF Overall Rankings", 
-        "6 (2023)", 
-        "6 (2022)"
-    ], 
-    [
-        "NIRF Engineering Rankings", 
-        "6 (2023)", 
-        "6 (2022)"
-    ]
+    ["NIRF Overall Rankings", "8 (2023)", "7 (2022)"],
+    ["NIRF Engineering Rankings", "5 (2023)", "6 (2022)"]
 ]
 
 export const IITRoorkeeRankingDataTableHeading = [
@@ -216,16 +192,8 @@ export const IITPatnaRankingDataTableHeading = [
 ]
 
 export const IITIndoreRankingDataTableConstant = [
-    [
-        "NIRF Overall Rankings", 
-        "16 (2023)", 
-        "16 (2022)"
-    ], 
-    [
-        "NIRF Engineering Rankings", 
-        "13 (2023)", 
-        "13 (2022)"
-    ]
+    ["NIRF Overall Rankings", "33 (2024)", "28 (2023)"],
+    ["NIRF Engineering Rankings", "16 (2024)", "14 (2023)"]
 ]
 
 export const IITIndoreRankingDataTableHeading = [

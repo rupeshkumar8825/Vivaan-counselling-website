@@ -104,73 +104,93 @@ export const IITKanpurCoursesTableHeading = [
 
 export const IITDelhiCoursesTableContent = [
     [
-        "Biochemical Engineering and Biotechnology",
-        "Chemical Engineering",
-        "Civil Engineering",
-        "Computer Science and Engineering",
-        "Electrical Engineering",
-        "Engineering Physics",
-        "Mechanical Engineering",
-        "Production and Industrial Engineering",
-        "Textile Technology"
+"Biotechnology and Biochemical Engineering",
+  "Chemical Engineering",
+  "Civil Engineering",
+  "Computer Science and Engineering",
+  "Electrical Engineering",
+  "Electrical Engineering (Power and Automation)",
+  "Energy Engineering",
+  "Textile Technology",
+  "Engineering and Computational Mechanics",
+  "Engineering Physics",
+  "Materials Engineering",
+  "Mathematics and Computing",
+  "Mechanical Engineering",
+  "Production and Industrial Engineering"
     ],
     [
-        "Physics",
-        "Chemistry",
-        "Mathematics"
+"Chemical Engineering",
+  "Computer Science and Engineering",
+  "Mathematics and Computing"
     ]
 ]
 
 export const IITDelhiCoursesTableHeading = [
     "B.E./B.Tech - 4 Years",
-    "B.Arch - 5 Years"
+    "B.Tech + M.Tech. (Dual Degree) - 5 Years"
 ]
 
 export const IITGuwahatiCoursesTableContent = [
     [
-        "Biosciences and Bioengineering",
-        "Chemical Engineering",
-        "Civil Engineering",
-        "Computer Science and Engineering",
-        "Electronics and Communication Engineering",
-        "Electronics and Electrical Engineering",
-        "Mechanical Engineering"
+"Biosciences and Bioengineering",
+  "Chemical Engineering",
+  "Chemical Science and Technology",
+  "Civil Engineering",
+  "Computer Science and Engineering",
+  "Data Science and Artificial Intelligence",
+  "Electronics and Communication Engineering",
+  "Electronics and Electrical Engineering",
+  "Engineering Physics",
+  "Mathematics and Computing",
+  "Mechanical Engineering"
     ],
-    [
-        "Physics",
-        "Chemistry",
-        "Mathematics"
-    ]
+    // [
+    //     "Physics",
+    //     "Chemistry",
+    //     "Mathematics"
+    // ]
 ]
 
 export const IITGuwahatiCoursesTableHeading = [
     "B.E./B.Tech - 4 Years",
-    "B.Arch - 5 Years"
+    // "B.Arch - 5 Years"
 ]
 
 export const IITRoorkeeCoursesTableContent = [
     [
-        "Architecture and Planning",
-        "Biotechnology",
-        "Chemical Engineering",
-        "Civil Engineering",
-        "Computer Science and Engineering",
-        "Electrical Engineering",
-        "Electronics and Communication Engineering",
-        "Mechanical Engineering",
-        "Metallurgical and Materials Engineering",
-        "Production and Industrial Engineering"
+"Biosciences and Bioengineering",
+  "Chemical Engineering",
+  "Civil Engineering",
+  "Computer Science and Engineering",
+  "Data Science and Artificial Intelligence",
+  "Electrical Engineering",
+  "Electronics and Communication Engineering",
+  "Engineering Physics",
+  "Mechanical Engineering",
+  "Metallurgical and Materials Engineering",
+  "Production and Industrial Engineering"
     ],
     [
-        "Physics",
-        "Chemistry",
-        "Mathematics"
+"Architecture"
+    ],
+    [
+        "Geological Technology",
+  "Geophysical Technology"
+    ],
+    [
+        "Chemical Sciences",
+  "Economics",
+  "Mathematics and Computing",
+  "Physics"
     ]
 ]
 
 export const IITRoorkeeCoursesTableHeading = [
     "B.E./B.Tech - 4 Years",
-    "B.Arch - 5 Years"
+    "B.Arch - 5 Years",
+    "Integrated M.Tech. - 5 Years",
+    "B.Sc. + M.Sc. (Dual Degree) - 5 Years"
 ]
 
 export const IITRoparCoursesTableContent = [
@@ -305,22 +325,26 @@ export const IITPatnaCoursesTableHeading = [
 
 export const IITIndoreCoursesTableContent = [
     [
-        "Civil Engineering",
-        "Computer Science and Engineering",
-        "Electrical Engineering",
-        "Mechanical Engineering",
-        "Metallurgical Engineering and Materials Science"
+"Chemical Engineering",
+  "Civil Engineering",
+  "Computer Science and Engineering",
+  "Electrical Engineering",
+  "Engineering Physics",
+  "Mathematics and Computing",
+  "Mechanical Engineering",
+  "Metallurgical Engineering and Materials Science",
+  "Space Sciences and Engineering"
     ],
-    [
-        "Physics",
-        "Chemistry",
-        "Mathematics"
-    ]
+    // [
+    //     "Physics",
+    //     "Chemistry",
+    //     "Mathematics"
+    // ]
 ]
 
 export const IITIndoreCoursesTableHeading = [
     "B.E./B.Tech - 4 Years",
-    "B.Arch - 5 Years"
+    // "B.Arch - 5 Years"
 ]
 
 export const IITMandiCoursesTableContent = [
@@ -491,18 +515,19 @@ export const IITJammuCoursesTableHeading = [
 
 export const IITGoaCoursesTableContent = [
     [
-        "Computer Science and Engineering",
-        "Electrical Engineering",
-        "Mechanical Engineering"
+"Computer Science and Engineering",
+  "Electrical Engineering",
+  "Mathematics and Computing",
+  "Mechanical Engineering"
     ],
-    [
-        "Physics",
-        "Chemistry",
-        "Mathematics"
-    ]
+    // [
+    //     "Physics",
+    //     "Chemistry",
+    //     "Mathematics"
+    // ]
 ]
 
 export const IITGoaCoursesTableHeading = [
     "B.E./B.Tech - 4 Years",
-    "B.Arch - 5 Years"
+    // "B.Arch - 5 Years"
 ]

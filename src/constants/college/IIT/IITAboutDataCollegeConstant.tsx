@@ -56,7 +56,7 @@ export const IITKanpurAboutDataTableHeading = [
 ];
 
 export const IITDelhiAboutDataTableConstant = [
-    ["Also Known as", "IITD"],
+    ["Also Known As", "IIT Delhi and IITD"],
     ["Institute Type", "Government"],
     ["Established", "1961"],
     ["Location", "New Delhi, Delhi"],
@@ -69,7 +69,7 @@ export const IITDelhiAboutDataTableHeading = [
 ];
 
 export const IITGuwahatiAboutDataTableConstant = [
-    ["Also Known as", "IITG"],
+    ["Also Known As", "IITG, IIT Guwahati"],
     ["Institute Type", "Government"],
     ["Established", "1994"],
     ["Location", "Guwahati, Assam"],
@@ -82,7 +82,7 @@ export const IITGuwahatiAboutDataTableHeading = [
 ];
 
 export const IITRoorkeeAboutDataTableConstant = [
-    ["Also Known as", "IITR"],
+    ["Also Known As", "IIT Roorkee, IITR"],
     ["Institute Type", "Government"],
     ["Established", "1847"],
     ["Location", "Roorkee, Uttarakhand"],
@@ -173,7 +173,7 @@ export const IITPatnaAboutDataTableHeading = [
 ];
 
 export const IITIndoreAboutDataTableConstant = [
-    ["Also Known as", "IITI"],
+    ["Also Known As", "IIT Indore, IITI"],
     ["Institute Type", "Government"],
     ["Established", "2009"],
     ["Location", "Indore, Madhya Pradesh"],
@@ -291,10 +291,10 @@ export const IITJammuAboutDataTableHeading = [
 ];
 
 export const IITGoaAboutDataTableConstant = [
-    ["Also Known as", "IITGOA"],
+    ["Also Known As", "IIT Goa"],
     ["Institute Type", "Government"],
     ["Established", "2016"],
-    ["Location", "Goa"],
+    ["Location", "Ponda, Goa"],
     ["Type", "IIT"]
 ];
 

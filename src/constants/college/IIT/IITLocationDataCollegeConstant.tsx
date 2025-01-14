@@ -59,14 +59,10 @@ export const IITKanpurLocationDataTableHeading = [
 ]
 
 export const IITDelhiLocationDataTableConstant = [
-    [
-        "Indira Gandhi International Airport", 
-        "10"
-    ], 
-    [
-        "New Delhi Railway Station", 
-        "15"
-    ]
+    ["Indira Gandhi International Airport, Delhi", "17 KM"],
+    ["Hazrat Nizamuddin Railway Station", "11 KM"],
+    ["New Delhi Railway Station", "13.5 KM"],
+    ["Anand Vihar Terminal Railway Station", "24 KM"]
 ]
 
 export const IITDelhiLocationDataTableHeading = [
@@ -74,14 +70,8 @@ export const IITDelhiLocationDataTableHeading = [
 ]
 
 export const IITGuwahatiLocationDataTableConstant = [
-    [
-        "Lokpriya Gopinath Bordoloi International Airport", 
-        "20"
-    ], 
-    [
-        "Guwahati Railway Station", 
-        "18"
-    ]
+    ["Lokpriya Gopinath Bordoloi International Airport, Guwahati", "23"],
+    ["Guwahati Railway Station", "19.5"]
 ]
 
 export const IITGuwahatiLocationDataTableHeading = [
@@ -89,14 +79,9 @@ export const IITGuwahatiLocationDataTableHeading = [
 ]
 
 export const IITRoorkeeLocationDataTableConstant = [
-    [
-        "Jolly Grant Airport", 
-        "70"
-    ], 
-    [
-        "Roorkee Railway Station", 
-        "3"
-    ]
+    ["Jolly Grant Airport, Dehradun", "68.5"],
+    ["Indira Gandhi International Airport, Delhi", "198"],
+    ["Roorkee Railway Station", "3.5"]
 ]
 
 export const IITRoorkeeLocationDataTableHeading = [
@@ -194,14 +179,8 @@ export const IITPatnaLocationDataTableHeading = [
 ]
 
 export const IITIndoreLocationDataTableConstant = [
-    [
-        "Devi Ahilya Bai Holkar Airport", 
-        "25"
-    ], 
-    [
-        "Indore Junction Railway Station", 
-        "20"
-    ]
+    ["Devi Ahilya Bai Holkar Airport, Indore", "32"],
+    ["Indore Junction Railway Station", "25"]
 ]
 
 export const IITIndoreLocationDataTableHeading = [
@@ -329,14 +308,8 @@ export const IITJammuLocationDataTableHeading = [
 ]
 
 export const IITGoaLocationDataTableConstant = [
-    [
-        "Goa International Airport", 
-        "35"
-    ], 
-    [
-        "Madgaon Railway Station", 
-        "40"
-    ]
+    ["Goa International Airport", "36.5"],
+    ["Madgaon Junction Railway Station", "23.5"]
 ]
 
 export const IITGoaLocationDataTableHeading = [

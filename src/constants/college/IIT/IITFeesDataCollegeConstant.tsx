@@ -84,61 +84,67 @@ export const IITKanpurHostelFeesDataTableConstant = [
 export const IITKanpurHostelFeesDataTableHeading = ["Hostel Fee", "Amount"];
 
 export const IITDelhiInstituteFeesDataTableConstant = [
-    ["One Time Fees", "25000"], 
-    ["Tuition Fee (per Semester)", "63000"], 
-    ["Annual Fees", "7600"], 
-    ["Total", "95600"]
+    ["Caution Money (One Time, Refundable)", "₹10,000"],
+    ["One Time Fees", "₹10,500"],
+    ["Tuition Fee (per Semester)", "₹1,00,000"],
+    ["Other fees (per Semester)", "₹7,100"],
+    ["Annual Fees", "₹500"],
+    ["Total", "₹1,28,100"]
 ];
 
 export const IITDelhiInstituteFeesDataTableHeading = ["Institute Fee", "Amount"];
 
 export const IITDelhiHostelFeesDataTableConstant = [
-    ["Hostel Caution Money (One Time, Refundable)", "15000"], 
-    ["Hostel Seat Rent (per Year)", "4900"], 
-    ["Electricity & Water Charges (per Year)", "5600"], 
-    ["Other Fees (per Year)", "5600"], 
-    ["Mess Advance (per Semester)", "15500"], 
-    ["Total", "89200"]
+    ["Caution Money (One Time, Refundable)", "₹15,000"],
+    ["One Time Fees", "₹7,000"],
+    ["Hostel Seat Rent (per Semester)", "₹13,250"],
+    ["Mess Charges (per Semester)", "₹38,580"],
+    ["Total", "₹73,830"]
 ];
 
 export const IITDelhiHostelFeesDataTableHeading = ["Hostel Fee", "Amount"];
 
 export const IITGuwahatiInstituteFeesDataTableConstant = [
-    ["One Time Fees", "26000"], 
-    ["Tuition Fee (per Semester)", "64000"], 
-    ["Annual Fees", "7800"], 
-    ["Total", "97800"]
+    ["Caution Money (One Time, Refundable)", "₹2,000"],
+    ["One Time Fees", "₹5,150"],
+    ["Tuition Fee (per Semester)", "₹1,00,000"],
+    ["Other fees (per Semester)", "₹5,100"],
+    ["Annual Fees", "₹1,900"],
+    ["Total", "₹1,14,150"]
 ];
 
 export const IITGuwahatiInstituteFeesDataTableHeading = ["Institute Fee", "Amount"];
 
 export const IITGuwahatiHostelFeesDataTableConstant = [
-    ["Hostel Caution Money (One Time, Refundable)", "16000"], 
-    ["Hostel Seat Rent (per Year)", "5100"], 
-    ["Electricity & Water Charges (per Year)", "5800"], 
-    ["Other Fees (per Year)", "5800"], 
-    ["Mess Advance (per Semester)", "16000"], 
-    ["Total", "91600"]
+    ["Hostel Caution Money (One Time, Refundable)", "₹4,000"],
+    ["Mess Caution Money (One Time, Refundable)", "₹6,000"],
+    ["One Time Fees", "₹2,900"],
+    ["Hostel Seat Rent (per Semester)", "₹1,000"],
+    ["Electricity & Water charges (per Semester)", "₹2,500"],
+    ["Other fees (per Semester)", "₹3,600"],
+    ["Mess Advance (per Semester)", "₹18,000"],
+    ["Total", "₹38,000"]
 ];
 
 export const IITGuwahatiHostelFeesDataTableHeading = ["Hostel Fee", "Amount"];
 
 export const IITRoorkeeInstituteFeesDataTableConstant = [
-    ["One Time Fees", "27000"], 
-    ["Tuition Fee (per Semester)", "65000"], 
-    ["Annual Fees", "8000"], 
-    ["Total", "100000"]
+    ["Caution Money (One Time, Refundable)", "₹3,000"],
+    ["One Time Fees", "₹6,000"],
+    ["Tuition Fee (per Semester)", "₹1,00,000"],
+    ["Other fees (per Semester)", "₹10,250"],
+    ["Total", "₹1,19,250"]
 ];
 
 export const IITRoorkeeInstituteFeesDataTableHeading = ["Institute Fee", "Amount"];
 
 export const IITRoorkeeHostelFeesDataTableConstant = [
-    ["Hostel Caution Money (One Time, Refundable)", "17000"], 
-    ["Hostel Seat Rent (per Year)", "5300"], 
-    ["Electricity & Water Charges (per Year)", "6000"], 
-    ["Other Fees (per Year)", "6000"], 
-    ["Mess Advance (per Semester)", "16500"], 
-    ["Total", "94000"]
+    ["Mess Caution Money (One Time, Refundable)", "₹2,000"],
+    ["One Time Fees", "₹4,000"],
+    ["Hostel Seat Rent (per Semester)", "₹5,000"],
+    ["Electricity & Water charges (per Semester)", "₹2,500"],
+    ["Mess Advance (per Semester)", "₹17,000"],
+    ["Total", "₹30,500"]
 ];
 
 export const IITRoorkeeHostelFeesDataTableHeading = ["Hostel Fee", "Amount"];
@@ -265,24 +271,28 @@ export const IITPatnaHostelFeesDataTableConstant = [
 export const IITPatnaHostelFeesDataTableHeading = ["Hostel Fee", "Amount"];
 
 export const IITIndoreInstituteFeesDataTableConstant = [
-    ["One Time Fees", "34000"], 
-    ["Tuition Fee (per Semester)", "72000"], 
-    ["Annual Fees", "9400"], 
-    ["Total", "115400"]
+    ["Caution Money (One Time, Refundable)", "₹10,000"],
+    ["One Time Fees", "₹8,100"],
+    ["Tuition Fee (per Semester)", "₹1,00,000"],
+    ["Other fees (per Semester)", "₹6,300"],
+    ["Hostel Charges (per Semester)", "₹16,000"],
+    ["Mess Advance (per Semester)", "₹17,550"],
+    ["Annual Fees", "₹1,600"],
+    ["Total", "₹1,59,550"]
 ];
 
 export const IITIndoreInstituteFeesDataTableHeading = ["Institute Fee", "Amount"];
 
 export const IITIndoreHostelFeesDataTableConstant = [
-    ["Hostel Caution Money (One Time, Refundable)", "24000"], 
-    ["Hostel Seat Rent (per Year)", "6700"], 
-    ["Electricity & Water Charges (per Year)", "7400"], 
-    ["Other Fees (per Year)", "7400"], 
-    ["Mess Advance (per Semester)", "20000"], 
-    ["Total", "110800"]
+    // ["Hostel Caution Money (One Time, Refundable)", "24000"], 
+    // ["Hostel Seat Rent (per Year)", "6700"], 
+    // ["Electricity & Water Charges (per Year)", "7400"], 
+    // ["Other Fees (per Year)", "7400"], 
+    // ["Mess Advance (per Semester)", "20000"], 
+    // ["Total", "110800"]
 ];
 
-export const IITIndoreHostelFeesDataTableHeading = ["Hostel Fee", "Amount"];
+export const IITIndoreHostelFeesDataTableHeading = [];
 
 export const IITMandiInstituteFeesDataTableConstant = [
     ["One Time Fees", "35000"], 
@@ -446,21 +456,23 @@ export const IITJammuHostelFeesDataTableConstant = [
 export const IITJammuHostelFeesDataTableHeading = ["Hostel Fee", "Amount"];
 
 export const IITGoaInstituteFeesDataTableConstant = [
-    ["One Time Fees", "43000"], 
-    ["Tuition Fee (per Semester)", "81000"], 
-    ["Annual Fees", "11200"], 
-    ["Total", "135200"]
+    ["Caution Money (One Time, Refundable)", "₹2,000"],
+    ["One Time Fees", "₹5,000"],
+    ["Tuition Fee (per Semester)", "₹1,00,000"],
+    ["Other fees (per Semester)", "₹3,750"],
+    ["Annual Fees", "₹919"],
+    ["Total", "₹1,11,669"]
 ];
 
 export const IITGoaInstituteFeesDataTableHeading = ["Institute Fee", "Amount"];
 
 export const IITGoaHostelFeesDataTableConstant = [
-    ["Hostel Caution Money (One Time, Refundable)", "33000"], 
-    ["Hostel Seat Rent (per Year)", "8500"], 
-    ["Electricity & Water Charges (per Year)", "9200"], 
-    ["Other Fees (per Year)", "9200"], 
-    ["Mess Advance (per Semester)", "24500"], 
-    ["Total", "131800"]
+    ["Mess Caution Money (One Time, Refundable)", "₹3,000"],
+    ["Hostel Seat Rent (per Semester)", "₹500"],
+    ["Electricity & Water charges (per Semester)", "₹2,500"],
+    ["Other fees (per Semester)", "₹8,000"],
+    ["Mess Advance (per Semester)", "₹15,000"],
+    ["Total", "₹29,000"]
 ];
 
 export const IITGoaHostelFeesDataTableHeading = ["Hostel Fee", "Amount"];
