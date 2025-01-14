@@ -17,7 +17,7 @@ export const IITBombayAboutDataTableHeading = [
 
 
 export const IITKharagpurAboutDataTableConstant = [
-    ["Also Known as", "IIT KGP"],
+    ["Also Known As", "IIT Kharagpur, IITKGP and IIT KGP"],
     ["Institute Type", "Government"],
     ["Established", "1951"],
     ["Location", "Kharagpur, West Bengal"],
@@ -30,7 +30,7 @@ export const IITKharagpurAboutDataTableHeading = [
 ];
 
 export const IITMadrasAboutDataTableConstant = [
-    ["Also Known as", "IITM"],
+    ["Also Known As", "IIT Madras, IIT Chennai and IITM"],
     ["Institute Type", "Government"],
     ["Established", "1959"],
     ["Location", "Chennai, Tamil Nadu"],
@@ -43,9 +43,9 @@ export const IITMadrasAboutDataTableHeading = [
 ];
 
 export const IITKanpurAboutDataTableConstant = [
-    ["Also Known as", "IITK"],
+    ["Also Known As", "IITK and IIT Kanpur"],
     ["Institute Type", "Government"],
-    ["Established", "1959"],
+    ["Established", "1960"],
     ["Location", "Kanpur, Uttar Pradesh"],
     ["Type", "IIT"]
 ];
@@ -95,10 +95,10 @@ export const IITRoorkeeAboutDataTableHeading = [
 ];
 
 export const IITRoparAboutDataTableConstant = [
-    ["Also Known as", "IIT RPR"],
+    ["Also Known As", "IIT Ropar and IIT RPR"],
     ["Institute Type", "Government"],
     ["Established", "2008"],
-    ["Location", "Rupnagar, Punjab"],
+    ["Location", "Ropar, Punjab"],
     ["Type", "IIT"]
 ];
 
@@ -121,7 +121,7 @@ export const IITBhubaneswarAboutDataTableHeading = [
 ];
 
 export const IITGandhinagarAboutDataTableConstant = [
-    ["Also Known as", "IITGN"],
+    ["Also Known As", "IITGN, IIT Gandhinagar"],
     ["Institute Type", "Government"],
     ["Established", "2008"],
     ["Location", "Gandhinagar, Gujarat"],
@@ -134,7 +134,7 @@ export const IITGandhinagarAboutDataTableHeading = [
 ];
 
 export const IITHyderabadAboutDataTableConstant = [
-    ["Also Known as", "IITH"],
+    ["Also Known As", "IITH, IIT Hyderabad"],
     ["Institute Type", "Government"],
     ["Established", "2008"],
     ["Location", "Hyderabad, Telangana"],
@@ -147,7 +147,7 @@ export const IITHyderabadAboutDataTableHeading = [
 ];
 
 export const IITJodhpurAboutDataTableConstant = [
-    ["Also Known as", "IITJ"],
+    ["Also Known As", "IITJ, IIT Jodhpur"],
     ["Institute Type", "Government"],
     ["Established", "2008"],
     ["Location", "Jodhpur, Rajasthan"],
@@ -160,7 +160,7 @@ export const IITJodhpurAboutDataTableHeading = [
 ];
 
 export const IITPatnaAboutDataTableConstant = [
-    ["Also Known as", "IITP"],
+    ["Also Known As", "IIT Patna and IITP"],
     ["Institute Type", "Government"],
     ["Established", "2008"],
     ["Location", "Patna, Bihar"],
@@ -199,7 +199,7 @@ export const IITMandiAboutDataTableHeading = [
 ];
 
 export const IITBHUAboutDataTableConstant = [
-    ["Also Known as", "IIT BHU"],
+    ["Also Known As", "IIT (BHU), IIT Varanasi, IIT (BHU) Varanasi"],
     ["Institute Type", "Government"],
     ["Established", "1919"],
     ["Location", "Varanasi, Uttar Pradesh"],

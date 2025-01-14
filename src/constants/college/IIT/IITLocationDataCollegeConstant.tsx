@@ -14,14 +14,9 @@ export const IITBombayLocationDataTableHeading = [
 
 
 export const IITKharagpurLocationDataTableConstant = [
-    [
-        "Netaji Subhas Chandra Bose International Airport", 
-        "140"
-    ], 
-    [
-        "Kharagpur Junction Railway Station", 
-        "5"
-    ]
+    ["Netaji Subhas Chandra Bose International Airport, Kolkata", "140"],
+    ["Kharagpur Junction Railway Station", "4.5"],
+    ["Howrah Junction Railway Station", "128"]
 ]
 
 export const IITKharagpurLocationDataTableHeading = [
@@ -29,14 +24,8 @@ export const IITKharagpurLocationDataTableHeading = [
 ]
 
 export const IITMadrasLocationDataTableConstant = [
-    [
-        "Chennai International Airport", 
-        "13"
-    ], 
-    [
-        "Chennai Central Railway Station", 
-        "12"
-    ]
+    ["Chennai International Airport", "14"],
+  ["Chennai Central Railway Station", "15"]
 ]
 
 export const IITMadrasLocationDataTableHeading = [
@@ -44,14 +33,9 @@ export const IITMadrasLocationDataTableHeading = [
 ]
 
 export const IITKanpurLocationDataTableConstant = [
-    [
-        "Chaudhary Charan Singh International Airport", 
-        "95"
-    ], 
-    [
-        "Kanpur Central Railway Station", 
-        "16"
-    ]
+    ["Kanpur Airport", "25"],
+    ["Chaudhary Charan Singh International Airport, Lucknow", "90"],
+    ["Kanpur Central Railway Station", "14"]
 ]
 
 export const IITKanpurLocationDataTableHeading = [
@@ -89,14 +73,9 @@ export const IITRoorkeeLocationDataTableHeading = [
 ]
 
 export const IITRoparLocationDataTableConstant = [
-    [
-        "Chandigarh International Airport", 
-        "60"
-    ], 
-    [
-        "Rupnagar Railway Station", 
-        "5"
-    ]
+    ["Chandigarh International Airport", "53.5"],
+    ["Rupnagar Railway Station", "2.5"],
+    ["Chandigarh Junction Railway Station", "53"]
 ]
 
 export const IITRoparLocationDataTableHeading = [
@@ -119,14 +98,8 @@ export const IITBhubaneswarLocationDataTableHeading = [
 ]
 
 export const IITGandhinagarLocationDataTableConstant = [
-    [
-        "Sardar Vallabhbhai Patel International Airport", 
-        "25"
-    ], 
-    [
-        "Ahmedabad Railway Station", 
-        "28"
-    ]
+    ["Sardar Vallabhbhai Patel International Airport, Ahmedabad", "21.5"],
+    ["Ahmedabad Junction Railway Station", "28"]
 ]
 
 export const IITGandhinagarLocationDataTableHeading = [
@@ -134,14 +107,8 @@ export const IITGandhinagarLocationDataTableHeading = [
 ]
 
 export const IITHyderabadLocationDataTableConstant = [
-    [
-        "Rajiv Gandhi International Airport", 
-        "50"
-    ], 
-    [
-        "Hyderabad Deccan Railway Station", 
-        "35"
-    ]
+    ["Rajiv Gandhi International Airport, Hyderabad", "63.5"],
+    ["Secunderabad Junction Railway Station", "53"]
 ]
 
 export const IITHyderabadLocationDataTableHeading = [
@@ -149,14 +116,8 @@ export const IITHyderabadLocationDataTableHeading = [
 ]
 
 export const IITJodhpurLocationDataTableConstant = [
-    [
-        "Jodhpur Airport", 
-        "12"
-    ], 
-    [
-        "Jodhpur Junction Railway Station", 
-        "14"
-    ]
+    ["Jodhpur Airport", "28"],
+    ["Jodhpur Junction Railway Station", "25"]
 ]
 
 export const IITJodhpurLocationDataTableHeading = [
@@ -164,14 +125,10 @@ export const IITJodhpurLocationDataTableHeading = [
 ]
 
 export const IITPatnaLocationDataTableConstant = [
-    [
-        "Jay Prakash Narayan International Airport", 
-        "30"
-    ], 
-    [
-        "Patna Junction Railway Station", 
-        "35"
-    ]
+    ["Jay Prakash Narayan International Airport, Patna", "33"],
+    ["Bihta Railway Station", "4.5"],
+    ["Danapur Railway Station", "23.5"],
+    ["Patna Junction Railway Station", "35"]
 ]
 
 export const IITPatnaLocationDataTableHeading = [
@@ -203,14 +160,9 @@ export const IITMandiLocationDataTableHeading = [
 ]
 
 export const IITBHULocationDataTableConstant = [
-    [
-        "Lal Bahadur Shastri International Airport", 
-        "30"
-    ], 
-    [
-        "Varanasi Junction Railway Station", 
-        "10"
-    ]
+    ["Lal Bahadur Shastri International Airport, Babatpur", "31 KM"], 
+    ["Varanasi Junction Railway Station", "10.5"],
+    ["Pt. Deen Dayal Upadhyaya Junction", "20 KM"]
 ]
 
 export const IITBHULocationDataTableHeading = [

@@ -30,76 +30,118 @@ export const IITBombayCoursesTableHeading = [
 
 export const IITKharagpurCoursesTableContent = [
     [
-        "Aerospace Engineering",
-        "Agricultural and Food Engineering",
-        "Biotechnology and Biochemical Engineering",
-        "Civil Engineering",
-        "Computer Science and Engineering",
-        "Electrical Engineering",
-        "Electronics and Electrical Communication Engineering",
-        "Industrial and Systems Engineering",
-        "Mechanical Engineering",
-        "Metallurgical and Materials Engineering",
-        "Mining Engineering",
-        "Ocean Engineering and Naval Architecture"
+"Aerospace Engineering",
+  "Agricultural and Food Engineering",
+  "Biotechnology and Biochemical Engineering",
+  "Chemical Engineering",
+  "Civil Engineering",
+  "Computer Science and Engineering",
+  "Electrical Engineering",
+  "Electronics and Electrical Communication Engineering",
+  "Industrial and Systems Engineering",
+  "Instrumentation Engineering",
+  "Manufacturing Science and Engineering",
+  "Mechanical Engineering",
+  "Metallurgical and Materials Engineering",
+  "Mining Engineering",
+  "Ocean Engineering and Naval Architecture"
     ],
     [
-        "Physics",
-        "Chemistry",
-        "Mathematics"
+"Applied Geology",
+  "Chemistry",
+  "Economics",
+  "Exploration Geophysics",
+  "Mathematics and Computing",
+  "Physics"
+    ],
+    [
+         "Architecture"
     ]
+
 ]
 
 export const IITKharagpurCoursesTableHeading = [
     "B.E./B.Tech - 4 Years",
-    "B.Arch - 5 Years"
+    "B.Sc. - 4 Years",
+    "B.Arch. - 5 Years",
+
 ]
 
 export const IITMadrasCoursesTableContent = [
     [
-        "Aerospace Engineering",
-        "Chemical Engineering",
-        "Civil Engineering",
-        "Computer Science and Engineering",
-        "Electrical Engineering",
-        "Engineering Design",
-        "Mechanical Engineering",
-        "Metallurgical and Materials Engineering",
-        "Naval Architecture and Ocean Engineering"
+"Aerospace Engineering",
+  "Biological Engineering",
+  "Chemical Engineering",
+  "Civil Engineering",
+  "Computer Science and Engineering",
+  "Electrical Engineering",
+  "Engineering Physics",
+  "Mechanical Engineering",
+  "Metallurgical and Materials Engineering",
+  "Naval Architecture and Ocean Engineering"
     ],
     [
-        "Physics",
-        "Chemistry",
-        "Mathematics"
+        "Biological Sciences"
+    ],
+    [
+        "Aerospace Engineering",
+  "Engineering Design"
+    ],
+    [
+        "Physics"
+    ],
+    [
+        "Aerospace Engineering",
+  "Agricultural and Food Engineering with M.Tech. in any of the listed specializations",
+  "Biotechnology and Biochemical Engineering",
+  "Chemical Engineering",
+  "Civil Engineering with any of the listed specialization",
+  "Computer Science and Engineering",
+  "Electrical Engineering with M.Tech. in any of the listed specializations",
+  "Electronics and Electrical Communication Engineering with M.Tech. in any of the listed specializations",
+  "Industrial and Systems Engineering with M.Tech. in Industrial and Systems Engineering and Management",
+  "Manufacturing Science and Engineering with M.Tech. in Industrial and Systems Engineering and Management",
+  "Mechanical Engineering with M.Tech. in any of the listed specializations",
+  "Metallurgical and Materials Engineering",
+  "Mining Engineering",
+  "Mining Safety Engineering",
+  "Ocean Engineering and Naval Architecture"
     ]
+
 ]
 
 export const IITMadrasCoursesTableHeading = [
     "B.E./B.Tech - 4 Years",
-    "B.Arch - 5 Years"
+    "B.Sc. - 4 Years",
+    "B.Tech + M.Tech. (Dual Degree) - 5 Years",
+    "B.Sc. + M.Sc. (Dual Degree) - 5 Years",
+    "B.Tech + M.Tech. (Dual Degree) - 5 Years"
 ]
 
 export const IITKanpurCoursesTableContent = [
     [
-        "Aerospace Engineering",
-        "Biological Sciences and Bioengineering",
-        "Chemical Engineering",
-        "Civil Engineering",
-        "Computer Science and Engineering",
-        "Electrical Engineering",
-        "Materials Science and Engineering",
-        "Mechanical Engineering"
+"Aerospace Engineering",
+  "Biological Sciences and Bioengineering",
+  "Chemical Engineering",
+  "Civil Engineering",
+  "Computer Science and Engineering",
+  "Electrical Engineering",
+  "Materials Science and Engineering",
+  "Mechanical Engineering"
     ],
     [
-        "Physics",
-        "Chemistry",
-        "Mathematics"
+"Chemistry",
+  "Earth Sciences",
+  "Economics",
+  "Mathematics and Scientific Computing",
+  "Physics",
+  "Statistics and Data Science"
     ]
 ]
 
 export const IITKanpurCoursesTableHeading = [
     "B.E./B.Tech - 4 Years",
-    "B.Arch - 5 Years"
+    "B.Sc. - 4 Years"
 ]
 
 export const IITDelhiCoursesTableContent = [
@@ -195,23 +237,23 @@ export const IITRoorkeeCoursesTableHeading = [
 
 export const IITRoparCoursesTableContent = [
     [
-        "Chemical Engineering",
-        "Civil Engineering",
-        "Computer Science and Engineering",
-        "Electrical Engineering",
-        "Mechanical Engineering",
-        "Metallurgical and Materials Engineering"
+"Artificial Intelligence and Data Engineering",
+  "Chemical Engineering",
+  "Civil Engineering",
+  "Computer Science and Engineering",
+  "Electrical Engineering",
+  "Mathematics and Computing",
+  "Mechanical Engineering",
+  "Metallurgical and Materials Engineering"
     ],
     [
-        "Physics",
-        "Chemistry",
-        "Mathematics"
+"Mechanical Engineering"
     ]
 ]
 
 export const IITRoparCoursesTableHeading = [
     "B.E./B.Tech - 4 Years",
-    "B.Arch - 5 Years"
+    "B.Tech + M.Tech. (Dual Degree) - 5 Years"
 ]
 
 
@@ -237,90 +279,112 @@ export const IITBhubaneswarCoursesTableHeading = [
 
 export const IITGandhinagarCoursesTableContent = [
     [
-        "Chemical Engineering",
-        "Civil Engineering",
-        "Computer Science and Engineering",
-        "Electrical Engineering",
-        "Mechanical Engineering",
-        "Materials Science and Engineering"
+"Artificial Intelligence",
+  "Chemical Engineering",
+  "Civil Engineering",
+  "Computer Science and Engineering",
+  "Electrical Engineering",
+  "Materials Engineering",
+  "Mechanical Engineering"
     ],
     [
-        "Physics",
-        "Chemistry",
-        "Mathematics"
+"Computer Science and Engineering",
+  "Electrical Engineering",
+  "Mechanical Engineering"
     ]
 ]
 
 export const IITGandhinagarCoursesTableHeading = [
     "B.E./B.Tech - 4 Years",
-    "B.Arch - 5 Years"
+    "B.Tech + M.Tech. (Dual Degree) - 5 Years"
 ]
 
 export const IITHyderabadCoursesTableContent = [
     [
-        "Biomedical Engineering",
-        "Biotechnology",
-        "Chemical Engineering",
-        "Civil Engineering",
-        "Computer Science and Engineering",
-        "Electrical Engineering",
-        "Engineering Science",
-        "Materials Science and Metallurgical Engineering",
-        "Mechanical Engineering"
+"Artificial Intelligence",
+  "Bio Medical Engineering",
+  "Biotechnology and Bioinformatics",
+  "Chemical Engineering",
+  "Civil Engineering",
+  "Computational Engineering",
+  "Computer Science and Engineering",
+  "Electrical Engineering",
+  "Electrical Engineering with specialization in IC Design and Technology",
+  "Engineering Physics",
+  "Engineering Science",
+  "Industrial Chemistry",
+  "Materials Science and Metallurgical Engineering",
+  "Mathematics and Computing",
+  "Mechanical Engineering"
     ],
-    [
-        "Physics",
-        "Chemistry",
-        "Mathematics"
-    ]
+    // [
+    //     "Physics",
+    //     "Chemistry",
+    //     "Mathematics"
+    // ]
 ]
 
 export const IITHyderabadCoursesTableHeading = [
     "B.E./B.Tech - 4 Years",
-    "B.Arch - 5 Years"
+    // "B.Arch - 5 Years"
 ]
 
 export const IITJodhpurCoursesTableContent = [
     [
-        "Artificial Intelligence and Data Science",
-        "Bioengineering",
-        "Chemical Engineering",
-        "Civil and Infrastructure Engineering",
-        "Computer Science and Engineering",
-        "Electrical Engineering",
-        "Mechanical Engineering",
-        "Metallurgical and Materials Engineering"
+"Artificial Intelligence and Data Science",
+  "Bio Engineering",
+  "Chemical Engineering",
+  "Civil and Infrastructure Engineering",
+  "Computer Science and Engineering",
+  "Electrical Engineering",
+  "Materials Engineering",
+  "Mechanical Engineering"
     ],
     [
-        "Physics",
-        "Chemistry",
-        "Mathematics"
+"Chemistry",
+  "Physics"
     ]
 ]
 
 export const IITJodhpurCoursesTableHeading = [
     "B.E./B.Tech - 4 Years",
-    "B.Arch - 5 Years"
+    "B.Sc - 4 Years"
 ]
 
 export const IITPatnaCoursesTableContent = [
     [
-        "Chemical and Biochemical Engineering",
-        "Civil and Environmental Engineering",
-        "Computer Science and Engineering",
-        "Electrical and Electronics Engineering",
-        "Mechanical Engineering"
+"Artificial Intelligence and Data Science",
+  "Chemical Engineering",
+  "Chemical Science and Technology",
+  "Civil Engineering",
+  "Computer Science and Engineering",
+  "Electrical and Electronics Engineering",
+  "Electronics and Communication Engineering",
+  "Engineering Physics",
+  "Mathematics and Computing",
+  "Mechanical Engineering",
+  "Metallurgical and Materials Engineering"
     ],
     [
-        "Physics",
-        "Chemistry",
-        "Mathematics"
+"Civil Engineering and M.Tech. in Geotechnical Engineering",
+  "Civil Engineering and M.Tech. in Structural Engineering",
+  "Computer Science and Engineering",
+  "Electrical and Electronics Engineering and M.Tech. in Power and Control",
+  "Electronics and Communication Engineering + M.Tech. in Communication Systems",
+  "Electronics and Communication Engineering and M.Tech. in VLSI",
+  "Mathematics and Computing",
+  "Mechanical Engineering and M.Tech. in Mechatronics"
+
+    ],
+    [
+        "Mechanical Engineering and MBA (NITIE)"
     ]
 ]
 
 export const IITPatnaCoursesTableHeading = [
     "B.E./B.Tech - 4 Years",
-    "B.Arch - 5 Years"
+    "B.Tech + M.Tech. (Dual Degree) - 5 Years",
+    "B.Tech + MBA (Dual Degree) - 5 Years"
 ]
 
 export const IITIndoreCoursesTableContent = [
@@ -368,27 +432,42 @@ export const IITMandiCoursesTableHeading = [
 
 export const IITBHUCoursesTableContent = [
     [
-        "Ceramic Engineering",
-        "Chemical Engineering",
-        "Civil Engineering",
-        "Computer Science and Engineering",
-        "Electrical Engineering",
-        "Electronics Engineering",
-        "Mechanical Engineering",
-        "Metallurgical Engineering",
-        "Mining Engineering",
-        "Pharmaceutical Engineering and Technology"
+"Ceramic Engineering",
+  "Chemical Engineering",
+  "Civil Engineering",
+  "Computer Science and Engineering",
+  "Electrical Engineering",
+  "Electronics Engineering",
+  "Mechanical Engineering",
+  "Metallurgical Engineering",
+  "Mining Engineering",
+  "Pharmaceutical Engineering & Technology"
     ],
     [
-        "Physics",
-        "Chemistry",
-        "Mathematics"
+ "Architecture"
+    ],
+    [
+        "Biochemical Engineering with M.Tech. in Biochemical Engineering and Biotechnology",
+  "Bioengineering with M.Tech. in Biomedical Technology",
+  "Ceramic Engineering",
+  "Civil Engineering",
+  "Computer Science and Engineering",
+  "Electrical Engineering with M.Tech. in Power Electronics",
+  "Engineering Physics",
+  "Industrial Chemistry",
+  "Materials Science and Technology",
+  "Mathematics and Computing",
+  "Mechanical Engineering",
+  "Metallurgical Engineering",
+  "Mining Engineering",
+  "Pharmaceutical Engineering & Technology"
     ]
 ]
 
 export const IITBHUCoursesTableHeading = [
     "B.E./B.Tech - 4 Years",
-    "B.Arch - 5 Years"
+    "B.Arch - 5 Years",
+    "B.Tech + M.Tech. (Dual Degree) - 5 Years",
 ]
 
 export const IITPalakkadCoursesTableContent = [
