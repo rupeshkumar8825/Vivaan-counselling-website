@@ -2,16 +2,8 @@
 
 
 export const IITBombayRankingDataTableConstant = [
-    [
-        "NIRF Overall Rankings", 
-        "21 (2023)", 
-        "21 (2022)"
-    ], 
-    [
-        "NIRF Engineering Rankings", 
-        "9 (2023)", 
-        "8 (2022)"
-    ]
+    ["NIRF Overall Rankings", "4 (2023)", "3 (2022)"],
+    ["NIRF Engineering Rankings", "3 (2023)", "3 (2022)"]
 ]
 
 

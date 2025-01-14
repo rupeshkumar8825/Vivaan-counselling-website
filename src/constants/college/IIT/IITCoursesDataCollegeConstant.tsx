@@ -1,25 +1,31 @@
 // in this we will be storing all the list of courses that are being offered by all the IITs colleges 
 export const IITBombayCoursesTableContent = [
-    [   "Chemical Engineering",
-        "Civil Engineering",
-        "Computer Science and Engineering",
-        "Electrical and Electronics Engineering",
-        "Electronics and Communication Engineering",
-        "Instrumentation and Control Engineering",
-        "Mechanical Engineering",
-        "Metallurgical and Materials Engineering",
-        "Production Engineering",
+    [   
+        "Aerospace Engineering",
+  "Chemical Engineering",
+  "Civil Engineering",
+  "Computer Science and Engineering",
+  "Electrical Engineering",
+  "Energy Engineering",
+  "Engineering Physics",
+  "Environmental Science and Engineering",
+  "Mechanical Engineering",
+  "Metallurgical Engineering and Materials Science"
     ], 
     [
-        "Physics",
         "Chemistry",
-        "Mathematics"
+  "Economics",
+  "Mathematics"
+    ],
+    [
+        "Electrical Engineering"
     ]
 ]
 
 export const IITBombayCoursesTableHeading = [
     "B.E./B.Tech - 4 Years",
-    "B.Arch - 5 Years"
+    "B.Sc. - 4 Years",
+    "B.Tech + M.Tech. (Dual Degree) - 5 Years"
 ]
 
 export const IITKharagpurCoursesTableContent = [

@@ -2,21 +2,21 @@
 
 
 export const IITBombayInstituteFeesDataTableConstant = [
-    ["One Time Fees", "24500"], 
-    ["Tuition Fee (per Semester)", "62500"], 
-    ["Annual Fees", "7500"], 
-    ["Total", "94500"]
+    // ["One Time Fees", "24500"], 
+    // ["Tuition Fee (per Semester)", "62500"], 
+    // ["Annual Fees", "7500"], 
+    // ["Total", "94500"]
 ];
 
 export const IITBombayInstituteFeesDataTableHeading = ["Institute Fee", "Amount"];
 
 export const IITBombayHostelFeesDataTableConstant = [
-    ["Hostel Caution Money (One Time, Refundable)", "15000"], 
-    ["Hostel Seat Rent (per Year)", "5,000(boys), 2000(girls)"], 
-    ["Electricity & Water Charges (per Year)", "5,500"], 
-    ["Other Fees (per Year)", "5,500"], 
-    ["Mess Advance (per Semester)", "15,000"], 
-    ["Total", "92,000"]
+    // ["Hostel Caution Money (One Time, Refundable)", "15000"], 
+    // ["Hostel Seat Rent (per Year)", "5,000(boys), 2000(girls)"], 
+    // ["Electricity & Water Charges (per Year)", "5,500"], 
+    // ["Other Fees (per Year)", "5,500"], 
+    // ["Mess Advance (per Semester)", "15,000"], 
+    // ["Total", "92,000"]
 ];
 
 

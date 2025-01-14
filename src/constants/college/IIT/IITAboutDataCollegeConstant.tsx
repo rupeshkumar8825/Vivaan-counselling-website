@@ -3,26 +3,11 @@
 
 
 export const IITBombayAboutDataTableConstant = [
-    [
-        "Also Known as", 
-        "NITT, NIT Tiruchirappalli, NIT Trichy"
-    ], 
-    [
-        "Institute Type", 
-        "Government"
-    ], 
-    [
-        "Established", 
-        "1964"
-    ], 
-    [
-        "Location", 
-        "Tiruchirappalli, Tamil Nadu"
-    ], 
-    [
-        "Type", 
-        "NIT"
-    ]
+    ["Also Known As", "IITB, IIT MUMBAI, IIT BOMBAY"],
+    ["Institute Type", "Government"],
+    ["Established", "1958"],
+    ["Location", "Mumbai, Maharashtra"],
+    ["Type", "IIT"]
 ]
 
 export const IITBombayAboutDataTableHeading = [

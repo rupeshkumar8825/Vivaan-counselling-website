@@ -1,14 +1,10 @@
 // this will store the information about the location section for all IITs colleges
 
 export const IITBombayLocationDataTableConstant = [
-    [
-        "Tiruchirappalli International Airport", 
-        "18"
-    ], 
-    [
-        "Tiruchirappalli Junction Railway Station", 
-        "18.5"
-    ]
+    ["Chhatrapati Shivaji Maharaj International Airport, Mumbai", "9"],
+    ["Kanjurmarg Railway Station", "4"],
+    ["Mumbai Central Railway Station", "27"],
+    ["Chhatrapati Shivaji Terminus", "30"]
 ]
 
 
