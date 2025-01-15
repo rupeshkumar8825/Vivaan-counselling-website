@@ -66,7 +66,9 @@ export const IITBombayCollegeNavigationConstants : Array<IIITCollegeNavigationCo
 
 export const IITBombayCollegeAboutSectionContent : string =""
 export const IITBombayCollegeFeeSectionContent : string =""
-export const IITBombayCollegeAdmissionSectionContent : string =""
+export const IITBombayCollegeAdmissionSectionContent : string =`• It is a two-step process. One needs to qualify the JEE (Main) exam and then take the JEE (Advanced) exam.
+• One must have secured at least 75% marks (65% for SC/ST/PwD) in Class XII OR One must be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Advanced Performance Criteria in Class XII.
+• Admissions are done on the basis of rank in JEE (Advanced) through JoSAA Counselling.`
 export const IITBombayCollegeCoursesSectionContent : string =""
 export const IITBombayCollegePlacementSectionContent : string =""
 export const IITBombayCollegeCutOffSectionContent : string =""
@@ -116,7 +118,9 @@ export const IITDelhiCollegeNavigationConstants : Array<IIITCollegeNavigationCon
 
 export const IITDelhiCollegeAboutSectionContent : string =""
 export const IITDelhiCollegeFeeSectionContent : string =""
-export const IITDelhiCollegeAdmissionSectionContent : string =""
+export const IITDelhiCollegeAdmissionSectionContent : string =`• It is a two-step process. One needs to qualify the JEE (Main) exam and then take the JEE (Advanced) exam.
+• One must have secured at least 75% marks (65% for SC/ST/PwD) in Class XII OR One must be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Advanced Performance Criteria in Class XII.
+• Admissions are done on the basis of rank in JEE (Advanced) through JoSAA Counselling.`
 export const IITDelhiCollegeCoursesSectionContent : string =""
 export const IITDelhiCollegePlacementSectionContent : string =""
 export const IITDelhiCollegeCutOffSectionContent : string =""
@@ -163,7 +167,9 @@ export const IITKanpurCollegeNavigationConstants : Array<IIITCollegeNavigationCo
 
 export const IITKanpurCollegeAboutSectionContent : string =""
 export const IITKanpurCollegeFeeSectionContent : string =""
-export const IITKanpurCollegeAdmissionSectionContent : string =""
+export const IITKanpurCollegeAdmissionSectionContent : string =`• It is a two-step process. One needs to qualify the JEE (Main) exam and then take the JEE (Advanced) exam.
+• One must have secured at least 75% marks (65% for SC/ST/PwD) in Class XII OR One must be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Advanced Performance Criteria in Class XII.
+• Admissions are done on the basis of rank in JEE (Advanced) through JoSAA Counselling.`
 export const IITKanpurCollegeCoursesSectionContent : string =""
 export const IITKanpurCollegePlacementSectionContent : string =""
 export const IITKanpurCollegeCutOffSectionContent : string =""
@@ -210,7 +216,9 @@ export const IITMadrasCollegeNavigationConstants : Array<IIITCollegeNavigationCo
 
 export const IITMadrasCollegeAboutSectionContent : string =""
 export const IITMadrasCollegeFeeSectionContent : string =""
-export const IITMadrasCollegeAdmissionSectionContent : string =""
+export const IITMadrasCollegeAdmissionSectionContent : string =`• It is a two-step process. One needs to qualify the JEE (Main) exam and then take the JEE (Advanced) exam.
+• One must have secured at least 75% marks (65% for SC/ST/PwD) in Class XII OR One must be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Advanced Performance Criteria in Class XII.
+• Admissions are done on the basis of rank in JEE (Advanced) through JoSAA Counselling.`
 export const IITMadrasCollegeCoursesSectionContent : string =""
 export const IITMadrasCollegePlacementSectionContent : string =""
 export const IITMadrasCollegeCutOffSectionContent : string =""
@@ -257,7 +265,9 @@ export const IITKharagpurCollegeNavigationConstants : Array<IIITCollegeNavigatio
 
 export const IITKharagpurCollegeAboutSectionContent : string =""
 export const IITKharagpurCollegeFeeSectionContent : string =""
-export const IITKharagpurCollegeAdmissionSectionContent : string =""
+export const IITKharagpurCollegeAdmissionSectionContent : string =`• It is a two-step process. One needs to qualify the JEE (Main) exam and then take the JEE (Advanced) exam.
+• One must have secured at least 75% marks (65% for SC/ST/PwD) in Class XII OR One must be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Advanced Performance Criteria in Class XII.
+• Admissions are done on the basis of rank in JEE (Advanced) through JoSAA Counselling.`
 export const IITKharagpurCollegeCoursesSectionContent : string =""
 export const IITKharagpurCollegePlacementSectionContent : string =""
 export const IITKharagpurCollegeCutOffSectionContent : string =""
@@ -305,7 +315,9 @@ export const IITRoorkeeCollegeNavigationConstants : Array<IIITCollegeNavigationC
 
 export const IITRoorkeeCollegeAboutSectionContent : string =""
 export const IITRoorkeeCollegeFeeSectionContent : string =""
-export const IITRoorkeeCollegeAdmissionSectionContent : string =""
+export const IITRoorkeeCollegeAdmissionSectionContent : string =`• It is a two-step process. One needs to qualify the JEE (Main) exam and then take the JEE (Advanced) exam.
+• One must have secured at least 75% marks (65% for SC/ST/PwD) in Class XII OR One must be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Advanced Performance Criteria in Class XII.
+• Admissions are done on the basis of rank in JEE (Advanced) through JoSAA Counselling.`
 export const IITRoorkeeCollegeCoursesSectionContent : string =""
 export const IITRoorkeeCollegePlacementSectionContent : string =""
 export const IITRoorkeeCollegeCutOffSectionContent : string =""
@@ -354,7 +366,9 @@ export const IITGuwahatiCollegeNavigationConstants : Array<IIITCollegeNavigation
 
 export const IITGuwahatiCollegeAboutSectionContent : string =""
 export const IITGuwahatiCollegeFeeSectionContent : string =""
-export const IITGuwahatiCollegeAdmissionSectionContent : string =""
+export const IITGuwahatiCollegeAdmissionSectionContent : string =`• It is a two-step process. One needs to qualify the JEE (Main) exam and then take the JEE (Advanced) exam.
+• One must have secured at least 75% marks (65% for SC/ST/PwD) in Class XII OR One must be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Advanced Performance Criteria in Class XII.
+• Admissions are done on the basis of rank in JEE (Advanced) through JoSAA Counselling.`
 export const IITGuwahatiCollegeCoursesSectionContent : string =""
 export const IITGuwahatiCollegePlacementSectionContent : string =""
 export const IITGuwahatiCollegeCutOffSectionContent : string =""
@@ -404,7 +418,9 @@ export const IITRoparCollegeNavigationConstants : Array<IIITCollegeNavigationCon
 
 export const IITRoparCollegeAboutSectionContent : string =""
 export const IITRoparCollegeFeeSectionContent : string =""
-export const IITRoparCollegeAdmissionSectionContent : string =""
+export const IITRoparCollegeAdmissionSectionContent : string =`• It is a two-step process. One needs to qualify the JEE (Main) exam and then take the JEE (Advanced) exam.
+• One must have secured at least 75% marks (65% for SC/ST/PwD) in Class XII OR One must be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Advanced Performance Criteria in Class XII.
+• Admissions are done on the basis of rank in JEE (Advanced) through JoSAA Counselling.`
 export const IITRoparCollegeCoursesSectionContent : string =""
 export const IITRoparCollegePlacementSectionContent : string =""
 export const IITRoparCollegeCutOffSectionContent : string =""
@@ -454,7 +470,9 @@ export const IITBhubaneshwarCollegeNavigationConstants : Array<IIITCollegeNaviga
 
 export const IITBhubaneshwarCollegeAboutSectionContent : string =""
 export const IITBhubaneshwarCollegeFeeSectionContent : string =""
-export const IITBhubaneshwarCollegeAdmissionSectionContent : string =""
+export const IITBhubaneshwarCollegeAdmissionSectionContent : string =`• It is a two-step process. One needs to qualify the JEE (Main) exam and then take the JEE (Advanced) exam.
+• One must have secured at least 75% marks (65% for SC/ST/PwD) in Class XII OR One must be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Advanced Performance Criteria in Class XII.
+• Admissions are done on the basis of rank in JEE (Advanced) through JoSAA Counselling.`
 export const IITBhubaneshwarCollegeCoursesSectionContent : string =""
 export const IITBhubaneshwarCollegePlacementSectionContent : string =""
 export const IITBhubaneshwarCollegeCutOffSectionContent : string =""
@@ -503,7 +521,9 @@ export const IITIndoreCollegeNavigationConstants : Array<IIITCollegeNavigationCo
 
 export const IITIndoreCollegeAboutSectionContent : string =""
 export const IITIndoreCollegeFeeSectionContent : string =""
-export const IITIndoreCollegeAdmissionSectionContent : string =""
+export const IITIndoreCollegeAdmissionSectionContent : string =`• It is a two-step process. One needs to qualify the JEE (Main) exam and then take the JEE (Advanced) exam.
+• One must have secured at least 75% marks (65% for SC/ST/PwD) in Class XII OR One must be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Advanced Performance Criteria in Class XII.
+• Admissions are done on the basis of rank in JEE (Advanced) through JoSAA Counselling.`
 export const IITIndoreCollegeCoursesSectionContent : string =""
 export const IITIndoreCollegePlacementSectionContent : string =""
 export const IITIndoreCollegeCutOffSectionContent : string =""
@@ -553,7 +573,9 @@ export const IITJodhpurCollegeNavigationConstants : Array<IIITCollegeNavigationC
 
 export const IITJodhpurCollegeAboutSectionContent : string =""
 export const IITJodhpurCollegeFeeSectionContent : string =""
-export const IITJodhpurCollegeAdmissionSectionContent : string =""
+export const IITJodhpurCollegeAdmissionSectionContent : string =`• It is a two-step process. One needs to qualify the JEE (Main) exam and then take the JEE (Advanced) exam.
+• One must have secured at least 75% marks (65% for SC/ST/PwD) in Class XII OR One must be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Advanced Performance Criteria in Class XII.
+• Admissions are done on the basis of rank in JEE (Advanced) through JoSAA Counselling.`
 export const IITJodhpurCollegeCoursesSectionContent : string =""
 export const IITJodhpurCollegePlacementSectionContent : string =""
 export const IITJodhpurCollegeCutOffSectionContent : string =""
@@ -602,7 +624,9 @@ export const IITPatnaCollegeNavigationConstants : Array<IIITCollegeNavigationCon
 
 export const IITPatnaCollegeAboutSectionContent : string =""
 export const IITPatnaCollegeFeeSectionContent : string =""
-export const IITPatnaCollegeAdmissionSectionContent : string =""
+export const IITPatnaCollegeAdmissionSectionContent : string =`• It is a two-step process. One needs to qualify the JEE (Main) exam and then take the JEE (Advanced) exam.
+• One must have secured at least 75% marks (65% for SC/ST/PwD) in Class XII OR One must be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Advanced Performance Criteria in Class XII.
+• Admissions are done on the basis of rank in JEE (Advanced) through JoSAA Counselling.`
 export const IITPatnaCollegeCoursesSectionContent : string =""
 export const IITPatnaCollegePlacementSectionContent : string =""
 export const IITPatnaCollegeCutOffSectionContent : string =""
@@ -651,7 +675,9 @@ export const IITGandhinagarCollegeNavigationConstants : Array<IIITCollegeNavigat
 
 export const IITGandhinagarCollegeAboutSectionContent : string =""
 export const IITGandhinagarCollegeFeeSectionContent : string =""
-export const IITGandhinagarCollegeAdmissionSectionContent : string =""
+export const IITGandhinagarCollegeAdmissionSectionContent : string =`• It is a two-step process. One needs to qualify the JEE (Main) exam and then take the JEE (Advanced) exam.
+• One must have secured at least 75% marks (65% for SC/ST/PwD) in Class XII OR One must be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Advanced Performance Criteria in Class XII.
+• Admissions are done on the basis of rank in JEE (Advanced) through JoSAA Counselling.`
 export const IITGandhinagarCollegeCoursesSectionContent : string =""
 export const IITGandhinagarCollegePlacementSectionContent : string =""
 export const IITGandhinagarCollegeCutOffSectionContent : string =""
@@ -701,7 +727,9 @@ export const IITJammuCollegeNavigationConstants : Array<IIITCollegeNavigationCon
 
 export const IITJammuCollegeAboutSectionContent : string =""
 export const IITJammuCollegeFeeSectionContent : string =""
-export const IITJammuCollegeAdmissionSectionContent : string =""
+export const IITJammuCollegeAdmissionSectionContent : string =`• It is a two-step process. One needs to qualify the JEE (Main) exam and then take the JEE (Advanced) exam.
+• One must have secured at least 75% marks (65% for SC/ST/PwD) in Class XII OR One must be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Advanced Performance Criteria in Class XII.
+• Admissions are done on the basis of rank in JEE (Advanced) through JoSAA Counselling.`
 export const IITJammuCollegeCoursesSectionContent : string =""
 export const IITJammuCollegePlacementSectionContent : string =""
 export const IITJammuCollegeCutOffSectionContent : string =""
@@ -747,7 +775,9 @@ export const IITHyderabadCollegeNavigationConstants : Array<IIITCollegeNavigatio
 
 export const IITHyderabadCollegeAboutSectionContent : string =""
 export const IITHyderabadCollegeFeeSectionContent : string =""
-export const IITHyderabadCollegeAdmissionSectionContent : string =""
+export const IITHyderabadCollegeAdmissionSectionContent : string =`• It is a two-step process. One needs to qualify the JEE (Main) exam and then take the JEE (Advanced) exam.
+• One must have secured at least 75% marks (65% for SC/ST/PwD) in Class XII OR One must be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Advanced Performance Criteria in Class XII.
+• Admissions are done on the basis of rank in JEE (Advanced) through JoSAA Counselling.`
 export const IITHyderabadCollegeCoursesSectionContent : string =""
 export const IITHyderabadCollegePlacementSectionContent : string =""
 export const IITHyderabadCollegeCutOffSectionContent : string =""
@@ -795,7 +825,9 @@ export const IITBHUCollegeNavigationConstants : Array<IIITCollegeNavigationConst
 
 export const IITBHUCollegeAboutSectionContent : string =""
 export const IITBHUCollegeFeeSectionContent : string =""
-export const IITBHUCollegeAdmissionSectionContent : string =""
+export const IITBHUCollegeAdmissionSectionContent : string =`• It is a two-step process. One needs to qualify the JEE (Main) exam and then take the JEE (Advanced) exam.
+• One must have secured at least 75% marks (65% for SC/ST/PwD) in Class XII OR One must be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Advanced Performance Criteria in Class XII.
+• Admissions are done on the basis of rank in JEE (Advanced) through JoSAA Counselling.`
 export const IITBHUCollegeCoursesSectionContent : string =""
 export const IITBHUCollegePlacementSectionContent : string =""
 export const IITBHUCollegeCutOffSectionContent : string =""
@@ -844,7 +876,9 @@ export const IITBhilaiCollegeAboutSectionContent: string =""
 
 export const IITBhilaiCollegeFeeSectionContent: string =""
 
-export const IITBhilaiCollegeAdmissionSectionContent: string =""
+export const IITBhilaiCollegeAdmissionSectionContent: string =`• It is a two-step process. One needs to qualify the JEE (Main) exam and then take the JEE (Advanced) exam.
+• One must have secured at least 75% marks (65% for SC/ST/PwD) in Class XII OR One must be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Advanced Performance Criteria in Class XII.
+• Admissions are done on the basis of rank in JEE (Advanced) through JoSAA Counselling.`
 
 export const IITBhilaiCollegeCoursesSectionContent: string =""
 
@@ -895,7 +929,9 @@ export const IITPalakkadCollegeAboutSectionContent: string =""
 
 export const IITPalakkadCollegeFeeSectionContent: string =""
 
-export const IITPalakkadCollegeAdmissionSectionContent: string =""
+export const IITPalakkadCollegeAdmissionSectionContent: string =`• It is a two-step process. One needs to qualify the JEE (Main) exam and then take the JEE (Advanced) exam.
+• One must have secured at least 75% marks (65% for SC/ST/PwD) in Class XII OR One must be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Advanced Performance Criteria in Class XII.
+• Admissions are done on the basis of rank in JEE (Advanced) through JoSAA Counselling.`
 
 export const IITPalakkadCollegeCoursesSectionContent: string =""
 
@@ -947,7 +983,9 @@ export const IITGoaCollegeAboutSectionContent: string =""
 
 export const IITGoaCollegeFeeSectionContent: string =""
 
-export const IITGoaCollegeAdmissionSectionContent: string =""
+export const IITGoaCollegeAdmissionSectionContent: string =`• It is a two-step process. One needs to qualify the JEE (Main) exam and then take the JEE (Advanced) exam.
+• One must have secured at least 75% marks (65% for SC/ST/PwD) in Class XII OR One must be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Advanced Performance Criteria in Class XII.
+• Admissions are done on the basis of rank in JEE (Advanced) through JoSAA Counselling.`
 
 export const IITGoaCollegeCoursesSectionContent: string =""
 
@@ -998,7 +1036,9 @@ export const IITDharwadCollegeAboutSectionContent: string =""
 
 export const IITDharwadCollegeFeeSectionContent: string =""
 
-export const IITDharwadCollegeAdmissionSectionContent: string =""
+export const IITDharwadCollegeAdmissionSectionContent: string =`• It is a two-step process. One needs to qualify the JEE (Main) exam and then take the JEE (Advanced) exam.
+• One must have secured at least 75% marks (65% for SC/ST/PwD) in Class XII OR One must be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Advanced Performance Criteria in Class XII.
+• Admissions are done on the basis of rank in JEE (Advanced) through JoSAA Counselling.`
 
 export const IITDharwadCollegeCoursesSectionContent: string =""
 
@@ -1049,7 +1089,9 @@ export const IITMandiCollegeAboutSectionContent: string =""
 
 export const IITMandiCollegeFeeSectionContent: string =""
 
-export const IITMandiCollegeAdmissionSectionContent: string =""
+export const IITMandiCollegeAdmissionSectionContent: string =`• It is a two-step process. One needs to qualify the JEE (Main) exam and then take the JEE (Advanced) exam.
+• One must have secured at least 75% marks (65% for SC/ST/PwD) in Class XII OR One must be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Advanced Performance Criteria in Class XII.
+• Admissions are done on the basis of rank in JEE (Advanced) through JoSAA Counselling.`
 
 export const IITMandiCollegeCoursesSectionContent: string =""
 
@@ -1101,7 +1143,9 @@ export const IITTirupatiCollegeAboutSectionContent: string =""
 
 export const IITTirupatiCollegeFeeSectionContent: string =""
 
-export const IITTirupatiCollegeAdmissionSectionContent: string =""
+export const IITTirupatiCollegeAdmissionSectionContent: string =`• It is a two-step process. One needs to qualify the JEE (Main) exam and then take the JEE (Advanced) exam.
+• One must have secured at least 75% marks (65% for SC/ST/PwD) in Class XII OR One must be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Advanced Performance Criteria in Class XII.
+• Admissions are done on the basis of rank in JEE (Advanced) through JoSAA Counselling.`
 
 export const IITTirupatiCollegeCoursesSectionContent: string =""
 
@@ -1153,7 +1197,9 @@ export const IITDhanbadCollegeAboutSectionContent: string =""
 
 export const IITDhanbadCollegeFeeSectionContent: string =""
 
-export const IITDhanbadCollegeAdmissionSectionContent: string =""
+export const IITDhanbadCollegeAdmissionSectionContent: string =`• It is a two-step process. One needs to qualify the JEE (Main) exam and then take the JEE (Advanced) exam.
+• One must have secured at least 75% marks (65% for SC/ST/PwD) in Class XII OR One must be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Advanced Performance Criteria in Class XII.
+• Admissions are done on the basis of rank in JEE (Advanced) through JoSAA Counselling.`
 
 export const IITDhanbadCollegeCoursesSectionContent: string =""
 

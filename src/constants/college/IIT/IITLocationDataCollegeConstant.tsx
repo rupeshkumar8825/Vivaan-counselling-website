@@ -145,14 +145,11 @@ export const IITIndoreLocationDataTableHeading = [
 ]
 
 export const IITMandiLocationDataTableConstant = [
-    [
-        "Kullu–Manali Airport", 
-        "75"
-    ], 
-    [
-        "Kiratpur Sahib Railway Station", 
-        "125"
-    ]
+    ["Kullu Manali Airport, Bhuntar", "40.5"],
+    ["Kangra Airport, Gaggal", "129"],
+    ["Chandigarh International Airport", "216"],
+    ["Joginder Nagar Railway Station", "55"],
+    ["Chandigarh Junction Railway Station", "203"]
 ]
 
 export const IITMandiLocationDataTableHeading = [
@@ -170,14 +167,9 @@ export const IITBHULocationDataTableHeading = [
 ]
 
 export const IITPalakkadLocationDataTableConstant = [
-    [
-        "Coimbatore International Airport", 
-        "60"
-    ], 
-    [
-        "Palakkad Junction Railway Station", 
-        "20"
-    ]
+    ["Coimbatore International Airport", "44"],
+    ["Palakkad Junction Railway Station", "28.5"],
+    ["Coimbatore Junction Railway Station", "32"]
 ]
 
 export const IITPalakkadLocationDataTableHeading = [
@@ -200,14 +192,10 @@ export const IITTirupatiLocationDataTableHeading = [
 ]
 
 export const IITDhanbadLocationDataTableConstant = [
-    [
-        "Birsa Munda Airport", 
-        "150"
-    ], 
-    [
-        "Dhanbad Junction Railway Station", 
-        "5"
-    ]
+    ["Kazi Nazrul Islam Airport, Durgapur", "96.5"],
+    ["Birsa Munda Airport, Ranchi", "153"],
+    ["Netaji Subhas Chandra Bose International Airport, Kolkata", "272"],
+    ["Dhanbad Junction Railway Station", "3"]
 ]
 
 export const IITDhanbadLocationDataTableHeading = [
@@ -230,14 +218,10 @@ export const IITBhilaiLocationDataTableHeading = [
 ]
 
 export const IITDharwadLocationDataTableConstant = [
-    [
-        "Hubli Airport", 
-        "20"
-    ], 
-    [
-        "Dharwad Railway Station", 
-        "10"
-    ]
+    ["Hubli Airport", "31"],
+    ["Belgaum Airport", "72"],
+    ["Dharwad Railway Station", "15"],
+    ["Hubli Junction Railway Station", "33"]
 ]
 
 export const IITDharwadLocationDataTableHeading = [

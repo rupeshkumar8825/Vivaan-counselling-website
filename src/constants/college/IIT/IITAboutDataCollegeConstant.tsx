@@ -186,7 +186,7 @@ export const IITIndoreAboutDataTableHeading = [
 ];
 
 export const IITMandiAboutDataTableConstant = [
-    ["Also Known as", "IITMandi"],
+    ["Also Known As", "IIT Mandi"],
     ["Institute Type", "Government"],
     ["Established", "2009"],
     ["Location", "Mandi, Himachal Pradesh"],
@@ -212,7 +212,7 @@ export const IITBHUAboutDataTableHeading = [
 ];
 
 export const IITPalakkadAboutDataTableConstant = [
-    ["Also Known as", "IITPKD"],
+    ["Also Known As", "IIT Palakkad and IIT PKD"],
     ["Institute Type", "Government"],
     ["Established", "2015"],
     ["Location", "Palakkad, Kerala"],
@@ -239,7 +239,7 @@ export const IITTirupatiAboutDataTableHeading = [
 ];
 
 export const IITDhanbadAboutDataTableConstant = [
-    ["Also Known as", "IIT ISM"],
+    ["Also Known As", "IIT Dhanbad, IIT (ISM) Dhanbad and ISM Dhanbad"],
     ["Institute Type", "Government"],
     ["Established", "1926"],
     ["Location", "Dhanbad, Jharkhand"],
@@ -265,7 +265,7 @@ export const IITBhilaiAboutDataTableHeading = [
 ];
 
 export const IITDharwadAboutDataTableConstant = [
-    ["Also Known as", "IITDH"],
+    ["Also Known As", "IIT Dharwad, IITDH, IIT DWD, IIT Karnataka and IIT DH"],
     ["Institute Type", "Government"],
     ["Established", "2016"],
     ["Location", "Dharwad, Karnataka"],

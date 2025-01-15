@@ -413,21 +413,26 @@ export const IITIndoreCoursesTableHeading = [
 
 export const IITMandiCoursesTableContent = [
     [
-        "Civil Engineering",
-        "Computer Science and Engineering",
-        "Electrical Engineering",
-        "Mechanical Engineering"
+"Bio Engineering",
+  "Civil Engineering",
+  "Computer Science and Engineering",
+  "Data Science and Engineering",
+  "Electrical Engineering",
+  "Engineering Physics",
+  "General Engineering",
+  "Materials Science and Engineering",
+  "Mathematics and Computing",
+  "Mechanical Engineering",
+  "Microelectronics and VLSI"
     ],
     [
-        "Physics",
-        "Chemistry",
-        "Mathematics"
+"Chemical Sciences"
     ]
 ]
 
 export const IITMandiCoursesTableHeading = [
     "B.E./B.Tech - 4 Years",
-    "B.Arch - 5 Years"
+    "B.Sc - 4 Years"
 ]
 
 export const IITBHUCoursesTableContent = [
@@ -472,21 +477,21 @@ export const IITBHUCoursesTableHeading = [
 
 export const IITPalakkadCoursesTableContent = [
     [
-        "Civil Engineering",
-        "Computer Science and Engineering",
-        "Electrical Engineering",
-        "Mechanical Engineering"
+"Civil Engineering",
+  "Computer Science and Engineering",
+  "Electrical Engineering",
+  "Mechanical Engineering"
     ],
-    [
-        "Physics",
-        "Chemistry",
-        "Mathematics"
-    ]
+    // [
+    //     "Physics",
+    //     "Chemistry",
+    //     "Mathematics"
+    // ]
 ]
 
 export const IITPalakkadCoursesTableHeading = [
     "B.E./B.Tech - 4 Years",
-    "B.Arch - 5 Years"
+    // "B.Arch - 5 Years"
 ]
 
 
@@ -517,21 +522,24 @@ export const IITDhanbadCoursesTableContent = [
         "Computer Science and Engineering",
         "Electrical Engineering",
         "Electronics and Communication Engineering",
+        "Engineering Physics",
         "Environmental Engineering",
         "Mechanical Engineering",
+        "Mineral and Metallurgical Engineering",
         "Mining Engineering",
+        "Mining Machinery Engineering",
         "Petroleum Engineering"
     ],
     [
-        "Physics",
-        "Chemistry",
-        "Mathematics"
+"Applied Geology",
+  "Applied Geophysics",
+  "Mathematics and Computing"
     ]
 ]
 
 export const IITDhanbadCoursesTableHeading = [
     "B.E./B.Tech - 4 Years",
-    "B.Arch - 5 Years"
+    "Integrated M.Tech. - 5 Years"
 ]
 
 export const IITBhilaiCoursesTableContent = [
@@ -556,20 +564,21 @@ export const IITBhilaiCoursesTableHeading = [
 
 export const IITDharwadCoursesTableContent = [
     [
-        "Computer Science and Engineering",
-        "Electrical Engineering",
-        "Mechanical Engineering"
+"Computer Science and Engineering",
+  "Electrical Engineering",
+  "Engineering Physics",
+  "Mechanical Engineering"
     ],
-    [
-        "Physics",
-        "Chemistry",
-        "Mathematics"
-    ]
+    // [
+    //     "Physics",
+    //     "Chemistry",
+    //     "Mathematics"
+    // ]
 ]
 
 export const IITDharwadCoursesTableHeading = [
     "B.E./B.Tech - 4 Years",
-    "B.Arch - 5 Years"
+    // "B.Arch - 5 Years"
 ]
 
 export const IITJammuCoursesTableContent = [
