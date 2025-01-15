@@ -13,6 +13,7 @@ import { CollegePageNavigationSvgPathConstants } from "../../../../constants/col
 import LocationSectionCollegeComponent from "../components/LocationSectionCollegeComponent"
 import RankingSectionCollegeComponent from "../components/RankingSectionCollegeComponent"
 import SeatSectionCollegeComponent from "../components/SeatSectionCollegeComponent"
+import FeeWaiverSectionCollegeComponent from "../components/FeeWaiverSectionCollegePageComponent"
 
 const IITGenericCollegePage = (props : IIITGenericCollegeComponent) => {
     return (
@@ -43,6 +44,7 @@ const IITGenericCollegePage = (props : IIITGenericCollegeComponent) => {
                 <AdmissionSectionCollegePageComponent headingId={props.admissionSectionHeadingId} headingName={props.admissionSectionHeadingName} content={props.admissionSectionContent}></AdmissionSectionCollegePageComponent>
                 <CoursesSectionCollegePageComponent coursesSectionTableContent={props.coursesSectionTableContent} coursesSectionTableHeading={props.coursesSectionTableHeading} headingId={props.coursesSectionHeadingId} headingName={props.coursesSectionHeadingName} content={props.coursesSectionContent}></CoursesSectionCollegePageComponent>
                 <FeesSectionCollegePageComponent headingId={props.feeSectionHeadingId} headingName={props.feeSectionHeadingName} content={props.feeSectionContent} feeSectionHostelFeeTableContent={props.feeSectionHostelFeeTableContent} feeSectionHostelFeeTableHeading={props.feeSectionHostelFeeTableHeading} feeSectionInstituteFeeTableContent={props.feeSectionInstituteFeeTableContent} feeSectionInstituteFeeTableHeading={props.feeSectionInstituteFeeTableHeading}></FeesSectionCollegePageComponent>
+                <FeeWaiverSectionCollegeComponent headingId={props.feeWaiverSectionHeadingId} headingName={props.feeWaiverSectionHeadingName} content={props.feeWaiverSectionContent}></FeeWaiverSectionCollegeComponent>
                 <SeatSectionCollegeComponent headingId={props.seatSectionHeadingId} headingName={props.seatSectionHeadingName} content={props.seatSectionContent} seatSectionTableContent={props.seatSectionTableContent} seatSectionTableHeading={props.seatSectionTableHeading}></SeatSectionCollegeComponent>
                 <CutoffSectionCollegePageComponent headingId={props.cutoffSectionHeadingId} headingName={props.cutoffSectionHeadingName} content={props.cutoffSectionContent}></CutoffSectionCollegePageComponent>
                 <PlacementSectionCollegePageComponent collegePlacementDataConstant={props.collegePlacementDataConstant} headingId={props.placementSectionHeadingId} headingName={props.placementSectionHeadingName} content={props.placementSectionContent} imageArray={props.placementImageList}></PlacementSectionCollegePageComponent>

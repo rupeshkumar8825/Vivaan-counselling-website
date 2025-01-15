@@ -29,10 +29,10 @@ export const CutoffSectionCollegePageComponent = (props: ICutoffSectionCollegePa
     }
 
     return (
-        <div className="border-2 border-slate-700 mt-4 pt-2 flex flex-col justify-center items-center">
+        <div className="border-2 border-slate-700 mt-4 pt-2">
             <BlogSectionComponent headingId={props.headingId} headingName={props.headingName} content={props.content}></BlogSectionComponent>
             {/* // Accordian for different years comes here  */}
-            <div className=" flex justify-center items-center w-1/2">
+            <div className=" flex justify-center items-center w-full">
                 <ButtonComponent buttonName={"Check Cut-Off"} buttonWidthInRem={"36"} onButtonComponentClickHandler={onCutOffButtonComponentClickHandler}></ButtonComponent>
             </div>
 

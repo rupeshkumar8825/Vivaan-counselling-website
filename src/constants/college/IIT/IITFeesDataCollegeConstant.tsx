@@ -223,14 +223,14 @@ export const IITGandhinagarHostelFeesDataTableConstant = [
 export const IITGandhinagarHostelFeesDataTableHeading = [];
 
 export const IITHyderabadInstituteFeesDataTableConstant = [
-"Caution Money (One Time, Refundable) ₹12,000",
-  "One Time Fees ₹7,500",
-  "Tuition Fee (per Semester) ₹1,00,000",
-  "Hostel Charges (per Semester) ₹7,000",
-  "Other Fees (per Semester) ₹18,500",
-  "Mess Advance (per Semester) ₹15,860",
-  "Annual Fees ₹1,400",
-  "Total ₹1,62,260"
+["Caution Money (One Time, Refundable) ₹12,000"],
+  ["One Time Fees ₹7,500"],
+  ["Tuition Fee (per Semester) ₹1,00,000"],
+  ["Hostel Charges (per Semester) ₹7,000"],
+  ["Other Fees (per Semester) ₹18,500"],
+  ["Mess Advance (per Semester) ₹15,860"],
+  ["Annual Fees ₹1,400"],
+  ["Total ₹1,62,260"]
 ];
 
 export const IITHyderabadInstituteFeesDataTableHeading = ["Institute Fee", "Amount"];

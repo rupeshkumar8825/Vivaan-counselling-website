@@ -319,6 +319,10 @@ export interface IIITGenericCollegeComponent {
     placementSectionHeadingName : string,
     placementImageList : Array<string>
 
+    feeWaiverSectionContent : string,
+    feeWaiverSectionHeadingId : string,
+    feeWaiverSectionHeadingName : string
+
 
     collegePlacementDataConstant : Array<any>,
     // contactSectionContent : string, 
@@ -402,8 +406,11 @@ export interface INITGenericCollegeComponent {
     placementSectionContent : string, 
     placementSectionHeadingId : string,
     placementSectionHeadingName : string,
-    placementImageList : Array<string>
+    placementImageList : Array<string>,
 
+    feeWaiverSectionContent : string, 
+    feeWaiverSectionHeadingId : string, 
+    feeWaiverSectionHeadingName : string
 
     collegePlacementDataConstant : Array<any>,
     // contactSectionContent : string, 

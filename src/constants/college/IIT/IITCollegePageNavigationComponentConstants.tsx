@@ -1214,92 +1214,184 @@ export const IITDhanbadCollegeCutOffSectionContent: string =""
 export const IITBombayCollegeLocationSectionContent : string =""
 export const IITBombayCollegeRankingSectionContent : string =""
 export const IITBombayCollegeSeatSectionContent : string =""
+export const IITBombayCollegeFeeWaiverSectionContent : string=`• 100% Tuition Fee waiver for SC/ST/PH students.
+• Full remission of the Tuition Fee for General and OBC students whose family income is less than Rs.1 lakh per annum.
+• Remission of 2/3rd of the Tuition Fee for General and OBC students whose family income is between Rs.1 lakh to Rs.5 lakh per annum.
+`
 
 
 export const IITDelhiCollegeLocationSectionContent : string =""
 export const IITDelhiCollegeRankingSectionContent : string =""
 export const IITDelhiCollegeSeatSectionContent : string =""
+export const IITDelhiCollegeFeeWaiverSectionContent : string=`• 100% Tuition Fee waiver for SC/ST/PH students.
+• Full remission of the Tuition Fee for General and OBC students whose family income is less than Rs.1 lakh per annum.
+• Remission of 2/3rd of the Tuition Fee for General and OBC students whose family income is between Rs.1 lakh to Rs.5 lakh per annum.
+`
 
 export const IITKanpurCollegeLocationSectionContent : string =""
 export const IITKanpurCollegeRankingSectionContent : string =""
 export const IITKanpurCollegeSeatSectionContent : string =""
+export const IITKanpurCollegeFeeWaiverSectionContent : string=`• 100% Tuition Fee waiver for SC/ST/PH students.
+• Full remission of the Tuition Fee for General and OBC students whose family income is less than Rs.1 lakh per annum.
+• Remission of 2/3rd of the Tuition Fee for General and OBC students whose family income is between Rs.1 lakh to Rs.5 lakh per annum.
+`
 
 export const IITMadrasCollegeLocationSectionContent : string =""
 export const IITMadrasCollegeRankingSectionContent : string =""
 export const IITMadrasCollegeSeatSectionContent : string =""
+export const IITMadrasCollegeFeeWaiverSectionContent : string=`• 100% Tuition Fee waiver for SC/ST/PH students.
+• Full remission of the Tuition Fee for General and OBC students whose family income is less than Rs.1 lakh per annum.
+• Remission of 2/3rd of the Tuition Fee for General and OBC students whose family income is between Rs.1 lakh to Rs.5 lakh per annum.
+`
 
 export const IITKharagpurCollegeLocationSectionContent : string =""
 export const IITKharagpurCollegeRankingSectionContent : string =""
 export const IITKharagpurCollegeSeatSectionContent : string =""
+export const IITKharagpurCollegeFeeWaiverSectionContent : string=`• 100% Tuition Fee waiver for SC/ST/PH students.
+• Full remission of the Tuition Fee for General and OBC students whose family income is less than Rs.1 lakh per annum.
+• Remission of 2/3rd of the Tuition Fee for General and OBC students whose family income is between Rs.1 lakh to Rs.5 lakh per annum.
+`
 
 export const IITRoorkeeCollegeLocationSectionContent : string =""
 export const IITRoorkeeCollegeRankingSectionContent : string =""
 export const IITRoorkeeCollegeSeatSectionContent : string =""
+export const IITRoorkeeCollegeFeeWaiverSectionContent : string=`• 100% Tuition Fee waiver for SC/ST/PH students.
+• Full remission of the Tuition Fee for General and OBC students whose family income is less than Rs.1 lakh per annum.
+• Remission of 2/3rd of the Tuition Fee for General and OBC students whose family income is between Rs.1 lakh to Rs.5 lakh per annum.
+`
 
 export const IITGuwahatiCollegeLocationSectionContent : string =""
 export const IITGuwahatiCollegeRankingSectionContent : string =""
 export const IITGuwahatiCollegeSeatSectionContent : string =""
+export const IITGuwahatiCollegeFeeWaiverSectionContent : string=`• 100% Tuition Fee waiver for SC/ST/PH students.
+• Full remission of the Tuition Fee for General and OBC students whose family income is less than Rs.1 lakh per annum.
+• Remission of 2/3rd of the Tuition Fee for General and OBC students whose family income is between Rs.1 lakh to Rs.5 lakh per annum.
+`
 
 export const IITRoparCollegeLocationSectionContent : string =""
 export const IITRoparCollegeRankingSectionContent : string =""
 export const IITRoparCollegeSeatSectionContent : string =""
+export const IITRoparCollegeFeeWaiverSectionContent : string=`• 100% Tuition Fee waiver for SC/ST/PH students.
+• Full remission of the Tuition Fee for General and OBC students whose family income is less than Rs.1 lakh per annum.
+• Remission of 2/3rd of the Tuition Fee for General and OBC students whose family income is between Rs.1 lakh to Rs.5 lakh per annum.
+`
 
 export const IITBhubaneswarCollegeLocationSectionContent : string =""
 export const IITBhubaneswarCollegeRankingSectionContent : string =""
 export const IITBhubaneswarCollegeSeatSectionContent : string =""
+export const IITBhubaneswarCollegeFeeWaiverSectionContent : string=`• 100% Tuition Fee waiver for SC/ST/PH students.
+• Full remission of the Tuition Fee for General and OBC students whose family income is less than Rs.1 lakh per annum.
+• Remission of 2/3rd of the Tuition Fee for General and OBC students whose family income is between Rs.1 lakh to Rs.5 lakh per annum.
+`
 
 export const IITIndoreCollegeLocationSectionContent : string =""
 export const IITIndoreCollegeRankingSectionContent : string =""
 export const IITIndoreCollegeSeatSectionContent : string =""
+export const IITIndoreCollegeFeeWaiverSectionContent : string=`• 100% Tuition Fee waiver for SC/ST/PH students.
+• Full remission of the Tuition Fee for General and OBC students whose family income is less than Rs.1 lakh per annum.
+• Remission of 2/3rd of the Tuition Fee for General and OBC students whose family income is between Rs.1 lakh to Rs.5 lakh per annum.
+`
 
 export const IITJodhpurCollegeLocationSectionContent : string =""
 export const IITJodhpurCollegeRankingSectionContent : string =""
 export const IITJodhpurCollegeSeatSectionContent : string =""
+export const IITJodhpurCollegeFeeWaiverSectionContent : string=`• 100% Tuition Fee waiver for SC/ST/PH students.
+• Full remission of the Tuition Fee for General and OBC students whose family income is less than Rs.1 lakh per annum.
+• Remission of 2/3rd of the Tuition Fee for General and OBC students whose family income is between Rs.1 lakh to Rs.5 lakh per annum.
+`
 
 export const IITPatnaCollegeLocationSectionContent : string =""
 export const IITPatnaCollegeRankingSectionContent : string =""
 export const IITPatnaCollegeSeatSectionContent : string =""
+export const IITPatnaCollegeFeeWaiverSectionContent : string=`• 100% Tuition Fee waiver for SC/ST/PH students.
+• Full remission of the Tuition Fee for General and OBC students whose family income is less than Rs.1 lakh per annum.
+• Remission of 2/3rd of the Tuition Fee for General and OBC students whose family income is between Rs.1 lakh to Rs.5 lakh per annum.
+`
 
 export const IITGandhinagarCollegeLocationSectionContent : string =""
 export const IITGandhinagarCollegeRankingSectionContent : string =""
 export const IITGandhinagarCollegeSeatSectionContent : string =""
+export const IITGandhinagarCollegeFeeWaiverSectionContent : string=`• 100% Tuition Fee waiver for SC/ST/PH students.
+• Full remission of the Tuition Fee for General and OBC students whose family income is less than Rs.1 lakh per annum.
+• Remission of 2/3rd of the Tuition Fee for General and OBC students whose family income is between Rs.1 lakh to Rs.5 lakh per annum.
+`
 
 export const IITJammuCollegeLocationSectionContent : string =""
 export const IITJammuCollegeRankingSectionContent : string =""
 export const IITJammuCollegeSeatSectionContent : string =""
+export const IITJammuCollegeFeeWaiverSectionContent : string=`• 100% Tuition Fee waiver for SC/ST/PH students.
+• Full remission of the Tuition Fee for General and OBC students whose family income is less than Rs.1 lakh per annum.
+• Remission of 2/3rd of the Tuition Fee for General and OBC students whose family income is between Rs.1 lakh to Rs.5 lakh per annum.
+`
 
 export const IITHyderabadCollegeLocationSectionContent : string =""
 export const IITHyderabadCollegeRankingSectionContent : string =""
 export const IITHyderabadCollegeSeatSectionContent : string =""
+export const IITHyderabadCollegeFeeWaiverSectionContent : string=`• 100% Tuition Fee waiver for SC/ST/PH students.
+• Full remission of the Tuition Fee for General and OBC students whose family income is less than Rs.1 lakh per annum.
+• Remission of 2/3rd of the Tuition Fee for General and OBC students whose family income is between Rs.1 lakh to Rs.5 lakh per annum.
+`
 
 export const IITBHUCollegeLocationSectionContent : string =""
 export const IITBHUCollegeRankingSectionContent : string =""
 export const IITBHUCollegeSeatSectionContent : string =""
+export const IITBHUCollegeFeeWaiverSectionContent : string=`• 100% Tuition Fee waiver for SC/ST/PH students.
+• Full remission of the Tuition Fee for General and OBC students whose family income is less than Rs.1 lakh per annum.
+• Remission of 2/3rd of the Tuition Fee for General and OBC students whose family income is between Rs.1 lakh to Rs.5 lakh per annum.
+`
 
 export const IITBhilaiCollegeLocationSectionContent : string =""
 export const IITBhilaiCollegeRankingSectionContent : string =""
 export const IITBhilaiCollegeSeatSectionContent : string =""
+export const IITBhilaiCollegeFeeWaiverSectionContent : string=`• 100% Tuition Fee waiver for SC/ST/PH students.
+• Full remission of the Tuition Fee for General and OBC students whose family income is less than Rs.1 lakh per annum.
+• Remission of 2/3rd of the Tuition Fee for General and OBC students whose family income is between Rs.1 lakh to Rs.5 lakh per annum.
+`
 
 export const IITPalakkadCollegeLocationSectionContent : string =""
 export const IITPalakkadCollegeRankingSectionContent : string =""
 export const IITPalakkadCollegeSeatSectionContent : string =""
+export const IITPalakkadCollegeFeeWaiverSectionContent : string=`• 100% Tuition Fee waiver for SC/ST/PH students.
+• Full remission of the Tuition Fee for General and OBC students whose family income is less than Rs.1 lakh per annum.
+• Remission of 2/3rd of the Tuition Fee for General and OBC students whose family income is between Rs.1 lakh to Rs.5 lakh per annum.
+`
 
 export const IITGoaCollegeLocationSectionContent : string =""
 export const IITGoaCollegeRankingSectionContent : string ="Information currently unavailable"
 export const IITGoaCollegeSeatSectionContent : string =""
+export const IITGoaCollegeFeeWaiverSectionContent : string=`• 100% Tuition Fee waiver for SC/ST/PH students.
+• Full remission of the Tuition Fee for General and OBC students whose family income is less than Rs.1 lakh per annum.
+• Remission of 2/3rd of the Tuition Fee for General and OBC students whose family income is between Rs.1 lakh to Rs.5 lakh per annum.
+`
 
 export const IITDharwadCollegeLocationSectionContent : string =""
 export const IITDharwadCollegeRankingSectionContent : string =""
 export const IITDharwadCollegeSeatSectionContent : string =""
+export const IITDharwadCollegeFeeWaiverSectionContent : string=`• 100% Tuition Fee waiver for SC/ST/PH students.
+• Full remission of the Tuition Fee for General and OBC students whose family income is less than Rs.1 lakh per annum.
+• Remission of 2/3rd of the Tuition Fee for General and OBC students whose family income is between Rs.1 lakh to Rs.5 lakh per annum.
+`
 
 export const IITMandiCollegeLocationSectionContent : string =""
 export const IITMandiCollegeRankingSectionContent : string =""
 export const IITMandiCollegeSeatSectionContent : string =""
+export const IITMandiCollegeFeeWaiverSectionContent : string=`• 100% Tuition Fee waiver for SC/ST/PH students.
+• Full remission of the Tuition Fee for General and OBC students whose family income is less than Rs.1 lakh per annum.
+• Remission of 2/3rd of the Tuition Fee for General and OBC students whose family income is between Rs.1 lakh to Rs.5 lakh per annum.
+`
 
 export const IITTirupatiCollegeLocationSectionContent : string =""
 export const IITTirupatiCollegeRankingSectionContent : string =""
 export const IITTirupatiCollegeSeatSectionContent : string =""
+export const IITTirupatiCollegeFeeWaiverSectionContent : string=`• 100% Tuition Fee waiver for SC/ST/PH students.
+• Full remission of the Tuition Fee for General and OBC students whose family income is less than Rs.1 lakh per annum.
+• Remission of 2/3rd of the Tuition Fee for General and OBC students whose family income is between Rs.1 lakh to Rs.5 lakh per annum.
+`
 
 export const IITDhanbadCollegeLocationSectionContent : string =""
 export const IITDhanbadCollegeRankingSectionContent : string =""
 export const IITDhanbadCollegeSeatSectionContent : string =""
+export const IITDhanbadCollegeFeeWaiverSectionContent : string=`• 100% Tuition Fee waiver for SC/ST/PH students.
+• Full remission of the Tuition Fee for General and OBC students whose family income is less than Rs.1 lakh per annum.
+• Remission of 2/3rd of the Tuition Fee for General and OBC students whose family income is between Rs.1 lakh to Rs.5 lakh per annum.
+`

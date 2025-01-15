@@ -11,6 +11,7 @@ import CollegePageNavigationComponent from "../components/CollegePageNavigationC
 import CoursesSectionCollegePageComponent from "../components/CoursesSectionCollegePageComponent"
 import CutoffSectionCollegePageComponent from "../components/CutoffSectionCollegePageComponent"
 import FeesSectionCollegePageComponent from "../components/FeesSectionCollegePageComponent"
+import FeeWaiverSectionCollegeComponent from "../components/FeeWaiverSectionCollegePageComponent"
 import LocationSectionCollegeComponent from "../components/LocationSectionCollegeComponent"
 import PlacementSectionCollegePageComponent from "../components/PlacementSectionCollegePageComponent"
 import RankingSectionCollegeComponent from "../components/RankingSectionCollegeComponent"
@@ -28,7 +29,7 @@ const NITGenericCollegePage = (props : INITGenericCollegeComponent) => {
                         <img src={props.collegeImage} alt="IIT Bombay" className=" rounded w-full h-40 sm:w-[90%] md:w-[90%] lg:w-[90%] xl:w-[90%]  sm:h-64 md:h-68 lg:h-72 xl:h-80 "></img>
                         <div className="absolute inset-0 bg-blue opacity-50 rounded"></div>
                     </div>
-                    <div className="text-2xl text-center font-bold mt-5 ">{props.collegeName}</div>
+                    <div className="text-2xl text-center fosnt-bold mt-5 ">{props.collegeName}</div>
                 </div>
                 <CollegePageNavigationComponent collegePageNavigationSvgPathConstants={CollegePageNavigationSvgPathConstants} collegePageNavigationConstants={props.collegePageNavigationConstants}></CollegePageNavigationComponent>
                 <AboutSectionCollegePageComponent headingId={props.aboutSectionHeadingId} headingName={props.aboutSectionHeadingName} content={props.aboutSectionContent} aboutSectionTableContent={props.aboutSectionTableContent} aboutSectionTableHeading={props.aboutSectionTableHeading}></AboutSectionCollegePageComponent>
@@ -37,6 +38,7 @@ const NITGenericCollegePage = (props : INITGenericCollegeComponent) => {
                 <AdmissionSectionCollegePageComponent headingId={props.admissionSectionHeadingId} headingName={props.admissionSectionHeadingName} content={props.admissionSectionContent}></AdmissionSectionCollegePageComponent>
                 <CoursesSectionCollegePageComponent coursesSectionTableContent={props.coursesSectionTableContent} coursesSectionTableHeading={props.coursesSectionTableHeading} headingId={props.coursesSectionHeadingId} headingName={props.coursesSectionHeadingName} content={props.coursesSectionContent}></CoursesSectionCollegePageComponent>
                 <FeesSectionCollegePageComponent headingId={props.feeSectionHeadingId} headingName={props.feeSectionHeadingName} content={props.feeSectionContent} feeSectionInstituteFeeTableContent={props.feeSectionInstituteFeeTableContent} feeSectionInstituteFeeTableHeading={props.feeSectionInstituteFeeTableHeading} feeSectionHostelFeeTableContent={props.feeSectionHostelFeeTableContent} feeSectionHostelFeeTableHeading={props.feeSectionHostelFeeTableHeading}></FeesSectionCollegePageComponent>
+                <FeeWaiverSectionCollegeComponent headingId={props.feeWaiverSectionHeadingId} headingName={props.feeWaiverSectionHeadingName} content={props.feeWaiverSectionContent}></FeeWaiverSectionCollegeComponent>
                 <SeatSectionCollegeComponent headingId={props.seatSectionHeadingId} headingName={props.seatSectionHeadingName} content={props.seatSectionContent} seatSectionTableContent={props.seatSectionTableContent} seatSectionTableHeading={props.seatSectionTableHeading}></SeatSectionCollegeComponent>
                 <CutoffSectionCollegePageComponent headingId={props.cutoffSectionHeadingId} headingName={props.cutoffSectionHeadingName} content={props.cutoffSectionContent}></CutoffSectionCollegePageComponent>
                 <PlacementSectionCollegePageComponent collegePlacementDataConstant={props.collegePlacementDataConstant} headingId={props.placementSectionHeadingId} headingName={props.placementSectionHeadingName} content={props.placementSectionContent} imageArray={props.placementImageList}></PlacementSectionCollegePageComponent>

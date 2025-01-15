@@ -286,7 +286,8 @@ import {
     IITMadrasCollegeSeatSectionContent,
     IITDelhiCollegeLocationSectionContent,
     IITDelhiCollegeRankingSectionContent,
-    IITDelhiCollegeSeatSectionContent} from "../constants/college/IIT/IITCollegePageNavigationComponentConstants";
+    IITDelhiCollegeSeatSectionContent,
+    IITBombayCollegeFeeWaiverSectionContent} from "../constants/college/IIT/IITCollegePageNavigationComponentConstants";
 
 import { 
     IITBombayCoursesTableContent,
@@ -690,7 +691,8 @@ import { NITBhopalCollegeAboutSectionContent
     NITUttarakhandCollegeSeatSectionContent,
     NITAndhraPradeshCollegeLocationSectionContent,
     NITAndhraPradeshCollegeRankingSectionContent,
-    NITAndhraPradeshCollegeSeatSectionContent
+    NITAndhraPradeshCollegeSeatSectionContent,
+    NITWarangalCollegeFeeWaiverSectionContent
 
 } from "../constants/college/NIT/NITCollegePageNavigationComponentConstant";
 import { NITAgartalaCoursesTableContent, NITAgartalaCoursesTableHeading, NITAllahabadCoursesTableContent, NITAllahabadCoursesTableHeading, NITAndhraPradeshCoursesTableContent, NITAndhraPradeshCoursesTableHeading, NITArunachalPradeshCoursesTableContent, NITArunachalPradeshCoursesTableHeading
@@ -1924,7 +1926,9 @@ const routes = [
         feeSectionContent={IITBombayCollegeFeeSectionContent} feeSectionHeadingId={IITBombayCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IITBombayCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IITBombayInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IITBombayInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IITBombayHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IITBombayHostelFeesDataTableHeading}
         seatSectionContent={IITBombayCollegeSeatSectionContent} seatSectionHeadingId={IITBombayCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IITBombayCollegeNavigationConstants[6].title} seatSectionTableContent={IITBombaySeatDataTableConstant} seatSectionTableHeading={IITBombaySeatDataTableHeading}
         cutoffSectionContent={IITBombayCollegeCutOffSectionContent} cutoffSectionHeadingId={IITBombayCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IITBombayCollegeNavigationConstants[7].title}
-        placementSectionContent={IITBombayCollegePlacementSectionContent} placementSectionHeadingId={IITBombayCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITBombayCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITBombayPlacementImageList}>
+        placementSectionContent={IITBombayCollegePlacementSectionContent} placementSectionHeadingId={IITBombayCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITBombayCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITBombayPlacementImageList}
+        feeWaiverSectionContent={IITBombayCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId="someid" feeWaiverSectionHeadingName="Fee Waiver" 
+        >
 
         </IITGenericCollegePage>
 
@@ -1941,7 +1945,9 @@ const routes = [
             feeSectionContent={IITKharagpurCollegeFeeSectionContent} feeSectionHeadingId={IITKharagpurCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IITKharagpurCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IITKharagpurInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IITKharagpurInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IITKharagpurHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IITKharagpurHostelFeesDataTableHeading}
             seatSectionContent={IITKharagpurCollegeSeatSectionContent} seatSectionHeadingId={IITKharagpurCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IITKharagpurCollegeNavigationConstants[6].title} seatSectionTableContent={IITKharagpurSeatDataTableConstant} seatSectionTableHeading={IITKharagpurSeatDataTableHeading}
             cutoffSectionContent={IITKharagpurCollegeCutOffSectionContent} cutoffSectionHeadingId={IITKharagpurCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IITKharagpurCollegeNavigationConstants[7].title}
-            placementSectionContent={IITKharagpurCollegePlacementSectionContent} placementSectionHeadingId={IITKharagpurCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITKharagpurCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITKharagpurPlacementImageList}>
+            placementSectionContent={IITKharagpurCollegePlacementSectionContent} placementSectionHeadingId={IITKharagpurCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITKharagpurCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITKharagpurPlacementImageList}
+            feeWaiverSectionContent={IITBombayCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId="someid" feeWaiverSectionHeadingName="Fee Waiver" 
+            >
         </IITGenericCollegePage>
     },
     {
@@ -1956,7 +1962,9 @@ const routes = [
             feeSectionContent={IITMadrasCollegeFeeSectionContent} feeSectionHeadingId={IITMadrasCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IITMadrasCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IITMadrasInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IITMadrasInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IITMadrasHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IITMadrasHostelFeesDataTableHeading}
             seatSectionContent={IITMadrasCollegeSeatSectionContent} seatSectionHeadingId={IITMadrasCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IITMadrasCollegeNavigationConstants[6].title} seatSectionTableContent={IITMadrasSeatDataTableConstant} seatSectionTableHeading={IITMadrasSeatDataTableHeading}
             cutoffSectionContent={IITMadrasCollegeCutOffSectionContent} cutoffSectionHeadingId={IITMadrasCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IITMadrasCollegeNavigationConstants[7].title}
-            placementSectionContent={IITMadrasCollegePlacementSectionContent} placementSectionHeadingId={IITMadrasCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITMadrasCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITMadrasPlacementImageList}>
+            placementSectionContent={IITMadrasCollegePlacementSectionContent} placementSectionHeadingId={IITMadrasCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITMadrasCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITMadrasPlacementImageList}
+            feeWaiverSectionContent={IITBombayCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId="someid" feeWaiverSectionHeadingName="Fee Waiver" 
+            >
         </IITGenericCollegePage>
     },
     {
@@ -1971,7 +1979,9 @@ const routes = [
             feeSectionContent={IITKanpurCollegeFeeSectionContent} feeSectionHeadingId={IITKanpurCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IITKanpurCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IITKanpurInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IITKanpurInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IITKanpurHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IITKanpurHostelFeesDataTableHeading}
             seatSectionContent={IITKanpurCollegeSeatSectionContent} seatSectionHeadingId={IITKanpurCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IITKanpurCollegeNavigationConstants[6].title} seatSectionTableContent={IITKanpurSeatDataTableConstant} seatSectionTableHeading={IITKanpurSeatDataTableHeading}
             cutoffSectionContent={IITKanpurCollegeCutOffSectionContent} cutoffSectionHeadingId={IITKanpurCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IITKanpurCollegeNavigationConstants[7].title}
-            placementSectionContent={IITKanpurCollegePlacementSectionContent} placementSectionHeadingId={IITKanpurCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITKanpurCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITKanpurPlacementImageList}>
+            placementSectionContent={IITKanpurCollegePlacementSectionContent} placementSectionHeadingId={IITKanpurCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITKanpurCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITKanpurPlacementImageList}
+            feeWaiverSectionContent={IITBombayCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId="someid" feeWaiverSectionHeadingName="Fee Waiver" 
+            >
         </IITGenericCollegePage>
     },
 
@@ -1987,7 +1997,9 @@ const routes = [
             feeSectionContent={IITDelhiCollegeFeeSectionContent} feeSectionHeadingId={IITDelhiCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IITDelhiCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IITDelhiInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IITDelhiInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IITDelhiHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IITDelhiHostelFeesDataTableHeading}
             seatSectionContent={IITDelhiCollegeSeatSectionContent} seatSectionHeadingId={IITDelhiCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IITDelhiCollegeNavigationConstants[6].title} seatSectionTableContent={IITDelhiSeatDataTableConstant} seatSectionTableHeading={IITDelhiSeatDataTableHeading}
             cutoffSectionContent={IITDelhiCollegeCutOffSectionContent} cutoffSectionHeadingId={IITDelhiCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IITDelhiCollegeNavigationConstants[7].title}
-            placementSectionContent={IITDelhiCollegePlacementSectionContent} placementSectionHeadingId={IITDelhiCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITDelhiCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITDelhiPlacementImageList}>
+            placementSectionContent={IITDelhiCollegePlacementSectionContent} placementSectionHeadingId={IITDelhiCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITDelhiCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITDelhiPlacementImageList}
+            feeWaiverSectionContent={IITBombayCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId="someid" feeWaiverSectionHeadingName="Fee Waiver" 
+            >
         </IITGenericCollegePage>
     },
     {
@@ -2002,7 +2014,9 @@ const routes = [
             feeSectionContent={IITGuwahatiCollegeFeeSectionContent} feeSectionHeadingId={IITGuwahatiCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IITGuwahatiCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IITGuwahatiInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IITGuwahatiInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IITGuwahatiHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IITGuwahatiHostelFeesDataTableHeading}
             seatSectionContent={IITGuwahatiCollegeSeatSectionContent} seatSectionHeadingId={IITGuwahatiCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IITGuwahatiCollegeNavigationConstants[6].title} seatSectionTableContent={IITGuwahatiSeatDataTableConstant} seatSectionTableHeading={IITGuwahatiSeatDataTableHeading}
             cutoffSectionContent={IITGuwahatiCollegeCutOffSectionContent} cutoffSectionHeadingId={IITGuwahatiCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IITGuwahatiCollegeNavigationConstants[7].title}
-            placementSectionContent={IITGuwahatiCollegePlacementSectionContent} placementSectionHeadingId={IITGuwahatiCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITGuwahatiCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITGuwahatiPlacementImageList}>
+            placementSectionContent={IITGuwahatiCollegePlacementSectionContent} placementSectionHeadingId={IITGuwahatiCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITGuwahatiCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITGuwahatiPlacementImageList}
+            feeWaiverSectionContent={IITBombayCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId="someid" feeWaiverSectionHeadingName="Fee Waiver" 
+            >
         </IITGenericCollegePage>
     },
     {
@@ -2017,7 +2031,9 @@ const routes = [
             feeSectionContent={IITRoorkeeCollegeFeeSectionContent} feeSectionHeadingId={IITRoorkeeCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IITRoorkeeCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IITRoorkeeInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IITRoorkeeInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IITRoorkeeHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IITRoorkeeHostelFeesDataTableHeading}
             seatSectionContent={IITRoorkeeCollegeSeatSectionContent} seatSectionHeadingId={IITRoorkeeCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IITRoorkeeCollegeNavigationConstants[6].title} seatSectionTableContent={IITRoorkeeSeatDataTableConstant} seatSectionTableHeading={IITRoorkeeSeatDataTableHeading}
             cutoffSectionContent={IITRoorkeeCollegeCutOffSectionContent} cutoffSectionHeadingId={IITRoorkeeCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IITRoorkeeCollegeNavigationConstants[7].title}
-            placementSectionContent={IITRoorkeeCollegePlacementSectionContent} placementSectionHeadingId={IITRoorkeeCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITRoorkeeCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITRoorkeePlacementImageList}>
+            placementSectionContent={IITRoorkeeCollegePlacementSectionContent} placementSectionHeadingId={IITRoorkeeCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITRoorkeeCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITRoorkeePlacementImageList}
+            feeWaiverSectionContent={IITBombayCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId="someid" feeWaiverSectionHeadingName="Fee Waiver" 
+            >
         </IITGenericCollegePage>
     },
     {
@@ -2032,7 +2048,9 @@ const routes = [
             feeSectionContent={IITRoparCollegeFeeSectionContent} feeSectionHeadingId={IITRoparCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IITRoparCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IITRoparInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IITRoparInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IITRoparHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IITRoparHostelFeesDataTableHeading}
             seatSectionContent={IITRoparCollegeSeatSectionContent} seatSectionHeadingId={IITRoparCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IITRoparCollegeNavigationConstants[6].title} seatSectionTableContent={IITRoparSeatDataTableConstant} seatSectionTableHeading={IITRoparSeatDataTableHeading}
             cutoffSectionContent={IITRoparCollegeCutOffSectionContent} cutoffSectionHeadingId={IITRoparCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IITRoparCollegeNavigationConstants[7].title}
-            placementSectionContent={IITRoparCollegePlacementSectionContent} placementSectionHeadingId={IITRoparCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITRoparCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITRoparPlacementImageList}>
+            placementSectionContent={IITRoparCollegePlacementSectionContent} placementSectionHeadingId={IITRoparCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITRoparCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITRoparPlacementImageList}
+            feeWaiverSectionContent={IITBombayCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId="someid" feeWaiverSectionHeadingName="Fee Waiver" 
+            >
         </IITGenericCollegePage>
     },
     {
@@ -2047,7 +2065,9 @@ const routes = [
             feeSectionContent={IITBhubaneshwarCollegeFeeSectionContent} feeSectionHeadingId={IITBhubaneshwarCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IITBhubaneshwarCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IITBhubaneshwarInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IITBhubaneshwarInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IITBhubaneshwarHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IITBhubaneshwarHostelFeesDataTableHeading}
             seatSectionContent={IITBhubaneswarCollegeSeatSectionContent} seatSectionHeadingId={IITBhubaneshwarCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IITBhubaneshwarCollegeNavigationConstants[6].title} seatSectionTableContent={IITBhubaneshwarSeatDataTableConstant} seatSectionTableHeading={IITBhubaneshwarSeatDataTableHeading}
             cutoffSectionContent={IITBhubaneshwarCollegeCutOffSectionContent} cutoffSectionHeadingId={IITBhubaneshwarCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IITBhubaneshwarCollegeNavigationConstants[7].title}
-            placementSectionContent={IITBhubaneshwarCollegePlacementSectionContent} placementSectionHeadingId={IITBhubaneshwarCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITBhubaneshwarCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITBhubaneshwarPlacementImageList}>
+            placementSectionContent={IITBhubaneshwarCollegePlacementSectionContent} placementSectionHeadingId={IITBhubaneshwarCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITBhubaneshwarCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITBhubaneshwarPlacementImageList}
+            feeWaiverSectionContent={IITBombayCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId="someid" feeWaiverSectionHeadingName="Fee Waiver" 
+            >
         </IITGenericCollegePage>
     },
     {
@@ -2062,7 +2082,9 @@ const routes = [
             feeSectionContent={IITGandhinagarCollegeFeeSectionContent} feeSectionHeadingId={IITGandhinagarCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IITGandhinagarCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IITGandhinagarInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IITGandhinagarInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IITGandhinagarHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IITGandhinagarHostelFeesDataTableHeading}
             seatSectionContent={IITGandhinagarCollegeSeatSectionContent} seatSectionHeadingId={IITGandhinagarCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IITGandhinagarCollegeNavigationConstants[6].title} seatSectionTableContent={IITGandhinagarSeatDataTableConstant} seatSectionTableHeading={IITGandhinagarSeatDataTableHeading}
             cutoffSectionContent={IITGandhinagarCollegeCutOffSectionContent} cutoffSectionHeadingId={IITGandhinagarCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IITGandhinagarCollegeNavigationConstants[7].title}
-            placementSectionContent={IITGandhinagarCollegePlacementSectionContent} placementSectionHeadingId={IITGandhinagarCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITGandhinagarCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITGandhinagarPlacementImageList}>
+            placementSectionContent={IITGandhinagarCollegePlacementSectionContent} placementSectionHeadingId={IITGandhinagarCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITGandhinagarCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITGandhinagarPlacementImageList}
+            feeWaiverSectionContent={IITBombayCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId="someid" feeWaiverSectionHeadingName="Fee Waiver" 
+            >
         </IITGenericCollegePage>
     },
     {
@@ -2077,7 +2099,9 @@ const routes = [
             feeSectionContent={IITHyderabadCollegeFeeSectionContent} feeSectionHeadingId={IITHyderabadCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IITHyderabadCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IITHyderabadInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IITHyderabadInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IITHyderabadHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IITHyderabadHostelFeesDataTableHeading}
             seatSectionContent={IITHyderabadCollegeSeatSectionContent} seatSectionHeadingId={IITHyderabadCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IITHyderabadCollegeNavigationConstants[6].title} seatSectionTableContent={IITHyderabadSeatDataTableConstant} seatSectionTableHeading={IITHyderabadSeatDataTableHeading}
             cutoffSectionContent={IITHyderabadCollegeCutOffSectionContent} cutoffSectionHeadingId={IITHyderabadCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IITHyderabadCollegeNavigationConstants[7].title}
-            placementSectionContent={IITHyderabadCollegePlacementSectionContent} placementSectionHeadingId={IITHyderabadCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITHyderabadCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITHyderabadPlacementImageList}>
+            placementSectionContent={IITHyderabadCollegePlacementSectionContent} placementSectionHeadingId={IITHyderabadCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITHyderabadCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITHyderabadPlacementImageList}
+            feeWaiverSectionContent={IITBombayCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId="someid" feeWaiverSectionHeadingName="Fee Waiver" 
+            >
         </IITGenericCollegePage>
     },
     {
@@ -2092,7 +2116,9 @@ const routes = [
             feeSectionContent={IITJodhpurCollegeFeeSectionContent} feeSectionHeadingId={IITJodhpurCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IITJodhpurCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IITJodhpurInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IITJodhpurInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IITJodhpurHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IITJodhpurHostelFeesDataTableHeading}
             seatSectionContent={IITJodhpurCollegeSeatSectionContent} seatSectionHeadingId={IITJodhpurCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IITJodhpurCollegeNavigationConstants[6].title} seatSectionTableContent={IITJodhpurSeatDataTableConstant} seatSectionTableHeading={IITJodhpurSeatDataTableHeading}
             cutoffSectionContent={IITJodhpurCollegeCutOffSectionContent} cutoffSectionHeadingId={IITJodhpurCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IITJodhpurCollegeNavigationConstants[7].title}
-            placementSectionContent={IITJodhpurCollegePlacementSectionContent} placementSectionHeadingId={IITJodhpurCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITJodhpurCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITJodhpurPlacementImageList}>
+            placementSectionContent={IITJodhpurCollegePlacementSectionContent} placementSectionHeadingId={IITJodhpurCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITJodhpurCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITJodhpurPlacementImageList}
+            feeWaiverSectionContent={IITBombayCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId="someid" feeWaiverSectionHeadingName="Fee Waiver" 
+            >
         </IITGenericCollegePage>
     }
     ,
@@ -2108,7 +2134,9 @@ const routes = [
             feeSectionContent={IITPatnaCollegeFeeSectionContent} feeSectionHeadingId={IITPatnaCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IITPatnaCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IITPatnaInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IITPatnaInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IITPatnaHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IITPatnaHostelFeesDataTableHeading}
             seatSectionContent={IITPatnaCollegeSeatSectionContent} seatSectionHeadingId={IITPatnaCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IITPatnaCollegeNavigationConstants[6].title} seatSectionTableContent={IITPatnaSeatDataTableConstant} seatSectionTableHeading={IITPatnaSeatDataTableHeading}
             cutoffSectionContent={IITPatnaCollegeCutOffSectionContent} cutoffSectionHeadingId={IITPatnaCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IITPatnaCollegeNavigationConstants[7].title}
-            placementSectionContent={IITPatnaCollegePlacementSectionContent} placementSectionHeadingId={IITPatnaCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITPatnaCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITPatnaPlacementImageList}>
+            placementSectionContent={IITPatnaCollegePlacementSectionContent} placementSectionHeadingId={IITPatnaCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITPatnaCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITPatnaPlacementImageList}
+            feeWaiverSectionContent={IITBombayCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId="someid" feeWaiverSectionHeadingName="Fee Waiver" 
+            >
         </IITGenericCollegePage>
     },
     {
@@ -2123,7 +2151,9 @@ const routes = [
             feeSectionContent={IITIndoreCollegeFeeSectionContent} feeSectionHeadingId={IITIndoreCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IITIndoreCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IITIndoreInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IITIndoreInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IITIndoreHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IITIndoreHostelFeesDataTableHeading}
             seatSectionContent={IITIndoreCollegeSeatSectionContent} seatSectionHeadingId={IITIndoreCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IITIndoreCollegeNavigationConstants[6].title} seatSectionTableContent={IITIndoreSeatDataTableConstant} seatSectionTableHeading={IITIndoreSeatDataTableHeading}
             cutoffSectionContent={IITIndoreCollegeCutOffSectionContent} cutoffSectionHeadingId={IITIndoreCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IITIndoreCollegeNavigationConstants[7].title}
-            placementSectionContent={IITIndoreCollegePlacementSectionContent} placementSectionHeadingId={IITIndoreCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITIndoreCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITIndorePlacementImageList}>
+            placementSectionContent={IITIndoreCollegePlacementSectionContent} placementSectionHeadingId={IITIndoreCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITIndoreCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITIndorePlacementImageList}
+            feeWaiverSectionContent={IITBombayCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId="someid" feeWaiverSectionHeadingName="Fee Waiver" 
+            >
         </IITGenericCollegePage>
     },
     {
@@ -2138,7 +2168,9 @@ const routes = [
             feeSectionContent={IITMandiCollegeFeeSectionContent} feeSectionHeadingId={IITMandiCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IITMandiCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IITMandiInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IITMandiInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IITMandiHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IITMandiHostelFeesDataTableHeading}
             seatSectionContent={IITMandiCollegeSeatSectionContent} seatSectionHeadingId={IITMandiCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IITMandiCollegeNavigationConstants[6].title} seatSectionTableContent={IITMandiSeatDataTableConstant} seatSectionTableHeading={IITMandiSeatDataTableHeading}
             cutoffSectionContent={IITMandiCollegeCutOffSectionContent} cutoffSectionHeadingId={IITMandiCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IITMandiCollegeNavigationConstants[7].title}
-            placementSectionContent={IITMandiCollegePlacementSectionContent} placementSectionHeadingId={IITMandiCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITMandiCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITMandiPlacementImageList}>
+            placementSectionContent={IITMandiCollegePlacementSectionContent} placementSectionHeadingId={IITMandiCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITMandiCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITMandiPlacementImageList}
+            feeWaiverSectionContent={IITBombayCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId="someid" feeWaiverSectionHeadingName="Fee Waiver" 
+            >
         </IITGenericCollegePage>
     },
     {
@@ -2153,7 +2185,9 @@ const routes = [
             feeSectionContent={IITBHUCollegeFeeSectionContent} feeSectionHeadingId={IITBHUCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IITBHUCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IITBHUInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IITBHUInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IITBHUHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IITBHUHostelFeesDataTableHeading}
             seatSectionContent={IITBHUCollegeSeatSectionContent} seatSectionHeadingId={IITBHUCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IITBHUCollegeNavigationConstants[6].title} seatSectionTableContent={IITBHUSeatDataTableConstant} seatSectionTableHeading={IITBHUSeatDataTableHeading}
             cutoffSectionContent={IITBHUCollegeCutOffSectionContent} cutoffSectionHeadingId={IITBHUCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IITBHUCollegeNavigationConstants[7].title}
-            placementSectionContent={IITBHUCollegePlacementSectionContent} placementSectionHeadingId={IITBHUCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITBHUCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITBHUPlacementImageList}>
+            placementSectionContent={IITBHUCollegePlacementSectionContent} placementSectionHeadingId={IITBHUCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITBHUCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITBHUPlacementImageList}
+            feeWaiverSectionContent={IITBombayCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId="someid" feeWaiverSectionHeadingName="Fee Waiver" 
+            >
         </IITGenericCollegePage>
     },
     {
@@ -2168,7 +2202,9 @@ const routes = [
             feeSectionContent={IITPalakkadCollegeFeeSectionContent} feeSectionHeadingId={IITPalakkadCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IITPalakkadCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IITPalakkadInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IITPalakkadInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IITPalakkadHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IITPalakkadHostelFeesDataTableHeading}
             seatSectionContent={IITPalakkadCollegeSeatSectionContent} seatSectionHeadingId={IITPalakkadCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IITPalakkadCollegeNavigationConstants[6].title} seatSectionTableContent={IITPalakkadSeatDataTableConstant} seatSectionTableHeading={IITPalakkadSeatDataTableHeading}
             cutoffSectionContent={IITPalakkadCollegeCutOffSectionContent} cutoffSectionHeadingId={IITPalakkadCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IITPalakkadCollegeNavigationConstants[7].title}
-            placementSectionContent={IITPalakkadCollegePlacementSectionContent} placementSectionHeadingId={IITPalakkadCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITPalakkadCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITPalakkadPlacementImageList}>
+            placementSectionContent={IITPalakkadCollegePlacementSectionContent} placementSectionHeadingId={IITPalakkadCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITPalakkadCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITPalakkadPlacementImageList}
+            feeWaiverSectionContent={IITBombayCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId="someid" feeWaiverSectionHeadingName="Fee Waiver" 
+            >
         </IITGenericCollegePage>
     },
     {
@@ -2184,7 +2220,9 @@ const routes = [
             feeSectionContent={IITTirupatiCollegeFeeSectionContent} feeSectionHeadingId={IITTirupatiCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IITTirupatiCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IITTirupatiInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IITTirupatiInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IITTirupatiHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IITTirupatiHostelFeesDataTableHeading}
             seatSectionContent={IITTirupatiCollegeSeatSectionContent} seatSectionHeadingId={IITTirupatiCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IITTirupatiCollegeNavigationConstants[6].title} seatSectionTableContent={IITTirupatiSeatDataTableConstant} seatSectionTableHeading={IITTirupatiSeatDataTableHeading}
             cutoffSectionContent={IITTirupatiCollegeCutOffSectionContent} cutoffSectionHeadingId={IITTirupatiCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IITTirupatiCollegeNavigationConstants[7].title}
-            placementSectionContent={IITTirupatiCollegePlacementSectionContent} placementSectionHeadingId={IITTirupatiCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITTirupatiCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITTirupatiPlacementImageList}>
+            placementSectionContent={IITTirupatiCollegePlacementSectionContent} placementSectionHeadingId={IITTirupatiCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITTirupatiCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITTirupatiPlacementImageList}
+            feeWaiverSectionContent={IITBombayCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId="someid" feeWaiverSectionHeadingName="Fee Waiver" 
+            >
         </IITGenericCollegePage>
     },
     {
@@ -2199,7 +2237,9 @@ const routes = [
             feeSectionContent={IITDhanbadCollegeFeeSectionContent} feeSectionHeadingId={IITDhanbadCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IITDhanbadCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IITDhanbadInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IITDhanbadInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IITDhanbadHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IITDhanbadHostelFeesDataTableHeading}
             seatSectionContent={IITDhanbadCollegeSeatSectionContent} seatSectionHeadingId={IITDhanbadCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IITDhanbadCollegeNavigationConstants[6].title} seatSectionTableContent={IITDhanbadSeatDataTableConstant} seatSectionTableHeading={IITDhanbadSeatDataTableHeading}
             cutoffSectionContent={IITDhanbadCollegeCutOffSectionContent} cutoffSectionHeadingId={IITDhanbadCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IITDhanbadCollegeNavigationConstants[7].title}
-            placementSectionContent={IITDhanbadCollegePlacementSectionContent} placementSectionHeadingId={IITDhanbadCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITDhanbadCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITDhanbadPlacementImageList}>
+            placementSectionContent={IITDhanbadCollegePlacementSectionContent} placementSectionHeadingId={IITDhanbadCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITDhanbadCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITDhanbadPlacementImageList}
+            feeWaiverSectionContent={IITBombayCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId="someid" feeWaiverSectionHeadingName="Fee Waiver" 
+            >
         </IITGenericCollegePage>
     },
     {
@@ -2214,7 +2254,9 @@ const routes = [
             feeSectionContent={IITBhilaiCollegeFeeSectionContent} feeSectionHeadingId={IITBhilaiCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IITBhilaiCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IITBhilaiInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IITBhilaiInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IITBhilaiHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IITBhilaiHostelFeesDataTableHeading}
             seatSectionContent={IITBhilaiCollegeSeatSectionContent} seatSectionHeadingId={IITBhilaiCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IITBhilaiCollegeNavigationConstants[6].title} seatSectionTableContent={IITBhilaiSeatDataTableConstant} seatSectionTableHeading={IITBhilaiSeatDataTableHeading}
             cutoffSectionContent={IITBhilaiCollegeCutOffSectionContent} cutoffSectionHeadingId={IITBhilaiCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IITBhilaiCollegeNavigationConstants[7].title}
-            placementSectionContent={IITBhilaiCollegePlacementSectionContent} placementSectionHeadingId={IITBhilaiCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITBhilaiCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITBhilaiPlacementImageList}>
+            placementSectionContent={IITBhilaiCollegePlacementSectionContent} placementSectionHeadingId={IITBhilaiCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITBhilaiCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITBhilaiPlacementImageList}
+            feeWaiverSectionContent={IITBombayCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId="someid" feeWaiverSectionHeadingName="Fee Waiver" 
+            >
         </IITGenericCollegePage>
     },
     {
@@ -2229,7 +2271,9 @@ const routes = [
             feeSectionContent={IITDharwadCollegeFeeSectionContent} feeSectionHeadingId={IITDharwadCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IITDharwadCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IITDharwadInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IITDharwadInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IITDharwadHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IITDharwadHostelFeesDataTableHeading}
             seatSectionContent={IITDharwadCollegeSeatSectionContent} seatSectionHeadingId={IITDharwadCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IITDharwadCollegeNavigationConstants[6].title} seatSectionTableContent={IITDharwadSeatDataTableConstant} seatSectionTableHeading={IITDharwadSeatDataTableHeading}
             cutoffSectionContent={IITDharwadCollegeCutOffSectionContent} cutoffSectionHeadingId={IITDharwadCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IITDharwadCollegeNavigationConstants[7].title}
-            placementSectionContent={IITDharwadCollegePlacementSectionContent} placementSectionHeadingId={IITDharwadCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITDharwadCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITDharwadPlacementImageList}>
+            placementSectionContent={IITDharwadCollegePlacementSectionContent} placementSectionHeadingId={IITDharwadCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITDharwadCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITDharwadPlacementImageList}
+            feeWaiverSectionContent={IITBombayCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId="someid" feeWaiverSectionHeadingName="Fee Waiver" 
+            >
         </IITGenericCollegePage>
     },
     {
@@ -2244,7 +2288,9 @@ const routes = [
             feeSectionContent={IITJammuCollegeFeeSectionContent} feeSectionHeadingId={IITJammuCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IITJammuCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IITJammuInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IITJammuInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IITJammuHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IITJammuHostelFeesDataTableHeading}
             seatSectionContent={IITJammuCollegeSeatSectionContent} seatSectionHeadingId={IITJammuCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IITJammuCollegeNavigationConstants[6].title} seatSectionTableContent={IITJammuSeatDataTableConstant} seatSectionTableHeading={IITJammuSeatDataTableHeading}
             cutoffSectionContent={IITJammuCollegeCutOffSectionContent} cutoffSectionHeadingId={IITJammuCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IITJammuCollegeNavigationConstants[7].title}
-            placementSectionContent={IITJammuCollegePlacementSectionContent} placementSectionHeadingId={IITJammuCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITJammuCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITJammuPlacementImageList}>
+            placementSectionContent={IITJammuCollegePlacementSectionContent} placementSectionHeadingId={IITJammuCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITJammuCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITJammuPlacementImageList}
+            feeWaiverSectionContent={IITBombayCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId="someid" feeWaiverSectionHeadingName="Fee Waiver" 
+            >
         </IITGenericCollegePage>
     },
     {
@@ -2259,7 +2305,9 @@ const routes = [
             feeSectionContent={IITGoaCollegeFeeSectionContent} feeSectionHeadingId={IITGoaCollegeNavigationConstants[5].headingId} feeSectionHeadingName={IITGoaCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={IITGoaInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={IITGoaInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={IITGoaHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={IITGoaHostelFeesDataTableHeading}
             seatSectionContent={IITGoaCollegeSeatSectionContent} seatSectionHeadingId={IITGoaCollegeNavigationConstants[6].headingId} seatSectionHeadingName={IITGoaCollegeNavigationConstants[6].title} seatSectionTableContent={IITGoaSeatDataTableConstant} seatSectionTableHeading={IITGoaSeatDataTableHeading}
             cutoffSectionContent={IITGoaCollegeCutOffSectionContent} cutoffSectionHeadingId={IITGoaCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={IITGoaCollegeNavigationConstants[7].title}
-            placementSectionContent={IITGoaCollegePlacementSectionContent} placementSectionHeadingId={IITGoaCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITGoaCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITGoaPlacementImageList}>
+            placementSectionContent={IITGoaCollegePlacementSectionContent} placementSectionHeadingId={IITGoaCollegeNavigationConstants[8].headingId} placementSectionHeadingName={IITGoaCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={IITGoaPlacementImageList}
+            feeWaiverSectionContent={IITBombayCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId="someid" feeWaiverSectionHeadingName="Fee Waiver" 
+            >
         </IITGenericCollegePage>
     },
 
@@ -2292,8 +2340,8 @@ const routes = [
         feeSectionContent={NITWarangalCollegeFeeSectionContent} feeSectionHeadingId={NITWarangalCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITWarangalCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITWarangalInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITWarangalInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITWarangalHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITWarangalHostelFeesDataTableHeading}
         seatSectionContent={NITWarangalCollegeSeatSectionContent} seatSectionHeadingId={NITWarangalCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITWarangalCollegeNavigationConstants[6].title} seatSectionTableContent={NITWarangalSeatDataTableConstant} seatSectionTableHeading={NITWarangalSeatDataTableHeading}
         cutoffSectionContent={NITWarangalCollegeCutOffSectionContent} cutoffSectionHeadingId={NITWarangalCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITWarangalCollegeNavigationConstants[7].title}
-        placementSectionContent={NITWarangalCollegePlacementSectionContent} placementSectionHeadingId={NITWarangalCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITWarangalCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITWarangalPlacementImageList}>
-
+        placementSectionContent={NITWarangalCollegePlacementSectionContent} placementSectionHeadingId={NITWarangalCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITWarangalCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITWarangalPlacementImageList}
+        feeWaiverSectionContent={NITWarangalCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId={"someid"} feeWaiverSectionHeadingName="Fee Waiver">
         </NITGenericCollegePage>
 
     }, 
@@ -2311,7 +2359,9 @@ const routes = [
         feeSectionContent={NITBhopalCollegeFeeSectionContent} feeSectionHeadingId={NITBhopalCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITBhopalCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITBhopalInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITBhopalInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITBhopalHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITBhopalHostelFeesDataTableHeading}
         seatSectionContent={NITBhopalCollegeSeatSectionContent} seatSectionHeadingId={NITBhopalCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITBhopalCollegeNavigationConstants[6].title} seatSectionTableContent={NITBhopalSeatDataTableConstant} seatSectionTableHeading={NITBhopalSeatDataTableHeading}
         cutoffSectionContent={NITBhopalCollegeCutOffSectionContent} cutoffSectionHeadingId={NITBhopalCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITBhopalCollegeNavigationConstants[7].title}
-        placementSectionContent={NITBhopalCollegePlacementSectionContent} placementSectionHeadingId={NITBhopalCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITBhopalCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITBhopalPlacementImageList}>
+        placementSectionContent={NITBhopalCollegePlacementSectionContent} placementSectionHeadingId={NITBhopalCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITBhopalCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITBhopalPlacementImageList}
+        feeWaiverSectionContent={NITWarangalCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId={"someid"} feeWaiverSectionHeadingName="Fee Waiver"
+        >
         </NITGenericCollegePage>
     },
     {
@@ -2326,7 +2376,8 @@ const routes = [
         feeSectionContent={NITNagpurCollegeFeeSectionContent} feeSectionHeadingId={NITNagpurCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITNagpurCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITNagpurInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITNagpurInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITNagpurHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITNagpurHostelFeesDataTableHeading}
         seatSectionContent={NITNagpurCollegeSeatSectionContent} seatSectionHeadingId={NITNagpurCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITNagpurCollegeNavigationConstants[6].title} seatSectionTableContent={NITNagpurSeatDataTableConstant} seatSectionTableHeading={NITNagpurSeatDataTableHeading}
         cutoffSectionContent={NITNagpurCollegeCutOffSectionContent} cutoffSectionHeadingId={NITNagpurCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITNagpurCollegeNavigationConstants[7].title}
-        placementSectionContent={NITNagpurCollegePlacementSectionContent} placementSectionHeadingId={NITNagpurCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITNagpurCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITNagpurPlacementImageList}>
+        placementSectionContent={NITNagpurCollegePlacementSectionContent} placementSectionHeadingId={NITNagpurCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITNagpurCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITNagpurPlacementImageList}
+        feeWaiverSectionContent={NITWarangalCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId={"someid"} feeWaiverSectionHeadingName="Fee Waiver">
         </NITGenericCollegePage>
     },
     {
@@ -2341,7 +2392,9 @@ const routes = [
         feeSectionContent={NITDurgapurCollegeFeeSectionContent} feeSectionHeadingId={NITDurgapurCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITDurgapurCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITDurgapurInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITDurgapurInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITDurgapurHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITDurgapurHostelFeesDataTableHeading}
         seatSectionContent={NITDurgapurCollegeSeatSectionContent} seatSectionHeadingId={NITDurgapurCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITDurgapurCollegeNavigationConstants[6].title} seatSectionTableContent={NITDurgapurSeatDataTableConstant} seatSectionTableHeading={NITDurgapurSeatDataTableHeading}
         cutoffSectionContent={NITDurgapurCollegeCutOffSectionContent} cutoffSectionHeadingId={NITDurgapurCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITDurgapurCollegeNavigationConstants[7].title}
-        placementSectionContent={NITDurgapurCollegePlacementSectionContent} placementSectionHeadingId={NITDurgapurCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITDurgapurCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITDurgapurPlacementImageList}>
+        placementSectionContent={NITDurgapurCollegePlacementSectionContent} placementSectionHeadingId={NITDurgapurCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITDurgapurCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITDurgapurPlacementImageList}
+        feeWaiverSectionContent={NITWarangalCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId={"someid"} feeWaiverSectionHeadingName="Fee Waiver"
+        >
         </NITGenericCollegePage>
     },
     {
@@ -2356,7 +2409,9 @@ const routes = [
         feeSectionContent={NITJamshedpurCollegeFeeSectionContent} feeSectionHeadingId={NITJamshedpurCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITJamshedpurCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITJamshedpurInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITJamshedpurInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITJamshedpurHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITJamshedpurHostelFeesDataTableHeading}
         seatSectionContent={NITJamshedpurCollegeSeatSectionContent} seatSectionHeadingId={NITJamshedpurCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITJamshedpurCollegeNavigationConstants[6].title} seatSectionTableContent={NITJamshedpurSeatDataTableConstant} seatSectionTableHeading={NITJamshedpurSeatDataTableHeading}
         cutoffSectionContent={NITJamshedpurCollegeCutOffSectionContent} cutoffSectionHeadingId={NITJamshedpurCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITJamshedpurCollegeNavigationConstants[7].title}
-        placementSectionContent={NITJamshedpurCollegePlacementSectionContent} placementSectionHeadingId={NITJamshedpurCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITJamshedpurCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITJamshedpurPlacementImageList}>
+        placementSectionContent={NITJamshedpurCollegePlacementSectionContent} placementSectionHeadingId={NITJamshedpurCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITJamshedpurCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITJamshedpurPlacementImageList}
+        feeWaiverSectionContent={NITWarangalCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId={"someid"} feeWaiverSectionHeadingName="Fee Waiver"
+        >
         </NITGenericCollegePage>
     },
     {
@@ -2371,7 +2426,9 @@ const routes = [
         feeSectionContent={NITKarnatakaCollegeFeeSectionContent} feeSectionHeadingId={NITKarnatakaCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITKarnatakaCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITKarnatakaInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITKarnatakaInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITKarnatakaHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITKarnatakaHostelFeesDataTableHeading}
         seatSectionContent={NITKarnatakaCollegeSeatSectionContent} seatSectionHeadingId={NITKarnatakaCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITKarnatakaCollegeNavigationConstants[6].title} seatSectionTableContent={NITKarnatakaSeatDataTableConstant} seatSectionTableHeading={NITKarnatakaSeatDataTableHeading}
         cutoffSectionContent={NITKarnatakaCollegeCutOffSectionContent} cutoffSectionHeadingId={NITKarnatakaCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITKarnatakaCollegeNavigationConstants[7].title}
-        placementSectionContent={NITKarnatakaCollegePlacementSectionContent} placementSectionHeadingId={NITKarnatakaCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITKarnatakaCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITKarnatakaPlacementImageList}>
+        placementSectionContent={NITKarnatakaCollegePlacementSectionContent} placementSectionHeadingId={NITKarnatakaCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITKarnatakaCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITKarnatakaPlacementImageList}
+        feeWaiverSectionContent={NITWarangalCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId={"someid"} feeWaiverSectionHeadingName="Fee Waiver"
+        >
         </NITGenericCollegePage>
     },
     {
@@ -2386,7 +2443,9 @@ const routes = [
         feeSectionContent={NITSrinagarCollegeFeeSectionContent} feeSectionHeadingId={NITSrinagarCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITSrinagarCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITSrinagarInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITSrinagarInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITSrinagarHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITSrinagarHostelFeesDataTableHeading}
         seatSectionContent={NITSrinagarCollegeSeatSectionContent} seatSectionHeadingId={NITSrinagarCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITSrinagarCollegeNavigationConstants[6].title} seatSectionTableContent={NITSrinagarSeatDataTableConstant} seatSectionTableHeading={NITSrinagarSeatDataTableHeading}
         cutoffSectionContent={NITSrinagarCollegeCutOffSectionContent} cutoffSectionHeadingId={NITSrinagarCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITSrinagarCollegeNavigationConstants[7].title}
-        placementSectionContent={NITSrinagarCollegePlacementSectionContent} placementSectionHeadingId={NITSrinagarCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITSrinagarCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITSrinagarPlacementImageList}>
+        placementSectionContent={NITSrinagarCollegePlacementSectionContent} placementSectionHeadingId={NITSrinagarCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITSrinagarCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITSrinagarPlacementImageList}
+        feeWaiverSectionContent={NITWarangalCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId={"someid"} feeWaiverSectionHeadingName="Fee Waiver"
+        >
         </NITGenericCollegePage>
     },
     {
@@ -2401,7 +2460,9 @@ const routes = [
         feeSectionContent={NITAllahabadCollegeFeeSectionContent} feeSectionHeadingId={NITAllahabadCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITAllahabadCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITAllahabadInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITAllahabadInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITAllahabadHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITAllahabadHostelFeesDataTableHeading}
         seatSectionContent={NITAllahabadCollegeSeatSectionContent} seatSectionHeadingId={NITAllahabadCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITAllahabadCollegeNavigationConstants[6].title} seatSectionTableContent={NITAllahabadSeatDataTableConstant} seatSectionTableHeading={NITAllahabadSeatDataTableHeading}
         cutoffSectionContent={NITAllahabadCollegeCutOffSectionContent} cutoffSectionHeadingId={NITAllahabadCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITAllahabadCollegeNavigationConstants[7].title}
-        placementSectionContent={NITAllahabadCollegePlacementSectionContent} placementSectionHeadingId={NITAllahabadCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITAllahabadCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITAllahabadPlacementImageList}>
+        placementSectionContent={NITAllahabadCollegePlacementSectionContent} placementSectionHeadingId={NITAllahabadCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITAllahabadCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITAllahabadPlacementImageList}
+        feeWaiverSectionContent={NITWarangalCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId={"someid"} feeWaiverSectionHeadingName="Fee Waiver"
+        >
         </NITGenericCollegePage>
     },
     {
@@ -2416,7 +2477,9 @@ const routes = [
         feeSectionContent={NITSuratCollegeFeeSectionContent} feeSectionHeadingId={NITSuratCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITSuratCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITSuratInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITSuratInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITSuratHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITSuratHostelFeesDataTableHeading}
         seatSectionContent={NITSuratCollegeFeeSectionContent} seatSectionHeadingId={NITSuratCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITSuratCollegeNavigationConstants[6].title} seatSectionTableContent={NITSuratSeatDataTableConstant} seatSectionTableHeading={NITSuratSeatDataTableHeading}
         cutoffSectionContent={NITSuratCollegeCutOffSectionContent} cutoffSectionHeadingId={NITSuratCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITSuratCollegeNavigationConstants[7].title}
-        placementSectionContent={NITSuratCollegePlacementSectionContent} placementSectionHeadingId={NITSuratCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITSuratCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITSuratPlacementImageList}>
+        placementSectionContent={NITSuratCollegePlacementSectionContent} placementSectionHeadingId={NITSuratCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITSuratCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITSuratPlacementImageList}
+        feeWaiverSectionContent={NITWarangalCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId={"someid"} feeWaiverSectionHeadingName="Fee Waiver"
+        >
         </NITGenericCollegePage>
     }
 ,
@@ -2433,7 +2496,9 @@ const routes = [
         feeSectionContent={NITCalicutCollegeFeeSectionContent} feeSectionHeadingId={NITCalicutCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITCalicutCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITCalicutHostelFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITCalicutInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITCalicutHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITCalicutHostelFeesDataTableHeading}
         seatSectionContent={NITCalicutCollegeSeatSectionContent} seatSectionHeadingId={NITCalicutCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITCalicutCollegeNavigationConstants[6].title} seatSectionTableContent={NITCalicutSeatDataTableConstant} seatSectionTableHeading={NITCalicutSeatDataTableHeading}
         cutoffSectionContent={NITCalicutCollegeCutOffSectionContent} cutoffSectionHeadingId={NITCalicutCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITCalicutCollegeNavigationConstants[7].title}
-        placementSectionContent={NITCalicutCollegePlacementSectionContent} placementSectionHeadingId={NITCalicutCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITCalicutCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITCalicutPlacementImageList}>
+        placementSectionContent={NITCalicutCollegePlacementSectionContent} placementSectionHeadingId={NITCalicutCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITCalicutCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITCalicutPlacementImageList}
+        feeWaiverSectionContent={NITWarangalCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId={"someid"} feeWaiverSectionHeadingName="Fee Waiver"
+        >
         </NITGenericCollegePage>
     },
     {
@@ -2448,7 +2513,9 @@ const routes = [
         feeSectionContent={NITRourkelaCollegeFeeSectionContent} feeSectionHeadingId={NITRourkelaCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITRourkelaCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITRourkelaInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITRourkelaInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITRourkelaHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITRourkelaHostelFeesDataTableHeading}
         seatSectionContent={NITRourkelaCollegeSeatSectionContent} seatSectionHeadingId={NITRourkelaCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITRourkelaCollegeNavigationConstants[6].title} seatSectionTableContent={NITRourkelaSeatDataTableConstant} seatSectionTableHeading={NITRourkelaSeatDataTableHeading}
         cutoffSectionContent={NITRourkelaCollegeCutOffSectionContent} cutoffSectionHeadingId={NITRourkelaCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITRourkelaCollegeNavigationConstants[7].title}
-        placementSectionContent={NITRourkelaCollegePlacementSectionContent} placementSectionHeadingId={NITRourkelaCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITRourkelaCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITRourkelaPlacementImageList}>
+        placementSectionContent={NITRourkelaCollegePlacementSectionContent} placementSectionHeadingId={NITRourkelaCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITRourkelaCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITRourkelaPlacementImageList}
+        feeWaiverSectionContent={NITWarangalCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId={"someid"} feeWaiverSectionHeadingName="Fee Waiver"
+        >
         </NITGenericCollegePage>
     },
     {
@@ -2463,7 +2530,9 @@ const routes = [
         feeSectionContent={NITJaipurCollegeFeeSectionContent} feeSectionHeadingId={NITJaipurCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITJaipurCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITJaipurInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITJaipurInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITJaipurHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITBhopalHostelFeesDataTableHeading}
         seatSectionContent={NITJaipurCollegeSeatSectionContent} seatSectionHeadingId={NITJaipurCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITJaipurCollegeNavigationConstants[6].title} seatSectionTableContent={NITJaipurSeatDataTableConstant} seatSectionTableHeading={NITJaipurSeatDataTableHeading}
         cutoffSectionContent={NITJaipurCollegeCutOffSectionContent} cutoffSectionHeadingId={NITJaipurCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITJaipurCollegeNavigationConstants[7].title}
-        placementSectionContent={NITJaipurCollegePlacementSectionContent} placementSectionHeadingId={NITJaipurCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITJaipurCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITJaipurPlacementImageList}>
+        placementSectionContent={NITJaipurCollegePlacementSectionContent} placementSectionHeadingId={NITJaipurCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITJaipurCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITJaipurPlacementImageList}
+        feeWaiverSectionContent={NITWarangalCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId={"someid"} feeWaiverSectionHeadingName="Fee Waiver"
+        >
         </NITGenericCollegePage>
     }
 ,
@@ -2479,7 +2548,9 @@ const routes = [
         feeSectionContent={NITKurukshetraCollegeFeeSectionContent} feeSectionHeadingId={NITKurukshetraCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITKurukshetraCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITKurukshetraInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITKurukshetraInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITKurukshetraHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITKurukshetraHostelFeesDataTableHeading}
         seatSectionContent={NITKurukshetraCollegeSeatSectionContent} seatSectionHeadingId={NITKurukshetraCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITKurukshetraCollegeNavigationConstants[6].title} seatSectionTableContent={NITKurukshetraSeatDataTableConstant} seatSectionTableHeading={NITKurukshetraSeatDataTableHeading}
         cutoffSectionContent={NITKurukshetraCollegeCutOffSectionContent} cutoffSectionHeadingId={NITKurukshetraCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITKurukshetraCollegeNavigationConstants[7].title}
-        placementSectionContent={NITKurukshetraCollegePlacementSectionContent} placementSectionHeadingId={NITKurukshetraCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITKurukshetraCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITKurukshetraPlacementImageList}>
+        placementSectionContent={NITKurukshetraCollegePlacementSectionContent} placementSectionHeadingId={NITKurukshetraCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITKurukshetraCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITKurukshetraPlacementImageList}
+        feeWaiverSectionContent={NITWarangalCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId={"someid"} feeWaiverSectionHeadingName="Fee Waiver"
+        >
         </NITGenericCollegePage>
     },
     {
@@ -2494,7 +2565,9 @@ const routes = [
         feeSectionContent={NITTiruchirappalliCollegeFeeSectionContent} feeSectionHeadingId={NITTiruchirappalliCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITTiruchirappalliCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITTiruchirapalliInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITTiruchirapalliInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITTiruchirapalliHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITTiruchirapalliHostelFeesDataTableHeading}
         seatSectionContent={NITTiruchirappalliCollegeSeatSectionContent} seatSectionHeadingId={NITTiruchirappalliCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITTiruchirappalliCollegeNavigationConstants[6].title} seatSectionTableContent={NITTiruchirapalliSeatDataTableConstant} seatSectionTableHeading={NITTiruchirapalliSeatDataTableHeading}
         cutoffSectionContent={NITTiruchirappalliCollegeCutOffSectionContent} cutoffSectionHeadingId={NITTiruchirappalliCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITTiruchirappalliCollegeNavigationConstants[7].title}
-        placementSectionContent={NITTiruchirappalliCollegePlacementSectionContent} placementSectionHeadingId={NITTiruchirappalliCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITTiruchirappalliCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITTiruchirapalliPlacementImageList}>
+        placementSectionContent={NITTiruchirappalliCollegePlacementSectionContent} placementSectionHeadingId={NITTiruchirappalliCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITTiruchirappalliCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITTiruchirapalliPlacementImageList}
+        feeWaiverSectionContent={NITWarangalCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId={"someid"} feeWaiverSectionHeadingName="Fee Waiver"
+        >
         </NITGenericCollegePage>
     },
     {
@@ -2509,7 +2582,9 @@ const routes = [
         feeSectionContent={NITSilcharCollegeFeeSectionContent} feeSectionHeadingId={NITSilcharCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITSilcharCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITSilcharInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITSilcharInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITSilcharHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITSilcharHostelFeesDataTableHeading}
         seatSectionContent={NITSilcharCollegeSeatSectionContent} seatSectionHeadingId={NITSilcharCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITSilcharCollegeNavigationConstants[6].title} seatSectionTableContent={NITSilcharSeatDataTableConstant} seatSectionTableHeading={NITSilcharSeatDataTableHeading}
         cutoffSectionContent={NITSilcharCollegeCutOffSectionContent} cutoffSectionHeadingId={NITSilcharCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITSilcharCollegeNavigationConstants[7].title}
-        placementSectionContent={NITSilcharCollegePlacementSectionContent} placementSectionHeadingId={NITSilcharCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITSilcharCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITSilcharPlacementImageList}>
+        placementSectionContent={NITSilcharCollegePlacementSectionContent} placementSectionHeadingId={NITSilcharCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITSilcharCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITSilcharPlacementImageList}
+        feeWaiverSectionContent={NITWarangalCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId={"someid"} feeWaiverSectionHeadingName="Fee Waiver"
+        >
         </NITGenericCollegePage>
     },
     {
@@ -2524,7 +2599,9 @@ const routes = [
         feeSectionContent={NITHamirpurCollegeFeeSectionContent} feeSectionHeadingId={NITHamirpurCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITHamirpurCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITHamirpurInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITHamirpurInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITHamirpurHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITHamirpurHostelFeesDataTableHeading}
         seatSectionContent={NITHamirpurCollegeSeatSectionContent} seatSectionHeadingId={NITHamirpurCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITHamirpurCollegeNavigationConstants[6].title} seatSectionTableContent={NITHamirpurSeatDataTableConstant} seatSectionTableHeading={NITHamirpurSeatDataTableHeading}
         cutoffSectionContent={NITHamirpurCollegeCutOffSectionContent} cutoffSectionHeadingId={NITHamirpurCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITHamirpurCollegeNavigationConstants[7].title}
-        placementSectionContent={NITHamirpurCollegePlacementSectionContent} placementSectionHeadingId={NITHamirpurCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITHamirpurCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITHamirpurPlacementImageList}>
+        placementSectionContent={NITHamirpurCollegePlacementSectionContent} placementSectionHeadingId={NITHamirpurCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITHamirpurCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITHamirpurPlacementImageList}
+        feeWaiverSectionContent={NITWarangalCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId={"someid"} feeWaiverSectionHeadingName="Fee Waiver"
+        >
         </NITGenericCollegePage>
     }
 ,
@@ -2541,7 +2618,9 @@ const routes = [
         feeSectionContent={NITJalandharCollegeFeeSectionContent} feeSectionHeadingId={NITJalandharCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITJalandharCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITJalandharInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITJalandharInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITJalandharHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITJalandharHostelFeesDataTableHeading}
         seatSectionContent={NITJalandharCollegeSeatSectionContent} seatSectionHeadingId={NITJalandharCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITJalandharCollegeNavigationConstants[6].title} seatSectionTableContent={NITJalandharSeatDataTableConstant} seatSectionTableHeading={NITJalandharSeatDataTableHeading}
         cutoffSectionContent={NITJalandharCollegeCutOffSectionContent} cutoffSectionHeadingId={NITJalandharCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITJalandharCollegeNavigationConstants[7].title}
-        placementSectionContent={NITJalandharCollegePlacementSectionContent} placementSectionHeadingId={NITJalandharCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITJalandharCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITJalandharPlacementImageList}>
+        placementSectionContent={NITJalandharCollegePlacementSectionContent} placementSectionHeadingId={NITJalandharCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITJalandharCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITJalandharPlacementImageList}
+        feeWaiverSectionContent={NITWarangalCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId={"someid"} feeWaiverSectionHeadingName="Fee Waiver"
+        >
         </NITGenericCollegePage>
     },
     {
@@ -2556,7 +2635,9 @@ const routes = [
         feeSectionContent={NITPatnaCollegeFeeSectionContent} feeSectionHeadingId={NITPatnaCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITPatnaCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITPatnaInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITPatnaInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITPatnaHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITPatnaHostelFeesDataTableHeading}
         seatSectionContent={NITPatnaCollegeSeatSectionContent} seatSectionHeadingId={NITPatnaCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITPatnaCollegeNavigationConstants[6].title} seatSectionTableContent={NITPatnaSeatDataTableConstant} seatSectionTableHeading={NITPatnaSeatDataTableHeading}
         cutoffSectionContent={NITPatnaCollegeCutOffSectionContent} cutoffSectionHeadingId={NITPatnaCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITPatnaCollegeNavigationConstants[7].title}
-        placementSectionContent={NITPatnaCollegePlacementSectionContent} placementSectionHeadingId={NITPatnaCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITPatnaCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITPatnaPlacementImageList}>
+        placementSectionContent={NITPatnaCollegePlacementSectionContent} placementSectionHeadingId={NITPatnaCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITPatnaCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITPatnaPlacementImageList}
+        feeWaiverSectionContent={NITWarangalCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId={"someid"} feeWaiverSectionHeadingName="Fee Waiver"
+        >
         </NITGenericCollegePage>
     },
     {
@@ -2571,7 +2652,9 @@ const routes = [
         feeSectionContent={NITRaipurCollegeFeeSectionContent} feeSectionHeadingId={NITRaipurCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITRaipurCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITRaipurInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITRaipurInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITRaipurHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITRaipurHostelFeesDataTableHeading}
         seatSectionContent={NITRaipurCollegeSeatSectionContent} seatSectionHeadingId={NITRaipurCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITRaipurCollegeNavigationConstants[6].title} seatSectionTableContent={NITRaipurSeatDataTableConstant} seatSectionTableHeading={NITRaipurSeatDataTableHeading}
         cutoffSectionContent={NITRaipurCollegeCutOffSectionContent} cutoffSectionHeadingId={NITRaipurCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITRaipurCollegeNavigationConstants[7].title}
-        placementSectionContent={NITRaipurCollegePlacementSectionContent} placementSectionHeadingId={NITRaipurCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITRaipurCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITRaipurPlacementImageList}>
+        placementSectionContent={NITRaipurCollegePlacementSectionContent} placementSectionHeadingId={NITRaipurCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITRaipurCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITRaipurPlacementImageList}
+        feeWaiverSectionContent={NITWarangalCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId={"someid"} feeWaiverSectionHeadingName="Fee Waiver"
+        >
         </NITGenericCollegePage>
     },
     {
@@ -2586,7 +2669,9 @@ const routes = [
         feeSectionContent={NITAgartalaCollegeFeeSectionContent} feeSectionHeadingId={NITAgartalaCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITAgartalaCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITAgaratalaInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITAgaratalaInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITAgaratalaHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITAgaratalaHostelFeesDataTableHeading}
         seatSectionContent={NITAgartalaCollegeFeeSectionContent} seatSectionHeadingId={NITAgartalaCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITAgartalaCollegeNavigationConstants[6].title} seatSectionTableContent={NITAgaratalaSeatDataTableConstant} seatSectionTableHeading={NITAgaratalaSeatDataTableHeading}
         cutoffSectionContent={NITAgartalaCollegeCutOffSectionContent} cutoffSectionHeadingId={NITAgartalaCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITAgartalaCollegeNavigationConstants[7].title}
-        placementSectionContent={NITAgartalaCollegePlacementSectionContent} placementSectionHeadingId={NITAgartalaCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITAgartalaCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITAgaratalaPlacementImageList}>
+        placementSectionContent={NITAgartalaCollegePlacementSectionContent} placementSectionHeadingId={NITAgartalaCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITAgartalaCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITAgaratalaPlacementImageList}
+        feeWaiverSectionContent={NITWarangalCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId={"someid"} feeWaiverSectionHeadingName="Fee Waiver"
+        >
         </NITGenericCollegePage>
     }
 ,
@@ -2602,7 +2687,9 @@ const routes = [
         feeSectionContent={NITArunachalPradeshCollegeFeeSectionContent} feeSectionHeadingId={NITArunachalPradeshCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITArunachalPradeshCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITArunachalPradeshInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITArunachalPradeshInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITArunachalPradeshHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITArunachalPradeshHostelFeesDataTableHeading}
         seatSectionContent={NITArunachalPradeshCollegeFeeSectionContent} seatSectionHeadingId={NITArunachalPradeshCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITArunachalPradeshCollegeNavigationConstants[6].title} seatSectionTableContent={NITArunachalPradeshSeatDataTableConstant} seatSectionTableHeading={NITArunachalPradeshSeatDataTableHeading}
         cutoffSectionContent={NITArunachalPradeshCollegeCutOffSectionContent} cutoffSectionHeadingId={NITArunachalPradeshCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITArunachalPradeshCollegeNavigationConstants[7].title}
-        placementSectionContent={NITArunachalPradeshCollegePlacementSectionContent} placementSectionHeadingId={NITArunachalPradeshCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITArunachalPradeshCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITArunachalPradeshPlacementImageList}>
+        placementSectionContent={NITArunachalPradeshCollegePlacementSectionContent} placementSectionHeadingId={NITArunachalPradeshCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITArunachalPradeshCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITArunachalPradeshPlacementImageList}
+        feeWaiverSectionContent={NITWarangalCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId={"someid"} feeWaiverSectionHeadingName="Fee Waiver"
+        >
         </NITGenericCollegePage>
     },
     {
@@ -2617,7 +2704,9 @@ const routes = [
         feeSectionContent={NITDelhiCollegeFeeSectionContent} feeSectionHeadingId={NITDelhiCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITDelhiCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITDelhiInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITDelhiInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITDelhiHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITDelhiHostelFeesDataTableHeading}
         seatSectionContent={NITDelhiCollegeSeatSectionContent} seatSectionHeadingId={NITDelhiCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITDelhiCollegeNavigationConstants[6].title} seatSectionTableContent={NITDelhiSeatDataTableConstant} seatSectionTableHeading={NITDelhiSeatDataTableHeading}
         cutoffSectionContent={NITDelhiCollegeCutOffSectionContent} cutoffSectionHeadingId={NITDelhiCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITDelhiCollegeNavigationConstants[7].title}
-        placementSectionContent={NITDelhiCollegePlacementSectionContent} placementSectionHeadingId={NITDelhiCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITDelhiCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITDelhiPlacementImageList}>
+        placementSectionContent={NITDelhiCollegePlacementSectionContent} placementSectionHeadingId={NITDelhiCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITDelhiCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITDelhiPlacementImageList}
+        feeWaiverSectionContent={NITWarangalCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId={"someid"} feeWaiverSectionHeadingName="Fee Waiver"
+        >
         </NITGenericCollegePage>
     },
     {
@@ -2632,7 +2721,9 @@ const routes = [
         feeSectionContent={NITGoaCollegeFeeSectionContent} feeSectionHeadingId={NITGoaCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITGoaCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITGoaInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITGoaInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITGoaHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITGoaHostelFeesDataTableHeading}
         seatSectionContent={NITGoaCollegeSeatSectionContent} seatSectionHeadingId={NITGoaCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITGoaCollegeNavigationConstants[6].title} seatSectionTableContent={NITGoaSeatDataTableConstant} seatSectionTableHeading={NITGoaSeatDataTableHeading}
         cutoffSectionContent={NITGoaCollegeCutOffSectionContent} cutoffSectionHeadingId={NITGoaCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITGoaCollegeNavigationConstants[7].title}
-        placementSectionContent={NITGoaCollegePlacementSectionContent} placementSectionHeadingId={NITGoaCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITGoaCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITGoaPlacementImageList}>
+        placementSectionContent={NITGoaCollegePlacementSectionContent} placementSectionHeadingId={NITGoaCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITGoaCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITGoaPlacementImageList}
+        feeWaiverSectionContent={NITWarangalCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId={"someid"} feeWaiverSectionHeadingName="Fee Waiver"
+        >
         </NITGenericCollegePage>
     },
     {
@@ -2647,7 +2738,9 @@ const routes = [
         feeSectionContent={NITManipurCollegeFeeSectionContent} feeSectionHeadingId={NITManipurCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITManipurCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITManipurInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITManipurInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITManipurHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITManipurHostelFeesDataTableHeading}
         seatSectionContent={NITManipurCollegeSeatSectionContent} seatSectionHeadingId={NITManipurCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITManipurCollegeNavigationConstants[6].title} seatSectionTableContent={NITManipurSeatDataTableConstant} seatSectionTableHeading={NITManipurSeatDataTableHeading}
         cutoffSectionContent={NITManipurCollegeCutOffSectionContent} cutoffSectionHeadingId={NITManipurCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITManipurCollegeNavigationConstants[7].title}
-        placementSectionContent={NITManipurCollegePlacementSectionContent} placementSectionHeadingId={NITManipurCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITManipurCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITManipurPlacementImageList}>
+        placementSectionContent={NITManipurCollegePlacementSectionContent} placementSectionHeadingId={NITManipurCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITManipurCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITManipurPlacementImageList}
+        feeWaiverSectionContent={NITWarangalCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId={"someid"} feeWaiverSectionHeadingName="Fee Waiver"
+        >
         </NITGenericCollegePage>
     },
     {
@@ -2662,7 +2755,9 @@ const routes = [
         feeSectionContent={NITMeghalayaCollegeFeeSectionContent} feeSectionHeadingId={NITMeghalayaCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITMeghalayaCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITMeghalayaInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITMeghalayaInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITMeghalayaHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITMeghalayaHostelFeesDataTableHeading}
         seatSectionContent={NITMeghalayaCollegeSeatSectionContent} seatSectionHeadingId={NITMeghalayaCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITMeghalayaCollegeNavigationConstants[6].title} seatSectionTableContent={NITMeghalayaSeatDataTableConstant} seatSectionTableHeading={NITMeghalayaSeatDataTableHeading}
         cutoffSectionContent={NITMeghalayaCollegeCutOffSectionContent} cutoffSectionHeadingId={NITMeghalayaCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITMeghalayaCollegeNavigationConstants[7].title}
-        placementSectionContent={NITMeghalayaCollegePlacementSectionContent} placementSectionHeadingId={NITMeghalayaCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITMeghalayaCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITMeghalayaPlacementImageList}>
+        placementSectionContent={NITMeghalayaCollegePlacementSectionContent} placementSectionHeadingId={NITMeghalayaCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITMeghalayaCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITMeghalayaPlacementImageList}
+        feeWaiverSectionContent={NITWarangalCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId={"someid"} feeWaiverSectionHeadingName="Fee Waiver"
+        >
         </NITGenericCollegePage>
     }, 
 
@@ -2678,7 +2773,9 @@ const routes = [
         feeSectionContent={NITMizoramCollegeFeeSectionContent} feeSectionHeadingId={NITMizoramCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITMizoramCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITMizoramInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITMizoramInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITMizoramHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITMizoramHostelFeesDataTableHeading}
         seatSectionContent={NITMizoramCollegeSeatSectionContent} seatSectionHeadingId={NITMizoramCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITMizoramCollegeNavigationConstants[6].title} seatSectionTableContent={NITMizoramSeatDataTableConstant} seatSectionTableHeading={NITMizoramSeatDataTableHeading}
         cutoffSectionContent={NITMizoramCollegeCutOffSectionContent} cutoffSectionHeadingId={NITMizoramCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITMizoramCollegeNavigationConstants[7].title}
-        placementSectionContent={NITMizoramCollegePlacementSectionContent} placementSectionHeadingId={NITMizoramCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITMizoramCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITMizoramPlacementImageList}>
+        placementSectionContent={NITMizoramCollegePlacementSectionContent} placementSectionHeadingId={NITMizoramCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITMizoramCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITMizoramPlacementImageList}
+        feeWaiverSectionContent={NITWarangalCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId={"someid"} feeWaiverSectionHeadingName="Fee Waiver"
+        >
         </NITGenericCollegePage>
     },
     {
@@ -2693,7 +2790,9 @@ const routes = [
         feeSectionContent={NITNagalandCollegeFeeSectionContent} feeSectionHeadingId={NITNagalandCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITNagalandCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITNagalandInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITNagalandInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITNagalandHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITNagalandHostelFeesDataTableHeading}
         seatSectionContent={NITNagalandCollegeSeatSectionContent} seatSectionHeadingId={NITNagalandCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITNagalandCollegeNavigationConstants[6].title} seatSectionTableContent={NITNagalandSeatDataTableConstant} seatSectionTableHeading={NITNagalandSeatDataTableHeading}
         cutoffSectionContent={NITNagalandCollegeCutOffSectionContent} cutoffSectionHeadingId={NITNagalandCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITNagalandCollegeNavigationConstants[7].title}
-        placementSectionContent={NITNagalandCollegePlacementSectionContent} placementSectionHeadingId={NITNagalandCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITNagalandCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITNagalandPlacementImageList}>
+        placementSectionContent={NITNagalandCollegePlacementSectionContent} placementSectionHeadingId={NITNagalandCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITNagalandCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITNagalandPlacementImageList}
+        feeWaiverSectionContent={NITWarangalCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId={"someid"} feeWaiverSectionHeadingName="Fee Waiver"
+        >
         </NITGenericCollegePage>
     },
     {
@@ -2708,7 +2807,9 @@ const routes = [
         feeSectionContent={NITPuducherryCollegeFeeSectionContent} feeSectionHeadingId={NITPuducherryCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITPuducherryCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITPuducherryInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITPuducherryInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITPuducherryHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITPuducherryHostelFeesDataTableHeading}
         seatSectionContent={NITPuducherryCollegeSeatSectionContent} seatSectionHeadingId={NITPuducherryCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITPuducherryCollegeNavigationConstants[6].title} seatSectionTableContent={NITPuducherrySeatDataTableConstant} seatSectionTableHeading={NITPuducherrySeatDataTableHeading}
         cutoffSectionContent={NITPuducherryCollegeCutOffSectionContent} cutoffSectionHeadingId={NITPuducherryCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITPuducherryCollegeNavigationConstants[7].title}
-        placementSectionContent={NITPuducherryCollegePlacementSectionContent} placementSectionHeadingId={NITPuducherryCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITPuducherryCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITPuducherryPlacementImageList}>
+        placementSectionContent={NITPuducherryCollegePlacementSectionContent} placementSectionHeadingId={NITPuducherryCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITPuducherryCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITPuducherryPlacementImageList}
+        feeWaiverSectionContent={NITWarangalCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId={"someid"} feeWaiverSectionHeadingName="Fee Waiver"
+        >
         </NITGenericCollegePage>
     },
     {
@@ -2723,7 +2824,9 @@ const routes = [
         feeSectionContent={NITSikkimCollegeFeeSectionContent} feeSectionHeadingId={NITSikkimCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITSikkimCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITSikkimInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITSikkimInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITSikkimHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITSikkimHostelFeesDataTableHeading}
         seatSectionContent={NITSikkimCollegeSeatSectionContent} seatSectionHeadingId={NITSikkimCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITSikkimCollegeNavigationConstants[6].title} seatSectionTableContent={NITSikkimSeatDataTableConstant} seatSectionTableHeading={NITSikkimSeatDataTableHeading}
         cutoffSectionContent={NITSikkimCollegeCutOffSectionContent} cutoffSectionHeadingId={NITSikkimCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITSikkimCollegeNavigationConstants[7].title}
-        placementSectionContent={NITSikkimCollegePlacementSectionContent} placementSectionHeadingId={NITSikkimCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITSikkimCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITSikkimPlacementImageList}>
+        placementSectionContent={NITSikkimCollegePlacementSectionContent} placementSectionHeadingId={NITSikkimCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITSikkimCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITSikkimPlacementImageList}
+        feeWaiverSectionContent={NITWarangalCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId={"someid"} feeWaiverSectionHeadingName="Fee Waiver"
+        >
         </NITGenericCollegePage>
     }, 
 
@@ -2739,7 +2842,9 @@ const routes = [
         feeSectionContent={NITUttarakhandCollegeFeeSectionContent} feeSectionHeadingId={NITUttarakhandCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITUttarakhandCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITUttarakhandInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITUttarakhandInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITUttarakhandHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITUttarakhandHostelFeesDataTableHeading}
         seatSectionContent={NITUttarakhandCollegeSeatSectionContent} seatSectionHeadingId={NITUttarakhandCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITUttarakhandCollegeNavigationConstants[6].title} seatSectionTableContent={NITUttarakhandSeatDataTableConstant} seatSectionTableHeading={NITUttarakhandSeatDataTableHeading}
         cutoffSectionContent={NITUttarakhandCollegeCutOffSectionContent} cutoffSectionHeadingId={NITUttarakhandCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITUttarakhandCollegeNavigationConstants[7].title}
-        placementSectionContent={NITUttarakhandCollegePlacementSectionContent} placementSectionHeadingId={NITUttarakhandCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITUttarakhandCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITUttarakhandPlacementImageList}>
+        placementSectionContent={NITUttarakhandCollegePlacementSectionContent} placementSectionHeadingId={NITUttarakhandCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITUttarakhandCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITUttarakhandPlacementImageList}
+        feeWaiverSectionContent={NITWarangalCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId={"someid"} feeWaiverSectionHeadingName="Fee Waiver"
+        >
         </NITGenericCollegePage>
     },
     {
@@ -2754,7 +2859,9 @@ const routes = [
             feeSectionContent={NITAndhraPradeshCollegeFeeSectionContent} feeSectionHeadingId={NITAndhraPradeshCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITAndhraPradeshCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITAndhraPradeshInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITAndhraPradeshInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITAndhraPradeshHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITAndhraPradeshHostelFeesDataTableHeading}
             seatSectionContent={NITAndhraPradeshCollegeSeatSectionContent} seatSectionHeadingId={NITAndhraPradeshCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITAndhraPradeshCollegeNavigationConstants[6].title} seatSectionTableContent={NITAndhraPradeshSeatDataTableConstant} seatSectionTableHeading={NITAndhraPradeshSeatDataTableHeading}
             cutoffSectionContent={NITAndhraPradeshCollegeCutOffSectionContent} cutoffSectionHeadingId={NITAndhraPradeshCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITAndhraPradeshCollegeNavigationConstants[7].title}
-            placementSectionContent={NITAndhraPradeshCollegePlacementSectionContent} placementSectionHeadingId={NITAndhraPradeshCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITAndhraPradeshCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITAndhraPradeshPlacementImageList}>
+            placementSectionContent={NITAndhraPradeshCollegePlacementSectionContent} placementSectionHeadingId={NITAndhraPradeshCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITAndhraPradeshCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITAndhraPradeshPlacementImageList}
+            feeWaiverSectionContent={NITWarangalCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId={"someid"} feeWaiverSectionHeadingName="Fee Waiver"
+            >
         </NITGenericCollegePage>
     },
     {
@@ -2769,7 +2876,9 @@ const routes = [
         feeSectionContent={NITShibpurCollegeFeeSectionContent} feeSectionHeadingId={NITShibpurCollegeNavigationConstants[5].headingId} feeSectionHeadingName={NITShibpurCollegeNavigationConstants[5].title} feeSectionInstituteFeeTableContent={NITShibpurInstituteFeesDataTableConstant} feeSectionInstituteFeeTableHeading={NITShibpurInstituteFeesDataTableHeading} feeSectionHostelFeeTableContent={NITShibpurHostelFeesDataTableConstant} feeSectionHostelFeeTableHeading={NITShibpurHostelFeesDataTableHeading}
         seatSectionContent={NITShibpurCollegeSeatSectionContent} seatSectionHeadingId={NITShibpurCollegeNavigationConstants[6].headingId} seatSectionHeadingName={NITShibpurCollegeNavigationConstants[6].title} seatSectionTableContent={NITShibpurSeatDataTableConstant} seatSectionTableHeading={NITShibpurSeatDataTableHeading}
         cutoffSectionContent={NITShibpurCollegeCutOffSectionContent} cutoffSectionHeadingId={NITShibpurCollegeNavigationConstants[7].headingId} cutoffSectionHeadingName={NITShibpurCollegeNavigationConstants[7].title}
-        placementSectionContent={NITShibpurCollegePlacementSectionContent} placementSectionHeadingId={NITShibpurCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITShibpurCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITShibpurPlacementImageList}>
+        placementSectionContent={NITShibpurCollegePlacementSectionContent} placementSectionHeadingId={NITShibpurCollegeNavigationConstants[8].headingId} placementSectionHeadingName={NITShibpurCollegeNavigationConstants[8].title} collegePlacementDataConstant={[]} placementImageList={NITShibpurPlacementImageList}
+        feeWaiverSectionContent={NITWarangalCollegeFeeWaiverSectionContent} feeWaiverSectionHeadingId={"someid"} feeWaiverSectionHeadingName="Fee Waiver"
+        >
         </NITGenericCollegePage>
     }
 

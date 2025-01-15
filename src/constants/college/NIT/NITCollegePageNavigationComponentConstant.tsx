@@ -53,6 +53,10 @@ export const NITWarangalCollegeCutOffSectionContent : string =""
 export const NITWarangalCollegeLocationSectionContent : string =""
 export const NITWarangalCollegeRankingSectionContent : string =""
 export const NITWarangalCollegeSeatSectionContent : string =""
+export const NITWarangalCollegeFeeWaiverSectionContent : string = `• 100% Tuition Fee waiver for SC/ST/PH students.
+• Full remission of the Tuition Fee for General and OBC students whose family income is less than Rs.1 lakh per annum.
+• Remission of 2/3rd of the Tuition Fee for General and OBC students whose family income is between Rs.1 lakh to Rs.5 lakh per annum.
+`
 
 export const NITBhopalCollegeNavigationConstants : Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-bhopal-about" },
@@ -78,6 +82,11 @@ export const NITBhopalCollegeCutOffSectionContent : string =""
 export const NITBhopalCollegeLocationSectionContent : string =""
 export const NITBhopalCollegeRankingSectionContent : string =""
 export const NITBhopalCollegeSeatSectionContent : string =""
+export const NITBhopalCollegeFeeWaiverSectionContent : string = ""
+
+
+
+
 
 export const NITNagpurCollegeNavigationConstants : Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-nagpur-about" },
@@ -103,6 +112,7 @@ export const NITNagpurCollegeCutOffSectionContent : string =""
 export const NITNagpurCollegeLocationSectionContent : string =""
 export const NITNagpurCollegeRankingSectionContent : string =""
 export const NITNagpurCollegeSeatSectionContent : string =""
+export const NITNagpurCollegeFeeWaiverSectionContent : string = ""
 
 export const NITDurgapurCollegeNavigationConstants : Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-durgapur-about" },
@@ -128,6 +138,7 @@ export const NITDurgapurCollegeCutOffSectionContent : string =""
 export const NITDurgapurCollegeLocationSectionContent : string =""
 export const NITDurgapurCollegeRankingSectionContent : string =""
 export const NITDurgapurCollegeSeatSectionContent : string =""
+export const NITDurgapurCollegeFeeWaiverSectionContent : string = ""
 
 export const NITJamshedpurCollegeNavigationConstants : Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-jamshedpur-about" },
@@ -153,6 +164,7 @@ export const NITJamshedpurCollegeCutOffSectionContent : string =""
 export const NITJamshedpurCollegeLocationSectionContent : string =""
 export const NITJamshedpurCollegeRankingSectionContent : string =""
 export const NITJamshedpurCollegeSeatSectionContent : string =""
+export const NITJamshedpurCollegeFeeWaiverSectionContent : string = ""
 
 
 export const NITKarnatakaCollegeNavigationConstants : Array<INITCollegeNavigationConstants> = [
@@ -179,6 +191,7 @@ export const NITKarnatakaCollegeCutOffSectionContent : string =""
 export const NITKarnatakaCollegeLocationSectionContent : string =""
 export const NITKarnatakaCollegeRankingSectionContent : string =""
 export const NITKarnatakaCollegeSeatSectionContent : string =""
+export const NITKarnatakaCollegeFeeWaiverSectionContent : string = ""
 
 export const NITSrinagarCollegeNavigationConstants : Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-srinagar-about" },
@@ -204,6 +217,7 @@ export const NITSrinagarCollegeCutOffSectionContent : string =""
 export const NITSrinagarCollegeLocationSectionContent : string =""
 export const NITSrinagarCollegeRankingSectionContent : string =""
 export const NITSrinagarCollegeSeatSectionContent : string =""
+export const NITSrinagarCollegeFeeWaiverSectionContent : string = ""
 
 export const NITAllahabadCollegeNavigationConstants : Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-allahabad-about" },
@@ -229,6 +243,7 @@ export const NITAllahabadCollegeCutOffSectionContent : string =""
 export const NITAllahabadCollegeLocationSectionContent : string =""
 export const NITAllahabadCollegeRankingSectionContent : string =""
 export const NITAllahabadCollegeSeatSectionContent : string =""
+export const NITAllahabadCollegeFeeWaiverSectionContent : string = ""
 
 export const NITSuratCollegeNavigationConstants : Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-surat-about" },
@@ -253,6 +268,7 @@ export const NITSuratCollegePlacementSectionContent : string =""
 export const NITSuratCollegeCutOffSectionContent : string =""
 export const NITSuratCollegeLocationSectionContent : string =""
 export const NITSuratCollegeRankingSectionContent : string =""
+export const NITSuratCollegeSeatSectionContent : string =""
 
 export const NITCalicutCollegeNavigationConstants : Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-calicut-about" },
@@ -278,6 +294,7 @@ export const NITCalicutCollegeCutOffSectionContent : string =""
 export const NITCalicutCollegeLocationSectionContent : string =""
 export const NITCalicutCollegeRankingSectionContent : string =""
 export const NITCalicutCollegeSeatSectionContent : string =""
+export const NITCalicutCollegeFeeWaiverSectionContent : string = ""
 
 export const NITRourkelaCollegeNavigationConstants : Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-rourkela-about" },
@@ -303,6 +320,7 @@ export const NITRourkelaCollegeCutOffSectionContent : string =""
 export const NITRourkelaCollegeLocationSectionContent : string =""
 export const NITRourkelaCollegeRankingSectionContent : string =""
 export const NITRourkelaCollegeSeatSectionContent : string =""
+export const NITRourkelaCollegeFeeWaiverSectionContent : string = ""
 
 export const NITJaipurCollegeNavigationConstants : Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-jaipur-about" },
@@ -328,6 +346,7 @@ export const NITJaipurCollegeCutOffSectionContent : string =""
 export const NITJaipurCollegeLocationSectionContent : string =""
 export const NITJaipurCollegeRankingSectionContent : string =""
 export const NITJaipurCollegeSeatSectionContent : string =""
+export const NITJaipurCollegeFeeWaiverSectionContent : string = ""
 
 export const NITKurukshetraCollegeNavigationConstants : Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-kurukshetra-about" },
@@ -353,6 +372,7 @@ export const NITKurukshetraCollegeCutOffSectionContent : string =""
 export const NITKurukshetraCollegeLocationSectionContent : string =""
 export const NITKurukshetraCollegeRankingSectionContent : string =""
 export const NITKurukshetraCollegeSeatSectionContent : string =""
+export const NITKurukshetraCollegeFeeWaiverSectionContent : string = ""
 
 export const NITTiruchirappalliCollegeNavigationConstants : Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-tiruchirappalli-about" },
@@ -378,6 +398,7 @@ export const NITTiruchirappalliCollegeCutOffSectionContent : string =""
 export const NITTiruchirappalliCollegeLocationSectionContent : string =""
 export const NITTiruchirappalliCollegeRankingSectionContent : string =""
 export const NITTiruchirappalliCollegeSeatSectionContent : string =""
+export const NITTiruchirappalliCollegeFeeWaiverSectionContent : string = ""
 
 
 export const NITSilcharCollegeNavigationConstants : Array<INITCollegeNavigationConstants> = [
@@ -404,6 +425,7 @@ export const NITSilcharCollegeCutOffSectionContent : string =""
 export const NITSilcharCollegeLocationSectionContent : string =""
 export const NITSilcharCollegeRankingSectionContent : string =""
 export const NITSilcharCollegeSeatSectionContent : string =""
+export const NITSilcharCollegeFeeWaiverSectionContent : string = ""
 
 
 export const NITHamirpurCollegeNavigationConstants : Array<INITCollegeNavigationConstants> = [
@@ -430,6 +452,7 @@ export const NITHamirpurCollegeCutOffSectionContent : string =""
 export const NITHamirpurCollegeLocationSectionContent : string =""
 export const NITHamirpurCollegeRankingSectionContent : string =""
 export const NITHamirpurCollegeSeatSectionContent : string =""
+export const NITHamirpurCollegeFeeWaiverSectionContent : string = ""
 
 export const NITJalandharCollegeNavigationConstants : Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-jalandhar-about" },
@@ -455,6 +478,7 @@ export const NITJalandharCollegeCutOffSectionContent : string =""
 export const NITJalandharCollegeLocationSectionContent : string =""
 export const NITJalandharCollegeRankingSectionContent : string =""
 export const NITJalandharCollegeSeatSectionContent : string =""
+export const NITJalandharCollegeFeeWaiverSectionContent : string = ""
 
 export const NITPatnaCollegeNavigationConstants : Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-patna-about" },
@@ -480,6 +504,7 @@ export const NITPatnaCollegeCutOffSectionContent : string =""
 export const NITPatnaCollegeLocationSectionContent : string =""
 export const NITPatnaCollegeRankingSectionContent : string =""
 export const NITPatnaCollegeSeatSectionContent : string =""
+export const NITPatnaCollegeFeeWaiverSectionContent : string = ""
 
 export const NITRaipurCollegeNavigationConstants : Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-raipur-about" },
@@ -505,6 +530,7 @@ export const NITRaipurCollegeCutOffSectionContent : string =""
 export const NITRaipurCollegeLocationSectionContent : string =""
 export const NITRaipurCollegeRankingSectionContent : string =""
 export const NITRaipurCollegeSeatSectionContent : string =""
+export const NITRaipurCollegeFeeWaiverSectionContent : string = ""
 
 export const NITAgartalaCollegeNavigationConstants : Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-agartala-about" },
@@ -529,6 +555,7 @@ export const NITAgartalaCollegePlacementSectionContent : string =""
 export const NITAgartalaCollegeCutOffSectionContent : string =""
 export const NITAgartalaCollegeLocationSectionContent : string =""
 export const NITAgartalaCollegeRankingSectionContent : string =""
+export const NITAgartalaCollegeSeatSectionContent : string =""
 
 export const NITArunachalPradeshCollegeNavigationConstants: Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-arunachal-pradesh-about" },
@@ -553,6 +580,7 @@ export const NITArunachalPradeshCollegePlacementSectionContent: string =""
 export const NITArunachalPradeshCollegeCutOffSectionContent: string =""
 export const NITArunachalPradeshCollegeLocationSectionContent: string =""
 export const NITArunachalPradeshCollegeRankingSectionContent: string =""
+export const NITArunachalPradeshCollegeSeatSectionContent: string =""
 
 export const NITDelhiCollegeNavigationConstants: Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-delhi-about" },
@@ -578,6 +606,7 @@ export const NITDelhiCollegeCutOffSectionContent: string =""
 export const NITDelhiCollegeLocationSectionContent: string =""
 export const NITDelhiCollegeRankingSectionContent: string =""
 export const NITDelhiCollegeSeatSectionContent: string =""
+export const NITDelhiCollegeFeeWaiverSectionContent: string = ""
 
 export const NITGoaCollegeNavigationConstants: Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-goa-about" },
@@ -603,6 +632,7 @@ export const NITGoaCollegeCutOffSectionContent: string =""
 export const NITGoaCollegeLocationSectionContent: string =""
 export const NITGoaCollegeRankingSectionContent: string =""
 export const NITGoaCollegeSeatSectionContent: string =""
+export const NITGoaCollegeFeeWaiverSectionContent: string = ""
 
 export const NITManipurCollegeNavigationConstants: Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-manipur-about" },
@@ -628,6 +658,7 @@ export const NITManipurCollegeCutOffSectionContent: string =""
 export const NITManipurCollegeLocationSectionContent: string =""
 export const NITManipurCollegeRankingSectionContent: string =""
 export const NITManipurCollegeSeatSectionContent: string =""
+export const NITManipurCollegeFeeWaiverSectionContent: string = ""
 
 export const NITMeghalayaCollegeNavigationConstants: Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-meghalaya-about" },
@@ -653,6 +684,7 @@ export const NITMeghalayaCollegeCutOffSectionContent: string =""
 export const NITMeghalayaCollegeLocationSectionContent: string =""
 export const NITMeghalayaCollegeRankingSectionContent: string =""
 export const NITMeghalayaCollegeSeatSectionContent: string =""
+export const NITMeghalayaCollegeFeeWaiverSectionContent: string = ""
 
 export const NITMizoramCollegeNavigationConstants: Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-mizoram-about" },
@@ -678,6 +710,7 @@ export const NITMizoramCollegeCutOffSectionContent: string =""
 export const NITMizoramCollegeLocationSectionContent: string =""
 export const NITMizoramCollegeRankingSectionContent: string =""
 export const NITMizoramCollegeSeatSectionContent: string =""
+export const NITMizoramCollegeFeeWaiverSectionContent: string = ""
 
 export const NITNagalandCollegeNavigationConstants: Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-nagaland-about" },
@@ -703,6 +736,7 @@ export const NITNagalandCollegeCutOffSectionContent: string =""
 export const NITNagalandCollegeLocationSectionContent: string =""
 export const NITNagalandCollegeRankingSectionContent: string =""
 export const NITNagalandCollegeSeatSectionContent: string =""
+export const NITNagalandCollegeFeeWaiverSectionContent: string = ""
 
 export const NITPuducherryCollegeNavigationConstants: Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-puducherry-about" },
@@ -728,6 +762,7 @@ export const NITPuducherryCollegeCutOffSectionContent: string =""
 export const NITPuducherryCollegeLocationSectionContent: string =""
 export const NITPuducherryCollegeRankingSectionContent: string =""
 export const NITPuducherryCollegeSeatSectionContent: string =""
+export const NITPuducherryCollegeFeeWaiverSectionContent: string = ""
 
 export const NITSikkimCollegeNavigationConstants: Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-sikkim-about" },
@@ -753,6 +788,7 @@ export const NITSikkimCollegeCutOffSectionContent: string =""
 export const NITSikkimCollegeLocationSectionContent: string =""
 export const NITSikkimCollegeRankingSectionContent: string =""
 export const NITSikkimCollegeSeatSectionContent: string =""
+export const NITSikkimCollegeFeeWaiverSectionContent: string = ""
 
 
 export const NITUttarakhandCollegeNavigationConstants: Array<INITCollegeNavigationConstants> = [
@@ -779,6 +815,7 @@ export const NITUttarakhandCollegeCutOffSectionContent: string =""
 export const NITUttarakhandCollegeLocationSectionContent: string =""
 export const NITUttarakhandCollegeRankingSectionContent: string =""
 export const NITUttarakhandCollegeSeatSectionContent: string =""
+export const NITUttarakhandCollegeFeeWaiverSectionContent: string = ""
 
 export const NITAndhraPradeshCollegeNavigationConstants: Array<INITCollegeNavigationConstants> = [
     { title: "About", headingId: "#nit-andhra-pradesh-about" },
@@ -804,6 +841,7 @@ export const NITAndhraPradeshCollegeCutOffSectionContent: string =""
 export const NITAndhraPradeshCollegeLocationSectionContent: string =""
 export const NITAndhraPradeshCollegeRankingSectionContent: string =""
 export const NITAndhraPradeshCollegeSeatSectionContent: string =""
+export const NITAndhraPradeshCollegeFeeWaiverSectionContent: string = ""
 
 
 export const NITShibpurCollegeNavigationConstants: Array<INITCollegeNavigationConstants> = [
@@ -830,6 +868,7 @@ export const NITShibpurCollegeCutOffSectionContent: string =""
 export const NITShibpurCollegeLocationSectionContent: string =""
 export const NITShibpurCollegeRankingSectionContent: string =""
 export const NITShibpurCollegeSeatSectionContent: string =""
+export const NITShibpurCollegeFeeWaiverSectionContent: string = ""
 
 
 
