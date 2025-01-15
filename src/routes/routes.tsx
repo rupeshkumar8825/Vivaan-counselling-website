@@ -55,6 +55,42 @@ import IITRoorkeeCollegeImage from "../assets/images/IIT/iit-roorkie.png";
 import IITTirupatiCollegeImage from "../assets/images/IIT/iit-tirupati.png";
 import IITGuwahatiCollegeImage from "../assets/images/IIT/iit-dhanbad.png"
 
+import NITWarangalCollegeImage from "../assets/images/NIT/banner/NIT WARANGAL.jpeg";
+import NITBhopalCollegeImage from "../assets/images/NIT/banner/NIT BHOPAL.jpeg";
+import NITNagpurCollegeImage from "../assets/images/NIT/banner/nagpur.jpeg";
+import NITDurgapurCollegeImage from "../assets/images/NIT/banner/durgapur.jpeg";
+import NITJamshedpurCollegeImage from "../assets/images/NIT/banner/jamshedpur.jpeg";
+import NITKarnatakaCollegeImage from "../assets/images/NIT/banner/surathkal.jpeg";
+import NITSrinagarCollegeImage from "../assets/images/NIT/banner/srinagar.jpeg";
+import NITAllahabadCollegeImage from "../assets/images/NIT/banner/NIT ALLAHABAD.jpeg";
+import NITSuratCollegeImage from "../assets/images/NIT/banner/surat.jpeg";
+import NITCalicutCollegeImage from "../assets/images/NIT/banner/CALICUT.jpeg";
+import NITRourkelaCollegeImage from "../assets/images/NIT/banner/rourkela.jpeg";
+import NITJaipurCollegeImage from "../assets/images/NIT/banner/NIT JAIPUR.jpeg";
+import NITKurukshetraCollegeImage from "../assets/images/NIT/banner/KURUKSHETRA.jpeg";
+import NITTiruchirappalliCollegeImage from "../assets/images/NIT/banner/trichy.jpeg";
+import NITSilcharCollegeImage from "../assets/images/NIT/banner/SILCHAR.jpeg";
+import NITHamirpurCollegeImage from "../assets/images/NIT/banner/HAMIRPUR.jpeg";
+import NITJalandharCollegeImage from "../assets/images/NIT/banner/NIT JALANDHAR.jpeg";
+import NITPatnaCollegeImage from "../assets/images/NIT/banner/PATNA.jpeg";
+import NITRaipurCollegeImage from "../assets/images/NIT/banner/RAIPUR.jpeg";
+import NITAgartalaCollegeImage from "../assets/images/NIT/banner/nit-agartala.jpeg";
+import NITArunachalPradeshCollegeImage from "../assets/images/NIT/banner/ARUNACHALL PRADESH.jpeg";
+import NITDelhiCollegeImage from "../assets/images/NIT/banner/DELHI.jpeg";
+import NITGoaCollegeImage from "../assets/images/NIT/banner/GOA.jpeg";
+import NITManipurCollegeImage from "../assets/images/NIT/banner/manipr.jpeg";
+import NITMeghalayaCollegeImage from "../assets/images/NIT/banner/meghalya.jpeg";
+import NITMizoramCollegeImage from "../assets/images/NIT/banner/NIT MIZORAM.jpeg";
+import NITNagalandCollegeImage from "../assets/images/NIT/banner/nagaland.jpeg";
+import NITPuducherryCollegeImage from "../assets/images/NIT/banner/pudu herry.jpeg";
+import NITSikkimCollegeImage from "../assets/images/NIT/banner/sikkim.jpeg";
+import NITUttarakhandCollegeImage from "../assets/images/NIT/banner/uttrakhand.jpeg";
+import NITAndhraPradeshCollegeImage from "../assets/images/NIT/banner/andhra pradesh.jpeg";
+import NITShibpurCollegeImage from "../assets/images/NIT/banner/shibpur.jpeg";
+
+
+
+
 
 import { 
     IITMandiCollegeNavigationConstants,
@@ -2330,7 +2366,7 @@ const routes = [
     // NIT COLLEGE ROUTES COMES HERE FOR GENERIC PAGE PASSED WITH APPROPRIATE PROPS
     {
         path : "/college/nit/nit-warangal",
-        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Warangal" 
+        component : <NITGenericCollegePage collegeImage={NITWarangalCollegeImage} collegeName="National Institute of Technology Warangal" 
         collegePageNavigationConstants={NITWarangalCollegeNavigationConstants} 
         aboutSectionContent={NITWarangalCollegeAboutSectionContent} aboutSectionHeadingId={NITWarangalCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITWarangalCollegeNavigationConstants[0].title} aboutSectionTableContent={NITWarangalAboutDataTableConstant} aboutSectionTableHeading={NITWarangalAboutDataTableHeading}
         locationSectionContent={NITWarangalCollegeLocationSectionContent} locationSectionHeadingId={NITWarangalCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITWarangalCollegeNavigationConstants[1].title} locationSectionTableContent={NITWarangalLocationDataTableConstant} locationSectionTableHeading={NITWarangalLocationDataTableHeading}
@@ -2349,7 +2385,7 @@ const routes = [
     
     {
         path : "/college/nit/nit-bhopal",
-        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Bhopal" 
+        component : <NITGenericCollegePage collegeImage={NITBhopalCollegeImage} collegeName="National Institute of Technology Bhopal" 
         collegePageNavigationConstants={NITBhopalCollegeNavigationConstants} 
         aboutSectionContent={NITBhopalCollegeAboutSectionContent} aboutSectionHeadingId={NITBhopalCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITBhopalCollegeNavigationConstants[0].title} aboutSectionTableContent={NITBhopalAboutDataTableConstant} aboutSectionTableHeading={NITGoaAboutDataTableHeading}
         locationSectionContent={NITBhopalCollegeLocationSectionContent} locationSectionHeadingId={NITBhopalCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITBhopalCollegeNavigationConstants[1].title} locationSectionTableContent={NITBhopalLocationDataTableConstant} locationSectionTableHeading={NITBhopalLocationDataTableHeading}
@@ -2366,7 +2402,7 @@ const routes = [
     },
     {
         path : "/college/nit/nit-nagpur",
-        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Nagpur" 
+        component : <NITGenericCollegePage collegeImage={NITNagpurCollegeImage} collegeName="National Institute of Technology Nagpur" 
         collegePageNavigationConstants={NITNagpurCollegeNavigationConstants} 
         aboutSectionContent={NITNagpurCollegeAboutSectionContent} aboutSectionHeadingId={NITNagpurCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITNagpurCollegeNavigationConstants[0].title} aboutSectionTableContent={NITNagpurAboutDataTableConstant} aboutSectionTableHeading={NITNagpurAboutDataTableHeading}
         locationSectionContent={NITNagpurCollegeLocationSectionContent} locationSectionHeadingId={NITNagpurCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITNagpurCollegeNavigationConstants[1].title} locationSectionTableContent={NITNagpurLocationDataTableConstant} locationSectionTableHeading={NITNagpurLocationDataTableHeading}
@@ -2382,7 +2418,7 @@ const routes = [
     },
     {
         path : "/college/nit/nit-durgapur",
-        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Durgapur" 
+        component : <NITGenericCollegePage collegeImage={NITDurgapurCollegeImage} collegeName="National Institute of Technology Durgapur" 
         collegePageNavigationConstants={NITDurgapurCollegeNavigationConstants} 
         aboutSectionContent={NITDurgapurCollegeAboutSectionContent} aboutSectionHeadingId={NITDurgapurCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITDurgapurCollegeNavigationConstants[0].title} aboutSectionTableContent={NITDurgapurAboutDataTableConstant} aboutSectionTableHeading={NITNagpurAboutDataTableHeading}
         locationSectionContent={NITDurgapurCollegeLocationSectionContent} locationSectionHeadingId={NITDurgapurCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITDurgapurCollegeNavigationConstants[1].title} locationSectionTableContent = {NITDurgapurLocationDataTableConstant} locationSectionTableHeading={NITDurgapurLocationDataTableHeading}
@@ -2399,7 +2435,7 @@ const routes = [
     },
     {
         path : "/college/nit/nit-jamshedpur",
-        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Jamshedpur" 
+        component : <NITGenericCollegePage collegeImage={NITJamshedpurCollegeImage} collegeName="National Institute of Technology Jamshedpur" 
         collegePageNavigationConstants={NITJamshedpurCollegeNavigationConstants} 
         aboutSectionContent={NITJamshedpurCollegeAboutSectionContent} aboutSectionHeadingId={NITJamshedpurCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITJamshedpurCollegeNavigationConstants[0].title} aboutSectionTableContent={NITJamshedpurAboutDataTableConstant} aboutSectionTableHeading={NITJamshedpurAboutDataTableHeading}
         locationSectionContent={NITJamshedpurCollegeLocationSectionContent} locationSectionHeadingId={NITJamshedpurCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITJamshedpurCollegeNavigationConstants[1].title} locationSectionTableContent={NITJamshedpurLocationDataTableConstant} locationSectionTableHeading={NITJamshedpurLocationDataTableHeading}
@@ -2416,7 +2452,7 @@ const routes = [
     },
     {
         path : "/college/nit/nit-karnataka",
-        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Karnataka" 
+        component : <NITGenericCollegePage collegeImage={NITKarnatakaCollegeImage} collegeName="National Institute of Technology Karnataka" 
         collegePageNavigationConstants={NITKarnatakaCollegeNavigationConstants} 
         aboutSectionContent={NITKarnatakaCollegeAboutSectionContent} aboutSectionHeadingId={NITKarnatakaCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITKarnatakaCollegeNavigationConstants[0].title} aboutSectionTableContent={NITKarnatakaAboutDataTableConstant} aboutSectionTableHeading={NITKarnatakaAboutDataTableHeading}
         locationSectionContent={NITKarnatakaCollegeLocationSectionContent} locationSectionHeadingId={NITKarnatakaCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITKarnatakaCollegeNavigationConstants[1].title} locationSectionTableContent={NITKarnatakaLocationDataTableConstant} locationSectionTableHeading={NITKarnatakaLocationDataTableHeading}
@@ -2433,7 +2469,7 @@ const routes = [
     },
     {
         path : "/college/nit/nit-srinagar",
-        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Srinagar" 
+        component : <NITGenericCollegePage collegeImage={NITSrinagarCollegeImage} collegeName="National Institute of Technology Srinagar" 
         collegePageNavigationConstants={NITSrinagarCollegeNavigationConstants} 
         aboutSectionContent={NITSrinagarCollegeAboutSectionContent} aboutSectionHeadingId={NITSrinagarCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITSrinagarCollegeNavigationConstants[0].title} aboutSectionTableContent={NITSrinagarAboutDataTableConstant} aboutSectionTableHeading={NITSrinagarAboutDataTableHeading}
         locationSectionContent={NITSrinagarCollegeLocationSectionContent} locationSectionHeadingId={NITSrinagarCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITSrinagarCollegeNavigationConstants[1].title} locationSectionTableContent={NITSrinagarAboutDataTableConstant} locationSectionTableHeading={NITSrinagarLocationDataTableHeading}
@@ -2450,7 +2486,7 @@ const routes = [
     },
     {
         path : "/college/nit/nit-allahabad",
-        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Allahabad" 
+        component : <NITGenericCollegePage collegeImage={NITAllahabadCollegeImage} collegeName="National Institute of Technology Allahabad" 
         collegePageNavigationConstants={NITAllahabadCollegeNavigationConstants} 
         aboutSectionContent={NITAllahabadCollegeAboutSectionContent} aboutSectionHeadingId={NITAllahabadCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITAllahabadCollegeNavigationConstants[0].title} aboutSectionTableContent={NITAllahabadAboutDataTableConstant} aboutSectionTableHeading={NITAllahabadAboutDataTableHeading}
         locationSectionContent={NITAllahabadCollegeLocationSectionContent} locationSectionHeadingId={NITAllahabadCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITAllahabadCollegeNavigationConstants[1].title} locationSectionTableContent={NITAllahabadLocationDataTableConstant} locationSectionTableHeading={NITBhopalLocationDataTableHeading}
@@ -2467,7 +2503,7 @@ const routes = [
     },
     {
         path : "/college/nit/nit-surat",
-        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Surat" 
+        component : <NITGenericCollegePage collegeImage={NITSuratCollegeImage} collegeName="National Institute of Technology Surat" 
         collegePageNavigationConstants={NITSuratCollegeNavigationConstants} 
         aboutSectionContent={NITSuratCollegeAboutSectionContent} aboutSectionHeadingId={NITSuratCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITSuratCollegeNavigationConstants[0].title} aboutSectionTableContent={NITSuratAboutDataTableConstant} aboutSectionTableHeading={NITSuratAboutDataTableHeading}
         locationSectionContent={NITSuratCollegeLocationSectionContent} locationSectionHeadingId={NITSuratCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITSuratCollegeNavigationConstants[1].title} locationSectionTableContent={NITSuratLocationDataTableConstant} locationSectionTableHeading={NITSuratLocationDataTableHeading}
@@ -2486,7 +2522,7 @@ const routes = [
 
     {
         path : "/college/nit/nit-calicut",
-        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Calicut" 
+        component : <NITGenericCollegePage collegeImage={NITCalicutCollegeImage} collegeName="National Institute of Technology Calicut" 
         collegePageNavigationConstants={NITCalicutCollegeNavigationConstants} 
         aboutSectionContent={NITCalicutCollegeAboutSectionContent} aboutSectionHeadingId={NITCalicutCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITCalicutCollegeNavigationConstants[0].title} aboutSectionTableContent={NITCalicutAboutDataTableConstant} aboutSectionTableHeading={NITCalicutAboutDataTableHeading}
         locationSectionContent={NITCalicutCollegeLocationSectionContent} locationSectionHeadingId={NITCalicutCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITCalicutCollegeNavigationConstants[1].title} locationSectionTableContent={NITCalicutLocationDataTableConstant} locationSectionTableHeading={NITCalicutLocationDataTableHeading}
@@ -2503,7 +2539,7 @@ const routes = [
     },
     {
         path : "/college/nit/nit-rourkela",
-        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Rourkela" 
+        component : <NITGenericCollegePage collegeImage={NITRourkelaCollegeImage} collegeName="National Institute of Technology Rourkela" 
         collegePageNavigationConstants={NITRourkelaCollegeNavigationConstants} 
         aboutSectionContent={NITRourkelaCollegeAboutSectionContent} aboutSectionHeadingId={NITRourkelaCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITRourkelaCollegeNavigationConstants[0].title} aboutSectionTableContent={NITRourkelaAboutDataTableConstant} aboutSectionTableHeading={NITRourkelaAboutDataTableHeading}
         locationSectionContent={NITRourkelaCollegeLocationSectionContent} locationSectionHeadingId={NITRourkelaCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITRourkelaCollegeNavigationConstants[1].title} locationSectionTableContent={NITRourkelaLocationDataTableConstant} locationSectionTableHeading={NITRourkelaLocationDataTableHeading}
@@ -2520,7 +2556,7 @@ const routes = [
     },
     {
         path : "/college/nit/nit-jaipur",
-        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Jaipur" 
+        component : <NITGenericCollegePage collegeImage={NITJaipurCollegeImage} collegeName="National Institute of Technology Jaipur" 
         collegePageNavigationConstants={NITJaipurCollegeNavigationConstants} 
         aboutSectionContent={NITJaipurCollegeAboutSectionContent} aboutSectionHeadingId={NITJaipurCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITJaipurCollegeNavigationConstants[0].title} aboutSectionTableContent={NITJaipurAboutDataTableConstant} aboutSectionTableHeading={NITJaipurAboutDataTableHeading}
         locationSectionContent={NITJaipurCollegeLocationSectionContent} locationSectionHeadingId={NITJaipurCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITJaipurCollegeNavigationConstants[1].title} locationSectionTableContent={NITJaipurLocationDataTableConstant} locationSectionTableHeading={NITJaipurLocationDataTableHeading}
@@ -2538,7 +2574,7 @@ const routes = [
 ,
     {
         path : "/college/nit/nit-kurukshetra",
-        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Kurukshetra" 
+        component : <NITGenericCollegePage collegeImage={NITKurukshetraCollegeImage} collegeName="National Institute of Technology Kurukshetra" 
         collegePageNavigationConstants={NITKurukshetraCollegeNavigationConstants} 
         aboutSectionContent={NITKurukshetraCollegeAboutSectionContent} aboutSectionHeadingId={NITKurukshetraCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITKurukshetraCollegeNavigationConstants[0].title} aboutSectionTableContent={NITKurukshetraAboutDataTableConstant} aboutSectionTableHeading={NITKurukshetraAboutDataTableHeading}
         locationSectionContent={NITKurukshetraCollegeLocationSectionContent} locationSectionHeadingId={NITKurukshetraCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITKurukshetraCollegeNavigationConstants[1].title} locationSectionTableContent={NITKurukshetraLocationDataTableConstant} locationSectionTableHeading={NITBhopalLocationDataTableHeading}
@@ -2555,7 +2591,7 @@ const routes = [
     },
     {
         path : "/college/nit/nit-tiruchirappalli",
-        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Tiruchirapalli" 
+        component : <NITGenericCollegePage collegeImage={NITTiruchirappalliCollegeImage} collegeName="National Institute of Technology Tiruchirapalli" 
         collegePageNavigationConstants={NITTiruchirappalliCollegeNavigationConstants} 
         aboutSectionContent={NITTiruchirappalliCollegeAboutSectionContent} aboutSectionHeadingId={NITTiruchirappalliCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITTiruchirappalliCollegeNavigationConstants[0].title} aboutSectionTableContent={NITTiruchirappalliAboutDataTableConstant} aboutSectionTableHeading={NITTiruchirappalliAboutDataTableHeading}
         locationSectionContent={NITTiruchirappalliCollegeLocationSectionContent} locationSectionHeadingId={NITTiruchirappalliCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITTiruchirappalliCollegeNavigationConstants[1].title} locationSectionTableContent={NITTiruchirapalliLocationDataTableConstant} locationSectionTableHeading={NITTiruchirapalliLocationDataTableHeading}
@@ -2572,7 +2608,7 @@ const routes = [
     },
     {
         path : "/college/nit/nit-silchar",
-        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Silchar" 
+        component : <NITGenericCollegePage collegeImage={NITSilcharCollegeImage} collegeName="National Institute of Technology Silchar" 
         collegePageNavigationConstants={NITSilcharCollegeNavigationConstants} 
         aboutSectionContent={NITSilcharCollegeAboutSectionContent} aboutSectionHeadingId={NITSilcharCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITSilcharCollegeNavigationConstants[0].title} aboutSectionTableContent={NITSilcharAboutDataTableConstant} aboutSectionTableHeading={NITSilcharAboutDataTableHeading}
         locationSectionContent={NITSilcharCollegeLocationSectionContent} locationSectionHeadingId={NITSilcharCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITSilcharCollegeNavigationConstants[1].title} locationSectionTableContent={NITSilcharLocationDataTableConstant} locationSectionTableHeading={NITBhopalLocationDataTableHeading}
@@ -2589,7 +2625,7 @@ const routes = [
     },
     {
         path : "/college/nit/nit-hamirpur",
-        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Hamirpur" 
+        component : <NITGenericCollegePage collegeImage={NITHamirpurCollegeImage} collegeName="National Institute of Technology Hamirpur" 
         collegePageNavigationConstants={NITHamirpurCollegeNavigationConstants} 
         aboutSectionContent={NITHamirpurCollegeAboutSectionContent} aboutSectionHeadingId={NITHamirpurCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITHamirpurCollegeNavigationConstants[0].title} aboutSectionTableContent={NITHamirpurAboutDataTableConstant} aboutSectionTableHeading={NITHamirpurAboutDataTableHeading}
         locationSectionContent={NITHamirpurCollegeLocationSectionContent} locationSectionHeadingId={NITHamirpurCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITHamirpurCollegeNavigationConstants[1].title} locationSectionTableContent={NITHamirpurLocationDataTableConstant} locationSectionTableHeading={NITHamirpurLocationDataTableHeading}
@@ -2608,7 +2644,7 @@ const routes = [
 
     {
         path : "/college/nit/nit-jalandhar",
-        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Jalandhar" 
+        component : <NITGenericCollegePage collegeImage={NITJalandharCollegeImage} collegeName="National Institute of Technology Jalandhar" 
         collegePageNavigationConstants={NITJalandharCollegeNavigationConstants} 
         aboutSectionContent={NITJalandharCollegeAboutSectionContent} aboutSectionHeadingId={NITJalandharCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITJalandharCollegeNavigationConstants[0].title} aboutSectionTableContent={NITJalandharAboutDataTableConstant} aboutSectionTableHeading={NITJalandharAboutDataTableHeading}
         locationSectionContent={NITJalandharCollegeLocationSectionContent} locationSectionHeadingId={NITJalandharCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITJalandharCollegeNavigationConstants[1].title} locationSectionTableContent={NITJalandharLocationDataTableConstant} locationSectionTableHeading={NITJalandharLocationDataTableHeading}
@@ -2625,7 +2661,7 @@ const routes = [
     },
     {
         path : "/college/nit/nit-patna",
-        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Patna" 
+        component : <NITGenericCollegePage collegeImage={NITPatnaCollegeImage} collegeName="National Institute of Technology Patna" 
         collegePageNavigationConstants={NITPatnaCollegeNavigationConstants} 
         aboutSectionContent={NITPatnaCollegeAboutSectionContent} aboutSectionHeadingId={NITPatnaCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITPatnaCollegeNavigationConstants[0].title} aboutSectionTableContent={NITPatnaAboutDataTableConstant} aboutSectionTableHeading={NITPatnaAboutDataTableHeading}
         locationSectionContent={NITPatnaCollegeLocationSectionContent} locationSectionHeadingId={NITPatnaCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITPatnaCollegeNavigationConstants[1].title} locationSectionTableContent={NITPatnaLocationDataTableConstant} locationSectionTableHeading={NITPatnaLocationDataTableHeading}
@@ -2642,7 +2678,7 @@ const routes = [
     },
     {
         path : "/college/nit/nit-raipur",
-        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Raipur" 
+        component : <NITGenericCollegePage collegeImage={NITRaipurCollegeImage} collegeName="National Institute of Technology Raipur" 
         collegePageNavigationConstants={NITRaipurCollegeNavigationConstants} 
         aboutSectionContent={NITRaipurCollegeAboutSectionContent} aboutSectionHeadingId={NITRaipurCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITRaipurCollegeNavigationConstants[0].title} aboutSectionTableContent={NITRaipurAboutDataTableConstant} aboutSectionTableHeading={NITRaipurAboutDataTableHeading}
         locationSectionContent={NITRaipurCollegeLocationSectionContent} locationSectionHeadingId={NITRaipurCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITRaipurCollegeNavigationConstants[1].title} locationSectionTableContent={NITRaipurLocationDataTableConstant} locationSectionTableHeading={NITRaipurLocationDataTableHeading}
@@ -2659,7 +2695,7 @@ const routes = [
     },
     {
         path : "/college/nit/nit-agartala",
-        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Agartala" 
+        component : <NITGenericCollegePage collegeImage={NITAgartalaCollegeImage} collegeName="National Institute of Technology Agartala" 
         collegePageNavigationConstants={NITAgartalaCollegeNavigationConstants} 
         aboutSectionContent={NITAgartalaCollegeAboutSectionContent} aboutSectionHeadingId={NITAgartalaCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITAgartalaCollegeNavigationConstants[0].title} aboutSectionTableContent={NITAgaratalaAboutDataTableConstant} aboutSectionTableHeading={NITAgaratalaAboutDataTableHeading}
         locationSectionContent={NITAgartalaCollegeLocationSectionContent} locationSectionHeadingId={NITAgartalaCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITAgartalaCollegeNavigationConstants[1].title} locationSectionTableContent={NITAgaratalaLocationDataTableConstant} locationSectionTableHeading={NITAgaratalaLocationDataTableHeading}
@@ -2677,7 +2713,7 @@ const routes = [
 ,
     {
         path : "/college/nit/nit-arunachal-pradesh",
-        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Arunachal Pradesh" 
+        component : <NITGenericCollegePage collegeImage={NITArunachalPradeshCollegeImage} collegeName="National Institute of Technology Arunachal Pradesh" 
         collegePageNavigationConstants={NITArunachalPradeshCollegeNavigationConstants} 
         aboutSectionContent={NITArunachalPradeshCollegeAboutSectionContent} aboutSectionHeadingId={NITArunachalPradeshCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITArunachalPradeshCollegeNavigationConstants[0].title} aboutSectionTableContent={NITArunachalPradeshAboutDataTableConstant} aboutSectionTableHeading={NITArunachalPradeshAboutDataTableHeading}
         locationSectionContent={NITArunachalPradeshCollegeLocationSectionContent} locationSectionHeadingId={NITArunachalPradeshCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITArunachalPradeshCollegeNavigationConstants[1].title} locationSectionTableContent={NITArunachalPradeshLocationDataTableConstant} locationSectionTableHeading={NITArunachalPradeshLocationDataTableHeading}
@@ -2694,7 +2730,7 @@ const routes = [
     },
     {
         path : "/college/nit/nit-delhi",
-        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Delhi" 
+        component : <NITGenericCollegePage collegeImage={NITDelhiCollegeImage} collegeName="National Institute of Technology Delhi" 
         collegePageNavigationConstants={NITDelhiCollegeNavigationConstants} 
         aboutSectionContent={NITDelhiCollegeAboutSectionContent} aboutSectionHeadingId={NITDelhiCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITDelhiCollegeNavigationConstants[0].title} aboutSectionTableContent={NITDelhiAboutDataTableConstant} aboutSectionTableHeading={NITDelhiAboutDataTableHeading}
         locationSectionContent={NITDelhiCollegeLocationSectionContent} locationSectionHeadingId={NITDelhiCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITDelhiCollegeNavigationConstants[1].title} locationSectionTableContent={NITDelhiLocationDataTableConstant} locationSectionTableHeading={NITDelhiLocationDataTableHeading}
@@ -2711,7 +2747,7 @@ const routes = [
     },
     {
         path : "/college/nit/nit-goa",
-        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Goa" 
+        component : <NITGenericCollegePage collegeImage={NITGoaCollegeImage} collegeName="National Institute of Technology Goa" 
         collegePageNavigationConstants={NITGoaCollegeNavigationConstants} 
         aboutSectionContent={NITGoaCollegeAboutSectionContent} aboutSectionHeadingId={NITGoaCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITGoaCollegeNavigationConstants[0].title} aboutSectionTableContent={NITGoaAboutDataTableConstant} aboutSectionTableHeading={NITGoaAboutDataTableHeading}
         locationSectionContent={NITGoaCollegeLocationSectionContent} locationSectionHeadingId={NITGoaCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITGoaCollegeNavigationConstants[1].title} locationSectionTableContent={NITGoaLocationDataTableConstant} locationSectionTableHeading={NITBhopalLocationDataTableHeading}
@@ -2728,7 +2764,7 @@ const routes = [
     },
     {
         path : "/college/nit/nit-manipur",
-        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Manipur" 
+        component : <NITGenericCollegePage collegeImage={NITManipurCollegeImage} collegeName="National Institute of Technology Manipur" 
         collegePageNavigationConstants={NITManipurCollegeNavigationConstants} 
         aboutSectionContent={NITManipurCollegeAboutSectionContent} aboutSectionHeadingId={NITManipurCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITManipurCollegeNavigationConstants[0].title} aboutSectionTableContent={NITManipurAboutDataTableConstant} aboutSectionTableHeading={NITManipurAboutDataTableHeading}
         locationSectionContent={NITManipurCollegeLocationSectionContent} locationSectionHeadingId={NITManipurCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITManipurCollegeNavigationConstants[1].title} locationSectionTableContent={NITManipurLocationDataTableConstant} locationSectionTableHeading={NITManipurLocationDataTableHeading}
@@ -2745,7 +2781,7 @@ const routes = [
     },
     {
         path : "/college/nit/nit-meghalaya",
-        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Meghalaya" 
+        component : <NITGenericCollegePage collegeImage={NITMeghalayaCollegeImage} collegeName="National Institute of Technology Meghalaya" 
         collegePageNavigationConstants={NITMeghalayaCollegeNavigationConstants} 
         aboutSectionContent={NITMeghalayaCollegeAboutSectionContent} aboutSectionHeadingId={NITMeghalayaCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITMeghalayaCollegeNavigationConstants[0].title} aboutSectionTableContent={NITMeghalayaAboutDataTableConstant} aboutSectionTableHeading={NITMeghalayaAboutDataTableHeading}
         locationSectionContent={NITMeghalayaCollegeLocationSectionContent} locationSectionHeadingId={NITMeghalayaCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITMeghalayaCollegeNavigationConstants[1].title} locationSectionTableContent={NITMeghalayaLocationDataTableConstant} locationSectionTableHeading={NITMeghalayaLocationDataTableHeading}
@@ -2763,7 +2799,7 @@ const routes = [
 
     {
         path : "/college/nit/nit-mizoram",
-        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Mizoram" 
+        component : <NITGenericCollegePage collegeImage={NITMizoramCollegeImage} collegeName="National Institute of Technology Mizoram" 
         collegePageNavigationConstants={NITMizoramCollegeNavigationConstants} 
         aboutSectionContent={NITMizoramCollegeAboutSectionContent} aboutSectionHeadingId={NITMizoramCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITMizoramCollegeNavigationConstants[0].title} aboutSectionTableContent={NITMizoramAboutDataTableConstant} aboutSectionTableHeading={NITMizoramAboutDataTableHeading}
         locationSectionContent={NITMizoramCollegeLocationSectionContent} locationSectionHeadingId={NITMizoramCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITMizoramCollegeNavigationConstants[1].title} locationSectionTableContent={NITMizoramLocationDataTableConstant} locationSectionTableHeading={NITMizoramLocationDataTableHeading}
@@ -2780,7 +2816,7 @@ const routes = [
     },
     {
         path : "/college/nit/nit-nagaland",
-        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Nagaland" 
+        component : <NITGenericCollegePage collegeImage={NITNagalandCollegeImage} collegeName="National Institute of Technology Nagaland" 
         collegePageNavigationConstants={NITNagalandCollegeNavigationConstants} 
         aboutSectionContent={NITNagalandCollegeAboutSectionContent} aboutSectionHeadingId={NITNagalandCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITNagalandCollegeNavigationConstants[0].title} aboutSectionTableContent={NITNagalandAboutDataTableConstant} aboutSectionTableHeading={NITNagalandAboutDataTableHeading}
         locationSectionContent={NITNagalandCollegeLocationSectionContent} locationSectionHeadingId={NITNagalandCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITNagalandCollegeNavigationConstants[1].title} locationSectionTableContent={NITNagalandLocationDataTableConstant} locationSectionTableHeading={NITNagalandLocationDataTableHeading}
@@ -2797,7 +2833,7 @@ const routes = [
     },
     {
         path : "/college/nit/nit-puducherry",
-        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Puducherry" 
+        component : <NITGenericCollegePage collegeImage={NITPuducherryCollegeImage} collegeName="National Institute of Technology Puducherry" 
         collegePageNavigationConstants={NITPuducherryCollegeNavigationConstants} 
         aboutSectionContent={NITPuducherryCollegeAboutSectionContent} aboutSectionHeadingId={NITPuducherryCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITPuducherryCollegeNavigationConstants[0].title} aboutSectionTableContent={NITPuducherryAboutDataTableConstant} aboutSectionTableHeading={NITPuducherryAboutDataTableHeading}
         locationSectionContent={NITPuducherryCollegeLocationSectionContent} locationSectionHeadingId={NITPuducherryCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITPuducherryCollegeNavigationConstants[1].title} locationSectionTableContent={NITPuducherryLocationDataTableConstant} locationSectionTableHeading={NITPuducherryLocationDataTableHeading}
@@ -2814,7 +2850,7 @@ const routes = [
     },
     {
         path : "/college/nit/nit-sikkim",
-        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Sikkim" 
+        component : <NITGenericCollegePage collegeImage={NITSikkimCollegeImage} collegeName="National Institute of Technology Sikkim" 
         collegePageNavigationConstants={NITSikkimCollegeNavigationConstants} 
         aboutSectionContent={NITSikkimCollegeAboutSectionContent} aboutSectionHeadingId={NITSikkimCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITSikkimCollegeNavigationConstants[0].title} aboutSectionTableContent={NITSikkimAboutDataTableConstant} aboutSectionTableHeading={NITSikkimAboutDataTableHeading}
         locationSectionContent={NITSikkimCollegeLocationSectionContent} locationSectionHeadingId={NITSikkimCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITSikkimCollegeNavigationConstants[1].title} locationSectionTableContent={NITSikkimLocationDataTableConstant} locationSectionTableHeading={NITSikkimLocationDataTableHeading}
@@ -2832,7 +2868,7 @@ const routes = [
 
     {
         path : "/college/nit/nit-uttarakhand",
-        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Uttarakhand" 
+        component : <NITGenericCollegePage collegeImage={NITUttarakhandCollegeImage} collegeName="National Institute of Technology Uttarakhand" 
         collegePageNavigationConstants={NITUttarakhandCollegeNavigationConstants} 
         aboutSectionContent={NITUttarakhandCollegeAboutSectionContent} aboutSectionHeadingId={NITUttarakhandCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITUttarakhandCollegeNavigationConstants[0].title} aboutSectionTableContent={NITUttarakhandAboutDataTableConstant} aboutSectionTableHeading={NITUttarakhandAboutDataTableHeading}
         locationSectionContent={NITUttarakhandCollegeLocationSectionContent} locationSectionHeadingId={NITUttarakhandCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITUttarakhandCollegeNavigationConstants[1].title} locationSectionTableContent={NITUttarakhandLocationDataTableConstant} locationSectionTableHeading={NITUttarakhandLocationDataTableHeading}
@@ -2849,7 +2885,7 @@ const routes = [
     },
     {
         path : "/college/nit/nit-andhra-pradesh",
-        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Andhra Pradesh"
+        component : <NITGenericCollegePage collegeImage={NITAndhraPradeshCollegeImage} collegeName="National Institute of Technology Andhra Pradesh"
             collegePageNavigationConstants={NITAndhraPradeshCollegeNavigationConstants}
             aboutSectionContent={NITAndhraPradeshCollegeAboutSectionContent} aboutSectionHeadingId={NITAndhraPradeshCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITAndhraPradeshCollegeNavigationConstants[0].title} aboutSectionTableContent={NITAndhraPradeshAboutDataTableConstant} aboutSectionTableHeading={NITAndhraPradeshAboutDataTableHeading}
             locationSectionContent={NITAndhraPradeshCollegeLocationSectionContent} locationSectionHeadingId={NITAndhraPradeshCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITAndhraPradeshCollegeNavigationConstants[1].title} locationSectionTableContent={NITAndhraPradeshLocationDataTableConstant} locationSectionTableHeading={NITAndhraPradeshLocationDataTableHeading}
@@ -2866,7 +2902,7 @@ const routes = [
     },
     {
         path : "/college/nit/nit-shibpur",
-        component : <NITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Shibpur" 
+        component : <NITGenericCollegePage collegeImage={NITShibpurCollegeImage} collegeName="National Institute of Technology Shibpur" 
         collegePageNavigationConstants={NITShibpurCollegeNavigationConstants} 
         aboutSectionContent={NITShibpurCollegeAboutSectionContent} aboutSectionHeadingId={NITShibpurCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={NITShibpurCollegeNavigationConstants[0].title} aboutSectionTableContent={NITShibpurAboutDataTableConstant} aboutSectionTableHeading={NITShibpurAboutDataTableHeading}
         locationSectionContent={NITShibpurCollegeLocationSectionContent} locationSectionHeadingId={NITShibpurCollegeNavigationConstants[1].headingId} locationSectionHeadingName={NITShibpurCollegeNavigationConstants[1].title} locationSectionTableContent={NITShibpurLocationDataTableConstant} locationSectionTableHeading={NITShibpurLocationDataTableHeading}
