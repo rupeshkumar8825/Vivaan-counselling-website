@@ -89,7 +89,34 @@ import NITAndhraPradeshCollegeImage from "../assets/images/NIT/banner/andhra pra
 import NITShibpurCollegeImage from "../assets/images/NIT/banner/shibpur.jpeg";
 
 
-
+import IIITHyderabadCollegeImage from "../assets/images/IIIT/banner/gwalior.jpeg";
+import IIITGwaliorCollegeImage from "../assets/images/IIIT/banner/gwalior.jpeg";
+import IIITBangaloreCollegeImage from "../assets/images/IIIT/banner/gwalior.jpeg";
+import IIITGuwahatiCollegeImage from "../assets/images/IIIT/banner/guwahati.jpeg";
+import IIITJabalpurCollegeImage from "../assets/images/IIIT/banner/jabalpur.jpeg";
+import IIITAllahabadCollegeImage from "../assets/images/IIIT/banner/allahabd.jpeg";
+import IIITKanchipuramCollegeImage from "../assets/images/IIIT/banner/kacnhipuram.jpeg";
+import IIITBhubaneshwarCollegeImage from "../assets/images/IIIT/banner/gwalior.jpeg";
+import IIITPuneCollegeImage from "../assets/images/IIIT/banner/pune.jpg";
+import IIITKotaCollegeImage from "../assets/images/IIIT/banner/kota.jpeg";
+import IIITSriCityCollegeImage from "../assets/images/IIIT/banner/sricity.jpeg";
+import IIITVadodaraCollegeImage from "../assets/images/IIIT/banner/vadodra dieu campus.jpeg";
+import IIITNagpurCollegeImage from "../assets/images/IIIT/banner/nagpur.jpeg";
+import IIITKalyaniCollegeImage from "../assets/images/IIIT/banner/kalyani.jpeg";
+import IIITLucknowCollegeImage from "../assets/images/IIIT/banner/lucknow.jpeg";
+import IIITDharwadCollegeImage from "../assets/images/IIIT/banner/dharwa.jpeg";
+import IIITBhagalpurCollegeImage from "../assets/images/IIIT/banner/bhagalpur.jpeg";
+import IIITBhopalCollegeImage from "../assets/images/IIIT/banner/bhopal.jpeg";
+import IIITKottayamCollegeImage from "../assets/images/IIIT/banner/kottayam.jpeg";
+import IIITRanchiCollegeImage from "../assets/images/IIIT/banner/ranchi.jpeg";
+import IIITUnaCollegeImage from "../assets/images/IIIT/banner/una.jpeg";
+import IIITSuratCollegeImage from "../assets/images/IIIT/banner/surat.jpeg";
+import IIITManipurCollegeImage from "../assets/images/IIIT/banner/manipur.jpeg";
+import IIITKurnoolCollegeImage from "../assets/images/IIIT/banner/kurnool.jpeg";
+import IIITTiruchirappalliCollegeImage from "../assets/images/IIIT/banner/trichy.jpeg";
+import IIITSonepatCollegeImage from "../assets/images/IIIT/banner/seonepat.jpeg";
+import IIITAgartalaCollegeImage from "../assets/images/IIIT/banner/agartala.jpeg";
+import IIITKarnatakaCollegeImage from "../assets/images/IIIT/banner/gwalior.jpeg";
 
 
 import { 
@@ -2929,7 +2956,7 @@ const routes = [
     // routes for pages of all IIITs comes here
     {
         path : "/college/iiit/iiit-hyderabad",
-        component : <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="National Institute of Technology Shibpur" 
+        component : <IIITGenericCollegePage collegeImage={IIITHyderabadCollegeImage} collegeName="National Institute of Technology Shibpur" 
         collegePageNavigationConstants={IIITHyderabadCollegeNavigationConstants} 
         aboutSectionContent={IIITHyderabadCollegeAboutSectionContent} aboutSectionHeadingId={IIITHyderabadCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITHyderabadCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITHyderabadAboutDataTableConstant} aboutSectionTableHeading={IIITHyderabadAboutDataTableHeading}
         locationSectionContent={IIITHyderabadCollegeLocationSectionContent} locationSectionHeadingId={IIITHyderabadCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITHyderabadCollegeNavigationConstants[1].title} locationSectionTableContent={IIITHyderabadLocationDataTableConstant} locationSectionTableHeading={IIITHyderabadLocationDataTableHeading}
@@ -2944,7 +2971,7 @@ const routes = [
     },
     {
         path: "/college/iiit/iiit-gwalior",
-        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Gwalior"
+        component: <IIITGenericCollegePage collegeImage={IIITGwaliorCollegeImage} collegeName="Indian Institute of Information Technology Gwalior"
             collegePageNavigationConstants={IIITGwaliorCollegeNavigationConstants}
             aboutSectionContent={IIITGwaliorCollegeAboutSectionContent} aboutSectionHeadingId={IIITGwaliorCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITGwaliorCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITGwaliorAboutDataTableConstant} aboutSectionTableHeading={IIITGwaliorAboutDataTableHeading}
             locationSectionContent={IIITGwaliorCollegeLocationSectionContent} locationSectionHeadingId={IIITGwaliorCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITGwaliorCollegeNavigationConstants[1].title} locationSectionTableContent={IIITGwaliorLocationDataTableConstant} locationSectionTableHeading={IIITGwaliorLocationDataTableHeading}
@@ -2960,7 +2987,7 @@ const routes = [
 
     {
         path: "/college/iiit/iiit-bangalore",
-        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Bangalore"
+        component: <IIITGenericCollegePage collegeImage={IIITBangaloreCollegeImage} collegeName="Indian Institute of Information Technology Bangalore"
             collegePageNavigationConstants={IIITBangaloreCollegeNavigationConstants}
             aboutSectionContent={IIITBangaloreCollegeAboutSectionContent} aboutSectionHeadingId={IIITBangaloreCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITBangaloreCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITBangaloreAboutDataTableConstant} aboutSectionTableHeading={IIITBangaloreAboutDataTableHeading}
             locationSectionContent={IIITBangaloreCollegeLocationSectionContent} locationSectionHeadingId={IIITBangaloreCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITBangaloreCollegeNavigationConstants[1].title} locationSectionTableContent={IIITBangaloreLocationDataTableConstant} locationSectionTableHeading={IIITBangaloreLocationDataTableHeading}
@@ -2975,7 +3002,7 @@ const routes = [
     },
     {
         path: "/college/iiit/iiit-guwahati",
-        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Guwahati"
+        component: <IIITGenericCollegePage collegeImage={IIITGuwahatiCollegeImage} collegeName="Indian Institute of Information Technology Guwahati"
             collegePageNavigationConstants={IIITGuwahatiCollegeNavigationConstants}
             aboutSectionContent={IIITGuwahatiCollegeAboutSectionContent} aboutSectionHeadingId={IIITGuwahatiCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITGuwahatiCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITGuwahatiAboutDataTableConstant} aboutSectionTableHeading={IIITGuwahatiAboutDataTableHeading}
             locationSectionContent={IIITGuwahatiCollegeLocationSectionContent} locationSectionHeadingId={IIITGuwahatiCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITGuwahatiCollegeNavigationConstants[1].title} locationSectionTableContent={IIITGuwahatiLocationDataTableConstant} locationSectionTableHeading={IIITGuwahatiLocationDataTableHeading}
@@ -2990,7 +3017,7 @@ const routes = [
     },
     {
         path: "/college/iiit/iiit-jabalpur",
-        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Jabalpur"
+        component: <IIITGenericCollegePage collegeImage={IIITJabalpurCollegeImage} collegeName="Indian Institute of Information Technology Jabalpur"
             collegePageNavigationConstants={IIITJabalpurCollegeNavigationConstants}
             aboutSectionContent={IIITJabalpurCollegeAboutSectionContent} aboutSectionHeadingId={IIITJabalpurCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITJabalpurCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITJabalpurAboutDataTableConstant} aboutSectionTableHeading={IIITJabalpurAboutDataTableHeading}
             locationSectionContent={IIITJabalpurCollegeLocationSectionContent} locationSectionHeadingId={IIITJabalpurCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITJabalpurCollegeNavigationConstants[1].title} locationSectionTableContent={IIITJabalpurLocationDataTableConstant} locationSectionTableHeading={IIITJabalpurLocationDataTableHeading}
@@ -3005,7 +3032,7 @@ const routes = [
     },
     {
         path: "/college/iiit/iiit-allahabad",
-        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Allahabad"
+        component: <IIITGenericCollegePage collegeImage={IIITAllahabadCollegeImage} collegeName="Indian Institute of Information Technology Allahabad"
             collegePageNavigationConstants={IIITAllahabadCollegeNavigationConstants}
             aboutSectionContent={IIITAllahabadCollegeAboutSectionContent} aboutSectionHeadingId={IIITAllahabadCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITAllahabadCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITAllahabadAboutDataTableConstant} aboutSectionTableHeading={IIITAllahabadAboutDataTableHeading}
             locationSectionContent={IIITAllahabadCollegeLocationSectionContent} locationSectionHeadingId={IIITAllahabadCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITAllahabadCollegeNavigationConstants[1].title} locationSectionTableContent={IIITAllahabadLocationDataTableConstant} locationSectionTableHeading={IIITAllahabadLocationDataTableHeading}
@@ -3021,7 +3048,7 @@ const routes = [
 
     {
         path: "/college/iiit/iiit-kanchipuram",
-        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Kanchipuram"
+        component: <IIITGenericCollegePage collegeImage={IIITKanchipuramCollegeImage} collegeName="Indian Institute of Information Technology Kanchipuram"
             collegePageNavigationConstants={IIITKanchipuramCollegeNavigationConstants}
             aboutSectionContent={IIITKanchipuramCollegeAboutSectionContent} aboutSectionHeadingId={IIITKanchipuramCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITKanchipuramCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITKanchipuramAboutDataTableConstant} aboutSectionTableHeading={IIITKanchipuramAboutDataTableHeading}
             locationSectionContent={IIITKanchipuramCollegeLocationSectionContent} locationSectionHeadingId={IIITKanchipuramCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITKanchipuramCollegeNavigationConstants[1].title} locationSectionTableContent={IIITKanchipuramLocationDataTableConstant} locationSectionTableHeading={IIITKanchipuramLocationDataTableHeading}
@@ -3036,7 +3063,7 @@ const routes = [
     },
     {
         path: "/college/iiit/iiit-bhubaneshwar",
-        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Bhubaneshwar"
+        component: <IIITGenericCollegePage collegeImage={IIITBhubaneshwarCollegeImage} collegeName="Indian Institute of Information Technology Bhubaneshwar"
             collegePageNavigationConstants={IIITBhubaneshwarCollegeNavigationConstants}
             aboutSectionContent={IIITBhubaneshwarCollegeAboutSectionContent} aboutSectionHeadingId={IIITBhubaneshwarCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITBhubaneshwarCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITBhubaneswarAboutDataTableConstant} aboutSectionTableHeading={IIITBhubaneswarAboutDataTableHeading}
             locationSectionContent={IIITBhubaneshwarCollegeLocationSectionContent} locationSectionHeadingId={IIITBhubaneshwarCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITBhubaneshwarCollegeNavigationConstants[1].title} locationSectionTableContent={IIITBhubaneswarLocationDataTableConstant} locationSectionTableHeading={IIITBhubaneswarLocationDataTableHeading}
@@ -3051,7 +3078,7 @@ const routes = [
     },
     {
         path: "/college/iiit/iiit-pune",
-        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Pune"
+        component: <IIITGenericCollegePage collegeImage={IIITPuneCollegeImage} collegeName="Indian Institute of Information Technology Pune"
             collegePageNavigationConstants={IIITPuneCollegeNavigationConstants}
             aboutSectionContent={IIITPuneCollegeAboutSectionContent} aboutSectionHeadingId={IIITPuneCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITPuneCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITPuneAboutDataTableConstant} aboutSectionTableHeading={IIITPuneAboutDataTableHeading}
             locationSectionContent={IIITPuneCollegeLocationSectionContent} locationSectionHeadingId={IIITPuneCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITPuneCollegeNavigationConstants[1].title} locationSectionTableContent={IIITPuneLocationDataTableConstant} locationSectionTableHeading={IIITPuneLocationDataTableHeading}
@@ -3066,7 +3093,7 @@ const routes = [
     },
     {
         path: "/college/iiit/iiit-kota",
-        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Kota"
+        component: <IIITGenericCollegePage collegeImage={IIITKotaCollegeImage} collegeName="Indian Institute of Information Technology Kota"
             collegePageNavigationConstants={IIITKotaCollegeNavigationConstants}
             aboutSectionContent={IIITKotaCollegeAboutSectionContent} aboutSectionHeadingId={IIITKotaCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITKotaCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITKotaAboutDataTableConstant} aboutSectionTableHeading={IIITKotaAboutDataTableHeading}
             locationSectionContent={IIITKotaCollegeLocationSectionContent} locationSectionHeadingId={IIITKotaCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITKotaCollegeNavigationConstants[1].title} locationSectionTableContent={IIITKotaLocationDataTableConstant} locationSectionTableHeading={IIITKotaLocationDataTableHeading}
@@ -3082,7 +3109,7 @@ const routes = [
 ,
     {
         path: "/college/iiit/iiit-sricity",
-        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Sri City"
+        component: <IIITGenericCollegePage collegeImage={IIITSriCityCollegeImage} collegeName="Indian Institute of Information Technology Sri City"
             collegePageNavigationConstants={IIITSriCityCollegeNavigationConstants}
             aboutSectionContent={IIITSriCityCollegeAboutSectionContent} aboutSectionHeadingId={IIITSriCityCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITSriCityCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITSricityAboutDataTableConstant} aboutSectionTableHeading={IIITSricityAboutDataTableHeading}
             locationSectionContent={IIITSriCityCollegeLocationSectionContent} locationSectionHeadingId={IIITSriCityCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITSriCityCollegeNavigationConstants[1].title} locationSectionTableContent={IIITSricityLocationDataTableConstant} locationSectionTableHeading={IIITSricityLocationDataTableHeading}
@@ -3097,7 +3124,7 @@ const routes = [
     },
     {
         path: "/college/iiit/iiit-vadodara",
-        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Vadodara"
+        component: <IIITGenericCollegePage collegeImage={IIITVadodaraCollegeImage} collegeName="Indian Institute of Information Technology Vadodara"
             collegePageNavigationConstants={IIITVadodaraCollegeNavigationConstants}
             aboutSectionContent={IIITVadodaraCollegeAboutSectionContent} aboutSectionHeadingId={IIITVadodaraCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITVadodaraCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITVadodaraAboutDataTableConstant} aboutSectionTableHeading={IIITVadodaraAboutDataTableHeading}
             locationSectionContent={IIITVadodaraCollegeLocationSectionContent} locationSectionHeadingId={IIITVadodaraCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITVadodaraCollegeNavigationConstants[1].title} locationSectionTableContent={IIITVadodaraLocationDataTableConstant} locationSectionTableHeading={IIITVadodaraLocationDataTableHeading}
@@ -3112,7 +3139,7 @@ const routes = [
     },
     {
         path: "/college/iiit/iiit-nagpur",
-        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Nagpur"
+        component: <IIITGenericCollegePage collegeImage={IIITNagpurCollegeImage} collegeName="Indian Institute of Information Technology Nagpur"
             collegePageNavigationConstants={IIITNagpurCollegeNavigationConstants}
             aboutSectionContent={IIITNagpurCollegeAboutSectionContent} aboutSectionHeadingId={IIITNagpurCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITNagpurCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITNagpurAboutDataTableConstant} aboutSectionTableHeading={IIITNagpurAboutDataTableHeading}
             locationSectionContent={IIITNagpurCollegeLocationSectionContent} locationSectionHeadingId={IIITNagpurCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITNagpurCollegeNavigationConstants[1].title} locationSectionTableContent={IIITNagpurLocationDataTableConstant} locationSectionTableHeading={IIITNagpurLocationDataTableHeading}
@@ -3127,7 +3154,7 @@ const routes = [
     },
     {
         path: "/college/iiit/iiit-kalyani",
-        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Kalyani"
+        component: <IIITGenericCollegePage collegeImage={IIITKalyaniCollegeImage} collegeName="Indian Institute of Information Technology Kalyani"
             collegePageNavigationConstants={IIITKalyaniCollegeNavigationConstants}
             aboutSectionContent={IIITKalyaniCollegeAboutSectionContent} aboutSectionHeadingId={IIITKalyaniCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITKalyaniCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITKalyaniAboutDataTableConstant} aboutSectionTableHeading={IIITKalyaniAboutDataTableHeading}
             locationSectionContent={IIITKalyaniCollegeLocationSectionContent} locationSectionHeadingId={IIITKalyaniCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITKalyaniCollegeNavigationConstants[1].title} locationSectionTableContent={IIITKalyaniLocationDataTableConstant} locationSectionTableHeading={IIITKalyaniLocationDataTableHeading}
@@ -3142,7 +3169,7 @@ const routes = [
     },
     {
         path: "/college/iiit/iiit-lucknow",
-        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Lucknow"
+        component: <IIITGenericCollegePage collegeImage={IIITLucknowCollegeImage} collegeName="Indian Institute of Information Technology Lucknow"
             collegePageNavigationConstants={IIITLucknowCollegeNavigationConstants}
             aboutSectionContent={IIITLucknowCollegeAboutSectionContent} aboutSectionHeadingId={IIITLucknowCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITLucknowCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITLucknowAboutDataTableConstant} aboutSectionTableHeading={IIITLucknowAboutDataTableHeading}
             locationSectionContent={IIITLucknowCollegeLocationSectionContent} locationSectionHeadingId={IIITLucknowCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITLucknowCollegeNavigationConstants[1].title} locationSectionTableContent={IIITLucknowLocationDataTableConstant} locationSectionTableHeading={IIITLucknowLocationDataTableHeading}
@@ -3157,7 +3184,7 @@ const routes = [
     },
     {
         path: "/college/iiit/iiit-dharwad",
-        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Dharwad"
+        component: <IIITGenericCollegePage collegeImage={IIITDharwadCollegeImage} collegeName="Indian Institute of Information Technology Dharwad"
             collegePageNavigationConstants={IIITDharwadCollegeNavigationConstants}
             aboutSectionContent={IIITDharwadCollegeAboutSectionContent} aboutSectionHeadingId={IIITDharwadCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITDharwadCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITDharwadAboutDataTableConstant} aboutSectionTableHeading={IIITDharwadAboutDataTableHeading}
             locationSectionContent={IIITDharwadCollegeLocationSectionContent} locationSectionHeadingId={IIITDharwadCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITDharwadCollegeNavigationConstants[1].title} locationSectionTableContent={IIITDharwadLocationDataTableConstant} locationSectionTableHeading={IIITDharwadLocationDataTableHeading}
@@ -3172,7 +3199,7 @@ const routes = [
     },
     {
         path: "/college/iiit/iiit-bhagalpur",
-        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Bhagalpur"
+        component: <IIITGenericCollegePage collegeImage={IIITBhagalpurCollegeImage} collegeName="Indian Institute of Information Technology Bhagalpur"
             collegePageNavigationConstants={IIITBhagalpurCollegeNavigationConstants}
             aboutSectionContent={IIITBhagalpurCollegeAboutSectionContent} aboutSectionHeadingId={IIITBhagalpurCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITBhagalpurCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITBhagalpurAboutDataTableConstant} aboutSectionTableHeading={IIITBhagalpurAboutDataTableHeading}
             locationSectionContent={IIITBhagalpurCollegeLocationSectionContent} locationSectionHeadingId={IIITBhagalpurCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITBhagalpurCollegeNavigationConstants[1].title} locationSectionTableContent={IIITBhagalpurLocationDataTableConstant} locationSectionTableHeading={IIITBhagalpurLocationDataTableHeading}
@@ -3187,7 +3214,7 @@ const routes = [
     },
     {
         path: "/college/iiit/iiit-bhopal",
-        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Bhopal"
+        component: <IIITGenericCollegePage collegeImage={IIITBhopalCollegeImage} collegeName="Indian Institute of Information Technology Bhopal"
             collegePageNavigationConstants={IIITBhopalCollegeNavigationConstants}
             aboutSectionContent={IIITBhopalCollegeAboutSectionContent} aboutSectionHeadingId={IIITBhopalCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITBhopalCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITBhopalAboutDataTableConstant} aboutSectionTableHeading={IIITBhopalAboutDataTableHeading}
             locationSectionContent={IIITBhopalCollegeLocationSectionContent} locationSectionHeadingId={IIITBhopalCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITBhopalCollegeNavigationConstants[1].title} locationSectionTableContent={IIITBhopalLocationDataTableConstant} locationSectionTableHeading={IIITBhopalLocationDataTableHeading}
@@ -3202,7 +3229,7 @@ const routes = [
     },
     {
         path: "/college/iiit/iiit-kottayam",
-        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Kottayam"
+        component: <IIITGenericCollegePage collegeImage={IIITKottayamCollegeImage} collegeName="Indian Institute of Information Technology Kottayam"
             collegePageNavigationConstants={IIITKottayamCollegeNavigationConstants}
             aboutSectionContent={IIITKottayamCollegeAboutSectionContent} aboutSectionHeadingId={IIITKottayamCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITKottayamCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITKottayamAboutDataTableConstant} aboutSectionTableHeading={IIITKottayamAboutDataTableHeading}
             locationSectionContent={IIITKottayamCollegeLocationSectionContent} locationSectionHeadingId={IIITKottayamCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITKottayamCollegeNavigationConstants[1].title} locationSectionTableContent={IIITKottayamLocationDataTableConstant} locationSectionTableHeading={IIITKottayamLocationDataTableHeading}
@@ -3217,7 +3244,7 @@ const routes = [
     },
     {
         path: "/college/iiit/iiit-ranchi",
-        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Ranchi"
+        component: <IIITGenericCollegePage collegeImage={IIITRanchiCollegeImage} collegeName="Indian Institute of Information Technology Ranchi"
             collegePageNavigationConstants={IIITRanchiCollegeNavigationConstants}
             aboutSectionContent={IIITRanchiCollegeAboutSectionContent} aboutSectionHeadingId={IIITRanchiCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITRanchiCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITRanchiAboutDataTableConstant} aboutSectionTableHeading={IIITRanchiAboutDataTableHeading}
             locationSectionContent={IIITRanchiCollegeLocationSectionContent} locationSectionHeadingId={IIITRanchiCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITRanchiCollegeNavigationConstants[1].title} locationSectionTableContent={IIITRanchiLocationDataTableConstant} locationSectionTableHeading={IIITRanchiLocationDataTableHeading}
@@ -3232,7 +3259,7 @@ const routes = [
     },
     {
         path: "/college/iiit/iiit-una",
-        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Una"
+        component: <IIITGenericCollegePage collegeImage={IIITUnaCollegeImage} collegeName="Indian Institute of Information Technology Una"
             collegePageNavigationConstants={IIITUnaCollegeNavigationConstants}
             aboutSectionContent={IIITUnaCollegeAboutSectionContent} aboutSectionHeadingId={IIITUnaCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITUnaCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITUnaAboutDataTableConstant} aboutSectionTableHeading={IIITUnaAboutDataTableHeading}
             locationSectionContent={IIITUnaCollegeLocationSectionContent} locationSectionHeadingId={IIITUnaCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITUnaCollegeNavigationConstants[1].title} locationSectionTableContent={IIITUnaLocationDataTableConstant} locationSectionTableHeading={IIITUnaLocationDataTableHeading}
@@ -3247,7 +3274,7 @@ const routes = [
     },
     {
         path: "/college/iiit/iiit-surat",
-        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Surat"
+        component: <IIITGenericCollegePage collegeImage={IIITSuratCollegeImage} collegeName="Indian Institute of Information Technology Surat"
             collegePageNavigationConstants={IIITSuratCollegeNavigationConstants}
             aboutSectionContent={IIITSuratCollegeAboutSectionContent} aboutSectionHeadingId={IIITSuratCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITSuratCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITSuratAboutDataTableConstant} aboutSectionTableHeading={IIITSuratAboutDataTableHeading}
             locationSectionContent={IIITSuratCollegeLocationSectionContent} locationSectionHeadingId={IIITSuratCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITSuratCollegeNavigationConstants[1].title} locationSectionTableContent={IIITSuratLocationDataTableConstant} locationSectionTableHeading={IIITSuratLocationDataTableHeading}
@@ -3262,7 +3289,7 @@ const routes = [
     },
     {
         path: "/college/iiit/iiit-manipur",
-        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Manipur"
+        component: <IIITGenericCollegePage collegeImage={IIITManipurCollegeImage} collegeName="Indian Institute of Information Technology Manipur"
             collegePageNavigationConstants={IIITManipurCollegeNavigationConstants}
             aboutSectionContent={IIITManipurCollegeAboutSectionContent} aboutSectionHeadingId={IIITManipurCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITManipurCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITManipurAboutDataTableConstant} aboutSectionTableHeading={IIITManipurAboutDataTableHeading}
             locationSectionContent={IIITManipurCollegeLocationSectionContent} locationSectionHeadingId={IIITManipurCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITManipurCollegeNavigationConstants[1].title} locationSectionTableContent={IIITManipurLocationDataTableConstant} locationSectionTableHeading={IIITManipurLocationDataTableHeading}
@@ -3277,7 +3304,7 @@ const routes = [
     },
     {
         path: "/college/iiit/iiit-kurnool",
-        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Kurnool"
+        component: <IIITGenericCollegePage collegeImage={IIITKurnoolCollegeImage} collegeName="Indian Institute of Information Technology Kurnool"
             collegePageNavigationConstants={IIITKurnoolCollegeNavigationConstants}
             aboutSectionContent={IIITKurnoolCollegeAboutSectionContent} aboutSectionHeadingId={IIITKurnoolCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITKurnoolCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITKurnoolAboutDataTableConstant} aboutSectionTableHeading={IIITKurnoolAboutDataTableHeading}
             locationSectionContent={IIITKurnoolCollegeLocationSectionContent} locationSectionHeadingId={IIITKurnoolCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITKurnoolCollegeNavigationConstants[1].title} locationSectionTableContent={IIITKurnoolLocationDataTableConstant} locationSectionTableHeading={IIITKurnoolLocationDataTableHeading}
@@ -3292,7 +3319,7 @@ const routes = [
     },
     {
         path: "/college/iiit/iiit-tiruchirappalli",
-        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Tiruchirapalli"
+        component: <IIITGenericCollegePage collegeImage={IIITTiruchirappalliCollegeImage} collegeName="Indian Institute of Information Technology Tiruchirapalli"
             collegePageNavigationConstants={IIITTiruchirapalliCollegeNavigationConstants}
             aboutSectionContent={IIITTiruchirapalliCollegeAboutSectionContent} aboutSectionHeadingId={IIITTiruchirapalliCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITTiruchirapalliCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITTiruchirapalliAboutDataTableConstant} aboutSectionTableHeading={IIITTiruchirapalliAboutDataTableHeading}
             locationSectionContent={IIITTiruchirapalliCollegeLocationSectionContent} locationSectionHeadingId={IIITTiruchirapalliCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITTiruchirapalliCollegeNavigationConstants[1].title} locationSectionTableContent={IIITTiruchirapalliLocationDataTableConstant} locationSectionTableHeading={IIITTiruchirapalliLocationDataTableHeading}
@@ -3307,7 +3334,7 @@ const routes = [
     },
     {
         path: "/college/iiit/iiit-sonepat",
-        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Sonepat"
+        component: <IIITGenericCollegePage collegeImage={IIITSonepatCollegeImage} collegeName="Indian Institute of Information Technology Sonepat"
             collegePageNavigationConstants={IIITSonepatCollegeNavigationConstants}
             aboutSectionContent={IIITSonepatCollegeAboutSectionContent} aboutSectionHeadingId={IIITSonepatCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITSonepatCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITSonepatAboutDataTableConstant} aboutSectionTableHeading={IIITSonepatAboutDataTableHeading}
             locationSectionContent={IIITSonepatCollegeLocationSectionContent} locationSectionHeadingId={IIITSonepatCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITSonepatCollegeNavigationConstants[1].title} locationSectionTableContent={IIITSonepatLocationDataTableConstant} locationSectionTableHeading={IIITSonepatLocationDataTableHeading}
@@ -3322,7 +3349,7 @@ const routes = [
     },
     {
         path: "/college/iiit/iiit-agartala",
-        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Agartala"
+        component: <IIITGenericCollegePage collegeImage={IIITAgartalaCollegeImage} collegeName="Indian Institute of Information Technology Agartala"
             collegePageNavigationConstants={IIITAgartalaCollegeNavigationConstants}
             aboutSectionContent={IIITAgartalaCollegeAboutSectionContent} aboutSectionHeadingId={IIITAgartalaCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITAgartalaCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITAgartalaAboutDataTableConstant} aboutSectionTableHeading={IIITAgartalaAboutDataTableHeading}
             locationSectionContent={IIITAgartalaCollegeLocationSectionContent} locationSectionHeadingId={IIITAgartalaCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITAgartalaCollegeNavigationConstants[1].title} locationSectionTableContent={IIITAgartalaLocationDataTableConstant} locationSectionTableHeading={IIITAgartalaLocationDataTableHeading}
@@ -3337,7 +3364,7 @@ const routes = [
     },
     {
         path: "/college/iiit/iiit-karnataka",
-        component: <IIITGenericCollegePage collegeImage={IITBombayCollegeImage} collegeName="Indian Institute of Information Technology Karnataka"
+        component: <IIITGenericCollegePage collegeImage={IIITKarnatakaCollegeImage} collegeName="Indian Institute of Information Technology Karnataka"
             collegePageNavigationConstants={IIITKarnatakaCollegeNavigationConstants}
             aboutSectionContent={IIITKarnatakaCollegeAboutSectionContent} aboutSectionHeadingId={IIITKarnatakaCollegeNavigationConstants[0].headingId} aboutSectionHeadingName={IIITKarnatakaCollegeNavigationConstants[0].title} aboutSectionTableContent={IIITKarnatakaAboutDataTableConstant} aboutSectionTableHeading={IIITKarnatakaAboutDataTableHeading}
             locationSectionContent={IIITKarnatakaCollegeLocationSectionContent} locationSectionHeadingId={IIITKarnatakaCollegeNavigationConstants[1].headingId} locationSectionHeadingName={IIITKarnatakaCollegeNavigationConstants[1].title} locationSectionTableContent={IIITKarnatakaLocationDataTableConstant} locationSectionTableHeading={IIITKarnatakaLocationDataTableHeading}
