@@ -59,3 +59,18 @@ const IITGenericCollegePage = (props : IIITGenericCollegeComponent) => {
 }
 
 export default IITGenericCollegePage
+
+/**
+ * 
+ * TODO : 
+ *  1. Add the footer to all the pages 
+ *  2. Add the banner images to all the pages 
+ *  3. Add the images besides the click here 
+ *  4. Add support for FAQ section on all the main pages like exam pages, counselling related pages
+ *  5. Remove mentorship pages
+ *  6. Fix the topbar responsiveness
+ *  7. Add the same NIRF ranking icon on both the sides
+ *  8. Fix the admission section with the bullet points indentation
+ *  9. Make the video responsive that comes when we give pop up message
+ *  10. Check all other finishing touches that needs to give for this purpose
+ */
