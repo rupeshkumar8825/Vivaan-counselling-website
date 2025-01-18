@@ -1,7 +1,6 @@
 // in this component we will show the video to joint the counselling
 // this acts as window pop up component where it will be shown when user clicks on the getCounselling button on home page
 
-import VideoCard from "../../components/VideoCardComponent"
 import EnrollCounsellingHelpDeskVideo from "../../assets/videos/EnrollCounsellingHelpDeskVideo.mp4"
 
 export interface IEnrollCounsellingBannerComponent{

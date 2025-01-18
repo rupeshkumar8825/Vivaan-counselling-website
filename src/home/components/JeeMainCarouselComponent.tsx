@@ -1,5 +1,3 @@
-import BannerComponent from "../../components/BannerComponent"
-import second from "../../assets/images/second.svg"
 import BannerVideoComponent from "../../components/BannerVideoComponent"
 // this is carousel component for jee mains banner
 const JeeMainCarouselComponent = () => {

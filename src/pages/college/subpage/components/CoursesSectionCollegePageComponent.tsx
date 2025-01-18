@@ -8,7 +8,6 @@ import CoursesSectionTableComponent from "./tables/CoursesSectionTableComponent"
 const CoursesSectionCollegePageComponent = (props : ICoursesSectionCollegePageComponent) => {
     // States of the component comes here
     const [courseType, setCourseType] = useState<string>("");
-    const [defaultCourseType, setDefaultCourseType] = useState<string>("");
     const [listOfAllCourse, setListOfAllCourse] = useState<string[]>([]);
     const [listOfAllCourseTypes, setListOfAllCourseTypes] = useState<string[]>([]);
 

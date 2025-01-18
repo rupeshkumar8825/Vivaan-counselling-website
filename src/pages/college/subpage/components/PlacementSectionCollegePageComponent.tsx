@@ -1,34 +1,9 @@
 // Component for placement section
-
-import { useEffect, useState } from "react";
 import BlogSectionComponent from "../../../../components/blog/BlogSectionComponent";
-import SelectComponent from "../../../../components/common/SelectComponent";
 import { IPlacementSectionCollegePageComponent } from "../../../../interfaces/interfaces";
 // import NITWarangalImage1 from "."
 // in this we will be showing the placement of the colleges for multiple years 
 const PlacementSectionCollegePageComponent = (props: IPlacementSectionCollegePageComponent) => {
-    // states for the component comes here
-    const [selectedPlacementYear, setSelectedPlacementYear] = useState<string>("");
-    const [listConsistingOnlyPlacementYears, setListConsistingOnlyPlacementYears] = useState<Array<string>>([]);
-
-    // handlers for the component comes here
-    const handlePlacementYearChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-        setSelectedPlacementYear(e.target.value);
-
-        // depending on the given value of year we have to show the data on the UI for this purpsoe
-
-    }
-
-    // useEffect for the component comes here
-    useEffect(() => {
-        // when the component is rendered for the first time do the following actions
-        // 1. clear the selected placement year
-        // 2. make a separate array for the placement years from the props
-        setSelectedPlacementYear("")
-        const listConsistingOnlyPlacementYears = props.collegePlacementDataConstant.map((currPlacementYear: any) => currPlacementYear.placementYear)
-        setListConsistingOnlyPlacementYears(listConsistingOnlyPlacementYears ? listConsistingOnlyPlacementYears : [])
-        console.log("this list images are as follows\n", props.imageArray)
-    }, [])
 
 
     return (

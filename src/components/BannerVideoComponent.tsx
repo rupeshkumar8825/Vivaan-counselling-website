@@ -1,8 +1,7 @@
 // this will be the banner component related to the video for this purpose
 
-import { IBannerComponent, IBannerVideoComponent } from "../interfaces/interfaces"
+import {  IBannerVideoComponent } from "../interfaces/interfaces"
 import ButtonComponent from "./ButtonComponent"
-import VideoCard from "./VideoCardComponent"
 
 const BannerVideoComponent = (props: IBannerVideoComponent) => {
     return (

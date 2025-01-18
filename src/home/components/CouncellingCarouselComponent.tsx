@@ -7,7 +7,6 @@ import dailyDoubtSolvingSession from "../../assets/images/fifth.svg"
 import completeGuidanceTillAdmission from "../../assets/images/sixth.svg"
 
 import BannerComponent from "../../components/BannerComponent"
-import LoginFormPage from "../../pages/authentication/LoginFormPage"
 import { useState } from "react"
 import EnrollCounsellingBannerComponent from "./EnrollCounsellingBannerComponent"
 

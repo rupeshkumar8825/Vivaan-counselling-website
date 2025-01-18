@@ -1,4 +1,3 @@
-import React from 'react';
 import TopBannerCounsellingHelpDeskBanner from "../../assets/images/TopBanner/TopBannerCounsellingHelpDesk.png";
 import TobBannerJoinWhatsappGroupBanner from "../../assets/images/TopBanner/TopBannerJoinWhatsappGroup.png";
 
@@ -15,6 +14,9 @@ const TopBanner = () => {
                 {/* Item 2 */}
                 <div className="hidden duration-700 ease-in-out" data-carousel-item>
                     <img src={TobBannerJoinWhatsappGroupBanner} className="absolute block h-20 sm:h-24 md:h-28 lg:h-36 xl:h-52 w-full object-cover" alt="Join Whatsapp Group Banner" />
+                </div>
+                <div>
+                    some text here
                 </div>
                 {/* Item 3 */}
                 {/* <div className="hidden duration-700 ease-in-out" data-carousel-item>

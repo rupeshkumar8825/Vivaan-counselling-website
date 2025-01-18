@@ -1,5 +1,3 @@
-import BannerComponent from "../../components/BannerComponent"
-import third from "../../assets/images/third.svg"
 import BannerVideoComponent from "../../components/BannerVideoComponent"
 
 

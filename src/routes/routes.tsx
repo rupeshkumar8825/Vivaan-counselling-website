@@ -1,7 +1,6 @@
 // File for storing all the routes 
 
 import HomePage from "../home/HomePage";
-import LoginFormPage from "../pages/authentication/LoginFormPage";
 import RegisterFormPage from "../pages/authentication/RegisterFormPage";
 import CollegeHomePage from "../pages/college/CollegeHomePage";
 import IIITCollegePage from "../pages/college/IIITCollegePage";

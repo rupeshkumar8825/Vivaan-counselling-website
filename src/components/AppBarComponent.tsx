@@ -1,4 +1,3 @@
-import { useNavigate} from "react-router-dom"
 import DropDownMenuComponent from "./DropDownMenuComponent"
 import { collegeRoutesList, collegeSubMenuList, counsellingRouteList, counsellingSubMenuList, examRouteList, examSubMenuList, mentorshipRouteList, mentorshipSubMenuList } from "../constants/AppBarConstants"
 import appLogo from "../assets/Logo.jpg"
@@ -21,13 +20,13 @@ const AppBarComponent = () => {
     }
 
 
-    const navigate = useNavigate()
+    // const navigate = useNavigate()
     // defining the handlers for the appbar
-    const handleLoginClickHandler = () => {
-        console.log("the user has clicked on the login button and user wants to login to the website")
-        console.log("hence redirecting the user to the appropriate webpage for  this purpose")
-        navigate("/login")
-    }
+    // const handleLoginClickHandler = () => {
+    //     console.log("the user has clicked on the login button and user wants to login to the website")
+    //     console.log("hence redirecting the user to the appropriate webpage for  this purpose")
+    //     navigate("/login")
+    // }
 
 
     return (

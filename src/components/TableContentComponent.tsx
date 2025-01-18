@@ -2,10 +2,20 @@
 // few of use cases where we are going to use this component are as follows: 
 // 1. Data Showing the fees in the form of table in the college pages
 
-import { IITBombayFeesDataTableConstant, IITBombayFeesDataTableHeading } from "../constants/college/IIT/FeesDataForIITCollegeConstant";
+// import { IITBombayFeesDataTableConstant, IITBombayFeesDataTableHeading } from "../constants/college/IIT/FeesDataForIITCollegeConstant";
 
 
 const TableContentComponent = () => {
+    const IITBombayFeesDataTableHeading = ["Fees", "Amount"];
+    const IITBombayFeesDataTableConstant = [
+        ["Tuition Fees", "₹ 1,00,000"],
+        ["Hostel Fees", "₹ 10,000"],
+        ["Mess Fees", "₹ 20,000"],
+        ["Other Fees", "₹ 10,000"],
+        ["Total Fees", "₹ 1,40,000"]
+    ];
+
+    
     return (
         <div className="relative overflow-x-auto  flex items-center justify-center p-10">
                 <table className="w-3/4 text-sm text-left rtl:text-right text-gray-400">

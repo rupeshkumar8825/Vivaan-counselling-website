@@ -1,5 +1,4 @@
 import BlogSectionComponent from '../../../../components/blog/BlogSectionComponent';
-import TableContentComponent from '../../../../components/TableContentComponent';
 import { IFeesSectionCollegePageComponent } from '../../../../interfaces/interfaces';
 import FeeSectionTableComponent from './tables/FeeSectionTableComponent';
 
@@ -14,7 +13,6 @@ const FeesSectionCollegePageComponent = (props : IFeesSectionCollegePageComponen
             {/* then comes the hotel fee table here if applicable for this purpose*/}
             <FeeSectionTableComponent tableContentHeading={props.feeSectionHostelFeeTableHeading? props.feeSectionHostelFeeTableHeading : []} tableContent={props.feeSectionHostelFeeTableContent? props.feeSectionHostelFeeTableContent : []}></FeeSectionTableComponent>
 
-            {/* <TableContentComponent></TableContentComponent> */}
             {/* <feesection */}
             <BlogSectionComponent headingId='' headingName={props.headingName} content={props.content}></BlogSectionComponent>
         </div>
