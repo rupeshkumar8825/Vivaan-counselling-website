@@ -2,7 +2,7 @@ import DropDownMenuComponent from "./DropDownMenuComponent"
 import { collegeRoutesList, collegeSubMenuList, counsellingRouteList, counsellingSubMenuList, examRouteList, examSubMenuList, mentorshipRouteList, mentorshipSubMenuList } from "../constants/AppBarConstants"
 import appLogo from "../assets/Logo.jpg"
 import whatsAppLogo from "../assets/images/WhatsAppLogo.png"
-import instagramLogo from "../assets/images/InstagramLogo.png"
+import instagramLogo from "../assets/images/InstagramFinalLogo.png"
 import ShareLogo from "../assets/images/YoutubeShareLogo.png"
 
 
