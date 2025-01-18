@@ -1,7 +1,8 @@
 // in this component we will show the video to joint the counselling
 // this acts as window pop up component where it will be shown when user clicks on the getCounselling button on home page
 
-import EnrollCounsellingHelpDeskVideo from "../../assets/videos/enrollCounsellingHelpDeskVideo.mp4"
+// import EnrollCounsellingHelpDeskVideo from "../../assets/videos/enrollCounsellingHelpDeskVideo.mp4"
+// import enrollCounsellingHelpdeskVideo from "../../assets/videos/EnrollCounsellingHelpDeskVideoFinal.mp4"
 
 export interface IEnrollCounsellingBannerComponent{
     buttonHandler : () => void
@@ -53,7 +54,7 @@ const CounsellingVideoComponent = () => {
     return (
         <>
         <video className="border-2 border-slate-500 bg-shadow rounded-lg " width="600" autoPlay ={true} controls>
-            <source src={EnrollCounsellingHelpDeskVideo} type="video/mp4" />
+            <source src={""} type="video/mp4" />
             Your browser does not support the video tag.
         </video>
         
