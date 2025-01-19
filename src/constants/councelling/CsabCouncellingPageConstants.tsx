@@ -3,7 +3,7 @@
 import CsabCounsellingCounsellingProcessImage from "../../assets/images/counselling/csab/Csab-CounsellingProcess.png"
 import CsabCounsellingEligibilityRoundsImage from "../../assets/images/counselling/csab/CSAB-EligibilityRounds.png"
 import CsabCounsellingDatesImage from "../../assets/images/counselling/csab/Csab-CounsellingDates.png"
-
+import ClickHereLogo from "../../assets/images/other/click-here-logo.png"
 
 // OVERVIEW  COMPONENT FOR JOSAA COUNsELLING PAGE 
 // constant for storing the submenu names which we have to show in dropdown
@@ -205,7 +205,7 @@ As per last year following are the schedule:
 
 // "Document Required for CSAB Counselling", 
 `
-Click here to know the complete detail of document required for csab counselling 2025
+<a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to know the complete detail of document required for csab counselling 2025
 
 `,
 
@@ -332,7 +332,7 @@ After completion of CSAB Special Rounds (I & II), candidates who have confirmed 
 
 // "CSAB Counselling 2024 Opening and Closing Rank", 
 `
- Click here to know the detail of opening and closing rank of josaa 2024
+ <a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to know the detail of opening and closing rank of josaa 2024
     1. NIT College
     2. IIT College
     3. IIIT College
@@ -342,12 +342,12 @@ After completion of CSAB Special Rounds (I & II), candidates who have confirmed 
 
 // "CSAB Counselling 2025 Certificate Format", 
 `
-1. Certificate format of OBC - NCL Click here to download
-2. Certificate format of EWS : Click here to download
-3. Certificate format of SC - NCL Click here to download
-4. Certificate format of ST- NCL Click here to download
-5. Certificate format of PWD: Click here to download
-6. Certificate format to change category : Click here to download
+1. Certificate format of OBC - NCL <a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to download
+2. Certificate format of EWS : <a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to download
+3. Certificate format of SC - NCL <a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to download
+4. Certificate format of ST- NCL <a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to download
+5. Certificate format of PWD: <a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to download
+6. Certificate format to change category : <a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to download
 
 `,
 

@@ -2,6 +2,8 @@
 // importing the required images to be shown on the blog page for this purpose
 
 import WbJeeExamPatternImage from "../../assets/images/exam/WbJee/WbJee-Exam-Pattern.png"
+import ClickHereLogo from "../../assets/images/other/click-here-logo.png"
+
 //OVERVIEW COMPONENT 
 // constant for showing the various options related to jee advance in dropdown button
 export const WBJeeExamSubMenuList : Array<string> = [
@@ -286,7 +288,7 @@ The lower age limit is 17 (seventeen) years as of 31.12.2025. A candidate should
 
 // "WBJEE 2025 Syllabus", 
 `
-Click here to download WBJEE 2025 syllabus
+<a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to download WBJEE 2025 syllabus
 `,
 
 
@@ -296,12 +298,12 @@ Click here to download WBJEE 2025 syllabus
 
 
 // "WBJEE Marks vs Rank", 
-`Click here to watch marks vs rank in wbjee exam 2025
+`<a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to watch marks vs rank in wbjee exam 2025
 `,
 
 
 // "WBJEE 2025 Counselling Process"
-`Click here to know the complete counselling process of WBJEE 2025
+`<a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to know the complete counselling process of WBJEE 2025
 `,
 
 

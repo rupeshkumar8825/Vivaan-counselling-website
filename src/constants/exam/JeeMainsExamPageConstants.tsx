@@ -236,7 +236,7 @@ However, OCI passing the Class XII (or equivalent) examination from an instituti
     
 // Syllabus
 // `<span style ="color : white;" class="underline""><a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer">Click here</a></span> to download JEE main latest syllabus`,
-`<span style="color: white;" class="underline"><a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer">Click here</a></span> <img src=${ClickHereLogo} alt="Download Icon" style="width: 50px; height: 20px; margin-left: 5px; border-radius:8px; display:inline-block; vertical-align:middle;" /> to download JEE main latest syllabus`,
+`<a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to download JEE main latest syllabus`,
 
     
     
@@ -263,18 +263,18 @@ seats in every course. a) OBCs should be listed in the current updated central l
     
 
 // JEE Main Results
-`<span style ="color : white;" class="underline""><a href="JEEmain.nta.nic.in" target="_blank" rel="noopener noreferrer">Click here</a> </span> to get JEE Main 2025 Result.`,
+`<a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to get JEE Main 2025 Result.`,
 
 // JEE Main Marks vs Percentile
-`<span style ="color : white;" class="underline""><a href="JEEmain.nta.nic.in" target="_blank" rel="noopener noreferrer">Click here</a> </span> to watch marks vs percentile for JEE main 2025(here we will add the youtube video
+`<a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to watch marks vs percentile for JEE main 2025(here we will add the youtube video
 link)`,
 
 
 // JEE Main Counselling Process
 `JEE Counselling process will consist of two step\n
-1. JOSAA (Click here to know the complete counselling process of JEE Main 2025)
+1. JOSAA (<a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to know the complete counselling process of JEE Main 2025)
 
-2. CSAB (Click here to know the complete counselling process of JEE Main 2025)
+2. CSAB (<a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to know the complete counselling process of JEE Main 2025)
 `
 
 ]

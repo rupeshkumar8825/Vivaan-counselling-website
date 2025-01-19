@@ -68,10 +68,10 @@ export default IITGenericCollegePage
  * TODO : 
  *  1. Add the footer to all the pages (done)
  *  2. Add the banner images to all the pages (done)
- *  3. Add the images besides the click here 
+ *  3. Add the images besides the click here (in progresss)
  *  4. Add support for FAQ section on all the main pages like exam pages, counselling related pages(Done)
  *  5. Remove mentorship pages
- *  6. Fix the topbar responsiveness(in progress)
+ *  6. Fix the topbar responsiveness(done)
  *  7. Add the same NIRF ranking icon on both the sides(Done)
  *  8. Fix the admission section with the bullet points indentation
  *  9. Make the video responsive that comes when we give pop up message

@@ -2,7 +2,7 @@
 // constants for the jacdelhi counselling page for this purpose
 // constant page for the csab related stuff 
 // here we will store the constants related to the josaa counselling page 
-
+import ClickHereLogo from "../../assets/images/other/click-here-logo.png"
 
 // OVERVIEW  COMPONENT FOR JOSAA COUNSELLING PAGE 
 // constant for storing the submenu names which we have to show in dropdown
@@ -147,10 +147,10 @@ export const WbJEECounsellingPageContentList : Array<string> = [
 
 
 // "WBJEE Counselling Application Form", 
-`WBJEE counselling form will be released soon,Join counselling group to get update,once released,<span style = "color : white; font-weight: bold; padding:1px; border-radius : 5px; font-size: larger;" class="">Click here to Join </span> `,
+`WBJEE counselling form will be released soon,Join counselling group to get update,once released,<a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to Join`,
 
 // "WBJEE Counselling Dates 2025", 
-`WBJEE counselling date will be released soon,Join counselling group to get update,once released,<span style = "color : white; font-weight: bold; padding:1px; border-radius : 5px; font-size: larger;" class="">Click here to Join</span> `,
+`WBJEE counselling date will be released soon,Join counselling group to get update,once released,<a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to Join `,
 
 
 // "WBJEE Counselling 2025 Process", 
@@ -318,7 +318,7 @@ COPY FORM ABOVE PDF
 
 
 // "WBJEE Counselling 2025 Opening and Closing Rank", 
-`Click here to know the detail of opening and closing rank of josaa 2024
+`<a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to know the detail of opening and closing rank of josaa 2024
 `,
 
 
@@ -337,12 +337,12 @@ iii. A student could also get a refund if they pay the seat acceptance fee but d
 
 
 // "WBJEE Counselling 2025 Certificate Format", 
-`(a)Certificate format of OBC - NCL Click here to download
-(b)Certificate format of EWS : Click here to download
-(c)Certificate format of SC - NCL Click here to download
-(d)Certificate format of ST- NCL Click here to download
-(D)Certificate format of PWD: Click here to download
-(F)Certificate format to change category : Click here to download
+`(a)Certificate format of OBC - NCL <a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to download
+(b)Certificate format of EWS : <a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to download
+(c)Certificate format of SC - NCL <a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to download
+(d)Certificate format of ST- NCL <a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to download
+(D)Certificate format of PWD: <a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to download
+(F)Certificate format to change category : <a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to download
 `,
 
 

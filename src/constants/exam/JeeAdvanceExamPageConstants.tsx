@@ -4,7 +4,7 @@ import JeeAdvanceExamDatesImage from "../../assets/images/exam/JeeAdvance/Jee-Ad
 import JeeAdvanceExamCutoffImage from "../../assets/images/exam/JeeAdvance/Jee-Advance-Cutoff.png"
 import JeeAdvanceCategoryWiseImage from "../../assets/images/exam/JeeAdvance/Jee-Adance-Category-Wise-Distribution.png"
 import JeeAdvanceQualifyingMarksImage from "../../assets/images/exam/JeeAdvance/Jee-Advance-Qualifying-Marks.png"
-
+import ClickHereLogo from "../../assets/images/other/click-here-logo.png"
 
 //OVERVIEW COMPONENT 
 // constant for showing the various options related to jee advance in dropdown button
@@ -263,19 +263,19 @@ However, in all of the above cases, the candidate is also required to fulfil the
 `,
 
 // Jee Advance 2025 Syllabus
-`<span style ="color : white;" class="underline""><a href="https://jeeadv.ac.in/documents/jee-advanced-2025-syllabus.pdf " target="_blank" rel="noopener noreferrer">Click here</a> </span> to download JEE Advanced 2025 Syllabus.`,
+`<a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to download JEE Advanced 2025 Syllabus.`,
 
 // Jee Advance 2025 Results
 `JEE Advance result will be declared soon on jee advance website
-<span style ="color : white;" class="underline""><a href="(https://cportal.jeeadv.ac.in/applicant24/ " target="_blank" rel="noopener noreferrer">Click here</a> </span> to download JEE Advanced 2024 score.`,
+<a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to download JEE Advanced 2024 score.`,
 
 // Jee Advance Marks vs Rank
-`<span style ="color : white;" class="underline""><a href="(https://cportal.jeeadv.ac.in/applicant24/ " target="_blank" rel="noopener noreferrer">Click here</a> </span> to watch marks vs rank video in detail.`,
+`<a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to watch marks vs rank video in detail.`,
 
 // Jee Advance Counselling Process
 `Jee advanced Counselling process will consist of two step\n
-a):JOSAA (Click here to know the complete counselling process of JEE Advanced 2025)\n
-B:)CSAB (Click here to know the complete counselling process of JEE Advanced 2025)
+a):JOSAA (<a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to know the complete counselling process of JEE Advanced 2025)\n
+B:)CSAB (<a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to know the complete counselling process of JEE Advanced 2025)
 `,
 ]
 

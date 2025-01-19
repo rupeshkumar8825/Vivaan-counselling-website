@@ -2,6 +2,7 @@
 // import IITBombayCollegeImage from "../../assets/images/IIT/iit-bombay.png"
 import JosaaEligibilityCriteriaImage from "../../assets/images/counselling/josaa/Josaa-Counselling-Eligibility-Criteria.png"
 import JosaaCounsellingDatesImage from "../../assets/images/counselling/josaa/Josaa-Counselling-Dates.png"
+import ClickHereLogo from "../../assets/images/other/click-here-logo.png"
 
 // OVERVIEW  COMPONENT FOR JOSAA COUNsELLING PAGE 
 // constant for storing the submenu names which we have to show in dropdown
@@ -171,7 +172,7 @@ Following are the last year scheduled for JoSAA counselling 2024:
 `Each and every candidate who satisfies one or more of the following criteria is eligible for participation in joint seat allocation:`,
     
 // 4 Counselling Application Form
-    `To be released after JEE Advanced 2025 result,Click here to get notification.
+    `To be released after JEE Advanced 2025 result,<a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to get notification.
  `,   
       
 // 5 Counselling 2025 process
@@ -293,22 +294,22 @@ After last round of josaa counselling, candidate have to pay the partial admissi
 
 // 9 Physical Reporting at the Allotted Institute
 `
-Click here to know the complete process of physical reporting after successful payment of partial admission fee
+<a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to know the complete process of physical reporting after successful payment of partial admission fee
 
 `,
 
 
 // 10 JOSAA Counselling Certificate Format
-`1. Certificate format of OBC - NCL : Click here to download
-2. Certificate format of EWS : Click here to download
-3. Certificate format of SC : Click here to download
-4. Certificate format of ST : Click here to download
-5. Certificate format of PWD: Click here to download
-6. Certificate format to change category : Click here to download
+`1. Certificate format of OBC - NCL : <a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to download
+2. Certificate format of EWS : <a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to download
+3. Certificate format of SC : <a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to download
+4. Certificate format of ST : <a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to download
+5. Certificate format of PWD: <a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to download
+6. Certificate format to change category : <a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to download
 `,
 
 // 11 JOSAA Counselling 2024 OR-CR
-`Click here to know the detail of opening and closing rank of josaa 2024
+`<a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to know the detail of opening and closing rank of josaa 2024
     1. NIT College
     2. IIT College
     3. IIIT College

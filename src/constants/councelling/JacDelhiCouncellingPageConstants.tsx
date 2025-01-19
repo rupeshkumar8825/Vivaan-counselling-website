@@ -4,7 +4,7 @@
 // importing the images that needs to be showed in the blog section itself
 import JACDelhiCounsellingDatesImages from "../../assets/images/counselling/JacDelhi/JAC-CounsellingDates.png"
 import JACDelhiCounsellingParticipatingInstitutesImages from "../../assets/images/counselling/JacDelhi/JAC-ParticipatingInstitutes.png"
-
+import ClickHereLogo from "../../assets/images/other/click-here-logo.png"
 
 // OVERVIEW  COMPONENT FOR JOSAA COUNSELLING PAGE 
 // constant for storing the submenu names which we have to show in dropdown
@@ -389,7 +389,7 @@ xii) PD sub-category:
     
 // "JAC Delhi Counselling 2025 OR-CR", 
 `
-Click here to know the detail of opening and closing rank of josaa 2024
+<a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to know the detail of opening and closing rank of josaa 2024
     (a)DTU College
     (b)NSUT College
     (c)IIIT D College
@@ -398,12 +398,12 @@ Click here to know the detail of opening and closing rank of josaa 2024
     
 // "JAC Delhi 2025 Counselling Certificate Format"
 `
-1. Certificate format of OBC - NCL Click here to download
-2. Certificate format of EWS : Click here to download
-3. Certificate format of SC - NCL Click here to download
-4. Certificate format of ST- NCL Click here to download
-5. Certificate format of PWD: Click here to download
-6. Certificate format to change category : Click here to download
+1. Certificate format of OBC - NCL <a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to download
+2. Certificate format of EWS : <a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to download
+3. Certificate format of SC - NCL <a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to download
+4. Certificate format of ST- NCL <a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to download
+5. Certificate format of PWD: <a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to download
+6. Certificate format to change category : <a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to download
 
 `,
     

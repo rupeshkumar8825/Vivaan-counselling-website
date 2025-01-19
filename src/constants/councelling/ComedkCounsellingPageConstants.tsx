@@ -6,6 +6,7 @@
 // here we will store the constants related to the josaa counselling page 
 // importing the images from asssets folder for the blogsection 
 import ComedkCounsellingProcessImage from "../../assets/images/counselling/Comedk/Comedk-Counselling-Process.png"
+import ClickHereLogo from "../../assets/images/other/click-here-logo.png"
 
 // OVERVIEW  COMPONENT FOR JOSAA COUNSELLING PAGE 
 // constant for storing the submenu names which we have to show in dropdown
@@ -159,7 +160,7 @@ export const ComedkCounsellingPageContentList : Array<string> = [
 
 // "Comedk Counselling dates 2025", 
 `To be released soon, join counselling group to get update instantly once released, 
-<span style = "color : white; font-weight: bold; padding:1px; font-size: medium;" class="">Click Here </span> to join
+<a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to join
 `,
 
 // "How to do Registration For Online Counselling", 
@@ -293,7 +294,7 @@ DETAILS OF FEE d. The upper limit of annual tuition fee as agreed between the St
 
 // "Comedk Counselling 2025 Opening and Closing ",
 `
-Click here to know the detail of opening and closing rank of josaa 2024
+<a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to know the detail of opening and closing rank of josaa 2024
     1. WBJEECollege
 
 
@@ -301,12 +302,12 @@ Click here to know the detail of opening and closing rank of josaa 2024
 
 // "Comedk Counselling 2025 Certificate Format",
 `
-1. Certificate format of OBC - NCL Click here to download
-2. Certificate format of EWS : Click here to download
-3. Certificate format of SC - NCL Click here to download
-4. Certificate format of ST- NCL Click here to download
-5. Certificate format of PWD: Click here to download
-6. Certificate format to change category : Click here to download
+1. Certificate format of OBC - NCL <a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to download
+2. Certificate format of EWS : <a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to download
+3. Certificate format of SC - NCL <a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to download
+4. Certificate format of ST- NCL <a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to download
+5. Certificate format of PWD: <a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to download
+6. Certificate format to change category : <a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to download
 
 `,
 

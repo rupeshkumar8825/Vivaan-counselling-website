@@ -6,6 +6,8 @@ import BitSatCutoffHyderabadCampusImage from "../../assets/images/exam/Bitsat/bi
 import BitSatExamPatternImage from "../../assets/images/exam/Bitsat/Bitsat-exam-pattern.png"
 import BitSatNumberOfQuestionImage from "../../assets/images/exam/Bitsat/bitsat-number-of-questions.png"
 import BitSatScholarshipImage from "../../assets/images/exam/Bitsat/bitsat-scholarship.png"
+import ClickHereLogo from "../../assets/images/other/click-here-logo.png"
+
 
 //OVERVIEW COMPONENT 
 // constant for showing the various options related to jee advance in dropdown button
@@ -319,7 +321,7 @@ First rank students of State and Central boards in India for the year 2025 will 
 
 
 // "BITSAT Exam 2025 Syllabus",
-`Click here to download the syllabus of bitsat exam 2025
+`<a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to download the syllabus of bitsat exam 2025
 `,
 
 
@@ -333,7 +335,7 @@ This activity confirms that the student has checked his/her marks before logging
 
 
 // "BITSAT Marks vs Rank",
-`Click here to watch complete detail of marks vs rank in bitsat 2025
+`<a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to watch complete detail of marks vs rank in bitsat 2025
 `,
 
 

@@ -5,6 +5,8 @@ import MhtCetExamDatesImage from "../../assets/images/exam/Mhcet/MhtCet-ExamDate
 import MhtCetExamPatternImage from "../../assets/images/exam/Mhcet/MhctCet-ExamPattern.png"
 import MhtCetExamScheduleImage1 from "../../assets/images/exam/Mhcet/MhtCet-ExamSchedule-1.png"
 import MhtCetExamScheduleImage2 from "../../assets/images/exam/Mhcet/MhtCet-ExamSchedule2.png"
+import ClickHereLogo from "../../assets/images/other/click-here-logo.png"
+
 //OVERVIEW COMPONENT 
 // constant for showing the various options related to jee advance in dropdown button
 export const MhtCetExamSubMenuList : Array<string> = [
@@ -306,11 +308,11 @@ Candidates should fill preference options for the preferred examination centers 
 `,
 
 // "MH CET 2025 Marks vs Rank", 
-`Click here to watch complete detail of marks vs rank for MH CET 2025
+`<a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to watch complete detail of marks vs rank for MH CET 2025
 `,
 
 // "MH CET Counselling Process"
-`Click here to know the complete detail of MH CET 2025 counselling process
+`<a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener noreferrer"><img src=${ClickHereLogo} alt="Download Icon" style="width: 70px; height: 20px; margin-left: 0px; border-radius:8px; display:inline-block; vertical-align:middle;" /></a> to know the complete detail of MH CET 2025 counselling process
 `,
 
     
