@@ -2,6 +2,8 @@
 import TableOfContentsComponent from './TableOfContentsComponent';
 import BlogSectionComponent from './BlogSectionComponent';
 import { IBlogComponent } from '../../interfaces/interfaces';
+import FAQComponent from '../common/FAQComponent';
+import BlogHeadingComponent from './BlogHeadingComponent';
 
 
 // App component for the main layout
@@ -24,7 +26,13 @@ const BlogComponent = (props : IBlogComponent) => {
                         isPreviousHeadingEmpty = {(index > 0 && props.headingIdList[index-1] == "") ? true : false}
                         />
                     ))}
+                    <div id = {"FAQ"} className="p-6 bg-blue rounded-lg border-2 border-slate-800 border-b-0 shadow-lg shadow-md mt-4">
+                        <BlogHeadingComponent headingName={"FAQ"}></BlogHeadingComponent>
+                        <FAQComponent></FAQComponent>
+                    </div>
                 </div>
+                {/* <div className='md:col-span-2 border-2 border-gray-300'>
+                </div> */}
                 {/* Table of Contents */}
                 <div className='hidden md:block '>
                     <TableOfContentsComponent headingIdList={props.headingIdList} headingNameList={props.tableOfContentsList}/>

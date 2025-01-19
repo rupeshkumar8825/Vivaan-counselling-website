@@ -68,7 +68,7 @@ export default IITGenericCollegePage
  *  1. Add the footer to all the pages (done)
  *  2. Add the banner images to all the pages (done)
  *  3. Add the images besides the click here 
- *  4. Add support for FAQ section on all the main pages like exam pages, counselling related pages
+ *  4. Add support for FAQ section on all the main pages like exam pages, counselling related pages(in progress)
  *  5. Remove mentorship pages
  *  6. Fix the topbar responsiveness
  *  7. Add the same NIRF ranking icon on both the sides(Done)
