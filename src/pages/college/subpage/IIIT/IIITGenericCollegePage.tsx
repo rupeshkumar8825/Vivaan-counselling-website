@@ -10,6 +10,7 @@ import AdmissionSectionCollegePageComponent from "../components/AdmissionSection
 import CollegePageNavigationComponent from "../components/CollegePageNavigationComponent"
 import CoursesSectionCollegePageComponent from "../components/CoursesSectionCollegePageComponent"
 import CutoffSectionCollegePageComponent from "../components/CutoffSectionCollegePageComponent"
+import FAQSectionCollegePageComponent from "../components/FAQSectionCollegePageComponent"
 import FeesSectionCollegePageComponent from "../components/FeesSectionCollegePageComponent"
 import LocationSectionCollegeComponent from "../components/LocationSectionCollegeComponent"
 import PlacementSectionCollegePageComponent from "../components/PlacementSectionCollegePageComponent"
@@ -41,7 +42,7 @@ const IIITGenericCollegePage = (props : IIIITGenericCollegeComponent) => {
                 <SeatSectionCollegeComponent headingId={props.seatSectionHeadingId} headingName={props.seatSectionHeadingName} content={props.seatSectionContent} seatSectionTableContent={props.seatSectionTableContent} seatSectionTableHeading={props.seatSectionTableHeading}></SeatSectionCollegeComponent>
                 <CutoffSectionCollegePageComponent headingId={props.cutoffSectionHeadingId} headingName={props.cutoffSectionHeadingName} content={props.cutoffSectionContent}></CutoffSectionCollegePageComponent>
                 <PlacementSectionCollegePageComponent collegePlacementDataConstant={props.collegePlacementDataConstant} headingId={props.placementSectionHeadingId} headingName={props.placementSectionHeadingName} content={props.placementSectionContent} imageArray={props.placementImageList}></PlacementSectionCollegePageComponent>
-
+                <FAQSectionCollegePageComponent></FAQSectionCollegePageComponent>
             </div>
         </div>
     )

@@ -503,3 +503,12 @@ export interface ICourseTableContentComponent {
     tableContentHeading : Array<string>, 
     tableContent : Array<string>
 }
+
+export interface ISingleFAQElement{
+    question : string, 
+    answer : string
+}
+
+export interface IFAQSectionCollegePageComponent {
+    faqList : Array<ISingleFAQElement>
+}
