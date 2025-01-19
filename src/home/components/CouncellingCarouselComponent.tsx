@@ -39,13 +39,13 @@ const CounsellingCarouselComponent = () => {
                         <BannerComponent bannerText1="Daily Doubt Solving Session" bannerText2="Some text to add" bannerImage={dailyDoubtSolvingSession} bannerButtonWidth="44" bannerButtonName="Get Councelling" bannerButttonEventHandler={getCounsellingEventHandler}></BannerComponent>
                         <BannerComponent bannerText1="Complete Guidance" bannerText2="Till Your Admission" bannerImage={completeGuidanceTillAdmission} bannerButtonWidth="44" bannerButtonName="Get Councelling" bannerButttonEventHandler={getCounsellingEventHandler}></BannerComponent>
                     </div>
-                    <div className="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
-                        <button type="button" className="w-1 h-1 sm:w- md:w- lg:w- xl:w-3 sm:h- md:h- lg:h- xl:h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
-                        <button type="button" className="w-1 h-1 sm:w- md:w- lg:w- xl:w- sm:h- md:h- lg:h- xl:h- rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-                        <button type="button" className="w-1 h-1 sm:w- md:w- lg:w- xl:w- sm:h- md:h- lg:h- xl:h- rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
-                        <button type="button" className="w-1 h-1 sm:w- md:w- lg:w- xl:w- sm:h- md:h- lg:h- xl:h- rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
-                        <button type="button" className="w-1 h-1 sm:w- md:w- lg:w- xl:w- sm:h- md:h- lg:h- xl:h- rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
-                        <button type="button" className="w-1 h-1 sm:w- md:w- lg:w- xl:w- sm:h- md:h- lg:h- xl:h- rounded-full" aria-current="false" aria-label="Slide 6" data-carousel-slide-to="5"></button>
+                    <div className="absolute z-50 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse border-2 border-white">
+                        <button type="button" className="w-1 h-1 sm:w-2 md:w-2 lg:w-2 xl:w-3 sm:h-2 md:h-2 lg:h-2 xl:h-3 rounded-full bg-white" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+                        <button type="button" className="w-1 h-1 sm:w-2 md:w-2 lg:w-2 xl:w-3 sm:h-2 md:h-2 lg:h-2 xl:h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+                        <button type="button" className="w-1 h-1 sm:w-2 md:w-2 lg:w-2 xl:w-3 sm:h-2 md:h-2 lg:h-2 xl:h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+                        <button type="button" className="w-1 h-1 sm:w-2 md:w-2 lg:w-2 xl:w-3 sm:h-2 md:h-2 lg:h-2 xl:h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+                        <button type="button" className="w-1 h-1 sm:w-2 md:w-2 lg:w-2 xl:w-3 sm:h-2 md:h-2 lg:h-2 xl:h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
+                        <button type="button" className="w-1 h-1 sm:w-2 md:w-2 lg:w-2 xl:w-3 sm:h-2 md:h-2 lg:h-2 xl:h-3 rounded-full" aria-current="false" aria-label="Slide 6" data-carousel-slide-to="5"></button>
                     </div>
                     <button type="button" className="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
                         <span className="inline-flex items-center justify-center w-5 h-5 sm:w-5 md:w-7 lg:w-9 xl:w-10 sm:h-5 md:h-7 lg:h-9 xl:h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
