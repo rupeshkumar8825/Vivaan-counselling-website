@@ -5,7 +5,7 @@ import BlogComponent from "../../components/blog/BlogComponent"
 import { JeeMainContentList, JeeMainExamPageButtonCodesList, JeeMainExamPageButtonWidthList, JeeMainExamsButtonNameList, JeeMainHeadingIdList, JeeMainImageList, JeeMainsExamRoutesList, JeeMainsExamSubMenuList, JeeMainsHeadingList, JeeMainTableOfContentList, JeeMainVideoCardTitleList, JeeMainVideoCardUrlList } from "../../constants/exam/JeeMainsExamPageConstants"
 import { useNavigate } from "react-router-dom"
 import TopBanner from "../../home/components/TopBanner"
-import FAQComponent from "../../components/common/FAQComponent"
+// import FAQComponent from "../../components/common/FAQComponent"
 
 const JeeMainExamPage = () => {
     const navigate = useNavigate()
