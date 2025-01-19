@@ -15,9 +15,9 @@ const TopBanner = () => {
                 <div className="hidden duration-700 ease-in-out" data-carousel-item>
                     <img src={TobBannerJoinWhatsappGroupBanner} className="absolute block h-20 sm:h-24 md:h-28 lg:h-36 xl:h-52 w-full object-cover" alt="Join Whatsapp Group Banner" />
                 </div>
-                <div>
+                {/* <div>
                     some text here
-                </div>
+                </div> */}
                 {/* Item 3 */}
                 {/* <div className="hidden duration-700 ease-in-out" data-carousel-item>
                     <img src="/docs/images/carousel/carousel-3.svg" className="absolute block w-full h-full object-cover" alt="..." />

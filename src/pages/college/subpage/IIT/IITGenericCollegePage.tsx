@@ -14,10 +14,12 @@ import LocationSectionCollegeComponent from "../components/LocationSectionColleg
 import RankingSectionCollegeComponent from "../components/RankingSectionCollegeComponent"
 import SeatSectionCollegeComponent from "../components/SeatSectionCollegeComponent"
 import FeeWaiverSectionCollegeComponent from "../components/FeeWaiverSectionCollegePageComponent"
+import TopBannerForCollegePage from "../../../../home/components/TopBannerForCollegePage"
 
 const IITGenericCollegePage = (props : IIITGenericCollegeComponent) => {
     return (
         <div>
+            <TopBannerForCollegePage></TopBannerForCollegePage>
             <div className="flex flex-col  text-white">
                 {/* here comes the IIT bombay image  */}
                 <div className="flex flex-col items-center justify-center p-10 rounded w-full">
@@ -64,12 +66,12 @@ export default IITGenericCollegePage
  * 
  * TODO : 
  *  1. Add the footer to all the pages 
- *  2. Add the banner images to all the pages 
+ *  2. Add the banner images to all the pages (done)
  *  3. Add the images besides the click here 
  *  4. Add support for FAQ section on all the main pages like exam pages, counselling related pages
  *  5. Remove mentorship pages
  *  6. Fix the topbar responsiveness
- *  7. Add the same NIRF ranking icon on both the sides
+ *  7. Add the same NIRF ranking icon on both the sides(Done)
  *  8. Fix the admission section with the bullet points indentation
  *  9. Make the video responsive that comes when we give pop up message
  *  10. Check all other finishing touches that needs to give for this purpose

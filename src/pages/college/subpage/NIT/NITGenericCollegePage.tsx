@@ -4,6 +4,7 @@
 // and the variation will be in the props that we pass to this component
 
 import { CollegePageNavigationSvgPathConstants } from "../../../../constants/college/IIT/IITCollegePageNavigationComponentConstants"
+import TopBannerForCollegePage from "../../../../home/components/TopBannerForCollegePage"
 import { INITGenericCollegeComponent } from "../../../../interfaces/interfaces"
 import AboutSectionCollegePageComponent from "../components/AboutSectionCollegePageComponent"
 import AdmissionSectionCollegePageComponent from "../components/AdmissionSectionCollegePageComponent"
@@ -22,6 +23,7 @@ const NITGenericCollegePage = (props : INITGenericCollegeComponent) => {
 
     return (
         <div>
+            <TopBannerForCollegePage/>
             <div className="flex flex-col  text-white">
                 {/* here comes the IIT bombay image  */}
                 <div className="flex flex-col items-center justify-center p-10 rounded w-full">

@@ -3,6 +3,7 @@
 // just the data is different for each college
 
 import { CollegePageNavigationSvgPathConstants } from "../../../../constants/college/IIT/IITCollegePageNavigationComponentConstants"
+import TopBannerForCollegePage from "../../../../home/components/TopBannerForCollegePage"
 import { IIIITGenericCollegeComponent } from "../../../../interfaces/interfaces"
 import AboutSectionCollegePageComponent from "../components/AboutSectionCollegePageComponent"
 import AdmissionSectionCollegePageComponent from "../components/AdmissionSectionCollegePageComponent"
@@ -20,6 +21,7 @@ import SeatSectionCollegeComponent from "../components/SeatSectionCollegeCompone
 const IIITGenericCollegePage = (props : IIIITGenericCollegeComponent) => {
     return (
         <div>
+            <TopBannerForCollegePage></TopBannerForCollegePage>
             <div className="flex flex-col  text-white">
                 {/* here comes the IIT bombay image  */}
                 <div className="flex flex-col items-center justify-center p-10 rounded w-full">
