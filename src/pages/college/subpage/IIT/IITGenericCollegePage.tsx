@@ -65,7 +65,7 @@ export default IITGenericCollegePage
 /**
  * 
  * TODO : 
- *  1. Add the footer to all the pages 
+ *  1. Add the footer to all the pages (done)
  *  2. Add the banner images to all the pages (done)
  *  3. Add the images besides the click here 
  *  4. Add support for FAQ section on all the main pages like exam pages, counselling related pages
