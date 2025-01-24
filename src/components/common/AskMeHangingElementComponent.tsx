@@ -1,7 +1,5 @@
 // this is the component to show a small ask me doubt pop on the UI 
 // on every page 
-import askMeLogo1 from "../../assets/images/other/askme1.png"
-import askMeLogo2 from "../../assets/images/other/askme2.png"
 
 
 const AskMeHangingElementComponent = () => {

@@ -1,4 +1,3 @@
-import SearchBarComponent from "../../components/SearchBarComponent"
 import { NITCollegeCardConstants } from "../../constants/college/NIT/NITCollegePageConstants"
 import { INITCollegeCard } from "../../interfaces/interfaces"
 import CollegeIntroCardComponent from "./components/CollegeIntroCardComponent"

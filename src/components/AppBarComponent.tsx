@@ -1,5 +1,5 @@
 import DropDownMenuComponent from "./DropDownMenuComponent"
-import { collegeRoutesList, collegeSubMenuList, counsellingRouteList, counsellingSubMenuList, examRouteList, examSubMenuList, mentorshipRouteList, mentorshipSubMenuList } from "../constants/AppBarConstants"
+import { collegeRoutesList, collegeSubMenuList, counsellingRouteList, counsellingSubMenuList, examRouteList, examSubMenuList,  } from "../constants/AppBarConstants"
 import appLogo from "../assets/Logo.jpg"
 import whatsAppLogo from "../assets/images/WhatsAppLogo.png"
 import instagramLogo from "../assets/images/InstagramFinalLogo.png"
