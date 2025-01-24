@@ -19,7 +19,7 @@ const DropDownMenuComponent = (props: IDropDownMenu) => {
                     {/* using the for loop here to show all the submenus here */}
                     {props.subMenuList.map((_ : string, index : number) => (
                         <li key={index}>
-                            <a href={props.routesList[index]} className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">{props.subMenuList[index]}</a>
+                            <a href={props.routesList[index]} className="block px-4 py-2 hover:bg-gray-600 hover:text-white">{props.subMenuList[index]}</a>
                         </li>
                     ))}
                 </ul>

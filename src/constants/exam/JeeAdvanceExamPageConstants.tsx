@@ -213,7 +213,7 @@ The percentages of various categories of candidates to be shortlisted are as fol
 
 The following table shows the order to be followed while choosing the top 2,50,000 candidates in various categories based on the performance in the B.E./B.Tech. paper of JEE (Main) 2025.
 
-<span style = "color: white; border-color: white; border-width:2px; font-weight: bold; font-size : medium;"><em>Category-wise distribution of top 2,50,000 candidates (Criterion A1)*</em></span>
+<span style = "color: white; border-color: white; font-weight: bold; font-size : medium;"><em>Category-wise distribution of top 2,50,000 candidates (Criterion A1)*</em></span>
 \n
 `,
     // For sub section of Eligiblity criteria for this purpose

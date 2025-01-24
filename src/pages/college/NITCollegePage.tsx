@@ -8,9 +8,9 @@ const NITCollegePage = () => {
     return (
         <div className="flex flex-col">
             {/* code for search bar  */}
-            <div className="mt-10 mb-10">
+            {/* <div className="mt-10 mb-10">
                 <SearchBarComponent></SearchBarComponent>
-            </div>
+            </div> */}
 
             {/* code for showing the list of available colleges */}
             <div className=" flex flex-wrap items-center justify-evenly p-10">

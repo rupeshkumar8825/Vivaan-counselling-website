@@ -39,7 +39,7 @@ const CounsellingCarouselComponent = () => {
                         <BannerComponent bannerText1="Daily Doubt Solving Session" bannerText2="Some text to add" bannerImage={dailyDoubtSolvingSession} bannerButtonWidth="44" bannerButtonName="Get Councelling" bannerButttonEventHandler={getCounsellingEventHandler}></BannerComponent>
                         <BannerComponent bannerText1="Complete Guidance" bannerText2="Till Your Admission" bannerImage={completeGuidanceTillAdmission} bannerButtonWidth="44" bannerButtonName="Get Councelling" bannerButttonEventHandler={getCounsellingEventHandler}></BannerComponent>
                     </div>
-                    <div className="absolute z-50 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse border-2 border-white">
+                    <div className="absolute z-50 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
                         <button type="button" className="w-1 h-1 sm:w-2 md:w-2 lg:w-2 xl:w-3 sm:h-2 md:h-2 lg:h-2 xl:h-3 rounded-full bg-white" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
                         <button type="button" className="w-1 h-1 sm:w-2 md:w-2 lg:w-2 xl:w-3 sm:h-2 md:h-2 lg:h-2 xl:h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
                         <button type="button" className="w-1 h-1 sm:w-2 md:w-2 lg:w-2 xl:w-3 sm:h-2 md:h-2 lg:h-2 xl:h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>

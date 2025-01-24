@@ -41,10 +41,9 @@ export const NITWarangalCollegeNavigationConstants : Array<INITCollegeNavigation
 
 export const NITWarangalCollegeAboutSectionContent : string =""
 export const NITWarangalCollegeFeeSectionContent : string =""
-export const NITWarangalCollegeAdmissionSectionContent : string = 
-`• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+export const NITWarangalCollegeAdmissionSectionContent : string = `One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.\n
 
-• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.\n
 `
 
 export const NITWarangalCollegeCoursesSectionContent : string =""
@@ -72,9 +71,9 @@ export const NITBhopalCollegeNavigationConstants : Array<INITCollegeNavigationCo
 
 export const NITBhopalCollegeAboutSectionContent : string =""
 export const NITBhopalCollegeFeeSectionContent : string =""
-export const NITBhopalCollegeAdmissionSectionContent : string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+export const NITBhopalCollegeAdmissionSectionContent : string = `One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.\n
 
-• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.\n
 `
 export const NITBhopalCollegeCoursesSectionContent : string =""
 export const NITBhopalCollegePlacementSectionContent : string =""
@@ -102,9 +101,9 @@ export const NITNagpurCollegeNavigationConstants : Array<INITCollegeNavigationCo
 
 export const NITNagpurCollegeAboutSectionContent : string =""
 export const NITNagpurCollegeFeeSectionContent : string =""
-export const NITNagpurCollegeAdmissionSectionContent : string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+export const NITNagpurCollegeAdmissionSectionContent : string = `One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.\n
 
-• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.\n
 `
 export const NITNagpurCollegeCoursesSectionContent : string =""
 export const NITNagpurCollegePlacementSectionContent : string =""
@@ -128,9 +127,9 @@ export const NITDurgapurCollegeNavigationConstants : Array<INITCollegeNavigation
 
 export const NITDurgapurCollegeAboutSectionContent : string =""
 export const NITDurgapurCollegeFeeSectionContent : string =""
-export const NITDurgapurCollegeAdmissionSectionContent : string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+export const NITDurgapurCollegeAdmissionSectionContent : string = `One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.\n
 
-• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.\n
 `
 export const NITDurgapurCollegeCoursesSectionContent : string =""
 export const NITDurgapurCollegePlacementSectionContent : string =""
@@ -154,9 +153,9 @@ export const NITJamshedpurCollegeNavigationConstants : Array<INITCollegeNavigati
 
 export const NITJamshedpurCollegeAboutSectionContent : string =""
 export const NITJamshedpurCollegeFeeSectionContent : string =""
-export const NITJamshedpurCollegeAdmissionSectionContent : string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+export const NITJamshedpurCollegeAdmissionSectionContent : string = `One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.\n
 
-• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.\n
 `
 export const NITJamshedpurCollegeCoursesSectionContent : string =""
 export const NITJamshedpurCollegePlacementSectionContent : string =""
@@ -181,9 +180,9 @@ export const NITKarnatakaCollegeNavigationConstants : Array<INITCollegeNavigatio
 
 export const NITKarnatakaCollegeAboutSectionContent : string =""
 export const NITKarnatakaCollegeFeeSectionContent : string =""
-export const NITKarnatakaCollegeAdmissionSectionContent : string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+export const NITKarnatakaCollegeAdmissionSectionContent : string = `One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.\n
 
-• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.\n
 `
 export const NITKarnatakaCollegeCoursesSectionContent : string =""
 export const NITKarnatakaCollegePlacementSectionContent : string =""
@@ -207,9 +206,9 @@ export const NITSrinagarCollegeNavigationConstants : Array<INITCollegeNavigation
 
 export const NITSrinagarCollegeAboutSectionContent : string =""
 export const NITSrinagarCollegeFeeSectionContent : string =""
-export const NITSrinagarCollegeAdmissionSectionContent : string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+export const NITSrinagarCollegeAdmissionSectionContent : string = `One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.\n
 
-• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.\n
 `
 export const NITSrinagarCollegeCoursesSectionContent : string =""
 export const NITSrinagarCollegePlacementSectionContent : string =""
@@ -233,9 +232,9 @@ export const NITAllahabadCollegeNavigationConstants : Array<INITCollegeNavigatio
 
 export const NITAllahabadCollegeAboutSectionContent : string =""
 export const NITAllahabadCollegeFeeSectionContent : string =""
-export const NITAllahabadCollegeAdmissionSectionContent : string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+export const NITAllahabadCollegeAdmissionSectionContent : string = `One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.\n
 
-• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.\n
 `
 export const NITAllahabadCollegeCoursesSectionContent : string =""
 export const NITAllahabadCollegePlacementSectionContent : string =""
@@ -259,9 +258,9 @@ export const NITSuratCollegeNavigationConstants : Array<INITCollegeNavigationCon
 
 export const NITSuratCollegeAboutSectionContent : string =""
 export const NITSuratCollegeFeeSectionContent : string =""
-export const NITSuratCollegeAdmissionSectionContent : string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+export const NITSuratCollegeAdmissionSectionContent : string = `One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.\n
 
-• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.\n
 `
 export const NITSuratCollegeCoursesSectionContent : string =""
 export const NITSuratCollegePlacementSectionContent : string =""
@@ -284,9 +283,9 @@ export const NITCalicutCollegeNavigationConstants : Array<INITCollegeNavigationC
 
 export const NITCalicutCollegeAboutSectionContent : string =""
 export const NITCalicutCollegeFeeSectionContent : string =""
-export const NITCalicutCollegeAdmissionSectionContent : string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+export const NITCalicutCollegeAdmissionSectionContent : string = `One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.\n
 
-• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.\n
 `
 export const NITCalicutCollegeCoursesSectionContent : string =""
 export const NITCalicutCollegePlacementSectionContent : string =""
@@ -310,9 +309,9 @@ export const NITRourkelaCollegeNavigationConstants : Array<INITCollegeNavigation
 
 export const NITRourkelaCollegeAboutSectionContent : string =""
 export const NITRourkelaCollegeFeeSectionContent : string =""
-export const NITRourkelaCollegeAdmissionSectionContent : string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+export const NITRourkelaCollegeAdmissionSectionContent : string = `One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.\n
 
-• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.\n
 `
 export const NITRourkelaCollegeCoursesSectionContent : string =""
 export const NITRourkelaCollegePlacementSectionContent : string =""
@@ -336,9 +335,9 @@ export const NITJaipurCollegeNavigationConstants : Array<INITCollegeNavigationCo
 
 export const NITJaipurCollegeAboutSectionContent : string =""
 export const NITJaipurCollegeFeeSectionContent : string =""
-export const NITJaipurCollegeAdmissionSectionContent : string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+export const NITJaipurCollegeAdmissionSectionContent : string = `One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.\n
 
-• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.\n
 `
 export const NITJaipurCollegeCoursesSectionContent : string =""
 export const NITJaipurCollegePlacementSectionContent : string =""
@@ -362,9 +361,9 @@ export const NITKurukshetraCollegeNavigationConstants : Array<INITCollegeNavigat
 
 export const NITKurukshetraCollegeAboutSectionContent : string =""
 export const NITKurukshetraCollegeFeeSectionContent : string =""
-export const NITKurukshetraCollegeAdmissionSectionContent : string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+export const NITKurukshetraCollegeAdmissionSectionContent : string = `One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.\n
 
-• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.\n
 `
 export const NITKurukshetraCollegeCoursesSectionContent : string =""
 export const NITKurukshetraCollegePlacementSectionContent : string =""
@@ -388,9 +387,9 @@ export const NITTiruchirappalliCollegeNavigationConstants : Array<INITCollegeNav
 
 export const NITTiruchirappalliCollegeAboutSectionContent : string =""
 export const NITTiruchirappalliCollegeFeeSectionContent : string =""
-export const NITTiruchirappalliCollegeAdmissionSectionContent : string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+export const NITTiruchirappalliCollegeAdmissionSectionContent : string = `One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.\n
 
-• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.\n
 `
 export const NITTiruchirappalliCollegeCoursesSectionContent : string =""
 export const NITTiruchirappalliCollegePlacementSectionContent : string =""
@@ -415,9 +414,9 @@ export const NITSilcharCollegeNavigationConstants : Array<INITCollegeNavigationC
 
 export const NITSilcharCollegeAboutSectionContent : string =""
 export const NITSilcharCollegeFeeSectionContent : string =""
-export const NITSilcharCollegeAdmissionSectionContent : string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+export const NITSilcharCollegeAdmissionSectionContent : string = `One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.\n
 
-• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.\n
 `
 export const NITSilcharCollegeCoursesSectionContent : string =""
 export const NITSilcharCollegePlacementSectionContent : string =""
@@ -442,9 +441,9 @@ export const NITHamirpurCollegeNavigationConstants : Array<INITCollegeNavigation
 
 export const NITHamirpurCollegeAboutSectionContent : string =""
 export const NITHamirpurCollegeFeeSectionContent : string =""
-export const NITHamirpurCollegeAdmissionSectionContent : string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+export const NITHamirpurCollegeAdmissionSectionContent : string = `One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.\n
 
-• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.\n
 `
 export const NITHamirpurCollegeCoursesSectionContent : string =""
 export const NITHamirpurCollegePlacementSectionContent : string =""
@@ -468,9 +467,9 @@ export const NITJalandharCollegeNavigationConstants : Array<INITCollegeNavigatio
 
 export const NITJalandharCollegeAboutSectionContent : string =""
 export const NITJalandharCollegeFeeSectionContent : string =""
-export const NITJalandharCollegeAdmissionSectionContent : string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+export const NITJalandharCollegeAdmissionSectionContent : string = `One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.\n
 
-• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.\n
 `
 export const NITJalandharCollegeCoursesSectionContent : string =""
 export const NITJalandharCollegePlacementSectionContent : string =""
@@ -494,9 +493,9 @@ export const NITPatnaCollegeNavigationConstants : Array<INITCollegeNavigationCon
 
 export const NITPatnaCollegeAboutSectionContent : string =""
 export const NITPatnaCollegeFeeSectionContent : string =""
-export const NITPatnaCollegeAdmissionSectionContent : string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+export const NITPatnaCollegeAdmissionSectionContent : string = `One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.\n
 
-• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.\n
 `
 export const NITPatnaCollegeCoursesSectionContent : string =""
 export const NITPatnaCollegePlacementSectionContent : string =""
@@ -520,9 +519,9 @@ export const NITRaipurCollegeNavigationConstants : Array<INITCollegeNavigationCo
 
 export const NITRaipurCollegeAboutSectionContent : string =""
 export const NITRaipurCollegeFeeSectionContent : string =""
-export const NITRaipurCollegeAdmissionSectionContent : string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+export const NITRaipurCollegeAdmissionSectionContent : string = `One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.\n
 
-• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.\n
 `
 export const NITRaipurCollegeCoursesSectionContent : string =""
 export const NITRaipurCollegePlacementSectionContent : string =""
@@ -546,9 +545,9 @@ export const NITAgartalaCollegeNavigationConstants : Array<INITCollegeNavigation
 
 export const NITAgartalaCollegeAboutSectionContent : string =""
 export const NITAgartalaCollegeFeeSectionContent : string =""
-export const NITAgartalaCollegeAdmissionSectionContent : string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+export const NITAgartalaCollegeAdmissionSectionContent : string = `One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.\n
 
-• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.\n
 `
 export const NITAgartalaCollegeCoursesSectionContent : string =""
 export const NITAgartalaCollegePlacementSectionContent : string =""
@@ -571,9 +570,9 @@ export const NITArunachalPradeshCollegeNavigationConstants: Array<INITCollegeNav
 
 export const NITArunachalPradeshCollegeAboutSectionContent: string =""
 export const NITArunachalPradeshCollegeFeeSectionContent: string =""
-export const NITArunachalPradeshCollegeAdmissionSectionContent: string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+export const NITArunachalPradeshCollegeAdmissionSectionContent : string = `One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.\n
 
-• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.\n
 `
 export const NITArunachalPradeshCollegeCoursesSectionContent: string =""
 export const NITArunachalPradeshCollegePlacementSectionContent: string =""
@@ -596,9 +595,9 @@ export const NITDelhiCollegeNavigationConstants: Array<INITCollegeNavigationCons
 
 export const NITDelhiCollegeAboutSectionContent: string =""
 export const NITDelhiCollegeFeeSectionContent: string =""
-export const NITDelhiCollegeAdmissionSectionContent: string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+export const NITDelhiCollegeAdmissionSectionContent : string = `One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.\n
 
-• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.\n
 `
 export const NITDelhiCollegeCoursesSectionContent: string =""
 export const NITDelhiCollegePlacementSectionContent: string =""
@@ -622,9 +621,9 @@ export const NITGoaCollegeNavigationConstants: Array<INITCollegeNavigationConsta
 
 export const NITGoaCollegeAboutSectionContent: string =""
 export const NITGoaCollegeFeeSectionContent: string =""
-export const NITGoaCollegeAdmissionSectionContent: string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+export const NITGoaCollegeAdmissionSectionContent : string = `One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.\n
 
-• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.\n
 `
 export const NITGoaCollegeCoursesSectionContent: string =""
 export const NITGoaCollegePlacementSectionContent: string =""
@@ -648,9 +647,9 @@ export const NITManipurCollegeNavigationConstants: Array<INITCollegeNavigationCo
 
 export const NITManipurCollegeAboutSectionContent: string =""
 export const NITManipurCollegeFeeSectionContent: string =""
-export const NITManipurCollegeAdmissionSectionContent: string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+export const NITManipurCollegeAdmissionSectionContent : string = `One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.\n
 
-• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.\n
 `
 export const NITManipurCollegeCoursesSectionContent: string =""
 export const NITManipurCollegePlacementSectionContent: string =""
@@ -674,9 +673,9 @@ export const NITMeghalayaCollegeNavigationConstants: Array<INITCollegeNavigation
 
 export const NITMeghalayaCollegeAboutSectionContent: string =""
 export const NITMeghalayaCollegeFeeSectionContent: string =""
-export const NITMeghalayaCollegeAdmissionSectionContent: string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+export const NITMeghalayaCollegeAdmissionSectionContent : string = `One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.\n
 
-• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.\n
 `
 export const NITMeghalayaCollegeCoursesSectionContent: string =""
 export const NITMeghalayaCollegePlacementSectionContent: string =""
@@ -700,9 +699,9 @@ export const NITMizoramCollegeNavigationConstants: Array<INITCollegeNavigationCo
 
 export const NITMizoramCollegeAboutSectionContent: string =""
 export const NITMizoramCollegeFeeSectionContent: string =""
-export const NITMizoramCollegeAdmissionSectionContent: string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+export const NITMizoramCollegeAdmissionSectionContent : string = `One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.\n
 
-• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.\n
 `
 export const NITMizoramCollegeCoursesSectionContent: string =""
 export const NITMizoramCollegePlacementSectionContent: string =""
@@ -726,9 +725,9 @@ export const NITNagalandCollegeNavigationConstants: Array<INITCollegeNavigationC
 
 export const NITNagalandCollegeAboutSectionContent: string =""
 export const NITNagalandCollegeFeeSectionContent: string =""
-export const NITNagalandCollegeAdmissionSectionContent: string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+export const NITNagalandCollegeAdmissionSectionContent : string = `One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.\n
 
-• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.\n
 `
 export const NITNagalandCollegeCoursesSectionContent: string =""
 export const NITNagalandCollegePlacementSectionContent: string =""
@@ -752,9 +751,9 @@ export const NITPuducherryCollegeNavigationConstants: Array<INITCollegeNavigatio
 
 export const NITPuducherryCollegeAboutSectionContent: string =""
 export const NITPuducherryCollegeFeeSectionContent: string =""
-export const NITPuducherryCollegeAdmissionSectionContent: string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+export const NITPuducherryCollegeAdmissionSectionContent : string = `One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.\n
 
-• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.\n
 `
 export const NITPuducherryCollegeCoursesSectionContent: string =""
 export const NITPuducherryCollegePlacementSectionContent: string =""
@@ -778,9 +777,9 @@ export const NITSikkimCollegeNavigationConstants: Array<INITCollegeNavigationCon
 
 export const NITSikkimCollegeAboutSectionContent: string =""
 export const NITSikkimCollegeFeeSectionContent: string =""
-export const NITSikkimCollegeAdmissionSectionContent: string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+export const NITSikkimCollegeAdmissionSectionContent : string = `One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.\n
 
-• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.\n
 `
 export const NITSikkimCollegeCoursesSectionContent: string =""
 export const NITSikkimCollegePlacementSectionContent: string =""
@@ -805,9 +804,9 @@ export const NITUttarakhandCollegeNavigationConstants: Array<INITCollegeNavigati
 
 export const NITUttarakhandCollegeAboutSectionContent: string =""
 export const NITUttarakhandCollegeFeeSectionContent: string =""
-export const NITUttarakhandCollegeAdmissionSectionContent: string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+export const NITUttarakhandCollegeAdmissionSectionContent : string = `One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.\n
 
-• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.\n
 `
 export const NITUttarakhandCollegeCoursesSectionContent: string =""
 export const NITUttarakhandCollegePlacementSectionContent: string =""
@@ -831,9 +830,9 @@ export const NITAndhraPradeshCollegeNavigationConstants: Array<INITCollegeNaviga
 
 export const NITAndhraPradeshCollegeAboutSectionContent: string =""
 export const NITAndhraPradeshCollegeFeeSectionContent: string =""
-export const NITAndhraPradeshCollegeAdmissionSectionContent: string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+export const NITAndhraPradeshCollegeAdmissionSectionContent : string = `One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.\n
 
-• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.\n
 `
 export const NITAndhraPradeshCollegeCoursesSectionContent: string =""
 export const NITAndhraPradeshCollegePlacementSectionContent: string =""
@@ -858,9 +857,9 @@ export const NITShibpurCollegeNavigationConstants: Array<INITCollegeNavigationCo
 
 export const NITShibpurCollegeAboutSectionContent: string =""
 export const NITShibpurCollegeFeeSectionContent: string =""
-export const NITShibpurCollegeAdmissionSectionContent: string = `• One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.
+export const NITShibpurCollegeAdmissionSectionContent : string = `One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination. Read JEE Main Performance Criteria in Class XII.\n
 
-• Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.
+Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.\n
 `
 export const NITShibpurCollegeCoursesSectionContent: string =""
 export const NITShibpurCollegePlacementSectionContent: string =""

@@ -7,7 +7,7 @@ const RankingSectionTableComponent = (props: ITableContentComponent) => {
 
     const imageList = [NIRFRankingLogo, NIRFRankingLogo]
     return (
-        <div className="relative overflow-x-auto  flex items-center justify-center p-1 sm:p-2 md:p-4 lg:p-8 xl:p-10">
+        <div className="relative overflow-x-auto flex items-center justify-center p-1 sm:p-2 md:p-4 lg:p-8 xl:p-10">
             <table className="w-full md:w-3/4 text-sm text-left rtl:text-right text-gray-400 ">
                 <thead className="text-xs  uppercase bg-gray-700 text-gray-400">
                     <tr>
