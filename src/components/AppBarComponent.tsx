@@ -1,4 +1,3 @@
-import DropDownMenuComponent from "./DropDownMenuComponent"
 import { collegeRoutesList, collegeSubMenuList, counsellingRouteList, counsellingSubMenuList, examRouteList, examSubMenuList,  } from "../constants/AppBarConstants"
 import appLogo from "../assets/Logo.jpg"
 import whatsAppLogo from "../assets/images/WhatsAppLogo.png"
@@ -7,6 +6,7 @@ import ShareLogo from "../assets/images/YoutubeShareLogo.png"
 
 
 import { useState } from "react"
+import  { DropDownMenuNew } from "../home/components/OverviewSectionComponent"
 
 
 const AppBarComponent = () => {
@@ -18,6 +18,8 @@ const AppBarComponent = () => {
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen)
     }
+
+
 
 
     // const navigate = useNavigate()
@@ -55,12 +57,14 @@ const AppBarComponent = () => {
                                 {/* here one improvement could be to use the for loop for render each  */}
                                 {/* of the menus of the navbar for this purpose */}
                                 {/* EXAM menu */}
-                                <DropDownMenuComponent buttonId="ExamButtonId" divId="ExamDivId" menuName="Exams" subMenuList={examSubMenuList} routesList={examRouteList}></DropDownMenuComponent>
+                                <DropDownMenuNew buttonId="ExamButtonId" divId="ExamDivId" menuName="Exams" subMenuList={examSubMenuList} routesList={examRouteList}></DropDownMenuNew>
+                                {/* <OverviewSectionComponent dropDownButtonId="OverviewButtonId" dropDownMenuName="Overview" dropDownSubMenuList={examSubMenuList} dropDownRoutesList={examRouteList} ></OverviewSectionComponent> */}
+                                {/* <OverviewSectionComponent dropDownMenuName="Overview" dropDownButtonId="JeeMainOverviewButtonId" dropDowndivId="JeeMainOverviewDivId" dropDownSubMenuList={JeeMainsExamSubMenuList} dropDownRoutesList={JeeMainsExamRoutesList} buttonNameList={JeeMainExamsButtonNameList} buttonWidthList={JeeMainExamPageButtonWidthList} buttonCodeList={JeeMainExamPageButtonCodesList} buttonGenericClickHandler={OnOverviewSectionButtonClickHandlerGeneric}></OverviewSectionComponent> */}
 
                                 {/* Counselling Menu */}
-                                <DropDownMenuComponent buttonId="CounsellingButtonId" divId="CounsellingDivId" menuName="Counselling" subMenuList={counsellingSubMenuList} routesList={counsellingRouteList}></DropDownMenuComponent>
+                                <DropDownMenuNew buttonId="CounsellingButtonId" divId="CounsellingDivId" menuName="Counselling" subMenuList={counsellingSubMenuList} routesList={counsellingRouteList}></DropDownMenuNew>
                                 {/* College Menu */}
-                                <DropDownMenuComponent buttonId="CollegeButtonId" divId="CollegeDivId" menuName="College" subMenuList={collegeSubMenuList} routesList={collegeRoutesList}></DropDownMenuComponent>
+                                <DropDownMenuNew buttonId="CollegeButtonId" divId="CollegeDivId" menuName="College" subMenuList={collegeSubMenuList} routesList={collegeRoutesList}></DropDownMenuNew>
 
                                 {/* Mentorship Menu */}
                                 {/* <DropDownMenuComponent buttonId="MentorshipButtonId" divId="MentorshipDivId" menuName="Mentorship" subMenuList={mentorshipSubMenuList} routesList={mentorshipRouteList}></DropDownMenuComponent> */}
